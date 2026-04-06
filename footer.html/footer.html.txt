@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-contact">
+      <div>
+        <svg width="20" height="20" viewBox="0 0 512 512"><path fill="#1d9753" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+        <span>085 130 82 51</span>
+      </div>
+
+      <div>
+        <svg width="20" height="20" viewBox="0 0 512 512"><path fill="#1d9753" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 112h416v40.8c-22.4 18.3-58.2 46.6-134.6 106.5-16.8 13.2-50.2 45.1-73.4 44.7-23.2.4-56.6-31.5-73.4-44.7C106.2 199.5 70.4 171.1 48 152.8V112zM48 400V214.4c22.9 18.3 55.4 43.9 104.9 82.6 21.9 17.2 60.1 55.2 103.1 55 42.7.2 80.5-37.2 103-54.9 49.6-38.8 82.1-64.4 104.9-82.6V400H48z"/></svg>
+        <span>info@daklekkagesopgelost.nl</span>
+      </div>
+
+      <div>
+        <svg width="20" height="20" viewBox="0 0 512 512"><path fill="#1d9753" d="M505 442.66l-99.71-99.69c-4.5-4.5-10.6-7-17-7h-16.3C299.9 371.3 156.8 360 62.3 189.9 19.4 115.5 0 63 0 48a24 24 0 0124-24h96a24 24 0 0124 24c0 14.9 28 105 184 184h64a24 24 0 0124 24v96a24 24 0 01-24 24h-96c-14.9 0-67.5-19.4-141.9-62.3C73.6 355.2 62.3 212.1 192 128h16c12.9 0 24 11.1 24 24v48c0 13.3-11.1 24-24 24h-16c-52.9 0-96 43.1-96 96v16c0 13.3 11.1 24 24 24h16c35.3 0 79.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.71 99.69c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.59.1-33.99z"/></svg>
+        <span>Bruchem, Nederland</span>
+      </div>
+    </div>
+
+    <div class="footer-company">
+      <img src="[daklekkagesopgelost.nl](https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Logo%20met%20witte%20omlijning.png)" alt="Daklekkages Opgelost" width="200">
+      <h3>Onze bedrijfsinformatie</h3>
+      <p>
+        Daklekkages Opgelost<br>
+        De Kosterijstraat 17<br>
+        5314 AW Bruchem<br>
+        KvK 87944391  •  BTW NL004512507B52
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Daklekkages Opgelost  –  Alle rechten voorbehouden.</p>
+    <p class="footer-links">
+      <a href="[daklekkagesopgelost.nl](https://www.daklekkagesopgelost.nl/hubfs/Privacyverklaring%20Daklekkages%20Opgelost.pdf)">Privacyverklaring</a> |
+      <a href="[daklekkagesopgelost.nl](https://www.daklekkagesopgelost.nl/hubfs/Algemene%20Voorwaarden.pdf)">Algemene voorwaarden</a>
+    </p>
+  </div>
+</footer>

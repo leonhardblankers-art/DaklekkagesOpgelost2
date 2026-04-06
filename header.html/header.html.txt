@@ -1,0 +1,13 @@
+<header>
+  <div class="header-top">
+    <a href="index.html" class="logo">
+      <img src="[daklekkagesopgelost.nl](https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png)" alt="Daklekkages Opgelost Logo" height="60">
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="over.html">Over Ons</a>
+      <a href="diensten.html">Diensten</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
