@@ -137,3 +137,6 @@ body {
     display: none;
   }
 }
+body {
+  background: red;
+}
