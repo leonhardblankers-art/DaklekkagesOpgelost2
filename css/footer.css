@@ -2,12 +2,23 @@
   height: 5px;
   background: linear-gradient(90deg, #1d9753 0%, #29b365 45%, #1d9753 100%);
 }
+.site-footer {
+  position: relative;
+  margin-top: 72px;
+  background:
+    radial-gradient(circle at top right, rgba(29, 151, 83, 0.14), transparent 28%),
+    linear-gradient(180deg, #10161b 0%, #0d1318 100%);
+  color: #edf3ee;
+  overflow: hidden;
+}
 
-.site-footer::before {
-  content: "";
-  display: block;
+.footer-top-accent {
+  height: 5px;
+  background: linear-gradient(90deg, #1d9753 0%, #29b365 45%, #1d9753 100%);
+}
+
+.footer-top-fill {
   height: 40px;
-  width: 100%;
   background: linear-gradient(180deg, #0b1116 0%, transparent 100%);
 }
 .site-footer {
