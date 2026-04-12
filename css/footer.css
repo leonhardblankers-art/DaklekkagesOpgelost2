@@ -50,6 +50,7 @@
 }
 
 .footer-logo img {
+  mix-blend-mode: lighten;
   display: block;
   width: auto;
   max-width: 180px;
