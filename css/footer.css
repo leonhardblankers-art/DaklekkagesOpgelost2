@@ -1,3 +1,10 @@
+.site-footer::before {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(180deg, #0b1116 0%, transparent 100%);
+}
 .site-footer {
   position: relative;
   margin-top: 72px;
@@ -194,6 +201,14 @@
 
 .footer-btn-secondary:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+.footer-contact-list a[href*="wa.me"] {
+  color: #25D366;
+  font-weight: 700;
+}
+
+.footer-contact-list a[href*="wa.me"]:hover {
+  opacity: 0.85;
 }
 
 .footer-bottom {
