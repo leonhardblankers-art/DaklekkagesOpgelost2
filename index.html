@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daklekkages Opgelost</title>
 
-  <!-- CSS -->
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/footer.css">
+  <title id="seo-title">Daklekkages Opgelost</title>
+  <meta name="description" id="seo-description" content="Specialist in het opsporen en oplossen van daklekkages. Voor dakinspectie, reparatie en duurzame oplossingen.">
+  <meta name="robots" id="seo-robots" content="index, follow">
+  <link rel="canonical" id="seo-canonical" href="https://www.daklekkagesopgelost.nl/">
 
+  <meta property="og:title" id="seo-og-title" content="Daklekkages Opgelost">
+  <meta property="og:description" id="seo-og-description" content="Specialist in het opsporen en oplossen van daklekkages.">
+  <meta property="og:type" id="seo-og-type" content="website">
+  <meta property="og:url" id="seo-og-url" content="https://www.daklekkagesopgelost.nl/">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <div data-include="header.html"></div>
+  <div data-include="./partials/header.html"></div>
 
   <main>
     <h1>Welkom bij Daklekkages Opgelost</h1>
     <p>Hier komt de inhoud van je homepage.</p>
   </main>
 
-  <!-- FOOTER -->
-  <div data-include="footer.html"></div>
+  <div data-include="./partials/footer.html"></div>
 
-  <!-- JS -->
-  <script src="include.js"></script>
+  <script src="./js/include.js"></script>
+  <script src="./js/seo.js"></script>
+  <script>
+    loadSEO('./data/seo/homepage.json');
+  </script>
 
 </body>
 </html>
