@@ -1,7 +1,6 @@
 function includeHTML() {
   document.querySelectorAll("[data-include]").forEach((el) => {
     const file = el.getAttribute("data-include");
-
     fetch(file)
       .then((response) => {
         if (!response.ok) {
@@ -14,8 +13,4 @@ function includeHTML() {
       })
       .catch((err) => {
         console.error("Fout bij laden van include:", err);
-      });
-  });
-}
 
-document.addEventListener("DOMContentLoaded", includeHTML);
