@@ -35,7 +35,7 @@ header nav a { font-weight: 700; }
 /* =============================================
    LAYOUT
 ============================================= */
-.wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
 .section { padding: 34px 0; }
 .soft { background: #f7f8f7; }
 .white { background: #fff; }
@@ -65,7 +65,7 @@ header nav a { font-weight: 700; }
 /* =============================================
    HERO
 ============================================= */
-.hero { position: relative; min-height: 690px; background: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('https://raw.githubusercontent.com/leonhardblankers-art/DaklekkagesOpgelost2/refs/heads/main/img/home-hero.webp') center/cover no-repeat; color: #fff; overflow: hidden; }
+.hero { position: relative; min-height: 690px; background: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('./assets/img/home-hero.webp') center/cover no-repeat; color: #fff; overflow: hidden; }
 .hero .wrap { position: relative; z-index: 2; padding-top: 50px; padding-bottom: 40px; }
 .hero-title { max-width: 1380px; font-size: clamp(38px,4vw,66px); font-weight: 900; line-height: 1.03; letter-spacing: -1.2px; color: #111; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; margin: 0 0 24px; white-space: nowrap; }
 .marker { color: #30b060; position: relative; display: inline-block; padding-bottom: 20px; }
