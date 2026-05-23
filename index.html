@@ -14,6 +14,10 @@
   <meta property="og:type" id="seo-og-type" content="website">
   <meta property="og:url" id="seo-og-url" content="https://www.daklekkagesopgelost.nl/">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
@@ -24,338 +28,219 @@
   <div data-include="./partials/header.html"></div>
 
   <main>
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homepage clean – zonder header/footer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --brand:#1D9753;
-      --brand2:#167a44;
-      --orange:#ff7a00;
-      --ink:#202133;
-      --muted:#5b647a;
-      --soft:#f4f6f4;
-      --line:#dfe5df;
-      --shadow:0 18px 50px rgba(0,0,0,.10);
-      --shadow2:0 10px 28px rgba(0,0,0,.08);
-      --r:22px;
-      --rs:16px;
-      --max:1280px;
-    }
 
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#f6f6f6}
-    img{max-width:100%;display:block}
-    a{text-decoration:none;color:inherit}
+    <!-- HERO -->
+    <section class="hero">
+      <div id="stickyStartSentinel" aria-hidden="true" style="position:absolute;left:0;right:0;bottom:-1px;height:1px"></div>
+      <div class="wrap">
+        <h1 class="hero-title">Specialist in <span class="marker">loodwerk &amp; daklekkages<svg viewBox="0 0 700 80" preserveAspectRatio="none" aria-hidden="true"><path d="M20 55 C 120 20, 420 90, 680 55" stroke="#1fb255" stroke-width="28" stroke-linecap="round" fill="none" pathLength="1"></path></svg></span></h1>
+        <div class="hero-grid">
+          <div>
+            <div class="hero-cta" style="position:relative;z-index:2;">
+              <div class="hero-cta-col"><a class="btn primary" href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl">Gratis dakcheck</a><div class="hero-note">Geen verplichtingen • Binnen 48 uur ingepland</div></div>
+              <div class="hero-cta-col"><a class="btn ghost" href="tel:0851308251">Spoed? Bel direct</a><div class="hero-note">24/7 bereikbaar • Binnen 1 uur hulp mogelijk</div></div>
+            </div>
+            <div class="review-pill">⭐⭐⭐⭐⭐ <span>4.9 op Google (120+ reviews)</span></div>
+            <div class="service-pills">
+              <a class="service-pill" href="https://www.daklekkagesopgelost.nl/spoedreparatie?hsLang=nl">⚡ Spoedservice</a>
+              <a class="service-pill" href="https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen?hsLang=nl">🔩 Lood &amp; zinkspecialist</a>
+              <a class="service-pill" href="https://www.daklekkagesopgelost.nl/diensten?hsLang=nl">🏠 Alle dakwerkzaamheden</a>
+              <a class="service-pill" href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl">🛡 Preventieve inspecties</a>
+            </div>
+          </div>
+          <div class="speech">We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.</div>
+        </div>
+      </div>
+    </section>
 
-    .page-scale{transform:scale(.8);transform-origin:top center;width:125%;margin-left:-12.5%}
-    .page{overflow-x:hidden}
-    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
-    .section{padding:34px 0}
-    .soft{background:#f7f8f7}
-    .white{background:#fff}
+    <div data-tf-sidetab="cjtieqSK" data-tf-opacity="100" data-tf-iframe-props="title=Daklekkages Opgelost" data-tf-open="time" data-tf-open-value="10000" data-tf-prevent-reopen-on-close data-tf-transitive-search-params data-tf-button-color="#1D9753" data-tf-button-text="GRATIS dakinspectie?" data-tf-medium="snippet" style="all:unset"></div>
+    <div class="typeform-tab">GRATIS dakinspectie?</div>
 
-    .title{font-size:clamp(30px,3.6vw,50px);line-height:1.05;letter-spacing:-1.1px;margin:0 0 16px}
-    .title-sm{font-size:clamp(24px,2.5vw,36px);line-height:1.08;letter-spacing:-.8px;margin:0 0 12px}
-    .lead{font-size:15px;line-height:1.68;color:var(--muted);margin:0}
-    .kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border-radius:999px;background:rgba(29,151,83,.10);color:var(--brand2);font-weight:900;font-size:13px;margin-bottom:12px}
-    .dot{width:11px;height:11px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 6px rgba(29,151,83,.14)}
+    <!-- DIENSTEN -->
+    <section class="section white">
+      <div class="wrap">
+        <div class="kicker"><span class="dot"></span> Spoed of twijfel? Pak het direct aan</div>
+        <div class="split">
+          <div>
+            <h2 class="title-sm">Daklekkage? Wij lossen het snel en vakkundig voor u op</h2>
+            <p class="lead">Een daklekkage veroorzaakt meer schade dan u denkt. Vocht, schimmel en houtrot kunnen zich snel verspreiden.<br><br><strong>Daklekkages Opgelost</strong> is gespecialiseerd in het opsporen én duurzaam verhelpen van daklekkages bij zowel platte als schuine daken — ook bij spoed.<br><br>Daarnaast kunt u bij ons terecht voor allround dakwerk zoals dakpannen vervangen, isoleren, renovaties, lood- en zinkwerk en schoorsteenwerk.</p>
+            <ul class="ul">
+              <li><span class="tick">✓</span><span>Specialist in daklekkages</span></li>
+              <li><span class="tick">✓</span><span>Actief door heel Nederland</span></li>
+              <li><span class="tick">✓</span><span>Snelle hulp bij spoed</span></li>
+            </ul>
+            <div class="btns" style="margin-top:18px">
+              <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a>
+              <a class="btn ghost" href="tel:0851308251">Bel direct</a>
+              <a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+          <div class="card service-panel">
+            <h3 style="margin:4px 0 16px;font-size:24px;color:var(--brand2)">Wat wij doen?</h3>
+            <div class="service-grid">
+              <a href="https://www.daklekkagesopgelost.nl/lekkage-opsporen?hsLang=nl" class="service-card"><strong>🔍 Daklekkage opsporen &amp; verhelpen</strong><span>Gericht zoeken en oplossen</span></a>
+              <a href="https://www.daklekkagesopgelost.nl/spoedreparatie?hsLang=nl" class="service-card urgent"><strong>⚡ Spoed- en noodreparaties</strong><span>Direct hulp bij lekkage</span></a>
+              <a href="https://www.daklekkagesopgelost.nl/dakrenovatie?hsLang=nl" class="service-card"><strong>🏠 Dakrenovatie &amp; dakpannen</strong><span>Structurele oplossingen</span></a>
+              <a href="https://www.daklekkagesopgelost.nl/dak-isoleren?hsLang=nl" class="service-card"><strong>❄️ Dakisolatie</strong><span>Bespaar energie &amp; verhoog comfort</span></a>
+              <a href="https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen?hsLang=nl" class="service-card"><strong>🔩 Lood- en zinkwerk</strong><span>Waterdichte afwerking</span></a>
+              <a href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl" class="service-card"><strong>🛡 Preventieve dakinspecties</strong><span>Voorkom schade</span></a>
+            </div>
+          </div>
+        </div>
+        <div id="featurable-3e5ef794-746c-486f-94c8-ea6433eee6dd" data-featurable-async></div>
+      </div>
+    </section>
 
-    .btns{display:flex;gap:10px;flex-wrap:nowrap}
-    .btn,.btn:link,.btn:visited{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:16px;font-weight:800;border:1px solid #d8d8d8;background:#fff;min-height:50px;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease;cursor:pointer;white-space:nowrap}
-    .btn:hover,.btn:focus-visible{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.10);outline:none}
-    .btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}
-    .btn.orange{background:var(--orange);border-color:var(--orange);color:#fff}
-    .btn.ghost{background:#fff;color:#171717}
-    .btn.primary:hover,.btn.primary:focus-visible{background:#fff !important;border-color:var(--brand) !important;color:var(--brand) !important}
-    .btn.orange:hover,.btn.orange:focus-visible{background:#fff !important;border-color:var(--orange) !important;color:var(--orange) !important}
-    .btn.ghost:hover,.btn.ghost:focus-visible{background:var(--brand) !important;border-color:var(--brand) !important;color:#fff !important}
+    <!-- AANPAK -->
+    <section class="section soft">
+      <div class="wrap">
+        <div class="kicker"><span class="dot"></span> Aanpak zonder giswerk</div>
+        <h2 class="title-sm">Zo lossen wij daklekkages op</h2>
+        <p class="lead">De zichtbare schade zit zelden op de plek waar het probleem ontstaat. Daarom pakken we daklekkages bij de bron aan.</p>
+        <div class="steps">
+          <article class="step"><div class="step-badge"><div class="num">1</div><div><h3>Grondige dakinspectie</h3><p>We controleren het volledige dak, inclusief kwetsbare aansluitingen en afwatering.</p></div></div></article>
+          <article class="step"><div class="step-badge"><div class="num">2</div><div><h3>Gerichte diagnose</h3><p>We achterhalen de échte oorzaak van de daklekkage, zonder symptoombestrijding.</p></div></div></article>
+          <article class="step"><div class="step-badge"><div class="num">3</div><div><h3>Helder advies</h3><p>U ontvangt duidelijke uitleg en een transparante kostenindicatie vooraf.</p></div></div></article>
+          <article class="step"><div class="step-badge"><div class="num">4</div><div><h3>Controle &amp; afronding</h3><p>We controleren of alles 100% dicht is en ronden netjes af.</p></div></div></article>
+        </div>
+        <div style="margin-top:24px">
+          <div class="kicker"><span class="dot"></span> Onze aanpak</div>
+          <h2 class="title-sm" style="font-size:clamp(24px,2.6vw,34px)">Onze aanpak in 4 stappen</h2>
+          <div class="flow">
+            <div class="flow-card"><div class="flow-chip">1</div><strong>Inspectie</strong><p class="lead" style="font-size:15px;margin-top:8px">We controleren het hele dak, inclusief kwetsbare details.</p><details><summary>Wat checken we?</summary><div class="hint">Dakbedekking, doorvoeren, dakranden, schoorsteen/nok, afwatering en sporen van vocht.</div></details></div>
+            <div class="flow-card"><div class="flow-chip">2</div><strong>Diagnose</strong><p class="lead" style="font-size:15px;margin-top:8px">We vinden de bron van het water en verklaren het lekgedrag.</p><details><summary>Waarom is dit belangrijk?</summary><div class="hint">De plek waar het binnen drupt is zelden de echte oorzaak.</div></details></div>
+            <div class="flow-card"><div class="flow-chip">3</div><strong>Advies &amp; prijs</strong><p class="lead" style="font-size:15px;margin-top:8px">U krijgt een plan van aanpak + kostenindicatie vóór we starten.</p><details><summary>Wat ontvangt u?</summary><div class="hint">Duidelijke uitleg, beste oplossing per daktype en transparantie vooraf.</div></details></div>
+            <div class="flow-card"><div class="flow-chip">4</div><strong>Oplossen &amp; controle</strong><p class="lead" style="font-size:15px;margin-top:8px">We verhelpen het lek en controleren of alles volledig dicht is.</p><details><summary>Hoe ronden we af?</summary><div class="hint">Controle op afdichting en afwatering + nette oplevering.</div></details></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    .hero{position:relative;min-height:690px;background:linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)),url('https://raw.githubusercontent.com/leonhardblankers-art/DaklekkagesOpgelost2/refs/heads/main/img/home-hero.webp') center/cover no-repeat;color:#fff;overflow:hidden}
-    .hero .wrap{position:relative;z-index:2;padding-top:50px;padding-bottom:40px}
-    .hero-title{max-width:1380px;font-size:clamp(38px,4vw,66px);font-weight:900;line-height:1.03;letter-spacing:-1.2px;color:#111;text-shadow:-2px -2px 0 #fff,2px -2px 0 #fff,-2px 2px 0 #fff,2px 2px 0 #fff;margin:0 0 24px;white-space:nowrap}
-    .marker{color:#30b060;position:relative;display:inline-block;padding-bottom:20px}
-    .marker svg{position:absolute;left:1%;right:1%;bottom:-11px;width:98%;height:34px;overflow:visible;filter:drop-shadow(0 4px 10px rgba(34,176,87,.42))}
-    .marker path{stroke-dasharray:1;stroke-dashoffset:1;animation:markerDraw 1.8s ease-out forwards .15s}
-    @keyframes markerDraw{to{stroke-dashoffset:0}}
+    <!-- KOSTEN -->
+    <section class="section white">
+      <div class="wrap">
+        <div id="footerSentinel" aria-hidden="true" style="position:relative;top:0;height:1px"></div>
+        <div class="kicker"><span class="dot"></span> Altijd vooraf duidelijkheid</div>
+        <h2 class="title-sm">Wat kost het verhelpen van een daklekkage?</h2>
+        <p class="lead">De kosten hangen af van een aantal praktische factoren:</p>
+        <div class="slab" style="margin-top:18px">
+          <div>
+            <ul class="ul">
+              <li><span class="tick">✓</span><span><strong>Type dak</strong> (plat of schuin)</span></li>
+              <li><span class="tick">✓</span><span><strong>Oorzaak</strong> van de lekkage</span></li>
+              <li><span class="tick">✓</span><span><strong>Bereikbaarheid</strong> van het dak</span></li>
+              <li><span class="tick">✓</span><span><strong>Spoed</strong> of reguliere reparatie</span></li>
+            </ul>
+            <p class="lead" style="margin-top:16px;max-width:520px">Wij geven altijd vooraf duidelijkheid. In sommige gevallen wordt daklekkage gedeeltelijk vergoed door uw verzekering.</p>
+          </div>
+          <div class="cta-green">
+            <h3>Twijfelt u of u te maken heeft met een daklekkage?</h3>
+            <p>Laat het professioneel controleren en voorkom onnodige schade. Vraag vrijblijvend een gratis inspectie aan.</p>
+            <a class="btn" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    .hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:18px;align-items:start}
-    .speech{justify-self:end;align-self:start;max-width:2400px;width:180%;background:rgba(48,165,90,.92);padding:26px 28px;border-radius:26px;box-shadow:var(--shadow);font-size:16px;line-height:1.45;font-weight:700;position:relative;z-index:5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:visible}
+    <!-- ONDERSCHEIDEND -->
+    <section class="section soft">
+      <div class="wrap">
+        <div class="kicker"><span class="dot"></span> Waarom Daklekkages Opgelost</div>
+        <h2 class="title">Hoe wij ons onderscheiden</h2>
+        <div class="split">
+          <div>
+            <div class="media-card">
+              <img src="https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteen%20renoveren%20in%20Velddriel.webp?width=860&t=1766605777869" alt="Dakdekker aan het werk bij een schoorsteen">
+              <div class="review-badge">★★★★★ &nbsp; 5.0 • Google &nbsp; 120+ reviews</div>
+            </div>
+            <p class="lead" style="margin-top:18px">U wilt zekerheid en een oplossing die écht werkt. Daarom focussen we op specialisme, duidelijke communicatie en nette oplevering.</p>
+          </div>
+          <div class="pillars">
+            <div class="pillar"><div class="ic">⌂</div><div><h5>Specialist in het oplossen van daklekkages</h5><p>Wij doen één ding extreem goed: daklekkages opsporen en duurzaam oplossen.</p></div></div>
+            <div class="pillar"><div class="ic">◔</div><div><h5>Snelle en duidelijke aanpak</h5><p>Geen giswerk, maar een gerichte diagnose en een oplossing die standhoudt.</p></div></div>
+            <div class="pillar"><div class="ic">🛡</div><div><h5>Transparant en betrouwbaar</h5><p>U weet vooraf waar u aan toe bent. Geen verrassingen achteraf.</p></div></div>
+            <div class="pillar"><div class="ic">🏠</div><div><h5>Allround dakwerkzaamheden (met lek-specialisme)</h5><p>Naast daklekkages pakken we ook complete dakwerkzaamheden op — van herstel tot renovatie — met dezelfde focus op kwaliteit en duidelijke communicatie.</p></div></div>
+            <div class="btns">
+              <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a>
+              <a class="btn ghost" href="tel:0851308251">Bel direct</a>
+              <a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-/* klein driehoekje (spraakwolkje) */
-.speech:before{content:'';position:absolute;top:-28px;left:29%;width:0;height:0;border-left:22px solid transparent;border-right:22px solid transparent;border-bottom:30px solid rgba(48,165,90,.92);z-index:20;filter:none}
-    .speech:after{content:'';position:absolute;top:-6px;left:calc(29% - 16px);width:32px;height:18px;background:rgba(48,165,90,.92);z-index:19;border-radius:6px 6px 0 0}
-  50%{box-shadow:0 22px 60px rgba(29,151,83,.35)}
-}
-    .speech:before{content:'';position:absolute;left:50%;top:-12px;transform:translateX(-50%);border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:18px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-12px;transform:translateX(-50%);border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:18px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-12px;transform:translateX(-50%);border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:18px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-12px;transform:translateX(-50%);border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:18px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-12px;transform:translateX(-50%);border-left:12px solid transparent;border-right:12px solid transparent;border-bottom:18px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-14px;transform:translateX(-50%);border-left:14px solid transparent;border-right:14px solid transparent;border-bottom:20px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:50%;top:-14px;transform:translateX(-50%);border-left:14px solid transparent;border-right:14px solid transparent;border-bottom:20px solid rgba(48,165,90,.92)}
-    .speech:before{content:'';position:absolute;left:74%;top:-15px;transform:translateX(-50%);border-left:15px solid transparent;border-right:15px solid transparent;border-bottom:22px solid rgba(48,165,90,.92)}
-    .hero-cta{display:flex;gap:18px;flex-wrap:nowrap;margin-top:138px;align-items:flex-start}
-    .hero-cta-col{display:flex;flex-direction:column;gap:8px;min-width:320px}
-    .hero-note{font-size:12px;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
-
-    .review-pill{display:inline-flex;align-items:center;gap:12px;margin:20px 0 14px;padding:11px 18px;border:2px solid var(--brand);border-radius:999px;background:#fff;color:var(--brand2);font-weight:800;box-shadow:var(--shadow2);white-space:nowrap;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease}
-    .review-pill:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.10);background:var(--brand);color:#fff;border-color:var(--brand)}
-
-    .service-pills{display:flex;gap:12px;flex-wrap:nowrap;margin-top:6px}
-    .service-pill{padding:10px 15px;border-radius:999px;background:#fff;color:#242424;box-shadow:var(--shadow2);font-size:15px;white-space:nowrap;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease;border:1px solid transparent}
-    .service-pill:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.10);background:var(--brand);color:#fff;border-color:var(--brand)}
-    .typeform-tab{position:fixed;right:0;top:190px;z-index:998;background:var(--brand);color:#fff;padding:18px 12px;border-radius:18px 0 0 18px;writing-mode:vertical-rl;transform:rotate(180deg);font-weight:800;font-size:16px;box-shadow:var(--shadow2)}
-
-    .split{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:26px;align-items:start}
-    .card{background:#fff;border:1px solid #e6e8e6;border-radius:24px;box-shadow:var(--shadow2)}
-    .service-panel{padding:20px 22px 22px;max-width:560px;justify-self:end;width:100%;display:flex;flex-direction:column}
-    .service-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;flex:1}
-    .service-card{padding:20px 18px;border-radius:18px;background:#fff;border:1px solid rgba(29,151,83,.15);box-shadow:0 8px 18px rgba(0,0,0,.04);display:flex;flex-direction:column;gap:10px;min-height:162px;justify-content:flex-start;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease}
-    .service-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.10);border-color:var(--brand)}
-    .service-card strong{font-size:18px;line-height:1.45}
-    .service-card span{font-size:16px;color:var(--muted);line-height:1.55}
-    .service-card.urgent{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;border:none}
-    .service-card.urgent span{color:#fff}
-    .service-card:not(.urgent):hover{background:#f8fbf8}
-    .service-card.urgent:hover{filter:brightness(.96)}
-
-    .steps{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
-    .step{background:#fff;border:1px solid #e6e8e6;border-radius:22px;padding:22px;box-shadow:var(--shadow2);position:relative}
-    .step:before{content:'';position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,var(--brand),rgba(29,151,83,.2));border-radius:22px 22px 0 0}
-    .step-badge{display:flex;gap:12px}
-    .num{width:42px;height:42px;border-radius:14px;background:rgba(29,151,83,.10);display:grid;place-items:center;color:var(--brand2);font-weight:900;flex:0 0 42px}
-    .step h3{margin:0 0 8px;font-size:21px}
-    .step p{margin:0;color:var(--muted);line-height:1.7}
-
-    .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:24px}
-    .flow-card{padding:18px;border-radius:20px;background:#fff;border:1px solid #e6e8e6;box-shadow:var(--shadow2)}
-    .flow-chip{width:40px;height:40px;border-radius:14px;background:rgba(29,151,83,.10);display:grid;place-items:center;color:var(--brand);font-weight:900;margin-bottom:12px}
-    details{margin-top:12px;background:#f4f5f5;border:1px solid #e4e6e4;border-radius:14px;padding:11px 12px}
-    summary{cursor:pointer;font-weight:800}
-    .hint{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.6}
-
-    .slab{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:center;padding:28px;border-radius:30px;background:radial-gradient(1200px 260px at 14% 0%, rgba(29,151,83,.10), transparent 58%),linear-gradient(180deg,#fff,#fbfcfb);border:1px solid #e5e9e5;box-shadow:0 24px 60px rgba(0,0,0,.08)}
-    .ul{margin:14px 0 0;padding:0;display:grid;gap:10px}
-    .ul li{list-style:none;display:flex;gap:12px;align-items:flex-start}
-    .tick{width:22px;height:22px;border-radius:7px;display:grid;place-items:center;background:rgba(29,151,83,.12);color:var(--brand);font-weight:900;flex:0 0 22px}
-    .cta-green{background:linear-gradient(135deg,#17964c 0%, #148746 58%, #118042 100%);color:#fff;border-radius:30px;padding:24px 22px;box-shadow:0 22px 60px rgba(13,110,57,.28);position:relative;overflow:hidden;min-height:232px;display:flex;flex-direction:column;justify-content:center;align-self:center}
-    .cta-green:before{content:'';position:absolute;width:320px;height:320px;right:-110px;top:-110px;background:rgba(255,255,255,.12);border-radius:50%}
-    .cta-green:after{content:'';position:absolute;width:180px;height:180px;right:30px;top:-70px;background:rgba(255,255,255,.08);border-radius:50%}
-    .cta-green h3{margin:0 0 10px;font-size:22px;line-height:1.22;letter-spacing:-.4px;max-width:300px;position:relative;z-index:1}
-    .cta-green p{margin:0 0 14px;line-height:1.62;color:rgba(255,255,255,.92);font-size:13px;position:relative;z-index:1;max-width:300px}
-    .cta-green .btn{position:relative;z-index:1;background:#fff;border-color:#fff;color:#137540;width:max-content;min-width:248px;font-size:14px;border-radius:18px;padding:14px 16px;box-shadow:0 10px 28px rgba(0,0,0,.12)}
-
-    .media-card{overflow:hidden;border-radius:24px;border:1px solid #d7dbd7;background:#fff;box-shadow:var(--shadow2);position:relative}
-    .media-card img{width:100%;aspect-ratio:1/1;object-fit:cover}
-    .review-badge{position:absolute;left:18px;top:18px;background:rgba(255,255,255,.95);padding:14px 16px;border-radius:999px;box-shadow:var(--shadow2);font-weight:900;font-size:17px}
-    .pillars{display:grid;gap:16px}
-    .pillar{display:flex;gap:16px;padding:20px;border-radius:22px;background:#fff;border:1px solid #e6e8e6;box-shadow:var(--shadow2)}
-    .ic{width:54px;height:54px;border-radius:18px;display:grid;place-items:center;background:#f5f6f5;border:1px solid #e2e4e2;color:var(--brand);font-size:26px;flex:0 0 54px}
-    .pillar h5{margin:0 0 10px;font-size:20px}
-    .pillar p{margin:0;color:var(--muted);line-height:1.7;font-size:17px}
-
-    .cta-strip{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;padding:16px 18px;border-radius:28px;background:rgba(29,151,83,.08);border:1px solid rgba(29,151,83,.20);margin:22px 0 16px}
-    .cta-strip p{margin:0;font-size:17px;color:var(--muted)}
-    .cta-strip strong{color:#171717}
-    .area{display:grid;grid-template-columns:.95fr 1.05fr;gap:20px}
-    .mapcard,.areacard{background:#fff;border:1px solid #e6e8e6;border-radius:28px;box-shadow:var(--shadow2);padding:22px}
-    .mapcard img{width:100%;aspect-ratio:1/1;object-fit:contain;border-radius:18px;border:1px solid #e3e6e3;background:#fafafa}
-    .focusbox{margin-top:16px;padding:16px;border-radius:22px;background:rgba(29,151,83,.06);border:1px solid rgba(29,151,83,.16)}
-    .focusrow,.regions{display:flex;gap:12px;flex-wrap:wrap}
-    .focuspill,.tag{padding:12px 16px;border-radius:999px;font-weight:800;font-size:16px;border:1px solid #d8dcd8;background:#fff}
-    .focuspill,.tag.strong{background:rgba(29,151,83,.10);border-color:rgba(29,151,83,.18);color:var(--brand2)}
-    .mini-trust{display:grid;gap:12px;margin-top:18px;color:var(--muted);font-size:17px}
-
-    .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-    .blog-card{overflow:hidden;background:#fff;border-radius:22px;border:1px solid #e6e8e6;box-shadow:var(--shadow2)}
-    .blog-card img{width:100%;aspect-ratio:1.45/1;object-fit:cover}
-    .blog-body{padding:18px}
-    .meta{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:15px;margin-bottom:14px}
-    .blog-title{font-size:22px;line-height:1.3;margin:0 0 16px}
-    .blog-link{font-weight:800;color:var(--brand)}
-
-    .counters{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
-    .counter{background:#fff;border:1px solid #eceeed;border-radius:14px;padding:28px 18px;box-shadow:0 8px 24px rgba(0,0,0,.04)}
-    .counter .n{font-size:56px;font-weight:700;line-height:1;margin-bottom:18px;color:#1b1d32}
-    .counter .l{font-size:20px;font-weight:800;line-height:1.35;color:#1b1d32}
-
-    @media (max-width:1200px){
-      .page-scale{transform:none;width:100%;margin-left:0}
-      .sticky-cta,.typeform-tab{display:none !important}
-      .hero-grid,.split,.slab,.area{grid-template-columns:1fr}
-      .flow{grid-template-columns:1fr 1fr}
-      .service-pills{flex-wrap:wrap}
-      .hero-cta{flex-wrap:wrap;margin-top:40px}
-      .hero-cta-col{min-width:0}
-      .hero-title{white-space:normal}
-    }
-
-    @media (max-width:1100px){
-      .btns{flex-wrap:wrap}
-      .btns .btn{flex:0 0 auto}
-      .section{padding:38px 0}
-    }
-
-    @media (max-width:900px){
-      .page-scale{transform:none;width:100%;margin-left:0}
-      .hero{min-height:auto}
-      .hero .wrap{padding-top:34px;padding-bottom:36px}
-      .hero-grid,.steps,.blog-grid,.counters,.service-grid,.flow{grid-template-columns:1fr}
-      .speech{justify-self:start;max-width:none;font-size:18px;padding:22px;margin-top:12px}
-      .hero-title{font-size:42px;white-space:normal}
-      .review-pill,.service-pill{font-size:15px}
-      .counter .n{font-size:42px}
-      .counter .l,.blog-title,.pillar h5,.step h3{font-size:18px}
-      .section{padding:34px 0}
-      .cta-green .btn{min-width:100%;width:100%}
-      .service-pills,.hero-cta{flex-wrap:wrap}
-    }
-  </style>
-</head>
-<body>
-  <div class="page-scale">
-    <div class="page">
-      <section class="hero">
-        <div id="stickyStartSentinel" aria-hidden="true" style="position:absolute;left:0;right:0;bottom:-1px;height:1px"></div>
-        <div class="wrap">
-          <h1 class="hero-title">Specialist in <span class="marker">loodwerk &amp; daklekkages<svg viewBox="0 0 700 80" preserveAspectRatio="none" aria-hidden="true"><path d="M20 55 C 120 20, 420 90, 680 55" stroke="#1fb255" stroke-width="28" stroke-linecap="round" fill="none" pathLength="1"></path></svg></span></h1>
-          <div class="hero-grid">
-            <div>
-              <div class="hero-cta" style="position:relative;z-index:2;">
-                <div class="hero-cta-col"><a class="btn primary" href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl">Gratis dakcheck</a><div class="hero-note">Geen verplichtingen • Binnen 48 uur ingepland</div></div>
-                <div class="hero-cta-col"><a class="btn ghost" href="tel:0851308251">Spoed? Bel direct</a><div class="hero-note">24/7 bereikbaar • Binnen 1 uur hulp mogelijk</div></div>
+    <!-- WERKGEBIED -->
+    <section class="section white">
+      <div class="wrap">
+        <h2 class="title">Snel ter plaatse in Gelderland en Noord-Brabant</h2>
+        <p class="lead">Woont u in <strong>Gelderland</strong> of <strong>Noord-Brabant</strong>? Dan zijn we vaak snel ter plaatse voor inspectie en herstel.<br>Uiteraard zijn we ook actief in de rest van Nederland.</p>
+        <div class="cta-strip">
+          <p><strong>Twijfel?</strong> Laat het professioneel controleren en voorkom vervolgschade.</p>
+          <div class="btns"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a></div>
+        </div>
+        <div class="area">
+          <div class="mapcard">
+            <img src="https://www.daklekkagesopgelost.nl/hs-fs/hubfs/map-netherlands-polygonal-mesh-line-map-flag-map-1.jpeg?width=860&t=1771318702659" alt="Werkgebied Nederland">
+            <p class="lead" style="margin-top:14px;text-align:center">Eén aanspreekpunt, snelle service, vakkundige uitvoering.</p>
+          </div>
+          <div class="areacard">
+            <p class="lead" style="font-weight:800;color:#2e3142">Meest actief in:</p>
+            <div class="focusbox">
+              <div class="focusrow"><span class="focuspill">Gelderland</span><span class="focuspill">Noord-Brabant</span></div>
+              <div class="mini-trust">
+                <span>✅ <b>Snelle planning</b> voor inspectie of spoedherstel</span>
+                <span>✅ <b>Duidelijke uitleg</b> + kostenindicatie vooraf</span>
+                <span>✅ <b>Gerichte oplossing</b> zodat het lek niet terugkomt</span>
               </div>
-              <div class="review-pill">⭐⭐⭐⭐⭐ <span>4.9 op Google (120+ reviews)</span></div>
-              <div class="service-pills"><a class="service-pill" href="https://www.daklekkagesopgelost.nl/spoedreparatie?hsLang=nl">⚡ Spoedservice</a><a class="service-pill" href="https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen?hsLang=nl">🔩 Lood &amp; zinkspecialist</a><a class="service-pill" href="https://www.daklekkagesopgelost.nl/diensten?hsLang=nl">🏠 Alle dakwerkzaamheden</a><a class="service-pill" href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl">🛡 Preventieve inspecties</a></div>
             </div>
-            <div class="speech">We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.</div>
+            <p class="lead" style="margin-top:18px">Ook actief in o.a.:</p>
+            <div class="regions" style="margin-top:12px">
+              <span class="tag strong">Gelderland</span><span class="tag strong">Noord-Brabant</span><span class="tag">Utrecht</span><span class="tag">Overijssel</span><span class="tag">Limburg</span><span class="tag">Betuwe</span><span class="tag">Bommelerwaard</span><span class="tag">Rivierenland</span><span class="tag">Rest van NL</span>
+            </div>
+            <div class="btns" style="margin-top:22px">
+              <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a>
+              <a class="btn ghost" href="tel:0851308251">Bel direct</a>
+              <a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
           </div>
-        </div>
-</section>
-<div data-tf-sidetab="cjtieqSK" data-tf-opacity="100" data-tf-iframe-props="title=Daklekkages Opgelost" data-tf-open="time" data-tf-open-value="10000" data-tf-prevent-reopen-on-close data-tf-transitive-search-params data-tf-button-color="#1D9753" data-tf-button-text="GRATIS dakinspectie?" data-tf-medium="snippet" style="all:unset"></div>
-<div class="typeform-tab">GRATIS dakinspectie?</div>
-
-<section class="section white">
-  <div class="wrap">
-
-    <div class="kicker">
-      <span class="dot"></span> Spoed of twijfel? Pak het direct aan
-    </div>
-
-    <div class="split">
-      <div>
-        <h2 class="title-sm">Daklekkage? Wij lossen het snel en vakkundig voor u op</h2>
-        <p class="lead">Een daklekkage veroorzaakt meer schade dan u denkt. Vocht, schimmel en houtrot kunnen zich snel verspreiden.<br><br><strong>Daklekkages Opgelost</strong> is gespecialiseerd in het opsporen én duurzaam verhelpen van daklekkages bij zowel platte als schuine daken — ook bij spoed.<br><br>Daarnaast kunt u bij ons terecht voor allround dakwerk zoals dakpannen vervangen, isoleren, renovaties, lood- en zinkwerk en schoorsteenwerk.</p>
-
-        <ul class="ul">
-          <li><span class="tick">✓</span><span>Specialist in daklekkages</span></li>
-          <li><span class="tick">✓</span><span>Actief door heel Nederland</span></li>
-          <li><span class="tick">✓</span><span>Snelle hulp bij spoed</span></li>
-        </ul>
-
-        <div class="btns" style="margin-top:18px">
-          <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a>
-          <a class="btn ghost" href="tel:0851308251">Bel direct</a>
-          <a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
+    </section>
 
-      <div class="card service-panel">
-        <h3 style="margin:4px 0 16px;font-size:24px;color:var(--brand2)">Wat wij doen?</h3>
-
-        <div class="service-grid">
-          <a href="https://www.daklekkagesopgelost.nl/lekkage-opsporen?hsLang=nl" class="service-card"><strong>🔍 Daklekkage opsporen &amp; verhelpen</strong><span>Gericht zoeken en oplossen</span></a>
-          <a href="https://www.daklekkagesopgelost.nl/spoedreparatie?hsLang=nl" class="service-card urgent"><strong>⚡ Spoed- en noodreparaties</strong><span>Direct hulp bij lekkage</span></a>
-          <a href="https://www.daklekkagesopgelost.nl/dakrenovatie?hsLang=nl" class="service-card"><strong>🏠 Dakrenovatie &amp; dakpannen</strong><span>Structurele oplossingen</span></a>
-          <a href="https://www.daklekkagesopgelost.nl/dak-isoleren?hsLang=nl" class="service-card"><strong>❄️ Dakisolatie</strong><span>Bespaar energie &amp; verhoog comfort</span></a>
-          <a href="https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen?hsLang=nl" class="service-card"><strong>🔩 Lood- en zinkwerk</strong><span>Waterdichte afwerking</span></a>
-          <a href="https://www.daklekkagesopgelost.nl/dakinspectie?hsLang=nl" class="service-card"><strong>🛡 Preventieve dakinspecties</strong><span>Voorkom schade</span></a>
+    <!-- BLOG -->
+    <section class="section soft">
+      <div class="wrap">
+        <h2 class="title-sm">Uitgelicht uit onze kennisbank</h2>
+        <div class="blog-grid">
+          <article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Timing%20bij%20dakproblemen.jpeg" alt="Waarom timing bij dakproblemen zo verwarrend is"><div class="blog-body"><div class="meta">◔ 7 min</div><h3 class="blog-title">Waarom timing bij dakproblemen zo verwarrend is</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/daklekkage-op-droge-dag-dit-verklaart-de-verwarrende-timing?hsLang=nl">Lees meer →</a></div></article>
+          <article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Waarom%20het%20even%20kan%20duren%20voor%20een%20lekkage%20zichtbaar%20wordt.jpeg" alt="Wanneer dakschade zichtbaar wordt"><div class="blog-body"><div class="meta">◔ 8 min</div><h3 class="blog-title">Wanneer dakschade zichtbaar wordt</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/wanneer-dakschade-zichtbaar-wordt?hsLang=nl">Lees meer →</a></div></article>
+          <article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Tijd%20tussen%20oorzaak%20en%20gevolg%20bij%20daklekkage-1.jpeg" alt="Tijd tussen oorzaak en gevolg bij dakschade"><div class="blog-body"><div class="meta">◔ 6 min</div><h3 class="blog-title">Tijd tussen oorzaak en gevolg bij dakschade</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/dakschade-met-vertraging-waarom-oorzaak-en-lekkage-niet-samenvallen?hsLang=nl">Lees meer →</a></div></article>
+        </div>
+        <div id="hideStickySentinel" aria-hidden="true" style="position:relative;top:0;height:1px"></div>
+        <div class="cta-strip" style="margin-top:28px">
+          <p><strong>Klaar om zekerheid te krijgen?</strong> Vraag vrijblijvend een inspectie aan of bel direct bij spoed.</p>
+          <div class="btns"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a></div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- ⭐ DE REVIEW WIDGET KOMT HIER, NA DE TEKST EN HET MENU ⭐ -->
-    <div id="featurable-3e5ef794-746c-486f-94c8-ea6433eee6dd" data-featurable-async></div>
-
-  </div>
-</section>
-
-
-      <section class="section soft">
-        <div class="wrap">
-          <div class="kicker"><span class="dot"></span> Aanpak zonder giswerk</div>
-          <h2 class="title-sm">Zo lossen wij daklekkages op</h2>
-          <p class="lead">De zichtbare schade zit zelden op de plek waar het probleem ontstaat. Daarom pakken we daklekkages bij de bron aan.</p>
-          <div class="steps">
-            <article class="step"><div class="step-badge"><div class="num">1</div><div><h3>Grondige dakinspectie</h3><p>We controleren het volledige dak, inclusief kwetsbare aansluitingen en afwatering.</p></div></div></article>
-            <article class="step"><div class="step-badge"><div class="num">2</div><div><h3>Gerichte diagnose</h3><p>We achterhalen de échte oorzaak van de daklekkage, zonder symptoombestrijding.</p></div></div></article>
-            <article class="step"><div class="step-badge"><div class="num">3</div><div><h3>Helder advies</h3><p>U ontvangt duidelijke uitleg en een transparante kostenindicatie vooraf.</p></div></div></article>
-            <article class="step"><div class="step-badge"><div class="num">4</div><div><h3>Controle &amp; afronding</h3><p>We controleren of alles 100% dicht is en ronden netjes af.</p></div></div></article>
-          </div>
-          <div style="margin-top:24px"><div class="kicker"><span class="dot"></span> Onze aanpak</div><h2 class="title-sm" style="font-size:clamp(24px,2.6vw,34px)">Onze aanpak in 4 stappen</h2><div class="flow"><div class="flow-card"><div class="flow-chip">1</div><strong>Inspectie</strong><p class="lead" style="font-size:15px;margin-top:8px">We controleren het hele dak, inclusief kwetsbare details.</p><details><summary>Wat checken we?</summary><div class="hint">Dakbedekking, doorvoeren, dakranden, schoorsteen/nok, afwatering en sporen van vocht.</div></details></div><div class="flow-card"><div class="flow-chip">2</div><strong>Diagnose</strong><p class="lead" style="font-size:15px;margin-top:8px">We vinden de bron van het water en verklaren het lekgedrag.</p><details><summary>Waarom is dit belangrijk?</summary><div class="hint">De plek waar het binnen drupt is zelden de echte oorzaak.</div></details></div><div class="flow-card"><div class="flow-chip">3</div><strong>Advies &amp; prijs</strong><p class="lead" style="font-size:15px;margin-top:8px">U krijgt een plan van aanpak + kostenindicatie vóór we starten.</p><details><summary>Wat ontvangt u?</summary><div class="hint">Duidelijke uitleg, beste oplossing per daktype en transparantie vooraf.</div></details></div><div class="flow-card"><div class="flow-chip">4</div><strong>Oplossen &amp; controle</strong><p class="lead" style="font-size:15px;margin-top:8px">We verhelpen het lek en controleren of alles volledig dicht is.</p><details><summary>Hoe ronden we af?</summary><div class="hint">Controle op afdichting en afwatering + nette oplevering.</div></details></div></div></div>
+    <!-- COUNTERS -->
+    <section class="section white">
+      <div class="wrap">
+        <h2 class="title-sm" style="font-size:clamp(26px,2.7vw,42px);margin-bottom:22px">Wist u dat?</h2>
+        <p class="lead" style="max-width:1180px;font-size:18px;line-height:1.8;color:#495670">Bij Daklekkages Opgelost zetten wij ons iedere dag in om tot het uiterste te gaan voor onze klanten. Daarbij hebben wij al meerdere mijlpalen bereikt. Een paar feiten op een rij!</p>
+        <div class="counters">
+          <div class="counter"><div class="n" data-target="999">0</div><div class="l">Uitgevoerde dakinspecties</div></div>
+          <div class="counter"><div class="n" data-target="750">0</div><div class="l">Lekkages Opgelost!</div></div>
+          <div class="counter"><div class="n" data-target="100">0</div><div class="l">Rapportages opgesteld</div></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section white">
-        <div class="wrap">
-          <div id="footerSentinel" aria-hidden="true" style="position:relative;top:0;height:1px"></div>
-          <div class="kicker"><span class="dot"></span> Altijd vooraf duidelijkheid</div>
-          <h2 class="title-sm">Wat kost het verhelpen van een daklekkage?</h2>
-          <p class="lead">De kosten hangen af van een aantal praktische factoren:</p>
-          <div class="slab" style="margin-top:18px">
-            <div>
-              <ul class="ul"><li><span class="tick">✓</span><span><strong>Type dak</strong> (plat of schuin)</span></li><li><span class="tick">✓</span><span><strong>Oorzaak</strong> van de lekkage</span></li><li><span class="tick">✓</span><span><strong>Bereikbaarheid</strong> van het dak</span></li><li><span class="tick">✓</span><span><strong>Spoed</strong> of reguliere reparatie</span></li></ul>
-              <p class="lead" style="margin-top:16px;max-width:520px">Wij geven altijd vooraf duidelijkheid. In sommige<br>gevallen wordt daklekkage gedeeltelijk vergoed door uw verzekering.</p>
-            </div>
-            <div class="cta-green"><h3>Twijfelt u of u te maken heeft met een daklekkage?</h3><p>Laat het professioneel controleren en voorkom onnodige schade. Vraag vrijblijvend een gratis inspectie aan.</p><a class="btn" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a></div>
-          </div>
-        </div>
-      </section>
+  </main>
 
-      <section class="section soft">
-        <div class="wrap">
-          <div class="kicker"><span class="dot"></span> Waarom Daklekkages Opgelost</div>
-          <h2 class="title">Hoe wij ons onderscheiden</h2>
-          <div class="split">
-            <div><div class="media-card"><img src="https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteen%20renoveren%20in%20Velddriel.webp?width=860&t=1766605777869" alt="Dakdekker aan het werk bij een schoorsteen"><div class="review-badge">★★★★★ &nbsp; 5.0 • Google &nbsp; 120+ reviews</div></div><p class="lead" style="margin-top:18px">U wilt zekerheid en een oplossing die écht werkt. Daarom focussen we op specialisme, duidelijke communicatie en nette oplevering.</p></div>
-            <div class="pillars"><div class="pillar"><div class="ic">⌂</div><div><h5>Specialist in het oplossen van daklekkages</h5><p>Wij doen één ding extreem goed: daklekkages opsporen en duurzaam oplossen.</p></div></div><div class="pillar"><div class="ic">◔</div><div><h5>Snelle en duidelijke aanpak</h5><p>Geen giswerk, maar een gerichte diagnose en een oplossing die standhoudt.</p></div></div><div class="pillar"><div class="ic">🛡</div><div><h5>Transparant en betrouwbaar</h5><p>U weet vooraf waar u aan toe bent. Geen verrassingen achteraf.</p></div></div><div class="pillar"><div class="ic">🏠</div><div><h5>Allround dakwerkzaamheden (met lek-specialisme)</h5><p>Naast daklekkages pakken we ook complete dakwerkzaamheden op — van herstel tot renovatie — met dezelfde focus op kwaliteit en duidelijke communicatie.</p></div></div><div class="btns"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a><a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a></div></div>
-          </div>
-</div>
-      </section>
-
-      <section class="section white">
-        <div class="wrap">
-          <h2 class="title">Snel ter plaatse in Gelderland en Noord-Brabant</h2>
-          <p class="lead">Woont u in <strong>Gelderland</strong> of <strong>Noord-Brabant</strong>? Dan zijn we vaak snel ter plaatse voor inspectie en herstel.<br>Uiteraard zijn we ook actief in de rest van Nederland.</p>
-          <div class="cta-strip"><p><strong>Twijfel?</strong> Laat het professioneel controleren en voorkom vervolgschade.</p><div class="btns"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a></div></div>
-          <div class="area"><div class="mapcard"><img src="https://www.daklekkagesopgelost.nl/hs-fs/hubfs/map-netherlands-polygonal-mesh-line-map-flag-map-1.jpeg?width=860&t=1771318702659" alt="Werkgebied Nederland"><p class="lead" style="margin-top:14px;text-align:center">Eén aanspreekpunt, snelle service, vakkundige uitvoering.</p></div><div class="areacard"><p class="lead" style="font-weight:800;color:#2e3142">Meest actief in:</p><div class="focusbox"><div class="focusrow"><span class="focuspill">Gelderland</span><span class="focuspill">Noord-Brabant</span></div><div class="mini-trust"><span>✅ <b>Snelle planning</b> voor inspectie of spoedherstel</span><span>✅ <b>Duidelijke uitleg</b> + kostenindicatie vooraf</span><span>✅ <b>Gerichte oplossing</b> zodat het lek niet terugkomt</span></div></div><p class="lead" style="margin-top:18px">Ook actief in o.a.:</p><div class="regions" style="margin-top:12px"><span class="tag strong">Gelderland</span><span class="tag strong">Noord-Brabant</span><span class="tag">Utrecht</span><span class="tag">Overijssel</span><span class="tag">Limburg</span><span class="tag">Betuwe</span><span class="tag">Bommelerwaard</span><span class="tag">Rivierenland</span><span class="tag">Rest van NL</span></div><div class="btns" style="margin-top:22px"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie aanvragen →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a><a class="btn ghost" href="https://wa.me/31623293935" target="_blank" rel="noopener">WhatsApp</a></div></div></div>
-        </div>
-      </section>
-
-      <section class="section soft">
-        <div class="wrap">
-          <h2 class="title-sm">Uitgelicht uit onze kennisbank</h2>
-          <div class="blog-grid"><article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Timing%20bij%20dakproblemen.jpeg" alt="Waarom timing bij dakproblemen zo verwarrend is"><div class="blog-body"><div class="meta">◔ 7 min</div><h3 class="blog-title">Waarom timing bij dakproblemen zo verwarrend is</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/daklekkage-op-droge-dag-dit-verklaart-de-verwarrende-timing?hsLang=nl">Lees meer →</a></div></article><article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Waarom%20het%20even%20kan%20duren%20voor%20een%20lekkage%20zichtbaar%20wordt.jpeg" alt="Wanneer dakschade zichtbaar wordt"><div class="blog-body"><div class="meta">◔ 8 min</div><h3 class="blog-title">Wanneer dakschade zichtbaar wordt</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/wanneer-dakschade-zichtbaar-wordt?hsLang=nl">Lees meer →</a></div></article><article class="blog-card"><img src="https://www.daklekkagesopgelost.nl/hubfs/Tijd%20tussen%20oorzaak%20en%20gevolg%20bij%20daklekkage-1.jpeg" alt="Tijd tussen oorzaak en gevolg bij dakschade"><div class="blog-body"><div class="meta">◔ 6 min</div><h3 class="blog-title">Tijd tussen oorzaak en gevolg bij dakschade</h3><a class="blog-link" href="https://www.daklekkagesopgelost.nl/blog/dakschade-met-vertraging-waarom-oorzaak-en-lekkage-niet-samenvallen?hsLang=nl">Lees meer →</a></div></article></div>
-          <div id="hideStickySentinel" aria-hidden="true" style="position:relative;top:0;height:1px"></div>
-          <div class="cta-strip" style="margin-top:28px"><p><strong>Klaar om zekerheid te krijgen?</strong> Vraag vrijblijvend een inspectie aan of bel direct bij spoed.</p><div class="btns"><a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a><a class="btn ghost" href="tel:0851308251">Bel direct</a></div></div>
-        </div>
-      </section>
-
-      <section class="section white">
-        <div class="wrap">
-          <h2 class="title-sm" style="font-size:clamp(26px,2.7vw,42px);margin-bottom:22px">Wist u dat?</h2>
-          <p class="lead" style="max-width:1180px;font-size:18px;line-height:1.8;color:#495670">Bij Daklekkages Opgelost zetten wij ons iedere dag in om tot het uiterste te gaan voor onze klanten. Daarbij hebben wij al meerdere mijlpalen bereikt. Een paar feiten op een rij!</p>
-          <div class="counters"><div class="counter"><div class="n" data-target="999">0</div><div class="l">Uitgevoerde dakinspecties</div></div><div class="counter"><div class="n" data-target="750">0</div><div class="l">Lekkages Opgelost!</div></div><div class="counter"><div class="n" data-target="100">0</div><div class="l">Rapportages opgesteld</div></div></div>
-        </div>
-      </section>
-
+  <div data-include="./partials/footer.html"></div>
 
   <script src="//embed.typeform.com/next/embed.js"></script>
   <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
@@ -367,42 +252,30 @@
         counters.forEach(function(el){
           if(el.dataset.animated === 'true') return;
           el.dataset.animated = 'true';
-
           var target = parseInt(el.getAttribute('data-target'), 10) || 0;
           var duration = 5600;
           var startTime = null;
-
           function tick(timestamp){
             if(!startTime) startTime = timestamp;
             var progress = Math.min((timestamp - startTime) / duration, 1);
             var eased = 1 - Math.pow(1 - progress, 3);
             var current = Math.floor(target * eased);
             el.textContent = current + '+';
-            if(progress < 1){
-              requestAnimationFrame(tick);
-            } else {
-              el.textContent = target + '+';
-            }
+            if(progress < 1){ requestAnimationFrame(tick); } else { el.textContent = target + '+'; }
           }
-
           requestAnimationFrame(tick);
         });
       }
-
       if(document.readyState === 'loading'){
         document.addEventListener('DOMContentLoaded', runCounters);
       } else {
         runCounters();
       }
-
       window.addEventListener('load', runCounters);
       setTimeout(runCounters, 250);
       setTimeout(runCounters, 900);
     })();
   </script>
-  </main>
-
-  <div data-include="./partials/footer.html"></div>
 
   <script src="./js/include.js"></script>
   <script src="./js/seo.js"></script>
