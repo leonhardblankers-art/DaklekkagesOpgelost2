@@ -2,3 +2,32 @@
 header nav a {
     font-weight: 700;
 }
+
+:root{
+  --brand:#1D9753;
+  --brand2:#167a44;
+  --orange:#ff7a00;
+  --orangeDark:#ff6a00;
+  --orangeLight:#ff9a3a;
+  --ink:#0b0d10;
+  --muted:#606a78;
+  --bg:#ffffff;
+  --soft:#f6f8f7;
+  --stroke: rgba(15,17,21,.10);
+  --stroke2: rgba(15,17,21,.07);
+  --ring: rgba(29,151,83,.18);
+  --shadow: 0 18px 45px rgba(15,17,21,.10);
+  --shadow2: 0 10px 25px rgba(15,17,21,.08);
+  --r:18px;
+  --rs:14px;
+  --max:1100px;
+  --gap:12px;
+}
+/* Vervolgens plak je hier ALLE rest van je CSS ongewijzigd in. Zie je eerdere code-snippet. */
+/* Bijvoorbeeld: */
+.dlo, .dlo *{ box-sizing:border-box; }
+.dlo{ width:100%; max-width:100%; color:var(--ink); font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+.dlo img{ max-width:100% !important; height:auto !important; display:block !important; }
+.dlo a{ text-decoration:none; }
+
+/* ... (de rest van je CSS uit jouw codeblok volledig toevoegen!) ... */
