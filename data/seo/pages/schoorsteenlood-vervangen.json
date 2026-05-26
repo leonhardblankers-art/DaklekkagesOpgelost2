@@ -1,0 +1,28 @@
+{
+  "title": "Schoorsteenlood vervangen",
+  "description": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+  "ogTitle": "Schoorsteenlood vervangen",
+  "ogDescription": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "name": "Schoorsteenlood vervangen",
+        "description": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

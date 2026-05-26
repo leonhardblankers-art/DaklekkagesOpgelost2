@@ -1,0 +1,28 @@
+{
+  "title": "Nokrenovatie",
+  "description": "De nokken dekken de aansluitingen tussen twee dakvlakken af, belangrijk om in goede staat te houden en tijdig tot nokrenovatie over te gaan!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/nokrenovatie/",
+  "ogTitle": "Nokrenovatie",
+  "ogDescription": "De nokken dekken de aansluitingen tussen twee dakvlakken af, belangrijk om in goede staat te houden en tijdig tot nokrenovatie over te gaan!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/nokrenovatie/",
+        "url": "https://www.daklekkagesopgelost.nl/nokrenovatie/",
+        "name": "Nokrenovatie",
+        "description": "De nokken dekken de aansluitingen tussen twee dakvlakken af, belangrijk om in goede staat te houden en tijdig tot nokrenovatie over te gaan!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

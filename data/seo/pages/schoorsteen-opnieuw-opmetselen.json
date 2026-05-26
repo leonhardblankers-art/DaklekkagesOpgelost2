@@ -1,0 +1,28 @@
+{
+  "title": "Schoorsteen opnieuw opmetselen",
+  "description": "Is het metselwerk van uw schoorsteen in slechte staat, dan komt u er wellicht niet aan om de schoorsteen opnieuw op te metselen. Lees hier meer!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/schoorsteen-opnieuw-opmetselen/",
+  "ogTitle": "Schoorsteen opnieuw opmetselen",
+  "ogDescription": "Is het metselwerk van uw schoorsteen in slechte staat, dan komt u er wellicht niet aan om de schoorsteen opnieuw op te metselen. Lees hier meer!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-opnieuw-opmetselen/",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteen-opnieuw-opmetselen/",
+        "name": "Schoorsteen opnieuw opmetselen",
+        "description": "Is het metselwerk van uw schoorsteen in slechte staat, dan komt u er wellicht niet aan om de schoorsteen opnieuw op te metselen. Lees hier meer!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

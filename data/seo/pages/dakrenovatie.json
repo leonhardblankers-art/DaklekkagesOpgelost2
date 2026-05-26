@@ -1,0 +1,28 @@
+{
+  "title": "Dakrenovatie",
+  "description": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+  "ogTitle": "Dakrenovatie",
+  "ogDescription": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "name": "Dakrenovatie",
+        "description": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

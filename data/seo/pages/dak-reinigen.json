@@ -1,0 +1,28 @@
+{
+  "title": "Dak reinigen",
+  "description": "Om de levensduur van uw pannendak te verlengen is een periodieke reiniging de uitstekende oplossing. Pannendak reinigen tegen een eerlijk tarief?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dak-reinigen/",
+  "ogTitle": "Dak reinigen",
+  "ogDescription": "Om de levensduur van uw pannendak te verlengen is een periodieke reiniging de uitstekende oplossing. Pannendak reinigen tegen een eerlijk tarief?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dak-reinigen/",
+        "url": "https://www.daklekkagesopgelost.nl/dak-reinigen/",
+        "name": "Dak reinigen",
+        "description": "Om de levensduur van uw pannendak te verlengen is een periodieke reiniging de uitstekende oplossing. Pannendak reinigen tegen een eerlijk tarief?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

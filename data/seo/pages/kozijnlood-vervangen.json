@@ -1,0 +1,28 @@
+{
+  "title": "Kozijnlood vervangen",
+  "description": "Kozijnlood voorkomt dat vocht uit de spouw schade aanricht aan uw kozijn of plafond, goed om tijdig te vervangen dus! Is uw kozijnlood nog in goede staat?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/kozijnlood-vervangen/",
+  "ogTitle": "Kozijnlood vervangen",
+  "ogDescription": "Kozijnlood voorkomt dat vocht uit de spouw schade aanricht aan uw kozijn of plafond, goed om tijdig te vervangen dus! Is uw kozijnlood nog in goede staat?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/kozijnlood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/kozijnlood-vervangen/",
+        "name": "Kozijnlood vervangen",
+        "description": "Kozijnlood voorkomt dat vocht uit de spouw schade aanricht aan uw kozijn of plafond, goed om tijdig te vervangen dus! Is uw kozijnlood nog in goede staat?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

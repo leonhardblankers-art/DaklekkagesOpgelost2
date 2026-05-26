@@ -1,0 +1,28 @@
+{
+  "title": "Dakraamlood vervangen",
+  "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
+  "ogTitle": "Dakraamlood vervangen",
+  "ogDescription": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
+        "name": "Dakraamlood vervangen",
+        "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

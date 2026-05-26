@@ -1,0 +1,28 @@
+{
+  "title": "Algemene voorwaarden",
+  "description": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
+  "robots": "noindex, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
+  "ogTitle": "Algemene voorwaarden",
+  "ogDescription": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
+        "url": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
+        "name": "Algemene voorwaarden",
+        "description": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

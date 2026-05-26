@@ -1,0 +1,28 @@
+{
+  "title": "Trapsgewijs lood vervangen",
+  "description": "Trapsgewijs lood ook wel loodloketten genoemd, is de manier om een gevel aan te sluiten om het dakvlak. Is uw trapsgewijs lood aan vervanging toe?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/trapsgewijs-lood-vervangen/",
+  "ogTitle": "Trapsgewijs lood vervangen",
+  "ogDescription": "Trapsgewijs lood ook wel loodloketten genoemd, is de manier om een gevel aan te sluiten om het dakvlak. Is uw trapsgewijs lood aan vervanging toe?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/trapsgewijs-lood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/trapsgewijs-lood-vervangen/",
+        "name": "Trapsgewijs lood vervangen",
+        "description": "Trapsgewijs lood ook wel loodloketten genoemd, is de manier om een gevel aan te sluiten om het dakvlak. Is uw trapsgewijs lood aan vervanging toe?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Dakkapel lood vervangen",
+  "description": "Een dakkapel de uitbreiding voor uw zolder, maar het loodwerk zorgt bij veroudering weleens voor lekkage. Vervang uw dakkapel lood tijdig, lees alles hier!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+  "ogTitle": "Dakkapel lood vervangen",
+  "ogDescription": "Een dakkapel de uitbreiding voor uw zolder, maar het loodwerk zorgt bij veroudering weleens voor lekkage. Vervang uw dakkapel lood tijdig, lees alles hier!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+        "name": "Dakkapel lood vervangen",
+        "description": "Een dakkapel de uitbreiding voor uw zolder, maar het loodwerk zorgt bij veroudering weleens voor lekkage. Vervang uw dakkapel lood tijdig, lees alles hier!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

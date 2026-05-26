@@ -1,0 +1,28 @@
+{
+  "title": "Uitgevoerde projecten, door dakspecialist Daklekkages Opgelost",
+  "description": "Met trots presenteren wij u een greep uit de door ons uitgevoerde projecten. Krijg een indruk door te bekijken wat wij reeds hebben betekend voor klanten die u...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/",
+  "ogTitle": "Uitgevoerde projecten, door dakspecialist Daklekkages Opgelost",
+  "ogDescription": "Met trots presenteren wij u een greep uit de door ons uitgevoerde projecten. Krijg een indruk door te bekijken wat wij reeds hebben betekend voor klanten die u voorgingen.",
+  "ogType": "blog",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/",
+        "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/",
+        "name": "Uitgevoerde projecten, door dakspecialist Daklekkages Opgelost",
+        "description": "Met trots presenteren wij u een greep uit de door ons uitgevoerde projecten. Krijg een indruk door te bekijken wat wij reeds hebben betekend voor klanten die u...",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

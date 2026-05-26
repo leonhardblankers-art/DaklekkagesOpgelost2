@@ -1,0 +1,28 @@
+{
+  "title": "Diensten schuin dak",
+  "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
+  "ogTitle": "Diensten schuin dak",
+  "ogDescription": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
+        "name": "Diensten schuin dak",
+        "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

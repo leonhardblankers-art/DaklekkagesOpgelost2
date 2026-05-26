@@ -1,0 +1,28 @@
+{
+  "title": "Dakgoot vervangen",
+  "description": "De dakgoot voert het water wat op uw dak valt op een goede wijze af. Is uw dakgoot aan vervanging toe? Lees alles over uw dakgoot en neem contact op!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakgoot-vervangen/",
+  "ogTitle": "Dakgoot vervangen",
+  "ogDescription": "De dakgoot voert het water wat op uw dak valt op een goede wijze af. Is uw dakgoot aan vervanging toe? Lees alles over uw dakgoot en neem contact op!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakgoot-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/dakgoot-vervangen/",
+        "name": "Dakgoot vervangen",
+        "description": "De dakgoot voert het water wat op uw dak valt op een goede wijze af. Is uw dakgoot aan vervanging toe? Lees alles over uw dakgoot en neem contact op!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

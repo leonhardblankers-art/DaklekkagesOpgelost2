@@ -1,0 +1,28 @@
+{
+  "title": "Metselwerk repareren",
+  "description": "Metselwerk in één geheel is een stevige manier van bouwen. Maar wat te doen bij een gebarsten metselsteen? U leest het hier!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/metselwerk-repareren/",
+  "ogTitle": "Metselwerk repareren",
+  "ogDescription": "Metselwerk in één geheel is een stevige manier van bouwen. Maar wat te doen bij een gebarsten metselsteen? U leest het hier!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/metselwerk-repareren/",
+        "url": "https://www.daklekkagesopgelost.nl/metselwerk-repareren/",
+        "name": "Metselwerk repareren",
+        "description": "Metselwerk in één geheel is een stevige manier van bouwen. Maar wat te doen bij een gebarsten metselsteen? U leest het hier!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

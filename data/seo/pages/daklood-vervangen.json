@@ -1,0 +1,28 @@
+{
+  "title": "Daklood vervangen",
+  "description": "Loodwerk is de beste manier om een aansluiting waterdicht te maken. Belangrijk om deze tijdig te vervangen en goed onderhouden! Lees alles over lood hier!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+  "ogTitle": "Daklood vervangen",
+  "ogDescription": "Loodwerk is de beste manier om een aansluiting waterdicht te maken. Belangrijk om deze tijdig te vervangen en goed onderhouden! Lees alles over lood hier!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "name": "Daklood vervangen",
+        "description": "Loodwerk is de beste manier om een aansluiting waterdicht te maken. Belangrijk om deze tijdig te vervangen en goed onderhouden! Lees alles over lood hier!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

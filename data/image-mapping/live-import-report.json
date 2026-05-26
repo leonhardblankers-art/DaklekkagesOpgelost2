@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-05-26T17:05:10.904157Z",
+  "results": [
+    {
+      "slug": "algemene-voorwaarden",
+      "status": "error",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "slug": "contact",
+      "status": "ok",
+      "title": "Contact",
+      "sections": 1,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dakgoot-vervangen",
+      "status": "ok",
+      "title": "Dakgoot vervangen",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dak-isoleren",
+      "status": "ok",
+      "title": "Dak isoleren",
+      "sections": 4,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dakkapel-lood-vervangen",
+      "status": "ok",
+      "title": "Dakkapel lood vervangen",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dakkapel-renoveren",
+      "status": "ok",
+      "title": "Dakkapel renoveren",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "daklood-vervangen",
+      "status": "ok",
+      "title": "Daklood vervangen",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dakraamlood-vervangen",
+      "status": "ok",
+      "title": "Dakraamlood vervangen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dak-reinigen",
+      "status": "ok",
+      "title": "Dak reinigen",
+      "sections": 6,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "dakrenovatie",
+      "status": "ok",
+      "title": "Dakrenovatie",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "diensten",
+      "status": "ok",
+      "title": "Dienstenpagina Diensten",
+      "sections": 8,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-dakgoot",
+      "status": "ok",
+      "title": "Diensten dakgoot",
+      "sections": 5,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-dakkapel",
+      "status": "ok",
+      "title": "Diensten dakkapel",
+      "sections": 5,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-dakraam",
+      "status": "ok",
+      "title": "Diensten dakraam",
+      "sections": 5,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-loodafwerkingen",
+      "status": "ok",
+      "title": "Diensten loodafwerkingen",
+      "sections": 8,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-plat-dak",
+      "status": "ok",
+      "title": "Diensten plat dak",
+      "sections": 6,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-schoorsteen",
+      "status": "ok",
+      "title": "Diensten schoorsteen",
+      "sections": 8,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "diensten-schuin-dak",
+      "status": "ok",
+      "title": "Diensten schuin dak",
+      "sections": 8,
+      "images": 1,
+      "schema": 0
+    },
+    {
+      "slug": "kennisbank",
+      "status": "error",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "slug": "kozijnlood-vervangen",
+      "status": "ok",
+      "title": "Kozijnlood vervangen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "metselwerk-repareren",
+      "status": "ok",
+      "title": "Metselwerk repareren",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "nokrenovatie",
+      "status": "ok",
+      "title": "Nokrenovatie",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "plat-dak-overlagen",
+      "status": "ok",
+      "title": "Plat dak overlagen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "plat-dak-reparatie",
+      "status": "ok",
+      "title": "Plat dak reparatie",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "plat-dak-vervangen",
+      "status": "ok",
+      "title": "Plat dak vervangen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "pleisteren",
+      "status": "ok",
+      "title": "Schoorsteen pleisteren",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "privacyverklaring",
+      "status": "error",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "slug": "schoorsteenlood-spouw-vervangen",
+      "status": "ok",
+      "title": "Schoorsteenlood spouw vervangen",
+      "sections": 4,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "schoorsteenlood-vervangen",
+      "status": "ok",
+      "title": "Schoorsteenlood vervangen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "schoorsteen-opnieuw-opmetselen",
+      "status": "ok",
+      "title": "Schoorsteen opnieuw opmetselen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "schoorsteenrenovatie",
+      "status": "ok",
+      "title": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
+      "sections": 8,
+      "images": 0,
+      "schema": 2
+    },
+    {
+      "slug": "schoorsteen-verwijderen",
+      "status": "ok",
+      "title": "Schoorsteen verwijderen",
+      "sections": 3,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "trapsgewijs-lood-vervangen",
+      "status": "ok",
+      "title": "Trapsgewijs lood vervangen",
+      "sections": 5,
+      "images": 0,
+      "schema": 0
+    },
+    {
+      "slug": "uitgevoerde-projecten",
+      "status": "ok",
+      "title": "Uitgevoerde projecten, door dakspecialist Daklekkages Opgelost",
+      "sections": 2,
+      "images": 1,
+      "schema": 0
+    }
+  ],
+  "new_image_mappings": [
+    {
+      "old_url": "https://www.daklekkagesopgelost.nl/hubfs/761d9f96-f5e0-459d-86cd-9480f74e63c1.png",
+      "future_path": "assets/img/pages/diensten/diensten-01-medewerker-daklekkages-opgelost.webp",
+      "page": "diensten",
+      "alt": "Medewerker daklekkages opgelost"
+    }
+  ]
+}

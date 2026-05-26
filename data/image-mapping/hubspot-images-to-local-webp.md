@@ -35,3 +35,8 @@
 | spoedreparatie | https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Noodreparatie%20schoorsteen%20lekkage.jpg?width=860&t=1773180902849 | assets/img/pages/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp |
 | spoedreparatie | https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20renoveren%20in%20Velddriel.webp?width=860&t=1766605777869 | assets/img/pages/spoedreparatie/spoedreparatie-01-schoorsteen-renoveren-in-velddriel.webp |
 | spoedreparatie | https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Tijdelijke%20oplossing%20die%20het%20probleem%20verergerde.jpeg?width=860&t=1770824661718 | assets/img/pages/spoedreparatie/spoedreparatie-01-tijdelijke-oplossing-die-het-probleem-verergerde.webp |
+
+
+## Live website imports
+
+- `assets/img/pages/diensten/diensten-01-medewerker-daklekkages-opgelost.webp` <- https://www.daklekkagesopgelost.nl/hubfs/761d9f96-f5e0-459d-86cd-9480f74e63c1.png

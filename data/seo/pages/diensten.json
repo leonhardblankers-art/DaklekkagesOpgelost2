@@ -1,0 +1,28 @@
+{
+  "title": "Dienstenpagina Diensten",
+  "description": "Al uw daklekkages opgelost, hiervoor voeren wij een divers scala aan dakgerelateerde diensten uit. Zien wat wij voor u kunnen betekenen?",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/diensten/",
+  "ogTitle": "Dienstenpagina Diensten",
+  "ogDescription": "Al uw daklekkages opgelost, hiervoor voeren wij een divers scala aan dakgerelateerde diensten uit. Zien wat wij voor u kunnen betekenen?",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten/",
+        "url": "https://www.daklekkagesopgelost.nl/diensten/",
+        "name": "Dienstenpagina Diensten",
+        "description": "Al uw daklekkages opgelost, hiervoor voeren wij een divers scala aan dakgerelateerde diensten uit. Zien wat wij voor u kunnen betekenen?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}

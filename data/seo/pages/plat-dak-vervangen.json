@@ -1,0 +1,28 @@
+{
+  "title": "Plat dak vervangen",
+  "description": "Uw bitumen dak aan vervanging toe? Of is overlagen nog mogelijk, u leest het hier, of win direct informatie in bij één van onze experts!",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/plat-dak-vervangen/",
+  "ogTitle": "Plat dak vervangen",
+  "ogDescription": "Uw bitumen dak aan vervanging toe? Of is overlagen nog mogelijk, u leest het hier, of win direct informatie in bij één van onze experts!",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/plat-dak-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/plat-dak-vervangen/",
+        "name": "Plat dak vervangen",
+        "description": "Uw bitumen dak aan vervanging toe? Of is overlagen nog mogelijk, u leest het hier, of win direct informatie in bij één van onze experts!",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        }
+      }
+    ]
+  }
+}
