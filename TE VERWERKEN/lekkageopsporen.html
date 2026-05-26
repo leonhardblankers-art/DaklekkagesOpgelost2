@@ -1,0 +1,743 @@
+<!-- =============================================
+  DIENSTENPAGINA – LEKKAGE OPSPOREN (Premium, homepage-niveau)
+  - 2 kolommen op desktop
+  - Compacte spacing
+  - CTA's openen in nieuw tabblad (Typeform)
+  - Breadcrumb boven kicker
+  - Boven de vouw: hero-afbeelding eager + fetchpriority, rest lazy
+  - Afbeeldingen in 2-koloms secties: crop op desktop zodat beeld/tekst evenwichtig lopen
+============================================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --brand:#1D9753;
+    --brand2:#167a44;
+
+    --orange:#ff7a00;
+    --orangeDark:#ff6a00;
+    --orangeLight:#ff9a3a;
+
+    --ink:#0b0d10;
+    --muted:#606a78;
+
+    --bg:#ffffff;
+    --soft:#f6f8f7;
+
+    --stroke: rgba(15,17,21,.10);
+    --ring: rgba(29,151,83,.18);
+
+    --shadow2: 0 10px 25px rgba(15,17,21,.08);
+
+    --r:18px;
+    --max:1100px;
+  }
+
+  .dlo, .dlo *{ box-sizing:border-box; }
+  .dlo{ width:100%; color:var(--ink); font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  .dlo img{ max-width:100%; height:auto; display:block; }
+
+  /* Interne tekstlinks (niet-knoppen) in huisstijl groen + vet */
+  .dlo a[href^="/"]:not(.btn),
+  .dlo a[href^="https://www.daklekkagesopgelost.nl"]:not(.btn){
+    color: var(--brand) !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+  .dlo a[href^="/"]:not(.btn):hover,
+  .dlo a[href^="https://www.daklekkagesopgelost.nl"]:not(.btn):hover{
+    color: var(--brand2) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+  }
+
+  .dlo .sec{ padding:56px 20px; }
+  .dlo .sec.soft{ background:linear-gradient(180deg, var(--soft), #ffffff); }
+  .dlo .container{ max-width:var(--max); margin:0 auto; }
+
+  .dlo h1{ font-size:clamp(30px,3vw,44px); line-height:1.06; letter-spacing:-.6px; margin:0 0 12px; }
+  .dlo h2{ font-size:clamp(22px,2.2vw,32px); line-height:1.15; letter-spacing:-.25px; margin:0 0 10px; }
+  .dlo h3{ margin:0 0 6px; font-size:18px; letter-spacing:-.2px; }
+  .dlo p{ margin:0 0 14px; color:var(--muted); line-height:1.7; }
+
+  .breadcrumb{ font-size:13px; color:var(--muted); margin-bottom:10px; }
+
+  .kicker{
+    display:inline-flex;
+    gap:10px;
+    padding:8px 12px;
+    border-radius:999px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-weight:900;
+    font-size:13px;
+    margin-bottom:10px;
+    align-items:center;
+  }
+  .kdot{ width:8px;height:8px;border-radius:50%; background:var(--brand); box-shadow:0 0 0 6px var(--ring); }
+
+  /* Layout */
+  .split{
+    display:grid;
+    grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+    gap:24px;
+    align-items:stretch; /* belangrijk voor gelijk lopen */
+  }
+  .actions{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+
+  /* Buttons (geen underlines) */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:12px 16px;
+    border-radius:14px;
+    font-weight:900;
+    border:1px solid rgba(0,0,0,.10);
+    cursor:pointer;
+    text-decoration:none !important;
+    white-space:nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:hover, .btn:focus{ text-decoration:none !important; }
+  .btn.primary{ background:var(--brand); color:#fff; border-color: rgba(29,151,83,.22); }
+  .btn.outline{ background:#fff; color:var(--brand2); border-color:rgba(29,151,83,.40); }
+  .btn.ghost{ background:#fff; color:var(--ink); }
+
+  /* Media: crop op desktop zodat beeld/tekst evenwichtig lopen */
+  .media-card{
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:var(--shadow2);
+    position:relative;
+    background:#fff;
+    height:100%;
+  }
+  .media-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  /* Standaard ratio zorgt voor stabiele layout + minder CLS */
+  .media-card.media-ratio{ aspect-ratio: 16 / 10; }
+
+  /* Desktop: iets compacter zodat het niet “te hoog” wordt tov kopje/tekst */
+  @media(min-width:981px){
+    .media-card.media-ratio{ aspect-ratio: 16 / 11; }
+  }
+
+  .hero-note{
+    position:absolute;
+    left:20px; right:20px; bottom:20px;
+    padding:14px;
+    border-radius:16px;
+    background:rgba(255,255,255,.92);
+    border:1px solid rgba(15,17,21,.08);
+    font-size:14px;
+    line-height:1.6;
+  }
+
+  /* Cards */
+  .grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:16px; margin-top:16px; }
+  .card{ grid-column:span 6; background:#fff; border-radius:var(--r); box-shadow:var(--shadow2); padding:18px; }
+
+  /* Flow */
+  .flow{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+  .node{ background:#fff; padding:18px; border-radius:var(--r); box-shadow:var(--shadow2); }
+
+  /* 1) Subtiele groene glow (zoals screenshot) */
+  .glow-card{
+    position:relative;
+    background:#fff;
+    border-radius:var(--r);
+    box-shadow:0 10px 25px rgba(15,17,21,.06);
+    transition:box-shadow .25s ease, transform .25s ease;
+    overflow:hidden;
+  }
+  .glow-card::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius:inherit;
+    background:radial-gradient(680px 160px at 20% 0%, rgba(29,151,83,.18), transparent 60%);
+    opacity:.0;
+    transition:opacity .3s ease;
+    pointer-events:none;
+  }
+  .glow-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 40px rgba(15,17,21,.10);
+  }
+  .glow-card:hover::before{ opacity:1; }
+
+  /* 2) Glow ook toepassen op bestaande cards/nodes (homepage feel) */
+  .card, .node{
+    position:relative;
+    overflow:hidden;
+    transition: box-shadow .25s ease, transform .25s ease;
+  }
+  .card::before, .node::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius:inherit;
+    background:radial-gradient(680px 160px at 20% 0%, rgba(29,151,83,.16), transparent 60%);
+    opacity:0;
+    transition:opacity .3s ease;
+    pointer-events:none;
+  }
+  .card:hover, .node:hover{ transform: translateY(-2px); box-shadow: 0 18px 40px rgba(15,17,21,.10); }
+  .card:hover::before, .node:hover::before{ opacity:1; }
+
+  /* 3) Premium “keuzehulp” met uitklappen (over de glow) */
+  .decision{
+    position:relative;
+    background: linear-gradient(180deg, #ffffff, #fbfcfb);
+    border:1px solid rgba(15,17,21,.06);
+    border-radius: 26px;
+    box-shadow: 0 24px 60px rgba(15,17,21,.08);
+    padding: 22px;
+    overflow:hidden;
+  }
+  .decision::before{
+    content:"";
+    position:absolute;
+    inset:-1px;
+    background: radial-gradient(900px 200px at 18% 0%, rgba(29,151,83,.14), transparent 60%);
+    pointer-events:none;
+  }
+  .decision-head{ text-align:center; position:relative; }
+  .decision-head h2{ margin-bottom:6px; }
+  .decision-head p{ margin:0 auto 0; max-width: 60ch; }
+
+  .choice-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;
+    margin-top:18px;
+    position:relative;
+  }
+
+  details.choice-item{
+    background:#fff;
+    border: 1px solid rgba(15,17,21,.06);
+    border-radius: var(--r);
+    box-shadow: 0 10px 25px rgba(15,17,21,.06);
+    overflow:hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  details.choice-item:hover{ transform: translateY(-2px); box-shadow: 0 18px 40px rgba(15,17,21,.10); }
+
+  .choice-summary{
+    list-style:none;
+    cursor:pointer;
+    padding:18px;
+    display:flex;
+    gap:12px;
+    align-items:center;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .choice-summary::-webkit-details-marker{ display:none; }
+
+  .choice-ic{
+    width:42px; height:42px;
+    border-radius: 14px;
+    background: rgba(29,151,83,.10);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: var(--brand2);
+    flex:0 0 42px;
+    font-weight: 900;
+  }
+
+  /* pijltje naar beneden (desktop groter) */
+  .choice-arrow{
+    margin-left:auto;
+    color: var(--brand2);
+    font-size: 18px;
+    line-height: 1;
+    transition: transform .2s ease;
+  }
+  details[open] .choice-arrow{ transform: rotate(180deg); }
+  @media(min-width:981px){
+    .choice-arrow{ font-size: 34px; }
+  }
+
+  .choice-body{ padding: 0 18px 18px; }
+  .choice-body p{ margin: 0 0 12px; font-size: 14px; }
+
+  .pills{ display:flex; flex-wrap:wrap; gap:8px; }
+  .pill{
+    display:inline-flex;
+    align-items:center;
+    padding:6px 10px;
+    border-radius:999px;
+    background: rgba(29,151,83,.06);
+    border:1px solid rgba(29,151,83,.14);
+    color: var(--brand2);
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration:none !important;
+  }
+
+  /* FAQ accordion (premium) */
+  .faq{ display:grid; gap:10px; margin-top:14px; }
+  .faq details{
+    background: linear-gradient(180deg, #fff, #fbfcfb);
+    border:1px solid rgba(15,17,21,.07);
+    border-radius: var(--r);
+    box-shadow: var(--shadow2);
+    overflow:hidden;
+  }
+  .faq summary{
+    cursor:pointer;
+    list-style:none;
+    padding:14px 14px;
+    font-weight:900;
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq .qdot{
+    width:10px;height:10px;border-radius:50%;
+    background: rgba(29,151,83,.55);
+    box-shadow:0 0 0 6px rgba(29,151,83,.12);
+    flex:0 0 10px;
+  }
+  .faq .chev{ margin-left:auto; color:var(--brand2); font-size:20px; transition:transform .2s ease; }
+  .faq details[open] .chev{ transform:rotate(180deg); }
+  .faq .ans{ padding:0 14px 14px; }
+  .faq .ans p{ margin:0; font-size:15px; }
+
+  /* 4) Subtiele micro-animaties (reveal on scroll) */
+  .reveal{ opacity:0; transform: translateY(10px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.is-in{ opacity:1; transform:none; }
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ opacity:1; transform:none; transition:none; }
+  }
+
+  /* =========================
+     STICKY CTA (HOMEPAGE) – zoals screenshot
+     ========================= */
+  .sticky-cta{
+    position:fixed;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:9999;
+    display:none;
+
+    width:240px;
+    padding:16px;
+
+    border-radius:18px;
+    border:2px solid rgba(255,122,0,.95);
+    background:#fff;
+    box-shadow:0 18px 45px rgba(15,17,21,.18);
+  }
+  .sticky-cta.is-visible{ display:block; }
+
+  .sticky-cta__head{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    margin-bottom:12px;
+  }
+  .sticky-cta__dot{
+    width:10px;
+    height:10px;
+    border-radius:999px;
+    background:rgba(255,122,0,.95);
+    margin-top:6px;
+    flex:0 0 10px;
+    box-shadow:0 0 0 6px rgba(255,122,0,.16);
+  }
+  .sticky-cta__title{
+    margin:0;
+    font-weight:900;
+    color:var(--ink);
+    font-size:15px;
+    line-height:1.2;
+    letter-spacing:-.2px;
+  }
+
+  .sticky-cta__btns{ display:grid; gap:10px; }
+
+  .sticky-cta__btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    padding:12px 12px;
+    border-radius:14px;
+    font-weight:900;
+    text-decoration:none !important;
+    border:1px solid rgba(0,0,0,.10);
+    white-space:nowrap;
+  }
+
+  .sticky-cta__btn--primary{
+    background: var(--orange);
+    color:#fff !important;
+    border-color:rgba(255,122,0,.35);
+    box-shadow:0 10px 20px rgba(255,122,0,.20);
+  }
+
+  .sticky-cta__btn--outline{
+    background:#fff;
+    color: var(--brand2) !important;
+    border-color:rgba(29,151,83,.45);
+  }
+
+  .sticky-cta__foot{
+    margin-top:12px;
+    font-size:12.5px;
+    color:var(--muted);
+    line-height:1.35;
+  }
+
+  @media(max-width:980px){
+    .sticky-cta{ display:none !important; }
+  }
+</style>
+
+<div class="dlo">
+  <div class="wrap">
+
+    <!-- Sticky CTA (desktop) – homepage variant -->
+    <aside class="sticky-cta" aria-label="Snelle actie">
+      <div class="sticky-cta__head">
+        <span class="sticky-cta__dot" aria-hidden="true"></span>
+        <p class="sticky-cta__title">Daklekkage in Gelderland<br>of Brabant?</p>
+      </div>
+
+      <div class="sticky-cta__btns">
+        <a class="sticky-cta__btn sticky-cta__btn--primary"
+           href="https://form.typeform.com/to/rQsxIgyZ"
+           target="_blank" rel="noopener">Gratis inspectie →</a>
+
+        <a class="sticky-cta__btn sticky-cta__btn--outline"
+           href="tel:0851308251">Bel direct</a>
+      </div>
+
+      <div class="sticky-cta__foot">Actief in Gelderland • Noord-Brabant • Utrecht</div>
+    </aside>
+
+    <!-- HERO -->
+    <section class="sec soft reveal">
+      <div class="container">
+
+        <div class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> › <a href="/lekkages">Lekkages</a> › <span style="font-weight:800;color:var(--ink)">Lekkage opsporen</span>
+        </div>
+
+        <div class="split">
+          <div>
+            <div class="kicker"><span class="kdot"></span> Lekkage opsporen in Gelderland, Noord-Brabant of Utrecht</div>
+            <h1>Lekkage opsporen: de oorzaak vinden zonder onnodig breekwerk</h1>
+
+            <p>Een lekkage opsporen is zelden zo eenvoudig als het lijkt. Water laat zich pas zien waar het kan, niet waar het probleem ontstaat. Daardoor wordt de oorzaak vaak verkeerd ingeschat en blijft schade terugkomen.</p>
+            <p>Bij Daklekkages Opgelost richten we ons volledig op het gericht opsporen van lekkages, zodat herstel niet groter, duurder of ingrijpender wordt dan nodig.</p>
+
+            <div class="actions">
+              <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Lekkage laten opsporen →</a>
+              <a class="btn outline" href="https://www.daklekkagesopgelost.nl/spoedreparatie">Spoedreparatie</a>
+              <a class="btn ghost" href="tel:0851308251">Bel direct</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="media-card media-contrast media-ratio">
+              <!-- Boven de vouw: eager + fetchpriority -->
+              <img
+                src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20opsporen%20op%20een%20hellend%20dak.jpeg?width=860&t=1771766376807"
+                alt="Lekkage opsporen op een hellend dak"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                width="860"
+                height="590">
+              <div class="hero-note"><b>Belangrijk:</b> De zichtbare plek is zelden de oorzaak.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PREMIUM KEUZEHULP (met glow + uitklap) -->
+    <section class="sec" id="keuzehulp">
+      <div class="container">
+        <div class="decision reveal">
+          <div class="decision-head">
+            <div class="kicker" style="margin:0 auto 10px;"><span class="kdot"></span> Snel bepalen wat past</div>
+            <h2>Wat past bij jouw situatie?</h2>
+            <p>Klik een kaart open. Je ziet direct de relevante uitleg, zonder dat er tekst verdwijnt.</p>
+          </div>
+
+          <div class="choice-grid">
+            <details class="choice-item reveal" open>
+              <summary class="choice-summary">
+                <span class="choice-ic">?</span>
+                <span>Twijfel</span>
+                <span class="choice-arrow" aria-hidden="true">▾</span>
+              </summary>
+              <div class="choice-body">
+                <p>Twijfel je over de staat van je dak, maar zie je (nog) geen duidelijke lekkage? Dan is lekkage opsporen vaak de meest directe route naar zekerheid, omdat de zichtbare plek zelden de oorzaak is.</p>
+                <div class="pills">
+                  <a class="pill" href="#techniek">Waarom?</a>
+                  <a class="pill" href="#aanpak">Onze aanpak</a>
+                  <a class="pill" href="#faq">Vragen</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="choice-item reveal">
+              <summary class="choice-summary">
+                <span class="choice-ic">⛈</span>
+                <span>Na storm</span>
+                <span class="choice-arrow" aria-hidden="true">▾</span>
+              </summary>
+              <div class="choice-body">
+                <p>Na harde wind of slagregen kunnen zwakke details (nokken, randen, doorvoeren) nét open gaan staan. Opsporen voorkomt dat je alleen symptoombestrijdt en de lekkage later terugkeert.</p>
+                <div class="pills">
+                  <a class="pill" href="#daktypes">Daktypes</a>
+                  <a class="pill" href="https://www.daklekkagesopgelost.nl/spoedreparatie">Spoed?</a>
+                  <a class="pill" href="#aanpak">Stappen</a>
+                </div>
+              </div>
+            </details>
+
+            <details class="choice-item reveal">
+              <summary class="choice-summary">
+                <span class="choice-ic">🏡</span>
+                <span>Voor aankoop/verkoop</span>
+                <span class="choice-arrow" aria-hidden="true">▾</span>
+              </summary>
+              <div class="choice-body">
+                <p>Bij (ver)koop wil je geen aannames. Opsporen geeft duidelijkheid over oorzaak en risico’s. Als formele onderbouwing nodig is, kan een rapportage een logische vervolgstap zijn.</p>
+                <div class="pills">
+                  <a class="pill" href="https://www.daklekkagesopgelost.nl/dakinspectie">Inspectie</a>
+                  <a class="pill" href="https://www.daklekkagesopgelost.nl/rapportage-dakinspectie">Rapportage</a>
+                  <a class="pill" href="#faq">FAQ</a>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WANNEER NODIG -->
+    <section class="sec reveal">
+      <div class="container">
+        <div class="kicker"><span class="kdot"></span> Wanneer is opsporen nodig?</div>
+        <h2>Wanneer is lekkage opsporen verstandig?</h2>
+
+        <p>Lekkage opsporen is vooral zinvol wanneer:</p>
+
+        <div class="grid">
+          <div class="card reveal"><h3>De oorzaak niet direct zichtbaar is</h3><p>De schadeplek vertelt zelden waar het water binnenkomt.</p></div>
+          <div class="card reveal"><h3>Eerdere reparaties niet hebben geholpen</h3><p>Als het terugkomt, is de waterweg vaak niet goed verklaard.</p></div>
+          <div class="card reveal"><h3>Water op wisselende plekken zichtbaar wordt</h3><p>Water verplaatst zich via isolatie, dakbeschot en constructiedelen.</p></div>
+          <div class="card reveal"><h3>Er schade ontstaat zonder duidelijke regenval</h3><p>Condens, capillaire werking of verborgen routes kunnen meespelen.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNIEK -->
+    <section class="sec soft reveal" id="techniek">
+      <div class="container">
+        <div class="kicker"><span class="kdot"></span> Technische achtergrond</div>
+        <h2>Waarom lekkages vaak verkeerd worden gerepareerd</h2>
+
+        <div class="split">
+          <div>
+            <p>Een veelgemaakte fout is het herstellen van de plek waar het water zichtbaar is. Dat voelt logisch, maar technisch klopt het zelden. Water verplaatst zich via isolatie, dakbeschot en constructiedelen. Daardoor kan de echte oorzaak zich meters verderop bevinden.</p>
+            <p>Zonder lekkageonderzoek bestaat het risico op herhaald terugkerende lekkage, oplopende gevolgschade aan hout en isolatie en onnodig openbreken van dak of interieur.</p>
+            <p>Lekkage opsporen draait daarom niet om snelheid, maar om zekerheid: de exacte ingang vaststellen zodat herstel gericht kan plaatsvinden.</p>
+          </div>
+          <div>
+            <div class="media-card media-ratio">
+              <img
+                src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20opsporen%20bij%20een%20sterk%20veroudert%20pannendak.jpeg?width=860&t=1771766383274"
+                alt="Lekkage opsporen bij een sterk verouderd pannendak"
+                loading="lazy"
+                decoding="async"
+                width="860"
+                height="590">
+              <div class="hero-note"><b>Veelvoorkomend:</b> zwakke details bij nok, randen en aansluitingen — niet bij de zichtbare plek binnen.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAKTYPES -->
+    <section class="sec reveal" id="daktypes">
+      <div class="container">
+        <div class="kicker"><span class="kdot"></span> Daktypes</div>
+        <h2>Lekkage opsporen bij verschillende dakconstructies</h2>
+        <p>Er bestaat geen standaardmethode die in alle situaties werkt. De gekozen techniek hangt af van het type dak, de aard van de klacht en de bouwkundige situatie.</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Platte daken</h3>
+            <p>Bij platte daken bevindt de oorzaak zich vaak bij naden, opstanden of doorvoeren. Water blijft langer staan, waardoor kleine imperfecties langzaam uitgroeien tot lekkages.</p>
+          </div>
+          <div class="card">
+            <h3>Schuine daken</h3>
+            <p>Bij pannendaken spelen verschoven pannen, verouderde loodslabben en aansluitingen een grote rol. De lekkage toont zich vaak pas aan de binnenzijde, terwijl het probleem zich hoger op het dak bevindt.</p>
+          </div>
+          <div class="card">
+            <h3>Dakkapellen en dakramen</h3>
+            <p>Extra dakonderbrekingen vergroten de kans op lekkage. Hier komen verschillende materialen samen die elk anders werken onder weersinvloeden.</p>
+          </div>
+          <div class="card">
+            <h3>Kwetsbare aansluitingen</h3>
+            <p>Details rond randen, doorvoeren en schoorstenen zijn kritisch. Kijk ook bij <a href="https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen"><strong>loodafwerkingen</strong></a> en <a href="https://www.daklekkagesopgelost.nl/schoorsteenrenovatie"><strong>schoorsteenrenovatie</strong></a>.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <div class="media-card media-ratio">
+            <img
+              src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20bij%20een%20pannendak.jpeg?width=860&t=1771766368648"
+              alt="Lekkage bij een pannendak"
+              loading="lazy"
+              decoding="async"
+              width="860"
+              height="590">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AANPAK / FLOW (enkel 1x, dubbele kop verwijderd) -->
+    <section class="sec soft reveal" id="aanpak">
+      <div class="container">
+        <div class="kicker"><span class="kdot"></span> Onze aanpak</div>
+        <h2>Hoe wij een lekkage opsporen</h2>
+
+        <div class="flow">
+          <div class="node reveal"><strong>1. Inspectie</strong><p>Analyse van dak en aansluitingen (veroudering, details, afwatering, eerdere ingrepen).</p></div>
+          <div class="node reveal"><strong>2. Gerichte test</strong><p>Waar nodig aanvullende metingen/tests om de waterweg te verklaren.</p></div>
+          <div class="node reveal"><strong>3. Lokaliseren</strong><p>Exacte ingang van water vaststellen zodat herstel gericht kan plaatsvinden.</p></div>
+          <div class="node reveal"><strong>4. Advies</strong><p>Heldere vervolgstap: lokaal herstel, onderhoud, of structurele oplossing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (uitgebreid + accordeon) -->
+    <section class="sec reveal" id="faq">
+      <div class="container">
+        <div class="kicker"><span class="kdot"></span> Veelgestelde vragen</div>
+        <h2>Veelgestelde vragen over lekkage opsporen</h2>
+
+        <div class="faq reveal">
+          <details open>
+            <summary><span class="qdot" aria-hidden="true"></span> Wat kost lekkage opsporen? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>De kosten hangen af van de complexiteit en het type dak. In veel gevallen zijn de kosten lager dan herhaalde, mislukte reparaties. U betaalt vooral voor zekerheid: de juiste oorzaak, zodat herstel gericht kan gebeuren.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Is lekkage opsporen altijd nodig? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>Nee. Als de oorzaak direct zichtbaar en logisch is, kan herstel soms zonder uitgebreid onderzoek plaatsvinden. Bij twijfel voorkomt opsporen dat er op gevoel wordt gerepareerd.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Wordt de lekkage altijd direct gevonden? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>In de meeste gevallen wel. Sommige lekkages zijn complex of weersafhankelijk. Dan kan aanvullend onderzoek nodig zijn om volledige zekerheid te krijgen.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Kan een lekkage tijdelijk stoppen? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>Ja, bijvoorbeeld bij droog weer. Dat betekent niet dat het probleem is opgelost. De onderliggende oorzaak blijft meestal aanwezig en kan terugkomen bij andere windrichting of neerslag.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Waarom is de vochtplek vaak niet de oorzaak? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>Water verplaatst zich via isolatie, dakbeschot en constructiedelen. Het komt tevoorschijn waar het kan, niet waar het binnenkomt. Daarom is lokaliseren belangrijk vóór herstel.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Wat is een logische vervolgstap na opsporen? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>Meestal lokaal herstel van het detail waar water binnenkomt. Soms is onderhoud of een structurele oplossing nodig (bij meerdere zwakke plekken). Bij spoed kan <a href="https://www.daklekkagesopgelost.nl/spoedreparatie"><strong>spoedreparatie</strong></a> vooraf schade beperken.</p></div>
+          </details>
+
+          <details>
+            <summary><span class="qdot" aria-hidden="true"></span> Helpt lekkage opsporen ook bij verzekeringskwesties? <span class="chev" aria-hidden="true">▾</span></summary>
+            <div class="ans"><p>Ja, omdat de technische oorzaak helder wordt. Als er formele onderbouwing nodig is, kan een <a href="https://www.daklekkagesopgelost.nl/rapportage-dakinspectie"><strong>rapportage dakinspectie</strong></a> een passende extra stap zijn.</p></div>
+          </details>
+        </div>
+
+        <div class="actions" style="margin-top:14px;">
+          <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Laat uw lekkage opsporen →</a>
+          <a class="btn outline" href="tel:0851308251">Direct telefonisch contact</a>
+        </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+(function(){
+  // Subtiele micro-animaties (reveal on scroll)
+  var targets = [].slice.call(document.querySelectorAll('.reveal'));
+  if(!targets.length) return;
+
+  // Als prefers-reduced-motion: meteen tonen
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    targets.forEach(function(el){ el.classList.add('is-in'); });
+    return;
+  }
+
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -10% 0px' });
+
+    targets.forEach(function(el){ io.observe(el); });
+  } else {
+    targets.forEach(function(el){ el.classList.add('is-in'); });
+  }
+})();
+</script>
+
+<script>
+/* Sticky CTA (homepage) – zichtbaar bij scroll > 300px en scherm > 980px */
+(function(){
+  var cta = document.querySelector('.sticky-cta');
+  if(!cta) return;
+
+  function toggleCTA(){
+    if(window.innerWidth > 980 && window.scrollY > 300){
+      cta.classList.add('is-visible');
+    } else {
+      cta.classList.remove('is-visible');
+    }
+  }
+
+  window.addEventListener('scroll', toggleCTA, { passive:true });
+  window.addEventListener('resize', toggleCTA);
+  toggleCTA();
+})();
+</script>
+

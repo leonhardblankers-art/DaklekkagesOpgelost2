@@ -1,0 +1,1750 @@
+<!-- =============================================
+  OVER ONS – PREMIUM PAGINA v1.3b
+  - Vast eigen team-sectie visueel sterker gemaakt
+  - Garantie-info opent zonder naastliggende kaarten op te rekken
+  - CTA micro-pills visueel premium en positief gemaakt
+  - Werkgebied in homepage-logica
+  - Team geüpdatet naar 8 personen
+============================================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --brand:#1D9753;
+    --brand2:#167a44;
+    --brand3:#0f5f34;
+
+    --orange:#ff7a00;
+    --orangeDark:#ef6500;
+
+    --ink:#0b0d10;
+    --muted:#5f6875;
+    --muted2:#7c8795;
+
+    --bg:#ffffff;
+    --soft:#f6f8f7;
+
+    --line:rgba(12,14,18,.08);
+
+    --shadow-xs:0 6px 18px rgba(15,17,21,.05);
+    --shadow-sm:0 12px 30px rgba(15,17,21,.08);
+    --shadow-md:0 20px 50px rgba(15,17,21,.10);
+    --shadow-lg:0 34px 80px rgba(15,17,21,.14);
+
+    --max:1160px;
+  }
+
+  .dlo, .dlo *{ box-sizing:border-box; }
+  .dlo{
+    width:100%;
+    max-width:100%;
+    color:var(--ink);
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    background:var(--bg);
+  }
+  .dlo img{ max-width:100% !important; display:block !important; }
+  .dlo a{ text-decoration:none; }
+  .dlo .wrap{ width:100%; background:var(--bg); }
+
+  .dlo .sec{
+    position:relative;
+    padding:44px 20px;
+    width:100%;
+  }
+  .dlo .sec.soft{
+    background:
+      radial-gradient(1000px 280px at 20% 0%, rgba(29,151,83,.07), transparent 60%),
+      linear-gradient(180deg, #f8faf9, #ffffff 74%);
+  }
+  .dlo .sec.band{
+    background:linear-gradient(180deg, #ffffff 0%, #f8faf9 100%);
+  }
+  .dlo .container{
+    width:100%;
+    max-width:var(--max);
+    margin:0 auto;
+    position:relative;
+    z-index:2;
+  }
+
+  .dlo h1{
+    font-size:clamp(34px,4vw,54px);
+    line-height:1.02;
+    letter-spacing:-1.25px;
+    margin:0 0 14px;
+    max-width:12ch;
+    text-wrap:balance;
+  }
+  .dlo h2{
+    font-size:clamp(24px,2.35vw,31px);
+    line-height:1.08;
+    letter-spacing:-.9px;
+    margin:0 0 12px;
+    text-wrap:balance;
+  }
+  .dlo h3{
+    margin:0;
+    font-size:19px;
+    line-height:1.2;
+    letter-spacing:-.25px;
+    text-wrap:balance;
+  }
+  .dlo h4{
+    margin:0;
+    font-size:16px;
+    line-height:1.25;
+    letter-spacing:-.2px;
+    text-wrap:balance;
+  }
+  .dlo p{
+    margin:0 0 10px;
+    color:var(--muted);
+    line-height:1.78;
+    font-size:16px;
+  }
+  .dlo .lead{
+    font-size:18px;
+    line-height:1.8;
+    color:#4e5764;
+    max-width:64ch;
+  }
+
+  .section-intro{
+    max-width:920px;
+    margin-bottom:18px;
+  }
+  .section-intro.center{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1040px;
+  }
+
+  .breadcrumb{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    align-items:center;
+    font-size:13px;
+    color:var(--muted2);
+    margin-bottom:18px;
+  }
+  .breadcrumb a{ color:var(--muted2); }
+  .breadcrumb .current{ color:var(--ink); font-weight:800; }
+
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:9px 14px;
+    border-radius:999px;
+    background:rgba(29,151,83,.09);
+    border:1px solid rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    margin:0 0 14px;
+  }
+  .eyebrow .dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:var(--brand);
+    box-shadow:0 0 0 7px rgba(29,151,83,.11);
+  }
+
+  .eyebrow.orange{
+    background:rgba(255,122,0,.08);
+    border-color:rgba(255,122,0,.16);
+    color:#b54f00;
+  }
+  .eyebrow.orange .dot{
+    background:var(--orange);
+    box-shadow:0 0 0 7px rgba(255,122,0,.12);
+  }
+
+  .actions{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:18px;
+  }
+  .actions .btn{ flex:1 1 calc(50% - 12px); min-width:210px; }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:14px 16px;
+    border-radius:16px;
+    font-weight:900;
+    border:1px solid var(--line);
+    transition:transform .18s ease, box-shadow .18s ease, filter .18s ease, background .18s ease, border-color .18s ease;
+    cursor:pointer;
+    text-decoration:none !important;
+    white-space:nowrap;
+  }
+  .btn:hover{
+    transform:translateY(-2px);
+    box-shadow:var(--shadow-sm);
+  }
+  .btn.primary{
+    color:#fff;
+    background:linear-gradient(180deg, var(--brand), var(--brand2));
+    border-color:rgba(29,151,83,.3);
+    box-shadow:0 12px 28px rgba(29,151,83,.18);
+  }
+  .btn.primary:hover{ filter:brightness(1.03); }
+  .btn.outline{
+    background:#fff;
+    color:var(--brand3);
+    border-color:rgba(29,151,83,.28);
+  }
+  .btn.ghost{
+    background:#fff;
+    color:var(--ink);
+    border-color:var(--line);
+  }
+
+  .split{
+    display:grid;
+    grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);
+    gap:24px;
+    align-items:start;
+  }
+  .split.stretch{ align-items:stretch; }
+
+  .hero-shell{
+    position:relative;
+    overflow:hidden;
+    border-radius:34px;
+    background:
+      radial-gradient(1300px 450px at 0% 0%, rgba(29,151,83,.09), transparent 60%),
+      linear-gradient(135deg, #ffffff, #f8faf9);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-md);
+    padding:26px;
+  }
+
+  .hero-copy{
+    position:relative;
+    z-index:2;
+    padding:6px 4px 4px;
+  }
+
+  .hero-highlights{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:10px;
+    margin:22px 0 0;
+  }
+  .hero-stat{
+    background:rgba(255,255,255,.9);
+    border:1px solid rgba(12,14,18,.06);
+    border-radius:18px;
+    box-shadow:var(--shadow-xs);
+    padding:14px 14px 13px;
+  }
+  .hero-stat strong{
+    display:block;
+    font-size:14px;
+    line-height:1.25;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+  .hero-stat span{
+    display:block;
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.5;
+  }
+
+  .notice{
+    margin-top:18px;
+    border-radius:20px;
+    padding:16px 16px;
+    background:linear-gradient(180deg, rgba(255,122,0,.10), rgba(255,122,0,.06));
+    border:1px solid rgba(255,122,0,.2);
+    box-shadow:var(--shadow-xs);
+  }
+  .notice .head{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-weight:900;
+    color:var(--ink);
+    margin-bottom:6px;
+  }
+  .notice .head .dot{
+    width:10px;height:10px;border-radius:50%;
+    background:var(--orange);
+    box-shadow:0 0 0 6px rgba(255,122,0,.13);
+  }
+  .notice p{ margin:0; }
+
+  .media-wrap{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+  }
+  .media-card{
+    position:relative;
+    flex:1 1 auto;
+    min-height:100%;
+    overflow:hidden;
+    border-radius:30px;
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:var(--shadow-lg);
+    background:#000;
+    isolation:isolate;
+  }
+  .media-card img{
+    width:100% !important;
+    height:100% !important;
+    min-height:100% !important;
+    object-fit:cover !important;
+    object-position:center center !important;
+  }
+  .media-card:before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      linear-gradient(180deg, rgba(0,0,0,.18), rgba(0,0,0,.04) 35%, rgba(0,0,0,.48)),
+      radial-gradient(800px 260px at 10% 0%, rgba(0,0,0,.32), transparent 60%);
+    z-index:1;
+    pointer-events:none;
+  }
+
+  .hero-chip{
+    position:absolute;
+    top:18px;
+    left:18px;
+    z-index:3;
+    display:inline-flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:4px;
+    padding:12px 14px;
+    border-radius:20px;
+    background:rgba(255,255,255,.93);
+    border:1px solid rgba(12,14,18,.08);
+    box-shadow:0 14px 34px rgba(0,0,0,.16);
+    color:var(--ink);
+    font-weight:900;
+    line-height:1.1;
+  }
+  .hero-chip small{
+    font-size:12px;
+    font-weight:700;
+    color:var(--muted);
+  }
+
+  .glass-note{
+    position:absolute;
+    left:18px;
+    right:18px;
+    bottom:18px;
+    z-index:3;
+    padding:16px 18px;
+    border-radius:22px;
+    background:rgba(255,255,255,.88);
+    border:1px solid rgba(255,255,255,.45);
+    backdrop-filter:blur(12px);
+    box-shadow:0 16px 40px rgba(0,0,0,.18);
+  }
+  .glass-note p{
+    margin:0;
+    color:#4c5561;
+    font-size:14px;
+    line-height:1.65;
+  }
+  .glass-note b{ color:var(--ink); }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    gap:16px;
+    margin-top:18px;
+  }
+  .card{
+    grid-column:span 6;
+    position:relative;
+    overflow:hidden;
+    border-radius:24px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-sm);
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 42px rgba(15,17,21,.11);
+    border-color:rgba(29,151,83,.18);
+  }
+  .card:before{
+    content:"";
+    position:absolute;
+    inset:0 0 auto 0;
+    height:4px;
+    background:linear-gradient(90deg, var(--brand), rgba(29,151,83,.18));
+  }
+  .card-in{
+    padding:22px;
+    display:grid;
+    gap:9px;
+    height:100%;
+  }
+  .card-in p{ margin:0; }
+  .card-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    align-self:flex-start;
+    padding:7px 10px;
+    border-radius:999px;
+    background:rgba(29,151,83,.08);
+    color:var(--brand2);
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:.02em;
+  }
+  .card-badge .dot{
+    width:8px;height:8px;border-radius:50%;background:var(--brand);
+  }
+
+  .mini-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;
+    margin-top:18px;
+  }
+  .mini-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:22px;
+    background:linear-gradient(180deg,#ffffff,#fafbfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-sm);
+    padding:20px;
+  }
+  .mini-card:before{
+    content:"";
+    position:absolute;
+    inset:0 auto 0 0;
+    width:4px;
+    background:linear-gradient(180deg,var(--brand),rgba(29,151,83,.18));
+  }
+  .mini-card h4{ margin:0 0 8px; }
+  .mini-card p{
+    margin:0;
+    font-size:14px;
+    line-height:1.65;
+  }
+
+  .highlight-band,
+  .service-area-shell,
+  .summary-stage{
+    border-radius:28px;
+    padding:24px;
+    background:
+      radial-gradient(1000px 280px at 0% 0%, rgba(29,151,83,.07), transparent 60%),
+      linear-gradient(180deg,#ffffff,#f8faf9);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-md);
+  }
+
+  .flow{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:16px;
+    margin-top:18px;
+  }
+  .node{
+    position:relative;
+    overflow:hidden;
+    border-radius:24px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-sm);
+    padding:22px 18px 18px;
+  }
+  .node:before{
+    content:"";
+    position:absolute;
+    inset:0 0 auto 0;
+    height:5px;
+    background:linear-gradient(90deg,var(--brand),rgba(29,151,83,.22));
+  }
+  .node-top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+  }
+  .chip{
+    width:42px;
+    height:42px;
+    border-radius:15px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:900;
+    flex:0 0 42px;
+  }
+  .node p{
+    margin:0;
+    font-size:14px;
+    line-height:1.7;
+  }
+
+  /* Vast team sterker */
+  .trust-shell{
+    border-radius:30px;
+    padding:24px;
+    background:
+      radial-gradient(1000px 280px at 0% 0%, rgba(29,151,83,.10), transparent 60%),
+      linear-gradient(180deg,#ffffff,#f8faf9);
+    border:1px solid rgba(29,151,83,.10);
+    box-shadow:var(--shadow-md);
+  }
+  .trust-hero{
+    position:relative;
+    overflow:hidden;
+    border-radius:26px;
+    padding:22px;
+    background:
+      linear-gradient(135deg, rgba(29,151,83,.10), rgba(29,151,83,.04)),
+      #fff;
+    border:1px solid rgba(29,151,83,.14);
+    box-shadow:var(--shadow-sm);
+    margin-bottom:18px;
+  }
+  .trust-hero:before{
+    content:"";
+    position:absolute;
+    right:-60px;
+    top:-60px;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:radial-gradient(circle, rgba(29,151,83,.10), transparent 65%);
+    pointer-events:none;
+  }
+  .trust-title-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:10px;
+  }
+  .trust-icon{
+    width:52px;
+    height:52px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#fff;
+    color:var(--brand2);
+    border:1px solid rgba(29,151,83,.14);
+    box-shadow:var(--shadow-xs);
+    flex:0 0 52px;
+  }
+  .trust-strong-line{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    margin-top:14px;
+  }
+  .trust-strong-line span{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 12px;
+    border-radius:999px;
+    background:#fff;
+    color:var(--brand2);
+    border:1px solid rgba(29,151,83,.14);
+    font-size:13px;
+    font-weight:900;
+    box-shadow:var(--shadow-xs);
+  }
+  .trust-strong-line .dot{
+    width:8px;height:8px;border-radius:50%;background:var(--brand);
+  }
+
+  .trust-strip{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;
+  }
+  .trust-pill{
+    border-radius:22px;
+    padding:18px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-xs);
+  }
+  .trust-pill strong{
+    display:block;
+    margin-bottom:6px;
+    color:var(--ink);
+    font-size:16px;
+    line-height:1.35;
+  }
+  .trust-pill p{
+    margin:0;
+    font-size:14px;
+    line-height:1.65;
+  }
+
+  .service-area-grid{
+    display:grid;
+    grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+    gap:18px;
+    align-items:start;
+  }
+  .service-panel{
+    border-radius:24px;
+    padding:18px;
+    background:#f1f6f3;
+    border:1px solid rgba(29,151,83,.12);
+    box-shadow:var(--shadow-xs);
+  }
+  .service-panel h3{
+    font-size:18px;
+    margin:0 0 14px;
+  }
+  .service-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:16px;
+  }
+  .tag{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:52px;
+    padding:12px 18px;
+    border-radius:999px;
+    background:#dfe9e3;
+    border:1px solid rgba(29,151,83,.12);
+    color:var(--brand2);
+    font-weight:900;
+    font-size:16px;
+    line-height:1.1;
+  }
+  .tag.primary{
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+  }
+  .tag.soft{
+    background:#f4f5f4;
+    color:#17191d;
+    border-color:rgba(12,14,18,.08);
+  }
+
+  .service-points{
+    display:grid;
+    gap:12px;
+  }
+  .service-point{
+    display:grid;
+    grid-template-columns:30px minmax(0,1fr);
+    gap:12px;
+    align-items:start;
+  }
+  .service-check{
+    width:24px;
+    height:24px;
+    border-radius:7px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(180deg, #2ad363, #15b94c);
+    color:#fff;
+    font-size:15px;
+    font-weight:900;
+    box-shadow:0 8px 18px rgba(21,185,76,.18);
+    margin-top:2px;
+  }
+  .service-point p{
+    margin:0;
+    font-size:15px;
+    line-height:1.65;
+  }
+  .service-point b{ color:var(--ink); }
+
+  .country-note{
+    border-radius:22px;
+    padding:18px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-xs);
+  }
+  .province-wrap{ margin-top:18px; }
+  .province-label{
+    margin:0 0 14px;
+    color:#646d7a;
+    font-size:15px;
+    font-weight:800;
+  }
+  .province-chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px 14px;
+  }
+
+  /* Garantie grid met stabiele kaarten */
+  .guarantee-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+    margin-top:18px;
+    align-items:start;
+  }
+  .guarantee-cell{
+    position:relative;
+    padding-bottom:0;
+  }
+  .guarantee-cell.is-open{
+    z-index:8;
+  }
+  .guarantee-card{
+    position:relative;
+    overflow:visible;
+    border-radius:24px;
+    padding:22px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-sm);
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .guarantee-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 42px rgba(15,17,21,.11);
+    border-color:rgba(29,151,83,.18);
+  }
+  .guarantee-card:before{
+    content:"";
+    position:absolute;
+    inset:0 0 auto 0;
+    height:5px;
+    border-radius:24px 24px 0 0;
+    background:linear-gradient(90deg,var(--brand),rgba(29,151,83,.22));
+  }
+  .guarantee-card.orange:before{
+    background:linear-gradient(90deg,var(--orange),rgba(255,122,0,.26));
+  }
+  .corner-badge{
+    position:absolute;
+    top:-12px;
+    right:-10px;
+    z-index:3;
+    width:52px;
+    height:52px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#fff;
+    color:var(--brand2);
+    border:1px solid rgba(12,14,18,.08);
+    box-shadow:0 14px 30px rgba(0,0,0,.10);
+  }
+  .guarantee-card.orange .corner-badge{ color:#b45500; }
+
+  .guarantee-main{
+    display:grid;
+    grid-template-columns:50px minmax(0,1fr) auto;
+    gap:14px;
+    align-items:start;
+  }
+  .g-icon{
+    width:50px;
+    height:50px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    box-shadow:inset 0 0 0 1px rgba(29,151,83,.10);
+  }
+  .guarantee-card.orange .g-icon{
+    background:rgba(255,122,0,.10);
+    color:#b45500;
+    box-shadow:inset 0 0 0 1px rgba(255,122,0,.12);
+  }
+  .guarantee-title-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-bottom:4px;
+  }
+  .guarantee-title strong{
+    display:block;
+    color:var(--ink);
+    font-size:17px;
+    line-height:1.35;
+  }
+  .guarantee-title span{
+    display:block;
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .year-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:82px;
+    min-height:82px;
+    padding:12px;
+    border-radius:22px;
+    background:linear-gradient(180deg, rgba(29,151,83,.12), rgba(29,151,83,.07));
+    border:1px solid rgba(29,151,83,.16);
+    color:var(--brand2);
+    box-shadow:var(--shadow-xs);
+    text-align:center;
+  }
+  .year-badge.orange{
+    background:linear-gradient(180deg, rgba(255,122,0,.12), rgba(255,122,0,.07));
+    border-color:rgba(255,122,0,.18);
+    color:#b45500;
+  }
+  .year-badge b{
+    display:block;
+    font-size:24px;
+    line-height:1;
+    letter-spacing:-.5px;
+  }
+  .year-badge small{
+    display:block;
+    margin-top:4px;
+    font-size:11px;
+    line-height:1.15;
+    font-weight:900;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+  }
+
+  .guarantee-meta{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-top:14px;
+  }
+  .meta-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    padding:8px 10px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:.02em;
+    background:rgba(29,151,83,.08);
+    color:var(--brand2);
+  }
+  .meta-pill.orange{
+    background:rgba(255,122,0,.10);
+    color:#b45500;
+  }
+  .meta-pill .dot{
+    width:7px;height:7px;border-radius:50%;background:currentColor;
+  }
+
+  .info-trigger{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    border:1px solid rgba(29,151,83,.18);
+    background:rgba(29,151,83,.08);
+    color:var(--brand2);
+    font-size:12px;
+    font-weight:900;
+    cursor:pointer;
+  }
+  .guarantee-card.orange .info-trigger{
+    border-color:rgba(255,122,0,.18);
+    background:rgba(255,122,0,.08);
+    color:#b45500;
+  }
+
+  /* overlay info die buurkaart niet oprekt */
+  .guarantee-info{
+    display:none;
+    position:absolute;
+    left:22px;
+    right:22px;
+    top:100%;
+    margin-top:12px;
+    padding:14px 14px;
+    border-radius:18px;
+    background:linear-gradient(180deg, rgba(29,151,83,.07), rgba(29,151,83,.04));
+    border:1px solid rgba(29,151,83,.12);
+    color:#46505d;
+    font-size:14px;
+    line-height:1.65;
+    box-shadow:0 18px 42px rgba(15,17,21,.10);
+    z-index:6;
+  }
+  .guarantee-cell.orange .guarantee-info{
+    background:linear-gradient(180deg, rgba(255,122,0,.08), rgba(255,122,0,.04));
+    border-color:rgba(255,122,0,.14);
+  }
+  .guarantee-info.is-open{ display:block; }
+
+  .team-grid{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:18px;
+    margin-top:18px;
+  }
+  .team-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:24px;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(12,14,18,.06);
+    box-shadow:var(--shadow-sm);
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .team-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 42px rgba(15,17,21,.11);
+    border-color:rgba(29,151,83,.18);
+  }
+  .team-photo{
+    position:relative;
+    aspect-ratio:4/4.35;
+    background:#eef2ef;
+    overflow:hidden;
+  }
+  .team-photo img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    object-position:center top !important;
+    transform:scale(1.01);
+  }
+  .team-photo:before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      linear-gradient(180deg, rgba(0,0,0,.00), rgba(0,0,0,.16)),
+      radial-gradient(600px 160px at 10% 0%, rgba(0,0,0,.10), transparent 55%);
+    pointer-events:none;
+    z-index:1;
+  }
+  .team-focus{
+    position:absolute;
+    left:14px;
+    right:14px;
+    bottom:14px;
+    z-index:2;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    width:max-content;
+    max-width:calc(100% - 28px);
+    padding:8px 10px;
+    border-radius:999px;
+    background:rgba(255,255,255,.92);
+    color:var(--brand2);
+    border:1px solid rgba(12,14,18,.08);
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+  }
+  .team-focus .dot{
+    width:7px;height:7px;border-radius:50%;background:var(--brand);
+  }
+  .team-info{
+    padding:18px 18px 20px;
+  }
+  .team-info h3{
+    font-size:20px;
+    margin:0 0 5px;
+  }
+  .team-role{
+    display:inline-block;
+    padding:7px 10px;
+    border-radius:999px;
+    background:rgba(29,151,83,.08);
+    color:var(--brand2);
+    font-size:12px;
+    font-weight:800;
+    margin-bottom:10px;
+  }
+  .team-info p{
+    margin:0;
+    font-size:14px;
+    line-height:1.65;
+  }
+
+  .cta-panel{
+    margin-top:18px;
+    border-radius:26px;
+    padding:22px;
+    background:
+      radial-gradient(1000px 280px at 0% 0%, rgba(255,122,0,.08), transparent 60%),
+      linear-gradient(180deg,#fffefc,#fff8f2);
+    border:1px solid rgba(255,122,0,.18);
+    box-shadow:0 24px 58px rgba(255,122,0,.10);
+  }
+
+  /* premium positieve micro-pills */
+  .cta-micro{
+    margin-top:12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    color:var(--brand2);
+    font-size:13px;
+    font-weight:800;
+  }
+  .cta-micro span{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 12px;
+    border-radius:999px;
+    background:rgba(29,151,83,.07);
+    border:1px solid rgba(29,151,83,.14);
+    box-shadow:var(--shadow-xs);
+  }
+  .cta-micro .dot{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:rgba(29,151,83,.12);
+    color:var(--brand2);
+    font-size:11px;
+    font-weight:900;
+  }
+  .cta-micro .dot::before{
+    content:"✓";
+  }
+
+  .svg-icon{
+    width:24px;
+    height:24px;
+    display:block;
+  }
+
+  @media (max-width:1100px){
+    .hero-highlights{ grid-template-columns:1fr; }
+    .team-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+  }
+  @media (max-width:980px){
+    .dlo .sec{ padding:34px 20px; }
+    .split,
+    .mini-grid,
+    .flow,
+    .guarantee-grid,
+    .service-area-grid,
+    .trust-strip{
+      grid-template-columns:1fr;
+    }
+    .grid{ grid-template-columns:1fr; }
+    .card{ grid-column:span 12; }
+    .hero-shell,
+    .summary-stage,
+    .highlight-band,
+    .service-area-shell,
+    .trust-shell{ padding:20px; border-radius:26px; }
+    .media-wrap{ min-height:auto; }
+    .media-card{ min-height:420px; }
+    .glass-note{ position:static; margin:12px 12px 12px; }
+    .team-grid{ grid-template-columns:1fr 1fr; }
+    .guarantee-info{
+      position:relative;
+      left:auto; right:auto; top:auto; margin-top:12px;
+    }
+  }
+  @media (max-width:640px){
+    .dlo h1{ max-width:none; font-size:clamp(30px,8vw,42px); }
+    .dlo h2{ font-size:clamp(24px,6.7vw,30px); }
+    .hero-shell,
+    .summary-stage,
+    .highlight-band,
+    .cta-panel,
+    .service-area-shell,
+    .trust-shell{ padding:18px; }
+    .actions .btn{ flex:1 1 100%; min-width:0; }
+    .media-card{ min-height:320px; }
+    .team-grid{ grid-template-columns:1fr; }
+    .guarantee-main{
+      grid-template-columns:44px minmax(0,1fr);
+      gap:12px;
+    }
+    .g-icon{ width:44px; height:44px; border-radius:14px; }
+    .year-badge{ min-width:78px; min-height:78px; margin-top:10px; }
+    .trust-title-row{ align-items:flex-start; }
+    .trust-icon{ width:46px; height:46px; border-radius:14px; flex-basis:46px; }
+  }
+</style>
+
+<div class="dlo">
+  <div class="wrap">
+
+    <section class="sec soft" id="top">
+      <div class="container">
+        <div class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> › <span class="current">Over ons</span>
+        </div>
+
+        <div class="hero-shell">
+          <div class="split stretch">
+            <div class="hero-copy">
+              <div class="eyebrow"><span class="dot"></span> Over Daklekkages Opgelost</div>
+              <h1>Eerlijk vakwerk voor mensen die duidelijkheid willen</h1>
+              <p class="lead">Een daklekkage vraagt om snelheid, maar vooral om vertrouwen. Daarom draait onze aanpak niet om mooie verkooppraat, maar om duidelijke communicatie, aantoonbaar uitgevoerd werk en oplossingen die technisch kloppen.</p>
+              <p>Bij <b>Daklekkages Opgelost</b> helpen we dagelijks mensen met lekkages, dakschade en onzekerheid over de staat van hun dak. Niet met onduidelijke offertes of verrassingen achteraf, maar met een aanpak waarin inzicht, eerlijkheid en vakmanschap centraal staan.</p>
+              <p>Juist omdat de dakdekkersbranche niet altijd het beste imago heeft, vinden wij het belangrijk om het anders te doen: transparanter, netter en betrouwbaarder. Van de eerste inspectie tot de uitvoering en oplevering moet voor u helder zijn wat er gebeurt, waarom dat nodig is en wat u kunt verwachten.</p>
+
+              <div class="actions">
+                <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Inspectie aanvragen →</a>
+                <a class="btn ghost" href="tel:0851308251">Direct contact</a>
+              </div>
+
+              <div class="hero-highlights">
+                <div class="hero-stat">
+                  <strong>Volledige transparantie</strong>
+                  <span>Inspectie, uitvoering en oplevering worden helder vastgelegd en uitgelegd.</span>
+                </div>
+                <div class="hero-stat">
+                  <strong>Eerlijke prijsopbouw</strong>
+                  <span>Geen onnodige verrassingen, maar een aanpak die past bij het werk dat echt nodig is.</span>
+                </div>
+                <div class="hero-stat">
+                  <strong>Vast eigen team</strong>
+                  <span>U heeft contact met ons team en de uitvoering gebeurt ook door ons eigen team.</span>
+                </div>
+              </div>
+
+              <div class="notice" role="note" aria-label="Belangrijk">
+                <div class="head"><span class="dot" aria-hidden="true"></span> Waar wij voor staan</div>
+                <p>Goed werk begint volgens ons bij <b>duidelijkheid, betrouwbaarheid en vakmanschap</b>. Niet alleen op het dak, maar in het hele traject daaromheen.</p>
+              </div>
+            </div>
+
+            <div class="media-wrap">
+              <div class="media-card">
+                <img
+                  src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20renoveren%20in%20Velddriel.webp?width=860&t=1766605777869"
+                  alt="Dakdekker van Daklekkages Opgelost aan het werk"
+                  loading="eager"
+                  fetchpriority="high"
+                  decoding="async"
+                  width="860"
+                  height="560"
+                >
+                <div class="hero-chip">
+                  Vertrouwen begint
+                  <small>bij duidelijk werk en heldere afspraken</small>
+                </div>
+                <div class="glass-note">
+                  <p><b>Onze overtuiging:</b> mensen willen niet alleen dat een lekkage wordt opgelost, maar ook dat ze zeker weten <b>wat</b> er gebeurt, <b>waarom</b> dat gebeurt en <b>waar ze aan toe zijn</b>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec band" id="vast-team">
+      <div class="container">
+        <div class="trust-shell">
+          <div class="trust-hero">
+            <div class="section-intro center" style="margin-bottom:0;">
+              <div class="eyebrow"><span class="dot"></span> Vast eigen team</div>
+
+              <div class="trust-title-row">
+                <div class="trust-icon" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9.5" cy="7" r="3"></circle>
+                    <path d="M20 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 4.13a3 3 0 0 1 0 5.74"></path>
+                  </svg>
+                </div>
+                <h2 style="margin:0;">Contact en uitvoering lopen via hetzelfde team</h2>
+              </div>
+
+              <p>Bij Daklekkages Opgelost werken we niet met onderaannemers en besteden we klussen niet uit aan andere partijen. Wie uw situatie beoordeelt en met u afstemt, werkt binnen hetzelfde team dat ook verantwoordelijk is voor de uitvoering.</p>
+
+              <div class="trust-strong-line" aria-label="Kernpunten">
+                <span><span class="dot"></span> Geen onderaannemers</span>
+                <span><span class="dot"></span> Niet uitbesteed</span>
+                <span><span class="dot"></span> Vast eigen team</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="trust-strip">
+            <div class="trust-pill">
+              <strong>Geen onderaannemers</strong>
+              <p>Uw opdracht wordt niet doorgeschoven naar externe uitvoerders waar u vooraf niets van weet.</p>
+            </div>
+            <div class="trust-pill">
+              <strong>Niet uitbesteed</strong>
+              <p>Werkzaamheden worden niet uit handen gegeven aan andere partijen buiten ons eigen team.</p>
+            </div>
+            <div class="trust-pill">
+              <strong>Duidelijke verantwoordelijkheid</strong>
+              <p>Dat zorgt voor kortere lijnen, heldere communicatie en minder ruimte voor verrassingen achteraf.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec soft" id="werkgebied">
+      <div class="container">
+        <div class="service-area-shell">
+          <div class="section-intro">
+            <div class="eyebrow"><span class="dot"></span> Ons werkgebied</div>
+            <h2>Actief in heel Nederland, met de snelste planning in Gelderland, Noord-Brabant en Utrecht</h2>
+            <p>Wij werken landelijk, maar in de praktijk zijn we het meest actief in <b>Gelderland, Noord-Brabant en Utrecht</b>. Daardoor kunnen we daar vaak sneller schakelen voor inspectie, spoedherstel of een duidelijke eerste beoordeling. Tegelijk blijven we inzetbaar in heel Nederland, zonder voorrijkosten.</p>
+          </div>
+
+          <div class="service-area-grid">
+            <div class="service-panel">
+              <h3>Meest actief in:</h3>
+              <div class="service-tags">
+                <span class="tag primary">Gelderland</span>
+                <span class="tag primary">Noord-Brabant</span>
+                <span class="tag primary">Utrecht</span>
+              </div>
+
+              <div class="service-points">
+                <div class="service-point">
+                  <div class="service-check">✓</div>
+                  <p><b>Snelle planning</b> voor inspectie of spoedherstel</p>
+                </div>
+                <div class="service-point">
+                  <div class="service-check">✓</div>
+                  <p><b>Duidelijke uitleg</b> met kostenindicatie vooraf</p>
+                </div>
+                <div class="service-point">
+                  <div class="service-check">✓</div>
+                  <p><b>Gerichte oplossing</b> zodat het lek niet terugkomt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="country-note">
+              <p><b>Landelijk inzetbaar:</b> ook buiten deze drie provincies blijven wij actief door heel Nederland. De primaire regio’s zorgen vooral voor kortere lijnen en in veel gevallen snellere inzetbaarheid.</p>
+              <p><b>Goed om te weten:</b> wij rekenen geen voorrijkosten. Zo blijft de eerste stap laagdrempelig, ook wanneer nog niet vaststaat welke werkzaamheden nodig zijn.</p>
+            </div>
+          </div>
+
+          <div class="province-wrap">
+            <div class="province-label">Ook actief in o.a.:</div>
+            <div class="province-chips">
+              <span class="tag soft">Overijssel</span>
+              <span class="tag soft">Limburg</span>
+              <span class="tag soft">Betuwe</span>
+              <span class="tag soft">Bommelerwaard</span>
+              <span class="tag soft">Rivierenland</span>
+              <span class="tag soft">Rest van NL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="garanties">
+      <div class="container">
+        <div class="summary-stage">
+          <div class="section-intro">
+            <div class="eyebrow orange"><span class="dot"></span> Garanties</div>
+            <h2>Garanties waar u in de praktijk echt iets aan heeft</h2>
+            <p>Wij geven garanties op werkzaamheden omdat wij achter onze uitvoering staan. Daarbij gaat het om duidelijke afspraken, schriftelijke vastlegging en kosteloos herstel wanneer een gebrek binnen de geldende garantie valt.</p>
+          </div>
+
+          <div class="guarantee-grid">
+
+            <div class="guarantee-cell" id="cell-ginfo1">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 11.5L12 4l9 7.5"></path>
+                      <path d="M5 10.5V20h14v-9.5"></path>
+                      <path d="M9 20v-5h6v5"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Schoorsteenrenovatie</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo1">i</button>
+                    </div>
+                    <span>All-in garantie op correct uitgevoerd renovatiewerk aan de schoorsteen.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Schriftelijk vastgelegd</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>10</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo1">Wanneer binnen de garantieperiode een gebrek ontstaat dat onder de schriftelijk vastgelegde garantie valt, zorgen wij voor kosteloos herstel volgens de afgesproken voorwaarden.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo2">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 20h16"></path>
+                      <path d="M6 17l3-10 6 2 3-5"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Loodwerken</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo2">i</button>
+                    </div>
+                    <span>Garantie op loodwerk dat correct is aangebracht en aansluitingen duurzaam beschermt.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Lange dekking</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>12</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo2">Deze garantie geldt op correct uitgevoerd loodwerk zoals schriftelijk vastgelegd. Kosteloos herstel is van toepassing wanneer een gebrek binnen de overeengekomen garantieduur onder de garantie valt.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo3">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 19l7-14 7 14"></path>
+                      <path d="M8 13h8"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Zinkwerken</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo3">i</button>
+                    </div>
+                    <span>Garantie op zinkwerkzaamheden die vakkundig zijn uitgevoerd.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Duidelijke voorwaarden</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>8</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo3">De garantie op zinkwerk is van toepassing op het uitgevoerde werk zoals vooraf en schriftelijk is vastgelegd. Binnen die voorwaarden zorgen wij voor kosteloos herstel wanneer dat onder de garantie valt.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo4">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 13l9-7 9 7"></path>
+                      <path d="M5 12.5V19h14v-6.5"></path>
+                      <path d="M9 19v-4h6v4"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Plat dak vervangen</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo4">i</button>
+                    </div>
+                    <span>Garantie op volledige vervanging van een plat dak volgens correcte opbouw en uitvoering.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Duurzaam herstel</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>10</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo4">Bij volledige vervanging van een plat dak geldt garantie op het definitief uitgevoerde werk volgens de schriftelijk vastgelegde opbouw en voorwaarden.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo5">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 16c2.5-2 5.5-3 8-3s5.5 1 8 3"></path>
+                      <path d="M5.5 11c2-1.5 4.2-2.2 6.5-2.2S16.5 9.5 18.5 11"></path>
+                      <path d="M7 7.5c1.5-.9 3.2-1.3 5-1.3s3.5.4 5 1.3"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Plat dak overlagen</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo5">i</button>
+                    </div>
+                    <span>Garantie op overlaagwerkzaamheden wanneer die technisch verantwoord zijn uitgevoerd.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Technisch verantwoord</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>6</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo5">Deze garantie geldt alleen wanneer overlagen technisch verantwoord is en als definitieve oplossing is uitgevoerd. De exacte voorwaarden worden schriftelijk vastgelegd.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo6">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                      <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Dakrenovatie</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo6">i</button>
+                    </div>
+                    <span>Ruime garantie op grotere renovatiewerkzaamheden aan het dak.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> All-in garantie</span>
+                      <span class="meta-pill"><span class="dot"></span> Maximale zekerheid</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>15</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo6">Bij dakrenovatie geldt garantie op het definitief uitgevoerde werk zoals vastgelegd in de opdracht en voorwaarden. Eventuele afwijkingen worden vooraf besproken en schriftelijk bevestigd.</div>
+            </div>
+
+            <div class="guarantee-cell" id="cell-ginfo7">
+              <article class="guarantee-card">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l7 4v5c0 5-3.5 7.8-7 9-3.5-1.2-7-4-7-9V7l7-4z"></path>
+                    <path d="M9.5 12l1.7 1.7L14.8 10"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 12h16"></path>
+                      <path d="M12 4v16"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Spoedreparatie</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo7">i</button>
+                    </div>
+                    <span>Garantie op definitief uitgevoerd spoedherstel wanneer dat tijdens het spoedbezoek structureel is uitgevoerd.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill"><span class="dot"></span> Definitief herstel</span>
+                      <span class="meta-pill"><span class="dot"></span> Schriftelijk vastgelegd</span>
+                    </div>
+                  </div>
+                  <div class="year-badge"><div><b>1</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo7"><b>Belangrijk:</b> spoedreparatie kan tijdelijk of definitief van aard zijn. Alleen wanneer tijdens een spoedbezoek direct een structureel herstel is uitgevoerd, kan daarop schriftelijk garantie van 1 jaar worden afgegeven. Tijdelijke maatregelen, noodvoorzieningen of puur schadebeperkende ingrepen vallen daar nadrukkelijk niet onder.</div>
+            </div>
+
+            <div class="guarantee-cell orange" id="cell-ginfo8">
+              <article class="guarantee-card orange">
+                <div class="corner-badge" aria-hidden="true">
+                  <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 8v5"></path>
+                    <path d="M12 17h.01"></path>
+                    <path d="M10.3 3.8L2.6 18a2 2 0 0 0 1.8 3h15.2a2 2 0 0 0 1.8-3L13.7 3.8a2 2 0 0 0-3.4 0z"></path>
+                  </svg>
+                </div>
+                <div class="guarantee-main">
+                  <div class="g-icon">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 8v5"></path>
+                      <path d="M12 17h.01"></path>
+                      <path d="M10.3 3.8L2.6 18a2 2 0 0 0 1.8 3h15.2a2 2 0 0 0 1.8-3L13.7 3.8a2 2 0 0 0-3.4 0z"></path>
+                    </svg>
+                  </div>
+                  <div class="guarantee-title">
+                    <div class="guarantee-title-row">
+                      <strong>Noodreparatie</strong>
+                      <button class="info-trigger" type="button" aria-expanded="false" aria-controls="ginfo8">i</button>
+                    </div>
+                    <span>Een noodreparatie is tijdelijk van aard en bedoeld om acute schade of lekkage te beperken.</span>
+                    <div class="guarantee-meta">
+                      <span class="meta-pill orange"><span class="dot"></span> Tijdelijke oplossing</span>
+                      <span class="meta-pill orange"><span class="dot"></span> Geen garantie</span>
+                    </div>
+                  </div>
+                  <div class="year-badge orange"><div><b>0</b><small>jaar</small></div></div>
+                </div>
+              </article>
+              <div class="guarantee-info" id="ginfo8">Een noodreparatie is bedoeld als tijdelijke maatregel om directe schade of waterinloop te beperken. Omdat dit geen definitieve structurele oplossing is, wordt hier geen garantie op afgegeven.</div>
+            </div>
+
+          </div>
+
+          <div class="notice" role="note" aria-label="Belangrijk">
+            <div class="head"><span class="dot" aria-hidden="true"></span> Belangrijk</div>
+            <p><b>Afwijkende garanties</b> worden altijd vooraf met u overlegd en schriftelijk vastgelegd. Zo blijft ook daarover alles helder.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec soft" id="team">
+      <div class="container">
+        <div class="section-intro center">
+          <div class="eyebrow"><span class="dot"></span> Ons team</div>
+          <h2>De mensen achter Daklekkages Opgelost</h2>
+          <p>Achter elk traject staat een team met een eigen rol en verantwoordelijkheid. Van planning en klantcontact tot specialistisch dakwerk: samen zorgen we voor een traject dat technisch klopt en prettig verloopt.</p>
+        </div>
+
+        <div class="team-grid">
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Leonhard" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: loodwerk & advies</div>
+            </div>
+            <div class="team-info">
+              <h3>Leonhard</h3>
+              <div class="team-role">Eigenaar en loodspecialist</div>
+              <p>Stuurt de koers van het bedrijf aan en is inhoudelijk betrokken bij loodwerk, advies en specialistische beoordeling.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Sharona" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: planning & contact</div>
+            </div>
+            <div class="team-info">
+              <h3>Sharona</h3>
+              <div class="team-role">Telefoniste en planner</div>
+              <p>Is vaak het eerste aanspreekpunt en zorgt voor duidelijke afstemming rondom planning, contact en vervolg.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Quinten" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: inspectie & herstel</div>
+            </div>
+            <div class="team-info">
+              <h3>Quinten</h3>
+              <div class="team-role">Dakspecialist</div>
+              <p>Werkt dagelijks aan uiteenlopende dakproblemen en draagt bij aan degelijk herstel en nette uitvoering op locatie.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Henk-Jan" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: hellend dak</div>
+            </div>
+            <div class="team-info">
+              <h3>Henk-Jan</h3>
+              <div class="team-role">Dakexpert hellend dak</div>
+              <p>Gespecialiseerd in werkzaamheden aan hellende daken en situaties waar aansluitingen en detailwerk het verschil maken.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Chris" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: plat dak</div>
+            </div>
+            <div class="team-info">
+              <h3>Chris</h3>
+              <div class="team-role">Dakexpert plat dak</div>
+              <p>Richt zich op platte daken, dakbedekking, aansluitingen en herstelwerk dat technisch duurzaam moet blijven.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Maurits" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: ondersteuning</div>
+            </div>
+            <div class="team-info">
+              <h3>Maurits</h3>
+              <div class="team-role">Ondersteunend medewerker</div>
+              <p>Ondersteunt het team in de uitvoering en helpt processen op locatie en daarbuiten soepel te laten verlopen.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Henk" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: organisatie</div>
+            </div>
+            <div class="team-info">
+              <h3>Henk</h3>
+              <div class="team-role">Kantoormedewerker</div>
+              <p>Ondersteunt op kantoor en helpt mee om administratie, structuur en interne organisatie soepel te laten verlopen.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=80" alt="Tijdelijke placeholder foto voor Jordy" loading="lazy" decoding="async">
+              <div class="team-focus"><span class="dot"></span> Focus: loodwerk</div>
+            </div>
+            <div class="team-info">
+              <h3>Jordy</h3>
+              <div class="team-role">Loodspecialist</div>
+              <p>Richt zich op loodwerk en detailaansluitingen waar nauwkeurigheid en vakkennis belangrijk zijn voor duurzaam herstel.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="cta">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="section-intro" style="margin-bottom:0;">
+            <div class="eyebrow orange"><span class="dot"></span> Neem contact op</div>
+            <h2>Wilt u uw situatie vrijblijvend laten beoordelen?</h2>
+            <p>Of het nu gaat om een actieve lekkage, terugkerend vochtprobleem of twijfel over de staat van uw dak: wij kijken graag met u mee. U ontvangt een heldere beoordeling en een vrijblijvende offerte, zonder voorrijkosten.</p>
+          </div>
+
+          <div class="actions">
+            <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Vraag een inspectie aan →</a>
+            <a class="btn outline" href="tel:0851308251">Bel direct</a>
+          </div>
+
+          <div class="cta-micro" aria-label="Extra geruststelling">
+            <span><span class="dot"></span> Kosteloze inspectie</span>
+            <span><span class="dot"></span> Vrijblijvende offerte</span>
+            <span><span class="dot"></span> Geen voorrijkosten</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+(function(){
+  var infoButtons = document.querySelectorAll('.info-trigger');
+
+  infoButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var id = btn.getAttribute('aria-controls');
+      if(!id) return;
+
+      var panel = document.getElementById(id);
+      var cell = document.getElementById('cell-' + id);
+      if(!panel || !cell) return;
+
+      var isOpen = panel.classList.contains('is-open');
+
+      document.querySelectorAll('.guarantee-info.is-open').forEach(function(openPanel){
+        openPanel.classList.remove('is-open');
+      });
+      document.querySelectorAll('.guarantee-cell.is-open').forEach(function(openCell){
+        openCell.classList.remove('is-open');
+      });
+      document.querySelectorAll('.info-trigger[aria-expanded="true"]').forEach(function(openBtn){
+        openBtn.setAttribute('aria-expanded', 'false');
+      });
+
+      if(!isOpen){
+        panel.classList.add('is-open');
+        cell.classList.add('is-open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  document.addEventListener('click', function(e){
+    var insideTrigger = e.target.closest('.info-trigger');
+    var insideInfo = e.target.closest('.guarantee-info');
+    if(insideTrigger || insideInfo) return;
+
+    document.querySelectorAll('.guarantee-info.is-open').forEach(function(openPanel){
+      openPanel.classList.remove('is-open');
+    });
+    document.querySelectorAll('.guarantee-cell.is-open').forEach(function(openCell){
+      openCell.classList.remove('is-open');
+    });
+    document.querySelectorAll('.info-trigger[aria-expanded="true"]').forEach(function(openBtn){
+      openBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+</script>

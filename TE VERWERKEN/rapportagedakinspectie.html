@@ -1,0 +1,865 @@
+<!-- =============================================  
+  DIENSTENPAGINA – RAPPORTAGE DAKINSPECTIE (Premium + SEO)  
+  - Premium homepage-stijl (cards/flow/accordeon)  
+  - Sticky CTA desktop: pas zichtbaar na 300px scroll  
+  - Tekst hersteld + uitgebreid (topical authority + conversiepsychologie)  
+============================================= -->  
+
+<link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">  
+
+<style>  
+  :root{  
+    --brand:#1D9753;  
+    --brand2:#167a44;  
+
+    --orange:#ff7a00;  
+    --orangeDark:#ff6a00;  
+    --orangeLight:#ff9a3a;  
+
+    --ink:#0b0d10;  
+    --muted:#606a78;  
+
+    --bg:#ffffff;  
+    --soft:#f6f8f7;  
+
+    --stroke: rgba(15,17,21,.10);  
+    --stroke2: rgba(15,17,21,.07);  
+    --ring: rgba(29,151,83,.18);  
+
+    --shadow: 0 18px 45px rgba(15,17,21,.10);  
+    --shadow2: 0 10px 25px rgba(15,17,21,.08);  
+
+    --r:18px;  
+    --max:1100px;  
+  }  
+
+  /* Hard isolation */  
+  .dlo, .dlo *{ box-sizing:border-box; }  
+  .dlo{ width:100%; max-width:100%; color:var(--ink); font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }  
+  .dlo img{ max-width:100% !important; height:auto !important; display:block !important; }  
+  .dlo a{ text-decoration:none; }  
+
+  .dlo .wrap{ background:var(--bg); width:100%; }  
+  .dlo .sec{ padding:56px 20px; width:100%; }  
+  .dlo .sec.soft{ background:linear-gradient(180deg, var(--soft), #ffffff); }  
+  .dlo .container{ width:100%; max-width:var(--max); margin:0 auto; }  
+
+  /* Typography */  
+  .dlo h1{ font-size:clamp(30px,3vw,46px); line-height:1.06; letter-spacing:-.8px; margin:0 0 10px; }  
+  .dlo h2{ font-size:clamp(22px,2.2vw,34px); line-height:1.15; letter-spacing:-.35px; margin:0 0 10px; }  
+  .dlo h3{ margin:0; font-size:18px; letter-spacing:-.25px; }  
+  .dlo h4{ margin:0; font-size:16px; letter-spacing:-.2px; }  
+  .dlo p{ margin:0 0 12px; color:var(--muted); line-height:1.75; font-size:16px; }  
+  .dlo .lead{ color:var(--muted); font-size:16.5px; }  
+
+  .breadcrumb{ font-size:13px; color:var(--muted); margin-bottom:10px; }  
+  .breadcrumb a{ color:var(--muted); }  
+
+  .kicker{  
+    display:inline-flex; align-items:center; gap:10px;  
+    padding:8px 12px; border-radius:999px;  
+    background: rgba(29,151,83,.10);  
+    color: var(--brand2);  
+    font-weight:900; font-size:13px;  
+    letter-spacing:.2px;  
+    margin: 0 0 10px;  
+  }  
+  .kdot{ width:10px;height:10px;border-radius:50%; background:var(--brand); box-shadow:0 0 0 6px var(--ring); }  
+
+  /* Buttons (geen underlines) */  
+  .actions{ display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; }  
+  /* ✅ FIX: max 2 CTA's naast elkaar (desktop + mobiel) */
+  .actions .btn{ flex:1 1 calc(50% - 10px); min-width: 210px; }
+  @media (max-width: 560px){
+    .actions .btn{ flex:1 1 100%; min-width: 0; }
+  }
+
+  .btn{  
+    display:inline-flex; align-items:center; justify-content:center; gap:10px;  
+    padding: 12px 14px;  
+    border-radius: 14px;  
+    font-weight:900;  
+    border: 1px solid rgba(15,17,21,.10);  
+    transition: transform .15s ease, filter .15s ease, box-shadow .15s ease;  
+    cursor:pointer;  
+    white-space:nowrap;  
+    text-decoration:none !important;  
+  }  
+  .btn:hover{ transform: translateY(-2px); filter: brightness(1.02); box-shadow: 0 10px 20px rgba(15,17,21,.10); }  
+  .btn.primary{ background: var(--brand); border-color: rgba(29,151,83,.22); color:#fff; }  
+  .btn.outline{ background: transparent; color: var(--brand2); border-color: rgba(29,151,83,.45); }  
+  .btn.ghost{ background:#fff; color: var(--ink); border-color: rgba(15,17,21,.10); }  
+
+  /* Layout */  
+  .split{ display:grid; grid-template-columns: minmax(0,1.05fr) minmax(0,.95fr); gap:18px; align-items:start; }  
+  .split.stretch{ align-items:stretch; }  
+
+  /* Media card */  
+  .media-card{  
+    border-radius: 22px;  
+    overflow: hidden;  
+    box-shadow: 0 25px 60px rgba(0,0,0,.15);  
+    position: relative;  
+    background: #000;  
+    border: 1px solid rgba(255,255,255,.06);  
+  }  
+
+  /* ✅ crop + gelijke hoogte: ALLEEN DESKTOP (echte equal height) */
+  @media (min-width: 981px){
+    .split.stretch{ align-items:stretch; }
+    .split.stretch > div{
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      height:100%;
+    }
+    .split.stretch .media-card{
+      flex:1 1 auto;
+      height:100%;
+      min-height:100%;
+    }
+    .split.stretch .media-card img{
+      width:100% !important;
+      height:100% !important;
+      object-fit:cover !important;
+      object-position:center !important;
+    }
+  }
+
+  .media-card img{ width:100%; height:auto; display:block; }  
+  .media-contrast::before{  
+    content:"";  
+    position:absolute;  
+    inset:0;  
+    background:  
+      linear-gradient(180deg, rgba(0,0,0,.40), rgba(0,0,0,.10) 50%, rgba(0,0,0,.44)),  
+      radial-gradient(900px 260px at 20% 0%, rgba(0,0,0,.34), transparent 60%);  
+    pointer-events:none;  
+  }  
+
+  .hero-note{  
+    position:absolute;  
+    left:20px; right:20px; bottom:20px;  
+    padding:14px 16px;  
+    border-radius:18px;  
+    background:rgba(255,255,255,.94);  
+    border:1px solid rgba(15,17,21,.08);  
+    color:var(--muted);  
+    font-size:14px;  
+    line-height:1.6;  
+    box-shadow:0 14px 34px rgba(0,0,0,.22);  
+    z-index:3;  
+  }  
+
+  /* ✅ NEW: Belangrijk-callout blok */
+  .callout{
+    margin: 12px 0;
+    padding: 14px 14px;
+    border-radius: 16px;
+    border: 1px solid rgba(15,17,21,.08);
+    background: #fff;
+    box-shadow: var(--shadow2);
+  }
+  .callout.important{
+    background: rgba(255,122,0,.10);
+    border-color: rgba(255,122,0,.35);
+  }
+  .callout.important .tag{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-weight: 900;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .callout.important .tag .dot{
+    width:10px; height:10px; border-radius:50%;
+    background: var(--orange);
+    box-shadow: 0 0 0 6px rgba(255,122,0,.18);
+  }
+  .callout.important p{ margin:0; color: var(--muted); }
+  .callout.important b{ color: var(--ink); }
+
+  .mini-trust{ display:grid; gap:8px; font-size:13px; color:var(--muted); margin-top:10px; }  
+  .mini-trust span{
+    display:flex;
+    gap:8px;
+    align-items:flex-start;
+  }
+
+  /* ✅ Mobile readability fix trust bullets */
+  @media (max-width:560px){
+    .mini-trust span{
+      flex-direction:column;
+      gap:2px;
+    }
+    .mini-trust span b{
+      display:block;
+      color:var(--ink);
+      font-weight:900;
+    }
+  }  
+  .mini-trust b{ color: var(--ink); }  
+
+  /* Cards grid */  
+  .grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:14px; margin-top:12px; }  
+  .card{  
+    grid-column: span 6;  
+    background: linear-gradient(180deg, #fff, #fbfcfb);  
+    border:1px solid rgba(15,17,21,.06);  
+    border-radius: var(--r);  
+    box-shadow: var(--shadow2);  
+    overflow:hidden;  
+    position:relative;  
+    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;  
+  }  
+  .card:hover{ transform: translateY(-2px); box-shadow: 0 16px 36px rgba(15,17,21,.10); border-color: rgba(29,151,83,.22); }  
+  .card:before{ content:""; position:absolute; inset:0 0 auto 0; height:4px; background: linear-gradient(90deg, var(--brand), rgba(29,151,83,.20)); }  
+  .card-in{ padding:18px; display:grid; gap:8px; }  
+
+  /* Flow */  
+  .flow{ display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top:12px; }  
+  .node{  
+    background: linear-gradient(180deg, #fff, #fbfcfb);  
+    border:1px solid rgba(15,17,21,.08);  
+    border-radius: var(--r);  
+    box-shadow: var(--shadow2);  
+    padding: 18px;  
+    position: relative;  
+    overflow:hidden;  
+    min-width:0;  
+  }  
+  .node:before{ content:""; position:absolute; inset:0 0 auto 0; height:5px; background: var(--brand); }  
+  .node-top{ display:flex; align-items:center; gap:12px; margin-bottom:10px; }  
+  .chip{  
+    width:40px;height:40px;border-radius:14px;  
+    background: rgba(29,151,83,.10);  
+    display:flex; align-items:center; justify-content:center;  
+    color: var(--brand);  
+    font-weight: 900;  
+    flex:0 0 40px;  
+  }  
+  .node p{ margin:0; color: var(--muted); line-height:1.65; font-size: 14px; }  
+
+  /* FAQ accordion */  
+  .faq{ display:grid; gap:10px; margin-top:12px; }  
+  .faq details{  
+    background: linear-gradient(180deg, #fff, #fbfcfb);  
+    border:1px solid rgba(15,17,21,.07);  
+    border-radius: var(--r);  
+    box-shadow: var(--shadow2);  
+    overflow:hidden;  
+  }  
+  .faq summary{  
+    cursor:pointer;  
+    list-style:none;  
+    padding:14px 14px;  
+    font-weight:900;  
+    color:var(--ink);  
+    display:flex;  
+    align-items:center;  
+    gap:10px;  
+  }  
+  .faq summary::-webkit-details-marker{ display:none; }  
+  .faq .qdot{  
+    width:10px;height:10px;border-radius:50%;  
+    background: rgba(29,151,83,.55);  
+    box-shadow:0 0 0 6px rgba(29,151,83,.12);  
+    flex:0 0 10px;  
+  }  
+  .faq .chev{ margin-left:auto; color:var(--brand2); font-size:20px; transition:transform .2s ease; }  
+  .faq details[open] .chev{ transform:rotate(180deg); }  
+  .faq .ans{ padding:0 14px 14px; }  
+  .faq .ans p{ margin:0; font-size:15px; }  
+
+  /* Sticky CTA – desktop only, show after 300px scroll */  
+  .sticky-cta{  
+    position: fixed;  
+    right: 18px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    z-index: 9999;  
+    display: none;  
+  }  
+  .sticky-cta.is-visible{ display:block; }  
+  .sticky-cta .box{  
+    width:220px;  
+    background: rgba(255,255,255,.96);  
+    border: 2px solid rgba(255,122,0,.95);  
+    border-radius: 16px;  
+    box-shadow: 0 16px 40px rgba(0,0,0,.16);  
+    padding: 12px;  
+    backdrop-filter: blur(10px);  
+  }  
+  .sticky-cta .label{  
+    font-weight: 900;  
+    font-size: 13px;  
+    color: var(--ink);  
+    margin-bottom: 10px;  
+    display:flex;  
+    gap:10px;  
+    align-items:center;  
+  }  
+  .sticky-cta .label .dot{  
+    width:10px;height:10px;border-radius:50%;  
+    background: var(--orange);  
+    box-shadow:0 0 0 6px rgba(255,122,0,.18);  
+  }  
+  .sticky-cta .mini{ font-size: 12px; color: var(--muted); margin-top: 8px; line-height: 1.4; }  
+
+  @keyframes blinkOrange{  
+    0%,100%{ background: var(--orangeDark); box-shadow: 0 10px 22px rgba(255,122,0,.18); }  
+    50%{ background: var(--orangeLight); box-shadow: 0 12px 26px rgba(255,122,0,.28); }  
+  }  
+  .sticky-cta .btn.orange{  
+    width:100%;  
+    background: var(--orangeDark);  
+    border-color: rgba(255,122,0,.65);  
+    color:#fff;  
+    animation: blinkOrange 1s infinite;  
+  }  
+  .sticky-cta .btn + .btn{ margin-top:10px; width:100%; }  
+
+  /* ADD ONLY: hero badge + pdf chip */  
+  .hero-badge{  
+    position:absolute;  
+    top:14px; left:14px;  
+    display:inline-flex;  
+    align-items:center;  
+    gap:10px;  
+    padding:10px 12px;  
+    border-radius:999px;  
+    background: rgba(255,255,255,.92);  
+    border: 1px solid rgba(15,17,21,.10);  
+    box-shadow: 0 10px 25px rgba(0,0,0,.14);  
+    font-weight: 900;  
+    color: var(--ink);  
+    backdrop-filter: blur(6px);  
+    z-index: 3;  
+    line-height:1.1;  
+  }  
+  .hero-badge small{
+    display:block;
+    font-weight:800;
+    color:var(--muted);
+    font-size:12px;
+    margin-top:2px;
+  }
+
+  /* ✅ Mobile badge stacking fix */
+  @media (max-width:560px){
+    .hero-badge{
+      flex-direction:column;
+      align-items:flex-start;
+      gap:4px;
+      padding:12px 14px;
+      max-width:calc(100% - 60px);
+    }
+    .hero-badge small{
+      font-weight:600;
+      font-size:13px;
+    }
+  }  
+
+  /* ✅ FIX: badge niet onder pdf-chip op mobiel */
+  @media (max-width: 560px){
+    .hero-badge{ max-width: calc(100% - 70px); padding-right: 14px; }
+  }
+
+  .pdf-chip{  
+    position:absolute;  
+    top:14px; right:14px;  
+    width:40px; height:40px;  
+    border-radius:14px;  
+    background: rgba(255,255,255,.92);  
+    border: 1px solid rgba(15,17,21,.10);  
+    box-shadow: 0 10px 25px rgba(0,0,0,.14);  
+    display:flex;  
+    align-items:center;  
+    justify-content:center;  
+    z-index:3;  
+    backdrop-filter: blur(6px);  
+  }  
+  .pdf-chip svg{ width:22px; height:22px; display:block; }  
+
+  /* ADD ONLY: chooser */  
+  .chooser{  
+    display:grid;  
+    grid-template-columns: repeat(3, minmax(0, 1fr));  
+    gap: 12px;  
+    margin-top:12px;  
+  }  
+  details.chooser__item{  
+    background: linear-gradient(180deg, #fff, #fbfcfb);  
+    border:1px solid rgba(15,17,21,.07);  
+    border-radius: var(--r);  
+    box-shadow: var(--shadow2);  
+    overflow:hidden;  
+  }  
+  .chooser__summary{  
+    list-style:none;  
+    cursor:pointer;  
+    padding:14px 14px;  
+    display:flex;  
+    align-items:center;  
+    gap:10px;  
+    font-weight:900;  
+    color:var(--ink);  
+  }  
+  .chooser__summary::-webkit-details-marker{ display:none; }  
+  .chooser__icon{  
+    width:38px;height:38px;border-radius:14px;  
+    background: rgba(29,151,83,.10);  
+    display:flex;align-items:center;justify-content:center;  
+    color: var(--brand2);  
+    font-weight:900;  
+    flex:0 0 38px;  
+  }  
+  .chooser__arrow{ margin-left:auto; color:var(--brand2); transition:transform .2s ease; font-size:18px; }  
+  details[open] .chooser__arrow{ transform:rotate(180deg); }  
+  .chooser__body{ padding:0 14px 14px; }  
+  .chooser__body p{ margin:0; font-size:14px; }  
+
+  @media(min-width:981px){  
+    .chooser__arrow{ font-size:36px; line-height:1; }  
+  }  
+
+  /* ADD ONLY: deliverables */  
+  .deliver{  
+    margin-top:14px;  
+    background: linear-gradient(180deg, #fff, #fbfcfb);  
+    border:1px solid rgba(15,17,21,.07);  
+    border-radius: var(--r);  
+    box-shadow: var(--shadow2);  
+    padding: 16px;  
+  }  
+  .deliver h3{ display:flex; gap:10px; align-items:center; }  
+  .deliver .pdf-mini{ width:18px; height:18px; flex:0 0 18px; }  
+  .deliver ul{ list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px; }  
+  .deliver li{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    color:var(--muted);
+    line-height:1.6;
+  }
+
+  /* ✅ Mobile readability fix: bold first line, light second line under it */
+  @media (max-width:560px){
+    .deliver li{
+      flex-direction:column;
+      gap:4px;
+    }
+    .deliver li b{
+      display:block;
+      font-weight:900;
+      color:var(--ink);
+    }
+  }  
+  .deliver li b{ color:var(--ink); }  
+
+  /* Mobile */  
+  @media (max-width: 980px){  
+    .dlo .sec{ padding:46px 20px; }  
+    .split{ grid-template-columns:1fr; }  
+    .flow{ grid-template-columns:1fr; }  
+    .card{ grid-column: span 12; }  
+    .sticky-cta{ display:none !important; }  
+    .chooser{ grid-template-columns:1fr; }  
+
+    /* hero-note onder de foto op mobiel (niet over de foto) */
+    .hero-note{
+      position: static;
+      left: auto; right: auto; bottom: auto;
+      margin: 12px 14px 14px;
+      box-shadow: var(--shadow2);
+    }
+  }  
+</style>  
+
+<div class="dlo">  
+  <div class="wrap">  
+
+<!-- STICKY CTA (desktop only, show after 300px scroll) -->  
+<div class="sticky-cta" aria-label="Snelle actie">  
+  <div class="box">  
+    <div class="label"><span class="dot"></span> Daklekkage in Gelderland of Brabant?</div>  
+    <a class="btn orange" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a>  
+    <a class="btn outline" href="tel:0851308251">Bel direct</a>  
+    <div class="mini">Actief in Gelderland • Noord-Brabant • Utrecht</div>  
+  </div>  
+</div>  
+
+<!-- HERO -->  
+<section class="sec soft" id="top">  
+  <div class="container">  
+    <div class="breadcrumb" aria-label="Breadcrumb">  
+      <a href="/">Home</a> › <a href="/lekkages">Lekkages</a> › <span style="color:var(--ink);font-weight:800">Rapportage dakinspectie</span>  
+    </div>  
+
+    <div class="split stretch">  
+      <div>  
+        <div class="kicker"><span class="kdot"></span> Formele onderbouwing</div>  
+        <h1>Rapportage dakinspectie: bewijs wanneer je méér nodig hebt dan een oordeel</h1>  
+        <p class="lead">Wanneer een dakinspectie laat zien hoe het ervoor staat, geeft een rapportage daar formele betekenis aan. In situaties waarin je niet alleen zelf wilt weten hoe het dak ervoor staat, maar dit ook moet kunnen aantonen — bijvoorbeeld richting een verzekeraar, verkoper of VvE — is een vastgelegde rapportage vaak de beslissende stap.</p>  
+        <p>Je voorkomt discussie achteraf, omdat bevindingen niet “gevoelsmatig” blijven, maar technisch worden vastgelegd: wat is aangetroffen, hoe moet het geïnterpreteerd worden, en wat betekent dit voor herstel, onderhoud of dekking.</p>  
+
+        <div class="actions">  
+          <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Rapportage bespreken →</a>  
+          <a class="btn outline" href="/dakinspectie">Eerst inspectie</a>  
+          <a class="btn ghost" href="tel:0851308251">Bel direct</a>  
+        </div>  
+
+        <div class="mini-trust">  
+          <span>✅ <b>Objectieve vastlegging</b> i.p.v. losse foto’s of mondelinge uitleg</span>  
+          <span>✅ <b>Handig voor derden</b> (verzekering • VvE • aankoop/verkoop)</span>  
+          <span>✅ <b>Eerlijk advies</b>: alleen rapportage als het echt toevoegt</span>  
+        </div>  
+      </div>  
+
+      <div>  
+        <div class="media-card media-contrast">  
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Rapportage%20dakinspectie%20Daklekkages%20Opgelost.jpeg?width=860&amp;t=1771886964316"  
+               alt="Voorbeeldrapport: rapportage dakinspectie zoals je deze ontvangt"  
+               loading="eager" fetchpriority="high" decoding="async" width="860" height="560">  
+
+          <div class="hero-badge">  
+            Voorbeeldrapport  
+            <small>zoals je deze ontvangt</small>  
+          </div>  
+
+          <div class="pdf-chip" aria-label="PDF">  
+            <svg viewBox="0 0 24 24" aria-hidden="true">  
+              <path fill="#1D9753" d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5z"/>  
+            </svg>  
+          </div>  
+
+          <div class="hero-note"><b>Praktisch:</b> Bij claim/aankoop/VvE draait het om aantoonbaarheid. Een rapportage verkleint de ruimte voor interpretatie.</div>  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- KEUZEHULP -->  
+<section class="sec" id="keuzehulp-rapportage">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Snel kiezen</div>  
+    <h2>Keuzehulp: past een rapportage dakinspectie bij jouw situatie?</h2>  
+    <p>Deze kaarten helpen je snel bepalen of je genoeg hebt aan inspectie, of dat formele vastlegging (rapportage) nodig is.</p>  
+
+    <div class="chooser">  
+      <details class="chooser__item" open>  
+        <summary class="chooser__summary">  
+          <span class="chooser__icon">📄</span>  
+          Verzekering / claim  
+          <span class="chooser__arrow" aria-hidden="true">▾</span>  
+        </summary>  
+        <div class="chooser__body">  
+          <p>Heb je een (mogelijke) claim en wil je discussie over oorzaak/onderhoud beperken? Dan is een <strong>rapportage dakinspectie</strong> vaak de logische stap na inspectie.</p>  
+        </div>  
+      </details>  
+
+      <details class="chooser__item">  
+        <summary class="chooser__summary">  
+          <span class="chooser__icon">🏢</span>  
+          VvE / gedeeld dak  
+          <span class="chooser__arrow" aria-hidden="true">▾</span>  
+        </summary>  
+        <div class="chooser__body">  
+          <p>Bij meerdere eigenaren helpt objectieve onderbouwing. Een rapportage maakt besluitvorming sneller en voorkomt “mening vs mening”.</p>  
+        </div>  
+      </details>  
+
+      <details class="chooser__item">  
+        <summary class="chooser__summary">  
+          <span class="chooser__icon">🏠</span>  
+          Aankoop / verkoop  
+          <span class="chooser__arrow" aria-hidden="true">▾</span>  
+        </summary>  
+        <div class="chooser__body">  
+          <p>Wil je bewijsstuk richting koper/verkoper? Met een rapportage voorkom je discussie achteraf over staat, aandachtspunten en urgentie.</p>  
+        </div>  
+      </details>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- WANNEER NODIG -->  
+<section class="sec" id="wanneer">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Wanneer nodig</div>  
+    <h2>Wanneer is een rapportage nodig?</h2>  
+    <p>Een mondelinge toelichting of losse foto’s zijn in veel gevallen niet genoeg. Bij schadeclaims, aankopen of geschillen is er behoefte aan een document dat objectief beschrijft wat is aangetroffen en hoe dat technisch moet worden geïnterpreteerd. Juist dan voorkomt een rapportage discussie achteraf.</p>  
+    <p>In de praktijk is een rapportage vooral zinvol wanneer er een <b>beslissing</b> moet worden genomen door iemand anders dan jijzelf — en die derde partij wil kunnen terugvallen op duidelijke onderbouwing.</p>  
+
+    <div class="grid">  
+      <article class="card"><div class="card-in">  
+        <h3>Verzekeringsclaim</h3>  
+        <p>Bij stormschade of plotselinge lekkage moet je kunnen aantonen wat de technische oorzaak is en of dit past binnen dekking versus achterstallig onderhoud.</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>Aankoop / verkoop</h3>  
+        <p>Een rapportage voorkomt discussies over “verborgen gebreken” doordat de staat van het dak en aandachtspunten helder zijn vastgelegd.</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>VvE of gedeeld dak</h3>  
+        <p>Bij gezamenlijke besluitvorming wil je dat bevindingen objectief zijn en dat meerdere partijen dezelfde feiten gebruiken.</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>Terugkerende lekkages</h3>  
+        <p>Als eerder herstel geen zekerheid gaf, helpt vastlegging om oorzaak, risico’s en logische vervolgstappen te structureren.</p>  
+      </div></article>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- FLOW -->  
+<section class="sec soft" id="flow">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Hoe het werkt</div>  
+    <h2>Van inspectie naar rapportage: zo wordt het opgebouwd</h2>  
+    <p>De rapportage volgt een vaste structuur met een beoordeling per onderdeel, aangevuld met foto’s en toelichting. Zo ontstaat een helder overzicht van de staat van het dak en de aandachtspunten — bruikbaar voor derden.</p>  
+
+    <div class="flow">  
+      <div class="node">  
+        <div class="node-top"><div class="chip">1</div><h4>Inspectie</h4></div>  
+        <p>We beoordelen dakbedekking, details, afwatering, aansluitingen en zichtbare schadepatronen.</p>  
+      </div>  
+      <div class="node">  
+        <div class="node-top"><div class="chip">2</div><h4>Structuur</h4></div>  
+        <p>Bevindingen worden per dakonderdeel geordend zodat het document logisch leesbaar is voor derden.</p>  
+      </div>  
+      <div class="node">  
+        <div class="node-top"><div class="chip">3</div><h4>Onderbouwing</h4></div>  
+        <p>Foto’s + toelichting geven context: wat zien we, waarom is dit relevant, wat is het risico?</p>  
+      </div>  
+      <div class="node">  
+        <div class="node-top"><div class="chip">4</div><h4>Conclusie</h4></div>  
+        <p>Samenvatting met kernpunten, urgentie en een heldere oplossingsrichting (zonder giswerk).</p>  
+      </div>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- WAT VOEGT TOE -->  
+<section class="sec" id="toevoegt">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Toegevoegde waarde</div>  
+    <h2>Wat deze dienst toevoegt</h2>  
+    <p>Waar een inspectie inzicht geeft, zorgt een rapportage voor vastlegging. Bevindingen worden per dakonderdeel beschreven, voorzien van een technische beoordeling en, waar relevant, een mogelijke oorzaak en oplossingsrichting. Dat maakt het document bruikbaar voor derden.</p>  
+    <p>Dit is precies het verschil tussen “wij denken dat…” en “dit is aantoonbaar vastgesteld”. In claim- of aankoopprocessen is dat vaak het kantelpunt.</p>  
+
+    <div class="grid">  
+      <article class="card"><div class="card-in">  
+        <h3>Feiten i.p.v. aannames</h3>  
+        <p>Je voorkomt dat de discussie gaat over interpretatie. De situatie is technisch onderbouwd vastgelegd.</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>Ondersteuning bij besluitvorming</h3>  
+        <p>Handig wanneer meerdere partijen een keuze moeten maken (VvE, verkoper/koper, verzekeraar).</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>Prioritering & urgentie</h3>  
+        <p>Niet alles is direct spoed. Een rapportage geeft duidelijkheid: wat moet nu, wat kan later?</p>  
+      </div></article>  
+
+      <article class="card"><div class="card-in">  
+        <h3>Rust en voorspelbaarheid</h3>  
+        <p>Je weet waar je aan toe bent en kunt sneller schakelen met de juiste vervolgstap.</p>  
+      </div></article>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- VERZEKERING (foto rechts naast tekst) -->  
+<section class="sec soft" id="verzekering">  
+  <div class="container">  
+    <div class="split stretch">  
+      <div>  
+        <div class="kicker"><span class="kdot"></span> Verzekering</div>  
+        <h2>Verzekeringskwesties: waarom een rapportage verschil maakt</h2>  
+        <p>In de praktijk ontstaan veel discussies pas wanneer een verzekeraar meekijkt. Dan gaat het niet meer om wat je vermoedt, maar om wat aantoonbaar is: wanneer is de schade ontstaan, wat is de technische oorzaak en valt dit onder dekking of onder achterstallig onderhoud.</p>  
+        <p>Verzekeraars kijken daarbij scherp naar documentatie. Een formele rapportage helpt om die vragen te beantwoorden met feiten in plaats van aannames en vergroot de kans dat een claim inhoudelijk wordt beoordeeld in plaats van direct terzijde wordt gelegd. Dat verkleint de kans dat een claim wordt afgewezen op basis van onduidelijkheid.</p>  
+
+        <div class="callout important" role="note" aria-label="Belangrijk">
+          <div class="tag"><span class="dot" aria-hidden="true"></span> Belangrijk</div>
+          <p>Een rapportage is geen “claim-garantie”, maar wel de manier om het gesprek op inhoud te voeren in plaats van op twijfel.</p>
+        </div>
+      </div>  
+
+      <div>  
+        <div class="media-card media-contrast">  
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Tijd%20tussen%20oorzaak%20en%20gevolg%20bij%20daklekkage.jpeg?width=860&amp;t=1771763206784"  
+               alt="Tijd tussen oorzaak en gevolg bij daklekkage: waarom onderbouwing belangrijk is"  
+               loading="lazy" decoding="async" width="860" height="560">  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- KOSTEN -->  
+<section class="sec" id="kosten">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Kosten</div>  
+    <h2>Wat het kost en waarom</h2>  
+    <p>De inspectie zelf blijft kosteloos; voor het opstellen van een rapportage geldt een marktconforme vergoeding die afhankelijk is van de diepgang en de omvang van het dak. In de praktijk ligt dit meestal in een bandbreedte van ongeveer <b>€75 tot €150 exclusief btw</b>.</p>  
+    <p>Kleinere daken met een overzichtelijke opbouw vallen aan de onderkant, grotere of complexere daken – bijvoorbeeld met meerdere niveaus, aanbouwen of specifieke schadevragen – richting de bovenkant. Die kosten wegen meestal ruimschoots op tegen de zekerheid die het document biedt.</p>  
+
+    <div class="callout important" role="note" aria-label="Belangrijk">
+      <div class="tag"><span class="dot" aria-hidden="true"></span> Belangrijk</div>
+      <p>Als tijdens de inspectie blijkt dat rapportage <b>geen</b> toegevoegde waarde heeft, wordt die ook niet opgesteld en worden er geen kosten in rekening gebracht.</p>
+    </div>
+  </div>  
+</section>  
+
+<!-- RELATIE MET ANDERE DIENSTEN -->  
+<section class="sec soft" id="vergelijk">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Kiezen</div>  
+    <h2>Inspectie vs. rapportage vs. lekkage opsporen</h2>  
+    <p>Een dakinspectie geeft inzicht in de algemene staat van het dak en kwetsbare details. Lekkage opsporen richt zich op het lokaliseren van de exacte ingang van water, zodat herstel gericht kan plaatsvinden. Een rapportage legt bevindingen formeel vast, zodat je ze kunt gebruiken richting derden.</p>  
+    <div class="grid">  
+      <article class="card"><div class="card-in">  
+        <h3>Inspectie</h3>  
+        <p>Voor inzicht en advies: hoe staat het dak ervoor, waar zitten risico’s, wat is logisch onderhoud?</p>  
+      </div></article>  
+      <article class="card"><div class="card-in">  
+        <h3>Lekkage opsporen</h3>  
+        <p>Voor zekerheid bij waterinfiltratie: niet gokken, maar de bron lokaliseren vóór herstel.</p>  
+      </div></article>  
+      <article class="card"><div class="card-in">  
+        <h3>Rapportage</h3>  
+        <p>Voor formele onderbouwing: bruikbaar voor verzekering, VvE, aankoop/verkoop en discussies.</p>  
+      </div></article>  
+      <article class="card"><div class="card-in">  
+        <h3>Combinatie</h3>  
+        <p>Bij complexere situaties: eerst inspectie/opsporing, daarna rapportage voor bewijs en besluitvorming.</p>  
+      </div></article>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- REGIO (foto links naast tekst) -->  
+<section class="sec" id="regio">  
+  <div class="container">  
+    <div class="split stretch">  
+      <div>  
+        <div class="media-card media-contrast">  
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Twijfel%20en%20onduidelijkheden%20aanleiding%20voor%20dakinspectie-1.jpeg?width=860&amp;t=1772150835527"  
+               alt="Dakinspectie uitgelegd: basis voor rapportage dakinspectie in Gelderland, Noord-Brabant en Utrecht"  
+               loading="lazy" decoding="async" width="860" height="560">  
+        </div>  
+      </div>  
+
+      <div>  
+        <div class="kicker"><span class="kdot"></span> Werkgebied</div>  
+        <h2>Actief in Gelderland, Noord-Brabant en Utrecht</h2>  
+        <p>In regio’s als Gelderland, Noord-Brabant en Utrecht zien we uiteenlopende daktypes: platte bitumen daken, pannendaken, monumentale panden en moderne nieuwbouw. Klimaatinvloeden, stormbelasting en materiaalveroudering spelen een rol in schadeontwikkeling.</p>  
+        <p>Juist daarom is een objectieve beoordeling belangrijk wanneer belangen samenkomen. Door regionaal actief te zijn, kennen wij veelvoorkomende schadepatronen en kunnen wij bevindingen in de juiste context plaatsen.</p>  
+      </div>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- FAQ -->  
+<section class="sec soft" id="faq">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Veelgestelde vragen</div>  
+    <h2>Veelgestelde vragen over rapportage dakinspectie</h2>  
+
+    <div class="faq">  
+      <details open>  
+        <summary><span class="qdot" aria-hidden="true"></span> Wanneer kies ik voor rapportage in plaats van alleen inspectie? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Wanneer je bevindingen moet kunnen aantonen richting een derde partij (verzekering, VvE, koper/verkoper) is rapportage meestal de juiste keuze. Voor eigen inzicht is inspectie vaak voldoende.</p></div>  
+      </details>  
+
+      <details>  
+        <summary><span class="qdot" aria-hidden="true"></span> Kan een rapportage helpen bij een verzekeringsclaim? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Ja, omdat het de situatie technisch onderbouwt en de ruimte voor interpretatie verkleint. Het is geen garantie op dekking, maar wel een sterke basis voor inhoudelijke beoordeling.</p></div>  
+      </details>  
+
+      <details>  
+        <summary><span class="qdot" aria-hidden="true"></span> Wat staat er precies in de rapportage? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Beoordeling per dakonderdeel, fotomateriaal met toelichting, samenvatting, conclusie en waar relevant een oplossingsrichting en urgentie-indicatie.</p></div>  
+      </details>  
+
+      <details>  
+        <summary><span class="qdot" aria-hidden="true"></span> Wat kost de rapportage en wanneer betaal ik? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Meestal €75–€150 excl. btw afhankelijk van dakgrootte en complexiteit. Als tijdens de inspectie blijkt dat rapportage geen toegevoegde waarde heeft, wordt die niet opgesteld en rekenen we die kosten niet.</p></div>  
+      </details>  
+
+      <details>  
+        <summary><span class="qdot" aria-hidden="true"></span> Ik heb een lekkage: moet ik dan niet eerst lekkage opsporen? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Als de oorzaak onduidelijk is: ja. Lekkage opsporen richt zich op de bron. Rapportage is vooral bedoeld voor formele vastlegging richting derden.</p></div>  
+      </details>  
+
+      <details>  
+        <summary><span class="qdot" aria-hidden="true"></span> Hoe snel kan dit geregeld worden? <span class="chev" aria-hidden="true">▾</span></summary>  
+        <div class="ans"><p>Dat hangt af van planning en urgentie. In situaties met claim- of aankoopdrukte wordt vaak sneller geschakeld. Neem contact op, dan stemmen we het praktisch af.</p></div>  
+      </details>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- SAMENVATTING -->  
+<section class="sec" id="samenvatting">  
+  <div class="container">  
+    <div class="kicker"><span class="kdot"></span> Vervolgstap</div>  
+    <h2>Wanneer dit de juiste vervolgstap is</h2>  
+    <p>Als je de uitkomst van een inspectie nodig hebt als bewijsstuk, is een rapportage de logische upgrade. Wie zekerheid nodig heeft richting derden, kan deze stap zetten om zijn positie te onderbouwen en een rapportage te laten opstellen die ook buiten het gesprek met ons standhoudt.</p>  
+    <p>Neem vrijblijvend contact op om te bespreken of een rapportage in jouw situatie zinvol is en hoe dat praktisch wordt opgepakt.</p>  
+
+    <div class="deliver" aria-label="Deliverables rapportage dakinspectie">  
+      <h3>  
+        <svg class="pdf-mini" viewBox="0 0 24 24" aria-hidden="true">  
+          <path fill="#1D9753" d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5z"/>  
+        </svg>  
+        Mini-checklist: wat je krijgt  
+      </h3>  
+      <ul>  
+        <li>✅ <b>Beoordeling per dakonderdeel</b> (dakvlak, details, afwatering, aansluitingen)</li>  
+        <li>✅ <b>Fotobewijs</b> met toelichting per bevinding</li>  
+        <li>✅ <b>Conclusie</b> met kernpunten en interpretatie voor derden</li>  
+        <li>✅ <b>Urgentie</b>: wat moet nu, wat kan later (en waarom)</li>  
+      </ul>  
+    </div>  
+
+    <div class="actions">  
+      <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Vrijblijvend contact →</a>  
+      <a class="btn outline" href="/dakinspectie">Eerst inspectie</a>  
+      <a class="btn ghost" href="tel:0851308251">Direct bellen</a>  
+    </div>  
+  </div>  
+</section>
+
+  </div>  
+</div>  
+
+<script>  
+(function(){  
+  // Sticky CTA pas zichtbaar na 300px scroll (desktop)  
+  var cta = document.querySelector('.sticky-cta');  
+  if(!cta) return;  
+
+  function toggleCTA(){  
+    if(window.innerWidth > 980 && window.scrollY > 300){  
+      cta.classList.add('is-visible');  
+    } else {  
+      cta.classList.remove('is-visible');  
+    }  
+  }  
+
+  window.addEventListener('scroll', toggleCTA, { passive:true });  
+  window.addEventListener('resize', toggleCTA);  
+  toggleCTA();  
+})();  
+</script>

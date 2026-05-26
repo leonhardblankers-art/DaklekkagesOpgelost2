@@ -1,0 +1,1454 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --brand:#1D9753;
+    --accent:#ff7a00;
+    --accent-dark:#e56700;
+    --brand2:#167a44;
+    --ink:#0b0d10;
+    --muted:#606a78;
+    --soft:#f6f8f7;
+    --shadow:0 25px 60px rgba(0,0,0,.12);
+    --max:1100px;
+    --r:22px;
+  }
+
+  /* ====== Base ====== */
+  .dlo{ font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:#fff; }
+  .dlo *{ box-sizing:border-box; }
+  .dlo a{ color:inherit; text-decoration:none; }
+  .dlo .wrap{ max-width:var(--max); margin:0 auto; padding:22px 18px; position:relative; z-index:1; }
+
+  .dlo h1{ font-size:clamp(32px,3vw,46px); line-height:1.05; letter-spacing:-.8px; margin:0 0 12px; }
+  .dlo h2{ font-size:clamp(22px,2.1vw,30px); letter-spacing:-.3px; margin:0 0 10px; }
+  .dlo h3{ margin:0; font-size:16px; letter-spacing:-.2px; color:var(--ink); }
+  .dlo p{ font-size:16px; line-height:1.75; margin:0 0 18px; color:var(--muted); }
+  .dlo .lead{ color:var(--muted); }
+  .dlo .small{ font-size:13px; line-height:1.6; color:var(--muted); }
+
+  .dlo .sym p,
+  .dlo .svc p,
+  .dlo .cathead p,
+  .dlo .faqBody p,
+  .dlo .hero-note,
+  .dlo .small,
+  /* Left image: show lower part where the problem area is */
+  .dlo .photo-card:first-child img{
+    object-position:center bottom;
+  }
+
+  .dlo .photo-caption p{
+    margin:0;
+  }
+
+  /* Internal link house style */
+  .dlo a.ilink{
+    color:var(--brand) !important;
+    font-weight:900 !important;
+    text-decoration:none !important;
+  }
+  .dlo a.ilink:hover{ opacity:.9; }
+
+  /* Breadcrumb + kicker */
+  .dlo .crumbs{ font-size:13px; color:var(--muted); display:flex; gap:8px; align-items:center; margin:0 0 14px; }
+  .dlo .crumbs a{ color:var(--muted); text-decoration:none; }
+  .dlo .kicker{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:8px 12px; border-radius:999px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-weight:900; font-size:13px; letter-spacing:.2px;
+    margin:0 0 10px;
+  }
+  .dlo .kdot{ width:10px; height:10px; border-radius:50%; background:var(--brand); box-shadow:0 0 0 6px rgba(29,151,83,.16); }
+
+  /* Section pill (boven ieder kopje) */
+  .dlo .sp{
+    margin-top:0;
+
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:8px 12px;
+    border-radius:999px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-weight:900;
+    font-size:13px;
+    letter-spacing:.2px;
+    margin:0 0 10px;
+  }
+  .dlo .sp .dot{
+    width:10px;height:10px;border-radius:50%;
+    background:var(--brand);
+    box-shadow:0 0 0 6px rgba(29,151,83,.16);
+  }
+
+  /* Buttons */
+  .dlo .actions{ display:flex; gap:14px; flex-wrap:wrap; margin-top:18px; }
+  .dlo .btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:12px 18px; border-radius:14px; font-weight:800; font-size:14px;
+    text-decoration:none; border:1px solid var(--brand); transition:.2s;
+    background:#fff; color:var(--brand2);
+  }
+  .dlo .btn.primary{ background:var(--brand); color:#fff; }
+  .dlo .btn.primary:hover{ background:var(--brand2); transform:translateY(-2px); }
+  .dlo .btn.outline{ background:#fff; color:var(--brand2); }
+  .dlo .btn.outline:hover{ background:rgba(29,151,83,.08); transform:translateY(-2px); }
+
+  /* ====== Hero shell ====== */
+  .dlo .soft{
+    background:linear-gradient(180deg,var(--soft),#fff);
+    position:relative; overflow:hidden;
+    border:1px solid rgba(15,17,21,.06);
+    border-radius:calc(var(--r) + 8px);
+  }
+  .dlo .soft:before{
+    content:"";
+    position:absolute;
+    inset:-120px -120px auto -120px;
+    height:260px;
+    background:
+      radial-gradient(520px 220px at 18% 30%, rgba(29,151,83,.14), transparent 60%),
+      radial-gradient(420px 200px at 80% 10%, rgba(29,151,83,.10), transparent 62%);
+    pointer-events:none; z-index:0;
+  }
+  .dlo .soft:after{
+    content:"";
+    position:absolute;
+    inset:auto -120px -160px -120px;
+    height:300px;
+    background:
+      radial-gradient(520px 240px at 70% 70%, rgba(29,151,83,.10), transparent 62%),
+      radial-gradient(420px 220px at 20% 90%, rgba(29,151,83,.08), transparent 64%);
+    pointer-events:none; z-index:0;
+  }
+
+  .dlo .hero{ padding:22px; position:relative; z-index:1; }
+  .dlo .split{ display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:start; }
+
+  .dlo .mini-trust{ margin-top:14px; display:grid; gap:8px; font-size:13px; color:var(--muted); }
+  .dlo .mini-trust span{ display:flex; gap:8px; align-items:flex-start; }
+  .dlo .mini-trust b{ color:var(--ink); }
+
+  .dlo .media-card{
+    border-radius:var(--r);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    position:relative;
+    background:#000;
+  }
+  .dlo .media-card img{
+    width:100%;
+    height:auto !important;
+    max-height:none !important;
+    display:block;
+    position:relative;
+    z-index:1;
+  }
+  .dlo .media-card:after{
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(180deg,rgba(0,0,0,.10),rgba(0,0,0,.02));
+    pointer-events:none; z-index:2;
+  }
+
+  /* Hero image crop (desktop) */
+  @media (min-width:981px){
+    .dlo .soft .media-card{ height: 520px; }
+    .dlo .soft .media-card img{
+      height:100% !important;
+      object-fit:cover;
+      object-position:center;
+    }
+  }
+
+  .dlo .review-badge{
+    position:absolute;
+    top:14px; left:14px;
+    background:rgba(255,255,255,.88);
+    backdrop-filter:blur(6px);
+    border-radius:999px;
+    padding:6px 10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:800;
+    font-size:12px;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+    border:1px solid rgba(15,17,21,.08);
+    z-index:3;
+  }
+  .dlo .review-badge .stars{ color:#f5b301; font-size:12px; letter-spacing:1px; line-height:1; }
+  .dlo .review-badge .meta{ color:var(--muted); font-weight:800; }
+
+  .dlo .hero-note{
+    position:absolute;
+    left:16px; right:16px; bottom:16px;
+    padding:14px 16px;
+    border-radius:18px;
+    background:rgba(255,255,255,.94);
+    border:1px solid rgba(15,17,21,.08);
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.6;
+    box-shadow:0 14px 34px rgba(0,0,0,.22);
+    z-index:4;
+  }
+
+  /* ====== Sections ====== */
+  .dlo .section{ padding:18px 0; } /* base section spacing */
+
+  /* consistent spacing above all highlighted pill blocks */
+  .dlo .hl,
+  .dlo .warn{
+    margin-top:18px;
+  }
+
+  /* keep consistent vertical rhythm between sections */
+  .dlo .section + .section{ margin-top:18px; }
+
+  /* Featured choice helper */
+  .dlo .choice-featured{
+    border:1px solid rgba(29,151,83,.18);
+    box-shadow:0 20px 46px rgba(29,151,83,.10);
+    background:
+      radial-gradient(900px 220px at 10% 0%, rgba(29,151,83,.10), transparent 60%),
+      linear-gradient(180deg,#fff,#fbfcfb);
+    position:relative;
+  }
+  .dlo .choice-featured:before{
+    content:"";
+    position:absolute;
+    inset:0 0 auto 0;
+    height:5px;
+    background:linear-gradient(90deg,var(--brand),rgba(29,151,83,.18));
+    z-index:1;
+  }
+    .dlo .start-label{
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:.08em;
+    color:var(--brand2);
+    margin-bottom:6px;
+  }
+  .dlo .choice-steps{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    align-items:center;
+    margin-top:10px;
+    font-size:13px;
+    font-weight:700;
+    color:var(--muted);
+  }
+  .dlo .choice-step{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .dlo .choice-step .num{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:rgba(29,151,83,.12);
+    color:var(--brand2);
+    font-weight:900;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+  }
+  .dlo .choice-arrow{
+    opacity:.5;
+  }
+  .dlo .choice-featured:after{
+    content:"";
+    position:absolute;
+    inset:-20px;
+    background:radial-gradient(700px 200px at 50% 0%, rgba(29,151,83,.08), transparent 60%);
+    z-index:-1;
+    pointer-events:none;
+  }
+    .dlo .symDiagnosis{
+    margin-top:2px;
+    font-size:12px;
+    font-weight:900;
+    color:var(--brand2);
+  }
+  .dlo .sym.is-featured{
+    border:1.5px solid rgba(29,151,83,.28);
+    box-shadow:0 18px 40px rgba(29,151,83,.10);
+  }
+  .dlo .sym-badge{
+    display:inline-flex;
+    align-items:center;
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-size:11px;
+    font-weight:900;
+    margin-bottom:8px;
+  }
+
+  .dlo .cat{
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(15,17,21,.06);
+    border-radius:calc(var(--r) + 6px);
+    box-shadow:0 15px 40px rgba(0,0,0,.07);
+    overflow:hidden;
+  }
+  .dlo .cathead{
+    padding:12px 18px 10px;
+    border-bottom:1px solid rgba(15,17,21,.07);
+    background:
+      radial-gradient(900px 220px at 18% 0%, rgba(29,151,83,.10), transparent 60%),
+      linear-gradient(180deg,#fff,#fbfcfb);
+  }
+  .dlo .cathead p{ margin:0; }
+
+  .dlo .catgrid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:14px;
+    padding:16px;
+  }
+
+  .dlo .svc{
+    border:1px solid rgba(15,17,21,.07);
+    border-radius:var(--r);
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    min-height:160px;
+    transition:.2s ease;
+  }
+  .dlo .svc:hover{ transform:translateY(-2px); box-shadow:0 18px 40px rgba(0,0,0,.09); border-color:rgba(15,17,21,.12); }
+  .dlo .svcTop{ display:flex; gap:12px; align-items:flex-start; }
+  .dlo .svcIcon{
+    width:42px; height:42px;
+    border-radius:16px;
+    background:rgba(29,151,83,.10);
+    display:flex; align-items:center; justify-content:center;
+    font-size:18px;
+    flex:0 0 42px;
+  }
+  .dlo .svc p{ font-size:14px; line-height:1.65; color:var(--muted); }
+  .dlo .svcFoot{ margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .dlo .svcCta{ font-weight:900; color:var(--brand2); }
+  .dlo .svcTag{
+    font-size:12px; font-weight:800; color:var(--muted);
+    border:1px solid rgba(15,17,21,.10);
+    background:rgba(15,17,21,.02);
+    padding:6px 10px;
+    border-radius:999px;
+    white-space:nowrap;
+  }
+
+  /* Highlight blocks */
+  .dlo .hl{
+    border-radius:calc(var(--r) + 6px);
+    border:1px solid rgba(29,151,83,.22);
+    background:rgba(29,151,83,.08);
+    padding:14px 16px;
+  }
+  .dlo .hl b{ color:var(--ink); }
+
+  .dlo .warn{
+    border-radius:calc(var(--r) + 6px);
+    border:1px solid rgba(255,122,0,.28);
+    background:rgba(255,122,0,.10);
+    padding:14px 16px;
+  }
+  .dlo .warn b{ color:var(--ink); }
+
+  /* Two columns info */
+  .dlo .twocol{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .dlo .card{
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    border:1px solid rgba(15,17,21,.06);
+    border-radius:calc(var(--r) + 6px);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    padding:18px;
+  }
+  .dlo .card ul{ margin:10px 0 0; padding-left:18px; color:var(--muted); }
+  .dlo .card li{ margin:6px 0; }
+
+  /* Extra photo grid */
+  .dlo .photo-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    margin-top:16px;
+  }
+  .dlo .photo-card{
+    border:1px solid rgba(15,17,21,.06);
+    border-radius:calc(var(--r) + 6px);
+    overflow:hidden;
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    display:flex;
+    flex-direction:column;
+    height:100%;
+  }
+  .dlo .photo-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+  }
+  .dlo .photo-caption{
+    padding:14px 16px;
+    display:flex;
+    align-items:flex-start;
+    min-height:94px;
+  }
+  .dlo .photo-caption p{
+    font-size:14px;
+    line-height:1.65;
+    color:var(--muted);
+  }
+
+  /* Chips */
+  .dlo .chips{ display:flex; flex-wrap:wrap; gap:10px; }
+  .dlo .chip{
+    display:inline-flex; align-items:center;
+    padding:8px 10px;
+    border-radius:999px;
+    background:rgba(29,151,83,.06);
+    border:1px solid rgba(29,151,83,.14);
+    color:var(--brand2);
+    font-weight:800;
+    font-size:12px;
+    text-decoration:none;
+    transition:.2s ease;
+  }
+  .dlo .chip:hover{ background:rgba(29,151,83,.12); border-color:rgba(29,151,83,.28); transform:translateY(-1px); }
+
+  /* Symptom grid */
+  /* Diagnose-style symptom grid */
+  .dlo .symGrid-label{
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:.05em;
+    color:var(--brand2);
+    margin:4px 0 8px;
+  }
+  .dlo .sym{
+    cursor:pointer;
+    position:relative;
+  }
+  .dlo .sym:before{
+    content:"Kies symptoom";
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size:10px;
+    font-weight:900;
+    color:var(--brand2);
+    opacity:.6;
+  }
+  .dlo .sym:hover{
+    border-color:rgba(29,151,83,.35);
+    background:linear-gradient(180deg,rgba(29,151,83,.08),#fbfcfb);
+    box-shadow:0 20px 44px rgba(29,151,83,.12);
+    transform:translateY(-3px);
+  }
+
+  .dlo .symGrid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:14px;
+    padding:16px;
+  }
+  .dlo .sym{
+    border:1px solid rgba(15,17,21,.07);
+    border-radius:var(--r);
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:.2s ease;
+    min-height:170px;
+  }
+  .dlo .sym:hover{ transform:translateY(-3px); border-color:rgba(29,151,83,.35); background:linear-gradient(180deg,rgba(29,151,83,.08),#fbfcfb); box-shadow:0 20px 44px rgba(29,151,83,.12); }
+  .dlo .symTop{ display:flex; gap:12px; align-items:flex-start; }
+  .dlo .symIcon{
+    width:42px; height:42px;
+    border-radius:16px;
+    background:rgba(29,151,83,.10);
+    display:flex; align-items:center; justify-content:center;
+    font-size:18px;
+    flex:0 0 42px;
+  }
+  .dlo .sym p{ font-size:14px; line-height:1.65; color:var(--muted); }
+  .dlo .symLinks{ margin-top:auto; display:flex; flex-wrap:wrap; gap:10px; }
+  .dlo .miniLink{
+    display:inline-flex; align-items:center;
+    padding:7px 10px;
+    border-radius:999px;
+    border:1px solid rgba(15,17,21,.10);
+    background:#fff;
+    font-weight:900;
+    font-size:12px;
+    color:var(--ink);
+  }
+  .dlo .miniLink.primary{
+    border-color:rgba(29,151,83,.25);
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+  }
+
+  /* FAQ – groene knopjes voor iedere vraag */
+  .dlo .faq{ margin-top:10px; }
+
+  /* Same spacing between FAQ and next content as normal paragraphs */
+  /* spacing after FAQ equal to normal paragraph spacing */
+  section[aria-label="Veelgestelde vragen"] + .bottom-two{
+  margin-top:36px;
+}
+  .dlo details.faqItem{
+    border:1px solid rgba(15,17,21,.07);
+    border-radius:var(--r);
+    background:linear-gradient(180deg,#fff,#fbfcfb);
+    box-shadow:0 12px 28px rgba(0,0,0,.06);
+    padding:12px 14px;
+  }
+  .dlo details.faqItem + details.faqItem{ margin-top:10px; }
+  .dlo details.faqItem summary{
+    cursor:pointer;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .dlo details.faqItem summary::-webkit-details-marker{ display:none; }
+  .dlo .faqPill{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(29,151,83,.10);
+    border:1px solid rgba(29,151,83,.20);
+    color:var(--brand2);
+    font-weight:900;
+    font-size:12px;
+    flex:0 0 auto;
+  }
+  .dlo .faqDot{
+    width:9px;height:9px;border-radius:50%;
+    background:var(--brand);
+    box-shadow:0 0 0 5px rgba(29,151,83,.14);
+  }
+  .dlo .faqQ{ flex:1; }
+  .dlo .faqChevron{
+    margin-left:auto;
+    color:var(--brand2);
+    font-weight:900;
+    transform:rotate(0deg);
+    transition:transform .2s ease;
+  }
+  .dlo details.faqItem[open] .faqChevron{ transform:rotate(180deg); }
+  .dlo .faqBody{ padding-top:10px; }
+  .dlo .faqBody p{ margin:0; }
+
+  /* ====== Sticky CTA (DESKTOP) – exact homepage-stijl ====== */
+  .dlo .sticky-cta{ position:fixed; right:18px; top:50%; transform:translateY(-50%); z-index:9999; display:none; }
+  .dlo .sticky-cta.is-visible{ display:block; }
+  .dlo .sticky-cta .box{
+    width:220px;
+    background:rgba(255,255,255,.96);
+    border:2px solid rgba(255,122,0,.95);
+    border-radius:16px;
+    box-shadow:0 16px 40px rgba(0,0,0,.16);
+    padding:12px;
+    position:relative;
+    backdrop-filter:blur(10px);
+    overflow:visible;
+  }
+  .dlo .sticky-cta .label{
+    font-weight:900;
+    font-size:13px;
+    margin-bottom:12px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    color:var(--ink);
+  }
+  .dlo .sticky-cta .dot{
+    width:10px;height:10px;border-radius:50%;
+    background:var(--accent);
+    box-shadow:0 0 0 0 rgba(255,122,0,.55);
+    animation:blinkDot 1.7s infinite;
+  }
+  .dlo .sticky-cta .btn{ width:100%; }
+  .dlo .sticky-cta .btn.primary,
+  .dlo .sticky-cta a.btn.primary{
+    background:var(--accent) !important;
+    border-color:var(--accent) !important;
+    color:#fff !important;
+    font-weight:900;
+    will-change: transform, filter, box-shadow, background-color;
+    animation:ctaBlink .9s infinite !important;
+  }
+  .dlo .sticky-cta .btn.primary:hover,
+  .dlo .sticky-cta a.btn.primary:hover{ background:var(--accent-dark) !important; }
+  .dlo .sticky-cta .btn.outline{
+    border-color:rgba(15,17,21,.12);
+    color:var(--ink);
+    background:#fff;
+  }
+  .dlo .sticky-cta .btn.outline:hover{ background:rgba(15,17,21,.03); }
+  .dlo .sticky-cta .mini{ margin-top:10px; font-size:12px; color:var(--muted); line-height:1.35; }
+
+  @keyframes ctaBlink{
+    0%,100%{ background:var(--accent); transform:translateY(0) scale(1); filter:brightness(1); box-shadow:0 0 0 0 rgba(255,122,0,.0); }
+    50%{ background:var(--accent-dark); transform:translateY(-1px) scale(1.02); filter:brightness(1.10); box-shadow:0 12px 28px rgba(255,122,0,.40); }
+  }
+  @keyframes blinkDot{
+    0%{ box-shadow:0 0 0 0 rgba(255,122,0,.55); }
+    55%{ box-shadow:0 0 0 10px rgba(255,122,0,0); }
+    100%{ box-shadow:0 0 0 0 rgba(255,122,0,0); }
+  }
+
+  @media(min-width:981px){ .dlo .sticky-cta{ display:none; } .dlo .sticky-cta.is-visible{ display:block; } }
+  @media(max-width:980px){ .dlo .split{ grid-template-columns:1fr; } }
+
+  /* ====== Sticky CTA (MOBILE) ====== */
+  .dlo .sticky-mobile{
+    position:fixed; left:12px; right:12px; bottom:12px;
+    z-index:9999; display:none;
+    border-radius:18px;
+    border:1px solid rgba(15,17,21,.10);
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(10px);
+    box-shadow:0 18px 40px rgba(0,0,0,.18);
+    padding:10px;
+    align-items:center;
+    gap:10px;
+  }
+  .dlo .sticky-mobile.is-visible{ display:flex; }
+  .dlo .sticky-mobile .txt{ flex:1; min-width:0; }
+  .dlo .sticky-mobile .txt .t{ font-weight:900; font-size:13px; margin:0; color:var(--ink); }
+  .dlo .sticky-mobile .txt .s{ font-size:12px; color:var(--muted); margin:2px 0 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .dlo .sticky-mobile .actions{ display:flex; gap:8px; flex:0 0 auto; margin:0; }
+  .dlo .sticky-mobile .a{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:10px 12px;
+    border-radius:14px;
+    font-weight:900; font-size:13px;
+    border:1px solid rgba(15,17,21,.12);
+    background:#fff;
+    color:var(--ink);
+    text-decoration:none;
+  }
+  .dlo .sticky-mobile .a.primary{ background:var(--brand); border-color:var(--brand); color:#fff; }
+
+  @media(min-width:981px){ .dlo .sticky-mobile{ display:none !important; } }
+  @media(max-width:980px){ .dlo .sticky-cta{ display:none !important; } }
+
+  /* Ensure pills start close to preceding text like the first example */
+  /* Make spacing before pills identical to first example */
+.dlo p + .sp,
+.dlo .hl + .sp,
+.dlo .warn + .sp,
+.dlo .cat + .sp,
+.dlo .twocol + .sp,
+.dlo .photo-grid + .sp{
+  margin-top:0; /* pill sits tight to previous text */
+}
+
+/* Ensure highlight blocks align with same vertical rhythm */
+.dlo .hl,
+.dlo .warn{
+  margin-top:0;
+}
+
+/* Ensure section-to-section spacing consistent */
+.dlo .section + .section{
+  margin-top:18px;
+}
+
+  /* Make highlight blocks (green/orange) use identical spacing */
+  .dlo .hl,
+  .dlo .warn{
+    margin-top:0;
+  }
+
+  /* Place final two sections side‑by‑side on desktop */
+  @media(min-width:981px){
+    .dlo .bottom-two{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:20px;
+      align-items:start;
+    }
+    .dlo .bottom-two > section{
+      margin:0;
+      padding:0;
+    }
+  }
+
+  /* Responsive */
+  @media(max-width:980px){
+    .dlo .catgrid{ grid-template-columns:1fr; }
+    .dlo .symGrid{ grid-template-columns:1fr; }
+    .dlo .twocol{ grid-template-columns:1fr; }
+    .dlo .photo-grid{ grid-template-columns:1fr; }
+    .dlo .photo-card img{ height:auto; }
+    .dlo .wrap{ padding:18px 14px; }
+  }
+</style>
+
+<div class="dlo">
+
+  <!-- Sticky CTA (desktop) -->
+  <div class="sticky-cta" id="stickyCTA" aria-label="Snelle actie">
+    <div class="box">
+      <div class="label"><span class="dot"></span> Direct hulp nodig?</div>
+      <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie →</a>
+      <a href="tel:0851308251" class="btn outline">Bel direct</a>
+      <div class="mini">Eén aanspreekpunt • snelle opvolging</div>
+    </div>
+  </div>
+
+  <!-- Sticky CTA (mobile bottom bar) -->
+  <div class="sticky-mobile" id="stickyMobile" aria-label="Mobiele snelle actie">
+    <div class="txt">
+      <p class="t">Daklekkage? Pak ’m nu aan</p>
+      <p class="s">Gratis inspectie of bel direct</p>
+    </div>
+    <div class="actions">
+      <a class="a primary tf-popup" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Inspectie</a>
+      <a class="a" href="tel:0851308251">Bel</a>
+      <a class="a" href="https://wa.me/31623293935" target="_blank" rel="noopener">WA</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <div class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> › <span style="color:var(--ink);font-weight:800">Lekkages</span>
+    </div>
+
+    <!-- HERO -->
+    <section class="soft" aria-label="Lekkages overzicht">
+      <div class="hero">
+        <div class="split">
+          <div>
+            <div class="kicker"><span class="kdot"></span> Uw kompas naar de juiste oplossing</div>
+            <h1>Lekkages</h1>
+
+            <p class="lead">
+              Van kleine vochtplekken tot acute daklekkages: wij lossen het snel en vakkundig op.
+              Deze pagina helpt u snel naar de juiste oplossing — of u nu al precies weet waar het probleem zit,
+              of juist eerst zekerheid wilt over de oorzaak. Met een gratis dakinspectie krijgt u helderheid,
+              voorkomt u vervolgschade en weet u direct welke vervolgstap logisch is.
+              Liever meteen schakelen? Bel of app ons, dan kunnen we snel inschatten wat er nodig is en
+              voorkomt u dat een kleine lekkage doorslaat naar grotere schade.
+            </p>
+
+            <div id="stickyTopSentinel" aria-hidden="true" style="height:1px;"></div>
+
+            <div class="actions" id="contact">
+              <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie aanvragen</a>
+              <a href="tel:0851308251" class="btn outline">Bel direct</a>
+              <a href="https://wa.me/31623293935" class="btn outline" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+
+            <div class="mini-trust" aria-label="Zekerheden">
+              <span>✅ <b>Gespecialiseerd</b> in lekkages & loodwerk</span>
+              <span>✅ <b>120+ reviews</b> (5 sterren) • snelle opvolging</span>
+              <span>✅ <b>Ook allround dakwerk</b>: pannen, isolatie, renovatie, schoorsteen</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="media-card" style="position:relative">
+              <div class="review-badge" aria-label="Beoordeling">
+                <span class="stars" aria-hidden="true">★★★★★</span>
+                <span class="meta">120+ reviews</span>
+              </div>
+              <img
+                src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20uit%20schoorsteen.jpeg?width=860&t=1772666382478"
+                alt="Lekkage uit schoorsteen"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                width="860"
+                height="560"
+              >
+              <div class="hero-note">
+                <b>Tip:</b> Water komt vaak op een andere plek naar binnen dan waar u het binnen ziet. Een inspectie maakt dat in één keer duidelijk.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tip block -->
+    <section class="section">
+      <div class="hl">
+        <p style="margin:0;color:var(--muted);">
+          <b>Tip:</b> Weet u niet precies waar de lekkage vandaan komt? Start met
+          <a class="ilink" href="/lekkage-opsporen">Lekkage opsporen</a>
+          of plan een <b>gratis dakinspectie</b> — zo voorkomt u vervolgschade.
+        </p>
+      </div>
+    </section>
+
+    <!-- Symptoom-keuzehulp -->
+    <section class="section cat choice-featured" aria-label="Keuzehulp op symptomen">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Keuzehulp • binnen 10 seconden</div>
+        <div class="start-label">START HIER • KEUZEHULP</div>
+        <h2>Wat ziet u binnen? Kies het symptoom dat u herkent</h2>
+        <p>Geen lange zoektocht: dit zijn de meest voorkomende situaties en de snelste route naar de juiste oplossing.</p>
+        <p><strong>Start hieronder:</strong> klik op het symptoom dat het meest lijkt op uw situatie. Zo ziet u direct welke route het beste past.</p>
+        <div class="choice-steps" aria-label="Zo werkt de keuzehulp">
+          <div class="choice-step"><span class="num">1</span>Herken symptoom</div>
+          <span class="choice-arrow">→</span>
+          <div class="choice-step"><span class="num">2</span>Kies juiste route</div>
+          <span class="choice-arrow">→</span>
+          <div class="choice-step"><span class="num">3</span>Voorkom vervolgschade</div>
+        </div>
+        
+      </div>
+
+      <div class="symGrid-label">Kies het symptoom dat het meest lijkt op uw situatie</div>
+      <div class="symGrid">
+        <div class="sym is-featured">
+          <div class="sym-badge">Meest voorkomend</div>
+          <div class="symTop">
+            <div class="symIcon">💧</div>
+            <div>
+              <h3>Vochtplek na regen</h3>
+              <p>Vaak een dakpan, aansluiting of dakrand. De zichtplek is niet altijd de bron.</p>
+              <div class="symDiagnosis">Diagnose → lekkage opsporen</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/lekkage-opsporen">Start met opsporen</a>
+            <a class="miniLink" href="/daklekkage">Daklekkage</a>
+          </div>
+        </div>
+
+        <div class="sym">
+          <div class="symTop">
+            <div class="symIcon">🧱</div>
+            <div>
+              <h3>Strepen/vocht rond schoorsteen</h3>
+              <p>Meestal lood, voegwerk of schoorsteenkap. Verergert vaak bij wind/regen.</p>
+              <div class="symDiagnosis">Diagnose → schoorsteenlekkage</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/schoorsteenlekkage">Schoorsteenlekkage</a>
+            <a class="miniLink" href="/lekkage-opsporen">Opsporen</a>
+          </div>
+        </div>
+
+        <div class="sym">
+          <div class="symTop">
+            <div class="symIcon">🏠</div>
+            <div>
+              <h3>Nat bij nok / zolder</h3>
+              <p>Regelmatig door nokvorsten of slijtage bij de noklijn. Vroeg ingrijpen helpt.</p>
+              <div class="symDiagnosis">Diagnose → noklekkage</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/noklekkage">Noklekkage</a>
+            <a class="miniLink" href="/lekkage-opsporen">Opsporen</a>
+          </div>
+        </div>
+
+        <div class="sym">
+          <div class="symTop">
+            <div class="symIcon">🌬️</div>
+            <div>
+              <h3>Alleen bij harde wind</h3>
+              <p>Inwaaiwater via kleine openingen of onder pannen. De oorzaak is vaak subtiel.</p>
+              <div class="symDiagnosis">Diagnose → lekkage opsporen</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/lekkage-opsporen">Opsporen</a>
+            <a class="miniLink" href="/gratis-dakinspectie">Gratis inspectie</a>
+          </div>
+        </div>
+
+        <div class="sym">
+          <div class="symTop">
+            <div class="symIcon">🪟</div>
+            <div>
+              <h3>Drupsporen bij dakkapel</h3>
+              <p>Vaak de aansluiting/loodslab of kitrand. Goed herstellen voorkomt herhaling.</p>
+              <div class="symDiagnosis">Diagnose → daklekkage</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/lekkage-opsporen">Opsporen</a>
+            <a class="miniLink" href="/daklekkage">Daklekkage</a>
+          </div>
+        </div>
+
+        <div class="sym">
+          <div class="symTop">
+            <div class="symIcon">🚑</div>
+            <div>
+              <h3>Actief water naar binnen</h3>
+              <p>Dan is schade beperken stap 1. Daarna pakken we de echte oorzaak gericht aan.</p>
+              <div class="symDiagnosis">Diagnose → noodreparatie</div>
+            </div>
+          </div>
+          <div class="symLinks">
+            <a class="miniLink primary" href="/noodreparatie">Noodreparatie</a>
+            <a class="miniLink" href="/spoedreparatie">Spoedreparatie</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Oorzakenkaart -->
+    <section class="section cat" aria-label="Meest voorkomende oorzaken">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Oorzaken • meest voorkomend</div>
+        <h2>Meest voorkomende oorzaken van daklekkage</h2>
+        <p>Dit zijn de plekken waar lekkages het vaakst ontstaan. Herkent u er één? Klik door.</p>
+      </div>
+
+      <div class="catgrid">
+        <a class="svc" href="/noklekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🔺</div>
+            <div>
+              <h3>Nok (nokvorsten/mortel)</h3>
+              <p>Schuiven, scheuren of slijtage rond de noklijn zorgt vaak voor vocht op zolder.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk noklekkage →</span>
+            <span class="svcTag">Nok</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/schoorsteenlekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🧱</div>
+            <div>
+              <h3>Schoorsteen (lood/voegen/kap)</h3>
+              <p>Een klassieker: water vindt de weg via loodslabben of verouderd voegwerk.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk schoorsteen →</span>
+            <span class="svcTag">Schoorsteen</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/daklekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🧩</div>
+            <div>
+              <h3>Dakpannen (gebroken/verschoven)</h3>
+              <p>Een kleine verschuiving kan al genoeg zijn, zeker bij wind en slagregen.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk daklekkage →</span>
+            <span class="svcTag">Pannen</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/lekkage-opsporen">
+          <div class="svcTop">
+            <div class="svcIcon">🕳️</div>
+            <div>
+              <h3>Doorvoeren (ventilatie/afvoer)</h3>
+              <p>Rubbers en aansluitingen verouderen. Opsporen voorkomt “repareren op gevoel”.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Start met opsporen →</span>
+            <span class="svcTag">Doorvoer</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/daklekkage">
+          <div class="svcTop">
+            <div class="svcIcon">📐</div>
+            <div>
+              <h3>Dakrand & aansluitingen</h3>
+              <p>Overgangen zijn kwetsbaar: randafwerking, lood, trim of aansluitnaden.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk mogelijkheden →</span>
+            <span class="svcTag">Aansluiting</span>
+          </div>
+        </a>
+
+        <div class="svc" role="note" aria-label="Twijfel over oorzaak">
+          <div class="svcTop">
+            <div class="svcIcon">❓</div>
+            <div>
+              <h3>Twijfel over de oorzaak?</h3>
+              <p>Dan is de snelste route: inspectie of opsporing. Zo voorkomt u extra kosten.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <a class="svcCta" href="/gratis-dakinspectie">Gratis inspectie →</a>
+            <span class="svcTag">Start</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Voorbeelden van veelvoorkomende lekkages">
+      <div class="photo-grid">
+
+        <div class="photo-card">
+          <img
+            src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteenlekkage%20door%20uitgezakt%20lood.jpeg?width=860&t=1772819441886"
+            alt="Schoorsteenlekkage door uitgezakt lood"
+            loading="lazy"
+            decoding="async"
+            width="860"
+            height="560"
+          >
+          <div class="photo-caption">
+            <p><b>Schoorsteenlekkage door uitgezakt lood.</b> Dit is een veelvoorkomende oorzaak van vocht rond de schoorsteen en sluit direct aan op problemen met loodslabben en aansluitingen.</p>
+          </div>
+        </div>
+
+        <div class="photo-card">
+          <img
+            src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Noklekkage%20door%20gebroken%20nokvorsten.jpeg?width=860&t=1772819441771"
+            alt="Noklekkage door gebroken nokvorsten"
+            loading="lazy"
+            decoding="async"
+            width="860"
+            height="560"
+          >
+          <div class="photo-caption">
+            <p><b>Noklekkage door gebroken nokvorsten.</b> Dit soort schade zorgt vaak voor vocht op zolder en wordt regelmatig pas zichtbaar nadat regen of wind de zwakke plek verder heeft belast.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Schade beperken + uitleg -->
+    <section class="section twocol" aria-label="Schade beperken en uitleg">
+      <div class="card">
+        <div class="sp"><span class="dot"></span> Eerste hulp • schade beperken</div>
+        <h2>Wat u nu al kunt doen</h2>
+        <p class="lead" style="margin-bottom:10px;">Kleine stappen die vaak veel schade schelen:</p>
+        <ul>
+          <li>Maak foto’s van plekken en druppelsporen (handig voor verzekering).</li>
+          <li>Vang water op en leg doeken klaar bij actieve druppels.</li>
+          <li>Ventileer de ruimte en voorkom dat vocht “opgesloten” raakt.</li>
+          <li>Haal natte isolatie tijdelijk weg bij zichtbare lekkage (voorkomt schimmelvorming).</li>
+          <li>Ga niet blind kitten als oorzaak onbekend is: dat verplaatst het probleem vaak.</li>
+        </ul>
+        <div class="actions" style="margin-top:14px;">
+          <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie aanvragen</a>
+          <a href="tel:0851308251" class="btn outline">Bel direct</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="sp"><span class="dot"></span> Uitleg • waarom het anders lijkt</div>
+        <h2>Waarom een lekkage “verplaatst” kan lijken</h2>
+        <p>
+          Water zoekt de makkelijkste route. Het kan langs een balk, onderdak of isolatie lopen en pas
+          meters verder zichtbaar worden als vochtplek. Daardoor lijkt het soms alsof het “op meerdere plekken” lekt,
+          terwijl er één bron is.
+        </p>
+        <p class="small" style="margin:0;">
+          Daarom is <a class="ilink" href="/lekkage-opsporen">lekkage opsporen</a> vaak de snelste én goedkoopste aanpak als u niet zeker weet waar het begint.
+        </p>
+        <div class="actions" style="margin-top:14px;">
+          <a href="/lekkage-opsporen" class="btn outline">Lekkage opsporen</a>
+          <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Inspectie plannen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Populaire keuzes -->
+    <section class="section cat" aria-label="Populaire keuzes">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Snel door • populaire routes</div>
+        <h2>Populaire keuzes</h2>
+        <p>Snel door naar de meest gekozen route, afhankelijk van uw situatie.</p>
+      </div>
+      <div style="padding:16px;">
+        <div class="chips" aria-label="Snelle links">
+          <a class="chip" href="/lekkage-opsporen">Meest gekozen: Lekkage opsporen</a>
+          <a class="chip" href="/schoorsteenlekkage">Bij schoorsteen</a>
+          <a class="chip" href="/noklekkage">Bij nok / zolder</a>
+          <a class="chip" href="/noodreparatie">Direct hulp (noodreparatie)</a>
+          <a class="chip" href="/gratis-dakinspectie">Gratis dakinspectie</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Werkgebied -->
+    <section class="section">
+      <div class="hl">
+        <p style="margin:0;color:var(--muted);">
+          <b>Werkgebied:</b> we zijn actief in <b>heel Nederland</b>, maar kunnen meestal het snelst schakelen in
+          <b>Gelderland, Utrecht en Noord-Brabant</b>. Twijfelt u? Neem contact op, dan geven we direct aan wat in uw situatie logisch is.
+        </p>
+      </div>
+    </section>
+
+    <!-- Diensten categorieën -->
+    <section class="section cat" aria-label="Diagnose en inspectie">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Start slim • zekerheid eerst</div>
+        <h2>1) Diagnose & inspectie</h2>
+        <p>De veiligste start als de oorzaak nog niet 100% duidelijk is.</p>
+      </div>
+      <div class="catgrid">
+        <a class="svc" href="/lekkage-opsporen">
+          <div class="svcTop">
+            <div class="svcIcon">🔍</div>
+            <div>
+              <h3>Lekkage opsporen</h3>
+              <p>Oorzaak onbekend? We lokaliseren de bron zodat u gericht oplost.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Diagnose</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/gratis-dakinspectie">
+          <div class="svcTop">
+            <div class="svcIcon">✅</div>
+            <div>
+              <h3>Gratis dakinspectie</h3>
+              <p>Snel duidelijkheid + advies zonder verkooppraat. Vrijblijvend.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Inspectie</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/rapportage-dakinspectie">
+          <div class="svcTop">
+            <div class="svcIcon">📄</div>
+            <div>
+              <h3>Rapportage dakinspectie</h3>
+              <p>Voor verzekering/VvE/verkoop: bevindingen helder vastgelegd.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Rapport</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section cat" aria-label="Veelvoorkomende lekkages">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Herkenning • meest gekozen</div>
+        <h2>2) Veelvoorkomende lekkages</h2>
+        <p>Kies de plek/oorzaak die het meest lijkt op uw situatie.</p>
+      </div>
+      <div class="catgrid">
+        <a class="svc" href="/schoorsteenlekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🧱</div>
+            <div>
+              <h3>Schoorsteenlekkage</h3>
+              <p>Lekkage rond lood/voegen? We herstellen zwakke plekken duurzaam.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Schoorsteen</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/noklekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🏠</div>
+            <div>
+              <h3>Noklekkage</h3>
+              <p>Vocht rond noklijn of zolder? Dit zijn de signalen + aanpak.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Nok</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/daklekkage">
+          <div class="svcTop">
+            <div class="svcIcon">🌧️</div>
+            <div>
+              <h3>Daklekkage</h3>
+              <p>Van scheve pannen tot kapotte aansluitingen: we pakken de bron aan.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Algemeen</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section cat" aria-label="Spoed hulp">
+      <div class="cathead">
+        <div class="sp"><span class="dot"></span> Direct actie • bij spoed</div>
+        <h2>3) Spoedhulp</h2>
+        <p>Bij harde regen of storm: schade beperken en direct actie.</p>
+      </div>
+      <div class="catgrid">
+        <a class="svc" href="/noodreparatie">
+          <div class="svcTop">
+            <div class="svcIcon">🚑</div>
+            <div>
+              <h3>Noodreparatie</h3>
+              <p>Direct afdichten en beschermen tegen vervolgschade. Snel ter plaatse.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Spoed</span>
+          </div>
+        </a>
+
+        <a class="svc" href="/spoedreparatie">
+          <div class="svcTop">
+            <div class="svcIcon">⚡</div>
+            <div>
+              <h3>Spoedreparatie</h3>
+              <p>Als het nú opgelost moet worden. Veilig, doelgericht en snel.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <span class="svcCta">Bekijk dienst →</span>
+            <span class="svcTag">Spoed</span>
+          </div>
+        </a>
+
+        <div class="svc" role="note" aria-label="Hulp kiezen">
+          <div class="svcTop">
+            <div class="svcIcon">📞</div>
+            <div>
+              <h3>Twijfelt u?</h3>
+              <p>Bel ons even. In 2 minuten weet u welke dienst het beste past.</p>
+            </div>
+          </div>
+          <div class="svcFoot">
+            <a class="svcCta" href="tel:0851308251">Bel direct →</a>
+            <span class="svcTag">Hulp</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Belangrijk -->
+    <section class="section">
+      <div class="warn">
+        <p style="margin:0;color:var(--muted);">
+          <b>Belangrijk:</b> Wacht niet te lang met lekkage. Vocht verspreidt zich vaak sneller dan u denkt (isolatie, hout, plafonds) —
+          vroeg ingrijpen is bijna altijd goedkoper.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ (met groene knopjes per vraag) -->
+    <section class="section" aria-label="Veelgestelde vragen">
+      <div class="sp"><span class="dot"></span> Veelgestelde vragen • helder uitgelegd</div>
+      <h2>Veelgestelde vragen</h2>
+
+      <div class="faq">
+        <details class="faqItem" open>
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Wat is de snelste manier om schade te beperken?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>Maak foto’s, vang water op en voorkom dat vocht zich verspreidt. Bij twijfel: kies voor noodreparatie of bel ons direct — snel ingrijpen voorkomt extra kosten.</p>
+          </div>
+        </details>
+
+        <details class="faqItem">
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Doen jullie alleen lekkages of ook ander dakwerk?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>We zijn gespecialiseerd in lekkages en loodwerk, maar voeren ook allround dakdekkerswerk uit zoals pannen vervangen, isoleren, renovaties en schoorsteenreparaties.</p>
+          </div>
+        </details>
+
+        <details class="faqItem">
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Wanneer kies ik voor lekkage opsporen?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>Als u wel klachten ziet (vochtplek/geur) maar de bron niet zeker weet, of als de lekkage terugkomt. Opsporen voorkomt onnodige (en dure) “gokreparaties”.</p>
+          </div>
+        </details>
+
+        <details class="faqItem">
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Moet ik altijd meteen repareren?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>Nee. Soms is monitoren of klein onderhoud genoeg. Met een inspectie krijgt u een technische inschatting: wat is veilig om te volgen en wat kan beter direct worden opgelost.</p>
+          </div>
+        </details>
+
+        <details class="faqItem">
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Wat kost lekkage opsporen of een inspectie?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>De dakinspectie is gratis en vrijblijvend. Opsporen is bedoeld als u zekerheid wilt over de bron. Na contact stemmen we af wat in uw situatie logisch is en wat het kost, voordat we iets uitvoeren.</p>
+          </div>
+        </details>
+
+        <details class="faqItem">
+          <summary>
+            <span class="faqPill"><span class="faqDot"></span> Vraag</span>
+            <span class="faqQ">Kan het ook condensatie zijn in plaats van lekkage?</span>
+            <span class="faqChevron">▾</span>
+          </summary>
+          <div class="faqBody">
+            <p>Ja, soms. Condensatie ontstaat vaak bij onvoldoende ventilatie of koudebruggen. Het verschil zit vaak in patroon en timing (bijv. vooral in koude perioden). We helpen u het onderscheid te maken zodat u niet de verkeerde oplossing kiest.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- SEO tekst -->
+<div class="bottom-two">
+
+<section class="section" aria-label="Over daklekkages samenvatting">
+  <div class="sp"><span class="dot"></span> Achtergrond • samengevat</div>
+  <h2>Over daklekkages</h2>
+  <p>Daklekkages ontstaan vaak bij aansluitingen (lood, schoorsteen, dakkapel), rond de nok of door beschadigde dakpannen. Water wordt binnen vaak zichtbaar op een andere plek dan waar het binnenkomt. Daarom loont het om de oorzaak zeker te weten en gericht te herstellen.</p>
+  <p class="lead" style="margin-bottom:0;">Kies hierboven de dienst die het beste past — of start met <a class="ilink" href="/lekkage-opsporen">lekkage opsporen</a>.</p>
+</section>
+
+<section class="section" aria-label="Call to action">
+  <div class="cat" style="padding:22px;border:2px solid rgba(255,122,0,.35);box-shadow:0 22px 50px rgba(255,122,0,.18);background:linear-gradient(180deg,#fff,rgba(255,122,0,.04));">
+    <div class="sp"><span class="dot"></span> Volgende stap • direct geregeld</div>
+    <h2>Heeft u een daklekkage?</h2>
+    <p class="lead" style="margin-bottom:14px;color:var(--muted);">
+      Laat het onderzoeken voordat de schade groter wordt. Met een inspectie weet u snel waar u aan toe bent en welke oplossing het meest logisch is.
+    </p>
+    <div class="actions" id="stickyBottomSentinel">
+      <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie aanvragen</a>
+      <a href="tel:0851308251" class="btn outline">Bel direct</a>
+      <a href="https://wa.me/31623293935" class="btn outline" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+</div>
+</div>
+
+<script>
+/* Sticky CTA:
+   - Desktop: show after 300px, hide when bottom sentinel visible
+   - Mobile: show after first paragraph passed (top sentinel out of view), hide when bottom sentinel visible */
+(function(){
+  var desktopCTA = document.getElementById('stickyCTA');
+  var mobileCTA  = document.getElementById('stickyMobile');
+  var topSentinel = document.getElementById('stickyTopSentinel');
+  var bottomSentinel = document.getElementById('stickyBottomSentinel');
+
+  var bottomInView = false;
+  var passedTop = false;
+
+  function toggleCTA(){
+    if(!desktopCTA || !mobileCTA) return;
+
+    var isDesktop = window.innerWidth > 980;
+
+    if(isDesktop){
+      var show = (window.scrollY > 300) && !bottomInView;
+      desktopCTA.classList.toggle('is-visible', show);
+      mobileCTA.classList.remove('is-visible');
+      return;
+    }
+
+    var showM = passedTop && !bottomInView;
+    mobileCTA.classList.toggle('is-visible', showM);
+    desktopCTA.classList.remove('is-visible');
+  }
+
+  if(bottomSentinel){
+    var ioBottom = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        bottomInView = entry.isIntersecting;
+        toggleCTA();
+      });
+    }, { threshold: 0.01 });
+    ioBottom.observe(bottomSentinel);
+  }
+
+  if(topSentinel){
+    var ioTop = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        passedTop = !entry.isIntersecting;
+        toggleCTA();
+      });
+    }, { threshold: 0.01 });
+    ioTop.observe(topSentinel);
+  }
+
+  window.addEventListener('scroll', toggleCTA, { passive:true });
+  window.addEventListener('resize', toggleCTA);
+  toggleCTA();
+})();
+
+/* Typeform links -> correct URL + new tab */
+(function(){
+  var url = 'https://form.typeform.com/to/rQsxIgyZ';
+  document.querySelectorAll('.tf-popup').forEach(function(el){
+    el.setAttribute('href', url);
+    el.setAttribute('target', '_blank');
+    el.setAttribute('rel', 'noopener');
+  });
+})();
+</script>

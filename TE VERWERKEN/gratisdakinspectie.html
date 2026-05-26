@@ -1,0 +1,694 @@
+<!-- ===================================================== -->
+<!-- ===== GRATIS DAKINSPECTIE – HOMEPAGE NIVEAU VOLLEDIG ===== -->
+<!-- ===================================================== -->
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --brand:#1D9753;
+  --accent:#ff7a00;
+  --accent-dark:#e56700;
+  --brand2:#167a44;
+  --ink:#0b0d10;
+  --muted:#606a78;
+  --soft:#f6f8f7;
+  --stroke:rgba(15,17,21,.08);
+  --ring:rgba(29,151,83,.25);
+  --shadow:0 25px 60px rgba(0,0,0,.12);
+  --max:1100px;
+  --r:22px;
+}
+
+.dlo{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
+.dlo .container{max-width:var(--max);margin:0 auto;padding:80px 20px;position:relative;z-index:1}
+
+.dlo h1{font-size:clamp(32px,3vw,46px);line-height:1.05;letter-spacing:-.8px;margin-bottom:12px}
+.dlo h2{font-size:clamp(24px,2.2vw,32px);letter-spacing:-.3px;margin-bottom:8px}
+.dlo p{font-size:16px;line-height:1.75;margin-bottom:14px}
+.dlo .lead{color:var(--muted)}
+
+.dlo .split{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:start}
+.dlo .soft{background:linear-gradient(180deg,var(--soft),#fff);position:relative;overflow:hidden}
+/* Ambient section glows (premium divider feel) */
+.dlo .soft:before{
+  content:"";
+  position:absolute;
+  inset:-120px -120px auto -120px;
+  height:260px;
+  background:
+    radial-gradient(520px 220px at 18% 30%, rgba(29,151,83,.14), transparent 60%),
+    radial-gradient(420px 200px at 80% 10%, rgba(29,151,83,.10), transparent 62%);
+  pointer-events:none;
+  z-index:0;
+}
+.dlo .soft:after{
+  content:"";
+  position:absolute;
+  inset:auto -120px -160px -120px;
+  height:300px;
+  background:
+    radial-gradient(520px 240px at 70% 70%, rgba(29,151,83,.10), transparent 62%),
+    radial-gradient(420px 220px at 20% 90%, rgba(29,151,83,.08), transparent 64%);
+  pointer-events:none;
+  z-index:0;
+}
+
+/* Image caption + micro trust */
+.dlo .caption{margin-top:10px;display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:13px;line-height:1.55}
+.dlo .capdot{width:10px;height:10px;border-radius:50%;background:rgba(29,151,83,.18);box-shadow:0 0 0 6px rgba(29,151,83,.10);flex:0 0 10px;margin-top:5px}
+.dlo .caption b{color:var(--ink)}
+
+/* Media */
+.dlo .media-card--offset-desktop{margin-top:0}
+@media(max-width:980px){.dlo .media-card--offset-desktop{margin-top:0}}
+
+/* Review badge on hero (subtieler) */
+.dlo .review-badge{
+  position:absolute;
+  top:14px;
+  left:14px;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:blur(6px);
+  border-radius:999px;
+  padding:6px 10px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-weight:800;
+  font-size:12px;
+  box-shadow:0 8px 18px rgba(0,0,0,.12);
+  border:1px solid rgba(15,17,21,.08);
+  z-index:3;
+}
+.dlo .review-badge .stars{color:#f5b301;font-size:12px;letter-spacing:1px;line-height:1}
+.dlo .review-badge .meta{color:var(--muted);font-weight:800}
+
+/* Flow arrows stronger visibility */
+.dlo .media-card{border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);position:relative;background:#000}
+.dlo .media-card img{width:100%;height:auto !important;max-height:none !important;display:block;transform:none;transition:none;position:relative;z-index:1}
+.dlo .media-card:hover img{transform:none}
+.dlo .media-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.10),rgba(0,0,0,.02));pointer-events:none;z-index:2}
+
+/* Buttons */
+.dlo .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:14px;font-weight:800;font-size:14px;text-decoration:none;border:1px solid var(--brand);transition:.2s}
+.dlo .btn.primary{background:var(--brand);color:#fff}
+.dlo .btn.primary:hover{background:var(--brand2);transform:translateY(-2px)}
+.dlo .btn.outline{background:#fff;color:var(--brand2)}
+.dlo .btn.outline:hover{background:rgba(29,151,83,.08);transform:translateY(-2px)}
+.dlo .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px}
+
+/* Sticky CTA (layout zoals homepage screenshot) – ORANJE + KNIPPER */
+.dlo .sticky-cta{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:9999;display:none}
+.dlo .sticky-cta .box{
+  width:220px;
+  background:rgba(255,255,255,.96);
+  border:2px solid rgba(255,122,0,.95);
+  border-radius:16px;
+  box-shadow:0 16px 40px rgba(0,0,0,.16);
+  padding:12px;
+  position:relative;
+  backdrop-filter:blur(10px);
+  overflow:visible;
+}
+.dlo .sticky-cta .label{
+  font-weight:900;
+  font-size:13px;
+  margin-bottom:12px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  color:var(--ink);
+}
+.dlo .sticky-cta .dot{
+  width:10px;height:10px;border-radius:50%;
+  background:var(--accent);
+  box-shadow:0 0 0 0 rgba(255,122,0,.55);
+  animation:blinkDot 1.7s infinite;
+}
+.dlo .sticky-cta .btn{width:100%}
+.dlo .sticky-cta .btn.primary,
+.dlo .sticky-cta a.btn.primary{
+  background:var(--accent) !important;
+  border-color:var(--accent) !important;
+  color:#fff !important;
+  font-weight:900;
+  will-change: transform, filter, box-shadow, background-color;
+  animation:ctaBlink .9s infinite !important;
+}
+.dlo .sticky-cta .btn.primary:hover,
+.dlo .sticky-cta a.btn.primary:hover{background:var(--accent-dark) !important}
+.dlo .sticky-cta .btn.primary:hover{background:var(--accent-dark)}
+.dlo .sticky-cta .btn.outline{
+  border-color:rgba(15,17,21,.12);
+  color:var(--ink);
+  background:#fff;
+}
+.dlo .sticky-cta .btn.outline:hover{background:rgba(15,17,21,.03)}
+.dlo .sticky-cta .mini{margin-top:10px;font-size:12px;color:var(--muted);line-height:1.35}
+
+
+@keyframes ctaBlink{
+  0%,100%{
+    background:var(--accent);
+    transform:translateY(0) scale(1);
+    filter:brightness(1);
+    box-shadow:0 0 0 0 rgba(255,122,0,.0);
+  }
+  50%{
+    background:var(--accent-dark);
+    transform:translateY(-1px) scale(1.02);
+    filter:brightness(1.10);
+    box-shadow:0 12px 28px rgba(255,122,0,.40);
+  }
+}
+@keyframes blinkDot{
+  0%{box-shadow:0 0 0 0 rgba(255,122,0,.55)}
+  55%{box-shadow:0 0 0 10px rgba(255,122,0,0)}
+  100%{box-shadow:0 0 0 0 rgba(255,122,0,0)}
+}
+
+@media(min-width:981px){.dlo .sticky-cta{display:none}.dlo .sticky-cta.is-visible{display:block}}
+@media(max-width:980px){.dlo .split{grid-template-columns:1fr}.dlo .container{padding:70px 20px}}
+
+
+/* Kicker + hero trust (homepage vibe) */
+.dlo .kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border-radius:999px;background:rgba(29,151,83,.10);color:var(--brand2);font-weight:900;font-size:13px;letter-spacing:.2px;margin-bottom:8px}
+.dlo .kdot{width:10px;height:10px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 6px rgba(29,151,83,.16)}
+.dlo .mini-trust{margin-top:16px;display:grid;gap:8px;font-size:13px;color:var(--muted)}
+.dlo .mini-trust span{display:flex;gap:8px;align-items:flex-start}
+.dlo .mini-trust b{color:var(--ink)}
+.dlo .hero-note{
+  position:absolute;
+  left:20px;
+  right:20px;
+  bottom:20px;
+  padding:14px 16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.94);
+  border:1px solid rgba(15,17,21,.08);
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.6;
+  box-shadow:0 14px 34px rgba(0,0,0,.22);
+  z-index:4;
+}
+
+/* Keuzehulp */
+.dlo .chooser{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.dlo .chooser__item{border:1px solid rgba(15,17,21,.07);border-radius:var(--r);background:linear-gradient(180deg,#fff,#fbfcfb);box-shadow:0 12px 28px rgba(0,0,0,.06);overflow:hidden}
+.dlo .chooser__item summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:12px;padding:16px 18px;font-weight:900}
+.dlo .chooser__item summary::-webkit-details-marker{display:none}
+.dlo .chooser__icon{width:42px;height:42px;border-radius:16px;background:rgba(29,151,83,.10);display:flex;align-items:center;justify-content:center;font-size:18px}
+.dlo .chooser__title{letter-spacing:-.2px}
+.dlo .chooser__arrow{margin-left:auto;color:var(--brand2);transition:transform .2s ease;font-size:18px}
+@media(min-width:981px){
+  .dlo .chooser__arrow{
+    font-size:34px;
+    line-height:1;
+  }
+}
+.dlo .chooser__item[open] .chooser__arrow{transform:rotate(180deg)}
+.dlo .chooser__body{padding:0 18px 18px}
+.dlo .chooser__body p{margin:0 0 14px;color:var(--muted)}
+.dlo .chooser__links{display:flex;flex-wrap:wrap;gap:10px}
+
+@media(max-width:980px){.dlo .chooser{grid-template-columns:1fr}}
+
+/* Premium content components */
+.dlo .toc{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.dlo .toc__item{
+  display:inline-flex;
+  align-items:center;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(29,151,83,.06);
+  border:1px solid rgba(29,151,83,.14);
+  color:var(--brand2);
+  font-weight:700;
+  font-size:12px;
+  text-decoration:none;
+  transition:.2s ease;
+}
+.dlo .toc__item:hover{
+  background:rgba(29,151,83,.12);
+  border-color:rgba(29,151,83,.28);
+}
+.dlo .toc__item:hover{background:rgba(29,151,83,.06)}
+
+.dlo .stack{display:grid;gap:18px}
+.dlo .block{background:transparent}
+
+.dlo .card{
+  background:linear-gradient(180deg,#fff,#fbfcfb);
+  border:1px solid rgba(15,17,21,.06);
+  border-radius:var(--r);
+  box-shadow:0 12px 28px rgba(0,0,0,.06);
+  padding:26px;
+}
+
+.dlo .flow{
+  margin-top:18px;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+.dlo .flow__item{
+  position:relative;
+  background:linear-gradient(180deg,#fff,#fbfcfb);
+  border:1px solid rgba(15,17,21,.06);
+  border-radius:var(--r);
+  box-shadow:0 12px 28px rgba(0,0,0,.06);
+  padding:20px;
+  overflow:visible;
+}
+.dlo .flow__item:before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  height:4px;
+  background:linear-gradient(90deg,var(--brand),rgba(29,151,83,.20));
+}
+.dlo .flow__chip{
+  width:40px;height:40px;border-radius:14px;
+  background:rgba(29,151,83,.10);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--brand2);
+  font-weight:900;
+  margin-bottom:10px;
+}
+.dlo .flow__title{font-weight:900;letter-spacing:-.2px;margin-bottom:6px}
+.dlo .flow__text{color:var(--muted);font-size:14px;line-height:1.65}
+
+/* arrows between flow items (desktop) */
+@media(min-width:981px){
+  .dlo .flow__item:not(:last-child)::after{
+    content:"→";
+    position:absolute;
+    right:-22px;
+    top:50%;
+    transform:translateY(-50%);
+    width:42px;height:42px;
+    border-radius:999px;
+    background:#fff;
+    border:2px solid var(--brand);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--brand2);
+    font-weight:900;
+    font-size:18px;
+    box-shadow:0 12px 22px rgba(0,0,0,.12);
+    z-index:5;
+  }
+}
+
+/* accordion */
+.dlo .acc{
+  border:1px solid rgba(15,17,21,.07);
+  border-radius:var(--r);
+  background:linear-gradient(180deg,#fff,#fbfcfb);
+  box-shadow:0 12px 28px rgba(0,0,0,.06);
+  padding:12px 14px;
+}
+.dlo .acc summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+.dlo .acc summary::-webkit-details-marker{display:none}
+.dlo .acc__title{font-weight:900;letter-spacing:-.2px}
+.dlo .acc__hint{font-size:12px;color:var(--muted);font-weight:800;white-space:nowrap}
+.dlo .acc__body{padding-top:10px}
+
+/* slab like homepage */
+.dlo .slab{
+  background:
+    radial-gradient(1200px 240px at 20% 0%, rgba(29,151,83,.12), transparent 60%),
+    linear-gradient(180deg, #fff, #fbfcfb);
+  border:1px solid rgba(15,17,21,.06);
+  border-radius:calc(var(--r) + 6px);
+  box-shadow:0 15px 40px rgba(0,0,0,.07);
+  padding:30px;
+}
+
+@media(max-width:980px){
+  .dlo .flow{grid-template-columns:1fr}
+  .dlo .toc{gap:8px}
+}
+
+</style>
+
+<div class="dlo">
+
+<!-- Sticky CTA -->
+<div class="sticky-cta" aria-label="Snelle actie">
+  <div class="box">
+    <div class="label"><span class="dot"></span> Direct hulp nodig?</div>
+    <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie →</a>
+    <a href="tel:0851308251" class="btn outline">Bel direct</a>
+    <div class="mini">Eén aanspreekpunt • snelle opvolging</div>
+</div>
+</div>
+
+<!-- HERO -->
+<section id="top" class="soft">
+  <div class="container" style="padding-top:34px;padding-bottom:60px">
+    <nav class="breadcrumb" aria-label="Breadcrumb" style="font-size:13px;color:var(--muted);margin-bottom:14px">
+      <a href="/" style="color:var(--muted);text-decoration:none">Home</a> › 
+      <a href="/diensten" style="color:var(--muted);text-decoration:none">Diensten</a> › 
+      <span style="color:var(--ink);font-weight:800">Gratis dakinspectie</span>
+    </nav>
+
+    <div class="split">
+      <div>
+        <div class="kicker"><span class="kdot"></span> Vrijblijvend &amp; adviserend</div>
+        <h1>Gratis dakinspectie</h1>
+        <p class="lead">Een dakprobleem ontstaat zelden van de ene op de andere dag. Vaak zijn er al signalen zichtbaar voordat schade echt merkbaar wordt. Met een gratis dakinspectie krijg je inzicht in de staat van het dak en wordt duidelijk of er sprake is van een risico dat aandacht vraagt.</p>
+        <p>De inspectie is bedoeld om helderheid te geven — niet om direct te verkopen. Je weet waar je aan toe bent en welke vervolgstap logisch is, of dat nu direct ingrijpen is of juist niets doen.</p>
+
+        <div class="actions" id="contact">
+          <a href="https://form.typeform.com/to/rQsxIgyZ" class="btn primary tf-popup" target="_blank" rel="noopener">Gratis inspectie aanvragen</a>
+          <a href="tel:0851308251" class="btn outline">Bel direct</a>
+        </div>
+
+        <div class="mini-trust" aria-label="Zekerheden">
+          <span>✅ <b>Gratis</b> en vrijblijvend</span>
+          <span>✅ <b>Foto’s</b> + technische toelichting</span>
+          <span>✅ <b>Vervolgstap</b> alleen als nodig</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="media-card" style="position:relative">
+          <div class="review-badge" aria-label="Beoordeling">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span class="meta">5.0 • Google</span>
+          </div>
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakrenovatie%20pannendak%20nodig%20diensten%20dakrenovatie.jpg?width=860&t=1739314146364" alt="Vervallen pannendak" loading="eager" fetchpriority="high" decoding="async" width="860" height="560">
+          <div class="hero-note">
+            <b>Tip:</b> Signalen zijn vaak klein. Een inspectie maakt het verschil tussen “even volgen” en “nu handelen”.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOW: Inspectie → Diagnose → Advies → Afronding -->
+<section class="soft" id="aanpak">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Aanpak zonder giswerk</div>
+    <h2>Onze aanpak in 4 stappen</h2>
+    <p class="lead">Een inspectie is pas waardevol als je daarna weet wat logisch is: niets doen, volgen, herstellen of verder onderzoek.</p>
+
+    <div class="flow" aria-label="Inspectie flow">
+      <div class="flow__item">
+        <div class="flow__chip">1</div>
+        <div class="flow__title">Inspectie</div>
+        <div class="flow__text">Volledige visuele beoordeling van dakbedekking, naden, randen en doorvoeren.</div>
+      </div>
+      <div class="flow__item">
+        <div class="flow__chip">2</div>
+        <div class="flow__title">Diagnose</div>
+        <div class="flow__text">We duiden signalen technisch: wat is normaal, wat vraagt aandacht en wat is risico.</div>
+      </div>
+      <div class="flow__item">
+        <div class="flow__chip">3</div>
+        <div class="flow__title">Advies & vervolgstap</div>
+        <div class="flow__text">Duidelijkheid over de logische vervolgstap: volgen, onderhoud, herstel of verder onderzoek.</div>
+      </div>
+      <div class="flow__item">
+        <div class="flow__chip">4</div>
+        <div class="flow__title">Afronding</div>
+        <div class="flow__text">Foto’s + toelichting. Bij onderbouwing richting derden: rapportage als extra stap.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEUZEHULP (INTERACTIEF) -->
+<section class="soft" id="keuzehulp">
+  <div class="container">
+    <h2>Wat past bij jouw situatie?</h2>
+    <p class="lead">Klik een kaart open. Je ziet direct de relevante uitleg, zonder dat er tekst verdwijnt.</p>
+
+    <div class="chooser" aria-label="Keuzehulp">
+      <details class="chooser__item" open>
+        <summary>
+          <span class="chooser__icon">❓</span>
+          <span class="chooser__title">Twijfel</span>
+          <span class="chooser__arrow">▾</span>
+        </summary>
+        <div class="chooser__body">
+          <p>Twijfel je over de staat van je dak, maar zie je (nog) geen duidelijke lekkage? In zo’n situatie is een dakinspectie vaak de meest directe manier om te bepalen of afwachten verstandig is of dat het beter is om nu iemand naar je dak te laten kijken. Een dakinspectie is bedoeld om precies dat grijze gebied helder te maken. Je krijgt inzicht in wat normaal is, wat aandacht vraagt en wat beter niet langer kan wachten — zonder dat je meteen in een reparatietraject zit.</p>
+          <div class="chooser__links">
+            <a class="toc__item" href="#watoplost">Wat lost een dakinspectie op?</a>
+            <a class="toc__item" href="#inhoudt">Wat houdt het in?</a>
+            <a class="toc__item" href="#welenniet">Wat kan wel en niet?</a>
+          </div>
+        </div>
+      </details>
+
+      <details class="chooser__item">
+        <summary>
+          <span class="chooser__icon">🌬️</span>
+          <span class="chooser__title">Na storm</span>
+          <span class="chooser__arrow">▾</span>
+        </summary>
+        <div class="chooser__body">
+          <p>Ook na extreme weersomstandigheden kan een inspectie duidelijk maken of er schade is ontstaan die niet direct zichtbaar is. Juist in die situatie helpt een technische momentopname om te bepalen of afwachten kan, of dat ingrijpen verstandig is.</p>
+          <div class="chooser__links">
+            <a class="toc__item" href="#zinvol">Wanneer is een dakinspectie zinvol?</a>
+            <a class="toc__item" href="#watdoen">Wat doen we?</a>
+            <a class="toc__item" href="#vervolg">Wat is de vervolgstap?</a>
+          </div>
+        </div>
+      </details>
+
+      <details class="chooser__item">
+        <summary>
+          <span class="chooser__icon">🏠</span>
+          <span class="chooser__title">Voor aankoop/verkoop</span>
+          <span class="chooser__arrow">▾</span>
+        </summary>
+        <div class="chooser__body">
+          <p>Een dakinspectie is verstandig wanneer er twijfel bestaat over de staat van het dak, bijvoorbeeld bij vochtplekken, lekkages, ouderdom van het dak of voorafgaand aan aankoop of verkoop. Als er sprake is van een situatie waarin bevindingen ook richting derden moeten worden onderbouwd — bijvoorbeeld bij een verzekeringskwestie, VvE of aankooptraject — kan een rapportage dakinspectie worden opgesteld als aanvullende stap.</p>
+          <div class="chooser__links">
+            <a class="toc__item" href="#rapportage">Wat houdt de rapportage in?</a>
+            <a class="toc__item" href="#gebruik">Hoe gebruik je de uitkomst?</a>
+            <a class="toc__item" href="#kosten">Wat kost het?</a>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- SNEL NAVIGEREN -->
+<section class="soft" id="inhoud">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Overzicht</div>
+    <h2 style="margin-top:6px">Snel navigeren op deze pagina</h2>
+    <p class="lead" style="margin-bottom:22px">Ga direct naar het onderdeel dat voor jouw situatie relevant is.</p>
+    <div class="toc" aria-label="Snel naar">
+      <a class="toc__item" href="#inhoudt">Wat houdt het in?</a>
+      <a class="toc__item" href="#zinvol">Wanneer is een dakinspectie zinvol?</a>
+      <a class="toc__item" href="#watoplost">Wat lost een dakinspectie op?</a>
+      <a class="toc__item" href="#voorwie">Voor wie is dit bedoeld?</a>
+      <a class="toc__item" href="#watdoen">Wat doen we?</a>
+      <a class="toc__item" href="#welenniet">Wat kan wel en niet?</a>
+      <a class="toc__item" href="#vervolg">Wat is de vervolgstap?</a>
+      <a class="toc__item" href="#rapportage">Wat houdt de rapportage in?</a>
+      <a class="toc__item" href="#gebruik">Hoe gebruik je de uitkomst?</a>
+      <a class="toc__item" href="#kosten">Wat kost het?</a>
+      <a class="toc__item" href="#samenvat">Samenvattend</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT BLOKKEN (AFWISSELEND TEKST/BEELD + INTERACTIEF) -->
+<section class="soft">
+  <div class="container">
+
+    <div class="stack">
+
+      <!-- Inhoud + beeld -->
+      <div class="block split" id="inhoudt">
+        <div>
+          <h2>Wat een gratis dakinspectie inhoudt</h2>
+          <p>Tijdens de dakinspectie wordt het dak volledig beoordeeld, inclusief aansluitingen zoals schoorstenen, dakranden, nokken en dakdoorvoeren. Bij zichtbare schade of signalen van lekkage wordt extra aandacht besteed aan het betreffende dakdeel.</p>
+          <p>Bevindingen worden vastgelegd met foto’s en toegelicht, zodat duidelijk is wat er is aangetroffen en wat dit technisch betekent voor de staat van het dak.</p>
+        </div>
+        <div>
+          <div class="media-card">
+            <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg?width=860&t=1739459664694" alt="Plat dak met mankementen" loading="lazy" decoding="async" width="860" height="560">
+          </div>
+          <div class="caption"><span class="capdot"></span><span><b>Voorbeeld:</b> slijtage en zwakke plekken op een plat dak zijn vaak subtiel, maar geven wél richting aan de juiste vervolgstap.</span></div>
+        </div>
+      </div>
+
+      <!-- Wanneer zinvol (card) -->
+      <div class="block" id="zinvol">
+        <div class="card">
+          <h2>Wanneer een dakinspectie zinvol is</h2>
+          <p>Een dakinspectie is verstandig wanneer er twijfel bestaat over de staat van het dak, bijvoorbeeld bij vochtplekken, lekkages, ouderdom van het dak of voorafgaand aan aankoop of verkoop. Ook na extreme weersomstandigheden kan een inspectie duidelijk maken of er schade is ontstaan die niet direct zichtbaar is.</p>
+        </div>
+      </div>
+
+      <!-- Wat lost een dakinspectie op + beeld -->
+      <div class="block split" id="watoplost">
+        <div>
+          <div class="media-card media-card--offset-desktop">
+            <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Nokvorsten-1.png?width=860&t=1739667119464" alt="Sterk verouderde nokvorsten en dakpannen" loading="lazy" decoding="async" width="860" height="560">
+          </div>
+          <div class="caption"><span class="capdot"></span><span><b>Let op:</b> verouderde nokvorsten en verschoven pannen zijn typische ‘vroegsignalen’ die je liever niet laat doorlopen.</span></div>
+        </div>
+        <div>
+          <h2>Wat lost een dakinspectie op?</h2>
+          <p>Veel dakproblemen beginnen klein: een naad die net iets loskomt, een pan die verschuift, een rand die langzaam zijn afdichting verliest. Zolang er nog geen water binnenkomt, is het moeilijk inschatten of dit onschuldig is of het begin van grotere schade.</p>
+          <p>Een dakinspectie brengt die onzekerheid terug tot iets concreets. Je weet na afloop waar je staat en welke risico’s er spelen. Wie die onzekerheid liever niet laat voortduren, kan die duidelijkheid eenvoudig krijgen door een inspectie in te plannen.</p>
+        </div>
+      </div>
+
+      <!-- Voor wie bedoeld (card) -->
+      <div class="block" id="voorwie">
+        <div class="card">
+          <h2>Voor wie een dakinspectie bedoeld is</h2>
+          <p>Deze dienst past bij situaties waarin er twijfel is: na een storm, bij oudere dakbedekking, na een verbouwing of wanneer er binnen lichte vochtsporen ontstaan zonder duidelijke oorzaak. In zulke gevallen geeft een inspectie vaak genoeg houvast om te beslissen of afwachten kan, of dat ingrijpen verstandig is.</p>
+        </div>
+      </div>
+
+      <!-- Wat doen we (accordion) -->
+      <div class="block" id="watdoen">
+        <details class="acc" open>
+          <summary>
+            <span class="acc__title">Wat wij tijdens een inspectie doen</span>
+            <span class="acc__hint">Klik om te openen/sluiten</span>
+          </summary>
+          <div class="acc__body">
+            <p>De inspectie richt zich op alle onderdelen die samen het dak waterdicht houden: bedekking, naden, aansluitingen rond schoorstenen en dakkapellen, dakranden en afvoer. Het gaat niet om één losse beschadiging, maar om patronen die iets zeggen over slijtage en beweging. We kijken waar materialen op hun eind lopen en waar spanning of veroudering zichtbaar wordt.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Wel en niet (accordion) -->
+      <div class="block" id="welenniet">
+        <details class="acc">
+          <summary>
+            <span class="acc__title">Wat een inspectie wel en niet kan</span>
+            <span class="acc__hint">Klik om te openen/sluiten</span>
+          </summary>
+          <div class="acc__body">
+            <p>Een dakinspectie is visueel. Dat betekent dat we zien wat bereikbaar en zichtbaar is, maar geen metingen doen in de constructie. Als er sterke aanwijzingen zijn voor verborgen waterwegen, is het opsporen van daklekkages nodig om de oorzaak echt te vinden. Dat onderscheid helpt om geen tijd te verliezen met de verkeerde vervolgstap.</p>
+          </div>
+        </details>
+      </div>
+
+      <!-- Vervolgstap (flow met pijltjes) -->
+      <div class="block" id="vervolg">
+        <h2>Van inspectie naar vervolgstap</h2>
+        <p>De uitkomst van een inspectie kan verschillen. Soms blijkt dat er geen direct risico is. In andere gevallen wordt duidelijk dat herstel, onderhoud of verder onderzoek nodig is.</p>
+        <p>Als er sprake is van een situatie waarin bevindingen ook richting derden moeten worden onderbouwd — bijvoorbeeld bij een verzekeringskwestie, VvE of aankooptraject — kan een rapportage dakinspectie worden opgesteld als aanvullende stap.</p>
+
+        <div class="flow" aria-label="Vervolgstappen">
+          <div class="flow__item">
+            <div class="flow__chip">1</div>
+            <div class="flow__title">Duidelijkheid</div>
+            <div class="flow__text">Je weet waar je aan toe bent en wat aandacht vraagt.</div>
+          </div>
+          <div class="flow__item">
+            <div class="flow__chip">2</div>
+            <div class="flow__title">Herstel / onderhoud</div>
+            <div class="flow__text">Als er risico’s zijn, wordt duidelijk welke stap logisch is.</div>
+          </div>
+          <div class="flow__item">
+            <div class="flow__chip">3</div>
+            <div class="flow__title">Verder onderzoek</div>
+            <div class="flow__text">Bij aanwijzingen voor verborgen waterwegen is opsporing passend.</div>
+          </div>
+          <div class="flow__item">
+            <div class="flow__chip">4</div>
+            <div class="flow__title">Onderbouwing</div>
+            <div class="flow__text">Wanneer nodig richting derden: rapportage als extra stap.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rapportage + beeld -->
+      <div class="block split" id="rapportage">
+        <div>
+          <h2>Rapportage dakinspectie (voor verzekering, VvE of aankooptraject)</h2>
+          <p>Een rapportage is geen standaard onderdeel van de inspectie, maar een verdiepende aanvulling wanneer formele vastlegging of onderbouwing nodig is. Denk aan situaties waarin bevindingen moeten worden gedeeld met een verzekeraar, VvE, koper of andere betrokken partij.</p>
+          <p>In een rapportage worden bevindingen per dakonderdeel uitgewerkt en technisch onderbouwd, zodat deze ook buiten het gesprek standhouden. Dit geeft duidelijkheid richting derden en voorkomt interpretatieverschillen achteraf.</p>
+          <p>Belangrijk uitgangspunt daarbij is dat een rapportage alleen wordt opgesteld wanneer dit daadwerkelijk toegevoegde waarde heeft. Blijkt tijdens de inspectie dat dit niet het geval is, dan wordt er geen rapportage uitgewerkt.</p>
+
+          <div class="actions" style="margin-top:18px">
+            <a href="https://www.daklekkagesopgelost.nl/rapportage-dakinspectie" class="btn outline">Meer over de rapportage dakinspectie</a>
+          </div>
+        </div>
+        <div>
+          <div class="media-card">
+            <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakrenovatie%20pannendak%20nodig%20diensten%20dakrenovatie.jpg?width=860&t=1739314146364" alt="Dakinspectie bij pannendak" loading="lazy" decoding="async" width="860" height="560">
+          </div>
+          <div class="caption"><span class="capdot"></span><span><b>Onderbouwing:</b> bij VvE, verzekering of aankoop helpt het om bevindingen per dakonderdeel helder en technisch vast te leggen.</span></div>
+        </div>
+      </div>
+
+      <!-- Uitkomst gebruiken (card) -->
+      <div class="block" id="gebruik">
+        <div class="card">
+          <h2>Hoe je de uitkomst moet gebruiken</h2>
+          <p>Na afloop heb je een overzicht van wat we hebben gezien en hoe dat technisch moet worden geïnterpreteerd. Sommige punten vragen om actie, andere kunnen worden gevolgd. Dat onderscheid is precies waar deze dienst voor bedoeld is.</p>
+          <p>In situaties waarin bewijs nodig is — bijvoorbeeld voor verzekering, aankoop of VvE — is een formele rapportage de volgende stap.</p>
+        </div>
+      </div>
+
+      <!-- Kosten (card) -->
+      <div class="block" id="kosten">
+        <div class="card">
+          <h2>Wat het kost</h2>
+          <p>De dakinspectie is volledig kosteloos en vrijblijvend. Alleen wanneer je na de inspectie kiest voor aanvullende diensten, zoals herstelwerkzaamheden of een rapportage, worden hiervoor kosten besproken.</p>
+        </div>
+      </div>
+
+      <!-- Samenvatting (slab) -->
+      <div class="block" id="samenvat">
+        <div class="slab">
+          <h2>Samenvattend</h2>
+          <p>Deze dienst is er om twijfel weg te nemen. Wie nu wil weten waar hij aan toe is, kan die stap zetten door een dakinspectie aan te vragen en zijn situatie concreet te laten beoordelen. Geen verkooppraat, geen aannames — alleen een technische momentopname die je helpt beslissen wat verstandig is.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+// Sticky CTA tonen na 300px scroll (desktop)
+(function(){
+  var cta = document.querySelector('.sticky-cta');
+  function toggleCTA(){
+    if(!cta) return;
+    if(window.innerWidth > 980 && window.scrollY > 300){
+      cta.classList.add('is-visible');
+    } else {
+      cta.classList.remove('is-visible');
+    }
+  }
+  window.addEventListener('scroll', toggleCTA);
+  window.addEventListener('resize', toggleCTA);
+  toggleCTA();
+})();
+// CTA's openen in nieuw tabblad (geen overlay)
+(function(){
+  var url = 'https://form.typeform.com/to/rQsxIgyZ';
+  document.querySelectorAll('.tf-popup').forEach(function(el){
+    el.setAttribute('href', url);
+    el.setAttribute('target', '_blank');
+    el.setAttribute('rel', 'noopener');
+  });
+})();
+</script>
+
+</div>

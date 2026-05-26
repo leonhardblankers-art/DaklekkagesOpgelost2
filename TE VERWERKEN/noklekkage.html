@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <title>Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost</title>
+  <meta name="description" content="Noklekkage bij een pannendak? Lees oorzaken, herken signalen en ontdek de beste aanpak om een noklekkage duurzaam op te lossen. Gratis dakinspectie in Gelderland, Noord-Brabant en Utrecht." />
+
+<style>
+:root{
+  --brand:#1D9753; --brand2:#167a44;
+  --orange:#ff7a00; --orangeDark:#ff6a00; --orangeLight:#ff9a3a;
+  --ink:#0b0d10; --muted:#606a78;
+  --bg:#ffffff; --soft:#f6f8f7;
+  --stroke: rgba(15,17,21,.10); --stroke2: rgba(15,17,21,.07); --ring: rgba(29,151,83,.18);
+  --shadow: 0 18px 45px rgba(15,17,21,.10); --shadow2: 0 10px 25px rgba(15,17,21,.08);
+  --r:18px; --max:1100px;
+}
+.dlo,.dlo *{box-sizing:border-box;}
+.dlo{width:100%;max-width:100%;color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+.dlo img{max-width:100% !important;height:auto !important;display:block !important;}
+.dlo a{text-decoration:none;}
+.dlo .wrap{background:var(--bg);width:100%;}
+.dlo .sec{padding:56px 20px;width:100%;}
+.dlo .sec.soft{background:linear-gradient(180deg,var(--soft),#fff);}
+.dlo .container{width:100%;max-width:var(--max);margin:0 auto;}
+
+.dlo h1{font-size:clamp(30px,3vw,46px);line-height:1.06;letter-spacing:-.8px;margin:0 0 10px;}
+.dlo h2{font-size:clamp(22px,2.2vw,34px);line-height:1.15;letter-spacing:-.35px;margin:0 0 10px;}
+.dlo h3{margin:0;font-size:18px;letter-spacing:-.25px;}
+.dlo h4{margin:0;font-size:16px;letter-spacing:-.2px;}
+.dlo p{margin:0 0 12px;color:var(--muted);line-height:1.75;font-size:16px;}
+.dlo .lead{color:var(--muted);font-size:16.5px;}
+
+.breadcrumb{font-size:13px;color:var(--muted);margin-bottom:10px;}
+.breadcrumb a{color:var(--muted);}
+
+.kicker{
+  display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;
+  background:rgba(29,151,83,.10);color:var(--brand2);font-weight:900;font-size:13px;letter-spacing:.2px;
+  margin:0 0 10px;box-shadow:0 10px 22px rgba(15,17,21,.06);border:1px solid rgba(29,151,83,.14);
+  width:fit-content;max-width:100%;
+}
+.kdot{width:10px;height:10px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 6px var(--ring);}
+
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;}
+.actions .btn{flex:1 1 calc(50% - 10px);min-width:210px;}
+@media (max-width:560px){.actions .btn{flex:1 1 100%;min-width:0;}}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 14px;border-radius:14px;
+  font-weight:900;border:1px solid rgba(15,17,21,.10);
+  transition:transform .15s ease,filter .15s ease,box-shadow .15s ease;
+  cursor:pointer;white-space:nowrap;text-decoration:none !important;
+}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.02);box-shadow:0 10px 20px rgba(15,17,21,.10);}
+.btn.primary{background:var(--brand);border-color:rgba(29,151,83,.22);color:#fff;}
+.btn.outline{background:transparent;color:var(--brand2);border-color:rgba(29,151,83,.45);}
+.btn.ghost{background:#fff;color:var(--ink);border-color:rgba(15,17,21,.10);}
+
+.split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:18px;align-items:start;}
+.split.stretch{align-items:stretch;}
+
+.media-card{border-radius:22px;overflow:hidden;box-shadow:0 25px 60px rgba(0,0,0,.15);position:relative;background:#000;border:1px solid rgba(255,255,255,.06);}
+.media-contrast::before{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg, rgba(0,0,0,.40), rgba(0,0,0,.10) 50%, rgba(0,0,0,.44)),
+  radial-gradient(900px 260px at 20% 0%, rgba(0,0,0,.34), transparent 60%);
+  pointer-events:none;
+}
+@media (min-width:981px){
+  .split.stretch{align-items:stretch;}
+  .split.stretch>div{display:flex;flex-direction:column;min-width:0;height:100%;}
+  .split.stretch .media-card{flex:1 1 auto;height:100%;min-height:100%;}
+  .split.stretch .media-card img{width:100% !important;height:100% !important;object-fit:cover !important;object-position:center !important;}
+}
+.media-card img{width:100%;height:auto;display:block;}
+
+.hero-badge{
+  position:absolute;top:14px;left:14px;display:inline-flex;align-items:center;gap:10px;
+  padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.92);border:1px solid rgba(15,17,21,.10);
+  box-shadow:0 10px 25px rgba(0,0,0,.14);backdrop-filter:blur(6px);z-index:3;line-height:1.1;
+  max-width:calc(100% - 70px);
+}
+.hero-badge .t{font-weight:900;color:var(--ink);}
+.hero-badge .s{font-weight:800;color:var(--muted);font-size:12px;margin-left:6px;}
+
+.pdf-chip{
+  position:absolute;top:14px;right:14px;width:40px;height:40px;border-radius:14px;background:rgba(255,255,255,.92);
+  border:1px solid rgba(15,17,21,.10);box-shadow:0 10px 25px rgba(0,0,0,.14);display:flex;align-items:center;justify-content:center;
+  z-index:3;backdrop-filter:blur(6px);
+}
+.pdf-chip svg{width:22px;height:22px;display:block;}
+
+.hero-note{
+  position:absolute;left:20px;right:20px;bottom:20px;padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.94);
+  border:1px solid rgba(15,17,21,.08);color:var(--muted);font-size:14px;line-height:1.6;box-shadow:0 14px 34px rgba(0,0,0,.22);
+  z-index:3;
+}
+
+.callout{margin:12px 0;padding:14px;border-radius:16px;border:1px solid rgba(15,17,21,.08);background:#fff;box-shadow:var(--shadow2);}
+.callout.important{background:rgba(255,122,0,.10);border-color:rgba(255,122,0,.35);}
+.callout.important .tag{display:inline-flex;align-items:center;gap:10px;font-weight:900;color:var(--ink);margin-bottom:6px;}
+.callout.important .tag .dot{width:10px;height:10px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 6px rgba(255,122,0,.18);}
+.callout.important p{margin:0;color:var(--muted);}
+.callout.important b{color:var(--ink);}
+
+.mini-trust{display:grid;gap:10px;font-size:14px;color:var(--muted);margin-top:12px;}
+.mini-trust .row{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;}
+.mini-trust .tick{width:22px;height:22px;display:flex;align-items:center;justify-content:center;}
+.mini-trust .t{font-weight:900;color:var(--ink);line-height:1.25;}
+.mini-trust .s{color:var(--muted);line-height:1.35;margin-top:2px;}
+
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:12px;}
+.card{grid-column:span 6;background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.06);
+  border-radius:var(--r);box-shadow:var(--shadow2);overflow:hidden;position:relative;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease;}
+.card:hover{transform:translateY(-2px);box-shadow:0 16px 36px rgba(15,17,21,.10);border-color:rgba(29,151,83,.22);}
+.card:before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--brand), rgba(29,151,83,.20));}
+.card-in{padding:18px;display:grid;gap:8px;}
+
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:12px;}
+.node{background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.08);border-radius:var(--r);
+  box-shadow:var(--shadow2);padding:18px;position:relative;overflow:hidden;min-width:0;}
+.node:before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--brand);}
+.node-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.chip{width:40px;height:40px;border-radius:14px;background:rgba(29,151,83,.10);display:flex;align-items:center;justify-content:center;color:var(--brand);font-weight:900;flex:0 0 40px;}
+.node p{margin:0;color:var(--muted);line-height:1.65;font-size:14px;}
+
+.faq{display:grid;gap:10px;margin-top:12px;}
+.faq details{background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.07);border-radius:var(--r);box-shadow:var(--shadow2);overflow:hidden;}
+.faq summary{cursor:pointer;list-style:none;padding:14px;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:10px;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq .qdot{width:10px;height:10px;border-radius:50%;background:rgba(29,151,83,.55);box-shadow:0 0 0 6px rgba(29,151,83,.12);flex:0 0 10px;}
+.faq .chev{margin-left:auto;color:var(--brand2);font-size:20px;transition:transform .2s ease;}
+.faq details[open] .chev{transform:rotate(180deg);}
+.faq .ans{padding:0 14px 14px;}
+.faq .ans p{margin:0;font-size:15px;}
+
+.sticky-cta{
+  position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:9999;display:none;
+}
+.sticky-cta.is-visible{display:block;}
+.sticky-cta .box{
+  width:220px;background:rgba(255,255,255,.96);border:2px solid rgba(255,122,0,.95);border-radius:16px;
+  box-shadow:0 16px 40px rgba(0,0,0,.16);padding:12px;backdrop-filter:blur(10px);
+}
+.sticky-cta .label{font-weight:900;font-size:13px;color:var(--ink);margin-bottom:10px;display:flex;gap:10px;align-items:center;line-height:1.2;}
+.sticky-cta .label .dot{width:10px;height:10px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 6px rgba(255,122,0,.18);}
+.sticky-cta .mini{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.4;}
+@keyframes blinkOrange{0%,100%{background:var(--orangeDark);box-shadow:0 10px 22px rgba(255,122,0,.18);}50%{background:var(--orangeLight);box-shadow:0 12px 26px rgba(255,122,0,.28);}}
+.sticky-cta .btn.orange{width:100%;background:var(--orangeDark);border-color:rgba(255,122,0,.65);color:#fff;animation:blinkOrange 1s infinite;}
+.sticky-cta .btn + .btn{margin-top:10px;width:100%;}
+
+.mobile-sticky{
+  position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;display:none;
+}
+.mobile-sticky.is-visible{display:block;}
+.mobile-sticky .bar{
+  background:rgba(255,255,255,.96);border:1px solid rgba(15,17,21,.10);border-radius:18px;
+  box-shadow:0 16px 40px rgba(0,0,0,.18);padding:10px;backdrop-filter:blur(10px);
+  display:flex;gap:10px;align-items:center;justify-content:space-between;
+}
+.mobile-sticky .txt{min-width:0;}
+.mobile-sticky .txt b{display:block;color:var(--ink);font-weight:900;font-size:13px;line-height:1.15;}
+.mobile-sticky .txt span{display:block;color:var(--muted);font-size:12px;line-height:1.25;margin-top:2px;}
+.mobile-sticky .bar .go{
+  flex:0 0 auto;
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:10px 12px;border-radius:14px;font-weight:900;
+  border:1px solid rgba(255,122,0,.65);color:#fff;background:var(--orangeDark);
+  animation:blinkOrange 1s infinite;
+}
+@media (min-width:981px){.mobile-sticky{display:none !important;}}
+@media (max-width:980px){
+  .dlo .sec{padding:46px 20px;}
+  .split{grid-template-columns:1fr;}
+  .flow{grid-template-columns:1fr;}
+  .card{grid-column:span 12;}
+  .sticky-cta{display:none !important;}
+  .hero-note{position:static;left:auto;right:auto;bottom:auto;margin:12px 14px 14px;box-shadow:var(--shadow2);}
+  .hero-badge{flex-wrap:wrap;gap:6px;}
+  .hero-badge .t{width:100%;}
+  .hero-badge .s{width:100%;margin-left:0;}
+  /* op mobiel: alleen top + bottom actions zichtbaar */
+  .actions--mid{display:none !important;}
+}
+
+.internal-link{color:var(--brand) !important;font-weight:900;text-decoration:none !important;}
+.internal-link:hover{filter:brightness(0.95);text-decoration:underline !important;}
+
+.deliver{margin-top:14px;background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.07);border-radius:var(--r);box-shadow:var(--shadow2);padding:16px;}
+.deliver h3{display:flex;gap:10px;align-items:center;}
+.deliver .pdf-mini{width:18px;height:18px;flex:0 0 18px;}
+.deliver ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:10px;}
+.deliver li{display:flex;gap:10px;align-items:flex-start;color:var(--muted);line-height:1.6;}
+.deliver li b{color:var(--ink);}
+.tick-badge{width:22px;height:22px;display:flex;align-items:center;justify-content:center;}
+</style>
+</head>
+
+<body>
+<div class="dlo"><div class="wrap">
+
+<!-- STICKY CTA (desktop: na 300px scroll, verbergen bij laatste sectie) -->
+<div class="sticky-cta" aria-label="Snelle actie">
+  <div class="box">
+    <div class="label"><span class="dot"></span> Noklekkage in Gelderland of Brabant?</div>
+    <a class="btn orange" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis inspectie →</a>
+    <a class="btn outline" href="tel:0851308251">Bel direct</a>
+    <div class="mini">Actief in Gelderland • Noord-Brabant • Utrecht</div>
+  </div>
+</div>
+
+<!-- STICKY CTA (mobiel: na hero lead, verbergen bij laatste sectie) -->
+<div class="mobile-sticky" aria-label="Snel contact op mobiel">
+  <div class="bar">
+    <div class="txt">
+      <b>Gratis dakinspectie</b>
+      <span>Noklekkage? Krijg snel duidelijkheid.</span>
+    </div>
+    <a class="go" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Start →</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="sec soft" id="top">
+  <div class="container">
+    <div class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> › <a href="/lekkages">Lekkages</a> › <span style="color:var(--ink);font-weight:800">Noklekkage</span>
+    </div>
+
+    <div class="split stretch">
+      <div>
+        <div class="kicker"><span class="kdot"></span> Pannendak – nok</div>
+        <h1>Noklekkage oplossen: lekkage bij de nok van een pannendak</h1>
+        <p class="lead" id="hero-lead">Een <b>noklekkage</b> ontstaat zelden in één nacht. De nok is het hoogste en meest belaste punt van het dak: wind trekt er het hardst, regen slaat er dwars op in en temperatuurschommelingen werken continu op de afdichting. Als je binnen vocht ziet bij de noklijn, is dat vaak het signaal dat de afdichting al langere tijd zijn functie verliest.</p>
+        <p>Het lastige: water kan zich onder pannen en onderdakfolie verplaatsen. Daardoor zit de zichtbare plek binnen niet altijd recht onder de losse nokvorst. Wie direct “dichtsmeert”, pakt soms het symptoom aan en laat de echte oorzaak zitten. De slimste route is bijna altijd: eerst oorzaak vaststellen, daarna pas duurzaam herstellen.</p>
+
+        <div class="actions actions--top">
+          <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Gratis dakinspectie →</a>
+          <a class="btn outline" href="tel:0851308251">Bel direct</a>
+        </div>
+
+        <div class="mini-trust" aria-label="Kernpunten">
+          <div class="row">
+            <div class="tick">✅</div>
+            <div><div class="t">Sneller duidelijkheid</div><div class="s">Voorkom giswerk: eerst oorzaak, dan pas herstellen.</div></div>
+          </div>
+          <div class="row">
+            <div class="tick">✅</div>
+            <div><div class="t">Slim bij twijfel</div><div class="s">Ook zonder druppels: inspectie toont risico’s rond de nok.</div></div>
+          </div>
+          <div class="row">
+            <div class="tick">✅</div>
+            <div><div class="t">Sterk bij derden</div><div class="s">Handig richting VvE of verzekeraar: feiten boven meningen.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="media-card media-contrast">
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Noklekkage%20lekkage%20nok-1.jpg?width=860&amp;t=1767203848454"
+               alt="Noklekkage bij pannendak: lekkage rond nokvorsten"
+               loading="eager" fetchpriority="high" decoding="async" width="860" height="560">
+          <div class="hero-badge" aria-label="Badge">
+            <span class="t">Noklekkage</span>
+            <span class="s">pannendak – nok</span>
+          </div>
+          <div class="pdf-chip" aria-label="Info">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#1D9753" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 3a7 7 0 1 1 0 14a7 7 0 0 1 0-14Zm0 2.2a.8.8 0 0 0-.8.8v3.1H8.1a.8.8 0 1 0 0 1.6h3.1V16a.8.8 0 1 0 1.6 0v-3.1h3.1a.8.8 0 1 0 0-1.6h-3.1V8a.8.8 0 0 0-.8-.8Z"/>
+            </svg>
+          </div>
+          <div class="hero-note"><b>Praktisch:</b> Een losse nokvorst is niet altijd de échte ingang. Winddruk en capillaire werking kunnen water onder de nok “laten kruipen”, waarna het pas verderop zichtbaar wordt.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAAROM KWETSBAAR -->
+<section class="sec" id="waarom-kwetsbaar">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Waarom kwetsbaar</div>
+    <h2>Waarom de nok van een pannendak extra kwetsbaar is</h2>
+    <p>De nok is het detail waar twee dakvlakken samenkomen. Details zijn altijd gevoeliger dan het dakvlak zelf: er zitten meer overgangsstukken, meer bevestigingen en meer plekken waar materiaal kan werken. Bij pannendaken spelen vooral de <b>nokvorsten</b>, de <b>ruiterrol</b> (of ondervorst), ventilatie en de manier van vastzetten een rol. Als één onderdeel veroudert of loskomt, ontstaat er ruimte voor water en wind om onder de nok te komen.</p>
+    <p>Daar komt bij dat de nok vanuit alle windrichtingen belast wordt. Bij harde wind ontstaat er druk en onderdruk rondom de nok, waardoor water tijdens slagregen letterlijk naar binnen kan worden geduwd. Trillingen door storm, het uitzetten en krimpen van hout en temperatuurschommelingen versnellen die slijtage. Daarom zie je bij noklekkage vaak een patroon: eerst kleine kieren, daarna vocht in de constructie, en pas als laatste de zichtbare plek binnen.</p>
+
+    <div class="grid" aria-label="Veelvoorkomende oorzaken noklekkage">
+      <article class="card"><div class="card-in">
+        <h3>Ruiterrol / afdichting verouderd</h3>
+        <p>Rubber of schuim verliest soepelheid. Kieren bij winddruk zorgen dat regen onder de nok kan komen.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Nokvorsten los of verschoven</h3>
+        <p>Beweging door wind of trillingen maakt dat overlap niet meer klopt. Water vindt dan een route naar binnen.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Specie gescheurd of verpoederd</h3>
+        <p>Oudere nokken op specie krijgen scheuren. Vocht trekt via capillaire werking naar binnen.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Onderdakfolie / latten aangetast</h3>
+        <p>Als folie los of beschadigd is, verplaatst water zich makkelijker richting het interieur.</p>
+      </div></article>
+    </div>
+
+    <div class="callout" role="note" aria-label="Wit blok">
+      <p><b>Goed om te weten:</b> Bij een noklekkage kan de daadwerkelijke oorzaak óók naast de nok liggen, bijvoorbeeld bij een doorvoer, aansluiting of lood in de buurt. Daarom is “even één nokvorst vastzetten” niet altijd voldoende.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNALEN + AFBEELDING -->
+<section class="sec soft" id="signalen">
+  <div class="container">
+    <div class="split stretch">
+      <div>
+        <div class="kicker"><span class="kdot"></span> Herkenning</div>
+        <h2>Signalen van noklekkage: wat merk je binnen?</h2>
+        <p>De eerste signalen van een noklekkage zijn vaak subtiel. Denk aan een vochtplek op het dakbeschot vlak onder de noklijn, verkleuring rond spijkers, schimmelvorming op zolder, of isolatie die op één plek vochtig wordt. Soms merk je het alleen aan een muffe geur. Bij harde wind kan de lekkage actiever worden doordat winddruk water onder de nok duwt.</p>
+        <p>Belangrijk: de schade zit zelden exact onder een losse nokvorst. Water kan via pannen, panlatten of folie “omlopen” en pas verderop zichtbaar worden. Als de oorzaak onduidelijk is, is <a class="internal-link" href="/lekkage-opsporen">lekkage opsporen</a> vaak de meest betrouwbare stap: je voorkomt daarmee dat je alleen het symptoom behandelt.</p>
+
+        <div class="callout important" role="note" aria-label="Belangrijk">
+          <div class="tag"><span class="dot" aria-hidden="true"></span> Belangrijk</div>
+          <p>Een snelle ‘quick fix’ aan de buitenkant kan het probleem verplaatsen. Eerst oorzaak vaststellen, dan gericht herstellen = meestal goedkoper én duurzamer.</p>
+        </div>
+
+        <div class="actions actions--mid">
+          <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Inspectie plannen →</a>
+          <a class="btn outline" href="/lekkage-opsporen">Lekkage opsporen</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="media-card media-contrast">
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Wanneer%20een%20dakprobleem%20geen%20toeval%20blijkt.jpeg?width=860&amp;t=1770541779235"
+               alt="Wanneer een dakprobleem geen toeval blijkt: signalen en patroonherkenning bij noklekkage"
+               loading="lazy" decoding="async" width="860" height="560">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAT NU DOEN -->
+<section class="sec" id="wat-nu">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Vervolgstap</div>
+    <h2>Wat kun je het beste doen bij een noklekkage?</h2>
+    <p>Bij een actieve noklekkage is snelheid belangrijk, maar gokken werkt averechts. Als water nu binnendringt, wil je vooral voorkomen dat de schade groter wordt: natte isolatie, schimmel, aangetast hout of plekken in het plafond. Tegelijk wil je vermijden dat je onnodige reparaties laat uitvoeren op de verkeerde plek.</p>
+    <p>De meest praktische route is meestal: (1) vaststellen waar het water binnenkomt, (2) begrijpen waarom het detail faalt, (3) kiezen voor een passende oplossing. Dat klinkt logisch, maar in de praktijk slaan mensen stap 2 over. Het gevolg: water zoekt een nieuwe route en de lekkage komt terug.</p>
+
+    <div class="flow" aria-label="Stappenplan noklekkage oplossen">
+      <div class="node"><div class="node-top"><div class="chip">1</div><h4>Situatie checken</h4></div><p>Is er actieve lekkage? Wanneer gebeurt het (wind/regen)? Waar zie je het binnen?</p></div>
+      <div class="node"><div class="node-top"><div class="chip">2</div><h4>Bron vaststellen</h4></div><p>Inspectie of gericht opsporen om de echte ingang te vinden (niet de zichtbare plek).</p></div>
+      <div class="node"><div class="node-top"><div class="chip">3</div><h4>Oorzaak bepalen</h4></div><p>Ruiterrol, specie, bevestiging, folie of combinatie? Dat bepaalt wat duurzaam herstel is.</p></div>
+      <div class="node"><div class="node-top"><div class="chip">4</div><h4>Duurzaam herstellen</h4></div><p>Nok opnieuw opbouwen of afdichting vervangen zodat het detail weer wind- en waterdicht is.</p></div>
+    </div>
+
+    <div class="callout important" role="note" aria-label="Let op">
+      <div class="tag"><span class="dot" aria-hidden="true"></span> Let op</div>
+      <p>Als je na een storm ineens lekkage ziet, betekent dat niet automatisch “stormschade”. Soms maakt storm een bestaand zwak punt zichtbaar. Diagnose voorkomt discussie én dubbele kosten.</p>
+    </div>
+  </div>
+</section>
+
+<!-- INSPECTIE VS OPSPOREN + NOKRENOVATIE / DAKLOOD -->
+<section class="sec soft" id="inspectie-of-opsporen">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Kiezen</div>
+    <h2>Gratis dakinspectie of lekkage opsporen bij noklekkage?</h2>
+    <p>Niet elke noklekkage vraagt dezelfde aanpak. Soms zie je buiten al een duidelijke losse nokvorst of een versleten ruiterrol; dan kan een <b>gratis dakinspectie</b> voldoende zijn om de oorzaak vast te stellen en een plan te maken. Maar als je binnen schade ziet en buiten niets overtuigend, dan is <a class="internal-link" href="/lekkage-opsporen">lekkage opsporen</a> vaak de snelste route naar zekerheid.</p>
+    <p>Blijkt dat de nokconstructie als geheel zijn functie verliest, dan kom je uit bij een structurele oplossing zoals <a class="internal-link" href="/nokrenovatie">nokrenovatie</a>. En zitten er zwakke plekken bij aansluitingen in de buurt van de nok (bijvoorbeeld verouderd lood), dan kan <a class="internal-link" href="/daklood-vervangen">daklood vervangen</a> onderdeel van de oplossing zijn. Door de puzzel eerst scherp te krijgen, voorkom je dat je één onderdeel repareert terwijl een tweede zwaktepunt blijft lekken.</p>
+
+    <div class="grid" aria-label="Vergelijking diensten bij noklekkage">
+      <article class="card"><div class="card-in">
+        <h3>Gratis dakinspectie</h3>
+        <p>Ideaal bij twijfel of bij zichtbare schade buiten. Je krijgt inzicht in conditie, risico’s en logische vervolgstap.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Lekkage opsporen</h3>
+        <p>Ideaal als je binnen lekkage ziet maar de ingang onduidelijk is. Voorkomt repareren op gevoel.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Nokrenovatie</h3>
+        <p>Als de nok als detail faalt: opnieuw opbouwen met nieuwe afdichting en bevestiging voor lange termijn.</p>
+      </div></article>
+      <article class="card"><div class="card-in">
+        <h3>Daklood vervangen</h3>
+        <p>Als aansluitingen rond de nok (of in de buurt) zwak zijn: lood vernieuwen zodat water geen route krijgt.</p>
+      </div></article>
+    </div>
+  </div>
+</section>
+
+<!-- DUURZAME OPLOSSING + AFBEELDING -->
+<section class="sec" id="duurzame-oplossing">
+  <div class="container">
+    <div class="split stretch">
+      <div>
+        <div class="media-card media-contrast">
+          <img src="https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Daklood%20repareren.jpeg?width=860&amp;t=1768173255942"
+               alt="Duurzame oplossing bij noklekkage: nok en aansluitingen herstellen"
+               loading="lazy" decoding="async" width="860" height="560">
+        </div>
+      </div>
+
+      <div>
+        <div class="kicker"><span class="kdot"></span> Duurzaam</div>
+        <h2>Noklekkage duurzaam oplossen: wat houdt herstel in?</h2>
+        <p>Blijkt uit onderzoek dat de nokconstructie zijn functie verliest, dan is herstel of vervanging noodzakelijk. In de praktijk betekent dit vaak: de nok (deels) losnemen, onderliggende afdichting en bevestiging beoordelen en vernieuwen, en de nok vervolgens opnieuw opbouwen zodat hij weer bestand is tegen wind, regen en temperatuurwerking.</p>
+        <p>Duurzaam oplossen is meestal niet “meer kit”, maar een detail dat weer klopt: juiste ventilatie, correcte overlap, sterke bevestiging en een afdichting die past bij het daktype. Soms is er ook aandacht nodig voor aansluitingen in de buurt van de nok, zoals lood of doorvoeren. Een noklekkage kan namelijk samengaan met andere zwakke plekken. Daarom combineren we waar nodig beoordeling van nok, aansluitingen én waterroute.</p>
+        <div class="callout" role="note" aria-label="Tip">
+          <p><b>Tip:</b> Laat na herstel kort controleren of de waterroute echt is gestopt. Na de eerste stevige regenbui geeft dat rust (en voorkomt dat je pas maanden later weer verrast wordt).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KOSTEN / PREVENTIE -->
+<section class="sec soft" id="kosten-en-preventie">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Praktisch</div>
+    <h2>Wat kost noklekkage oplossen?</h2>
+    <p>De kosten hangen sterk af van oorzaak en omvang. Een kleine ingreep (bijvoorbeeld een beperkt stuk nok opnieuw vastzetten of een ruiterrol vervangen) is iets anders dan het volledig opnieuw opbouwen van een lange nok. Ook bereikbaarheid (steiger, hoogte, dakvorm) speelt mee. Daarom is een eerste beoordeling belangrijk: je voorkomt dat je betaalt voor werk dat de echte oorzaak niet raakt.</p>
+    <p>Wat vrijwel altijd geldt: hoe langer je wacht, hoe groter de kans dat vocht isolatie en hout aantast. Dan betaal je niet alleen voor nokherstel, maar ook voor herstel aan binnenzijde of constructie. Tijdig ingrijpen is meestal goedkoper dan “repareren na schade”.</p>
+
+    <div class="grid" aria-label="Preventie en onderhoud">
+      <article class="card"><div class="card-in"><h3>Controle na storm</h3><p>Na zware wind: check of nokvorsten nog strak liggen en of er geen zichtbare verschuiving is.</p></div></article>
+      <article class="card"><div class="card-in"><h3>Veroudering herkennen</h3><p>Broze ruiterrol, scheurtjes in specie of losse randen zijn signalen dat afdichting zijn beste tijd heeft gehad.</p></div></article>
+      <article class="card"><div class="card-in"><h3>Ventilatie & detailwerk</h3><p>Een nok moet niet alleen dicht zijn, maar ook technisch kloppen qua ventilatie en overlap.</p></div></article>
+      <article class="card"><div class="card-in"><h3>Niet blind afdichten</h3><p>Kit zonder diagnose kan water opsluiten of naar een andere plek sturen, met extra schade tot gevolg.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Veelgestelde vragen</div>
+    <h2>Veelgestelde vragen over noklekkage</h2>
+
+    <div class="faq">
+      <details open>
+        <summary><span class="qdot" aria-hidden="true"></span> Kan een noklekkage plotseling ontstaan? <span class="chev" aria-hidden="true">▾</span></summary>
+        <div class="ans"><p>Meestal niet. Het is vaak een proces van slijtage. Een storm of slagregen maakt het vervolgens zichtbaar.</p></div>
+      </details>
+      <details>
+        <summary><span class="qdot" aria-hidden="true"></span> Waarom zit de vochtplek binnen niet onder de losse nokvorst? <span class="chev" aria-hidden="true">▾</span></summary>
+        <div class="ans"><p>Omdat water zich onder pannen en folies kan verplaatsen. De plek die je ziet is vaak het einde van de route.</p></div>
+      </details>
+      <details>
+        <summary><span class="qdot" aria-hidden="true"></span> Wanneer kies ik voor lekkage opsporen? <span class="chev" aria-hidden="true">▾</span></summary>
+        <div class="ans"><p>Als je binnen schade ziet maar buiten geen duidelijke oorzaak. Dan is opsporen de snelste weg naar gericht herstel.</p></div>
+      </details>
+      <details>
+        <summary><span class="qdot" aria-hidden="true"></span> Helpt een dakinspectie als ik nog geen lekkage zie? <span class="chev" aria-hidden="true">▾</span></summary>
+        <div class="ans"><p>Ja. Bij twijfel kan een inspectie risico’s rond nokvorsten, ruiterrol en aansluitingen in kaart brengen.</p></div>
+      </details>
+      <details>
+        <summary><span class="qdot" aria-hidden="true"></span> Wat is meestal de duurzame oplossing? <span class="chev" aria-hidden="true">▾</span></summary>
+        <div class="ans"><p>Dat verschilt per dak, maar vaak gaat het om de nok opnieuw opbouwen met nieuwe afdichting en bevestiging. Soms gecombineerd met herstel van aansluitingen (zoals daklood).</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- SAMENVATTING -->
+<section class="sec soft" id="samenvatting">
+  <div class="container">
+    <div class="kicker"><span class="kdot"></span> Samenvatting</div>
+    <h2>Noklekkage oplossen zonder giswerk</h2>
+    <p>Een noklekkage is meestal het gevolg van slijtage en beweging op het meest belaste deel van het dak. De beste route is bijna altijd: eerst oorzaak vaststellen, daarna pas herstellen. Zo voorkom je dat schade zich herhaalt, verplaatst of groter wordt. Wil je snel duidelijkheid en verdere schade voorkomen? Laat je situatie beoordelen en kies de juiste vervolgstap.</p>
+
+    <div class="deliver" aria-label="Mini-checklist: jouw volgende stap">
+      <h3>
+        <svg class="pdf-mini" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#1D9753" d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5z"/>
+        </svg>
+        Mini-checklist: jouw volgende stap
+      </h3>
+      <ul>
+        <li><span class="tick-badge">✅</span><span><b>Check binnen</b> waar vocht zichtbaar is en noteer wanneer het optreedt (wind/regen).</span></li>
+        <li><span class="tick-badge">✅</span><span><b>Laat oorzaak vaststellen</b> (inspectie of opsporen) voordat je herstelt.</span></li>
+        <li><span class="tick-badge">✅</span><span><b>Kies duurzaam herstel</b> (nok/afdichting/ventilatie) in plaats van ‘dichtsmeren’.</span></li>
+        <li><span class="tick-badge">✅</span><span><b>Controleer na herstel</b> na een regenmoment voor extra zekerheid.</span></li>
+      </ul>
+    </div>
+
+    <div class="actions actions--bottom">
+      <a class="btn primary" href="https://form.typeform.com/to/rQsxIgyZ" target="_blank" rel="noopener">Neem vrijblijvend contact op →</a>
+      <a class="btn outline" href="tel:0851308251">Bel direct</a>
+    </div>
+  </div>
+</section>
+
+</div></div>
+
+<script>
+(function(){
+  // Desktop sticky CTA (na 300px, verbergen zodra laatste sectie in beeld is)
+  var cta = document.querySelector('.sticky-cta');
+  var stopEl = document.querySelector('#samenvatting');
+  function toggleDesktop(){
+    if(!cta) return;
+    var stopInView = false;
+    if(stopEl){
+      var r = stopEl.getBoundingClientRect();
+      stopInView = r.top < window.innerHeight * 0.75;
+    }
+    if(window.innerWidth > 980 && window.scrollY > 300 && !stopInView){
+      cta.classList.add('is-visible');
+    } else {
+      cta.classList.remove('is-visible');
+    }
+  }
+
+  // Mobile sticky CTA (na hero-lead, verbergen bij laatste sectie)
+  var m = document.querySelector('.mobile-sticky');
+  var lead = document.querySelector('#hero-lead');
+  function toggleMobile(){
+    if(!m) return;
+    if(window.innerWidth > 980){ m.classList.remove('is-visible'); return; }
+
+    var afterLead = false;
+    if(lead){
+      var lr = lead.getBoundingClientRect();
+      afterLead = lr.bottom < 0; // voorbij eerste alinea
+    } else {
+      afterLead = window.scrollY > 220;
+    }
+
+    var stopInView = false;
+    if(stopEl){
+      var r = stopEl.getBoundingClientRect();
+      stopInView = r.top < window.innerHeight * 0.85;
+    }
+
+    if(afterLead && !stopInView){
+      m.classList.add('is-visible');
+    } else {
+      m.classList.remove('is-visible');
+    }
+  }
+
+  window.addEventListener('scroll', function(){ toggleDesktop(); toggleMobile(); }, { passive:true });
+  window.addEventListener('resize', function(){ toggleDesktop(); toggleMobile(); });
+  toggleDesktop(); toggleMobile();
+})();
+</script>
+
+</body>
+</html>
