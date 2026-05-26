@@ -74,7 +74,7 @@ header nav a { font-weight: 700; }
 @keyframes markerDraw { to { stroke-dashoffset: 0; } }
 
 .hero-grid { display: grid; grid-template-columns: 1.14fr .86fr; gap: 18px; align-items: start; }
-.speech { justify-self: end; align-self: center; max-width: 2400px; width: 260%; background: rgba(48,165,90,.92); padding: 18px 28px; border-radius: 26px; box-shadow: var(--shadow); font-size: 17px; line-height: 1.35; font-weight: 700; position: relative; z-index: 5; transform: translateY(-34px); }
+.speech { justify-self: end; align-self: center; max-width: 2400px; width: 260%; background: rgba(48,165,90,.92); padding: 18px 28px; border-radius: 26px; box-shadow: var(--shadow); font-size: 17px; line-height: 1.35; font-weight: 700; position: relative; z-index: 5; transform: translateY(-125px); }
 .speech::before { content: ''; position: absolute; left: 74%; top: -15px; transform: translateX(-50%); border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 22px solid rgba(48,165,90,.92); }
 
 .hero-cta { display: flex; gap: 18px; flex-wrap: nowrap; margin-top: 138px; align-items: flex-start; }
