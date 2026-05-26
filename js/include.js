@@ -1,7 +1,14 @@
 function includeHTML() {
-  document.querySelectorAll("[data-include]").forEach((el) => {
+  const includes = Array.from(document.querySelectorAll("[data-include]"));
+  if (!includes.length) {
+    document.documentElement.dataset.includesLoaded = "true";
+    document.dispatchEvent(new CustomEvent("includes:loaded"));
+    return;
+  }
+
+  Promise.all(includes.map((el) => {
     const file = el.getAttribute("data-include");
-    fetch(file)
+    return fetch(file)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Include niet gevonden: ${file}`);
@@ -14,6 +21,9 @@ function includeHTML() {
       .catch((err) => {
         console.error("Fout bij laden van include:", err);
       });
+  })).then(() => {
+    document.documentElement.dataset.includesLoaded = "true";
+    document.dispatchEvent(new CustomEvent("includes:loaded"));
   });
 }
 

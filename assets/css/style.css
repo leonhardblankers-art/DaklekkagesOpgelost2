@@ -91,6 +91,27 @@ header nav a { font-weight: 700; }
 .typeform-tab { position: fixed; right: 0; top: 190px; z-index: 998; background: var(--brand); color: #fff; padding: 18px 12px; border-radius: 18px 0 0 18px; writing-mode: vertical-rl; transform: rotate(180deg); font-weight: 800; font-size: 16px; box-shadow: var(--shadow2); }
 
 /* =============================================
+   STICKY CTA
+============================================= */
+.sticky-cta { position: fixed; right: 18px; top: 50%; z-index: 999; width: 230px; opacity: 0; pointer-events: none; transform: translate(16px,-50%); transition: opacity .22s ease, transform .22s ease; }
+.sticky-cta.is-visible { opacity: 1; pointer-events: auto; transform: translate(0,-50%); }
+.sticky-cta__box { background: rgba(255,255,255,.94); border: 2px solid var(--orange); border-radius: 18px; box-shadow: 0 20px 50px rgba(0,0,0,.18); padding: 12px; backdrop-filter: blur(10px); }
+.sticky-cta__label { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; color: var(--ink); font-size: 13px; font-weight: 900; }
+.sticky-cta__label .dot { width: 10px; height: 10px; background: var(--orange); box-shadow: 0 0 0 6px rgba(255,122,0,.25); }
+.sticky-cta .btn { position: relative; overflow: hidden; width: 100%; min-height: 48px; padding: 12px 14px; border-radius: 12px; font-size: 14px; }
+.sticky-cta .btn + .btn { margin-top: 10px; }
+.sticky-cta .btn::after { content: ""; position: absolute; inset: 0; transform: translateX(-120%) skewX(-16deg); background: linear-gradient(90deg, transparent, rgba(255,255,255,.28), transparent); transition: transform .55s ease; pointer-events: none; }
+.sticky-cta .btn:hover::after, .sticky-cta .btn:focus-visible::after { transform: translateX(120%) skewX(-16deg); }
+.sticky-cta .btn.primary { background: var(--orange) !important; border-color: var(--orange) !important; color: #fff !important; }
+.sticky-cta .btn.ghost { background: #fff; color: var(--ink); border-color: rgba(15,17,21,.10); }
+.sticky-cta__blink { animation: dloBlink 1s infinite; }
+.sticky-cta__mini { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+@keyframes dloBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .38; }
+}
+
+/* =============================================
    CONTENT BLOCKS
 ============================================= */
 .split { display: grid; grid-template-columns: minmax(0,1.08fr) minmax(0,.92fr); gap: 26px; align-items: start; }
@@ -185,6 +206,7 @@ main {
   .hero-cta-col { min-width: 0; }
   .hero-title { white-space: normal; }
   .typeform-tab { display: none !important; }
+  .sticky-cta { display: none !important; }
 }
 
 @media (max-width: 1100px) {
