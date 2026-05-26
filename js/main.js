@@ -50,7 +50,7 @@
 
       var cloud = document.createElement('div');
       cloud.className = 'logo-wolkje';
-      cloud.innerHTML = '<strong>Daklekkages Oplossen is niet het enige wat wij doen.</strong> Lekkages, loodwerk, dakrenovaties, dakisolatie en alle dakgerelateerde werkzaamheden onder een dak.';
+      cloud.innerHTML = '<strong>Daklekkages Oplossen is niet het enige wat wij doen.</strong> Lekkages, loodwerk,<br>dakrenovaties, dakisolatie en alle dakgerelateerde werkzaamheden onder een dak.';
       document.body.appendChild(cloud);
 
       if(window.innerWidth > 768){

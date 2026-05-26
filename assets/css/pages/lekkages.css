@@ -135,9 +135,6 @@
     background:#000;
   }
 
-  .dlo .hero > .split > div:last-child{
-    padding-top:30px;
-  }
   .dlo .media-card img{
     width:100%;
     height:auto !important;
@@ -155,7 +152,7 @@
 
   /* Hero image crop (desktop) */
   @media (min-width:981px){
-    .dlo .soft .media-card{ height: 520px; }
+    .dlo .soft .media-card{ height: 430px; }
     .dlo .soft .media-card img{
       height:100% !important;
       object-fit:cover;
