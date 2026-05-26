@@ -367,3 +367,45 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
     padding: 10px 0;
   }
 }
+
+/* =============================================
+   DROPDOWN KLIKBARE HEADINGS & CTA KOLOM
+============================================= */
+.dropdown-heading--link {
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.dropdown-heading--link:hover {
+  opacity: 0.75;
+  background: none !important;
+}
+
+.dropdown-col--cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-inspectie-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 16px !important;
+  background: linear-gradient(135deg, #1d9753, #146c3b) !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  border-radius: 14px !important;
+  line-height: 1.4;
+  box-shadow: 0 8px 20px rgba(29,151,83,0.3);
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.dropdown-inspectie-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(29,151,83,0.4) !important;
+  background: linear-gradient(135deg, #1d9753, #146c3b) !important;
+  color: #fff !important;
+}
