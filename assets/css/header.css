@@ -140,10 +140,10 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 }
 
 .dropdown-heading {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.02em;
-  color: var(--brand);
+  color: var(--brand) !important;
   margin-bottom: 4px;
 }
 
@@ -451,6 +451,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 .dropdown-col-group {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 12px;
 }
 

@@ -35,7 +35,7 @@ header nav a { font-weight: 700; }
 /* =============================================
    LAYOUT
 ============================================= */
-.wrap { max-width: 1050px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
 .section { padding: 34px 0; }
 .soft { background: #f7f8f7; }
 .white { background: #fff; }
@@ -65,7 +65,7 @@ header nav a { font-weight: 700; }
 /* =============================================
    HERO
 ============================================= */
-.hero { position: relative; min-height: 690px; background: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('../img/home-hero.webp') center/cover no-repeat; color: #fff; overflow: hidden; }
+.hero { position: relative; min-height: 690px; background: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('./assets/img/home-hero.webp') center/cover no-repeat; color: #fff; overflow: hidden; }
 .hero .wrap { position: relative; z-index: 2; padding-top: 50px; padding-bottom: 40px; }
 .hero-title { max-width: 1380px; font-size: clamp(38px,4vw,66px); font-weight: 900; line-height: 1.03; letter-spacing: -1.2px; color: #111; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; margin: 0 0 24px; white-space: nowrap; }
 .marker { color: #30b060; position: relative; display: inline-block; padding-bottom: 20px; }
@@ -74,7 +74,7 @@ header nav a { font-weight: 700; }
 @keyframes markerDraw { to { stroke-dashoffset: 0; } }
 
 .hero-grid { display: grid; grid-template-columns: 1.14fr .86fr; gap: 18px; align-items: start; }
-.speech { justify-self: end; align-self: start; max-width: 2400px; width: 180%; background: rgba(48,165,90,.92); padding: 26px 28px; border-radius: 26px; box-shadow: var(--shadow); font-size: 16px; line-height: 1.45; font-weight: 700; position: relative; z-index: 5; }
+.speech { justify-self: end; align-self: center; max-width: 2400px; width: 260%; background: rgba(48,165,90,.92); padding: 18px 28px; border-radius: 26px; box-shadow: var(--shadow); font-size: 17px; line-height: 1.35; font-weight: 700; position: relative; z-index: 5; }
 .speech::before { content: ''; position: absolute; left: 74%; top: -15px; transform: translateX(-50%); border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 22px solid rgba(48,165,90,.92); }
 
 .hero-cta { display: flex; gap: 18px; flex-wrap: nowrap; margin-top: 138px; align-items: flex-start; }
