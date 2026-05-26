@@ -110,7 +110,15 @@
     content:none;
   }
 
-  .dlo .hero{ padding:22px; position:relative; z-index:1; }
+  .dlo .hero{
+    padding:22px;
+    position:relative;
+    z-index:1;
+    min-height:0 !important;
+    background:none !important;
+    color:var(--ink) !important;
+    overflow:visible !important;
+  }
   .dlo .split{ display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:start; }
   .dlo .hero .lead{ max-width:78ch; }
 

@@ -80,7 +80,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 
 .logo-wolkje {
   position: absolute;
-  width: 560px;
+  width: 760px;
   max-width: 90vw;
   background: #ffffff;
   border: 2px solid #2fbf71;
@@ -96,6 +96,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   transition: opacity .25s ease, visibility .25s ease, transform .25s ease;
   z-index: 9999;
   pointer-events: none;
+  text-wrap: balance;
 }
 
 .logo-wolkje.visible {
