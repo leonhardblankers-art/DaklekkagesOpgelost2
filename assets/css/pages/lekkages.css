@@ -84,12 +84,13 @@
   }
 
   /* Buttons */
-  .dlo .actions{ display:flex; gap:14px; flex-wrap:wrap; margin-top:18px; }
+  .dlo .actions{ display:flex; gap:10px; flex-wrap:nowrap; margin-top:18px; }
   .dlo .btn{
     display:inline-flex; align-items:center; justify-content:center;
-    padding:12px 18px; border-radius:14px; font-weight:800; font-size:14px;
+    padding:11px 14px; border-radius:14px; font-weight:800; font-size:13px;
     text-decoration:none; border:1px solid var(--brand); transition:.2s;
     background:#fff; color:var(--brand2);
+    white-space:nowrap;
   }
   .dlo .btn.primary{ background:var(--brand); color:#fff; }
   .dlo .btn.primary:hover{ background:var(--brand2); transform:translateY(-2px); }
@@ -119,7 +120,7 @@
     color:var(--ink) !important;
     overflow:visible !important;
   }
-  .dlo .split{ display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:start; }
+  .dlo .split{ display:grid; grid-template-columns:minmax(0,1fr) minmax(360px,.72fr); gap:28px; align-items:start; }
   .dlo .hero .lead{ max-width:78ch; }
 
   .dlo .mini-trust{ margin-top:14px; display:grid; gap:8px; font-size:13px; color:var(--muted); }
@@ -193,6 +194,11 @@
 
   /* ====== Sections ====== */
   .dlo .section{ padding:18px 0; } /* base section spacing */
+
+  @media (max-width: 780px){
+    .dlo .actions{ flex-wrap:wrap; }
+    .dlo .btn{ font-size:14px; padding:12px 18px; }
+  }
 
   /* consistent spacing above all highlighted pill blocks */
   .dlo .hl,

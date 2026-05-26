@@ -55,8 +55,12 @@
 
       if(window.innerWidth > 768){
         var rect = logo.getBoundingClientRect();
+        var left = window.scrollX + rect.left + (rect.width / 2) - (cloud.offsetWidth / 2);
+        var minLeft = window.scrollX + 16;
+        var maxLeft = window.scrollX + window.innerWidth - cloud.offsetWidth - 16;
+
         cloud.style.top = window.scrollY + rect.bottom + 22 + 'px';
-        cloud.style.left = window.scrollX + rect.left + (rect.width / 2) - (cloud.offsetWidth / 2) + 'px';
+        cloud.style.left = Math.max(minLeft, Math.min(left, maxLeft)) + 'px';
       }
 
       cloud.classList.add('visible');
