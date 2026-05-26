@@ -55,7 +55,7 @@
 
       if(window.innerWidth > 768){
         var rect = logo.getBoundingClientRect();
-        cloud.style.top = window.scrollY + rect.bottom + 12 + 'px';
+        cloud.style.top = window.scrollY + rect.bottom + 22 + 'px';
         cloud.style.left = window.scrollX + rect.left + (rect.width / 2) - (cloud.offsetWidth / 2) + 'px';
       }
 

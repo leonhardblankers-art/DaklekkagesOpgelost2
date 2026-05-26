@@ -98,34 +98,20 @@
 
   /* ====== Hero shell ====== */
   .dlo .soft{
-    background:linear-gradient(180deg,var(--soft),#fff);
+    background:linear-gradient(180deg,#fff,var(--soft));
     position:relative; overflow:hidden;
     border:1px solid rgba(15,17,21,.06);
     border-radius:calc(var(--r) + 8px);
   }
   .dlo .soft:before{
-    content:"";
-    position:absolute;
-    inset:-120px -120px auto -120px;
-    height:260px;
-    background:
-      radial-gradient(520px 220px at 18% 30%, rgba(29,151,83,.14), transparent 60%),
-      radial-gradient(420px 200px at 80% 10%, rgba(29,151,83,.10), transparent 62%);
-    pointer-events:none; z-index:0;
+    content:none;
   }
   .dlo .soft:after{
-    content:"";
-    position:absolute;
-    inset:auto -120px -160px -120px;
-    height:300px;
-    background:
-      radial-gradient(520px 240px at 70% 70%, rgba(29,151,83,.10), transparent 62%),
-      radial-gradient(420px 220px at 20% 90%, rgba(29,151,83,.08), transparent 64%);
-    pointer-events:none; z-index:0;
+    content:none;
   }
 
   .dlo .hero{ padding:22px; position:relative; z-index:1; }
-  .dlo .split{ display:grid; grid-template-columns:1fr; gap:24px; align-items:start; }
+  .dlo .split{ display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:start; }
   .dlo .hero .lead{ max-width:78ch; }
 
   .dlo .mini-trust{ margin-top:14px; display:grid; gap:8px; font-size:13px; color:var(--muted); }

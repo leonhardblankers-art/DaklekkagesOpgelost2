@@ -80,14 +80,14 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 
 .logo-wolkje {
   position: absolute;
-  width: 420px;
+  width: 560px;
   max-width: 90vw;
   background: #ffffff;
   border: 2px solid #2fbf71;
   border-radius: 14px;
   padding: 16px 18px;
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.45;
   color: #1f1f1f;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   opacity: 0;
@@ -417,6 +417,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
     transform: translateX(-50%) translateY(10px) !important;
     width: calc(100vw - 32px);
     max-width: 420px;
+    font-size: 12px;
   }
 
   .logo-wolkje.visible {
