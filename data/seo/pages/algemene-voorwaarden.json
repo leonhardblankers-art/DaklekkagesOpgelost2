@@ -1,10 +1,10 @@
 {
   "title": "Algemene voorwaarden",
-  "description": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
-  "robots": "noindex, follow",
+  "description": "Download de algemene voorwaarden van Daklekkages Opgelost als PDF.",
+  "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
   "ogTitle": "Algemene voorwaarden",
-  "ogDescription": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
+  "ogDescription": "Download de algemene voorwaarden van Daklekkages Opgelost als PDF.",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
@@ -16,7 +16,7 @@
         "@id": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
         "url": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
         "name": "Algemene voorwaarden",
-        "description": "Deze pagina is alvast aangemaakt in de nieuwe premium layout. De live website gaf geen bestaande inhoud terug voor deze URL.",
+        "description": "Download de algemene voorwaarden van Daklekkages Opgelost als PDF.",
         "isPartOf": {
           "@type": "WebSite",
           "name": "Daklekkages Opgelost",

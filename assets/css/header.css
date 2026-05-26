@@ -36,6 +36,12 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 
 .topbar a { color: #fff; font-weight: 600; text-decoration: none; }
 .topbar .usp { font-weight: 600; }
+.topbar-icon {
+  display: inline-block;
+  min-width: 1.1em;
+  margin-right: 4px;
+  text-align: center;
+}
 
 /* =============================================
    NAVBAR
@@ -60,8 +66,10 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
    LOGO
 ============================================= */
 .logo img {
-  height: 50px;
-  width: auto;
+  width: 138px;
+  height: auto;
+  max-height: 58px;
+  object-fit: contain;
   display: block;
 }
 
