@@ -30,12 +30,31 @@
     toggleCTA();
   }
 
+  function initLogoCloud(){
+    var cloud = document.querySelector('.logo-cloud');
+    if(!cloud || cloud.dataset.bound === 'true') return;
+
+    cloud.dataset.bound = 'true';
+    window.setTimeout(function(){
+      cloud.classList.add('is-visible');
+    }, 900);
+
+    window.setTimeout(function(){
+      cloud.classList.remove('is-visible');
+    }, 5600);
+  }
+
   if(document.documentElement.dataset.includesLoaded === 'true'){
     initStickyCTA();
+    initLogoCloud();
   } else if(document.querySelector('[data-include]')){
-    document.addEventListener('includes:loaded', initStickyCTA, { once: true });
+    document.addEventListener('includes:loaded', function(){
+      initStickyCTA();
+      initLogoCloud();
+    }, { once: true });
   } else {
     initStickyCTA();
+    initLogoCloud();
   }
 
   // Subtiele micro-animaties (reveal on scroll)
