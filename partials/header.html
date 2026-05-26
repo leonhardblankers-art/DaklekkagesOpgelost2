@@ -3,9 +3,9 @@
   <!-- TOPBAR -->
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>📞 Direct hulp: <a href="tel:0851308251">085 130 82 51</a></span>
-      <span>⏱️ 09:00 – 22:00 bereikbaar</span>
-      <span class="usp">✔ Binnen 24 uur op locatie</span>
+      <span>ðŸ“ž Direct hulp: <a href="tel:0851308251">085 130 82 51</a></span>
+      <span>â±ï¸ 09:00 â€“ 22:00 bereikbaar</span>
+      <span class="usp">âœ” Binnen 24 uur op locatie</span>
     </div>
   </div>
 
@@ -28,7 +28,7 @@
         <!-- Diensten -->
         <div class="nav-item nav-item--dropdown">
           <a href="/diensten" class="nav-link nav-link--toggle">
-            Diensten <span class="nav-arrow">▾</span>
+            Diensten <span class="nav-arrow">â–¾</span>
           </a>
           <div class="dropdown">
             <div class="dropdown-grid">
@@ -88,7 +88,7 @@
                   </div>
                 </div>
                 <a href="/dakinspectie" class="dropdown-inspectie-btn">
-                  🛡 Gratis dakinspectie aanvragen
+                  ðŸ›¡ Gratis dakinspectie aanvragen
                 </a>
               </div>
 
@@ -100,7 +100,7 @@
         <!-- Lekkages -->
         <div class="nav-item nav-item--dropdown">
           <a href="/lekkages" class="nav-link nav-link--toggle">
-            Lekkages <span class="nav-arrow">▾</span>
+            Lekkages <span class="nav-arrow">â–¾</span>
           </a>
           <div class="dropdown dropdown--sm">
             <a href="/lekkage-opsporen">Lekkage opsporen</a>
@@ -118,7 +118,7 @@
         <!-- Over ons -->
         <div class="nav-item nav-item--dropdown">
           <a href="#" class="nav-link nav-link--toggle">
-            Over ons <span class="nav-arrow">▾</span>
+            Over ons <span class="nav-arrow">â–¾</span>
           </a>
           <div class="dropdown dropdown--sm">
             <a href="/over-ons">Over ons</a>
@@ -157,7 +157,7 @@
         <summary class="mobile-link">Diensten</summary>
         <div class="mobile-sub">
           <a href="/diensten">Alle diensten</a>
-          <a href="/dakinspectie" style="color:#1d9753;font-weight:700;">🛡 Gratis dakinspectie</a>
+          <a href="/dakinspectie" style="color:#1d9753;font-weight:700;">ðŸ›¡ Gratis dakinspectie</a>
           <strong>Schoorsteen</strong>
           <a href="/metselwerk-repareren">Metselwerk repareren</a>
           <a href="/schoorsteen-opnieuw-opmetselen">Schoorsteen opmetselen</a>
@@ -230,22 +230,3 @@
   </div>
 
 </header>
-
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const mobileMenu = document.getElementById('mobile-menu');
-  hamburger.addEventListener('click', () => {
-    const open = hamburger.getAttribute('aria-expanded') === 'true';
-    hamburger.setAttribute('aria-expanded', !open);
-    hamburger.classList.toggle('is-open');
-    mobileMenu.classList.toggle('is-open');
-    mobileMenu.setAttribute('aria-hidden', open);
-  });
-
-  const currentPath = window.location.pathname;
-  document.querySelectorAll('.nav-link, .mobile-link').forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
-      link.classList.add('is-active');
-    }
-  });
-</script>
