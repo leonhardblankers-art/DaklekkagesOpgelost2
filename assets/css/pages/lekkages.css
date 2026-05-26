@@ -134,6 +134,10 @@
     position:relative;
     background:#000;
   }
+
+  .dlo .hero > .split > div:last-child{
+    padding-top:30px;
+  }
   .dlo .media-card img{
     width:100%;
     height:auto !important;
