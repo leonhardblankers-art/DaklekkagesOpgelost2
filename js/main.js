@@ -31,17 +31,43 @@
   }
 
   function initLogoCloud(){
-    var cloud = document.querySelector('.logo-cloud');
-    if(!cloud || cloud.dataset.bound === 'true') return;
+    if(window.__wolkjeInit || window.__wolkjeClosed) return;
+    window.__wolkjeInit = true;
 
-    cloud.dataset.bound = 'true';
-    window.setTimeout(function(){
-      cloud.classList.add('is-visible');
-    }, 900);
+    var tries = 0;
+    var maxTries = 30;
 
-    window.setTimeout(function(){
-      cloud.classList.remove('is-visible');
-    }, 5600);
+    function init(){
+      var logo = document.querySelector('.logo img');
+
+      if(!logo){
+        tries++;
+        if(tries < maxTries) window.setTimeout(init, 250);
+        return;
+      }
+
+      if(document.querySelector('.logo-wolkje')) return;
+
+      var cloud = document.createElement('div');
+      cloud.className = 'logo-wolkje';
+      cloud.innerHTML = '<strong>Daklekkages Oplossen is niet het enige wat wij doen.</strong><br>Lekkages, loodwerk, dakrenovaties, dakisolatie en alle dakgerelateerde werkzaamheden onder een dak.';
+      document.body.appendChild(cloud);
+
+      if(window.innerWidth > 768){
+        var rect = logo.getBoundingClientRect();
+        cloud.style.top = window.scrollY + rect.bottom + 12 + 'px';
+        cloud.style.left = window.scrollX + rect.left + (rect.width / 2) - (cloud.offsetWidth / 2) + 'px';
+      }
+
+      cloud.classList.add('visible');
+
+      window.setTimeout(function(){
+        cloud.classList.remove('visible');
+        window.__wolkjeClosed = true;
+      }, 6000);
+    }
+
+    init();
   }
 
   if(document.documentElement.dataset.includesLoaded === 'true'){

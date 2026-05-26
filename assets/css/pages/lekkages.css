@@ -125,7 +125,8 @@
   }
 
   .dlo .hero{ padding:22px; position:relative; z-index:1; }
-  .dlo .split{ display:grid; grid-template-columns:1.1fr .9fr; gap:34px; align-items:start; }
+  .dlo .split{ display:grid; grid-template-columns:1fr; gap:24px; align-items:start; }
+  .dlo .hero .lead{ max-width:78ch; }
 
   .dlo .mini-trust{ margin-top:14px; display:grid; gap:8px; font-size:13px; color:var(--muted); }
   .dlo .mini-trust span{ display:flex; gap:8px; align-items:flex-start; }
