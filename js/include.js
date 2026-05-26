@@ -4,14 +4,80 @@ function getSiteRoot() {
   return new URL(script.getAttribute('src'), window.location.href).href.replace(/js\/include\.js(?:\?.*)?$/, '');
 }
 
+const pageRoutes = {
+  'algemene-voorwaarden': 'pages/legal/algemene-voorwaarden/',
+  'contact': 'pages/contact/',
+  'dakgoot-vervangen': 'pages/diensten/dakgoot-vervangen/',
+  'dak-isoleren': 'pages/diensten/dak-isoleren/',
+  'dakkapel-lood-vervangen': 'pages/diensten/dakkapel-lood-vervangen/',
+  'dakkapel-renoveren': 'pages/diensten/dakkapel-renoveren/',
+  'dakinspectie': 'pages/diensten/dakinspectie/',
+  'daklekkage': 'pages/lekkages/daklekkage/',
+  'daklood-loodslabben-lekkage': 'pages/lekkages/daklood-loodslabben-lekkage/',
+  'daklood-vervangen': 'pages/diensten/daklood-vervangen/',
+  'dakraamlood-vervangen': 'pages/diensten/dakraamlood-vervangen/',
+  'dak-reinigen': 'pages/diensten/dak-reinigen/',
+  'dakrenovatie': 'pages/diensten/dakrenovatie/',
+  'diensten': 'pages/diensten/',
+  'diensten-dakgoot': 'pages/diensten/diensten-dakgoot/',
+  'diensten-dakkapel': 'pages/diensten/diensten-dakkapel/',
+  'diensten-dakraam': 'pages/diensten/diensten-dakraam/',
+  'diensten-loodafwerkingen': 'pages/diensten/diensten-loodafwerkingen/',
+  'diensten-plat-dak': 'pages/diensten/diensten-plat-dak/',
+  'diensten-schoorsteen': 'pages/diensten/diensten-schoorsteen/',
+  'diensten-schuin-dak': 'pages/diensten/diensten-schuin-dak/',
+  'gratis-dakinspectie': 'pages/diensten/gratis-dakinspectie/',
+  'kennisbank': 'pages/kennisbank/',
+  'kozijnlood-vervangen': 'pages/diensten/kozijnlood-vervangen/',
+  'lekkage-opsporen': 'pages/lekkages/lekkage-opsporen/',
+  'lekkages': 'pages/lekkages/',
+  'loodslabben-lekkage': 'pages/lekkages/loodslabben-lekkage/',
+  'metselwerk-repareren': 'pages/diensten/metselwerk-repareren/',
+  'noklekkage': 'pages/lekkages/noklekkage/',
+  'nokrenovatie': 'pages/diensten/nokrenovatie/',
+  'noodreparatie': 'pages/diensten/noodreparatie/',
+  'over-ons': 'pages/over-ons/',
+  'plat-dak-overlagen': 'pages/diensten/plat-dak-overlagen/',
+  'plat-dak-reparatie': 'pages/diensten/plat-dak-reparatie/',
+  'plat-dak-vervangen': 'pages/diensten/plat-dak-vervangen/',
+  'pleisteren': 'pages/diensten/pleisteren/',
+  'privacyverklaring': 'pages/legal/privacyverklaring/',
+  'rapportage-dakinspectie': 'pages/diensten/rapportage-dakinspectie/',
+  'schoorsteenlekkage': 'pages/lekkages/schoorsteenlekkage/',
+  'schoorsteenlood-spouw-vervangen': 'pages/diensten/schoorsteenlood-spouw-vervangen/',
+  'schoorsteenlood-vervangen': 'pages/diensten/schoorsteenlood-vervangen/',
+  'schoorsteen-opnieuw-opmetselen': 'pages/diensten/schoorsteen-opnieuw-opmetselen/',
+  'schoorsteenrenovatie': 'pages/diensten/schoorsteenrenovatie/',
+  'schoorsteen-verwijderen': 'pages/diensten/schoorsteen-verwijderen/',
+  'spoedreparatie': 'pages/diensten/spoedreparatie/',
+  'trapsgewijs-lood-vervangen': 'pages/diensten/trapsgewijs-lood-vervangen/',
+  'uitgevoerde-projecten': 'pages/over-ons/uitgevoerde-projecten/'
+};
+
+function shouldUseRepoPageRoutes() {
+  return !/(\.|^)daklekkagesopgelost\.nl$/i.test(window.location.hostname);
+}
+
+function resolveInternalPath(href) {
+  const parsed = new URL(href, window.location.origin);
+  const slug = parsed.pathname.replace(/^\/+|\/+$/g, '');
+
+  if (!slug) {
+    return `${parsed.search}${parsed.hash}`;
+  }
+
+  const route = shouldUseRepoPageRoutes() ? pageRoutes[slug] : null;
+  const cleanPath = route || `${slug}/`;
+  return `${cleanPath}${parsed.search}${parsed.hash}`;
+}
+
 function normaliseInternalLinks() {
   const siteRoot = getSiteRoot();
 
   document.querySelectorAll('a[href^="/"]').forEach((link) => {
     const href = link.getAttribute('href');
     if (!href || href.startsWith('//')) return;
-    const cleanHref = href.replace(/^\/+/, '').replace(/\/?$/, '/');
-    link.setAttribute('href', new URL(cleanHref, siteRoot).href);
+    link.setAttribute('href', new URL(resolveInternalPath(href), siteRoot).href);
   });
 
   document.querySelectorAll('img[src^="/assets/"], img[src^="./assets/"]').forEach((img) => {
