@@ -1,0 +1,333 @@
+/* Page styles extracted from TE VERWERKEN/lekkageopsporen.html */
+:root{
+    --brand:#1D9753;
+    --brand2:#167a44;
+
+    --orange:#ff7a00;
+    --orangeDark:#ff6a00;
+    --orangeLight:#ff9a3a;
+
+    --ink:#0b0d10;
+    --muted:#606a78;
+
+    --bg:#ffffff;
+    --soft:#f6f8f7;
+
+    --stroke: rgba(15,17,21,.10);
+    --ring: rgba(29,151,83,.18);
+
+    --shadow2: 0 10px 25px rgba(15,17,21,.08);
+
+    --r:18px;
+    --max:1100px;
+  }
+
+  .dlo, .dlo *{ box-sizing:border-box; }
+  .dlo{ width:100%; color:var(--ink); font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  .dlo img{ max-width:100%; height:auto; display:block; }
+
+  /* Interne tekstlinks (niet-knoppen) in huisstijl groen + vet */
+  .dlo a[href^="/"]:not(.btn),
+  .dlo a[href^="https://www.daklekkagesopgelost.nl"]:not(.btn){
+    color: var(--brand) !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+  .dlo a[href^="/"]:not(.btn):hover,
+  .dlo a[href^="https://www.daklekkagesopgelost.nl"]:not(.btn):hover{
+    color: var(--brand2) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+  }
+
+  .dlo .sec{ padding:56px 20px; }
+  .dlo .sec.soft{ background:linear-gradient(180deg, var(--soft), #ffffff); }
+  .dlo .container{ max-width:var(--max); margin:0 auto; }
+
+  .dlo h1{ font-size:clamp(30px,3vw,44px); line-height:1.06; letter-spacing:-.6px; margin:0 0 12px; }
+  .dlo h2{ font-size:clamp(22px,2.2vw,32px); line-height:1.15; letter-spacing:-.25px; margin:0 0 10px; }
+  .dlo h3{ margin:0 0 6px; font-size:18px; letter-spacing:-.2px; }
+  .dlo p{ margin:0 0 14px; color:var(--muted); line-height:1.7; }
+
+  .breadcrumb{ font-size:13px; color:var(--muted); margin-bottom:10px; }
+
+  .kicker{
+    display:inline-flex;
+    gap:10px;
+    padding:8px 12px;
+    border-radius:999px;
+    background:rgba(29,151,83,.10);
+    color:var(--brand2);
+    font-weight:900;
+    font-size:13px;
+    margin-bottom:10px;
+    align-items:center;
+  }
+  .kdot{ width:8px;height:8px;border-radius:50%; background:var(--brand); box-shadow:0 0 0 6px var(--ring); }
+
+  /* Layout */
+  .split{
+    display:grid;
+    grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+    gap:24px;
+    align-items:stretch; /* belangrijk voor gelijk lopen */
+  }
+  .actions{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+
+  /* Buttons (geen underlines) */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:12px 16px;
+    border-radius:14px;
+    font-weight:900;
+    border:1px solid rgba(0,0,0,.10);
+    cursor:pointer;
+    text-decoration:none !important;
+    white-space:nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:hover, .btn:focus{ text-decoration:none !important; }
+  .btn.primary{ background:var(--brand); color:#fff; border-color: rgba(29,151,83,.22); }
+  .btn.outline{ background:#fff; color:var(--brand2); border-color:rgba(29,151,83,.40); }
+  .btn.ghost{ background:#fff; color:var(--ink); }
+
+  /* Media: crop op desktop zodat beeld/tekst evenwichtig lopen */
+  .media-card{
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:var(--shadow2);
+    position:relative;
+    background:#fff;
+    height:100%;
+  }
+  .media-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  /* Standaard ratio zorgt voor stabiele layout + minder CLS */
+  .media-card.media-ratio{ aspect-ratio: 16 / 10; }
+
+  /* Desktop: iets compacter zodat het niet “te hoog” wordt tov kopje/tekst */
+  @media(min-width:981px){
+    .media-card.media-ratio{ aspect-ratio: 16 / 11; }
+  }
+
+  .hero-note{
+    position:absolute;
+    left:20px; right:20px; bottom:20px;
+    padding:14px;
+    border-radius:16px;
+    background:rgba(255,255,255,.92);
+    border:1px solid rgba(15,17,21,.08);
+    font-size:14px;
+    line-height:1.6;
+  }
+
+  /* Cards */
+  .grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:16px; margin-top:16px; }
+  .card{ grid-column:span 6; background:#fff; border-radius:var(--r); box-shadow:var(--shadow2); padding:18px; }
+
+  /* Flow */
+  .flow{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+  .node{ background:#fff; padding:18px; border-radius:var(--r); box-shadow:var(--shadow2); }
+
+  /* 1) Subtiele groene glow (zoals screenshot) */
+  .glow-card{
+    position:relative;
+    background:#fff;
+    border-radius:var(--r);
+    box-shadow:0 10px 25px rgba(15,17,21,.06);
+    transition:box-shadow .25s ease, transform .25s ease;
+    overflow:hidden;
+  }
+  .glow-card::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius:inherit;
+    background:radial-gradient(680px 160px at 20% 0%, rgba(29,151,83,.18), transparent 60%);
+    opacity:.0;
+    transition:opacity .3s ease;
+    pointer-events:none;
+  }
+  .glow-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 18px 40px rgba(15,17,21,.10);
+  }
+  .glow-card:hover::before{ opacity:1; }
+
+  /* 2) Glow ook toepassen op bestaande cards/nodes (homepage feel) */
+  .card, .node{
+    position:relative;
+    overflow:hidden;
+    transition: box-shadow .25s ease, transform .25s ease;
+  }
+  .card::before, .node::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius:inherit;
+    background:radial-gradient(680px 160px at 20% 0%, rgba(29,151,83,.16), transparent 60%);
+    opacity:0;
+    transition:opacity .3s ease;
+    pointer-events:none;
+  }
+  .card:hover, .node:hover{ transform: translateY(-2px); box-shadow: 0 18px 40px rgba(15,17,21,.10); }
+  .card:hover::before, .node:hover::before{ opacity:1; }
+
+  /* 3) Premium “keuzehulp” met uitklappen (over de glow) */
+  .decision{
+    position:relative;
+    background: linear-gradient(180deg, #ffffff, #fbfcfb);
+    border:1px solid rgba(15,17,21,.06);
+    border-radius: 26px;
+    box-shadow: 0 24px 60px rgba(15,17,21,.08);
+    padding: 22px;
+    overflow:hidden;
+  }
+  .decision::before{
+    content:"";
+    position:absolute;
+    inset:-1px;
+    background: radial-gradient(900px 200px at 18% 0%, rgba(29,151,83,.14), transparent 60%);
+    pointer-events:none;
+  }
+  .decision-head{ text-align:center; position:relative; }
+  .decision-head h2{ margin-bottom:6px; }
+  .decision-head p{ margin:0 auto 0; max-width: 60ch; }
+
+  .choice-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:16px;
+    margin-top:18px;
+    position:relative;
+  }
+
+  details.choice-item{
+    background:#fff;
+    border: 1px solid rgba(15,17,21,.06);
+    border-radius: var(--r);
+    box-shadow: 0 10px 25px rgba(15,17,21,.06);
+    overflow:hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  details.choice-item:hover{ transform: translateY(-2px); box-shadow: 0 18px 40px rgba(15,17,21,.10); }
+
+  .choice-summary{
+    list-style:none;
+    cursor:pointer;
+    padding:18px;
+    display:flex;
+    gap:12px;
+    align-items:center;
+    font-weight:900;
+    color:var(--ink);
+  }
+  .choice-summary::-webkit-details-marker{ display:none; }
+
+  .choice-ic{
+    width:42px; height:42px;
+    border-radius: 14px;
+    background: rgba(29,151,83,.10);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: var(--brand2);
+    flex:0 0 42px;
+    font-weight: 900;
+  }
+
+  /* pijltje naar beneden (desktop groter) */
+  .choice-arrow{
+    margin-left:auto;
+    color: var(--brand2);
+    font-size: 18px;
+    line-height: 1;
+    transition: transform .2s ease;
+  }
+  details[open] .choice-arrow{ transform: rotate(180deg); }
+  @media(min-width:981px){
+    .choice-arrow{ font-size: 34px; }
+  }
+
+  .choice-body{ padding: 0 18px 18px; }
+  .choice-body p{ margin: 0 0 12px; font-size: 14px; }
+
+  .pills{ display:flex; flex-wrap:wrap; gap:8px; }
+  .pill{
+    display:inline-flex;
+    align-items:center;
+    padding:6px 10px;
+    border-radius:999px;
+    background: rgba(29,151,83,.06);
+    border:1px solid rgba(29,151,83,.14);
+    color: var(--brand2);
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration:none !important;
+  }
+
+  /* FAQ accordion (premium) */
+  .faq{ display:grid; gap:10px; margin-top:14px; }
+  .faq details{
+    background: linear-gradient(180deg, #fff, #fbfcfb);
+    border:1px solid rgba(15,17,21,.07);
+    border-radius: var(--r);
+    box-shadow: var(--shadow2);
+    overflow:hidden;
+  }
+  .faq summary{
+    cursor:pointer;
+    list-style:none;
+    padding:14px 14px;
+    font-weight:900;
+    color:var(--ink);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq .qdot{
+    width:10px;height:10px;border-radius:50%;
+    background: rgba(29,151,83,.55);
+    box-shadow:0 0 0 6px rgba(29,151,83,.12);
+    flex:0 0 10px;
+  }
+  .faq .chev{ margin-left:auto; color:var(--brand2); font-size:20px; transition:transform .2s ease; }
+  .faq details[open] .chev{ transform:rotate(180deg); }
+  .faq .ans{ padding:0 14px 14px; }
+  .faq .ans p{ margin:0; font-size:15px; }
+
+  /* 4) Subtiele micro-animaties (reveal on scroll) */
+  .reveal{ opacity:0; transform: translateY(10px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.is-in{ opacity:1; transform:none; }
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ opacity:1; transform:none; transition:none; }
+  }
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  

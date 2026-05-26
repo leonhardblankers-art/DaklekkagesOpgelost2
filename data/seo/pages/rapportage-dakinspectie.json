@@ -1,0 +1,23 @@
+{
+    "title":  "Rapportage Dakinspectie | Daklekkages Opgelost",
+    "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+    "robots":  "index, follow",
+    "canonical":  "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+    "ogTitle":  "Rapportage Dakinspectie | Daklekkages Opgelost",
+    "ogDescription":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+    "ogType":  "website",
+    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+    "schema":  {
+                   "@context":  "https://schema.org",
+                   "@type":  "WebPage",
+                   "@id":  "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+                   "url":  "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+                   "name":  "Rapportage Dakinspectie | Daklekkages Opgelost",
+                   "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+                   "isPartOf":  {
+                                    "@type":  "WebSite",
+                                    "name":  "Daklekkages Opgelost",
+                                    "url":  "https://www.daklekkagesopgelost.nl/"
+                                }
+               }
+}

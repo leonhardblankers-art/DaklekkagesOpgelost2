@@ -1,0 +1,23 @@
+{
+    "title":  "Lekkages | Daklekkages Opgelost",
+    "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage? Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+    "robots":  "index, follow",
+    "canonical":  "https://www.daklekkagesopgelost.nl/lekkages/",
+    "ogTitle":  "Lekkages | Daklekkages Opgelost",
+    "ogDescription":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage? Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+    "ogType":  "website",
+    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+    "schema":  {
+                   "@context":  "https://schema.org",
+                   "@type":  "WebPage",
+                   "@id":  "https://www.daklekkagesopgelost.nl/lekkages/",
+                   "url":  "https://www.daklekkagesopgelost.nl/lekkages/",
+                   "name":  "Lekkages | Daklekkages Opgelost",
+                   "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage? Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+                   "isPartOf":  {
+                                    "@type":  "WebSite",
+                                    "name":  "Daklekkages Opgelost",
+                                    "url":  "https://www.daklekkagesopgelost.nl/"
+                                }
+               }
+}

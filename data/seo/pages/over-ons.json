@@ -1,0 +1,23 @@
+{
+    "title":  "Over ons | Daklekkages Opgelost",
+    "description":  "Home › Over ons Over Daklekkages Opgelost Eerlijk vakwerk voor mensen die duidelijkheid willen Een daklekkage vraagt om snelheid, maar vooral om vertrouwen...",
+    "robots":  "index, follow",
+    "canonical":  "https://www.daklekkagesopgelost.nl/over-ons/",
+    "ogTitle":  "Over ons | Daklekkages Opgelost",
+    "ogDescription":  "Home › Over ons Over Daklekkages Opgelost Eerlijk vakwerk voor mensen die duidelijkheid willen Een daklekkage vraagt om snelheid, maar vooral om vertrouwen...",
+    "ogType":  "website",
+    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+    "schema":  {
+                   "@context":  "https://schema.org",
+                   "@type":  "WebPage",
+                   "@id":  "https://www.daklekkagesopgelost.nl/over-ons/",
+                   "url":  "https://www.daklekkagesopgelost.nl/over-ons/",
+                   "name":  "Over ons | Daklekkages Opgelost",
+                   "description":  "Home › Over ons Over Daklekkages Opgelost Eerlijk vakwerk voor mensen die duidelijkheid willen Een daklekkage vraagt om snelheid, maar vooral om vertrouwen...",
+                   "isPartOf":  {
+                                    "@type":  "WebSite",
+                                    "name":  "Daklekkages Opgelost",
+                                    "url":  "https://www.daklekkagesopgelost.nl/"
+                                }
+               }
+}

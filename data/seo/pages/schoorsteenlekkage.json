@@ -1,0 +1,23 @@
+{
+    "title":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost | Daklekkages Opgelost",
+    "description":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost Schoorsteenlekkage? Gratis inspectie → Bel direct Actief in Gelderland •...",
+    "robots":  "index, follow",
+    "canonical":  "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
+    "ogTitle":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost | Daklekkages Opgelost",
+    "ogDescription":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost Schoorsteenlekkage? Gratis inspectie → Bel direct Actief in Gelderland •...",
+    "ogType":  "website",
+    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+    "schema":  {
+                   "@context":  "https://schema.org",
+                   "@type":  "WebPage",
+                   "@id":  "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
+                   "url":  "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
+                   "name":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost | Daklekkages Opgelost",
+                   "description":  "Schoorsteenlekkage oplossen: oorzaken, signalen \u0026 loodwerk | Daklekkages Opgelost Schoorsteenlekkage? Gratis inspectie → Bel direct Actief in Gelderland •...",
+                   "isPartOf":  {
+                                    "@type":  "WebSite",
+                                    "name":  "Daklekkages Opgelost",
+                                    "url":  "https://www.daklekkagesopgelost.nl/"
+                                }
+               }
+}
