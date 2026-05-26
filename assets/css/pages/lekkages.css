@@ -152,7 +152,7 @@
 
   /* Hero image crop (desktop) */
   @media (min-width:981px){
-    .dlo .soft .media-card{ height: 430px; }
+    .dlo .soft .media-card{ height: 465px; }
     .dlo .soft .media-card img{
       height:100% !important;
       object-fit:cover;
