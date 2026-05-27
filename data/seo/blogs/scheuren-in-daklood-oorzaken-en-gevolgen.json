@@ -6,7 +6,7 @@
   "ogTitle": "Scheuren in daklood: oorzaken en gevolgen",
   "ogDescription": "Lees hoe scheuren in daklood ontstaan, welke risico’s ze geven en wanneer inspectie of ingrijpen verstandig is.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Scheuren%20in%20daklood.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/scheuren-in-daklood-oorzaken-en-gevolgen.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Scheuren%20in%20daklood.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/scheuren-in-daklood-oorzaken-en-gevolgen.webp"
       ]
     },
     {

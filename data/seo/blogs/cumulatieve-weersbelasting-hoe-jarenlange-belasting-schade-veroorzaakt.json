@@ -6,7 +6,7 @@
   "ogTitle": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
   "ogDescription": "Schade aan daken ontstaat vaak door jarenlange belasting. Lees hoe regen, wind en temperatuur samen tot problemen leiden.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/ernstig-verweerde-dakpannen-materiaalverlies.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/ernstig-verweerde-dakpannen-materiaalverlies.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Schade aan daken ontstaat vaak door jarenlange weersbelasting. Uitleg over hoe regen, wind en temperatuur samen leiden tot materiaalvermoeiing.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/ernstig-verweerde-dakpannen-materiaalverlies.jpeg?width=860&t=1768771331746"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
           },
           "author": {
             "@type": "Organization",

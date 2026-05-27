@@ -6,7 +6,7 @@
   "ogTitle": "Afvoeren en waterafvoer op een plat dak",
   "ogDescription": "Goede waterafvoer is cruciaal voor een plat dak met bitumen. Lees waarom stilstaand water schade veroorzaakt en waar je op moet letten.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/IMG-20260113-WA0001.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/afvoeren-en-waterafvoer-op-een-plat-dak.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/IMG-20260113-WA0001.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/afvoeren-en-waterafvoer-op-een-plat-dak.webp"
       ]
     },
     {

@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteen afdichten in plaats van verwijderen: wanneer is dat verstandig?",
   "ogDescription": "Schoorsteen afdichten in plaats van verwijderen? Lees wanneer afdichten verstandig is en waar de beperkingen liggen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen%20of%20afdoppen.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen%20of%20afdoppen.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Schoorsteen afdichten in plaats van verwijderen? Lees wanneer afdichten verstandig is en waar de beperkingen liggen.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20verwijderen.jpeg?width=860&t=1767467819167"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig.webp"
           },
           "author": {
             "@type": "Organization",

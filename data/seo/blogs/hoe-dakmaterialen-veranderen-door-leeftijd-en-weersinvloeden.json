@@ -6,7 +6,7 @@
   "ogTitle": "Hoe dakmaterialen verouderen door zon, regen en temperatuur",
   "ogDescription": "Dakmaterialen veranderen door jarenlange weersinvloeden. Lees wat normaal is, wat risico’s zijn en wanneer veroudering problematisch wordt.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/oud-pannendak-veroudering-rond-schoorsteen.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/oud-pannendak-veroudering-rond-schoorsteen.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Ontdek hoe dakmaterialen reageren op zon, regen en temperatuur en wat dit betekent voor de technische staat van een dak.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/oud-pannendak-veroudering-rond-schoorsteen.jpeg?width=860&t=1768771331745"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden.webp"
           },
           "author": {
             "@type": "Organization",

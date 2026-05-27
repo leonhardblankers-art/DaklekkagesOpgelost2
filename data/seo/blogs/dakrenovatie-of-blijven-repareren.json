@@ -6,7 +6,7 @@
   "ogTitle": "Dakrenovatie of blijven repareren",
   "ogDescription": "Blijf je repareren of is het tijd voor dakrenovatie? Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakrenovatie%20of%20blijven%20repareren.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Dakrenovatie%20of%20blijven%20repareren.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp"
       ]
     },
     {

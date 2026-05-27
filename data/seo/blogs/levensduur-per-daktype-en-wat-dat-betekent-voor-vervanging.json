@@ -6,7 +6,7 @@
   "ogTitle": "Levensduur per daktype en wat dat betekent voor vervanging",
   "ogDescription": "Leer wat de gemiddelde levensduur is van verschillende daktypen en wanneer het verstandig is om een dak te vervangen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/dakgoot%20reinigen%20.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/dakgoot%20reinigen%20.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging.webp"
       ]
     },
     {

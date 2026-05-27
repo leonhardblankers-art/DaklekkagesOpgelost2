@@ -6,7 +6,7 @@
   "ogTitle": "Daklekkage: oorzaken uit de praktijk",
   "ogDescription": "Ontdek de praktijkoorzaken van daklekkages, van veroudering tot weersinvloeden, inclusief nuances en voorbeelden voor particulieren.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage-oorzaken-en-oplossingen.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage-oorzaken-en-oplossingen.webp"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp"
       ]
     },
     {

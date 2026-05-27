@@ -6,7 +6,7 @@
   "ogTitle": "Constructieve schade door langdurige daklekkage",
   "ogDescription": "Langdurige daklekkage kan leiden tot ernstige constructieve schade. Lees hoe lekkage het dak verzwakt en schade veroorzaakt.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/constructieve-schade-langdurige-daklekkage.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-schade-door-langdurige-daklekkage.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/constructieve-schade-langdurige-daklekkage.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-schade-door-langdurige-daklekkage.webp"
       ]
     },
     {

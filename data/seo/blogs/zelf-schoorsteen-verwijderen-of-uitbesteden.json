@@ -6,7 +6,7 @@
   "ogTitle": "Zelf schoorsteen verwijderen of uitbesteden?",
   "ogDescription": "Zelf een schoorsteen verwijderen of uitbesteden? Lees over risico’s, veiligheid en wanneer uitbesteden de verstandigste keuze is.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/zelf-schoorsteen-verwijderen-of-uitbesteden.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/zelf-schoorsteen-verwijderen-of-uitbesteden.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Zelf een schoorsteen verwijderen of uitbesteden? Lees over risico’s, veiligheid en wanneer uitbesteden de verstandigste keuze is.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20verwijderen.jpeg?width=860&t=1767467819167"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/zelf-schoorsteen-verwijderen-of-uitbesteden.webp"
           },
           "author": {
             "@type": "Organization",

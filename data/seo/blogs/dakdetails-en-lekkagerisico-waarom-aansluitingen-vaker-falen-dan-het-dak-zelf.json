@@ -6,7 +6,7 @@
   "ogTitle": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
   "ogDescription": "Daklekkage door aansluitingen of dakdetails? Lees waarom doorvoeren, randen en naden vaker falen dan het dak zelf en voorkom schade.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Lekkende%20aansluiting%20op%20het%20dak.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf.webp",
   "schema": {
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "image": [
-      "https://www.daklekkagesopgelost.nl/hubfs/Lekkende%20aansluiting%20op%20het%20dak.jpeg"
+      "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf.webp"
     ]
   }
 }

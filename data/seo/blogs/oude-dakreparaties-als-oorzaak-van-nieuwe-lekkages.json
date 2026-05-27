@@ -6,7 +6,7 @@
   "ogTitle": "Oude dakreparatie? Zo ontstaat juist nieuwe lekkage",
   "ogDescription": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/oude-dakreparatie-veroorzaakt-nieuwe-lekkage.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/oude-dakreparatie-veroorzaakt-nieuwe-lekkage.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
       ]
     },
     {
@@ -45,7 +45,7 @@
           "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Imported_Blog_Media/oude-dakreparatie-veroorzaakt-nieuwe-lekkage.jpg?width=860&t=1769534702389"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
           },
           "datePublished": "2026-02-01T08:00:00+01:00",
           "dateModified": "2026-02-01T08:00:00+01:00",
@@ -67,7 +67,7 @@
           "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Imported_Blog_Media/oude-dakreparatie-veroorzaakt-nieuwe-lekkage.jpg?width=860&t=1769534702389"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
           },
           "author": {
             "@type": "Organization",

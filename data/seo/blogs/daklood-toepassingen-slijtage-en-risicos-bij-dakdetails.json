@@ -6,7 +6,7 @@
   "ogTitle": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
   "ogDescription": "Daklood beschermt kwetsbare dakdetails, maar veroudering brengt risico’s mee. Uitleg over toepassingen, slijtage en wanneer controle nodig is.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklood%20en%20dakdetails%20met%20lood.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Daklood%20en%20dakdetails%20met%20lood.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails.webp"
       ]
     },
     {

@@ -6,7 +6,7 @@
   "ogTitle": "Is daklood nog toegestaan? Regelgeving en milieu-aspecten",
   "ogDescription": "Is daklood nog toegestaan? Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklood.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Daklood.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp"
       ]
     },
     {

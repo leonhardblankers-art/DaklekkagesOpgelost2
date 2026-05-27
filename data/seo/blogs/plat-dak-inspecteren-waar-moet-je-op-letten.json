@@ -6,7 +6,7 @@
   "ogTitle": "Plat dak inspecteren: waar moet je op letten?",
   "ogDescription": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Plat%20dak%20inspecteren.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Plat%20dak%20inspecteren.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp"
       ]
     },
     {

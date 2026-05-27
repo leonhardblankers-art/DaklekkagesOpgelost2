@@ -6,7 +6,7 @@
   "ogTitle": "Ventilatieproblemen door de dakconstructie uitgelegd",
   "ogDescription": "Lees hoe ventilatieproblemen samenhangen met de dakconstructie en waarom klachten vaak pas binnenshuis merkbaar worden.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/ventilatieproblemen-dakconstructie-luchtstromen..jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/ventilatieproblemen-dakconstructie-luchtstromen..jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie.webp"
       ]
     },
     {
@@ -45,7 +45,7 @@
           "description": "Lees hoe ventilatieproblemen samenhangen met de dakconstructie en waarom vocht- en binnenklimaatklachten vaak hier hun oorsprong hebben.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/ventilatieproblemen-dakconstructie-luchtstromen.jpeg"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie.webp"
           },
           "datePublished": "2026-01-19T00:00:00+01:00",
           "dateModified": "2026-01-19T00:00:00+01:00",
@@ -90,7 +90,7 @@
           "description": "Lees hoe ventilatieproblemen samenhangen met de dakconstructie en waarom vocht- en binnenklimaatklachten vaak hier hun oorsprong hebben.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/ventilatieproblemen-dakconstructie-luchtstromen.jpeg"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie.webp"
           },
           "author": {
             "@type": "Organization",

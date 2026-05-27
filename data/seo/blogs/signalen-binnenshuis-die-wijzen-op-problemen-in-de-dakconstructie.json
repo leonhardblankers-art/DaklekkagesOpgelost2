@@ -6,7 +6,7 @@
   "ogTitle": "Binnensignalen van problemen in de dakconstructie",
   "ogDescription": "Vochtplekken, scheuren of doorhangende plafonds? Ontdek welke binnensignalen wijzen op problemen in de dakconstructie.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/binnenshuis-signalen-problemen-dakconstructie.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/binnenshuis-signalen-problemen-dakconstructie.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie.webp"
       ]
     },
     {

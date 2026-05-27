@@ -6,7 +6,7 @@
   "ogTitle": "Dakpannen vervangen bij renovatie",
   "ogDescription": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakpannen%20vervangen%20bij%20renovatie.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Dakpannen%20vervangen%20bij%20renovatie.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp"
       ]
     },
     {

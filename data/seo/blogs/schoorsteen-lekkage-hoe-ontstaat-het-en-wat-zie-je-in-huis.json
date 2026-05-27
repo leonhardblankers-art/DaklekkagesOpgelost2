@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
   "ogDescription": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis? Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Lekkage%20noodreparatie%20diensten%20noodreparatie.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Lekkage%20noodreparatie%20diensten%20noodreparatie.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis? Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20noodreparatie%20diensten%20noodreparatie.jpg"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
           },
           "author": {
             "@type": "Organization",

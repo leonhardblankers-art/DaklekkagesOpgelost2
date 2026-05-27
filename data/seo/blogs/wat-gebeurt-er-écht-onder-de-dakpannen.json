@@ -6,7 +6,7 @@
   "ogTitle": "Wat gebeurt er écht onder de dakpannen",
   "ogDescription": "Ontdek wat er onder dakpannen gebeurt en waarom verborgen schade bepaalt of een hellend dak nog te repareren is of aan renovatie toe.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Wat%20gebeurd%20er%20echt%20onder%20de%20dakpannen.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wat-gebeurt-er-écht-onder-de-dakpannen.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Wat%20gebeurd%20er%20echt%20onder%20de%20dakpannen.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wat-gebeurt-er-écht-onder-de-dakpannen.webp"
       ]
     },
     {

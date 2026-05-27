@@ -6,7 +6,7 @@
   "ogTitle": "Daklekkage verplaatst zich? Zo kiest water een andere route",
   "ogDescription": "Een lekkage kan zich verplaatsen binnen het dak. Lees hoe water een andere weg vindt en waarom dat misleidend is.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/houtrot-dakbeschot-door-langdurige-daklekkage.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/houtrot-dakbeschot-door-langdurige-daklekkage.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest.webp"
       ]
     },
     {
@@ -45,7 +45,7 @@
           "description": "Een lekkage kan zich verplaatsen binnen het dak. Lees hoe water een andere weg vindt en waarom dat misleidend is.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/houtrot-dakbeschot-door-langdurige-daklekkage.jpeg?width=860&t=1769534653568"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest.webp"
           },
           "datePublished": "2026-02-01T08:00:00+01:00",
           "dateModified": "2026-02-01T08:00:00+01:00",
@@ -67,7 +67,7 @@
           "description": "Een lekkage kan zich verplaatsen binnen het dak. Lees hoe water een andere weg vindt en waarom dat misleidend is.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/houtrot-dakbeschot-door-langdurige-daklekkage.jpeg?width=860&t=1769534653568"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest.webp"
           },
           "author": {
             "@type": "Organization",

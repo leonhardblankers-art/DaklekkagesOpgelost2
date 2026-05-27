@@ -6,7 +6,7 @@
   "ogTitle": "Wanneer is een dak technisch ‘op’? Dit zegt de staat, niet de leeftijd",
   "ogDescription": "Een dak kan technisch zijn einde bereiken zonder lekkage. Ontdek welke signalen wijzen op functieverlies en verhoogd risico.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/dakinspectie-schuin-dak-ouder-woning.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/dakinspectie-schuin-dak-ouder-woning.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Een dak kan technisch zijn einde bereiken zonder lekkage. Ontdek welke signalen wijzen op functieverlies en verhoogd risico.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakinspectie-schuin-dak-ouder-woning.jpeg?width=860&t=1768771331821"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur.webp"
           },
           "author": {
             "@type": "Organization",

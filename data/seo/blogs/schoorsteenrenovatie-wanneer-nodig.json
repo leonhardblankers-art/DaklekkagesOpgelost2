@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteenrenovatie: wanneer nodig?",
   "ogDescription": "Praktische gids over schoorsteenrenovatie: herken signalen, begrijp oorzaken en ontdek onderhoudstips voor een veilige en duurzame schoorsteen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenrenovatie%20wanneer%20is%20dat%20nodig.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteenrenovatie-wanneer-nodig.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenrenovatie%20wanneer%20is%20dat%20nodig.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteenrenovatie-wanneer-nodig.webp"
       ]
     },
     {

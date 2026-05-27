@@ -6,7 +6,7 @@
   "ogTitle": "Warmteverlies via het dak: de rol van isolatie",
   "ogDescription": "Ontdek hoe warmteverlies via het dak ontstaat, welke klachten dit veroorzaakt en waarom isolatie en dakopbouw hierbij samenhangen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/warmteverlies-dak-isolatie-constructie-visualisatie.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/warmteverlies-dak-isolatie-constructie-visualisatie.png"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie.webp"
       ]
     },
     {
@@ -45,7 +45,7 @@
           "description": "Ontdek hoe warmteverlies via het dak ontstaat, welke klachten dit veroorzaakt en waarom isolatie en dakopbouw hierbij samenhangen.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/warmteverlies-dak-isolatie-constructie-visualisatie.png"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie.webp"
           },
           "datePublished": "2026-01-19T00:00:00+01:00",
           "dateModified": "2026-01-19T00:00:00+01:00",
@@ -90,7 +90,7 @@
           "description": "Ontdek hoe warmteverlies via het dak ontstaat, welke klachten dit veroorzaakt en waarom isolatie en dakopbouw hierbij samenhangen.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/warmteverlies-dak-isolatie-constructie-visualisatie.png"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie.webp"
           },
           "author": {
             "@type": "Organization",

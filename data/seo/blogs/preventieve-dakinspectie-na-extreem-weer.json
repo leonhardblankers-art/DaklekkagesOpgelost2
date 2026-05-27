@@ -6,7 +6,7 @@
   "ogTitle": "Preventieve dakinspectie na extreem weer",
   "ogDescription": "Een preventieve dakinspectie na extreem weer helpt verborgen schade begrijpen. Lees wanneer inspectie zinvol is en welke nuances daarbij horen.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Afbeelding123.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/preventieve-dakinspectie-na-extreem-weer.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Afbeelding123.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/preventieve-dakinspectie-na-extreem-weer.webp"
       ]
     },
     {

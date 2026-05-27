@@ -6,7 +6,7 @@
   "ogTitle": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
   "ogDescription": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/1000090291.jpg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/1000090291.jpg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp"
       ]
     },
     {

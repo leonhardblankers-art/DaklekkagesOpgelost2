@@ -6,7 +6,7 @@
   "ogTitle": "Alternatieven voor daklood",
   "ogDescription": "Ontdek welke alternatieven voor daklood er zijn, hoe ze zich gedragen en wanneer ze een goede keuze vormen voor jouw dak.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Alternatieven%20voor%20daklood.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/alternatieven-voor-daklood.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Alternatieven%20voor%20daklood.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/alternatieven-voor-daklood.webp"
       ]
     },
     {

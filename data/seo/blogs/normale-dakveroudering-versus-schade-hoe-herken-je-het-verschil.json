@@ -6,7 +6,7 @@
   "ogTitle": "Normale dakveroudering of schade? Zo herken je het verschil",
   "ogDescription": "Is slijtage aan je dak normaal of is er al sprake van schade? Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/dakpannen-lichte-slijtage-normale-veroudering.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/dakpannen-lichte-slijtage-normale-veroudering.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Wat is normale dakveroudering en wanneer is er sprake van schade? Uitleg over signalen, risico’s en het verschil tussen slijtage en functieverlies.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakpannen-lichte-slijtage-normale-veroudering.jpeg?width=860&t=1768771331811"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
           },
           "author": {
             "@type": "Organization",

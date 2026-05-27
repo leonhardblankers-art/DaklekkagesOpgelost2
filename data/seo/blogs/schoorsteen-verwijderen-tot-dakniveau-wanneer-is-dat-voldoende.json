@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteen verwijderen tot dakniveau: wanneer is dat voldoende?",
   "ogDescription": "Wanneer is het verwijderen van een schoorsteen tot dakniveau voldoende? Lees over de afwegingen, risico’s en gevolgen voor dak en woning.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen%20tot%20dakbeschot.jpeg",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen%20tot%20dakbeschot.jpeg"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende.webp"
       ]
     },
     {
@@ -44,7 +44,7 @@
           "description": "Wanneer is het verwijderen van een schoorsteen tot dakniveau voldoende? Lees over de afwegingen, risico’s en gevolgen voor dak en woning.",
           "image": {
             "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20verwijderen%20tot%20dakbeschot.jpeg?width=860&t=1767466339217"
+            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende.webp"
           },
           "author": {
             "@type": "Organization",

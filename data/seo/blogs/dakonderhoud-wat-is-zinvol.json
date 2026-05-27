@@ -6,7 +6,7 @@
   "ogTitle": "Dakonderhoud: wat is zinvol?",
   "ogDescription": "Wat is zinvol dakonderhoud? Ontdek wanneer ingrijpen nodig is, risico’s, voordelen en relevante onderhoudsmaatregelen voor platte en hellende daken.",
   "ogType": "article",
-  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakonderhoud%20wat%20is%20zinvol.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-wat-is-zinvol.webp",
   "schema": [
     {
       "mainEntityOfPage": {
@@ -31,7 +31,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "image": [
-        "https://www.daklekkagesopgelost.nl/hubfs/Dakonderhoud%20wat%20is%20zinvol.webp"
+        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-wat-is-zinvol.webp"
       ]
     },
     {
