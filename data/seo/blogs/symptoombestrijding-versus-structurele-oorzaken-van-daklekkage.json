@@ -1,0 +1,157 @@
+{
+  "title": "Waarom dakreparaties vaak maar tijdelijk helpen",
+  "description": "Tijdelijke reparaties lossen een daklekkage zelden blijvend op. Ontdek het verschil tussen symptoombestrijding en echte oorzaken.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+  "ogTitle": "Waarom dakreparaties vaak maar tijdelijk helpen",
+  "ogDescription": "Tijdelijke reparaties lossen een daklekkage zelden blijvend op. Ontdek het verschil tussen symptoombestrijding en echte oorzaken.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/tijdelijke-afdichting-dakkapellood.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Waarom dakreparaties vaak maar tijdelijk helpen",
+      "datePublished": "2026-01-28T12:16:14.000Z",
+      "dateModified": "2026-02-01T19:40:49.424Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/tijdelijke-afdichting-dakkapellood.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+          "url": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+          "name": "Symptoombestrijding versus structurele oorzaken van daklekkage",
+          "description": "Tijdelijke reparaties lossen een daklekkage zelden blijvend op. Ontdek het verschil tussen symptoombestrijding en echte oorzaken.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/tijdelijke-afdichting-dakkapellood.jpeg?width=860&t=1769534653515"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage#article"
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage#article",
+          "headline": "Symptoombestrijding versus structurele oorzaken van daklekkage",
+          "description": "Tijdelijke reparaties lossen een daklekkage zelden blijvend op. Ontdek het verschil tussen symptoombestrijding en echte oorzaken.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/tijdelijke-afdichting-dakkapellood.jpeg?width=860&t=1769534653515"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+            "name": "daklekkage oplossen",
+            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar",
+            "headline": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+          "name": "daklekkage oplossen",
+          "url": "https://www.daklekkagesopgelost.nl/daklekkage",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+              "url": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+              "name": "Symptoombestrijding versus structurele oorzaken van daklekkage"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

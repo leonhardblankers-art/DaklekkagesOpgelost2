@@ -1,0 +1,84 @@
+{
+  "title": "Schoorsteenlood vervangen: wanneer en waarom",
+  "description": "Schoorsteen lood vervangen? Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+  "ogTitle": "Schoorsteenlood vervangen: wanneer en waarom",
+  "ogDescription": "Schoorsteen lood vervangen? Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+      "datePublished": "2026-01-01T22:40:08.000Z",
+      "dateModified": "2026-01-02T00:17:10.337Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+      "description": "Overzichtspagina over schoorsteenlood: functies, slijtage, vervanging en gerelateerde onderwerpen binnen het contentcluster.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-02",
+      "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "hasPart": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-schoorsteenlood"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-schoorsteenlood"
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-schoorsteenlood"
+        }
+      ]
+    }
+  ]
+}

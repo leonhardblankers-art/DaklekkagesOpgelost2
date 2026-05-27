@@ -1,23 +1,115 @@
 {
-    "title":  "Lekkage Opsporen | Daklekkages Opgelost",
-    "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
-    "robots":  "index, follow",
-    "canonical":  "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
-    "ogTitle":  "Lekkage Opsporen | Daklekkages Opgelost",
-    "ogDescription":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
-    "ogType":  "website",
-    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
-    "schema":  {
-                   "@context":  "https://schema.org",
-                   "@type":  "WebPage",
-                   "@id":  "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
-                   "url":  "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
-                   "name":  "Lekkage Opsporen | Daklekkages Opgelost",
-                   "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
-                   "isPartOf":  {
-                                    "@type":  "WebSite",
-                                    "name":  "Daklekkages Opgelost",
-                                    "url":  "https://www.daklekkagesopgelost.nl/"
-                                }
-               }
+  "title": "Lekkage Opsporen | Daklekkages Opgelost",
+  "description": "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+  "ogTitle": "Lekkage Opsporen | Daklekkages Opgelost",
+  "ogDescription": "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten/lekkage-opsporen#article",
+        "headline": "Lekkage opsporen: oorzaak vinden zonder onnodig breekwerk",
+        "description": "Professioneel lekkage opsporen bij daken en aansluitingen. Gerichte diagnose voorkomt foutieve reparaties en gevolgschade.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20opsporen.jpg"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-03",
+        "dateModified": "2026-01-03",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten/lekkage-opsporen"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "€€",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten/lekkage-opsporen#service",
+        "name": "Lekkage Opsporen",
+        "description": "Gericht opsporen van daklekkages zonder onnodig breekwerk, zodat herstel effectief en duurzaam is.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl"
+        },
+        "serviceType": "Daklekkage onderzoek",
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Particulieren"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ],
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.daklekkagesopgelost.nl/diensten/lekkage-opsporen",
+          "availableLanguage": "nl"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Lekkage%20opsporen.jpg"
+        }
+      }
+    ]
+  }
 }

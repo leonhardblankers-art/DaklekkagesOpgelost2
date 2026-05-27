@@ -1,0 +1,117 @@
+{
+  "title": "Wat gebeurt er écht onder de dakpannen",
+  "description": "Ontdek wat er onder dakpannen gebeurt en waarom verborgen schade bepaalt of een hellend dak nog te repareren is of aan renovatie toe.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-écht-onder-de-dakpannen",
+  "ogTitle": "Wat gebeurt er écht onder de dakpannen",
+  "ogDescription": "Ontdek wat er onder dakpannen gebeurt en waarom verborgen schade bepaalt of een hellend dak nog te repareren is of aan renovatie toe.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Wat%20gebeurd%20er%20echt%20onder%20de%20dakpannen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-écht-onder-de-dakpannen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wat gebeurt er écht onder de dakpannen",
+      "datePublished": "2026-01-15T14:13:58.000Z",
+      "dateModified": "2026-01-15T14:14:07.456Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Wat%20gebeurd%20er%20echt%20onder%20de%20dakpannen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-écht-onder-de-dakpannen#article",
+          "headline": "Wat gebeurt er écht onder de dakpannen",
+          "description": "Ontdek wat er onder dakpannen gebeurt en waarom verborgen schade bepaalt of een hellend dak nog te repareren is of aan renovatie toe.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205123156070?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768486385342&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-15T00:00:00+01:00",
+          "dateModified": "2026-01-15T00:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-écht-onder-de-dakpannen"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

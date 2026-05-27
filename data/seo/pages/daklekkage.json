@@ -1,74 +1,104 @@
 {
-    "title":  "Daklekkage | Daklekkages Opgelost",
-    "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie â†’ Bel direct Actief in Gelderland â€¢ Noord-Brabant â€¢ Utrecht Home â€º Lekkages â€º Daklekkage Daklekkage i...",
-    "robots":  "index, follow",
-    "canonical":  "https://www.daklekkagesopgelost.nl/daklekkage/",
-    "ogTitle":  "Daklekkage | Daklekkages Opgelost",
-    "ogDescription":  "Daklekkage in Gelderland of Brabant? Gratis inspectie â†’ Bel direct Actief in Gelderland â€¢ Noord-Brabant â€¢ Utrecht Home â€º Lekkages â€º Daklekkage Daklekkage i...",
-    "ogType":  "website",
-    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
-    "schema":  {
-                   "@context":  "https://schema.org",
-                   "@graph":  [
-                                  {
-                                      "@context":  "https://schema.org",
-                                      "@type":  "WebPage",
-                                      "@id":  "https://www.daklekkagesopgelost.nl/daklekkage/",
-                                      "url":  "https://www.daklekkagesopgelost.nl/daklekkage/",
-                                      "name":  "Daklekkage | Daklekkages Opgelost",
-                                      "description":  "Daklekkage in Gelderland of Brabant? Gratis inspectie â†’ Bel direct Actief in Gelderland â€¢ Noord-Brabant â€¢ Utrecht Home â€º Lekkages â€º Daklekkage Daklekkage i...",
-                                      "isPartOf":  {
-                                                       "@type":  "WebSite",
-                                                       "name":  "Daklekkages Opgelost",
-                                                       "url":  "https://www.daklekkagesopgelost.nl/"
-                                                   }
-                                  },
-                                  {
-                                      "@context":  "https://schema.org",
-                                      "@type":  "FAQPage",
-                                      "mainEntity":  [
-                                                         {
-                                                             "@type":  "Question",
-                                                             "name":  "Moet ik direct actie ondernemen bij een lekkend dak?",
-                                                             "acceptedAnswer":  {
-                                                                                    "@type":  "Answer",
-                                                                                    "text":  "Ja. Ook wanneer de lekkage beperkt lijkt, kan water zich verspreiden in isolatie of houtconstructie. Snelle beoordeling voorkomt grotere schade en verkleint het risico op schimmelvorming."
-                                                                                }
-                                                         },
-                                                         {
-                                                             "@type":  "Question",
-                                                             "name":  "Is een daklekkage verzekerd?",
-                                                             "acceptedAnswer":  {
-                                                                                    "@type":  "Answer",
-                                                                                    "text":  "Dat hangt af van de oorzaak. Plotselinge schade door storm wordt vaak anders beoordeeld dan langdurige slijtage. Een technische vaststelling (en soms een rapportage) helpt om schade te onderbouwen."
-                                                                                }
-                                                         },
-                                                         {
-                                                             "@type":  "Question",
-                                                             "name":  "Wat is het verschil tussen inspectie en lekkage opsporen?",
-                                                             "acceptedAnswer":  {
-                                                                                    "@type":  "Answer",
-                                                                                    "text":  "Een inspectie geeft inzicht in de algemene staat van het dak en kwetsbare details. Lekkage opsporen richt zich op het lokaliseren van de exacte ingang van water, zodat herstel gericht kan plaatsvinden."
-                                                                                }
-                                                         },
-                                                         {
-                                                             "@type":  "Question",
-                                                             "name":  "Hoe snel kan een lekkage worden opgelost?",
-                                                             "acceptedAnswer":  {
-                                                                                    "@type":  "Answer",
-                                                                                    "text":  "Dat is afhankelijk van ernst, bereikbaarheid en weersomstandigheden. In spoedsituaties wordt eerst schadebeperking toegepast, gevolgd door definitief herstel zodra de oorzaak is vastgesteld."
-                                                                                }
-                                                         },
-                                                         {
-                                                             "@type":  "Question",
-                                                             "name":  "Wat kan ik zelf doen tot er iemand komt?",
-                                                             "acceptedAnswer":  {
-                                                                                    "@type":  "Answer",
-                                                                                    "text":  "Beperk schade: vang druppels op, verplaats waardevolle spullen, ventileer en noteer wanneer de lekkage optreedt. Ga niet onveilig het dak op."
-                                                                                }
-                                                         }
-                                                     ]
-                                  }
-                              ]
-               }
+  "title": "Daklekkage | Daklekkages Opgelost",
+  "description": "Daklekkage in Gelderland of Brabant? Gratis inspectie â†’ Bel direct Actief in Gelderland â€¢ Noord-Brabant â€¢ Utrecht Home â€º Lekkages â€º Daklekkage Daklekkage i...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/daklekkage/",
+  "ogTitle": "Daklekkage | Daklekkages Opgelost",
+  "ogDescription": "Daklekkage in Gelderland of Brabant? Gratis inspectie â†’ Bel direct Actief in Gelderland â€¢ Noord-Brabant â€¢ Utrecht Home â€º Lekkages â€º Daklekkage Daklekkage i...",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Moet ik direct actie ondernemen bij een lekkend dak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ook wanneer de lekkage beperkt lijkt, kan water zich verspreiden in isolatie of houtconstructie. Snelle beoordeling voorkomt grotere schade en verkleint het risico op schimmelvorming."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is een daklekkage verzekerd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat hangt af van de oorzaak. Plotselinge schade door storm wordt vaak anders beoordeeld dan langdurige slijtage. Een technische vaststelling (en soms een rapportage) helpt om schade te onderbouwen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat is het verschil tussen inspectie en lekkage opsporen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een inspectie geeft inzicht in de algemene staat van het dak en kwetsbare details. Lekkage opsporen richt zich op het lokaliseren van de exacte ingang van water, zodat herstel gericht kan plaatsvinden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe snel kan een lekkage worden opgelost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat is afhankelijk van ernst, bereikbaarheid en weersomstandigheden. In spoedsituaties wordt eerst schadebeperking toegepast, gevolgd door definitief herstel zodra de oorzaak is vastgesteld."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat kan ik zelf doen tot er iemand komt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beperk schade: vang druppels op, verplaats waardevolle spullen, ventileer en noteer wanneer de lekkage optreedt (regen, windrichting). Ga niet onveilig het dak op."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Moet ik direct actie ondernemen bij een lekkend dak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ook wanneer de lekkage beperkt lijkt, kan water zich verspreiden in isolatie of houtconstructie. Snelle beoordeling voorkomt grotere schade en verkleint het risico op schimmelvorming."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is een daklekkage verzekerd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat hangt af van de oorzaak. Plotselinge schade door storm wordt vaak anders beoordeeld dan langdurige slijtage. Een technische vaststelling (en soms een rapportage) helpt om schade te onderbouwen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat is het verschil tussen inspectie en lekkage opsporen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een inspectie geeft inzicht in de algemene staat van het dak en kwetsbare details. Lekkage opsporen richt zich op het lokaliseren van de exacte ingang van water, zodat herstel gericht kan plaatsvinden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe snel kan een lekkage worden opgelost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat is afhankelijk van ernst, bereikbaarheid en weersomstandigheden. In spoedsituaties wordt eerst schadebeperking toegepast, gevolgd door definitief herstel zodra de oorzaak is vastgesteld."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat kan ik zelf doen tot er iemand komt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beperk schade: vang druppels op, verplaats waardevolle spullen, ventileer en noteer wanneer de lekkage optreedt. Ga niet onveilig het dak op."
+          }
+        }
+      ]
+    }
+  ]
 }

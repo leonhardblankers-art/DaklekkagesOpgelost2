@@ -1,0 +1,105 @@
+{
+  "title": "Dakonderhoud: hoe het de levensduur van je dak verlengt",
+  "description": "Dakonderhoud verlengt de levensduur van je dak, maar kent duidelijke grenzen. Praktische uitleg over onderhoud, slijtage en wanneer vervanging in beeld komt.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt",
+  "ogTitle": "Dakonderhoud: hoe het de levensduur van je dak verlengt",
+  "ogDescription": "Dakonderhoud verlengt de levensduur van je dak, maar kent duidelijke grenzen. Praktische uitleg over onderhoud, slijtage en wanneer vervanging in beeld komt.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Banner%20diensten%20plat%20dak.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakonderhoud: hoe het de levensduur van je dak verlengt",
+      "datePublished": "2025-12-29T11:15:06.000Z",
+      "dateModified": "2026-01-01T18:23:47.335Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Banner%20diensten%20plat%20dak.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakonderhoud: hoe het de levensduur van je dak verlengt",
+          "description": "Uitleg over hoe regelmatig dakonderhoud slijtage beperkt en de levensduur van verschillende daktypen verlengt.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Waarom is dakonderhoud belangrijk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Regelmatig dakonderhoud voorkomt dat kleine gebreken uitgroeien tot structurele schade en verlengt de levensduur van het dak."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe vaak moet een dak worden onderhouden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gemiddeld is één inspectie per jaar voldoende, met extra controle na zware storm of langdurige regen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan goed onderhoud dakvervanging uitstellen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, mits de dakconstructie nog in goede staat is kan onderhoud vervanging soms meerdere jaren uitstellen."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Nederland"
+          }
+        }
+      ]
+    }
+  ]
+}

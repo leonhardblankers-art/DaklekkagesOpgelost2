@@ -1,0 +1,210 @@
+{
+  "title": "Houtrot in dakconstructies: oorzaken en gevolgen",
+  "description": "Houtrot in dakconstructies ontstaat door langdurig vocht en lekkage. Lees waarom het gevaarlijk is en hoe je schade herkent.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+  "ogTitle": "Houtrot in dakconstructies: oorzaken en gevolgen",
+  "ogDescription": "Houtrot in dakconstructies ontstaat door langdurig vocht en lekkage. Lees waarom het gevaarlijk is en hoe je schade herkent.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/houtrot-dakconstructie-langdurige-vochtbelasting.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Houtrot in dakconstructies: oorzaken en gevolgen",
+      "datePublished": "2026-01-20T16:25:31.000Z",
+      "dateModified": "2026-02-22T20:02:14.579Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/houtrot-dakconstructie-langdurige-vochtbelasting.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+          "url": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+          "name": "Houtrot in dakconstructies: hoe het ontstaat en waarom het gevaarlijk is",
+          "description": "Houtrot in dakconstructies ontstaat door langdurige vochtbelasting, lekkage en slechte ventilatie. Lees waarom houtrot een ernstig constructief risico vormt en hoe je het herkent.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/houtrot-dakconstructie-langdurige-vochtbelasting"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is#article"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Houtrot in dakconstructies: hoe het ontstaat en waarom het gevaarlijk is",
+                "item": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is"
+              }
+            ]
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is#article",
+          "headline": "Houtrot in dakconstructies: hoe het ontstaat en waarom het gevaarlijk is",
+          "description": "Houtrot in dakconstructies ontstaat door langdurige vochtbelasting, lekkage en slechte ventilatie. Lees waarom houtrot een ernstig constructief risico vormt en hoe je het herkent.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/houtrot-dakconstructie-langdurige-vochtbelasting"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
+            "name": "dakrenovatie",
+            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
+            "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat veroorzaakt houtrot in een dakconstructie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Houtrot ontstaat door langdurige vochtbelasting, vaak veroorzaakt door lekkages, condensatie of slechte ventilatie. Wanneer hout langdurig vochtig blijft, krijgen schimmels de kans om het materiaal aan te tasten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe herken je houtrot in het dak?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Signalen van houtrot zijn verkleuring van het hout, een muffe geur, zacht of brokkelig materiaal en doorbuiging van constructiedelen. In veel gevallen is een professionele inspectie nodig om de ernst vast te stellen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is houtrot in een dakconstructie gevaarlijk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, houtrot vermindert de draagkracht van de dakconstructie. Wanneer dit niet tijdig wordt aangepakt, kan dit leiden tot ernstige constructieve schade en veiligheidsrisico’s."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
+          "name": "dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+              "url": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+              "name": "Houtrot in dakconstructies: hoe het ontstaat en waarom het gevaarlijk is"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

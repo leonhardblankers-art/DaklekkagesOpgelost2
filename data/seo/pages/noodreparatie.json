@@ -1,23 +1,81 @@
 {
-    "title":  "Noodreparatie | Daklekkages Opgelost",
-    "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
-    "robots":  "index, follow",
-    "canonical":  "https://www.daklekkagesopgelost.nl/noodreparatie/",
-    "ogTitle":  "Noodreparatie | Daklekkages Opgelost",
-    "ogDescription":  "Direct hulp nodig? Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
-    "ogType":  "website",
-    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
-    "schema":  {
-                   "@context":  "https://schema.org",
-                   "@type":  "WebPage",
-                   "@id":  "https://www.daklekkagesopgelost.nl/noodreparatie/",
-                   "url":  "https://www.daklekkagesopgelost.nl/noodreparatie/",
-                   "name":  "Noodreparatie | Daklekkages Opgelost",
-                   "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
-                   "isPartOf":  {
-                                    "@type":  "WebSite",
-                                    "name":  "Daklekkages Opgelost",
-                                    "url":  "https://www.daklekkagesopgelost.nl/"
-                                }
-               }
+  "title": "Noodreparatie | Daklekkages Opgelost",
+  "description": "Direct hulp nodig? Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/noodreparatie/",
+  "ogTitle": "Noodreparatie | Daklekkages Opgelost",
+  "ogDescription": "Direct hulp nodig? Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "WebPage",
+          "Service"
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/noodreparatie#service",
+        "name": "Noodreparatie",
+        "description": "Een noodreparatie beperkt dakschade bij storm of extreem weer wanneer definitief herstel nog niet mogelijk is. Lees wat dit inhoudt en wanneer het nodig is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205217921910?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768573511911&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T00:00:00+01:00",
+        "dateModified": "2026-01-15T00:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/noodreparatie"
+        },
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+          "name": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "€€",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,121 @@
+{
+  "title": "Binnenzijde van de schoorsteen: rookkanalen, condens en verborgen schade",
+  "description": "De binnenzijde van de schoorsteen veroorzaakt vaak onzichtbare problemen. Lees over rookkanalen, condens en verborgen schade.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade",
+  "ogTitle": "Binnenzijde van de schoorsteen: rookkanalen, condens en verborgen schade",
+  "ogDescription": "De binnenzijde van de schoorsteen veroorzaakt vaak onzichtbare problemen. Lees over rookkanalen, condens en verborgen schade.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Binnenzijde%20schoorsteen%2c%20rookkanalen%2c%20condens%20en%20verborgen%20schade.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Binnenzijde van de schoorsteen: rookkanalen, condens en verborgen schade",
+      "datePublished": "2025-12-30T14:58:32.000Z",
+      "dateModified": "2025-12-30T14:59:05.786Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Binnenzijde%20schoorsteen%2c%20rookkanalen%2c%20condens%20en%20verborgen%20schade.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Binnenzijde van de schoorsteen: rookkanalen, condens en verborgen schade",
+          "description": "Uitleg over de binnenzijde van schoorstenen, met aandacht voor rookkanalen, condensatie en interne schade die vaak onzichtbaar blijft.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/binnenzijde-van-de-schoorsteen-rookkanalen-condens-verborgen-schade"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan een schoorsteen van binnen lekken zonder zichtbare schade buiten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, interne vochtproblemen kunnen bestaan zonder duidelijke signalen aan de buitenzijde van de schoorsteen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ontstaat condens vooral bij ongebruikte schoorstenen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat komt vaak voor, vooral wanneer ventilatie ontbreekt en temperatuurverschillen groot zijn."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is een binnenvoering altijd nodig bij renovatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, de noodzaak hangt af van het gebruik van de schoorsteen, de constructie en de aard van de problemen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan interne schade ook lekkages veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, verzadigd metselwerk kan vocht doorgeven aan aangrenzende bouwdelen, wat lekkages kan veroorzaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Verdwijnt condens vanzelf als de schoorsteen niet meer wordt gebruikt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Niet altijd. Zonder voldoende ventilatie kan condensatie juist toenemen."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

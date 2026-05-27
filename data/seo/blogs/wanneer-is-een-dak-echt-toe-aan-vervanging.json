@@ -1,0 +1,98 @@
+{
+  "title": "Wanneer is een dak echt toe aan vervanging?",
+  "description": "Ontdek hoe je kunt herkennen wanneer een dak echt aan vervanging toe is, inclusief levensduur, signalen en praktische tips voor huiseigenaren.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging",
+  "ogTitle": "Wanneer is een dak echt toe aan vervanging?",
+  "ogDescription": "Ontdek hoe je kunt herkennen wanneer een dak echt aan vervanging toe is, inclusief levensduur, signalen en praktische tips voor huiseigenaren.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Wanneer%20is%20dakrenovatie%20nodig.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wanneer is een dak echt toe aan vervanging?",
+      "datePublished": "2025-12-28T19:58:27.000Z",
+      "dateModified": "2025-12-31T20:14:15.355Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Wanneer%20is%20dakrenovatie%20nodig.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Wanneer is een dak echt toe aan vervanging?",
+          "description": "Uitleg over signalen, levensduur en afwegingen die bepalen wanneer een dak aan vervanging toe is.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging"
+          },
+          "hasPart": [
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Nederland"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "results": [
+    {
+      "slug": "homepage",
+      "url": "https://www.daklekkagesopgelost.nl/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "contact",
+      "url": "https://www.daklekkagesopgelost.nl/contact/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten",
+      "url": "https://www.daklekkagesopgelost.nl/diensten/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "kennisbank",
+      "url": "https://www.daklekkagesopgelost.nl/kennisbank/",
+      "status": "http-404"
+    },
+    {
+      "slug": "lekkages",
+      "url": "https://www.daklekkagesopgelost.nl/lekkages/",
+      "status": "updated",
+      "graph_count": 6
+    },
+    {
+      "slug": "over-ons",
+      "url": "https://www.daklekkagesopgelost.nl/over-ons/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dak-isoleren",
+      "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dak-reinigen",
+      "url": "https://www.daklekkagesopgelost.nl/dak-reinigen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dakgoot-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/dakgoot-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dakkapel-lood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dakkapel-renoveren",
+      "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "daklood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dakraamlood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "dakrenovatie",
+      "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-dakgoot",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-dakgoot/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-dakkapel",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-dakraam",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-dakraam/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-loodafwerkingen",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-plat-dak",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-schoorsteen",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "diensten-schuin-dak",
+      "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "gratis-dakinspectie",
+      "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+      "status": "updated",
+      "graph_count": 3
+    },
+    {
+      "slug": "kozijnlood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/kozijnlood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "metselwerk-repareren",
+      "url": "https://www.daklekkagesopgelost.nl/metselwerk-repareren/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "nokrenovatie",
+      "url": "https://www.daklekkagesopgelost.nl/nokrenovatie/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "noodreparatie",
+      "url": "https://www.daklekkagesopgelost.nl/noodreparatie/",
+      "status": "updated",
+      "graph_count": 2
+    },
+    {
+      "slug": "plat-dak-overlagen",
+      "url": "https://www.daklekkagesopgelost.nl/plat-dak-overlagen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "plat-dak-reparatie",
+      "url": "https://www.daklekkagesopgelost.nl/plat-dak-reparatie/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "plat-dak-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/plat-dak-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "pleisteren",
+      "url": "https://www.daklekkagesopgelost.nl/pleisteren/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "rapportage-dakinspectie",
+      "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+      "status": "updated",
+      "graph_count": 3
+    },
+    {
+      "slug": "schoorsteen-opnieuw-opmetselen",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteen-opnieuw-opmetselen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "schoorsteen-verwijderen",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "schoorsteenlood-spouw-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-spouw-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "schoorsteenlood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "schoorsteenrenovatie",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+      "status": "updated",
+      "graph_count": 2
+    },
+    {
+      "slug": "spoedreparatie",
+      "url": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
+      "status": "updated",
+      "graph_count": 2
+    },
+    {
+      "slug": "trapsgewijs-lood-vervangen",
+      "url": "https://www.daklekkagesopgelost.nl/trapsgewijs-lood-vervangen/",
+      "status": "no-jsonld"
+    },
+    {
+      "slug": "algemene-voorwaarden",
+      "url": "https://www.daklekkagesopgelost.nl/algemene-voorwaarden/",
+      "status": "http-404"
+    },
+    {
+      "slug": "privacyverklaring",
+      "url": "https://www.daklekkagesopgelost.nl/privacyverklaring/",
+      "status": "http-404"
+    },
+    {
+      "slug": "daklekkage",
+      "url": "https://www.daklekkagesopgelost.nl/daklekkage/",
+      "status": "updated",
+      "graph_count": 2
+    },
+    {
+      "slug": "lekkage-opsporen",
+      "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+      "status": "updated",
+      "graph_count": 3
+    },
+    {
+      "slug": "loodslabben-lekkage",
+      "url": "https://www.daklekkagesopgelost.nl/loodslabben-lekkage/",
+      "status": "http-404"
+    },
+    {
+      "slug": "noklekkage",
+      "url": "https://www.daklekkagesopgelost.nl/noklekkage/",
+      "status": "updated",
+      "graph_count": 3
+    },
+    {
+      "slug": "schoorsteenlekkage",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
+      "status": "updated",
+      "graph_count": 3
+    },
+    {
+      "slug": "uitgevoerde-projecten",
+      "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/",
+      "status": "no-jsonld"
+    }
+  ]
+}

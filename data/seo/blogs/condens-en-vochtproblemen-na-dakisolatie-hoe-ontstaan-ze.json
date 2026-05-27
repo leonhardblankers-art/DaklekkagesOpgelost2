@@ -1,0 +1,122 @@
+{
+  "title": "Condens en vochtproblemen na dakisolatie: hoe ontstaan ze?",
+  "description": "Condens en vochtproblemen na dakisolatie ontstaan door foutieve opbouw. Lees hoe ze ontstaan, hoe je ze herkent en hoe je schade voorkomt.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze",
+  "ogTitle": "Condens en vochtproblemen na dakisolatie: hoe ontstaan ze?",
+  "ogDescription": "Condens en vochtproblemen na dakisolatie ontstaan door foutieve opbouw. Lees hoe ze ontstaan, hoe je ze herkent en hoe je schade voorkomt.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Risico%20op%20condens%20en%20vochtproblemen%20bij%20dakisolatie-1.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Condens en vochtproblemen na dakisolatie: hoe ontstaan ze?",
+      "datePublished": "2025-12-29T16:52:29.000Z",
+      "dateModified": "2025-12-29T18:25:47.216Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Risico%20op%20condens%20en%20vochtproblemen%20bij%20dakisolatie-1.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Condens- en vochtproblemen na dakisolatie: hoe ontstaan ze?",
+          "description": "Condens en vochtproblemen komen vaak pas na dakisolatie aan het licht. Lees hoe deze problemen ontstaan, waarom ze lastig te herkennen zijn en wat de rol van dakopbouw is.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-01-07",
+          "dateModified": "2025-01-07",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "headline": "Dakisolatie: wat levert het op?",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Waarom ontstaan condensproblemen na dakisolatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Na isolatie blijft warmte langer in huis, waardoor warme, vochtige lucht zich verplaatst richting koudere delen van het dak. Als deze lucht daar afkoelt, kan condens ontstaan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn vochtproblemen altijd direct zichtbaar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Vocht kan zich langdurig ophopen in isolatiemateriaal of hout zonder dat dit meteen zichtbaar is aan de binnenzijde van het dak."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan verkeerde dakisolatie houtrot veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Langdurige vochtbelasting door condens kan leiden tot houtrot in dakconstructies, vaak zonder dat dit in een vroeg stadium wordt opgemerkt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Speelt ventilatie een rol bij condensproblemen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ventilatie is cruciaal. Zonder voldoende afvoer van vochtige lucht neemt de kans op condensatie binnen de dakconstructie sterk toe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kunnen condensproblemen altijd worden voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Niet volledig, maar door goede afstemming tussen isolatie, dampremming en ventilatie kan het risico aanzienlijk worden verkleind."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

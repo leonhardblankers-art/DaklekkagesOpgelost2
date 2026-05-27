@@ -1,0 +1,96 @@
+{
+  "title": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+  "description": "Wat kost schoorsteenlood vervangen? Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+  "ogTitle": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+  "ogDescription": "Wat kost schoorsteenlood vervangen? Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20te%20renoveren%20schoorsteenrenovatie%201-webp.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+      "datePublished": "2026-01-01T22:59:06.000Z",
+      "dateModified": "2026-01-01T23:01:21.566Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20te%20renoveren%20schoorsteenrenovatie%201-webp.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+      "description": "Uitleg over de kosten van het vervangen van schoorsteenlood en welke factoren prijsverschillen veroorzaken.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-01",
+      "url": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Waarom lopen de kosten voor schoorsteenlood zo uiteen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De kosten verschillen per situatie door bereikbaarheid, daktype, materiaalkeuze en de staat van de schoorsteen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is gedeeltelijke vervanging goedkoper dan volledig vervangen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gedeeltelijke vervanging is vaak goedkoper, zolang het overige lood nog voldoende flexibel en intact is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zijn loodvervangers altijd goedkoper dan traditioneel lood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niet altijd. De totale kosten hangen af van kwaliteit, levensduur en de manier van verwerken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan goedkoop loodwerk later duurder uitpakken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, wanneer het lood onvoldoende overlap of detaillering heeft, kunnen later extra herstelkosten ontstaan."
+          }
+        }
+      ]
+    }
+  ]
+}

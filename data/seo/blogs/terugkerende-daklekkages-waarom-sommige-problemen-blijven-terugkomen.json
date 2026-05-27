@@ -1,0 +1,247 @@
+{
+  "title": "Waarom daklekkages blijven terugkomen (en hoe je dat doorbreekt)",
+  "description": "Blijft je daklekkage terugkomen ondanks reparaties? Ontdek waarom sommige problemen structureel zijn en wat er vaak wordt gemist.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+  "ogTitle": "Waarom daklekkages blijven terugkomen (en hoe je dat doorbreekt)",
+  "ogDescription": "Blijft je daklekkage terugkomen ondanks reparaties? Ontdek waarom sommige problemen structureel zijn en wat er vaak wordt gemist.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/vochtschade-en-schimmel-door-daklekkage-binnen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Waarom daklekkages blijven terugkomen (en hoe je dat doorbreekt)",
+      "datePublished": "2026-01-28T11:50:08.000Z",
+      "dateModified": "2026-02-01T16:45:22.611Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/vochtschade-en-schimmel-door-daklekkage-binnen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+          "name": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen",
+          "description": "Blijft je daklekkage terugkomen ondanks reparaties? Ontdek waarom sommige problemen structureel zijn en wat er vaak wordt gemist.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/vochtschade-en-schimmel-door-daklekkage-binnen.jpeg"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar",
+          "headline": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen",
+          "description": "Blijft je daklekkage terugkomen ondanks reparaties? Ontdek waarom sommige problemen structureel zijn en wat er vaak wordt gemist.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/vochtschade-en-schimmel-door-daklekkage-binnen.jpeg"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+            "name": "daklekkage oplossen",
+            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
+          },
+          "hasPart": [
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+              "headline": "Waarom een daklekkage vaak niet op de juiste plek wordt gevonden"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+              "headline": "Symptoombestrijding versus structurele oorzaken van daklekkage"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest",
+              "headline": "Lekkages die verplaatsen: hoe water een andere route kiest"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+              "headline": "Oude dakreparaties als oorzaak van nieuwe lekkages"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-een-daklekkage-geen-lokaal-probleem-is#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-een-daklekkage-geen-lokaal-probleem-is",
+              "headline": "Wanneer een daklekkage geen lokaal probleem is"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen",
+              "headline": "Waarom sommige daklekkages pas na jaren opnieuw verschijnen"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#faq",
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+            "name": "daklekkage oplossen",
+            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wanneer is een daklekkage ‘terugkerend’?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een lekkage is terugkerend als het probleem na een eerdere reparatie opnieuw optreedt, tijdelijk verdwijnt of zich later op een andere plek manifesteert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Waarom komt een daklekkage terug nadat hij gerepareerd lijkt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vaak is de oorzaak niet goed vastgesteld of is alleen het zichtbare gevolg hersteld, terwijl water via een andere route opnieuw schade veroorzaakt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een lekkage zichtbaar worden op een andere plek dan waar het water binnenkomt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Water kan zich via isolatie, hout en overlappende lagen verplaatsen en pas zichtbaar worden op de plek waar het tegen weerstand aanloopt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kunnen oude dakreparaties nieuwe lekkages veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Oude noodreparaties, extra lagen of ongeschikte materialen kunnen de waterafvoer en dakopbouw verstoren, waardoor later nieuwe zwakke plekken ontstaan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is een daklekkage geen lokaal probleem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Als de lekkage samenhangt met het dakvlak, de afwatering, het afschot of meerdere aansluitingen, is plaatselijk herstel meestal niet voldoende en blijft het probleem terugkomen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat is de beste eerste stap voor een blijvende oplossing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een grondige analyse van het dak als geheel is essentieel, zodat waterloop, detaillering en eerdere ingrepen kunnen worden beoordeeld voordat er opnieuw wordt gerepareerd."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+          "name": "daklekkage oplossen",
+          "url": "https://www.daklekkagesopgelost.nl/daklekkage",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+              "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+              "name": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen"
+            },
+            {
+              "@type": "FAQPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#faq"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

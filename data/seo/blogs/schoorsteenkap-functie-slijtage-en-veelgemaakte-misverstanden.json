@@ -1,0 +1,121 @@
+{
+  "title": "Schoorsteenkap: functie, slijtage en veelgemaakte misverstanden",
+  "description": "Wat doet een schoorsteenkap, wanneer veroorzaakt hij problemen en welke misverstanden bestaan er? Praktische uitleg over functie, slijtage en onderhoud.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden",
+  "ogTitle": "Schoorsteenkap: functie, slijtage en veelgemaakte misverstanden",
+  "ogDescription": "Wat doet een schoorsteenkap, wanneer veroorzaakt hij problemen en welke misverstanden bestaan er? Praktische uitleg over functie, slijtage en onderhoud.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenkap%20op%20schoorsteen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteenkap: functie, slijtage en veelgemaakte misverstanden",
+      "datePublished": "2025-12-29T19:06:28.000Z",
+      "dateModified": "2025-12-30T14:18:23.033Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenkap%20op%20schoorsteen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Schoorsteenkap: functie, slijtage en veelgemaakte misverstanden",
+          "description": "Uitleg over de functie van schoorsteenkappen, hoe slijtage ontstaat en welke misverstanden vaak leiden tot vochtproblemen en schade.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/schoorsteenkap-functie-slijtage-misverstanden"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat is de functie van een schoorsteenkap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een schoorsteenkap beschermt het rookkanaal tegen inregenen, beperkt vogeloverlast en beïnvloedt de trek van de schoorsteen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Slijt een schoorsteenkap ook als de schoorsteen niet wordt gebruikt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, weersinvloeden zoals regen, wind en temperatuurwisselingen zorgen ook bij ongebruikte schoorstenen voor slijtage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een kap lekkages voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een kap kan inregenen beperken, maar voorkomt geen lekkages die ontstaan door slecht metselwerk, voegwerk of lood."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn alle schoorsteenkappen geschikt voor elke schoorsteen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, het type kap moet passen bij de diameter, het gebruik en de constructie van de schoorsteen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een verkeerde kap juist problemen veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, een ongeschikte kap kan de trek verstoren of condensatieproblemen verergeren."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

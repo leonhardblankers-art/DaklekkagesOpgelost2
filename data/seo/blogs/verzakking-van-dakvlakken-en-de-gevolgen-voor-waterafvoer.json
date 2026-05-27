@@ -1,0 +1,210 @@
+{
+  "title": "Verzakking van dakvlakken en problemen met waterafvoer",
+  "description": "Verzakking van dakvlakken verstoort de waterafvoer en vergroot de kans op lekkage. Lees oorzaken, signalen en risico’s.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+  "ogTitle": "Verzakking van dakvlakken en problemen met waterafvoer",
+  "ogDescription": "Verzakking van dakvlakken verstoort de waterafvoer en vergroot de kans op lekkage. Lees oorzaken, signalen en risico’s.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/verzakking-dakvlak-verstoorde-waterafvoer.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Verzakking van dakvlakken en problemen met waterafvoer",
+      "datePublished": "2026-01-21T00:10:23.000Z",
+      "dateModified": "2026-02-22T20:06:47.861Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/verzakking-dakvlak-verstoorde-waterafvoer.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+          "url": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+          "name": "Verzakking van dakvlakken en de gevolgen voor waterafvoer",
+          "description": "Verzakking van dakvlakken verstoort de waterafvoer en leidt tot stilstaand water, versnelde slijtage en daklekkages. Lees hoe verzakking ontstaat en wanneer ingrijpen nodig is.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/verzakking-dakvlak-verstoorde-waterafvoer"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer#article"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Verzakking van dakvlakken en de gevolgen voor waterafvoer",
+                "item": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer"
+              }
+            ]
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer#article",
+          "headline": "Verzakking van dakvlakken en de gevolgen voor waterafvoer",
+          "description": "Verzakking van dakvlakken verstoort de waterafvoer en leidt tot stilstaand water, versnelde slijtage en daklekkages. Lees hoe verzakking ontstaat en wanneer ingrijpen nodig is.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/verzakking-dakvlak-verstoorde-waterafvoer"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
+            "name": "dakrenovatie",
+            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
+            "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wat veroorzaakt verzakking van een dakvlak?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Verzakking ontstaat meestal door constructieve verzwakking, langdurige vochtbelasting, houtrot of overbelasting van het dak. Ook veroudering van materialen kan een rol spelen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Waarom is een verstoorde waterafvoer schadelijk voor het dak?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wanneer water niet goed kan aflopen, ontstaat stilstaand water. Dit versnelt slijtage van dakbedekking, verhoogt de kans op lekkages en vergroot het risico op verdere constructieve schade."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is ingrijpen bij verzakking noodzakelijk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Als er zichtbaar hoogteverschil, plasvorming of terugkerende lekkages optreden, is inspectie noodzakelijk. Tijdig ingrijpen voorkomt grotere schade en mogelijk kostbare dakrenovatie."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
+          "name": "dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+              "url": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+              "name": "Verzakking van dakvlakken en de gevolgen voor waterafvoer"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

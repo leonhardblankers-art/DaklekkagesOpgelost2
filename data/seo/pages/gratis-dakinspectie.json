@@ -1,23 +1,113 @@
 {
-    "title":  "Gratis Dakinspectie | Daklekkages Opgelost",
-    "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend \u0026 adviserend Grati...",
-    "robots":  "index, follow",
-    "canonical":  "https://www.daklekkagesopgelost.nl/dakinspectie/",
-    "ogTitle":  "Gratis Dakinspectie | Daklekkages Opgelost",
-    "ogDescription":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend \u0026 adviserend Grati...",
-    "ogType":  "website",
-    "ogImage":  "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
-    "schema":  {
-                   "@context":  "https://schema.org",
-                   "@type":  "WebPage",
-                   "@id":  "https://www.daklekkagesopgelost.nl/dakinspectie/",
-                   "url":  "https://www.daklekkagesopgelost.nl/dakinspectie/",
-                   "name":  "Gratis Dakinspectie | Daklekkages Opgelost",
-                   "description":  "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend \u0026 adviserend Grati...",
-                   "isPartOf":  {
-                                    "@type":  "WebSite",
-                                    "name":  "Daklekkages Opgelost",
-                                    "url":  "https://www.daklekkagesopgelost.nl/"
-                                }
-               }
+  "title": "Gratis Dakinspectie | Daklekkages Opgelost",
+  "description": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+  "ogTitle": "Gratis Dakinspectie | Daklekkages Opgelost",
+  "ogDescription": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
+        "name": "Gratis dakinspectie – inzicht in de staat van je dak",
+        "description": "Twijfel over de staat van je dak? Met een gratis dakinspectie krijg je helder inzicht en weet je welke vervolgstap logisch is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Wanneer%20is%20dakrenovatie%20nodig.jpeg?width=860&t=1768478040510"
+        },
+        "datePublished": "2026-02-09T08:00:00+01:00",
+        "dateModified": "2026-02-09T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service"
+        },
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "name": "Dakonderhoud wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+        "name": "Gratis dakinspectie – inzicht in de staat van je dak",
+        "description": "Twijfel over de staat van je dak? Met een gratis dakinspectie krijg je helder inzicht en weet je welke vervolgstap logisch is.",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Wanneer%20is%20dakrenovatie%20nodig.jpeg?width=860&t=1768478040510"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gratis dakinspectie – inzicht in de staat van je dak – Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#service",
+                "name": "Rapportage dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie"
+              }
+            }
+          ]
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol",
+            "name": "Dakonderhoud wat is zinvol?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "€€",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      }
+    ]
+  }
 }

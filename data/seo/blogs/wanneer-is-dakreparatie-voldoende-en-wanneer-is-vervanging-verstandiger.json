@@ -1,0 +1,101 @@
+{
+  "title": "Wanneer is dakreparatie voldoende en wanneer is vervanging verstandiger?",
+  "description": "Twijfel je tussen dakreparatie of dakvervanging? Lees hoe leeftijd, schade en herhaling bepalen wat op lange termijn verstandiger is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger",
+  "ogTitle": "Wanneer is dakreparatie voldoende en wanneer is vervanging verstandiger?",
+  "ogDescription": "Twijfel je tussen dakreparatie of dakvervanging? Lees hoe leeftijd, schade en herhaling bepalen wat op lange termijn verstandiger is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak%202-1.png",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wanneer is dakreparatie voldoende en wanneer is vervanging verstandiger?",
+      "datePublished": "2025-12-29T12:22:57.000Z",
+      "dateModified": "2025-12-31T18:40:36.567Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak%202-1.png"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Wanneer is dakreparatie voldoende en wanneer is vervanging verstandiger?",
+          "description": "Uitleg over het verschil tussen dakreparatie en dakvervanging, met aandacht voor leeftijd, schadebeeld en herhaalde problemen.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/dakreparatie-of-dakvervanging"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is een dakreparatie altijd een tijdelijke oplossing?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, bij een relatief jong dak en duidelijk afgebakende schade kan een reparatie jarenlang probleemloos functioneren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wanneer is dakvervanging verstandiger dan blijven repareren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Als problemen zich blijven herhalen, het dak zijn technische levensduur nadert of er sprake is van structurele slijtage, is vervanging vaak de betere keuze."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Speelt de leeftijd van het dak een grote rol?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vooral bij platte daken weegt de leeftijd zwaar mee omdat de waterdichtheid volledig afhankelijk is van de staat van de dakbedekking."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

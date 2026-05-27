@@ -1,0 +1,117 @@
+{
+  "title": "Aansluitingen: schoorstenen, dakkapellen en dakramen, de zwakke schakel",
+  "description": "Waarom aansluitingen rond schoorstenen, dakkapellen en dakramen vaak lekkage veroorzaken en wanneer herstel of renovatie nodig is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel",
+  "ogTitle": "Aansluitingen: schoorstenen, dakkapellen en dakramen, de zwakke schakel",
+  "ogDescription": "Waarom aansluitingen rond schoorstenen, dakkapellen en dakramen vaak lekkage veroorzaken en wanneer herstel of renovatie nodig is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Aansluitingen%20de%20zwakke%20schakel%20op%20het%20dak.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Aansluitingen: schoorstenen, dakkapellen en dakramen, de zwakke schakel",
+      "datePublished": "2026-01-15T16:57:15.000Z",
+      "dateModified": "2026-01-15T16:57:15.180Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Aansluitingen%20de%20zwakke%20schakel%20op%20het%20dak.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel#article",
+          "headline": "Aansluitingen: schoorstenen, dakkapellen en dakramen, de zwakke schakel",
+          "description": "Waarom aansluitingen rond schoorstenen, dakkapellen en dakramen vaak lekkage veroorzaken en wanneer herstel of renovatie nodig is.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205138096203?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768496054025&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-15T00:00:00+01:00",
+          "dateModified": "2026-01-15T00:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

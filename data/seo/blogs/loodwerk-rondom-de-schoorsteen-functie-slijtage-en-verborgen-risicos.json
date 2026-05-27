@@ -1,0 +1,117 @@
+{
+  "title": "Loodwerk rondom de schoorsteen: functie, slijtage en verborgen risico’s",
+  "description": "Loodwerk rondom de schoorsteen voorkomt lekkages, maar slijt ongemerkt. Lees hoe problemen ontstaan, welke misverstanden er zijn en waar je op let.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos",
+  "ogTitle": "Loodwerk rondom de schoorsteen: functie, slijtage en verborgen risico’s",
+  "ogDescription": "Loodwerk rondom de schoorsteen voorkomt lekkages, maar slijt ongemerkt. Lees hoe problemen ontstaan, welke misverstanden er zijn en waar je op let.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Slijtage%20aan%20loodwerk%20rond%20schoorsteen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Loodwerk rondom de schoorsteen: functie, slijtage en verborgen risico’s",
+      "datePublished": "2025-12-30T15:03:41.000Z",
+      "dateModified": "2025-12-30T15:04:42.779Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Slijtage%20aan%20loodwerk%20rond%20schoorsteen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Loodwerk rondom de schoorsteen: functie, slijtage en verborgen risico’s",
+          "description": "Verdiepende uitleg over de functie van schoorsteenlood, hoe slijtage ontstaat en waarom problemen vaak leiden tot lekkages.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/loodwerk-schoorsteen"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe lang gaat loodwerk rondom een schoorsteen mee?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De levensduur varieert sterk, maar ligt vaak tussen de 25 en 40 jaar, afhankelijk van belasting, montage en onderhoud."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan loodwerk plaatselijk worden hersteld?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In sommige gevallen wel, bijvoorbeeld bij loszittend lood. Bij scheuren of veroudering is vervanging meestal verstandiger."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn lekkages door lood altijd direct zichtbaar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, water kan zich langs de constructie verspreiden voordat het binnenshuis zichtbaar wordt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is lood altijd nodig rondom een schoorsteen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bij traditionele schoorstenen wel. Alternatieve materialen bestaan, maar hebben andere eigenschappen en aandachtspunten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan slecht loodwerk invloed hebben op het metselwerk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, binnendringend vocht kan het metselwerk aantasten en vorstschade veroorzaken."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "title": "Schoorsteenrenovatie: wanneer nodig?",
+  "description": "Praktische gids over schoorsteenrenovatie: herken signalen, begrijp oorzaken en ontdek onderhoudstips voor een veilige en duurzame schoorsteen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig",
+  "ogTitle": "Schoorsteenrenovatie: wanneer nodig?",
+  "ogDescription": "Praktische gids over schoorsteenrenovatie: herken signalen, begrijp oorzaken en ontdek onderhoudstips voor een veilige en duurzame schoorsteen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenrenovatie%20wanneer%20is%20dat%20nodig.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteenrenovatie: wanneer nodig?",
+      "datePublished": "2025-12-28T20:47:16.000Z",
+      "dateModified": "2025-12-31T11:49:00.936Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteenrenovatie%20wanneer%20is%20dat%20nodig.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Schoorsteenrenovatie: wanneer nodig?",
+          "description": "Uitleg over wanneer schoorsteenrenovatie nodig is, welke signalen daarop wijzen en hoe schade, lekkage en slijtage in de praktijk ontstaan. Inclusief interne links naar verdiepende clusterpagina's over schoorsteenproblemen en onderhoud.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-30",
+          "dateModified": "2025-12-30",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          },
+          "hasPart": [
+            {
+              "@type": "WebPage",
+              "name": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Voegwerk van de schoorsteen: wanneer herstellen en wanneer vervangen?",
+              "url": "https://www.daklekkagesopgelost.nl/blog/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Schoorsteenkap: functie, slijtage en veelgemaakte misverstanden",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Oude schoorsteen behouden of verwijderen: wanneer wat verstandig is",
+              "url": "https://www.daklekkagesopgelost.nl/blog/oude-schoorsteen-behouden-of-verwijderen-wanneer-wat-verstandig-is"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Schoorsteen scheef of instabiel: risico’s en mogelijke oplossingen",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Schoorsteenlekkage: waarom water zelden komt waar je het verwacht",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlekkage-waarom-water-zelden-komt-waar-je-het-verwacht"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Binnenzijde van de schoorsteen: rookkanalen, condens en verborgen schade",
+              "url": "https://www.daklekkagesopgelost.nl/blog/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade"
+            },
+            {
+              "@type": "WebPage",
+              "name": "Loodwerk rondom de schoorsteen: functie, slijtage en verborgen risico’s",
+              "url": "https://www.daklekkagesopgelost.nl/blog/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe vaak moet een schoorsteen geïnspecteerd worden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een jaarlijkse visuele controle is meestal voldoende. Bij oudere schoorstenen kan een diepgaande inspectie om de 5 tot 10 jaar nuttig zijn."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan ik zelf mijn schoorsteen inspecteren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een visuele inspectie vanaf zolder of dak kan eerste tekenen van schade laten zien, maar een vakman is nodig voor een grondige beoordeling."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat kost schoorsteenrenovatie gemiddeld?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De kosten hangen af van de staat van de schoorsteen en materialen. Kleine herstelwerkzaamheden zijn goedkoper dan een volledige vervanging van de voering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is een nieuwe voering altijd nodig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Niet altijd. Soms volstaat herstel van voegwerk of stenen. Een nieuwe voering is nodig bij beschadigde binnenpijpen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe lang gaat een gerenoveerde schoorsteen mee?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Met goed onderhoud kan een gerenoveerde schoorsteen tientallen jaren meegaan, afhankelijk van materialen en kwaliteit van het werk."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

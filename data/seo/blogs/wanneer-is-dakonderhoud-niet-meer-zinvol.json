@@ -1,0 +1,105 @@
+{
+  "title": "Wanneer is dakonderhoud niet meer zinvol?",
+  "description": "Wanneer biedt dakonderhoud weinig effect? Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+  "ogTitle": "Wanneer is dakonderhoud niet meer zinvol?",
+  "ogDescription": "Wanneer biedt dakonderhoud weinig effect? Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%201%20diensten%20plat%20dak%20overlagen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wanneer is dakonderhoud niet meer zinvol?",
+      "datePublished": "2025-12-31T19:07:01.000Z",
+      "dateModified": "2025-12-31T19:07:18.374Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%201%20diensten%20plat%20dak%20overlagen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Wanneer is dakonderhoud niet meer zinvol",
+          "description": "Inzicht in situaties waarin onderhoud aan daken beperkt effectief is en waarom kritische afweging belangrijk is.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/wanneer-dakonderhoud-niet-meer-zinvol"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan onderhoud zinloos zijn bij oudere daken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Bij daken die hun maximale levensduur naderen kan onderhoud vooral uitstel bieden zonder structurele verbetering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe weet ik wanneer onderhoud geen effect meer heeft?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat hangt af van de leeftijd van het dak, de mate van slijtage, het type dak en de blootstelling aan weersomstandigheden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn er situaties waarin onderhoud altijd zinvol blijft?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Onderhoud blijft nuttig voor inspectie en het signaleren van beginnende problemen, zelfs als het effect op de levensduur beperkt is."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+  "description": "Hoe kan onderhoud helpen lekkages te voorkomen? Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+  "ogTitle": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+  "ogDescription": "Hoe kan onderhoud helpen lekkages te voorkomen? Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+      "datePublished": "2025-12-31T19:00:24.000Z",
+      "dateModified": "2025-12-31T19:00:54.367Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+          "description": "Inzicht in welke rol onderhoud speelt bij het voorkomen van daklekkages en waarom onderhoud geen volledige garantie biedt.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage-voorkomen"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan onderhoud alle lekkages voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, onderhoud beperkt het risico, maar extreme weersomstandigheden of structurele zwaktes kunnen alsnog lekkages veroorzaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe vaak moet je kritieke punten controleren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Het is verstandig om minstens één keer per jaar de naden, doorvoeren en aansluitingen te inspecteren, zeker bij oudere daken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is het reinigen van goten voldoende om lekkages te voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Het helpt om waterafvoer te verbeteren, maar voorkomt niet dat achterliggende structurele problemen of slijtage lekkages veroorzaken."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

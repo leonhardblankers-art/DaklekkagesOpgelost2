@@ -1,0 +1,105 @@
+{
+  "title": "Levensduur per daktype en wat dat betekent voor vervanging",
+  "description": "Leer wat de gemiddelde levensduur is van verschillende daktypen en wanneer het verstandig is om een dak te vervangen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging",
+  "ogTitle": "Levensduur per daktype en wat dat betekent voor vervanging",
+  "ogDescription": "Leer wat de gemiddelde levensduur is van verschillende daktypen en wanneer het verstandig is om een dak te vervangen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/dakgoot%20reinigen%20.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Levensduur per daktype en wat dat betekent voor vervanging",
+      "datePublished": "2025-12-31T19:53:54.000Z",
+      "dateModified": "2025-12-31T19:54:11.425Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/dakgoot%20reinigen%20.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Levensduur per daktype en wat dat betekent voor vervanging",
+          "description": "Uitleg over de levensduur van verschillende daktypen en hoe dit meeweegt bij het moment van dakvervanging.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/levensduur-per-daktype"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/wanneer-is-een-dak-echt-toe-aan-vervanging"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe lang gaat een bitumen dak gemiddeld mee?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een bitumen dak gaat gemiddeld 20 tot 30 jaar mee, afhankelijk van onderhoud en belasting door weer en temperatuur."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kunnen dakpannen langer meegaan dan de dakconstructie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, dakpannen kunnen langer meegaan, terwijl folie, panlatten en houtconstructie eerder slijten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn metalen daken onderhoudsvrij?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Metalen daken zijn onderhoudsarm, maar moeten periodiek gecontroleerd worden op beschadigingen en corrosie."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Nederland"
+          }
+        }
+      ]
+    }
+  ]
+}

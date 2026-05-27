@@ -1,0 +1,96 @@
+{
+  "title": "Veelgemaakte fouten bij schoorsteenlood: waarom problemen blijven terugkomen",
+  "description": "Welke fouten komen vaak voor bij schoorsteenlood? Lees hoe kleine uitvoeringsfouten kunnen leiden tot blijvende lekkage.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen",
+  "ogTitle": "Veelgemaakte fouten bij schoorsteenlood: waarom problemen blijven terugkomen",
+  "ogDescription": "Welke fouten komen vaak voor bij schoorsteenlood? Lees hoe kleine uitvoeringsfouten kunnen leiden tot blijvende lekkage.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schade-aan-schoorsteen-door-verouderde-voegen-en-metselwerk.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Veelgemaakte fouten bij schoorsteenlood: waarom problemen blijven terugkomen",
+      "datePublished": "2026-01-01T23:21:58.000Z",
+      "dateModified": "2026-01-01T23:22:17.391Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schade-aan-schoorsteen-door-verouderde-voegen-en-metselwerk.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Veelgemaakte fouten bij schoorsteenlood: waarom problemen blijven terugkomen",
+      "description": "Inzicht in veelgemaakte fouten bij schoorsteenlood en hoe uitvoeringsfouten leiden tot terugkerende lekkage.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-01",
+      "url": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-schoorsteenlood",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-schoorsteenlood"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is schoorsteenlood vaak de oorzaak van lekkage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regelmatig wel, maar meestal door fouten in uitvoering of slijtage, niet door het materiaal zelf."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zijn kleine fouten bij schoorsteenlood echt problematisch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, kleine afwijkingen kunnen door weersinvloeden uitgroeien tot grotere problemen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan bestaande schade worden hersteld zonder vervanging?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soms wel, afhankelijk van de staat en flexibiliteit van het lood."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe voorkom je herhaling van problemen met schoorsteenlood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Door correcte detaillering, voldoende overlap en tijdige inspectie."
+          }
+        }
+      ]
+    }
+  ]
+}

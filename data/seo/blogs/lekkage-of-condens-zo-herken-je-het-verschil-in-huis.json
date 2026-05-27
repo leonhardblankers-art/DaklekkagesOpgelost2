@@ -1,0 +1,113 @@
+{
+  "title": "Lekkage of condens: zo herken je het verschil in huis",
+  "description": "Twijfel tussen lekkage of condens? Ontdek hoe je het verschil herkent aan patronen, seizoenen en gedrag van vocht in huis.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis",
+  "ogTitle": "Lekkage of condens: zo herken je het verschil in huis",
+  "ogDescription": "Twijfel tussen lekkage of condens? Ontdek hoe je het verschil herkent aan patronen, seizoenen en gedrag van vocht in huis.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Noklekkage%20lekkage%20nok-1.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Lekkage of condens: zo herken je het verschil in huis",
+      "datePublished": "2025-12-31T17:57:53.000Z",
+      "dateModified": "2025-12-31T17:58:00.677Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Noklekkage%20lekkage%20nok-1.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Lekkage of condens: zo herken je het verschil in huis",
+          "description": "Twijfel tussen lekkage of condens? Uitleg over herkenning, patronen en waarom het verschil belangrijk is bij vochtproblemen.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/lekkage-of-condens"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/daklekkage-oorzaken-uit-de-praktijk"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan condens net zo schadelijk zijn als een lekkage?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Condens kan schade veroorzaken, maar leidt meestal langzamer tot problemen dan een actieve daklekkage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Waarom zie ik vochtplekken vooral in de winter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In de winter zijn temperatuurverschillen groter en is ventilatie beperkter, wat condensvorming bevordert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan slechte isolatie condens veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Slecht geïsoleerde dakdelen koelen sneller af waardoor vocht uit de lucht condenseert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een kleine lekkage zich voordoen als condens?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Kleine lekkages kunnen condens versterken en zo een vertekend beeld geven."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

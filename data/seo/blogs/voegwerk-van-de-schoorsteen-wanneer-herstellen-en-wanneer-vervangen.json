@@ -1,0 +1,121 @@
+{
+  "title": "Voegwerk van de schoorsteen: wanneer herstellen en wanneer vervangen?",
+  "description": "Wanneer is voegwerk van de schoorsteen aan herstel toe en wanneer is vervangen beter? Uitleg over slijtage, risico’s en duurzame keuzes.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen",
+  "ogTitle": "Voegwerk van de schoorsteen: wanneer herstellen en wanneer vervangen?",
+  "ogDescription": "Wanneer is voegwerk van de schoorsteen aan herstel toe en wanneer is vervangen beter? Uitleg over slijtage, risico’s en duurzame keuzes.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Voegwerk van de schoorsteen: wanneer herstellen en wanneer vervangen?",
+      "datePublished": "2025-12-29T16:10:56.000Z",
+      "dateModified": "2025-12-30T15:09:57.620Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Voegwerk van de schoorsteen: wanneer herstellen en wanneer vervangen?",
+          "description": "Uitleg over slijtage van schoorsteenvoegwerk, wanneer herstel volstaat en wanneer volledige vervanging nodig is om schade en lekkages te voorkomen.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/schoorsteen-voegwerk"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe herken ik versleten voegwerk bij mijn schoorsteen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Versleten voegwerk herken je aan scheuren, uitspoeling, loszittende delen of voegen die poederachtig aanvoelen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan slecht voegwerk een daklekkage veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, via open of verzwakte voegen kan regenwater de schoorsteen binnendringen en zich verspreiden in het dak of de woning."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is opnieuw voegen altijd nodig bij schade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Niet altijd. Bij beperkte slijtage kan plaatselijk herstel voldoende zijn. Bij grootschalige veroudering is vervangen duurzamer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat is het verschil tussen kalkmortel en moderne mortel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kalkmortel is zachter en ademend, terwijl moderne mortel harder en vaak waterafstotender is. De juiste keuze hangt af van de schoorsteen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe lang gaat nieuw voegwerk mee?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Goed aangebracht voegwerk kan tientallen jaren meegaan, afhankelijk van materiaalkeuze en blootstelling aan weer en wind."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

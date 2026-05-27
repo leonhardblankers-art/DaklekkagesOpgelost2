@@ -1,0 +1,101 @@
+{
+  "title": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+  "description": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+  "ogTitle": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+  "ogDescription": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+      "datePublished": "2025-12-31T19:44:02.000Z",
+      "dateModified": "2025-12-31T19:44:40.282Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+          "description": "Uitleg over hoe je je dak inspecteert, hoe vaak dit nodig is en welke punten je moet controleren om schade te voorkomen.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/dakinspectie"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan ik een dakinspectie zelf doen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, voor visuele controles is dit mogelijk, maar voor structurele beoordelingen of moeilijk bereikbare plekken is een vakman aan te raden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat kost een professionele inspectie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "De kosten variëren, maar vaak ligt dit tussen de €75 en €150, afhankelijk van de grootte en complexiteit van het dak."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welke schade signaleert een inspectie meestal het eerst?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Losse of gebroken dakpannen, scheuren in dakbedekking en beginnende houtrot worden meestal als eerste zichtbaar."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

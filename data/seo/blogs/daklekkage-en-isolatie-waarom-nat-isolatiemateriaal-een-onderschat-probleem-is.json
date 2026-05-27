@@ -1,0 +1,117 @@
+{
+  "title": "Daklekkage en isolatie: waarom nat isolatiemateriaal een onderschat probleem is",
+  "description": "Natte isolatie door daklekkage veroorzaakt verborgen schade, schimmel en energieverlies. Lees waarom drogen vaak niet voldoende is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is",
+  "ogTitle": "Daklekkage en isolatie: waarom nat isolatiemateriaal een onderschat probleem is",
+  "ogDescription": "Natte isolatie door daklekkage veroorzaakt verborgen schade, schimmel en energieverlies. Lees waarom drogen vaak niet voldoende is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Noklekkage%20lekkage%20nok.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Daklekkage en isolatie: waarom nat isolatiemateriaal een onderschat probleem is",
+      "datePublished": "2025-12-29T13:45:37.000Z",
+      "dateModified": "2025-12-29T13:45:50.105Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Noklekkage%20lekkage%20nok.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Daklekkage en isolatie: waarom nat isolatiemateriaal een onderschat probleem is",
+          "description": "Natte isolatie door daklekkage veroorzaakt verborgen schade, schimmel en energieverlies. Uitleg waarom drogen vaak niet voldoende is.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/daklekkage-en-isolatie"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Verliest isolatie direct zijn werking als het nat wordt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vrijwel alle isolatiematerialen verliezen een groot deel van hun isolerende werking zodra ze nat zijn, zelfs als dat niet zichtbaar is."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan isolatie opnieuw gebruikt worden na een daklekkage?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In de meeste gevallen niet. Isolatie die langdurig nat is geweest, herstelt zelden volledig en kan problemen blijven veroorzaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is schimmel in isolatie altijd zichtbaar in huis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Schimmel kan zich diep in de dakconstructie ontwikkelen zonder dat dit direct zichtbaar is op muren of plafonds."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Maakt het type dak verschil voor isolatieschade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Bij platte daken blijft vocht vaak langer aanwezig, terwijl bij hellende daken water zich sneller kan verspreiden over grotere oppervlakken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan goede ventilatie isolatieschade voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ventilatie helpt, maar voorkomt isolatieschade niet wanneer er sprake is van een actieve of langdurige daklekkage."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

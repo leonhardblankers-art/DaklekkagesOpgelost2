@@ -1,0 +1,180 @@
+{
+  "title": "Condensatie of daklekkage herkennen: dit is het verschil",
+  "description": "Twijfel je tussen condensatie en daklekkage? Lees hoe je de verschillen herkent aan vochtplekken, timing en patronen in huis.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+  "ogTitle": "Condensatie of daklekkage herkennen: dit is het verschil",
+  "ogDescription": "Twijfel je tussen condensatie en daklekkage? Lees hoe je de verschillen herkent aan vochtplekken, timing en patronen in huis.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/condensatie-of-daklekkage-vochtplekken-plafond.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Condensatie of daklekkage herkennen: dit is het verschil",
+      "datePublished": "2026-01-19T13:45:54.000Z",
+      "dateModified": "2026-02-19T23:41:01.557Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/condensatie-of-daklekkage-vochtplekken-plafond.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+          "url": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+          "name": "Condensatie of daklekkage: hoe herken je het verschil",
+          "description": "Twijfel je tussen condensatie en daklekkage? Lees hoe je de verschillen herkent aan vochtplekken, timing en patronen in huis.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/condensatie-of-daklekkage-vochtplekken-plafond.jpeg"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil#article"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Condensatie of daklekkage: hoe herken je het verschil",
+                "item": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil"
+              }
+            ]
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil#article",
+          "headline": "Condensatie of daklekkage: hoe herken je het verschil",
+          "description": "Twijfel je tussen condensatie en daklekkage? Lees hoe je de verschillen herkent aan vochtplekken, timing en patronen in huis.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/condensatie-of-daklekkage-vochtplekken-plafond.jpeg"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+            "name": "Dakisolatie",
+            "url": "https://www.daklekkagesopgelost.nl/dak-isoleren"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat#pillar",
+            "headline": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+          "name": "Dakisolatie",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+              "url": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+              "name": "Condensatie of daklekkage: hoe herken je het verschil"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

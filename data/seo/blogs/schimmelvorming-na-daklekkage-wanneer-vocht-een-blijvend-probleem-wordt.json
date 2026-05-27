@@ -1,0 +1,113 @@
+{
+  "title": "Schimmelvorming na daklekkage: wanneer vocht een blijvend probleem wordt",
+  "description": "Schimmel na daklekkage ontstaat vaak onzichtbaar. Lees hoe het ontstaat, wanneer het een structureel probleem wordt en waarom schoonmaken zelden genoeg is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt",
+  "ogTitle": "Schimmelvorming na daklekkage: wanneer vocht een blijvend probleem wordt",
+  "ogDescription": "Schimmel na daklekkage ontstaat vaak onzichtbaar. Lees hoe het ontstaat, wanneer het een structureel probleem wordt en waarom schoonmaken zelden genoeg is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/IMG-20251231-WA0009.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schimmelvorming na daklekkage: wanneer vocht een blijvend probleem wordt",
+      "datePublished": "2025-12-31T15:17:03.000Z",
+      "dateModified": "2025-12-31T15:17:03.073Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/IMG-20251231-WA0009.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Schimmelvorming na daklekkage: wanneer vocht een blijvend probleem wordt",
+          "description": "Schimmel na daklekkage ontstaat vaak onzichtbaar en wijst op langdurige vochtschade in dakconstructie en isolatie.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/schimmelvorming-na-daklekkage"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/daklekkage-oorzaken-uit-de-praktijk"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ontstaat schimmel altijd door een daklekkage?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Schimmel kan ook ontstaan door condensatie of slechte ventilatie. Bij daklekkages is de schimmel vaak plaatselijk en gekoppeld aan waterschade in de constructie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is schimmel na een lekkage gevaarlijk voor de gezondheid?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat hangt af van de hoeveelheid, locatie en blootstelling. Niet elke schimmelplek vormt direct een gezondheidsrisico, maar langdurige aanwezigheid is wel ongewenst."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan schimmel vanzelf verdwijnen als het dak droog is?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Het stoppen van de lekkage voorkomt verergering, maar bestaande schimmel blijft aanwezig en moet worden aangepakt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Moet isolatie altijd vervangen worden bij schimmelvorming?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Niet altijd, maar isolatie die langdurig nat is geweest vormt vaak een blijvend risico op schimmel en functieverlies."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

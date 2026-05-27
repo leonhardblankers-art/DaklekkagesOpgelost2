@@ -1,0 +1,157 @@
+{
+  "title": "Tijdelijk dakprobleem of structurele schade? Zo herken je het verschil",
+  "description": "Soms is een dakprobleem een incident, soms een terugkerende zwakte. Leer de signalen, oorzaken en beslisregels om herhaalrisico en gevolgschade te voorkomen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil",
+  "ogTitle": "Tijdelijk dakprobleem of structurele schade? Zo herken je het verschil",
+  "ogDescription": "Soms is een dakprobleem een incident, soms een terugkerende zwakte. Leer de signalen, oorzaken en beslisregels om herhaalrisico en gevolgschade te voorkomen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Structurele%20dakschade.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Tijdelijk dakprobleem of structurele schade? Zo herken je het verschil",
+      "datePublished": "2026-02-08T11:45:47.000Z",
+      "dateModified": "2026-02-08T11:45:51.480Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Structurele%20dakschade.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade",
+          "url": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade",
+          "name": "Tijdelijke dakproblemen versus structurele schade",
+          "description": "Soms is een dakprobleem een incident, soms een terugkerende zwakte. Leer de signalen, oorzaken en beslisregels om herhaalrisico en gevolgschade te voorkomen.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Structurele%20dakschade.jpeg?width=860&t=1770550991421"
+          },
+          "datePublished": "2026-02-08T08:00:00+01:00",
+          "dateModified": "2026-02-08T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade#article"
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade#article",
+          "headline": "Tijdelijke dakproblemen versus structurele schade",
+          "description": "Soms is een dakprobleem een incident, soms een terugkerende zwakte. Leer de signalen, oorzaken en beslisregels om herhaalrisico en gevolgschade te voorkomen.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Structurele%20dakschade.jpeg?width=860&t=1770550991421"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-02-08T08:00:00+01:00",
+          "dateModified": "2026-02-08T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+            "name": "Dakinspectie",
+            "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn#pillar",
+            "headline": "Dakprobleem of toeval? Wanneer signalen echt serieus zijn",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade",
+              "url": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-dakproblemen-versus-structurele-schade",
+              "name": "Tijdelijke dakproblemen versus structurele schade"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

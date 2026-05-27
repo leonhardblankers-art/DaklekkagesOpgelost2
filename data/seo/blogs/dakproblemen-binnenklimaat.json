@@ -1,0 +1,206 @@
+{
+  "title": "Dakproblemen en binnenklimaat: invloed op comfort en gezondheid",
+  "description": "Ontdek hoe dakproblemen invloed hebben op het binnenklimaat, comfort en gezondheid in huis en waarom klachten vaak binnenshuis beginnen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakproblemen-binnenklimaat",
+  "ogTitle": "Dakproblemen en binnenklimaat: invloed op comfort en gezondheid",
+  "ogDescription": "Ontdek hoe dakproblemen invloed hebben op het binnenklimaat, comfort en gezondheid in huis en waarom klachten vaak binnenshuis beginnen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/dakproblemen-binnenklimaat-dakconstructie-doorsnede.png",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakproblemen-binnenklimaat"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakproblemen en binnenklimaat: invloed op comfort en gezondheid",
+      "datePublished": "2026-01-19T13:24:31.000Z",
+      "dateModified": "2026-02-19T23:37:11.709Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/dakproblemen-binnenklimaat-dakconstructie-doorsnede.png"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat",
+          "name": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden",
+          "description": "Uitleg over hoe dakproblemen invloed hebben op het binnenklimaat, wooncomfort en gezondheid, en waarom klachten vaak eerst binnenshuis merkbaar zijn.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakproblemen-binnenklimaat-dakconstructie-doorsnede.png"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat#pillar"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden",
+                "item": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat#pillar",
+          "headline": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden",
+          "description": "Uitleg over hoe dakproblemen invloed hebben op het binnenklimaat, wooncomfort en gezondheid, en waarom klachten vaak eerst binnenshuis merkbaar zijn.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/dakproblemen-binnenklimaat-dakconstructie-doorsnede.png"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+            "name": "Dakisolatie",
+            "url": "https://www.daklekkagesopgelost.nl/dak-isoleren"
+          },
+          "hasPart": [
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+              "headline": "Condensatie of daklekkage: hoe herken je het verschil"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+              "headline": "Schimmelvorming door dakgerelateerde vochtproblemen"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/warmteverlies-via-het-dak-en-de-rol-van-isolatie#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/warmteverlies-via-het-dak-en-de-rol-van-isolatie",
+              "headline": "Warmteverlies via het dak en de rol van isolatie"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/ventilatieproblemen-in-relatie-tot-dakconstructie#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/ventilatieproblemen-in-relatie-tot-dakconstructie",
+              "headline": "Ventilatieproblemen in relatie tot dakconstructie"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/gezondheidsklachten-door-verborgen-dakschade#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/gezondheidsklachten-door-verborgen-dakschade",
+              "headline": "Gezondheidsklachten door verborgen dakschade"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn#article",
+              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn",
+              "headline": "Waarom dakproblemen vaak eerst binnenshuis merkbaar zijn"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+          "name": "Dakisolatie",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat",
+              "url": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat",
+              "name": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Daklood vervangen: zo gaat een professionele dakdekker te werk",
+  "description": "Lees hoe een professionele dakdekker daklood vervangt, welke stappen daarbij horen en waarom de uitvoering bepalend is voor een duurzaam resultaat.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk",
+  "ogTitle": "Daklood vervangen: zo gaat een professionele dakdekker te werk",
+  "ogDescription": "Lees hoe een professionele dakdekker daklood vervangt, welke stappen daarbij horen en waarom de uitvoering bepalend is voor een duurzaam resultaat.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklood%20vervangen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Daklood vervangen: zo gaat een professionele dakdekker te werk",
+      "datePublished": "2026-01-11T23:09:46.000Z",
+      "dateModified": "2026-01-11T23:09:52.863Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Daklood%20vervangen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk#article",
+          "headline": "Daklood vervangen: zo gaat een professionele dakdekker te werk",
+          "description": "Lees hoe een professionele dakdekker daklood vervangt, welke stappen daarbij horen en waarom de uitvoering bepalend is voor een duurzaam resultaat.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204731200790?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768172916982&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-11T09:00:00+01:00",
+          "dateModified": "2026-01-11T09:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
+              "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
+              "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

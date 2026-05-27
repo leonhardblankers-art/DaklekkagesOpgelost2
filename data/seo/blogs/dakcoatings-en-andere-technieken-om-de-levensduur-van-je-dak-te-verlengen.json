@@ -1,0 +1,105 @@
+{
+  "title": "Dakcoatings en andere technieken om de levensduur van je dak te verlengen",
+  "description": "Lees wanneer dakcoatings en andere technieken de levensduur van je dak kunnen verlengen en waar de grenzen van deze oplossingen liggen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen",
+  "ogTitle": "Dakcoatings en andere technieken om de levensduur van je dak te verlengen",
+  "ogDescription": "Lees wanneer dakcoatings en andere technieken de levensduur van je dak kunnen verlengen en waar de grenzen van deze oplossingen liggen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakcoatings%20om%20de%20levensduur%20van%20je%20dak%20te%20verlengen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakcoatings en andere technieken om de levensduur van je dak te verlengen",
+      "datePublished": "2025-12-31T20:00:48.000Z",
+      "dateModified": "2025-12-31T20:00:54.715Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Dakcoatings%20om%20de%20levensduur%20van%20je%20dak%20te%20verlengen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakcoatings en andere technieken om de levensduur van je dak te verlengen",
+          "description": "Uitleg over dakcoatings en andere maatregelen die de levensduur van een dak tijdelijk kunnen verlengen.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/dakcoatings-levensduur"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/wanneer-is-een-dak-echt-toe-aan-vervanging"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe lang verlengt een dakcoating de levensduur?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een dakcoating kan de levensduur met enkele jaren verlengen, afhankelijk van de staat van het dak."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is een coating goedkoper dan dakvervanging?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Op korte termijn wel, maar een coating vervangt geen structurele dakvernieuwing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan elke dakbedekking worden gecoat?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, niet alle dakbedekkingen zijn geschikt. De conditie van het dak is bepalend."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Nederland"
+          }
+        }
+      ]
+    }
+  ]
+}

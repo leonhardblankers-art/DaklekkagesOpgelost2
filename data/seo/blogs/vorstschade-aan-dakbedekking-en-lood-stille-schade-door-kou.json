@@ -1,0 +1,117 @@
+{
+  "title": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+  "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+  "ogTitle": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+  "ogDescription": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Banner%20plat%20dak%20overlagen.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+      "datePublished": "2026-01-08T20:31:32.000Z",
+      "dateModified": "2026-01-20T18:45:12.584Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Banner%20plat%20dak%20overlagen.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#article",
+          "headline": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+          "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/186699139731?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1740691377727&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-08T09:00:00+01:00",
+          "dateModified": "2026-01-08T09:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+              "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+              "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

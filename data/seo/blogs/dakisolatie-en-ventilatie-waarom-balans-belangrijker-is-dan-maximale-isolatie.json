@@ -1,0 +1,122 @@
+{
+  "title": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
+  "description": "Waarom is ventilatie onmisbaar bij dakisolatie? Lees hoe isolatie en ventilatie samen vochtproblemen voorkomen en het dak gezond houden.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie",
+  "ogTitle": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
+  "ogDescription": "Waarom is ventilatie onmisbaar bij dakisolatie? Lees hoe isolatie en ventilatie samen vochtproblemen voorkomen en het dak gezond houden.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Ventilerende%20nokvorsten%20om%20dak%20te%20ventileren.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
+      "datePublished": "2025-12-29T17:55:33.000Z",
+      "dateModified": "2025-12-29T18:41:17.227Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Ventilerende%20nokvorsten%20om%20dak%20te%20ventileren.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
+          "description": "Meer dakisolatie betekent niet automatisch een beter resultaat. Lees waarom ventilatie essentieel is voor comfort, vochtbeheersing en een gezond dak.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-01-09",
+          "dateModified": "2025-01-09",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "headline": "Dakisolatie: wat levert het op?",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Waarom is ventilatie zo belangrijk bij dakisolatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ventilatie voert vochtige lucht af en voorkomt dat warme lucht in de dakconstructie condenseert, wat schade en comfortproblemen kan veroorzaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan te veel isolatie problemen veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Zonder voldoende ventilatie kan een sterk geïsoleerde woning juist meer last krijgen van vocht, schimmel en een benauwd binnenklimaat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Moet ventilatie altijd worden aangepast bij dakisolatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In veel gevallen wel. Zeker bij ingrijpende isolatiemaatregelen is het belangrijk om te kijken of de bestaande ventilatie nog voldoende is."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat gebeurt er als ventilatie ontbreekt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gebrek aan ventilatie kan leiden tot condensatie, schimmelvorming en aantasting van isolatie en houtconstructies."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is balans tussen isolatie en ventilatie altijd nodig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Alleen wanneer isolatie en ventilatie goed op elkaar zijn afgestemd, ontstaat een comfortabel en duurzaam resultaat."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

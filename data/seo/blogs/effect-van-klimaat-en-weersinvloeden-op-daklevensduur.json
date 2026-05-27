@@ -1,0 +1,101 @@
+{
+  "title": "Effect van klimaat en weersinvloeden op daklevensduur",
+  "description": "Ontdek hoe klimaat en weersinvloeden de levensduur van je dak beïnvloeden en leer wat je kunt doen om schade en slijtage te beperken.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur",
+  "ogTitle": "Effect van klimaat en weersinvloeden op daklevensduur",
+  "ogDescription": "Ontdek hoe klimaat en weersinvloeden de levensduur van je dak beïnvloeden en leer wat je kunt doen om schade en slijtage te beperken.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Snapchat-1685934179.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Effect van klimaat en weersinvloeden op daklevensduur",
+      "datePublished": "2025-12-31T19:39:18.000Z",
+      "dateModified": "2025-12-31T19:39:38.530Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Snapchat-1685934179.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Hoe het klimaat en het weer de levensduur van je dak beïnvloeden",
+          "description": "Leer hoe zon, regen, storm en vorst de levensduur van je dak beïnvloeden en hoe je schade vroegtijdig kunt signaleren.",
+          "author": {
+            "@type": "Person",
+            "name": "Dakexpert"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/klimaat-en-daklevensduur"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Versnelt regen de slijtage van alle daktypes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, vooral platte daken zijn gevoelig voor waterophoping. Hellende daken voeren water beter af."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is veel zon altijd slecht voor een dak?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zon veroorzaakt uitdroging en scheurtjes bij sommige materialen, maar goed onderhouden en kwalitatief dakbedekking kan dit vaak goed weerstaan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe vaak moet ik controleren na extreme weersomstandigheden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Na zware stormen, hevige regen of langdurige droogte is het verstandig een inspectie uit te voeren."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

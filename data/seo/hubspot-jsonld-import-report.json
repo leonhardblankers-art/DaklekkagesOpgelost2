@@ -1,0 +1,105 @@
+{
+  "updatedAt": "2026-05-27T00:16:47.505Z",
+  "results": [
+    {
+      "slug": "lekkages",
+      "url": "https://www.daklekkagesopgelost.nl/lekkages/",
+      "status": "updated",
+      "graphCount": 6
+    },
+    {
+      "slug": "loodslabben-lekkage",
+      "url": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/",
+      "status": "updated",
+      "graphCount": 4
+    },
+    {
+      "slug": "noklekkage",
+      "url": "https://www.daklekkagesopgelost.nl/noklekkage/",
+      "status": "updated",
+      "graphCount": 3
+    },
+    {
+      "slug": "schoorsteenlekkage",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
+      "status": "updated",
+      "graphCount": 3
+    },
+    {
+      "slug": "rapportage-dakinspectie",
+      "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+      "status": "updated",
+      "graphCount": 3
+    },
+    {
+      "slug": "lekkage-opsporen",
+      "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+      "status": "updated",
+      "graphCount": 3
+    },
+    {
+      "slug": "daklekkage",
+      "url": "https://www.daklekkagesopgelost.nl/daklekkage/",
+      "status": "updated",
+      "graphCount": null
+    },
+    {
+      "slug": "gratis-dakinspectie",
+      "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+      "status": "updated",
+      "graphCount": 3
+    },
+    {
+      "slug": "noodreparatie",
+      "url": "https://www.daklekkagesopgelost.nl/noodreparatie/",
+      "status": "updated",
+      "graphCount": 2
+    },
+    {
+      "slug": "schoorsteenrenovatie",
+      "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+      "status": "updated",
+      "graphCount": null
+    },
+    {
+      "slug": "spoedreparatie",
+      "url": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
+      "status": "updated",
+      "graphCount": 2
+    }
+  ],
+  "checkedInHubSpotNoJsonLd": [
+    "homepage",
+    "contact",
+    "diensten-dakkapel",
+    "diensten",
+    "diensten-schoorsteen",
+    "diensten-schuin-dak",
+    "diensten-plat-dak",
+    "diensten-loodafwerkingen",
+    "diensten-dakraam",
+    "diensten-dakgoot",
+    "over-ons",
+    "dakraamlood-vervangen",
+    "metselwerk-repareren",
+    "kozijnlood-vervangen",
+    "schoorsteen-opnieuw-opmetselen",
+    "pleisteren",
+    "trapsgewijs-lood-vervangen",
+    "nokrenovatie",
+    "daklood-vervangen",
+    "schoorsteen-verwijderen",
+    "schoorsteenlood-vervangen",
+    "schoorsteenlood-spouw-vervangen",
+    "dak-isoleren",
+    "plat-dak-overlagen",
+    "plat-dak-reparatie",
+    "plat-dak-vervangen",
+    "dak-reinigen",
+    "dakgoot-vervangen",
+    "dakkapel-renoveren",
+    "dakkapel-lood-vervangen",
+    "dakrenovatie"
+  ],
+  "note": "Voor checkedInHubSpotNoJsonLd is in HubSpot > Instellingen > Geavanceerd geen application/ld+json gevonden; bestaande lokale schema-data is daarom behouden."
+}

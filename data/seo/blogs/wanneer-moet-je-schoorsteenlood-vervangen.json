@@ -1,0 +1,96 @@
+{
+  "title": "Wanneer moet je schoorsteenlood vervangen?",
+  "description": "Wanneer moet je schoorsteenlood vervangen? Lees welke signalen wijzen op slijtage en hoe je problemen tijdig herkent.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen",
+  "ogTitle": "Wanneer moet je schoorsteenlood vervangen?",
+  "ogDescription": "Wanneer moet je schoorsteenlood vervangen? Lees welke signalen wijzen op slijtage en hoe je problemen tijdig herkent.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Slijtage%20aan%20loodwerk%20rond%20schoorsteen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wanneer moet je schoorsteenlood vervangen?",
+      "datePublished": "2026-01-01T22:44:31.000Z",
+      "dateModified": "2026-01-01T22:44:43.055Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Slijtage%20aan%20loodwerk%20rond%20schoorsteen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Wanneer moet je schoorsteenlood vervangen?",
+      "description": "Uitleg over slijtage van schoorsteenlood, herkenbare signalen en het juiste moment om te vervangen.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-01",
+      "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe herken ik beginnende slijtage van schoorsteenlood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beginnende slijtage is vaak te zien aan kleine scheurtjes, bros of dof lood en een minder goede aansluiting op het dak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Moet ik schoorsteenlood vervangen als er nog geen lekkage is?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niet altijd direct, maar het is wel een teken dat het lood zijn flexibiliteit verliest en de kans op toekomstige lekkage toeneemt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan oud lood nog jarenlang probleemloos blijven functioneren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat kan, maar naarmate lood stijver wordt neemt het risico op scheuren en lekkage toe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is slijtage van schoorsteenlood altijd zichtbaar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee, slijtage kan zich ook uiten via vochtproblemen binnen, terwijl het lood aan de buitenzijde nog redelijk oogt."
+          }
+        }
+      ]
+    }
+  ]
+}

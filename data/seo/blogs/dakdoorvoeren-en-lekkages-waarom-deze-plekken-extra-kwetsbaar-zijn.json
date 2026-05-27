@@ -1,0 +1,117 @@
+{
+  "title": "Dakdoorvoeren en lekkages | Kwetsbare plekken op het dak",
+  "description": "Lekkage bij dakdoorvoeren? Ontdek waarom ontluchtingspijpen en doorvoeren kwetsbaar zijn en hoe gerichte reparatie grotere dakschade voorkomt.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn",
+  "ogTitle": "Dakdoorvoeren en lekkages | Kwetsbare plekken op het dak",
+  "ogDescription": "Lekkage bij dakdoorvoeren? Ontdek waarom ontluchtingspijpen en doorvoeren kwetsbaar zijn en hoe gerichte reparatie grotere dakschade voorkomt.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakdoorvoeren-en-lekkages.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakdoorvoeren en lekkages | Kwetsbare plekken op het dak",
+      "datePublished": "2026-01-18T13:48:59.000Z",
+      "dateModified": "2026-01-18T13:49:11.696Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Dakdoorvoeren-en-lekkages.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn#article",
+          "headline": "Dakdoorvoeren en lekkages: waarom deze plekken extra kwetsbaar zijn",
+          "description": "Dakdoorvoeren zijn een veelvoorkomende oorzaak van daklekkage. Ontdek waarom deze aansluitingen extra kwetsbaar zijn en hoe lekkages ontstaan en worden voorkomen.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Dakdoorvoeren-en-lekkages.jpeg"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-18T09:00:00+01:00",
+          "dateModified": "2026-01-18T09:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
+              "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
+              "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

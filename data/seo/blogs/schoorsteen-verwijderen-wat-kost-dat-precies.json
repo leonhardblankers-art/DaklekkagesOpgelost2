@@ -1,0 +1,106 @@
+{
+  "title": "Schoorsteen verwijderen: wat kost dat precies?",
+  "description": "Wat kost het verwijderen van een schoorsteen? Uitleg over prijsbepalende factoren, dakherstel en waarom kosten per situatie verschillen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-kost-dat-precies",
+  "ogTitle": "Schoorsteen verwijderen: wat kost dat precies?",
+  "ogDescription": "Wat kost het verwijderen van een schoorsteen? Uitleg over prijsbepalende factoren, dakherstel en waarom kosten per situatie verschillen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Snapchat-539872473.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-kost-dat-precies"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteen verwijderen: wat kost dat precies?",
+      "datePublished": "2026-01-02T13:03:33.000Z",
+      "dateModified": "2026-01-02T13:03:33.365Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Snapchat-539872473.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Schoorsteen verwijderen: wat je moet weten",
+      "description": "Alles wat je moet weten over het verwijderen van een schoorsteen: werkwijze, risico’s, kosten en vergunningen, op een begrijpelijke manier uitgelegd.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-02",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen",
+      "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/logo.png"
+        }
+      },
+      "serviceArea": [
+        "Rivierenland",
+        "Bommelerwaard",
+        "Betuwe"
+      ],
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Moet ik altijd een schoorsteen verwijderen die niet meer in gebruik is?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee, een schoorsteen die niet meer gebruikt wordt hoeft niet automatisch verwijderd te worden. Als deze stabiel is en geen lekkages veroorzaakt, kan het ook blijven staan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is het zelf verwijderen van een schoorsteen een goed idee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Het zelf verwijderen van een schoorsteen brengt aanzienlijke risico’s met zich mee, zoals vallend puin en lekkages. Het is meestal verstandiger een specialist in te schakelen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe weet ik of mijn schoorsteen constructief belangrijk is?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een constructeur of dakexpert kan beoordelen of een schoorsteen dragend is en of verwijdering invloed heeft op de stabiliteit van muren en dak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat gebeurt er met het dak na verwijdering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Het dak moet worden hersteld en waterdicht gemaakt. Dit kan variëren van het vervangen van enkele dakpannen tot het volledig afdichten van het dakvlak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Heb ik een vergunning nodig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voor standaardwoningen is vaak geen vergunning nodig, maar bij monumentale panden of beschermde stadsgezichten kunnen regels gelden. Het is verstandig dit altijd bij de gemeente te controleren."
+          }
+        }
+      ]
+    }
+  ]
+}

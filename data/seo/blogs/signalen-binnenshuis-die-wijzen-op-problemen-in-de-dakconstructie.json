@@ -1,0 +1,180 @@
+{
+  "title": "Binnensignalen van problemen in de dakconstructie",
+  "description": "Vochtplekken, scheuren of doorhangende plafonds? Ontdek welke binnensignalen wijzen op problemen in de dakconstructie.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+  "ogTitle": "Binnensignalen van problemen in de dakconstructie",
+  "ogDescription": "Vochtplekken, scheuren of doorhangende plafonds? Ontdek welke binnensignalen wijzen op problemen in de dakconstructie.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/binnenshuis-signalen-problemen-dakconstructie.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Binnensignalen van problemen in de dakconstructie",
+      "datePublished": "2026-01-21T00:27:08.000Z",
+      "dateModified": "2026-02-22T20:43:36.655Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/binnenshuis-signalen-problemen-dakconstructie.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+          "url": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+          "name": "Signalen binnenshuis die wijzen op problemen in de dakconstructie",
+          "description": "Binnensignalen zoals vochtplekken, scheuren en doorhangende plafonds kunnen wijzen op problemen in de dakconstructie. Lees hoe je deze signalen herkent en wanneer ingrijpen nodig is.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/signalen-binnenshuis-problemen-dakconstructie"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie#article"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Signalen binnenshuis die wijzen op problemen in de dakconstructie",
+                "item": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie"
+              }
+            ]
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie#article",
+          "headline": "Signalen binnenshuis die wijzen op problemen in de dakconstructie",
+          "description": "Binnensignalen zoals vochtplekken, scheuren en doorhangende plafonds kunnen wijzen op problemen in de dakconstructie. Lees hoe je deze signalen herkent en wanneer ingrijpen nodig is.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/signalen-binnenshuis-problemen-dakconstructie"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-20T08:00:00+01:00",
+          "dateModified": "2026-01-20T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dakconstructie-herstellen#service",
+            "name": "Dakconstructie herstellen",
+            "url": "https://www.daklekkagesopgelost.nl/dakconstructie-herstellen"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
+            "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakconstructie-herstellen#service",
+          "name": "Dakconstructie herstellen",
+          "url": "https://www.daklekkagesopgelost.nl/dakconstructie-herstellen",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+              "url": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+              "name": "Signalen binnenshuis die wijzen op problemen in de dakconstructie"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

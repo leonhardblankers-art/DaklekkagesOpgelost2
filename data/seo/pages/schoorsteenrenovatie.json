@@ -7,83 +7,67 @@
   "ogDescription": "Schoorsteenrenovatie nodig? Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
-        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
-        "name": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
-        "description": "Schoorsteenrenovatie nodig? Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Schoorsteenrenovatie",
+      "description": "Professionele schoorsteenrenovatie voor het herstellen en waterdicht maken van schoorstenen, inclusief loodwerk, voegwerk en bovenplaat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Daklekkages Opgelost",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Nederland"
         }
       },
-      {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Schoorsteenrenovatie",
-        "description": "Professionele schoorsteenrenovatie voor het herstellen en waterdicht maken van schoorstenen, inclusief loodwerk, voegwerk en bovenplaat.",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Daklekkages Opgelost",
-          "areaServed": {
-            "@type": "Country",
-            "name": "Nederland"
+      "serviceType": "Schoorsteenrenovatie"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe weet ik of mijn schoorsteen toe is aan renovatie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Signalen zijn lekkage, loslatend voegwerk, scheuren in het metselwerk, mos- en algengroei en verouderd loodwerk. Een inspectie geeft zekerheid."
           }
         },
-        "serviceType": "Schoorsteenrenovatie"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Hoe weet ik of mijn schoorsteen toe is aan renovatie?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Signalen zijn lekkage, loslatend voegwerk, scheuren in het metselwerk, mos- en algengroei en verouderd loodwerk. Een inspectie geeft zekerheid."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Hoe lang duurt een schoorsteenrenovatie?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "In de meeste gevallen duurt een schoorsteenrenovatie één werkdag. Bij grotere renovaties kan dit langer duren."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is schoorsteenrenovatie verplicht?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nee, schoorsteenrenovatie is niet verplicht, maar wel belangrijk om lekkages en schade te voorkomen."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Kan ik in huis blijven tijdens de werkzaamheden?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, de werkzaamheden vinden voornamelijk buiten plaats, waardoor u gewoon in de woning kunt blijven."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is impregneren van de schoorsteen noodzakelijk?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Impregneren is niet altijd noodzakelijk, maar wordt vaak aanbevolen bij poreus metselwerk om vochtopname te beperken."
-            }
+        {
+          "@type": "Question",
+          "name": "Hoe lang duurt een schoorsteenrenovatie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In de meeste gevallen duurt een schoorsteenrenovatie één werkdag. Bij grotere renovaties kan dit langer duren."
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "@type": "Question",
+          "name": "Is schoorsteenrenovatie verplicht?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee, schoorsteenrenovatie is niet verplicht, maar wel belangrijk om lekkages en schade te voorkomen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ik in huis blijven tijdens de werkzaamheden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, de werkzaamheden vinden voornamelijk buiten plaats, waardoor u gewoon in de woning kunt blijven."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is impregneren van de schoorsteen noodzakelijk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Impregneren is niet altijd noodzakelijk, maar wordt vaak aanbevolen bij poreus metselwerk om vochtopname te beperken."
+          }
+        }
+      ]
+    }
+  ]
 }

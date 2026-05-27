@@ -1,0 +1,180 @@
+{
+  "title": "Schimmelvorming door dakproblemen en vocht in huis",
+  "description": "Lees hoe vochtproblemen in het dak kunnen leiden tot schimmelvorming en waarom de oorzaak vaak verborgen blijft in de constructie.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+  "ogTitle": "Schimmelvorming door dakproblemen en vocht in huis",
+  "ogDescription": "Lees hoe vochtproblemen in het dak kunnen leiden tot schimmelvorming en waarom de oorzaak vaak verborgen blijft in de constructie.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/schimmelvorming-door-vocht-dakconstructie-plafond.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schimmelvorming door dakproblemen en vocht in huis",
+      "datePublished": "2026-01-19T13:51:02.000Z",
+      "dateModified": "2026-02-19T23:43:28.962Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/schimmelvorming-door-vocht-dakconstructie-plafond.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+          "name": "Schimmelvorming door dakgerelateerde vochtproblemen",
+          "description": "Lees hoe dakgerelateerde vochtproblemen kunnen leiden tot schimmelvorming en waarom de oorzaak vaak verborgen blijft in de dakconstructie.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/schimmelvorming-door-vocht-dakconstructie-plafond.jpg"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen#article"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.daklekkagesopgelost.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://www.daklekkagesopgelost.nl/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Schimmelvorming door dakgerelateerde vochtproblemen",
+                "item": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen"
+              }
+            ]
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen#article",
+          "headline": "Schimmelvorming door dakgerelateerde vochtproblemen",
+          "description": "Lees hoe dakgerelateerde vochtproblemen kunnen leiden tot schimmelvorming en waarom de oorzaak vaak verborgen blijft in de dakconstructie.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/schimmelvorming-door-vocht-dakconstructie-plafond.jpg"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-19T00:00:00+01:00",
+          "dateModified": "2026-01-19T00:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+            "name": "Dakisolatie",
+            "url": "https://www.daklekkagesopgelost.nl/dak-isoleren"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat#pillar",
+            "headline": "Hoe dakproblemen het binnenklimaat, comfort en gezondheid beïnvloeden",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakproblemen-en-binnenklimaat"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren#service",
+          "name": "Dakisolatie",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+              "name": "Schimmelvorming door dakgerelateerde vochtproblemen"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

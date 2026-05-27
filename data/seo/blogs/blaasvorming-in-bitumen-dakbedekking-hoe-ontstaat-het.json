@@ -1,0 +1,36 @@
+{
+  "title": "Blaasvorming in bitumen dakbedekking: hoe ontstaat het?",
+  "description": "Blaasvorming in bitumen lijkt onschuldig, maar wijst vaak op opgesloten vocht. Lees hoe blazen ontstaan en wanneer ze een serieus probleem worden.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het",
+  "ogTitle": "Blaasvorming in bitumen dakbedekking: hoe ontstaat het?",
+  "ogDescription": "Blaasvorming in bitumen lijkt onschuldig, maar wijst vaak op opgesloten vocht. Lees hoe blazen ontstaan en wanneer ze een serieus probleem worden.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg",
+  "schema": {
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://www.daklekkagesopgelost.nl/blog/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het"
+    },
+    "author": {
+      "name": "Leonhard Blankers",
+      "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+      "@type": "Person"
+    },
+    "headline": "Blaasvorming in bitumen dakbedekking: hoe ontstaat het?",
+    "datePublished": "2026-01-13T08:59:56.000Z",
+    "dateModified": "2026-01-14T17:58:16.051Z",
+    "publisher": {
+      "logo": {
+        "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+        "@type": "ImageObject"
+      },
+      "@type": "Organization"
+    },
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "image": [
+      "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg"
+    ]
+  }
+}

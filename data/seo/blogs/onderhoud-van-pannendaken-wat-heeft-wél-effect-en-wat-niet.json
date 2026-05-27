@@ -1,0 +1,105 @@
+{
+  "title": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+  "description": "Wat heeft onderhoud aan pannendaken echt voor effect? Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+  "ogTitle": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+  "ogDescription": "Wat heeft onderhoud aan pannendaken echt voor effect? Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Vervuild%20dak%20diensten%20dak%20reinigen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+      "datePublished": "2025-12-31T18:55:53.000Z",
+      "dateModified": "2025-12-31T18:55:58.403Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Vervuild%20dak%20diensten%20dak%20reinigen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+          "description": "Uitleg over zinvol onderhoud aan pannendaken, de rol van details en waarom niet elk zichtbaar probleem direct ingrijpen vraagt.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/onderhoud-pannendaken"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Moeten dakpannen periodiek worden vervangen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Dakpannen hebben vaak een lange levensduur. Vervanging is pas nodig wanneer breuk, slijtage of onderliggende problemen dat rechtvaardigen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan mos op dakpannen lekkage veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Indirect wel. Mos houdt vocht vast en kan de waterafvoer verstoren, waardoor onderliggende onderdelen zwaarder worden belast."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Zijn lekkages bij pannendaken altijd zichtbaar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Water kan via folie en constructie een andere route volgen, waardoor schade pas later zichtbaar wordt."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

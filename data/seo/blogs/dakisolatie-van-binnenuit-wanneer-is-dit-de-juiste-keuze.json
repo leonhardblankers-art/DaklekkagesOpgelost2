@@ -1,0 +1,194 @@
+{
+  "title": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
+  "description": "Wanneer is dakisolatie van binnenuit een verstandige keuze? Lees over voordelen, beperkingen, ventilatie en materiaalkeuze.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze",
+  "ogTitle": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
+  "ogDescription": "Wanneer is dakisolatie van binnenuit een verstandige keuze? Lees over voordelen, beperkingen, ventilatie en materiaalkeuze.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Dakisolatie_-wat-het-oplevert%20(1).webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
+      "datePublished": "2025-12-29T10:51:33.000Z",
+      "dateModified": "2026-01-03T18:39:11.331Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Dakisolatie_-wat-het-oplevert%20(1).webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze#article",
+          "headline": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
+          "description": "Wanneer is dakisolatie van binnenuit een verstandige keuze? Lees over voordelen, beperkingen, ventilatie en materiaalkeuze.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Dakisolatie_-wat-het-oplevert%20(1).webp"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2025-12-29",
+          "dateModified": "2026-01-03",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
+          "description": "Wanneer is dakisolatie van binnenuit een verstandige keuze? Uitleg over voordelen, beperkingen, ventilatie en materiaalkeuze.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/dakisolatie-van-binnenuit"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is dakisolatie van binnenuit altijd goedkoper dan van buitenaf?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vaak wel, omdat de dakbedekking niet verwijderd hoeft te worden. Extra kosten kunnen ontstaan door afwerking, dampremming en ventilatie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan ik zelf dakisolatie van binnenuit aanbrengen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kleine delen zijn soms zelf te isoleren, maar fouten in dampremming en aansluiting kunnen later vochtproblemen veroorzaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoeveel ruimte verlies ik door binnenisolatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Afhankelijk van materiaal en dakconstructie kan het ruimteverlies variëren van enkele centimeters tot meer dan tien centimeter."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is binnenisolatie geschikt bij een plat dak?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bij platte daken brengt binnenisolatie extra risico’s op condens met zich mee en is isolatie aan de buitenzijde vaak geschikter."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Heeft dakisolatie van binnenuit invloed op geluid?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vooral bij hellende daken kan het geluid van regen en omgevingsgeluid merkbaar afnemen, afhankelijk van het isolatiemateriaal."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "title": "Daklekkage gevonden maar niet opgelost? Dit is waarom",
+  "description": "De oorzaak van een daklekkage ligt vaak niet waar de schade zichtbaar wordt. Lees waarom verkeerde diagnoses zo vaak voorkomen.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+  "ogTitle": "Daklekkage gevonden maar niet opgelost? Dit is waarom",
+  "ogDescription": "De oorzaak van een daklekkage ligt vaak niet waar de schade zichtbaar wordt. Lees waarom verkeerde diagnoses zo vaak voorkomen.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/daklekkage-zichtbaar-bij-rookgasafvoer-binnen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Daklekkage gevonden maar niet opgelost? Dit is waarom",
+      "datePublished": "2026-01-28T11:59:46.000Z",
+      "dateModified": "2026-02-01T19:46:39.111Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Imported_Blog_Media/daklekkage-zichtbaar-bij-rookgasafvoer-binnen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+          "url": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+          "name": "Waarom een daklekkage vaak niet op de juiste plek wordt gevonden",
+          "description": "De oorzaak van een daklekkage ligt vaak niet waar de schade zichtbaar wordt. Lees waarom verkeerde diagnoses zo vaak voorkomen.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Imported_Blog_Media/daklekkage-zichtbaar-bij-rookgasafvoer-binnen.jpg?width=860&t=1769534705400"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntity": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden#article"
+          },
+          "isPartOf": {
+            "@type": "Blog",
+            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+            "name": "Daklekkages Opgelost Blog",
+            "url": "https://www.daklekkagesopgelost.nl/blog"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden#article",
+          "headline": "Waarom een daklekkage vaak niet op de juiste plek wordt gevonden",
+          "description": "De oorzaak van een daklekkage ligt vaak niet waar de schade zichtbaar wordt. Lees waarom verkeerde diagnoses zo vaak voorkomen.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Imported_Blog_Media/daklekkage-zichtbaar-bij-rookgasafvoer-binnen.jpg?width=860&t=1769534705400"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-02-01T08:00:00+01:00",
+          "dateModified": "2026-02-01T08:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden"
+          },
+          "about": {
+            "@type": "Service",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+            "name": "daklekkage oplossen",
+            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
+          },
+          "isPartOf": {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar",
+            "headline": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
+          "name": "daklekkage oplossen",
+          "url": "https://www.daklekkagesopgelost.nl/daklekkage",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "isReferencedBy": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+              "name": "Waarom een daklekkage vaak niet op de juiste plek wordt gevonden"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

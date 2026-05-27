@@ -1,0 +1,117 @@
+{
+  "title": "Zelf schoorsteen verwijderen of uitbesteden?",
+  "description": "Zelf een schoorsteen verwijderen of uitbesteden? Lees over risico’s, veiligheid en wanneer uitbesteden de verstandigste keuze is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/zelf-schoorsteen-verwijderen-of-uitbesteden",
+  "ogTitle": "Zelf schoorsteen verwijderen of uitbesteden?",
+  "ogDescription": "Zelf een schoorsteen verwijderen of uitbesteden? Lees over risico’s, veiligheid en wanneer uitbesteden de verstandigste keuze is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/zelf-schoorsteen-verwijderen-of-uitbesteden"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Zelf schoorsteen verwijderen of uitbesteden?",
+      "datePublished": "2026-01-03T19:36:48.000Z",
+      "dateModified": "2026-01-03T19:36:48.870Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20verwijderen.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-schoorsteen-verwijderen-of-uitbesteden#article",
+          "headline": "Zelf schoorsteen verwijderen of uitbesteden?",
+          "description": "Zelf een schoorsteen verwijderen of uitbesteden? Lees over risico’s, veiligheid en wanneer uitbesteden de verstandigste keuze is.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Schoorsteen%20verwijderen.jpeg?width=860&t=1767467819167"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-03",
+          "dateModified": "2026-01-03",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-schoorsteen-verwijderen-of-uitbesteden"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten#pillar",
+              "headline": "Schoorsteen verwijderen wat je moet weten",
+              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

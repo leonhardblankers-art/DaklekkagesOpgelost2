@@ -1,0 +1,105 @@
+{
+  "title": "Onderhoud aan platte daken: waar gaat het in de praktijk mis?",
+  "description": "Waar gaat onderhoud aan platte daken vaak mis? Inzicht in afvoer, naden en slijtage, en waarom problemen meestal geleidelijk ontstaan.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis",
+  "ogTitle": "Onderhoud aan platte daken: waar gaat het in de praktijk mis?",
+  "ogDescription": "Waar gaat onderhoud aan platte daken vaak mis? Inzicht in afvoer, naden en slijtage, en waarom problemen meestal geleidelijk ontstaan.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Onderhoud aan platte daken: waar gaat het in de praktijk mis?",
+      "datePublished": "2025-12-31T18:50:45.000Z",
+      "dateModified": "2025-12-31T18:51:02.347Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Onderhoud aan platte daken: waar gaat het in de praktijk mis?",
+          "description": "Inzicht in waar onderhoud aan platte daken vaak tekortschiet en hoe kleine gebreken zich geleidelijk ontwikkelen tot grotere problemen.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/onderhoud-platte-daken"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hoe vaak moet een plat dak gecontroleerd worden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat hangt af van de leeftijd en opbouw van het dak. Oudere platte daken en daken met veel details vragen doorgaans vaker controle."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is stilstaand water op een plat dak altijd een probleem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kortdurende waterplassen zijn meestal geen direct probleem. Langdurig stilstaand water vergroot wel de kans op slijtage en lekkages."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kun je slijtage aan een plat dak altijd zien?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. Veel slijtage ontstaat bij naden, onder vuil of grind en is zonder gerichte inspectie niet direct zichtbaar."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

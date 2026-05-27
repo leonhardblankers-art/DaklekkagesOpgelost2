@@ -1,0 +1,96 @@
+{
+  "title": "Schoorsteenlood repareren of vervangen: wat is verstandig?",
+  "description": "Schoorsteenlood repareren of vervangen? Lees wanneer herstel volstaat en wanneer vervangen verstandiger is.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig",
+  "ogTitle": "Schoorsteenlood repareren of vervangen: wat is verstandig?",
+  "ogDescription": "Schoorsteenlood repareren of vervangen? Lees wanneer herstel volstaat en wanneer vervangen verstandiger is.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20lood%20oud%20diensten%20schoorsteenlood%20vervangen.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteenlood repareren of vervangen: wat is verstandig?",
+      "datePublished": "2026-01-01T22:54:30.000Z",
+      "dateModified": "2026-01-01T22:54:36.498Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/schoorsteen%20lood%20oud%20diensten%20schoorsteenlood%20vervangen.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Schoorsteenlood repareren of vervangen: wat is verstandig?",
+      "description": "Inzicht in wanneer repareren van schoorsteenlood volstaat en wanneer vervangen een duurzamere keuze is.",
+      "author": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Daklekkages Opgelost"
+      },
+      "datePublished": "2026-01-01",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wanneer is repareren van schoorsteenlood nog zinvol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Repareren kan zinvol zijn bij beperkte, lokale schade wanneer het lood verder nog flexibel is en goed aansluit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wanneer is vervangen van schoorsteenlood verstandiger?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vervangen is meestal verstandiger wanneer het lood op meerdere plekken scheurt of zijn flexibiliteit heeft verloren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is repareren altijd goedkoper dan vervangen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op korte termijn vaak wel, maar bij herhaalde schade kan vervangen op de lange termijn voordeliger zijn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan repareren lekkage volledig voorkomen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reparatie kan lekkage verminderen of tijdelijk stoppen, maar biedt geen garantie bij verouderd of bros lood."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "imported": 158,
+  "totalRows": 158,
+  "clusters": [
+    {
+      "number": 1,
+      "cluster": "Dakonderhoud & Inspectie",
+      "clusterSlug": "01-dakonderhoud-en-inspectie",
+      "count": 8
+    },
+    {
+      "number": 2,
+      "cluster": "Daklekkage & Schade",
+      "clusterSlug": "02-daklekkage-en-schade",
+      "count": 7
+    },
+    {
+      "number": 3,
+      "cluster": "Dakvervanging & Levensduur",
+      "clusterSlug": "03-dakvervanging-en-levensduur",
+      "count": 6
+    },
+    {
+      "number": 4,
+      "cluster": "Dakisolatie & Duurzaamheid",
+      "clusterSlug": "04-dakisolatie-en-duurzaamheid",
+      "count": 7
+    },
+    {
+      "number": 5,
+      "cluster": "Schoorsteenrenovatie",
+      "clusterSlug": "05-schoorsteenrenovatie",
+      "count": 9
+    },
+    {
+      "number": 6,
+      "cluster": "Schoorsteen lood vervangen",
+      "clusterSlug": "06-schoorsteen-lood-vervangen",
+      "count": 8
+    },
+    {
+      "number": 7,
+      "cluster": "Schoorsteen verwijderen",
+      "clusterSlug": "07-schoorsteen-verwijderen",
+      "count": 7
+    },
+    {
+      "number": 8,
+      "cluster": "Dakkapel renoveren",
+      "clusterSlug": "08-dakkapel-renoveren",
+      "count": 7
+    },
+    {
+      "number": 9,
+      "cluster": "dakkapel lood vervangen",
+      "clusterSlug": "09-dakkapel-lood-vervangen",
+      "count": 8
+    },
+    {
+      "number": 10,
+      "cluster": "Dakraam",
+      "clusterSlug": "10-dakraam",
+      "count": 5
+    },
+    {
+      "number": 11,
+      "cluster": "Daklood",
+      "clusterSlug": "11-daklood",
+      "count": 11
+    },
+    {
+      "number": 12,
+      "cluster": "Plat dak",
+      "clusterSlug": "12-plat-dak",
+      "count": 13
+    },
+    {
+      "number": 13,
+      "cluster": "Dakrenovatie",
+      "clusterSlug": "13-dakrenovatie",
+      "count": 13
+    },
+    {
+      "number": 16,
+      "cluster": "Weersinvloeden en dakschade",
+      "clusterSlug": "16-weersinvloeden-en-dakschade",
+      "count": 8
+    },
+    {
+      "number": 17,
+      "cluster": "Dakdetails als faalpunten",
+      "clusterSlug": "17-dakdetails-als-faalpunten",
+      "count": 6
+    },
+    {
+      "number": 18,
+      "cluster": "Veroudering & levensduur",
+      "clusterSlug": "18-veroudering-en-levensduur",
+      "count": 7
+    },
+    {
+      "number": 19,
+      "cluster": "binnenklimaat",
+      "clusterSlug": "19-binnenklimaat",
+      "count": 7
+    },
+    {
+      "number": 20,
+      "cluster": "Constructieve dakproblemen",
+      "clusterSlug": "20-constructieve-dakproblemen",
+      "count": 7
+    },
+    {
+      "number": 21,
+      "cluster": "Terugkerende lekkages",
+      "clusterSlug": "21-terugkerende-lekkages",
+      "count": 7
+    },
+    {
+      "number": 22,
+      "cluster": "Twijfel & Interpretatie",
+      "clusterSlug": "22-twijfel-en-interpretatie",
+      "count": 7
+    }
+  ],
+  "errors": [],
+  "images": []
+}

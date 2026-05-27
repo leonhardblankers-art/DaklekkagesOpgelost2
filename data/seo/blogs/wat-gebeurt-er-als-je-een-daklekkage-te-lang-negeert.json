@@ -1,0 +1,113 @@
+{
+  "title": "Wat gebeurt er als je een daklekkage te lang negeert?",
+  "description": "Wat zijn de gevolgen van een daklekkage die te lang wordt genegeerd? Lees hoe vocht schade veroorzaakt aan dak, isolatie en binnenklimaat.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert",
+  "ogTitle": "Wat gebeurt er als je een daklekkage te lang negeert?",
+  "ogDescription": "Wat zijn de gevolgen van een daklekkage die te lang wordt genegeerd? Lees hoe vocht schade veroorzaakt aan dak, isolatie en binnenklimaat.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage-oorzaken-en-oplossingen.webp",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Wat gebeurt er als je een daklekkage te lang negeert?",
+      "datePublished": "2025-12-31T18:04:51.000Z",
+      "dateModified": "2025-12-31T18:04:51.902Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage-oorzaken-en-oplossingen.webp"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Wat gebeurt er als je een daklekkage te lang negeert?",
+          "description": "Uitleg over de gevolgen van het negeren van een daklekkage, zoals houtrot, schimmelvorming en toenemende herstelkosten.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-31",
+          "dateModified": "2025-12-31",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/daklekkage-oorzaken-uit-de-praktijk"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Kan een kleine daklekkage vanzelf stoppen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Een lekkage kan tijdelijk minder zichtbaar zijn, maar de oorzaak verdwijnt vrijwel nooit vanzelf."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hoe snel ontstaat er schade bij een daklekkage?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat verschilt per daktype en weersomstandigheden, maar schade aan isolatie kan al binnen enkele weken ontstaan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is alle lekkageschade direct zichtbaar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, veel schade blijft lange tijd verborgen in de dakconstructie of isolatie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Worden herstelkosten hoger bij uitstel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, omdat langdurige lekkages vaak leiden tot extra schade aan hout, isolatie en binnenafwerking."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard en Betuwe"
+          }
+        }
+      ]
+    }
+  ]
+}

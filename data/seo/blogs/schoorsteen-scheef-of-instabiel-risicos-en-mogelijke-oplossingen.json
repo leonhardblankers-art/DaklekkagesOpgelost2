@@ -1,0 +1,121 @@
+{
+  "title": "Schoorsteen scheef of instabiel: risico’s en mogelijke oplossingen",
+  "description": "Een scheve schoorsteen lijkt gevaarlijk, maar is dat niet altijd. Lees het verschil tussen optische scheefstand en echt constructief risico.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen",
+  "ogTitle": "Schoorsteen scheef of instabiel: risico’s en mogelijke oplossingen",
+  "ogDescription": "Een scheve schoorsteen lijkt gevaarlijk, maar is dat niet altijd. Lees het verschil tussen optische scheefstand en echt constructief risico.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20scheef%20of%20instabiel-1.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Schoorsteen scheef of instabiel: risico’s en mogelijke oplossingen",
+      "datePublished": "2025-12-30T14:35:17.000Z",
+      "dateModified": "2025-12-30T14:35:31.388Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Schoorsteen%20scheef%20of%20instabiel-1.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Schoorsteen scheef of instabiel: risico’s en mogelijke oplossingen",
+          "description": "Verdiepende uitleg over scheefstaande schoorstenen, het verschil tussen optische afwijking en constructief risico, en mogelijke maatregelen.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/schoorsteen-scheef-of-instabiel"
+          },
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is een scheve schoorsteen altijd gevaarlijk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, een scheefstand is niet automatisch gevaarlijk. Het risico hangt af van stabiliteit, scheurvorming en de constructieve samenhang met dak en muren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een schoorsteen schever gaan staan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vooral wanneer de onderliggende oorzaak actief blijft, zoals verzakking van de ondergrond of verzwakt metselwerk."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is stabiliseren goedkoper dan renovatie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vaak wel, maar alleen wanneer stabiliseren technisch verantwoord is en geen verdere schade wordt verwacht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Heeft wind invloed op een instabiele schoorsteen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, windbelasting kan bestaande beweging vergroten en scheurvorming of loskomen versnellen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een scheve schoorsteen lekkages veroorzaken?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Indirect wel, doordat scheuren en aansluitingen rond het dak open kunnen gaan staan."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}

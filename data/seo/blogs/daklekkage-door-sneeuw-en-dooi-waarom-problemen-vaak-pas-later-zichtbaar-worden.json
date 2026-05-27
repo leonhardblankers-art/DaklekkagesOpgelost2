@@ -1,0 +1,117 @@
+{
+  "title": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+  "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+  "ogTitle": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+  "ogDescription": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage%20door%20sneeuw%20en%20dooi.jpeg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+      "datePublished": "2026-01-06T22:33:39.000Z",
+      "dateModified": "2026-01-20T18:39:42.897Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/Daklekkage%20door%20sneeuw%20en%20dooi.jpeg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#article",
+          "headline": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+          "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204387150851?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767738744043&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
+          },
+          "author": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          },
+          "datePublished": "2026-01-05T09:00:00+01:00",
+          "dateModified": "2026-01-05T09:00:00+01:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
+          },
+          "isPartOf": [
+            {
+              "@type": "Blog",
+              "name": "Daklekkages Opgelost Blog",
+              "url": "https://www.daklekkagesopgelost.nl/blog"
+            },
+            {
+              "@type": "Article",
+              "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+              "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+              "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "telephone": "+31851308251",
+          "priceRange": "€€",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "De Kosterijstraat 17",
+            "postalCode": "5314 AW",
+            "addressLocality": "Bruchem",
+            "addressCountry": "NL"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Gelderland"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Utrecht"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Noord-Brabant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

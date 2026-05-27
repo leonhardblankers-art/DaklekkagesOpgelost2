@@ -1,0 +1,117 @@
+{
+  "title": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+  "description": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
+  "robots": "index, follow",
+  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+  "ogTitle": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+  "ogDescription": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
+  "ogType": "article",
+  "ogImage": "https://www.daklekkagesopgelost.nl/hubfs/1000090291.jpg",
+  "schema": [
+    {
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt"
+      },
+      "author": {
+        "name": "Leonhard Blankers",
+        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
+        "@type": "Person"
+      },
+      "headline": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+      "datePublished": "2025-12-29T11:07:50.000Z",
+      "dateModified": "2025-12-29T11:07:50.490Z",
+      "publisher": {
+        "logo": {
+          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
+          "@type": "ImageObject"
+        },
+        "@type": "Organization"
+      },
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "image": [
+        "https://www.daklekkagesopgelost.nl/hubfs/1000090291.jpg"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "description": "Uitleg over zinvol dakonderhoud, de rol van inspectie en onderhoud, en wanneer ingrijpen logisch is of juist niet.",
+          "author": {
+            "@type": "Person",
+            "name": "Daklekkages Opgelost"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daklekkages Opgelost",
+            "url": "https://www.daklekkagesopgelost.nl"
+          },
+          "datePublished": "2025-12-28",
+          "dateModified": "2025-12-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/dakonderhoud-wat-is-zinvol"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is dakonderhoud verplicht voor particuliere woningen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee, er bestaat geen wettelijke onderhoudsplicht voor particuliere woningen. Wel kan achterstallig onderhoud gevolgen hebben bij schade of verzekeringskwesties."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan een dak er goed uitzien en toch problemen hebben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Veel problemen ontstaan bij aansluitingen of onder de dakbedekking en zijn vanaf de buitenkant niet altijd zichtbaar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wat is het grootste misverstand over dakonderhoud?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dat dakonderhoud altijd betekent dat er gerepareerd of vervangen moet worden. Inspectie zonder directe ingreep is vaak ook een waardevolle uitkomst."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Heeft elk dak jaarlijks onderhoud nodig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nee. De benodigde frequentie hangt af van het type dak, de leeftijd, gebruikte materialen en de mate van blootstelling aan weer en wind."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Helpt dakonderhoud om lekkages te voorkomen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Onderhoud kan het risico op lekkages verkleinen, maar niet alle problemen zijn te voorkomen. Sommige gebreken ontstaan geleidelijk of onverwacht."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "RoofingContractor",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl",
+          "areaServed": {
+            "@type": "Place",
+            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
+          }
+        }
+      ]
+    }
+  ]
+}
