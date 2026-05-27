@@ -1,0 +1,785 @@
+[
+  {
+    "slug": "diensten",
+    "page": "pages\\diensten\\index.html",
+    "images": [
+      {
+        "src": "../../assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp",
+        "alt": "dakgoot plaatsen",
+        "asset": "assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakgoot%20plaatsen.jpg?width=254&height=143&name=dakgoot%20plaatsen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../assets/img/pages/diensten/diensten-visual-02-dakkapel-informatiepagina-dakkapel.webp",
+        "alt": "Dakkapel informatiepagina dakkapel",
+        "asset": "assets/img/pages/diensten/diensten-visual-02-dakkapel-informatiepagina-dakkapel.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel/Dakkapel%20informatiepagina%20dakkapel.jpg?width=250&height=141&name=Dakkapel%20informatiepagina%20dakkapel.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../assets/img/pages/diensten/diensten-visual-03-dakraam-vervangen.webp",
+        "alt": "Dakraam vervangen",
+        "asset": "assets/img/pages/diensten/diensten-visual-03-dakraam-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraam%20vervangen.jpg?width=252&height=116&name=Dakraam%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dak-isoleren",
+    "page": "pages\\diensten\\dak-isoleren\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dak-isoleren/dak-isoleren-visual-01-dak-isoleren-diensten-dak-isoleren-1.webp",
+        "alt": "dak isoleren",
+        "asset": "assets/img/pages/dak-isoleren/dak-isoleren-visual-01-dak-isoleren-diensten-dak-isoleren-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dak%20isoleren%20diensten%20dak%20isoleren-1.jpg?width=900&height=692&name=Dak%20isoleren%20diensten%20dak%20isoleren-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dak-isoleren/dak-isoleren-visual-02-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "alt": "Dak isoleren PIR diensten dak isoleren",
+        "asset": "assets/img/pages/dak-isoleren/dak-isoleren-visual-02-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dak%20isoleren%20PIR%20diensten%20dak%20isoleren.jpg?width=600&height=338&name=Dak%20isoleren%20PIR%20diensten%20dak%20isoleren.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dak-isoleren/dak-isoleren-visual-03-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "alt": "dak isoleren",
+        "asset": "assets/img/pages/dak-isoleren/dak-isoleren-visual-03-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hubfs/Dak%20isoleren%20PIR%20diensten%20dak%20isoleren.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dak-reinigen",
+    "page": "pages\\diensten\\dak-reinigen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dak-reinigen/dak-reinigen-visual-01-te-renoveren-nok-diensten-nokvorstrenovatie.webp",
+        "alt": "Dak reinigen diensten dak reinigen",
+        "asset": "assets/img/pages/dak-reinigen/dak-reinigen-visual-01-te-renoveren-nok-diensten-nokvorstrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Te%20renoveren%20nok%20diensten%20nokvorstrenovatie.jpg?width=313&height=350&name=Te%20renoveren%20nok%20diensten%20nokvorstrenovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dak-reinigen/dak-reinigen-visual-02-dak-reinigen-diensten-dak-reinigen.webp",
+        "alt": "Dak reinigen diensten dak reinigen",
+        "asset": "assets/img/pages/dak-reinigen/dak-reinigen-visual-02-dak-reinigen-diensten-dak-reinigen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dak%20reinigen%20diensten%20dak%20reinigen.jpg?width=600&height=1067&name=Dak%20reinigen%20diensten%20dak%20reinigen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+        "alt": "Vervuild dak diensten dak reinigen",
+        "asset": "assets/img/pages/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Vervuild%20dak%20diensten%20dak%20reinigen.jpg?width=441&height=402&name=Vervuild%20dak%20diensten%20dak%20reinigen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dakgoot-vervangen",
+    "page": "pages\\diensten\\dakgoot-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-01-dakgoot-te-vervangen-diensten-dakgoot-vervangen.webp",
+        "alt": "Dakgoot te vervangen diensten dakgoot vervangen",
+        "asset": "assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-01-dakgoot-te-vervangen-diensten-dakgoot-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakgoot%20te%20vervangen%20diensten%20dakgoot%20vervangen.jpg?width=356&height=450&name=Dakgoot%20te%20vervangen%20diensten%20dakgoot%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-02-dakgoot-vervuild-diensten-dakgoot-vervangen.webp",
+        "alt": "Dakgoot vervuild diensten dakgoot vervangen",
+        "asset": "assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-02-dakgoot-vervuild-diensten-dakgoot-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakgoot%20vervuild%20diensten%20dakgoot%20vervangen.jpg?width=500&height=231&name=Dakgoot%20vervuild%20diensten%20dakgoot%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-03-dakgoot-zink-vervangen-diensten-dakgoot-vervangen-1.webp",
+        "alt": "Dakgoot zink vervangen diensten dakgoot vervangen-1",
+        "asset": "assets/img/pages/dakgoot-vervangen/dakgoot-vervangen-visual-03-dakgoot-zink-vervangen-diensten-dakgoot-vervangen-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakgoot%20zink%20vervangen%20diensten%20dakgoot%20vervangen-1.jpg?width=350&height=197&name=Dakgoot%20zink%20vervangen%20diensten%20dakgoot%20vervangen-1.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dakkapel-lood-vervangen",
+    "page": "pages\\diensten\\dakkapel-lood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp",
+        "alt": "Dakkapel informatiepagina dakkapel",
+        "asset": "assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel/Dakkapel%20informatiepagina%20dakkapel.jpg?width=600&height=1067&name=Dakkapel%20informatiepagina%20dakkapel.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "alt": "Dakkapel diensten dakkapel renovatie-1",
+        "asset": "assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg?width=285&height=609&name=Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-03-dakkapel-lood-vervangen-diensten-dakkapel-lood-vervangen.webp",
+        "alt": "dakkapel lood vervangen diensten dakkapel lood vervangen",
+        "asset": "assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-03-dakkapel-lood-vervangen-diensten-dakkapel-lood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakkapel%20lood%20vervangen%20diensten%20dakkapel%20lood%20vervangen.jpg?width=116&height=206&name=dakkapel%20lood%20vervangen%20diensten%20dakkapel%20lood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dakkapel-renoveren",
+    "page": "pages\\diensten\\dakkapel-renoveren\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-01-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "alt": "Dakkapel diensten dakkapel renovatie-1",
+        "asset": "assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-01-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg?width=663&height=1417&name=Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-02-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+        "alt": "Dakkapel renoveren diensten dakkapel renovatie",
+        "asset": "assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-02-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20renoveren%20diensten%20dakkapel%20renovatie.jpg?width=375&height=175&name=Dakkapel%20renoveren%20diensten%20dakkapel%20renovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-03-dakkapel-renoveren-2-diensten-dakkapel-renovatie.webp",
+        "alt": "Dakkapel renoveren 2 diensten dakkapel renovatie",
+        "asset": "assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-03-dakkapel-renoveren-2-diensten-dakkapel-renovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20renoveren%202%20diensten%20dakkapel%20renovatie.jpg?width=223&height=350&name=Dakkapel%20renoveren%202%20diensten%20dakkapel%20renovatie.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "daklood-vervangen",
+    "page": "pages\\diensten\\daklood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/daklood-vervangen/daklood-vervangen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "alt": "Daklood in slechte staat diensten daklood vervangen",
+        "asset": "assets/img/pages/daklood-vervangen/daklood-vervangen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg?width=550&height=255&name=Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/daklood-vervangen/daklood-vervangen-visual-02-daklood-in-slechte-staat-2-diensten-daklood-vervangen.webp",
+        "alt": "Daklood in slechte staat 2 diensten daklood vervangen",
+        "asset": "assets/img/pages/daklood-vervangen/daklood-vervangen-visual-02-daklood-in-slechte-staat-2-diensten-daklood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Daklood%20in%20slechte%20staat%202%20diensten%20daklood%20vervangen.jpg?width=285&height=617&name=Daklood%20in%20slechte%20staat%202%20diensten%20daklood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/daklood-vervangen/daklood-vervangen-visual-03-daklood-vervangen-diensten-daklood-vervangen.webp",
+        "alt": "Daklood vervangen diensten daklood vervangen",
+        "asset": "assets/img/pages/daklood-vervangen/daklood-vervangen-visual-03-daklood-vervangen-diensten-daklood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Daklood%20vervangen%20diensten%20daklood%20vervangen.jpg?width=155&height=276&name=Daklood%20vervangen%20diensten%20daklood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dakraamlood-vervangen",
+    "page": "pages\\diensten\\dakraamlood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp",
+        "alt": "Dakraamlood vervangen diensten dakraamlood vervangen",
+        "asset": "assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraamlood%20vervangen%20diensten%20dakraamlood%20vervangen.jpg?width=866&height=400&name=Dakraamlood%20vervangen%20diensten%20dakraamlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-02-dakraamlood-met-lekkage-diensten-dakraamlood-vervangen.webp",
+        "alt": "Dakraamlood met lekkage diensten dakraamlood vervangen",
+        "asset": "assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-02-dakraamlood-met-lekkage-diensten-dakraamlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraamlood%20met%20lekkage%20diensten%20dakraamlood%20vervangen.jpg?width=600&height=277&name=Dakraamlood%20met%20lekkage%20diensten%20dakraamlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-03-dakraamlood-vervangen-gootstuk-diensten-dakraamlood-vervangen-1.webp",
+        "alt": "Dakraamlood vervangen gootstuk diensten dakraamlood vervangen-1",
+        "asset": "assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-03-dakraamlood-vervangen-gootstuk-diensten-dakraamlood-vervangen-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraamlood%20vervangen%20gootstuk%20diensten%20dakraamlood%20vervangen-1.jpg?width=400&height=285&name=Dakraamlood%20vervangen%20gootstuk%20diensten%20dakraamlood%20vervangen-1.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "dakrenovatie",
+    "page": "pages\\diensten\\dakrenovatie\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
+        "alt": "dakrenovatie pannendak diensten dakrenovatie",
+        "asset": "assets/img/pages/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakrenovatie%20pannendak%20diensten%20dakrenovatie.jpg?width=600&height=232&name=dakrenovatie%20pannendak%20diensten%20dakrenovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakrenovatie/dakrenovatie-visual-02-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+        "alt": "dakrenovatie pannendak nodig diensten dakrenovatie",
+        "asset": "assets/img/pages/dakrenovatie/dakrenovatie-visual-02-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakrenovatie%20pannendak%20nodig%20diensten%20dakrenovatie.jpg?width=196&height=225&name=dakrenovatie%20pannendak%20nodig%20diensten%20dakrenovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/dakrenovatie/dakrenovatie-visual-03-dakrenovatie-pannendak-nodig-2-diensten-dakrenovatie.webp",
+        "alt": "dakrenovatie pannendak nodig 2 diensten dakrenovatie",
+        "asset": "assets/img/pages/dakrenovatie/dakrenovatie-visual-03-dakrenovatie-pannendak-nodig-2-diensten-dakrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakrenovatie%20pannendak%20nodig%202%20diensten%20dakrenovatie.jpg?width=116&height=160&name=dakrenovatie%20pannendak%20nodig%202%20diensten%20dakrenovatie.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakgoot",
+    "page": "pages\\diensten\\diensten-dakgoot\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+        "alt": "diensten dakgoot",
+        "asset": "assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakgoot%20vervangen.jpg?width=720&height=436&name=dakgoot%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-02-dakgoot-reinigen.webp",
+        "alt": "dakgoot reinigen",
+        "asset": "assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-02-dakgoot-reinigen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakgoot%20reinigen%20.jpg?width=360&height=209&name=dakgoot%20reinigen%20.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-03-dakgoot-plaatsen.webp",
+        "alt": "dakgoot plaatsen",
+        "asset": "assets/img/pages/diensten-dakgoot/diensten-dakgoot-visual-03-dakgoot-plaatsen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakgoot%20plaatsen.jpg?width=360&height=203&name=dakgoot%20plaatsen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakkapel",
+    "page": "pages\\diensten\\diensten-dakkapel\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+        "alt": "diensten dakkapel",
+        "asset": "assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20renoveren%20diensten%20dakkapel%20renovatie.jpg?width=720&height=336&name=Dakkapel%20renoveren%20diensten%20dakkapel%20renovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "alt": "Dakkapel diensten dakkapel renovatie-1",
+        "asset": "assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg?width=358&height=168&name=Dakkapel%20diensten%20dakkapel%20renovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "alt": "plat dak overlagen 3 diensten plat dak overlagen",
+        "asset": "assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%203%20diensten%20plat%20dak%20overlagen.png?width=360&height=153&name=plat%20dak%20overlagen%203%20diensten%20plat%20dak%20overlagen.png",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakraam",
+    "page": "pages\\diensten\\diensten-dakraam\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-dakraam/diensten-dakraam-visual-01-dakraam-vervangen.webp",
+        "alt": "diensten dakraam",
+        "asset": "assets/img/pages/diensten-dakraam/diensten-dakraam-visual-01-dakraam-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraam%20vervangen.jpg?width=720&height=332&name=Dakraam%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakraam/diensten-dakraam-visual-02-dakraam-plaatsen.webp",
+        "alt": "Dakraam plaatsen",
+        "asset": "assets/img/pages/diensten-dakraam/diensten-dakraam-visual-02-dakraam-plaatsen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraam%20plaatsen.jpg?width=360&height=166&name=Dakraam%20plaatsen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-dakraam/diensten-dakraam-visual-03-dakraamlood-vervangen.webp",
+        "alt": "Dakraamlood vervangen",
+        "asset": "assets/img/pages/diensten-dakraam/diensten-dakraam-visual-03-dakraamlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraamlood%20vervangen.jpg?width=360&height=166&name=Dakraamlood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-loodafwerkingen",
+    "page": "pages\\diensten\\diensten-loodafwerkingen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "alt": "Daklood in slechte staat diensten daklood vervangen",
+        "asset": "assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg?width=254&height=117&name=Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-02-dakraamlood-vervangen.webp",
+        "alt": "Dakraamlood vervangen",
+        "asset": "assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-02-dakraamlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dakraamlood%20vervangen.jpg?width=254&height=117&name=Dakraamlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-03-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp",
+        "alt": "Kozijnlood is vervangen diensten kozijnlood vervangen",
+        "asset": "assets/img/pages/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-03-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Kozijnlood%20is%20vervangen%20diensten%20kozijnlood%20vervangen.jpg?width=254&height=117&name=Kozijnlood%20is%20vervangen%20diensten%20kozijnlood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-plat-dak",
+    "page": "pages\\diensten\\diensten-plat-dak\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "alt": "diensten plat dak",
+        "asset": "assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg?width=381&height=176&name=Daklood%20in%20slechte%20staat%20diensten%20daklood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-02-reparatie-plat-dak-diensten-reparatie-plat-dak-2.webp",
+        "alt": "Reparatie plat dak diensten reparatie plat dak 2",
+        "asset": "assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-02-reparatie-plat-dak-diensten-reparatie-plat-dak-2.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak%202.png?width=254&height=124&name=Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak%202.png",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "alt": "plat dak overlagen 3 diensten plat dak overlagen",
+        "asset": "assets/img/pages/diensten-plat-dak/diensten-plat-dak-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%203%20diensten%20plat%20dak%20overlagen.png?width=254&height=108&name=plat%20dak%20overlagen%203%20diensten%20plat%20dak%20overlagen.png",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-schoorsteen",
+    "page": "pages\\diensten\\diensten-schoorsteen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp",
+        "alt": "Repareren metselwerk diensten repareren metselwerk",
+        "asset": "assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Repareren%20metselwerk%20diensten%20repareren%20metselwerk.png?width=254&height=145&name=Repareren%20metselwerk%20diensten%20repareren%20metselwerk.png",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-02-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "alt": "schoorsteen afbreken diensten schoorsteen opnieuw opmetselen",
+        "asset": "assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-02-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20afbreken%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg?width=254&height=127&name=schoorsteen%20afbreken%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-03-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "alt": "gepleisterde schoorsteen diensten schoorsteen pleisteren",
+        "asset": "assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-03-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/gepleisterde%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg?width=254&height=117&name=gepleisterde%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "diensten-schuin-dak",
+    "page": "pages\\diensten\\diensten-schuin-dak\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "alt": "Dak isoleren PIR diensten dak isoleren",
+        "asset": "assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Dak%20isoleren%20PIR%20diensten%20dak%20isoleren.jpg?width=254&height=143&name=Dak%20isoleren%20PIR%20diensten%20dak%20isoleren.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-02-pannendak-reinigen-diensten-pannendak-reinigen.webp",
+        "alt": "pannendak reinigen diensten pannendak reinigen",
+        "asset": "assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-02-pannendak-reinigen-diensten-pannendak-reinigen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/pannendak%20reinigen%20diensten%20pannendak%20reinigen.jpg?width=254&height=143&name=pannendak%20reinigen%20diensten%20pannendak%20reinigen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-03-dakgoot-plaatsen.webp",
+        "alt": "dakgoot plaatsen",
+        "asset": "assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-03-dakgoot-plaatsen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/dakgoot%20plaatsen.jpg?width=254&height=143&name=dakgoot%20plaatsen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "kozijnlood-vervangen",
+    "page": "pages\\diensten\\kozijnlood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-01-kozijnlood-vervangen-diensten-kozijnlood-vervangen.webp",
+        "alt": "kozijnlood vervangen",
+        "asset": "assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-01-kozijnlood-vervangen-diensten-kozijnlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Kozijnlood%20vervangen%20diensten%20kozijnlood%20vervangen.jpg?width=1445&height=600&name=Kozijnlood%20vervangen%20diensten%20kozijnlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-02-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp",
+        "alt": "Kozijnlood is vervangen diensten kozijnlood vervangen",
+        "asset": "assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-02-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Kozijnlood%20is%20vervangen%20diensten%20kozijnlood%20vervangen.jpg?width=866&height=400&name=Kozijnlood%20is%20vervangen%20diensten%20kozijnlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-03-kozijnlood-is-vervangen-2-diensten-kozijnlood-vervangen.webp",
+        "alt": "Kozijnlood is vervangen 2 diensten kozijnlood vervangen",
+        "asset": "assets/img/pages/kozijnlood-vervangen/kozijnlood-vervangen-visual-03-kozijnlood-is-vervangen-2-diensten-kozijnlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Kozijnlood%20is%20vervangen%202%20diensten%20kozijnlood%20vervangen.jpg?width=743&height=350&name=Kozijnlood%20is%20vervangen%202%20diensten%20kozijnlood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "metselwerk-repareren",
+    "page": "pages\\diensten\\metselwerk-repareren\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-01-gebroken-metselwerk-diensten-repareren-metselwerk.webp",
+        "alt": "Gebroken metselwerk diensten repareren metselwerk",
+        "asset": "assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-01-gebroken-metselwerk-diensten-repareren-metselwerk.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Gebroken%20metselwerk%20diensten%20repareren%20metselwerk.jpg?width=600&height=277&name=Gebroken%20metselwerk%20diensten%20repareren%20metselwerk.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-02-gebroken-metselwerk-2-diensten-repareren-metselwerk.webp",
+        "alt": "Gebroken metselwerk 2 diensten repareren metselwerk",
+        "asset": "assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-02-gebroken-metselwerk-2-diensten-repareren-metselwerk.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Gebroken%20metselwerk%202%20diensten%20repareren%20metselwerk.jpg?width=600&height=277&name=Gebroken%20metselwerk%202%20diensten%20repareren%20metselwerk.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-03-repareren-metselwerk-diensten-repareren-metselwerk-1.webp",
+        "alt": "Repareren metselwerk diensten repareren metselwerk-1",
+        "asset": "assets/img/pages/metselwerk-repareren/metselwerk-repareren-visual-03-repareren-metselwerk-diensten-repareren-metselwerk-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Repareren%20metselwerk%20diensten%20repareren%20metselwerk-1.jpg?width=500&height=462&name=Repareren%20metselwerk%20diensten%20repareren%20metselwerk-1.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "nokrenovatie",
+    "page": "pages\\diensten\\nokrenovatie\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/nokrenovatie/nokrenovatie-visual-01-nokvorsten-renoveren-diensten-nokvorstrenovatie-1.webp",
+        "alt": "Nokvorsten renoveren diensten nokvorstrenovatie-1",
+        "asset": "assets/img/pages/nokrenovatie/nokrenovatie-visual-01-nokvorsten-renoveren-diensten-nokvorstrenovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Nokvorsten%20renoveren%20diensten%20nokvorstrenovatie-1.jpg?width=500&height=477&name=Nokvorsten%20renoveren%20diensten%20nokvorstrenovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/nokrenovatie/nokrenovatie-visual-02-nokvorsten-vervangen-diensten-nokvorstrenovatie-1.webp",
+        "alt": "Nokvorsten vervangen diensten nokvorstrenovatie-1",
+        "asset": "assets/img/pages/nokrenovatie/nokrenovatie-visual-02-nokvorsten-vervangen-diensten-nokvorstrenovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Nokvorsten%20vervangen%20diensten%20nokvorstrenovatie-1.jpg?width=450&height=199&name=Nokvorsten%20vervangen%20diensten%20nokvorstrenovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/nokrenovatie/nokrenovatie-visual-03-versleten-nokvorsten-herkennen-diensten-nokvorstrenovatie-1.webp",
+        "alt": "Versleten Nokvorsten herkennen diensten nokvorstrenovatie-1",
+        "asset": "assets/img/pages/nokrenovatie/nokrenovatie-visual-03-versleten-nokvorsten-herkennen-diensten-nokvorstrenovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Versleten%20Nokvorsten%20herkennen%20diensten%20nokvorstrenovatie-1.jpg?width=116&height=250&name=Versleten%20Nokvorsten%20herkennen%20diensten%20nokvorstrenovatie-1.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "plat-dak-overlagen",
+    "page": "pages\\diensten\\plat-dak-overlagen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-01-plat-dak-overlagen-diensten-plat-dak-overlagen.webp",
+        "alt": "plat dak overlagen diensten plat dak overlagen",
+        "asset": "assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-01-plat-dak-overlagen-diensten-plat-dak-overlagen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20overlagen.jpg?width=600&height=1067&name=plat%20dak%20overlagen%20diensten%20plat%20dak%20overlagen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "alt": "plat dak overlagen diensten plat dak vervangen",
+        "asset": "assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg?width=600&height=277&name=plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-03-plat-dak-overlagen-1-diensten-plat-dak-overlagen-1.webp",
+        "alt": "plat dak overlagen 1 diensten plat dak overlagen-1",
+        "asset": "assets/img/pages/plat-dak-overlagen/plat-dak-overlagen-visual-03-plat-dak-overlagen-1-diensten-plat-dak-overlagen-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%201%20diensten%20plat%20dak%20overlagen-1.jpg?width=600&height=361&name=plat%20dak%20overlagen%201%20diensten%20plat%20dak%20overlagen-1.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "plat-dak-reparatie",
+    "page": "pages\\diensten\\plat-dak-reparatie\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-01-lekkage-plat-dak-diensten-reparatie-plat-dak-1.webp",
+        "alt": "lekkage plat dak diensten reparatie plat dak-1",
+        "asset": "assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-01-lekkage-plat-dak-diensten-reparatie-plat-dak-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/lekkage%20plat%20dak%20diensten%20reparatie%20plat%20dak-1.jpg?width=600&height=586&name=lekkage%20plat%20dak%20diensten%20reparatie%20plat%20dak-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "alt": "plat dak overlagen diensten plat dak vervangen",
+        "asset": "assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg?width=600&height=277&name=plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-03-reparatie-plat-dak-diensten-reparatie-plat-dak.webp",
+        "alt": "Reparatie plat dak diensten reparatie plat dak",
+        "asset": "assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-03-reparatie-plat-dak-diensten-reparatie-plat-dak.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak.jpg?width=600&height=353&name=Reparatie%20plat%20dak%20diensten%20reparatie%20plat%20dak.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "plat-dak-vervangen",
+    "page": "pages\\diensten\\plat-dak-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-01-plat-dak-informatiepagina-plat-dak.webp",
+        "alt": "Plat dak informatiepagina plat dak",
+        "asset": "assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-01-plat-dak-informatiepagina-plat-dak.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Plat%20dak%20informatiepagina%20plat%20dak.jpg?width=312&height=350&name=Plat%20dak%20informatiepagina%20plat%20dak.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "alt": "plat dak overlagen diensten plat dak vervangen",
+        "asset": "assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg?width=600&height=277&name=plat%20dak%20overlagen%20diensten%20plat%20dak%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-03-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+        "alt": "plat dak overlagen 2 diensten plat dak vervangen",
+        "asset": "assets/img/pages/plat-dak-vervangen/plat-dak-vervangen-visual-03-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg?width=600&height=277&name=plat%20dak%20overlagen%202%20diensten%20plat%20dak%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "pleisteren",
+    "page": "pages\\diensten\\pleisteren\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/pleisteren/pleisteren-visual-01-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "alt": "pleisteren",
+        "asset": "assets/img/pages/pleisteren/pleisteren-visual-01-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/gepleisterde%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg?width=1137&height=525&name=gepleisterde%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/pleisteren/pleisteren-visual-02-te-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "alt": "te pleisteren schoorsteen diensten schoorsteen pleisteren",
+        "asset": "assets/img/pages/pleisteren/pleisteren-visual-02-te-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/te%20pleisteren%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg?width=500&height=472&name=te%20pleisteren%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/pleisteren/pleisteren-visual-03-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "alt": "pleisteren schoorsteen diensten schoorsteen pleisteren",
+        "asset": "assets/img/pages/pleisteren/pleisteren-visual-03-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/pleisteren%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg?width=400&height=512&name=pleisteren%20schoorsteen%20diensten%20schoorsteen%20pleisteren.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteen-opnieuw-opmetselen",
+    "page": "pages\\diensten\\schoorsteen-opnieuw-opmetselen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "alt": "schoorsteen opnieuw opmetselen diensten schoorsteen opnieuw opmetselen",
+        "asset": "assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20opnieuw%20opmetselen%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg?width=400&height=390&name=schoorsteen%20opnieuw%20opmetselen%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-02-schoorsteen-opnieuw-opmetselen2-diensten-schoorsteen-opnieuw-opmetsele.webp",
+        "alt": "schoorsteen opnieuw opmetselen2 diensten schoorsteen opnieuw opmetselen",
+        "asset": "assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-02-schoorsteen-opnieuw-opmetselen2-diensten-schoorsteen-opnieuw-opmetsele.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg?width=400&height=424&name=schoorsteen%20opnieuw%20opmetselen2%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-03-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "alt": "schoorsteen afbreken diensten schoorsteen opnieuw opmetselen",
+        "asset": "assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-03-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20afbreken%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg?width=600&height=300&name=schoorsteen%20afbreken%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteen-verwijderen",
+    "page": "pages\\diensten\\schoorsteen-verwijderen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+        "alt": "Lekkage schoorsteen diensten schoorsteen verwijderen",
+        "asset": "assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Lekkage%20schoorsteen%20diensten%20schoorsteen%20verwijderen.jpg?width=300&height=400&name=Lekkage%20schoorsteen%20diensten%20schoorsteen%20verwijderen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-02-schoorsteen-renoveren-diensten-schoorsteenrenovatie.webp",
+        "alt": "Schoorsteen renoveren diensten schoorsteenrenovatie",
+        "asset": "assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-02-schoorsteen-renoveren-diensten-schoorsteenrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteen%20renoveren%20diensten%20schoorsteenrenovatie.jpg?width=285&height=149&name=Schoorsteen%20renoveren%20diensten%20schoorsteenrenovatie.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-03-schoorsteen-te-renoveren-diensten-schoorsteenrenovatie.webp",
+        "alt": "Schoorsteen te renoveren diensten schoorsteenrenovatie",
+        "asset": "assets/img/pages/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-03-schoorsteen-te-renoveren-diensten-schoorsteenrenovatie.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteen%20te%20renoveren%20diensten%20schoorsteenrenovatie.jpg?width=116&height=251&name=Schoorsteen%20te%20renoveren%20diensten%20schoorsteenrenovatie.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-spouw-vervangen",
+    "page": "pages\\diensten\\schoorsteenlood-spouw-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-01-schoorsteenlood-spouw-vervangen-diensten-schoorsteenlood-spouw-vervang.webp",
+        "alt": "schoorsteenlood spouw vervangen diensten schoorsteenlood spouw vervangen",
+        "asset": "assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-01-schoorsteenlood-spouw-vervangen-diensten-schoorsteenlood-spouw-vervang.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteenlood%20spouw%20vervangen%20diensten%20schoorsteenlood%20spouw%20vervangen.jpg?width=400&height=418&name=schoorsteenlood%20spouw%20vervangen%20diensten%20schoorsteenlood%20spouw%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-02-schoorsteenlood-spouw-vervangen-1-diensten-schoorsteenlood-spouw-verva.webp",
+        "alt": "schoorsteenlood spouw vervangen 1 diensten schoorsteenlood spouw vervangen-1",
+        "asset": "assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-02-schoorsteenlood-spouw-vervangen-1-diensten-schoorsteenlood-spouw-verva.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteenlood%20spouw%20vervangen%201%20diensten%20schoorsteenlood%20spouw%20vervangen-1.jpg?width=550&height=978&name=schoorsteenlood%20spouw%20vervangen%201%20diensten%20schoorsteenlood%20spouw%20vervangen-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-03-schoorsteenlood-spouw-vervangen-2-diensten-schoorsteenlood-spouw-verva.webp",
+        "alt": "schoorsteenlood spouw vervangen 2 diensten schoorsteenlood spouw vervangen",
+        "asset": "assets/img/pages/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-visual-03-schoorsteenlood-spouw-vervangen-2-diensten-schoorsteenlood-spouw-verva.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteenlood%20spouw%20vervangen%202%20diensten%20schoorsteenlood%20spouw%20vervangen.jpg?width=550&height=978&name=schoorsteenlood%20spouw%20vervangen%202%20diensten%20schoorsteenlood%20spouw%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-vervangen",
+    "page": "pages\\diensten\\schoorsteenlood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-01-schoorsteen-lood-oud-diensten-schoorsteenlood-vervangen.webp",
+        "alt": "schoorsteen lood oud diensten schoorsteenlood vervangen",
+        "asset": "assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-01-schoorsteen-lood-oud-diensten-schoorsteenlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20lood%20oud%20diensten%20schoorsteenlood%20vervangen.jpg?width=500&height=281&name=schoorsteen%20lood%20oud%20diensten%20schoorsteenlood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-02-schoorsteenlood-deels-vervangen-diensten-schoorsteenlood-vervangen-1.webp",
+        "alt": "schoorsteenlood deels vervangen diensten schoorsteenlood vervangen-1",
+        "asset": "assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-02-schoorsteenlood-deels-vervangen-diensten-schoorsteenlood-vervangen-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteenlood%20deels%20vervangen%20diensten%20schoorsteenlood%20vervangen-1.jpg?width=550&height=572&name=schoorsteenlood%20deels%20vervangen%20diensten%20schoorsteenlood%20vervangen-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-03-schoorsteenlood-vervangen-diensten-schoorsteenlood-vervangen.webp",
+        "alt": "schoorsteenlood vervangen diensten schoorsteenlood vervangen",
+        "asset": "assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-03-schoorsteenlood-vervangen-diensten-schoorsteenlood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteenlood%20vervangen%20diensten%20schoorsteenlood%20vervangen.jpg?width=400&height=711&name=schoorsteenlood%20vervangen%20diensten%20schoorsteenlood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenrenovatie",
+    "page": "pages\\diensten\\schoorsteenrenovatie\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
+        "alt": "Schoorsteenlekkage diensten schoorsteenrenovatie-1",
+        "asset": "assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteenlekkage%20diensten%20schoorsteenrenovatie-1.jpg?width=500&height=667&name=Schoorsteenlekkage%20diensten%20schoorsteenrenovatie-1.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-02-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "alt": "Wanneer schoorsteen renoveren?",
+        "asset": "assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-02-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/schoorsteen%20opnieuw%20opmetselen%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg?width=400&height=390&name=schoorsteen%20opnieuw%20opmetselen%20diensten%20schoorsteen%20opnieuw%20opmetselen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-03-schoorsteen-renoveren-nokschoorsteen.webp",
+        "alt": "Schoorsteen renoveren nokschoorsteen image",
+        "asset": "assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-03-schoorsteen-renoveren-nokschoorsteen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/Schoorsteen%20renoveren%20nokschoorsteen.webp?width=700&name=Schoorsteen%20renoveren%20nokschoorsteen.webp",
+        "wrote": true
+      }
+    ]
+  },
+  {
+    "slug": "trapsgewijs-lood-vervangen",
+    "page": "pages\\diensten\\trapsgewijs-lood-vervangen\\index.html",
+    "images": [
+      {
+        "src": "../../../assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-01-loodloketten-diensten-trapsgewijslood-vervangen.webp",
+        "alt": "loodloketten diensten trapsgewijslood vervangen",
+        "asset": "assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-01-loodloketten-diensten-trapsgewijslood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/loodloketten%20diensten%20trapsgewijslood%20vervangen.jpg?width=673&height=300&name=loodloketten%20diensten%20trapsgewijslood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-02-trapsgewijs-lood-te-vervangen-diensten-trapsgewijs-lood-vervangen.webp",
+        "alt": "trapsgewijs lood te vervangen diensten trapsgewijs lood vervangen",
+        "asset": "assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-02-trapsgewijs-lood-te-vervangen-diensten-trapsgewijs-lood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/trapsgewijs%20lood%20te%20vervangen%20diensten%20trapsgewijs%20lood%20vervangen.jpg?width=370&height=450&name=trapsgewijs%20lood%20te%20vervangen%20diensten%20trapsgewijs%20lood%20vervangen.jpg",
+        "wrote": true
+      },
+      {
+        "src": "../../../assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-03-trapsgewijs-lood-vervangen-diensten-trapsgewijs-lood-vervangen.webp",
+        "alt": "trapsgewijs lood vervangen diensten trapsgewijs lood vervangen",
+        "asset": "assets/img/pages/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-visual-03-trapsgewijs-lood-vervangen-diensten-trapsgewijs-lood-vervangen.webp",
+        "source": "https://www.daklekkagesopgelost.nl/hs-fs/hubfs/trapsgewijs%20lood%20vervangen%20diensten%20trapsgewijs%20lood%20vervangen.jpg?width=400&height=486&name=trapsgewijs%20lood%20vervangen%20diensten%20trapsgewijs%20lood%20vervangen.jpg",
+        "wrote": true
+      }
+    ]
+  }
+]
