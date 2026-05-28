@@ -835,24 +835,35 @@
     flex-wrap:wrap;
     margin-top:14px;
   }
+  .guarantee-title .meta-pill,
   .meta-pill{
     display:inline-flex;
     align-items:center;
+    justify-content:center;
     gap:7px;
     padding:8px 10px;
     border-radius:999px;
     font-size:12px;
+    line-height:1;
     font-weight:800;
     letter-spacing:.02em;
     background:rgba(29,151,83,.08);
     color:var(--brand2);
   }
+  .guarantee-title .meta-pill.orange,
   .meta-pill.orange{
     background:rgba(255,122,0,.10);
     color:#b45500;
   }
+  .guarantee-title .meta-pill .dot,
   .meta-pill .dot{
-    width:7px;height:7px;border-radius:50%;background:currentColor;
+    display:block;
+    width:7px;
+    height:7px;
+    flex:0 0 7px;
+    border-radius:50%;
+    background:currentColor;
+    box-shadow:none;
   }
 
   .info-trigger{
@@ -885,17 +896,17 @@
     margin-top:12px;
     padding:14px 14px;
     border-radius:18px;
-    background:linear-gradient(180deg, rgba(29,151,83,.07), rgba(29,151,83,.04));
-    border:1px solid rgba(29,151,83,.12);
-    color:#46505d;
+    background:#ffffff;
+    border:1px solid rgba(29,151,83,.22);
+    color:#26303c;
     font-size:14px;
     line-height:1.65;
-    box-shadow:0 18px 42px rgba(15,17,21,.10);
-    z-index:6;
+    box-shadow:0 24px 58px rgba(15,17,21,.22);
+    z-index:40;
   }
   .guarantee-cell.orange .guarantee-info{
-    background:linear-gradient(180deg, rgba(255,122,0,.08), rgba(255,122,0,.04));
-    border-color:rgba(255,122,0,.14);
+    background:#ffffff;
+    border-color:rgba(255,122,0,.28);
   }
   .guarantee-info.is-open{ display:block; }
 
