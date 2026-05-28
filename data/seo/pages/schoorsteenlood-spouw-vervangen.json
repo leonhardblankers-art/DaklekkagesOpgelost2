@@ -62,7 +62,7 @@
               "itemOffered": {
                 "@type": "Service",
                 "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage#service",
-                "name": "Schoorsteenlekkage",
+                "name": "Schoorsteenlekkage oplossen",
                 "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage"
               }
             },

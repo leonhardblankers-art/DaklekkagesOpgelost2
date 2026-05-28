@@ -1,12 +1,12 @@
 {
-  "title": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost | Daklekkages Opgelost",
-  "description": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost Noklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Acti...",
+  "title": "Noklekkage oplossen: lekkage bij nokvorsten duurzaam herstellen | Daklekkages Opgelost",
+  "description": "Noklekkage oplossen bij een pannendak? Wij controleren nokvorsten, ruiterrol, onderdak en waterroute en herstellen de oorzaak gericht en duurzaam.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/noklekkage/",
-  "ogTitle": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost | Daklekkages Opgelost",
-  "ogDescription": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost Noklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Acti...",
+  "ogTitle": "Noklekkage oplossen: lekkage bij nokvorsten duurzaam herstellen | Daklekkages Opgelost",
+  "ogDescription": "Noklekkage oplossen bij een pannendak? Wij controleren nokvorsten, ruiterrol, onderdak en waterroute en herstellen de oorzaak gericht en duurzaam.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/noklekkage/noklekkage-01-noklekkage-lekkage-nok-1.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/noklekkage/",
         "url": "https://www.daklekkagesopgelost.nl/noklekkage/",
-        "name": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost | Daklekkages Opgelost",
-        "description": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost Noklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Acti...",
+        "name": "Noklekkage oplossen: lekkage bij nokvorsten duurzaam herstellen | Daklekkages Opgelost",
+        "description": "Noklekkage oplossen bij een pannendak? Wij controleren nokvorsten, ruiterrol, onderdak en waterroute en herstellen de oorzaak gericht en duurzaam.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/noklekkage/noklekkage-01-noklekkage-lekkage-nok-1.webp"
@@ -33,8 +33,8 @@
       {
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/noklekkage/#service",
-        "name": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost | Daklekkages Opgelost",
-        "description": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost Noklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Acti...",
+        "name": "Noklekkage oplossen",
+        "description": "Noklekkage oplossen bij een pannendak? Wij controleren nokvorsten, ruiterrol, onderdak en waterroute en herstellen de oorzaak gericht en duurzaam.",
         "url": "https://www.daklekkagesopgelost.nl/noklekkage/",
         "image": {
           "@type": "ImageObject",
@@ -51,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "?",
+        "priceRange": "??",
         "logo": {
           "@type": "ImageObject",
           "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
@@ -94,7 +94,13 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Noklekkage oplossen (pannendak): oorzaken, signalen & aanpak | Daklekkages Opgelost | Daklekkages Opgelost",
+            "name": "Lekkages",
+            "item": "https://www.daklekkagesopgelost.nl/lekkages/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Noklekkage oplossen",
             "item": "https://www.daklekkagesopgelost.nl/noklekkage/"
           }
         ],
