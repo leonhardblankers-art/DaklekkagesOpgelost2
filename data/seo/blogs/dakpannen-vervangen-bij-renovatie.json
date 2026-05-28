@@ -2,116 +2,207 @@
   "title": "Dakpannen vervangen bij renovatie",
   "description": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
   "ogTitle": "Dakpannen vervangen bij renovatie",
   "ogDescription": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakpannen vervangen bij renovatie",
-      "datePublished": "2026-01-15T16:29:07.000Z",
-      "dateModified": "2026-01-15T16:29:07.630Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+        "name": "Dakpannen vervangen bij renovatie",
+        "description": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#article",
-          "headline": "Dakpannen vervangen bij renovatie",
-          "description": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205142744895?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768494469595&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#article",
+        "headline": "Dakpannen vervangen bij renovatie",
+        "description": "Wanneer dakpannen hun functie verliezen en wanneer vervangen nodig is bij renovatie van een hellend dak.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Zijn nieuwe pannen altijd nodig bij renovatie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd, maar bij poreuze of gebroken pannen wel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen pannen lokaal worden vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, maar bij wijdverspreide slijtage is volledig vervangen verstandiger."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom blijven lekkages na nieuwe pannen soms bestaan ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat de onderliggende lagen het probleem zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaan nieuwe pannen mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van het type, maar vaak tientallen jaren."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wanneer is inspectie zinvol ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wanneer schade zich herhaalt of pannen zichtbaar verouderen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+            "name": "Dakpannen vervangen bij renovatie"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakpannen vervangen bij renovatie",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#breadcrumb"
+      }
+    ]
+  }
 }

@@ -2,125 +2,231 @@
   "title": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
   "description": "Dakraam lekkage uitgelegd: oorzaken, signalen, gevolgen en de relatie met het dak. Praktische uitleg zonder verkooppraatjes.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
   "ogTitle": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
   "ogDescription": "Dakraam lekkage uitgelegd: oorzaken, signalen, gevolgen en de relatie met het dak. Praktische uitleg zonder verkooppraatjes.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
-      "datePublished": "2026-01-05T19:09:23.000Z",
-      "dateModified": "2026-01-05T20:02:38.041Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+        "name": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
+        "description": "Dakraam lekkage uitgelegd: oorzaken, signalen, gevolgen en de relatie met het dak. Praktische uitleg zonder verkooppraatjes.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-05T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#pillar",
-          "headline": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
-          "description": "Dakraam lekkage uitgelegd: oorzaken, signalen, gevolgen en de relatie met het dak. Praktische uitleg zonder verkooppraatjes.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204246275414?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767640120906&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-05T09:00:00+01:00",
-          "dateModified": "2026-01-05T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt",
-              "headline": "Oorzaken van dakraam lekkage: waarom water juist hier naar binnen komt"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-herkennen-vochtprobleem-of-condens",
-              "headline": "Dakraam lekkage herkennen: vochtprobleem of condens?"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is",
-              "headline": "Dakraam lekkage repareren of vervangen: wanneer welke keuze logisch is"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat",
-              "headline": "Dakraam onderhoud en preventie: lekkage voorkomen vóór het ontstaat"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#pillar"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#pillar",
+        "headline": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
+        "description": "Dakraam lekkage uitgelegd: oorzaken, signalen, gevolgen en de relatie met het dak. Praktische uitleg zonder verkooppraatjes.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-05T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakraam/#service",
+          "name": "Dakraam diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-dakraam/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-herkennen-vochtprobleem-of-condens#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-herkennen-vochtprobleem-of-condens",
+            "headline": "Dakraam lekkage herkennen: vochtprobleem of condens?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is",
+            "headline": "Dakraam lekkage repareren of vervangen: wanneer welke keuze logisch is"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat",
+            "headline": "Dakraam onderhoud en preventie: lekkage voorkomen vóór het ontstaat"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt",
+            "headline": "Oorzaken van dakraam lekkage: waarom water juist hier naar binnen komt"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakraam/#service",
+          "name": "Dakraam diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-dakraam/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik of het om lekkage of condens gaat ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Condens ontstaat meestal bij temperatuursverschillen en hoge luchtvochtigheid, vaak zonder directe relatie met regen. Lekkage treedt meestal op na neerslag en laat sporen achter in plafond of constructie. Twijfel is begrijpelijk; soms spelen beide factoren tegelijk."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan dakraam lekkage tijdelijk verdwijnen en later terugkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Kleine openingen of kwetsbare aansluitingen kunnen onder bepaalde omstandigheden geen problemen geven en bij andere juist wel. Dat verklaart waarom klachten soms onregelmatig optreden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lekkage altijd zichtbaar aan de binnenzijde ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Water kan zich eerst verspreiden binnen de dakconstructie voordat het zichtbaar wordt. Het zichtbare vochtpunt is niet altijd de plek waar het water het dak binnenkomt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft de ligging van de woning invloed ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Indirect wel. Windrichting, dakhelling en beschutting beïnvloeden hoe regenwater zich gedraagt. Daardoor kunnen vergelijkbare dakramen in verschillende situaties toch ander gedrag vertonen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan goed onderhoud lekkage volledig voorkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Onderhoud verkleint de kans op problemen, maar sluit ze niet volledig uit. Materialen verouderen en onvoorziene omstandigheden blijven mogelijk. Regelmatige controle helpt vooral om schade vroegtijdig te signaleren."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-dakraam/#service",
+        "name": "Dakraam diensten",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-dakraam/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+            "name": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#faq"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakraam lekkage: oorzaken, gevolgen en wat het zegt over je dak",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak#breadcrumb"
+      }
+    ]
+  }
 }

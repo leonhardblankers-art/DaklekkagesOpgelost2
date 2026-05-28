@@ -2,116 +2,207 @@
   "title": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
   "description": "Schade aan daken ontstaat vaak door jarenlange belasting. Lees hoe regen, wind en temperatuur samen tot problemen leiden.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
   "ogTitle": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
   "ogDescription": "Schade aan daken ontstaat vaak door jarenlange belasting. Lees hoe regen, wind en temperatuur samen tot problemen leiden.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
-      "datePublished": "2026-01-18T22:49:11.000Z",
-      "dateModified": "2026-01-18T22:49:20.088Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+        "url": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+        "name": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
+        "description": "Schade aan daken ontstaat vaak door jarenlange belasting. Lees hoe regen, wind en temperatuur samen tot problemen leiden.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#article",
-          "headline": "Cumulatieve weersbelasting: hoe jarenlange belasting schade veroorzaakt",
-          "description": "Schade aan daken ontstaat vaak door jarenlange weersbelasting. Uitleg over hoe regen, wind en temperatuur samen leiden tot materiaalvermoeiing.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-18T00:00:00+01:00",
-          "dateModified": "2026-01-18T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
-              "headline": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet",
-              "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#article",
+        "headline": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
+        "description": "Schade aan daken ontstaat vaak door jarenlange belasting. Lees hoe regen, wind en temperatuur samen tot problemen leiden.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
+          "headline": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+          "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan goed onderhoud de levensduur onbeperkt verlengen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Onderhoud vertraagt veroudering en beperkt schade, maar ieder dak bereikt uiteindelijk zijn technische grens."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe vaak moet een dak worden gecontroleerd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van type dak, ligging en ouderdom. Oudere daken en daken met eerdere reparaties vragen doorgaans om vaker toezicht."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is onderhoud ook zinvol zonder klachten ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Juist dan. Veel schade ontwikkelt zich zonder directe zichtbare signalen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan achterstallig onderhoud worden ingehaald ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Soms wel, maar niet altijd volledig. De mate van schade en duur van achterstand zijn bepalend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft onderhoud invloed op onverwachte lekkages ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Regelmatige controle verkleint de kans dat verborgen gebreken plots tot lekkage leiden."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+            "url": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+            "name": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen",
+            "item": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#breadcrumb"
+      }
+    ]
+  }
 }

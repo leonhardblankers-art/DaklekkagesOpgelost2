@@ -1,105 +1,192 @@
 {
   "title": "Wanneer is dakonderhoud niet meer zinvol?",
-  "description": "Wanneer biedt dakonderhoud weinig effect? Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+  "description": "Wanneer biedt dakonderhoud weinig effect?Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
   "ogTitle": "Wanneer is dakonderhoud niet meer zinvol?",
-  "ogDescription": "Wanneer biedt dakonderhoud weinig effect? Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+  "ogDescription": "Wanneer biedt dakonderhoud weinig effect?Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Wanneer is dakonderhoud niet meer zinvol?",
-      "datePublished": "2025-12-31T19:07:01.000Z",
-      "dateModified": "2025-12-31T19:07:18.374Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+        "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+        "name": "Wanneer is dakonderhoud niet meer zinvol?",
+        "description": "Wanneer biedt dakonderhoud weinig effect?Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Wanneer is dakonderhoud niet meer zinvol",
-          "description": "Inzicht in situaties waarin onderhoud aan daken beperkt effectief is en waarom kritische afweging belangrijk is.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-31",
-          "dateModified": "2025-12-31",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/wanneer-dakonderhoud-niet-meer-zinvol"
-          },
-          "isPartOf": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Kan onderhoud zinloos zijn bij oudere daken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Bij daken die hun maximale levensduur naderen kan onderhoud vooral uitstel bieden zonder structurele verbetering."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoe weet ik wanneer onderhoud geen effect meer heeft?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dat hangt af van de leeftijd van het dak, de mate van slijtage, het type dak en de blootstelling aan weersomstandigheden."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Zijn er situaties waarin onderhoud altijd zinvol blijft?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Onderhoud blijft nuttig voor inspectie en het signaleren van beginnende problemen, zelfs als het effect op de levensduur beperkt is."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol#article",
+        "headline": "Wanneer is dakonderhoud niet meer zinvol?",
+        "description": "Wanneer biedt dakonderhoud weinig effect?Inzicht in leeftijd, slijtage en situaties waarin onderhoud vooral uitstel is",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan onderhoud zinloos zijn bij oudere daken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Bij daken die de maximale levensduur naderen kan onderhoud vooral uitstel bieden zonder structurele verbetering."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik wanneer onderhoud geen effect meer heeft ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van de leeftijd van het dak, de mate van slijtage, het type dak en blootstelling aan weersomstandigheden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn er situaties waarin onderhoud altijd zinvol blijft ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Onderhoud blijft altijd nuttig voor inspectie en het signaleren van beginnende problemen, ook als het effect op de levensduur beperkt is."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+            "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+            "name": "Wanneer is dakonderhoud niet meer zinvol?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Wanneer is dakonderhoud niet meer zinvol?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakonderhoud-niet-meer-zinvol#breadcrumb"
+      }
+    ]
+  }
 }

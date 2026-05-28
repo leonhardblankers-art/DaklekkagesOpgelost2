@@ -2,116 +2,207 @@
   "title": "Veelgemaakte fouten bij dakrenovatie",
   "description": "De meest gemaakte fouten bij dakrenovatie en waarom een hellend dak blijft lekken als het systeem niet als geheel wordt aangepakt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
   "ogTitle": "Veelgemaakte fouten bij dakrenovatie",
   "ogDescription": "De meest gemaakte fouten bij dakrenovatie en waarom een hellend dak blijft lekken als het systeem niet als geheel wordt aangepakt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Veelgemaakte fouten bij dakrenovatie",
-      "datePublished": "2026-01-15T17:43:23.000Z",
-      "dateModified": "2026-01-15T17:43:34.122Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
+        "name": "Veelgemaakte fouten bij dakrenovatie",
+        "description": "De meest gemaakte fouten bij dakrenovatie en waarom een hellend dak blijft lekken als het systeem niet als geheel wordt aangepakt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#article",
-          "headline": "Veelgemaakte fouten bij dakrenovatie",
-          "description": "De meest gemaakte fouten bij dakrenovatie en waarom een hellend dak blijft lekken als het systeem niet als geheel wordt aangepakt.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205146986783?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768498870489&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#article",
+        "headline": "Veelgemaakte fouten bij dakrenovatie",
+        "description": "De meest gemaakte fouten bij dakrenovatie en waarom een hellend dak blijft lekken als het systeem niet als geheel wordt aangepakt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Waarom komen problemen terug na een renovatie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat zwakke lagen zijn blijven zitten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is alleen nieuwe pannen leggen genoeg ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet als de onderliggende lagen verouderd zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke fouten zie je het vaakst ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Het overslaan van onderdak en aansluitingen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan isolatie problemen veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, bij een slechte basis wel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wanneer is inspectie zinvol ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wanneer schade zich herhaalt of verplaatst."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
+            "url": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie",
+            "name": "Veelgemaakte fouten bij dakrenovatie"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Veelgemaakte fouten bij dakrenovatie",
+            "item": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-dakrenovatie#breadcrumb"
+      }
+    ]
+  }
 }

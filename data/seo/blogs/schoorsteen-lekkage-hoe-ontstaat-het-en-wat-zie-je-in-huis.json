@@ -1,192 +1,208 @@
 {
   "title": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
-  "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis? Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
+  "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis?Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
   "ogTitle": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
-  "ogDescription": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis? Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
+  "ogDescription": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis?Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+        "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+        "name": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
+        "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis?Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
+        },
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
+        }
       },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#article",
+        "headline": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
+        "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis?Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteenrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig#pillar",
+          "headline": "Schoorsteenrenovatie: wanneer nodig?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+        }
       },
-      "headline": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
-      "datePublished": "2025-12-29T11:01:13.000Z",
-      "dateModified": "2026-01-03T18:26:26.877Z",
-      "publisher": {
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteenrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik zeker dat de lekkage via de schoorsteen komt ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat is niet altijd direct vast te stellen. De locatie van vochtplekken, het moment waarop ze ontstaan en de staat van de schoorsteen geven vaak samen aanwijzingen. Soms is inspectie nodig om zekerheid te krijgen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een kleine scheur in de schoorsteen echt lekkage veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Zelfs kleine scheurtjes of poreus voegwerk kunnen bij langdurige regen voldoende water doorlaten om binnen schade te veroorzaken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Komt schoorsteenlekkage vooral voor bij oude woningen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oudere woningen lopen meer risico door verouderde materialen, maar ook bij relatief recente huizen kunnen lekkages ontstaan door constructiefouten of slijtage van aansluitingen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lekkage via de schoorsteen altijd zichtbaar in huis ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Water kan zich langere tijd onzichtbaar verplaatsen via constructiedelen voordat het zichtbaar wordt als vochtplek of schade."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Lost het plaatsen van een schoorsteenkap lekkage altijd op ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Een kap kan regeninloop beperken, maar lost geen problemen op met voegwerk, loodslabben of scheuren in het metselwerk."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+        "name": "Schoorsteenrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+            "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+            "name": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
         "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
         },
-        "@type": "Organization"
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
       },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#article",
-          "headline": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
-          "description": "Hoe ontstaat een schoorsteenlekkage en welke signalen zie je in huis? Praktische uitleg over oorzaken, herkenning en samenhang met renovatie.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis.webp"
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
           },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
           },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2025-12-29",
-          "dateModified": "2026-01-03",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
-          },
-          "isPartOf": {
-            "@type": "Blog",
-            "name": "Daklekkages Opgelost Blog",
-            "url": "https://www.daklekkagesopgelost.nl/blog"
-          },
-          "about": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-wanneer-nodig"
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
           }
-        },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "headline": "Schoorsteen lekkage: hoe ontstaat het en wat zie je in huis?",
-          "description": "Praktische uitleg over het ontstaan van schoorsteenlekkage, herkenbare signalen in huis en de relatie met schoorsteenrenovatie.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-28",
-          "dateModified": "2025-12-28",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.example.com/schoorsteen-lekkage"
-          }
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe weet ik zeker dat de lekkage via de schoorsteen komt?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dat is niet altijd direct vast te stellen. De locatie van vochtplekken, het moment waarop ze ontstaan en de staat van de schoorsteen geven vaak samen aanwijzingen. Soms is inspectie nodig om zekerheid te krijgen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan een kleine scheur in de schoorsteen echt lekkage veroorzaken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Zelfs kleine scheurtjes of poreus voegwerk kunnen bij langdurige regen voldoende water doorlaten om binnen schade te veroorzaken."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Komt schoorsteenlekkage vooral voor bij oude woningen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Oudere woningen lopen meer risico door verouderde materialen, maar ook bij relatief recente huizen kunnen lekkages ontstaan door constructiefouten of slijtage van aansluitingen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is lekkage via de schoorsteen altijd zichtbaar in huis?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Water kan zich langere tijd onzichtbaar verplaatsen via constructiedelen voordat het zichtbaar wordt als vochtplek of schade."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Lost het plaatsen van een schoorsteenkap lekkage altijd op?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Niet altijd. Een kap kan regeninloop beperken, maar lost geen problemen op met voegwerk, loodslabben of scheuren in het metselwerk."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
-        }
-      ]
-    }
-  ]
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#breadcrumb"
+      }
+    ]
+  }
 }

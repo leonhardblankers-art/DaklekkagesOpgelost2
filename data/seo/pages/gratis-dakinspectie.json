@@ -1,10 +1,10 @@
 {
   "title": "Gratis Dakinspectie | Daklekkages Opgelost",
-  "description": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
+  "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/dakinspectie/",
   "ogTitle": "Gratis Dakinspectie | Daklekkages Opgelost",
-  "ogDescription": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
+  "ogDescription": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
@@ -12,64 +12,38 @@
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie",
-        "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
-        "name": "Gratis dakinspectie – inzicht in de staat van je dak",
-        "description": "Twijfel over de staat van je dak? Met een gratis dakinspectie krijg je helder inzicht en weet je welke vervolgstap logisch is.",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "name": "Gratis Dakinspectie | Daklekkages Opgelost",
+        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/images/pages/gratis-dakinspectie-wanneer-20is-20dakrenovatie-20nodig.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
         },
-        "datePublished": "2026-02-09T08:00:00+01:00",
-        "dateModified": "2026-02-09T08:00:00+01:00",
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
         "mainEntity": {
           "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service"
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service"
         },
-        "isPartOf": {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
-          "name": "Dakonderhoud wat is zinvol?",
-          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#breadcrumb"
         }
       },
       {
         "@type": "Service",
-        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-        "name": "Gratis dakinspectie – inzicht in de staat van je dak",
-        "description": "Twijfel over de staat van je dak? Met een gratis dakinspectie krijg je helder inzicht en weet je welke vervolgstap logisch is.",
-        "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Gratis Dakinspectie | Daklekkages Opgelost",
+        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Home › Diensten › Gratis dakinspectie Vrijblijvend & adviserend Grati...",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/images/pages/gratis-dakinspectie-wanneer-20is-20dakrenovatie-20nodig.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
         },
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Gratis dakinspectie – inzicht in de staat van je dak – Dienstenoverzicht",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#service",
-                "name": "Rapportage dakinspectie",
-                "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie"
-              }
-            }
-          ]
-        },
-        "isReferencedBy": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol",
-            "name": "Dakonderhoud wat is zinvol?"
-          }
-        ]
+        }
       },
       {
         "@type": "RoofingContractor",
@@ -77,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "?",
         "logo": {
           "@type": "ImageObject",
           "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
@@ -107,6 +81,24 @@
             "name": "Noord-Brabant"
           }
         ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Gratis Dakinspectie | Daklekkages Opgelost",
+            "item": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#breadcrumb"
       }
     ]
   }

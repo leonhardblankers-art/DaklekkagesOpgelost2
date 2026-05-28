@@ -1,117 +1,200 @@
 {
   "title": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
-  "description": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe? Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
+  "description": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe?Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
   "ogTitle": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
-  "ogDescription": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe? Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
+  "ogDescription": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe?Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
-      "datePublished": "2026-01-15T11:55:15.000Z",
-      "dateModified": "2026-01-15T11:56:40.528Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+        "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+        "name": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
+        "description": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe?Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#article",
-          "headline": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
-          "description": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe? Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205117590401?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768478040509&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig#article",
+        "headline": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
+        "description": "Twijfel je of jouw hellende dak nog te repareren is of aan renovatie toe?Inzicht in signalen, verborgen schade en wanneer een dak zijn samenhang verliest.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik of mijn dak nog te repareren is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van de staat van het onderdak en het houtwerk. Zichtbare schade vertelt maar een deel van het verhaal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een oude lekkage altijd een teken dat renovatie nodig is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per se. Eén lekkage kan lokaal zijn. Het wordt pas zorgelijk als problemen blijven terugkomen of zich verspreiden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom zie ik vaak binnen schade terwijl de pannen er goed uitzien ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat water vaak onder de pannen blijft zitten en daar langzaam zijn werk doet. De zichtbare laag is niet de waterkerende laag."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een inspectie echt verschil maken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Alleen door onder de pannen en bij de aansluitingen te kijken, wordt duidelijk of het dak nog samenhang heeft."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+            "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+            "name": "Wanneer is dakrenovatie bij een hellend dak echt nodig?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Wanneer is dakrenovatie bij een hellend dak echt nodig?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig#breadcrumb"
+      }
+    ]
+  }
 }

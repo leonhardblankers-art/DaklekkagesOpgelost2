@@ -1,174 +1,166 @@
 {
   "title": "Lekkages | Daklekkages Opgelost",
-  "description": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage? Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+  "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage?Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/lekkages/",
   "ogTitle": "Lekkages | Daklekkages Opgelost",
-  "ogDescription": "Direct hulp nodig? Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage? Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+  "ogDescription": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage?Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "CollectionPage",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages",
-        "url": "https://www.daklekkagesopgelost.nl/lekkages",
-        "name": "Daklekkage? Vind de oorzaak met deze keuzehulp",
-        "description": "Vochtplek of daklekkage? Gebruik de keuzehulp en ontdek snel waar het probleem zit. Ga direct naar de juiste oplossing of plan een gratis dakinspectie.",
-        "isPartOf": {
-          "@type": "WebSite",
-          "@id": "https://www.daklekkagesopgelost.nl/#website"
-        },
-        "about": {
-          "@type": "Thing",
-          "name": "Daklekkages"
-        },
-        "mainEntity": {
-          "@id": "https://www.daklekkagesopgelost.nl/lekkages#itemlist"
-        },
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkages/",
+        "url": "https://www.daklekkagesopgelost.nl/lekkages/",
+        "name": "Lekkages | Daklekkages Opgelost",
+        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage?Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/images/pages/lekkages-lekkage-20uit-20schoorsteen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkages/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/lekkages#breadcrumb"
         }
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.daklekkagesopgelost.nl/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Lekkages",
-            "item": "https://www.daklekkagesopgelost.nl/lekkages"
-          }
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages#itemlist",
-        "name": "Routes naar daklekkage oplossingen",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Lekkage opsporen",
-            "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Schoorsteenlekkage",
-            "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Noklekkage",
-            "url": "https://www.daklekkagesopgelost.nl/noklekkage"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Daklekkage",
-            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "name": "Noodreparatie",
-            "url": "https://www.daklekkagesopgelost.nl/noodreparatie"
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "name": "Gratis dakinspectie",
-            "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie"
-          }
-        ]
-      },
-      {
-        "@type": "HowTo",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages#howto",
-        "name": "Daklekkage herkennen en de juiste oplossing kiezen",
-        "description": "Gebruik de keuzehulp om een daklekkage te herkennen en snel naar de juiste oplossing te gaan.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Herken het symptoom",
-            "text": "Kijk waar en wanneer u vocht ziet. Bijvoorbeeld een vochtplek na regen, strepen rond de schoorsteen of vocht op zolder."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Kies de juiste lekkage route",
-            "text": "Selecteer de route die het beste past bij uw situatie, zoals lekkage opsporen, schoorsteenlekkage of noklekkage."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Voorkom vervolgschade",
-            "text": "Laat een inspectie uitvoeren of pak de lekkage gericht aan zodat verdere schade aan dak, isolatie of plafond wordt voorkomen."
-          }
-        ]
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkages/#service",
+        "name": "Lekkages | Daklekkages Opgelost",
+        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Eén aanspreekpunt • snelle opvolging Daklekkage?Pak ’m nu aan Gratis inspectie of bel direct Inspectie Be...",
+        "url": "https://www.daklekkagesopgelost.nl/lekkages/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Lekkages | Daklekkages Opgelost ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkages/noklekkage/#service",
+                "name": "Nok (nokvorsten/mortel)",
+                "url": "https://www.daklekkagesopgelost.nl/lekkages/noklekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkages/schoorsteenlekkage/#service",
+                "name": "Schoorsteen (lood/voegen/kap)",
+                "url": "https://www.daklekkagesopgelost.nl/lekkages/schoorsteenlekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkages/daklekkage/#service",
+                "name": "Dakpannen (gebroken/verschoven)",
+                "url": "https://www.daklekkagesopgelost.nl/lekkages/daklekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkages/lekkage-opsporen/#service",
+                "name": "Doorvoeren (ventilatie/afvoer)",
+                "url": "https://www.daklekkagesopgelost.nl/lekkages/lekkage-opsporen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/#service",
+                "name": "Lekkage opsporen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/rapportage-dakinspectie/#service",
+                "name": "Rapportage dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/rapportage-dakinspectie/"
+              }
+            }
+          ]
+        }
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages#faq",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkages/#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkages/#service",
+          "name": "Lekkages | Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/lekkages/"
+        },
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Wat is de snelste manier om schade te beperken?",
+            "name": "Wat is de snelste manier om schade te beperken ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Maak foto’s, vang water op en zorg dat vocht zich niet verder verspreidt. Bij twijfel kan een noodreparatie of inspectie verdere schade voorkomen."
+              "text": "Maak foto’s, vang water op en voorkom dat vocht zich verspreidt. Bij twijfel: kies voor noodreparatie of bel ons direct — snel ingrijpen voorkomt extra kosten."
             }
           },
           {
             "@type": "Question",
-            "name": "Doen jullie alleen lekkages of ook ander dakwerk?",
+            "name": "Doen jullie alleen lekkages of ook ander dakwerk ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Naast het oplossen van lekkages voeren wij ook andere dakwerkzaamheden uit zoals dakpannen vervangen, isolatie, renovaties en schoorsteenreparaties."
+              "text": "We zijn gespecialiseerd in lekkages en loodwerk, maar voeren ook allround dakdekkerswerk uit zoals pannen vervangen, isoleren, renovaties en schoorsteenreparaties."
             }
           },
           {
             "@type": "Question",
-            "name": "Wanneer kies ik voor lekkage opsporen?",
+            "name": "Wanneer kies ik voor lekkage opsporen ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Als de bron van de lekkage niet duidelijk is of als een lekkage steeds terugkomt. Met gericht opsporen wordt de oorzaak vastgesteld zodat reparatie duurzaam kan plaatsvinden."
+              "text": "Als u wel klachten ziet (vochtplek/geur) maar de bron niet zeker weet, of als de lekkage terugkomt. Opsporen voorkomt onnodige (en dure) “gokreparaties”."
             }
           },
           {
             "@type": "Question",
-            "name": "Moet ik altijd meteen repareren?",
+            "name": "Moet ik altijd meteen repareren ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Niet altijd. Soms is monitoring of klein onderhoud voldoende. Tijdens een inspectie wordt duidelijk wat direct opgelost moet worden en wat veilig kan wachten."
+              "text": "Nee. Soms is monitoren of klein onderhoud genoeg. Met een inspectie krijgt u een technische inschatting: wat is veilig om te volgen en wat kan beter direct worden opgelost."
             }
           },
           {
             "@type": "Question",
-            "name": "Wat kost lekkage opsporen of een inspectie?",
+            "name": "Wat kost lekkage opsporen of een inspectie ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Een dakinspectie is gratis en vrijblijvend. Als opsporen nodig is bespreken we vooraf de aanpak en kosten zodat u weet waar u aan toe bent."
+              "text": "De dakinspectie is gratis en vrijblijvend. Opsporen is bedoeld als u zekerheid wilt over de bron. Na contact stemmen we af wat in uw situatie logisch is en wat het kost, voordat we iets uitvoeren."
             }
           },
           {
             "@type": "Question",
-            "name": "Kan het ook condensatie zijn in plaats van lekkage?",
+            "name": "Kan het ook condensatie zijn in plaats van lekkage ▾",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Ja, dat kan. Condensatie ontstaat vaak door ventilatieproblemen of koudebruggen. Tijdens een inspectie kunnen we dit onderscheiden van een echte daklekkage."
+              "text": "Ja, soms. Condensatie ontstaat vaak bij onvoldoende ventilatie of koudebruggen. Het verschil zit vaak in patroon en timing (bijv. vooral in koude perioden). We helpen u het onderscheid te maken zodat u niet de verkeerde oplossing kiest."
             }
           }
         ]
@@ -179,7 +171,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "?",
         "logo": {
           "@type": "ImageObject",
           "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
@@ -209,6 +201,24 @@
             "name": "Noord-Brabant"
           }
         ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Lekkages | Daklekkages Opgelost",
+            "item": "https://www.daklekkagesopgelost.nl/lekkages/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/lekkages#breadcrumb"
       }
     ]
   }

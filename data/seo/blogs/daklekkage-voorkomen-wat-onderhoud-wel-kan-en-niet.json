@@ -1,105 +1,192 @@
 {
   "title": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
-  "description": "Hoe kan onderhoud helpen lekkages te voorkomen? Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+  "description": "Hoe kan onderhoud helpen lekkages te voorkomen?Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
   "ogTitle": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
-  "ogDescription": "Hoe kan onderhoud helpen lekkages te voorkomen? Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+  "ogDescription": "Hoe kan onderhoud helpen lekkages te voorkomen?Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
-      "datePublished": "2025-12-31T19:00:24.000Z",
-      "dateModified": "2025-12-31T19:00:54.367Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+        "name": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+        "description": "Hoe kan onderhoud helpen lekkages te voorkomen?Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
-          "description": "Inzicht in welke rol onderhoud speelt bij het voorkomen van daklekkages en waarom onderhoud geen volledige garantie biedt.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-31",
-          "dateModified": "2025-12-31",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/daklekkage-voorkomen"
-          },
-          "isPartOf": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Kan onderhoud alle lekkages voorkomen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee, onderhoud beperkt het risico, maar extreme weersomstandigheden of structurele zwaktes kunnen alsnog lekkages veroorzaken."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoe vaak moet je kritieke punten controleren?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Het is verstandig om minstens één keer per jaar de naden, doorvoeren en aansluitingen te inspecteren, zeker bij oudere daken."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is het reinigen van goten voldoende om lekkages te voorkomen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Het helpt om waterafvoer te verbeteren, maar voorkomt niet dat achterliggende structurele problemen of slijtage lekkages veroorzaken."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet#article",
+        "headline": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+        "description": "Hoe kan onderhoud helpen lekkages te voorkomen?Inzicht in risico’s, kritieke punten en waarom onderhoud geen garantie biedt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan onderhoud alle lekkages voorkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, onderhoud beperkt het risico, maar extreme weersomstandigheden of structurele zwaktes kunnen alsnog lekkages veroorzaken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe vaak moet je kritieke punten controleren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Het is verstandig om minstens één keer per jaar de naden, doorvoeren en aansluitingen te inspecteren, zeker bij oudere daken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is het reinigen van goten voldoende om lekkages te voorkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Het helpt om waterafvoer te verbeteren, maar voorkomt niet dat achterliggende structurele problemen of slijtage lekkages veroorzaken."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+            "name": "Daklekkage voorkomen: wat onderhoud wel kan en niet"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklekkage voorkomen: wat onderhoud wel kan en niet",
+            "item": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet#breadcrumb"
+      }
+    ]
+  }
 }

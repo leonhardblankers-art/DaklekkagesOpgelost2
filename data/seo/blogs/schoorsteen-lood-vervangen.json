@@ -1,84 +1,236 @@
 {
   "title": "Schoorsteenlood vervangen: wanneer en waarom",
-  "description": "Schoorsteen lood vervangen? Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+  "description": "Schoorsteen lood vervangen?Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
   "ogTitle": "Schoorsteenlood vervangen: wanneer en waarom",
-  "ogDescription": "Schoorsteen lood vervangen? Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+  "ogDescription": "Schoorsteen lood vervangen?Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Schoorsteenlood vervangen: wanneer en waarom",
-      "datePublished": "2026-01-01T22:40:08.000Z",
-      "dateModified": "2026-01-02T00:17:10.337Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+        "name": "Schoorsteenlood vervangen: wanneer en waarom",
+        "description": "Schoorsteen lood vervangen?Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Schoorsteenlood vervangen: wanneer en waarom",
-      "description": "Overzichtspagina over schoorsteenlood: functies, slijtage, vervanging en gerelateerde onderwerpen binnen het contentcluster.",
-      "author": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "datePublished": "2026-01-02",
-      "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
-      },
-      "hasPart": [
-        {
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-02T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood"
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar"
         },
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen"
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#breadcrumb"
         },
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen"
-        },
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-schoorsteenlood"
-        },
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-schoorsteenlood"
-        },
-        {
-          "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-schoorsteenlood"
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar",
+        "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+        "description": "Schoorsteen lood vervangen?Lees hoe slijtage ontstaat, wanneer vervanging nodig is en welke oplossingen duurzaam zijn.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-02T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+            "headline": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+            "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+            "headline": "Lekkage door schoorsteenlood: oorzaken en oplossingen"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+            "headline": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig",
+            "headline": "Schoorsteenlood repareren of vervangen: wat is verstandig?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen",
+            "headline": "Veelgemaakte fouten bij schoorsteenlood: waarom problemen blijven terugkomen"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat schoorsteenlood gemiddeld mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt sterk. Bij gunstige omstandigheden kan het tientallen jaren meegaan, bij slechte aanleg of extreme belasting kan het veel sneller slijten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een kleine scheur direct een probleem ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Het is vaak een waarschuwing dat vervanging binnen afzienbare tijd nodig is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik schoorsteenlood zelf vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In theorie kan veel, maar in de praktijk vereist goed loodwerk ervaring om fouten en lekkage te voorkomen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn loodvervangers net zo betrouwbaar als traditioneel lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ze kunnen betrouwbaar zijn mits correct toegepast. Ze hebben echter een andere verwerking en levensduur."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+        "name": "Schoorsteenlood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen",
+            "name": "Schoorsteenlood vervangen: wanneer en waarom"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#faq"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteenlood vervangen: wanneer en waarom",
+            "item": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#breadcrumb"
+      }
+    ]
+  }
 }

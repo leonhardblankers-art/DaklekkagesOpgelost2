@@ -1,105 +1,192 @@
 {
   "title": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
-  "description": "Wat heeft onderhoud aan pannendaken echt voor effect? Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+  "description": "Wat heeft onderhoud aan pannendaken echt voor effect?Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
   "ogTitle": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
-  "ogDescription": "Wat heeft onderhoud aan pannendaken echt voor effect? Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+  "ogDescription": "Wat heeft onderhoud aan pannendaken echt voor effect?Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
-      "datePublished": "2025-12-31T18:55:53.000Z",
-      "dateModified": "2025-12-31T18:55:58.403Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+        "name": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+        "description": "Wat heeft onderhoud aan pannendaken echt voor effect?Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
-          "description": "Uitleg over zinvol onderhoud aan pannendaken, de rol van details en waarom niet elk zichtbaar probleem direct ingrijpen vraagt.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-28",
-          "dateModified": "2025-12-28",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/onderhoud-pannendaken"
-          },
-          "isPartOf": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Moeten dakpannen periodiek worden vervangen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Dakpannen hebben vaak een lange levensduur. Vervanging is pas nodig wanneer breuk, slijtage of onderliggende problemen dat rechtvaardigen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan mos op dakpannen lekkage veroorzaken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Indirect wel. Mos houdt vocht vast en kan de waterafvoer verstoren, waardoor onderliggende onderdelen zwaarder worden belast."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Zijn lekkages bij pannendaken altijd zichtbaar?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Water kan via folie en constructie een andere route volgen, waardoor schade pas later zichtbaar wordt."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet#article",
+        "headline": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+        "description": "Wat heeft onderhoud aan pannendaken echt voor effect?Inzicht in dakpannen, details, slijtage en wanneer ingrijpen zinvol is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Moeten dakpannen periodiek worden vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Dakpannen gaan vaak tientallen jaren mee. Vervanging is pas nodig wanneer breuk, slijtage of structurele problemen dat rechtvaardigen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan mos op dakpannen lekkage veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Indirect wel. Mos kan water vasthouden en de afvoer verstoren, waardoor onderliggende onderdelen extra worden belast."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn lekkages bij pannendaken altijd zichtbaar ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Water kan via folie en constructie een andere route volgen dan verwacht, waardoor schade pas later zichtbaar wordt."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+            "name": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Onderhoud van pannendaken: wat heeft wél effect en wat niet?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet#breadcrumb"
+      }
+    ]
+  }
 }

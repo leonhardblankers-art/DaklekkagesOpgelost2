@@ -1,115 +1,208 @@
 {
   "title": "Lekkage door schoorsteen: herstellen of verwijderen?",
-  "description": "Lekkage door de schoorsteen? Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
+  "description": "Lekkage door de schoorsteen?Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
   "ogTitle": "Lekkage door schoorsteen: herstellen of verwijderen?",
-  "ogDescription": "Lekkage door de schoorsteen? Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
+  "ogDescription": "Lekkage door de schoorsteen?Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Lekkage door schoorsteen: herstellen of verwijderen?",
-      "datePublished": "2026-01-02T16:28:59.000Z",
-      "dateModified": "2026-01-03T18:41:32.649Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+        "name": "Lekkage door schoorsteen: herstellen of verwijderen?",
+        "description": "Lekkage door de schoorsteen?Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-02T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis#article",
-          "headline": "Lekkage door schoorsteen: herstellen of verwijderen?",
-          "description": "Lekkage door de schoorsteen? Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-02",
-          "dateModified": "2026-01-03",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen#article",
+        "headline": "Lekkage door schoorsteen: herstellen of verwijderen?",
+        "description": "Lekkage door de schoorsteen?Lees wanneer herstellen zinvol is en wanneer verwijderen een betere, duurzamere oplossing kan zijn.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-02T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+          "name": "Schoorsteen verwijderen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten#pillar",
+          "headline": "Schoorsteen verwijderen: wat je moet weten",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+          "name": "Schoorsteen verwijderen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan een lekkende schoorsteen altijd worden hersteld ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Als de schoorsteen constructief is aangetast of al meerdere keren is gerepareerd, is herstellen soms geen duurzame oplossing meer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is verwijderen definitief beter tegen lekkages ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Verwijderen neemt het risico op lekkage rond de schoorsteen weg, maar het dak moet daarna wel zorgvuldig worden hersteld om nieuwe problemen te voorkomen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik waar de lekkage vandaan komt ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat is niet altijd direct zichtbaar. Water kan zich verplaatsen binnen het dak. Een inspectie is vaak nodig om de echte oorzaak vast te stellen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Speelt de leeftijd van de schoorsteen een rol ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, oudere schoorstenen hebben vaker last van verouderd metselwerk, voegen en lood, wat de kans op lekkages vergroot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik herstellen en later alsnog verwijderen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat kan, maar het betekent wel dat kosten zich opstapelen. Soms is het verstandiger om direct een structurele keuze te maken."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+        "name": "Schoorsteen verwijderen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+            "name": "Lekkage door schoorsteen: herstellen of verwijderen?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lekkage door schoorsteen: herstellen of verwijderen?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen#breadcrumb"
+      }
+    ]
+  }
 }

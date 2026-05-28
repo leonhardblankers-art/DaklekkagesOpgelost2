@@ -1,122 +1,208 @@
 {
   "title": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
-  "description": "Welke isolatiematerialen zijn duurzaam voor je dak? Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
+  "description": "Welke isolatiematerialen zijn duurzaam voor je dak?Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
   "ogTitle": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
-  "ogDescription": "Welke isolatiematerialen zijn duurzaam voor je dak? Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
+  "ogDescription": "Welke isolatiematerialen zijn duurzaam voor je dak?Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
-      "datePublished": "2025-12-29T17:14:28.000Z",
-      "dateModified": "2025-12-29T18:30:07.093Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+        "url": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+        "name": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
+        "description": "Welke isolatiematerialen zijn duurzaam voor je dak?Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-01-09T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
-          "description": "Meer dakisolatie betekent niet automatisch een beter resultaat. Lees waarom ventilatie essentieel is voor comfort, vochtbeheersing en een gezond dak.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-01-09",
-          "dateModified": "2025-01-09",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "headline": "Dakisolatie: wat levert het op?",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Waarom is ventilatie zo belangrijk bij dakisolatie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ventilatie voert vochtige lucht af en voorkomt dat warme lucht in de dakconstructie condenseert, wat schade en comfortproblemen kan veroorzaken."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan te veel isolatie problemen veroorzaken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Zonder voldoende ventilatie kan een sterk geïsoleerde woning juist meer last krijgen van vocht, schimmel en een benauwd binnenklimaat."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Moet ventilatie altijd worden aangepast bij dakisolatie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In veel gevallen wel. Zeker bij ingrijpende isolatiemaatregelen is het belangrijk om te kijken of de bestaande ventilatie nog voldoende is."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Wat gebeurt er als ventilatie ontbreekt?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Gebrek aan ventilatie kan leiden tot condensatie, schimmelvorming en aantasting van isolatie en houtconstructies."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is balans tussen isolatie en ventilatie altijd nodig?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Alleen wanneer isolatie en ventilatie goed op elkaar zijn afgestemd, ontstaat een comfortabel en duurzaam resultaat."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#article",
+        "headline": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
+        "description": "Welke isolatiematerialen zijn duurzaam voor je dak?Ontdek verschillen in milieu-impact, vochtgedrag en levensduur.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-01-09T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+          "name": "Dak isoleren",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#pillar",
+          "headline": "Dakisolatie: wat levert het op?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+          "name": "Dak isoleren",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Zijn biobased materialen altijd duurzamer ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per definitie. Ze hebben vaak een lagere milieubelasting, maar moeten wel geschikt zijn voor de dakopbouw."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welk isolatiemateriaal kan het beste tegen vocht ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Materialen met vochtbufferende eigenschappen, zoals houtvezel of cellulose, kunnen beter omgaan met tijdelijke vochtbelasting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een hoge isolatiewaarde altijd beter ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Een hoge isolatiewaarde helpt, maar zegt niets over vochtgedrag of levensduur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen isolatiematerialen worden gerecycled ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt per materiaal. Minerale wol en kunststoffen zijn beperkt recyclebaar, biobased materialen meestal eenvoudiger."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Speelt brandveiligheid ook mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Sommige materialen zijn onbrandbaar, andere vragen aanvullende maatregelen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+        "name": "Dak isoleren",
+        "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+            "url": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+            "name": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#breadcrumb"
+      }
+    ]
+  }
 }

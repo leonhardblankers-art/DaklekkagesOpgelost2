@@ -2,116 +2,199 @@
   "title": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
   "description": "Wanneer sneeuw van het dak verwijderen zinvol is, welke risico’s het heeft en waarom ingrijpen niet altijd de beste keuze is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
   "ogTitle": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
   "ogDescription": "Wanneer sneeuw van het dak verwijderen zinvol is, welke risico’s het heeft en waarom ingrijpen niet altijd de beste keuze is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
-      "datePublished": "2026-01-08T20:13:38.000Z",
-      "dateModified": "2026-01-20T18:43:07.996Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+        "name": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
+        "description": "Wanneer sneeuw van het dak verwijderen zinvol is, welke risico’s het heeft en waarom ingrijpen niet altijd de beste keuze is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-08T08:00:00+01:00",
+        "dateModified": "2026-01-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#article",
-          "headline": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
-          "description": "Wanneer sneeuw van het dak verwijderen zinvol is, welke risico’s het heeft en waarom ingrijpen niet altijd de beste keuze is.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204389621088?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767738125095&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-08T09:00:00+01:00",
-          "dateModified": "2026-01-08T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
-              "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
-              "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#article",
+        "headline": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
+        "description": "Wanneer sneeuw van het dak verwijderen zinvol is, welke risico’s het heeft en waarom ingrijpen niet altijd de beste keuze is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-08T08:00:00+01:00",
+        "dateModified": "2026-01-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+          "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Moet sneeuw altijd van een plat dak worden verwijderd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. In veel gevallen kan sneeuw veilig blijven liggen zolang afwatering mogelijk blijft en er geen zichtbare problemen zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is het beter om sneeuw preventief te verwijderen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Preventief verwijderen kan juist schade veroorzaken of problemen verergeren als het smeltproces versnelt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan sneeuwvrijmaken lekkages voorkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Soms, maar niet structureel. Als een dak gevoelig is voor lekkages, ligt de oorzaak meestal dieper dan alleen sneeuwophoping."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie is verantwoordelijk voor schade door sneeuw op het dak ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van situatie en context. Sneeuw zelf is een natuurlijke belasting; schade ontstaat vaak door onderliggende factoren."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+            "name": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sneeuwvrijmaken van daken: wanneer ingrijpen zinvol is en wanneer niet",
+            "item": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet#breadcrumb"
+      }
+    ]
+  }
 }

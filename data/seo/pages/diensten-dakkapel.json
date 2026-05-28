@@ -11,17 +11,190 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/",
         "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/",
         "name": "Diensten dakkapel",
         "description": "Daklekkage Opgelost is de partij voor alle werkzaamheden aan uw dakkapel. Zie wat wij voor u kunnen beteken!",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel#breadcrumb"
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#service",
+        "name": "Diensten dakkapel",
+        "description": "Daklekkage Opgelost is de partij voor alle werkzaamheden aan uw dakkapel. Zie wat wij voor u kunnen beteken!",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Diensten dakkapel ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dakkapel-renoveren/#service",
+                "name": "Dakkapel renoveren",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dakkapel-renoveren/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dakkapel-lood-vervangen/#service",
+                "name": "Dakkapel lood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dakkapel-lood-vervangen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/plat-dak-reparatie/#service",
+                "name": "Plat dak reparatie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/plat-dak-reparatie/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/kozijnlood-vervangen/#service",
+                "name": "Kozijnlood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/kozijnlood-vervangen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkages/lekkage-opsporen/#service",
+                "name": "Lekkage opsporen",
+                "url": "https://www.daklekkagesopgelost.nl/lekkages/lekkage-opsporen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/#service",
+                "name": "Gratis dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#service",
+          "name": "Diensten dakkapel",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wanneer is dakkapelrenovatie beter dan lood vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Als er naast lekkage ook houtrot, slechte bekleding, tocht of verouderde kozijnen spelen. Dan lost alleen lood vervangen niet alles op."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom lekt een dakkapel vaak bij aansluitingen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat daar dakvlak, wand, kozijn en lood samenkomen. Kleine fouten of slijtage zorgen snel voor waterinloop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan de dakkapel blijven zitten tijdens herstel ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Meestal wel. Alleen bij zware schade of constructieve problemen is een grotere aanpak nodig."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Diensten dakkapel",
+            "item": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel#breadcrumb"
       }
     ]
   }

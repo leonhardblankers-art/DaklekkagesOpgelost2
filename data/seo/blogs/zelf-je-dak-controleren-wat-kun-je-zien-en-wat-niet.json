@@ -1,113 +1,200 @@
 {
   "title": "Zelf je dak controleren: wat kun je zien en wat niet?",
-  "description": "Wat kun je zelf zien bij dakinspectie en wat niet? Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
+  "description": "Wat kun je zelf zien bij dakinspectie en wat niet?Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
   "ogTitle": "Zelf je dak controleren: wat kun je zien en wat niet?",
-  "ogDescription": "Wat kun je zelf zien bij dakinspectie en wat niet? Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
+  "ogDescription": "Wat kun je zelf zien bij dakinspectie en wat niet?Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Zelf je dak controleren: wat kun je zien en wat niet?",
-      "datePublished": "2025-12-31T19:11:31.000Z",
-      "dateModified": "2025-12-31T19:11:38.139Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+        "name": "Zelf je dak controleren: wat kun je zien en wat niet?",
+        "description": "Wat kun je zelf zien bij dakinspectie en wat niet?Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Zelf je dak controleren: wat kun je zien en wat niet?",
-          "description": "Praktische tips voor wat huiseigenaren zelf kunnen controleren aan hun dak, inclusief beperkingen, veiligheid en hulpmiddelen.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-31",
-          "dateModified": "2025-12-31",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/zelf-je-dak-controleren"
-          },
-          "isPartOf": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/dakonderhoud-wat-is-zinvol"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Kun je alle problemen zelf zien?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee, veel problemen zoals houtrot, achtergebleven vocht of lekkages onder dakbedekking zijn niet zichtbaar zonder professioneel onderzoek."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoe vaak kun je zelf inspecteren?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een paar keer per jaar, bijvoorbeeld in het voorjaar en na zware stormen, kan helpen om zichtbare gebreken op te merken. Let ook op seizoensgebonden factoren zoals vallende bladeren of sneeuwbelasting."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is het veilig om op het dak te klimmen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Niet altijd. Let op helling en stabiliteit van het dak. Draag geschikte schoenen en gebruik een veilige ladder. Bij twijfel of onveilige omstandigheden schakel een professional in."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Welke hulpmiddelen kunnen helpen bij dakinspectie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Gebruik een verrekijker om moeilijk bereikbare plekken te bekijken, een vochtmeter voor oppervlakkige vochtmetingen en een camera of drone om foto’s van lastige hoeken te maken."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet#article",
+        "headline": "Zelf je dak controleren: wat kun je zien en wat niet?",
+        "description": "Wat kun je zelf zien bij dakinspectie en wat niet?Praktische tips, beperkingen, veiligheid en hulpmiddelen voor huiseigenaren.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kun je alle problemen zelf zien ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, veel problemen zoals houtrot, achtergebleven vocht of lekkages onder dakbedekking zijn niet zichtbaar zonder professioneel onderzoek."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe vaak kun je zelf inspecteren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Een paar keer per jaar, bijvoorbeeld in het voorjaar en na zware stormen, kan helpen om zichtbare gebreken op te merken. Let ook op seizoensgebonden factoren zoals vallende bladeren of sneeuwbelasting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is het veilig om op het dak te klimmen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Let op helling en stabiliteit van het dak. Draag geschikte schoenen en gebruik een veilige ladder. Bij twijfel of onveilige omstandigheden schakel een professional in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke hulpmiddelen kunnen helpen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gebruik een verrekijker om moeilijk bereikbare plekken te bekijken, een vochtmeter voor oppervlakkige vochtmetingen en een camera of drone om foto’s van lastige hoeken te maken."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+            "name": "Zelf je dak controleren: wat kun je zien en wat niet?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Zelf je dak controleren: wat kun je zien en wat niet?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet#breadcrumb"
+      }
+    ]
+  }
 }

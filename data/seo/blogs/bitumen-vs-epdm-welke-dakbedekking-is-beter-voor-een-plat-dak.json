@@ -1,117 +1,208 @@
 {
   "title": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
-  "description": "Bitumen of EPDM op een plat dak? Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
+  "description": "Bitumen of EPDM op een plat dak?Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
   "ogTitle": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
-  "ogDescription": "Bitumen of EPDM op een plat dak? Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
+  "ogDescription": "Bitumen of EPDM op een plat dak?Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
-      "datePublished": "2026-01-12T16:33:55.000Z",
-      "dateModified": "2026-01-14T18:07:22.087Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+        "url": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+        "name": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
+        "description": "Bitumen of EPDM op een plat dak?Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#article",
-          "headline": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
-          "description": "Bitumen of EPDM op een plat dak? Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204805910903?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768235378059&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-12T09:00:00+01:00",
-          "dateModified": "2026-01-12T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
-              "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
-              "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#article",
+        "headline": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
+        "description": "Bitumen of EPDM op een plat dak?Ontdek de verschillen in levensduur, gedrag en risico’s, en waarom de ondergrond vaak belangrijker is dan het materiaal.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
+          "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
+          "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wat gaat langer mee: bitumen of EPDM ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EPDM blijft doorgaans langer elastisch en veroudert minder snel door zonlicht. Bitumen kan echter ook een lange levensduur hebben, mits het goed onderhouden wordt en niet voortdurend nat blijft."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is EPDM altijd beter dan bitumen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Op eenvoudige daken zonder veel doorvoeren kan EPDM een voordeel zijn. Op complexere daken met randen, opstanden en installaties is bitumen vaak beter te detailleren en makkelijker te herstellen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik van bitumen overstappen naar EPDM ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat kan, maar alleen als de onderliggende lagen droog en stabiel zijn. Als er al vocht of vervorming in het dak zit, kan een overstap juist extra risico geven."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke dakbedekking is beter bij beweging in de ondergrond ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bitumen kan kleine bewegingen goed opvangen door zijn gelaagde structuur. EPDM is elastisch, maar bij sterke of ongelijkmatige beweging kan de hechting met de ondergrond kwetsbaar worden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik wat voor mijn dak de beste keuze is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van de huidige opbouw, de staat van de isolatie en de manier waarop water wordt afgevoerd. Alleen een inspectie van het bestaande dak kan dat betrouwbaar bepalen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+        "name": "Plat dak diensten",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+            "url": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+            "name": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Bitumen vs EPDM: welke dakbedekking is beter voor een plat dak?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak#breadcrumb"
+      }
+    ]
+  }
 }

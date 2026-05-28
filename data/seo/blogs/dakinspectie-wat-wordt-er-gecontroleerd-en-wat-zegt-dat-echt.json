@@ -2,116 +2,199 @@
   "title": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
   "description": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
   "ogTitle": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
   "ogDescription": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
-      "datePublished": "2025-12-29T11:07:50.000Z",
-      "dateModified": "2025-12-29T11:07:50.490Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+        "name": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+        "description": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Dakonderhoud: wat is zinvol?",
-          "description": "Uitleg over zinvol dakonderhoud, de rol van inspectie en onderhoud, en wanneer ingrijpen logisch is of juist niet.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-28",
-          "dateModified": "2025-12-28",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.example.com/dakonderhoud-wat-is-zinvol"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Is dakonderhoud verplicht voor particuliere woningen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee, er bestaat geen wettelijke onderhoudsplicht voor particuliere woningen. Wel kan achterstallig onderhoud gevolgen hebben bij schade of verzekeringskwesties."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan een dak er goed uitzien en toch problemen hebben?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. Veel problemen ontstaan bij aansluitingen of onder de dakbedekking en zijn vanaf de buitenkant niet altijd zichtbaar."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Wat is het grootste misverstand over dakonderhoud?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dat dakonderhoud altijd betekent dat er gerepareerd of vervangen moet worden. Inspectie zonder directe ingreep is vaak ook een waardevolle uitkomst."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Heeft elk dak jaarlijks onderhoud nodig?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. De benodigde frequentie hangt af van het type dak, de leeftijd, gebruikte materialen en de mate van blootstelling aan weer en wind."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Helpt dakonderhoud om lekkages te voorkomen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Onderhoud kan het risico op lekkages verkleinen, maar niet alle problemen zijn te voorkomen. Sommige gebreken ontstaan geleidelijk of onverwacht."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt#article",
+        "headline": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+        "description": "Dakinspectie uitgelegd: wat wordt gecontroleerd, wat blijft onzichtbaar en hoe betrouwbaar is de uitkomst in de praktijk?",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-12-28T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol#pillar",
+          "headline": "Dakonderhoud: wat is zinvol?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakonderhoud-wat-is-zinvol"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is een dakinspectie altijd nodig bij onderhoud ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Soms is visuele monitoring voldoende, zeker bij jongere daken zonder klachten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een inspectie lekkages voorspellen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet met zekerheid. Wel kunnen risicofactoren worden herkend die de kans op lekkage vergroten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe vaak moet een dak geïnspecteerd worden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van het type dak, de leeftijd en de omstandigheden. Er bestaat geen vaste frequentie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een dakinspectie schadelijk voor het dak ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Een zorgvuldige inspectie niet. Onkundig betreden van het dak kan wel schade veroorzaken."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+            "name": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakinspectie: wat wordt er gecontroleerd en wat zegt dat echt?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt#breadcrumb"
+      }
+    ]
+  }
 }

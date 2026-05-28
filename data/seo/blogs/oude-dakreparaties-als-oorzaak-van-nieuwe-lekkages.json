@@ -1,157 +1,208 @@
 {
-  "title": "Oude dakreparatie? Zo ontstaat juist nieuwe lekkage",
+  "title": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage",
   "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
-  "ogTitle": "Oude dakreparatie? Zo ontstaat juist nieuwe lekkage",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+  "ogTitle": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage",
   "ogDescription": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Oude dakreparatie? Zo ontstaat juist nieuwe lekkage",
-      "datePublished": "2026-01-28T14:42:48.000Z",
-      "dateModified": "2026-02-01T20:18:46.948Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+        "url": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+        "name": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage",
+        "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
-          "url": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
-          "name": "Oude dakreparaties als oorzaak van nieuwe lekkages",
-          "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
-          },
-          "datePublished": "2026-02-01T08:00:00+01:00",
-          "dateModified": "2026-02-01T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#article"
-          },
-          "isPartOf": {
-            "@type": "Blog",
-            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
-            "name": "Daklekkages Opgelost Blog",
-            "url": "https://www.daklekkagesopgelost.nl/blog"
-          }
-        },
-        {
+        "datePublished": "2026-01-28T08:00:00+01:00",
+        "dateModified": "2026-02-01T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#article",
-          "headline": "Oude dakreparaties als oorzaak van nieuwe lekkages",
-          "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-02-01T08:00:00+01:00",
-          "dateModified": "2026-02-01T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
-            "name": "daklekkage oplossen",
-            "url": "https://www.daklekkagesopgelost.nl/daklekkage"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar",
-            "headline": "Terugkerende daklekkages: waarom sommige problemen blijven terugkomen",
-            "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#article"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/daklekkage#service",
-          "name": "daklekkage oplossen",
-          "url": "https://www.daklekkagesopgelost.nl/daklekkage",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
-              "url": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
-              "name": "Oude dakreparaties als oorzaak van nieuwe lekkages"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#article",
+        "headline": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage",
+        "description": "Eerdere dakreparaties kunnen nieuwe problemen veroorzaken. Ontdek hoe oude ingrepen lekkages in stand houden.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-28T08:00:00+01:00",
+        "dateModified": "2026-02-01T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen#pillar",
+          "headline": "Waarom daklekkages blijven terugkomen (en hoe je dat doorbreekt)",
+          "url": "https://www.daklekkagesopgelost.nl/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kunnen oude reparaties echt nieuwe lekkages veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Door materiaalveroudering, slechte aansluiting of verstoring van de waterloop kunnen oude reparaties na jaren alsnog lekkage veroorzaken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom treden problemen vaak pas jaren later op ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Materialen verouderen langzaam. Pas bij extreme weersomstandigheden of verdere slijtage wordt een zwakke plek zichtbaar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Moeten oude reparaties altijd worden verwijderd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Soms volstaat herstel of aanpassing, maar dit kan alleen worden bepaald na inspectie van het volledige dak."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn noodreparaties extra risicovol ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Noodreparaties zijn bedoeld als tijdelijke oplossing en worden vaak niet aangepast wanneer een definitieve reparatie uitblijft."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe wordt vastgesteld of een oude reparatie problemen veroorzaakt ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dit gebeurt door lekkageonderzoek en inspectie waarbij expliciet wordt gekeken naar eerdere ingrepen en hun invloed op de dakopbouw."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+        "name": "Lekkage opsporen",
+        "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+            "url": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+            "name": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Oude dakreparatie?Zo ontstaat juist nieuwe lekkage",
+            "item": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages#breadcrumb"
+      }
+    ]
+  }
 }

@@ -1,62 +1,200 @@
 {
   "title": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
-  "description": "Lekkage door schoorsteenlood? Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
+  "description": "Lekkage door schoorsteenlood?Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
   "ogTitle": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
-  "ogDescription": "Lekkage door schoorsteenlood? Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
+  "ogDescription": "Lekkage door schoorsteenlood?Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
-      "datePublished": "2026-01-01T22:50:24.000Z",
-      "dateModified": "2026-01-04T23:17:13.748Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+        "name": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
+        "description": "Lekkage door schoorsteenlood?Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen.webp"
         },
-        "@type": "Organization"
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
+        }
       },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
-      "description": "Inzicht in hoe lekkage door schoorsteenlood ontstaat, hoe water zich verplaatst en wanneer duurzaam herstel nodig is.",
-      "author": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#article",
+        "headline": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
+        "description": "Lekkage door schoorsteenlood?Lees hoe problemen ontstaan, waarom vocht zich verplaatst en wanneer herstel nodig is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar",
+          "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+        }
       },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan een kleine scheur in schoorsteenlood al lekkage veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, zelfs kleine scheuren kunnen voldoende zijn om water door te laten, vooral bij langdurige regen of windbelasting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom verschijnt de lekkage niet direct onder de schoorsteen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Water volgt vaak constructiedelen en kan pas verderop zichtbaar worden, waardoor de oorzaak minder duidelijk is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lekkage altijd het gevolg van oud lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Ook foutieve plaatsing of onvoldoende overlap kan bij relatief jong lood al tot problemen leiden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft tijdelijk afdichten zin ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tijdelijk afdichten kan het probleem vertragen, maar is zelden een duurzame oplossing wanneer het lood zijn flexibiliteit heeft verloren."
+            }
+          }
+        ]
       },
-      "datePublished": "2026-01-01",
-      "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen"
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+        "name": "Schoorsteenlood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+            "name": "Lekkage door schoorsteenlood: oorzaken en oplossingen"
+          }
+        ]
       },
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lekkage door schoorsteenlood: oorzaken en oplossingen",
+            "item": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen#breadcrumb"
       }
-    }
-  ]
+    ]
+  }
 }

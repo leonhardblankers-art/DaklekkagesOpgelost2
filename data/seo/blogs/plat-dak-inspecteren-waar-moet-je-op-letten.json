@@ -2,116 +2,207 @@
   "title": "Plat dak inspecteren: waar moet je op letten?",
   "description": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
   "ogTitle": "Plat dak inspecteren: waar moet je op letten?",
   "ogDescription": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Plat dak inspecteren: waar moet je op letten?",
-      "datePublished": "2026-01-12T22:16:29.000Z",
-      "dateModified": "2026-01-14T18:12:16.700Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+        "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+        "name": "Plat dak inspecteren: waar moet je op letten?",
+        "description": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#article",
-          "headline": "Plat dak inspecteren: waar moet je op letten?",
-          "description": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204832909419?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768256096543&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-12T09:00:00+01:00",
-          "dateModified": "2026-01-12T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
-              "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
-              "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#article",
+        "headline": "Plat dak inspecteren: waar moet je op letten?",
+        "description": "Een plat dak lijkt vaak in orde, terwijl er al schade onder zit. Lees waar je op moet letten bij een inspectie en waarom dit problemen kan voorkomen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
+          "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
+          "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe vaak moet een plat dak worden geïnspecteerd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Idealiter minstens één keer per jaar en na zware stormen of langdurige regen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik mijn dak zelf inspecteren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Je kunt zichtbare vervuiling en schade bekijken, maar verborgen problemen onder de toplaag zie je meestal niet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat kost een dakinspectie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van het type dak en de bereikbaarheid, maar de kosten zijn meestal beperkt in verhouding tot de schade die je ermee voorkomt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat gebeurt er als ik te laat inspecteer ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dan worden kleine problemen vaak pas ontdekt wanneer ze al grote gevolgen hebben voor isolatie en binnenafwerking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een inspectie alleen zinvol bij lekkage ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Juist voordat er lekkage is, kan een inspectie problemen vroegtijdig signaleren."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+        "name": "Plat dak diensten",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+            "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+            "name": "Plat dak inspecteren: waar moet je op letten?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Plat dak inspecteren: waar moet je op letten?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-inspecteren-waar-moet-je-op-letten#breadcrumb"
+      }
+    ]
+  }
 }

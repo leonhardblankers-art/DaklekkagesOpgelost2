@@ -2,116 +2,207 @@
   "title": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
   "description": "Wanneer een hellend dak zijn samenhang verliest en een volledige dakrenovatie de enige duurzame oplossing wordt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
   "ogTitle": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
   "ogDescription": "Wanneer een hellend dak zijn samenhang verliest en een volledige dakrenovatie de enige duurzame oplossing wordt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
-      "datePublished": "2026-01-15T17:58:06.000Z",
-      "dateModified": "2026-01-15T17:58:14.373Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+        "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+        "name": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
+        "description": "Wanneer een hellend dak zijn samenhang verliest en een volledige dakrenovatie de enige duurzame oplossing wordt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#article",
-          "headline": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
-          "description": "Wanneer een hellend dak zijn samenhang verliest en een volledige dakrenovatie de enige duurzame oplossing wordt.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205146895272?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768499765993&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#article",
+        "headline": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
+        "description": "Wanneer een hellend dak zijn samenhang verliest en een volledige dakrenovatie de enige duurzame oplossing wordt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wanneer is een dak echt niet meer te redden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wanneer meerdere lagen tegelijk falen en schade zich blijft verplaatsen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een deelrenovatie soms nog voldoende zijn ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Soms, maar alleen als de basislagen nog gezond zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom blijven lekkages terugkomen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat het systeem als geheel zijn samenhang heeft verloren."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is wachten altijd nadelig ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, verborgen schade wordt meestal groter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wanneer is inspectie noodzakelijk ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wanneer je twijfelt of repareren nog zin heeft."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+            "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+            "name": "Wanneer is een volledige dakrenovatie onvermijdelijk?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Wanneer is een volledige dakrenovatie onvermijdelijk?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk#breadcrumb"
+      }
+    ]
+  }
 }

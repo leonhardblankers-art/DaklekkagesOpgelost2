@@ -1,27 +1,137 @@
 {
   "title": "Dakkapel renoveren",
-  "description": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie? U lees het hier!",
+  "description": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie?U lees het hier!",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
   "ogTitle": "Dakkapel renoveren",
-  "ogDescription": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie? U lees het hier!",
+  "ogDescription": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie?U lees het hier!",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
         "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
         "name": "Dakkapel renoveren",
-        "description": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie? U lees het hier!",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+        "description": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie?U lees het hier!",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-01-dakkapel-diensten-dakkapel-renovatie-1.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren#breadcrumb"
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/#service",
+        "name": "Dakkapel renoveren",
+        "description": "Een dakkapel is een mooie uitbreiding van uw zolderkamer. Maar een verouderde dakkapel kan veel gebreken hebben. Tijd voor een renovatie?U lees het hier!",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakkapel-renoveren/dakkapel-renoveren-visual-01-dakkapel-diensten-dakkapel-renovatie-1.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dakkapel renoveren ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel#service",
+                "name": "Diensten dakkapel",
+                "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen#service",
+                "name": "Dakkapel lood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+                "name": "Dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dakkapel renoveren",
+            "item": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren#breadcrumb"
       }
     ]
   }

@@ -1,117 +1,192 @@
 {
   "title": "Daklood lekkage: hoe herken je het probleem op tijd?",
-  "description": "Daklood lekkage herkennen? Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
+  "description": "Daklood lekkage herkennen?Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
   "ogTitle": "Daklood lekkage: hoe herken je het probleem op tijd?",
-  "ogDescription": "Daklood lekkage herkennen? Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
+  "ogDescription": "Daklood lekkage herkennen?Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Daklood lekkage: hoe herken je het probleem op tijd?",
-      "datePublished": "2026-01-12T13:37:00.000Z",
-      "dateModified": "2026-01-12T13:40:47.818Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+        "url": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+        "name": "Daklood lekkage: hoe herken je het probleem op tijd?",
+        "description": "Daklood lekkage herkennen?Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#article",
-          "headline": "Daklood lekkage: hoe herken je het probleem op tijd?",
-          "description": "Daklood lekkage herkennen? Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204793626638?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768224825514&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-12T09:00:00+01:00",
-          "dateModified": "2026-01-12T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
-              "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
-              "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#article",
+        "headline": "Daklood lekkage: hoe herken je het probleem op tijd?",
+        "description": "Daklood lekkage herkennen?Lees welke signalen wijzen op problemen en hoe je schade door daklood op tijd kunt opsporen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
+          "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
+          "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan een dakloodlekkage vanzelf stoppen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, zonder herstel blijft water zijn weg naar binnen vinden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een lekkage altijd zichtbaar op het dak ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. De schade binnen kan ver van de oorzaak zitten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wanneer is het verstandig om te laten kijken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bij twijfel of terugkerende vochtplekken is inspectie de beste manier om duidelijkheid te krijgen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+        "name": "Daklood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+            "name": "Daklood lekkage: hoe herken je het probleem op tijd?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklood lekkage: hoe herken je het probleem op tijd?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd#breadcrumb"
+      }
+    ]
+  }
 }

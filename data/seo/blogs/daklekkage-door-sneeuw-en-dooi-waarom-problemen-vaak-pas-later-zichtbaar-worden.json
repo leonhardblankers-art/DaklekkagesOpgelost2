@@ -2,116 +2,199 @@
   "title": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
   "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
   "ogTitle": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
   "ogDescription": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
-      "datePublished": "2026-01-06T22:33:39.000Z",
-      "dateModified": "2026-01-20T18:39:42.897Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+        "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+        "name": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+        "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-06T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#article",
-          "headline": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
-          "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204387150851?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767738744043&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-05T09:00:00+01:00",
-          "dateModified": "2026-01-05T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
-              "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
-              "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#article",
+        "headline": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+        "description": "Waarom daklekkages vaak ontstaan tijdens sneeuw en dooi en waarom schade pas zichtbaar wordt als de winter al voorbij lijkt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-06T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+          "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan een lekkage door sneeuw vanzelf stoppen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, tijdelijk. Wanneer het water weer bevriest of volledig opdroogt, kan de lekkage verdwijnen. De onderliggende schade blijft echter bestaan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ontstaan deze lekkages alleen bij platte daken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Ook hellende daken kunnen last krijgen van lekkages door sneeuw en dooi, vooral bij dakranden, dakkapellen en doorvoeren."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is dooi gevaarlijker dan sneeuwval ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In veel gevallen wel. Tijdens dooi komt water vrij dat kan binnendringen op plekken die tijdens sneeuwval droog blijven."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe snel wordt schade zichtbaar ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt. Soms binnen dagen, soms pas weken later, afhankelijk van temperatuur, constructie en materiaal."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+            "name": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklekkage door sneeuw en dooi: waarom problemen vaak pas later zichtbaar worden",
+            "item": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden#breadcrumb"
+      }
+    ]
+  }
 }

@@ -1,117 +1,208 @@
 {
   "title": "Kosten reparatie plat dak met bitumen",
-  "description": "Wat kost een reparatie van een plat dak met bitumen? Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
+  "description": "Wat kost een reparatie van een plat dak met bitumen?Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
   "ogTitle": "Kosten reparatie plat dak met bitumen",
-  "ogDescription": "Wat kost een reparatie van een plat dak met bitumen? Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
+  "ogDescription": "Wat kost een reparatie van een plat dak met bitumen?Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Kosten reparatie plat dak met bitumen",
-      "datePublished": "2026-01-12T19:13:20.000Z",
-      "dateModified": "2026-01-14T18:10:18.375Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
+        "name": "Kosten reparatie plat dak met bitumen",
+        "description": "Wat kost een reparatie van een plat dak met bitumen?Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#article",
-          "headline": "Kosten reparatie plat dak met bitumen",
-          "description": "Wat kost een reparatie van een plat dak met bitumen? Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204820714268?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768245100825&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-12T09:00:00+01:00",
-          "dateModified": "2026-01-12T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
-              "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
-              "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#article",
+        "headline": "Kosten reparatie plat dak met bitumen",
+        "description": "Wat kost een reparatie van een plat dak met bitumen?Ontdek waarom prijzen verschillen en waarom de oorzaak van de schade belangrijker is dan de plek waar je het ziet.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-12T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat#pillar",
+          "headline": "Plat dak met bitumen: opbouw, levensduur en wat er in de praktijk misgaat",
+          "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+          "name": "Plat dak diensten",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Waarom verschillen prijzen voor dezelfde schade zo sterk ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat de zichtbare schade niet altijd laat zien hoe het met de onderlagen en isolatie gesteld is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een goedkope reparatie altijd slechter ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per se. Als de schade echt lokaal is en de onderlagen gezond zijn, kan een eenvoudige reparatie prima werken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat maakt een reparatie duurder ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vocht in de isolatie, meerdere oude lagen en slechte bereikbaarheid van het dak zijn belangrijke kostenverhogers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik kosten besparen door snel te handelen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Kleine beschadigingen die vroeg worden aangepakt, voorkomen vaak dat vocht zich verder verspreidt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik of mijn dak alleen een kleine reparatie nodig heeft ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat kun je pas beoordelen als duidelijk is waar het water vandaan komt en hoe ver het zich heeft verspreid."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/#service",
+        "name": "Plat dak diensten",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-plat-dak/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen",
+            "name": "Kosten reparatie plat dak met bitumen"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Kosten reparatie plat dak met bitumen",
+            "item": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-reparatie-plat-dak-met-bitumen#breadcrumb"
+      }
+    ]
+  }
 }

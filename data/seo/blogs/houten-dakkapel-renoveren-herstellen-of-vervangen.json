@@ -1,117 +1,208 @@
 {
   "title": "Houten dakkapel renoveren: herstellen of vervangen?",
-  "description": "Houten dakkapel renoveren? Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
+  "description": "Houten dakkapel renoveren?Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
   "ogTitle": "Houten dakkapel renoveren: herstellen of vervangen?",
-  "ogDescription": "Houten dakkapel renoveren? Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
+  "ogDescription": "Houten dakkapel renoveren?Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Houten dakkapel renoveren: herstellen of vervangen?",
-      "datePublished": "2026-01-04T17:51:44.000Z",
-      "dateModified": "2026-01-04T17:51:53.527Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+        "name": "Houten dakkapel renoveren: herstellen of vervangen?",
+        "description": "Houten dakkapel renoveren?Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#article",
-          "headline": "Houten dakkapel renoveren: herstellen of vervangen?",
-          "description": "Houten dakkapel renoveren? Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204169029538?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767548870234&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-03",
-          "dateModified": "2026-01-03",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig#pillar",
-              "headline": "Dakkapel renoveren: wat houdt het in en wanneer is het verstandig?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#article",
+        "headline": "Houten dakkapel renoveren: herstellen of vervangen?",
+        "description": "Houten dakkapel renoveren?Lees wanneer herstel nog zinvol is, wanneer vervangen beter past en welke rol houtrot, lekkage en onderhoud spelen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/#service",
+          "name": "Dakkapel renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig#pillar",
+          "headline": "Dakkapel renoveren: wat houdt het in en wanneer is het verstandig?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/#service",
+          "name": "Dakkapel renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe herken ik beginnende houtrot ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vaak door zachte plekken, scheurtjes in verf of verkleuring rond naden, maar niet alles is direct zichtbaar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan houtrot plaatselijk worden hersteld ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, mits de aantasting beperkt is en dragende delen nog voldoende sterk zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is schilderen voldoende bij problemen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Schilderen zonder herstel pakt alleen het uiterlijk aan en lost de oorzaak niet op."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wordt een houten dakkapel na renovatie onderhoudsvrij ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, onderhoud neemt meestal af, maar verdwijnt niet volledig."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wanneer is inspectie echt nodig ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bij zichtbare schade, terugkerende lekkage of langdurig achterstallig onderhoud."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/#service",
+        "name": "Dakkapel renoveren",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+            "name": "Houten dakkapel renoveren: herstellen of vervangen?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Houten dakkapel renoveren: herstellen of vervangen?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/houten-dakkapel-renoveren-herstellen-of-vervangen#breadcrumb"
+      }
+    ]
+  }
 }

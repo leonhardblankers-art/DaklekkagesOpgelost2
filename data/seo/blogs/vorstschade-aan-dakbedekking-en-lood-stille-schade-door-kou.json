@@ -2,116 +2,199 @@
   "title": "Vorstschade aan dakbedekking en lood: stille schade door kou",
   "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
   "ogTitle": "Vorstschade aan dakbedekking en lood: stille schade door kou",
   "ogDescription": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Vorstschade aan dakbedekking en lood: stille schade door kou",
-      "datePublished": "2026-01-08T20:31:32.000Z",
-      "dateModified": "2026-01-20T18:45:12.584Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+        "url": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+        "name": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+        "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-08T08:00:00+01:00",
+        "dateModified": "2026-01-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#article",
-          "headline": "Vorstschade aan dakbedekking en lood: stille schade door kou",
-          "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/186699139731?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1740691377727&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-08T09:00:00+01:00",
-          "dateModified": "2026-01-08T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
-              "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
-              "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#article",
+        "headline": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+        "description": "Hoe vorst dakbedekking en lood aantast, waarom schade vaak pas later zichtbaar wordt en waarom kou een onderschat risico is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-08T08:00:00+01:00",
+        "dateModified": "2026-01-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen#pillar",
+          "headline": "Weersinvloeden en dakschade: risico’s, patronen en wat je wel en niet kunt voorkomen",
+          "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Ontstaat vorstschade alleen bij extreme kou ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Juist herhaalde lichte vorst kan op termijn meer schade veroorzaken dan korte perioden van strenge kou."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is vorstschade altijd zichtbaar ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Veel schade blijft verborgen totdat water de zwakke plek bereikt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn alle dakmaterialen even gevoelig voor vorst ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Sommige materialen verliezen sneller hun flexibiliteit dan andere en reageren sterker op temperatuurwisselingen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan vorstschade vanzelf herstellen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Materiaalveroudering door kou is blijvend en herstelt zich niet vanzelf."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+            "url": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+            "name": "Vorstschade aan dakbedekking en lood: stille schade door kou"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vorstschade aan dakbedekking en lood: stille schade door kou",
+            "item": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou#breadcrumb"
+      }
+    ]
+  }
 }

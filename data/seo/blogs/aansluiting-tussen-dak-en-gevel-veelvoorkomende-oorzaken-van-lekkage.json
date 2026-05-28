@@ -1,117 +1,200 @@
 {
   "title": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
-  "description": "Lekkage tussen dak en gevel? Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
+  "description": "Lekkage tussen dak en gevel?Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
   "ogTitle": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
-  "ogDescription": "Lekkage tussen dak en gevel? Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
+  "ogDescription": "Lekkage tussen dak en gevel?Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
-      "datePublished": "2026-01-18T14:07:52.000Z",
-      "dateModified": "2026-01-18T14:08:05.321Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+        "url": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+        "name": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
+        "description": "Lekkage tussen dak en gevel?Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#article",
-          "headline": "Aansluiting tussen dak en gevel: veelvoorkomende oorzaken van lekkage",
-          "description": "Lekkage bij de aansluiting tussen dak en gevel ontstaat vaak door verouderde details en beweging in materialen. Lees hoe deze lekkages ontstaan en hoe ze worden herkend.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-18T09:00:00+01:00",
-          "dateModified": "2026-01-18T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
-              "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#article",
+        "headline": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
+        "description": "Lekkage tussen dak en gevel?Lees waarom deze aansluiting vaak faalt en hoe herstel grotere schade voorkomt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
+          "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Waarom lekt mijn dak langs de muur en niet in het midden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat de aansluiting tussen dak en gevel gevoeliger is voor beweging en veroudering dan het dakvlak zelf."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lood altijd de oorzaak van deze lekkages ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Ook beschadigd voegwerk, slechte detaillering of verkeerd aangebrachte dakbedekking kunnen de oorzaak zijn."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lokaal herstel voldoende bij lekkage op deze plek ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In veel gevallen wel, mits de oorzaak goed wordt vastgesteld en structureel wordt aangepakt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe vaak moet een dak-gevelaansluiting worden gecontroleerd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bij voorkeur tijdens een jaarlijkse dakinspectie en na zware weersomstandigheden."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+        "name": "Lekkage opsporen",
+        "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+            "url": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+            "name": "Lekkage tussen dak en gevel | Oorzaken en oplossingen"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lekkage tussen dak en gevel | Oorzaken en oplossingen",
+            "item": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage#breadcrumb"
+      }
+    ]
+  }
 }

@@ -1,10 +1,10 @@
 {
   "title": "Rapportage Dakinspectie | Daklekkages Opgelost",
-  "description": "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+  "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
   "ogTitle": "Rapportage Dakinspectie | Daklekkages Opgelost",
-  "ogDescription": "Daklekkage in Gelderland of Brabant? Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+  "ogDescription": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
@@ -12,53 +12,33 @@
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie",
-        "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie",
-        "name": "Rapportage dakinspectie (PDF) voor verzekering, VvE of aankoop | Daklekkages Opgelost",
-        "description": "Rapportage dakinspectie nodig voor verzekering, VvE of koop/verkoop? Ontvang een heldere PDF met foto’s, conclusie en urgentie — na een gratis dakinspectie.",
+        "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+        "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
+        "name": "Rapportage Dakinspectie | Daklekkages Opgelost",
+        "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/images/pages/rapportage-dakinspectie-rapportage-20dakinspectie-20daklekkages-20opgelost.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/rapportage-dakinspectie/rapportage-dakinspectie-01-rapportage-dakinspectie-daklekkages-opgelost.webp"
         },
-        "datePublished": "2026-01-15T08:00:00+01:00",
-        "dateModified": "2026-02-27T08:00:00+01:00",
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
         "mainEntity": {
           "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#service"
+          "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/#service"
         },
         "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.daklekkagesopgelost.nl/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Lekkages",
-              "item": "https://www.daklekkagesopgelost.nl/lekkages"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Rapportage dakinspectie",
-              "item": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#breadcrumb"
         }
       },
       {
         "@type": "Service",
-        "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#service",
-        "name": "Rapportage dakinspectie (PDF) voor verzekering, VvE of aankoop",
-        "description": "Rapportage dakinspectie nodig voor verzekering, VvE of koop/verkoop? Ontvang een heldere PDF met foto’s, conclusie en urgentie — na een gratis dakinspectie.",
-        "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie",
+        "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/#service",
+        "name": "Rapportage Dakinspectie | Daklekkages Opgelost",
+        "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Rapportage dakinspectie...",
+        "url": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/images/pages/rapportage-dakinspectie-rapportage-20dakinspectie-20daklekkages-20opgelost.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/rapportage-dakinspectie/rapportage-dakinspectie-01-rapportage-dakinspectie-daklekkages-opgelost.webp"
         },
         "provider": {
           "@type": "Organization",
@@ -71,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "?",
         "logo": {
           "@type": "ImageObject",
           "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
@@ -101,6 +81,24 @@
             "name": "Noord-Brabant"
           }
         ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Rapportage Dakinspectie | Daklekkages Opgelost",
+            "item": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/rapportage-dakinspectie#breadcrumb"
       }
     ]
   }

@@ -2,116 +2,191 @@
   "title": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
   "description": "Lees wat een tijdelijke reparatie van daklood wel en niet kan, en wanneer het tijd is om verder te kijken dan noodoplossingen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
   "ogTitle": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
   "ogDescription": "Lees wat een tijdelijke reparatie van daklood wel en niet kan, en wanneer het tijd is om verder te kijken dan noodoplossingen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
-      "datePublished": "2026-01-11T23:15:28.000Z",
-      "dateModified": "2026-01-11T23:15:35.993Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+        "name": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
+        "description": "Lees wat een tijdelijke reparatie van daklood wel en niet kan, en wanneer het tijd is om verder te kijken dan noodoplossingen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-11T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#article",
-          "headline": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
-          "description": "Lees wat een tijdelijke reparatie van daklood wel en niet kan, en wanneer het tijd is om verder te kijken dan noodoplossingen.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204731186497?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768173255941&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-11T09:00:00+01:00",
-          "dateModified": "2026-01-11T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
-              "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
-              "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#article",
+        "headline": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
+        "description": "Lees wat een tijdelijke reparatie van daklood wel en niet kan, en wanneer het tijd is om verder te kijken dan noodoplossingen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-11T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
+          "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
+          "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan ik een scheur in daklood zelf tijdelijk dichten ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, met geschikte afdichtmiddelen kan dat soms, maar het blijft een tijdelijke maatregel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe lang houdt een noodreparatie gemiddeld ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt sterk per situatie. Soms weken, soms maanden, maar zelden jarenlang zonder verdere problemen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is een tijdelijke oplossing goedkoper op de lange termijn ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Uitgestelde schade kan uiteindelijk juist meer kosten veroorzaken."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+        "name": "Daklood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+            "name": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tijdelijke reparatie van daklood: wat werkt wel en wat niet",
+            "item": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet#breadcrumb"
+      }
+    ]
+  }
 }

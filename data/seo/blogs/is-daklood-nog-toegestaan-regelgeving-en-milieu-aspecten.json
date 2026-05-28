@@ -1,117 +1,192 @@
 {
-  "title": "Is daklood nog toegestaan? Regelgeving en milieu-aspecten",
-  "description": "Is daklood nog toegestaan? Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
+  "title": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten",
+  "description": "Is daklood nog toegestaan?Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
-  "ogTitle": "Is daklood nog toegestaan? Regelgeving en milieu-aspecten",
-  "ogDescription": "Is daklood nog toegestaan? Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+  "ogTitle": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten",
+  "ogDescription": "Is daklood nog toegestaan?Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Is daklood nog toegestaan? Regelgeving en milieu-aspecten",
-      "datePublished": "2026-01-11T22:56:14.000Z",
-      "dateModified": "2026-01-11T22:56:29.486Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+        "url": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+        "name": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten",
+        "description": "Is daklood nog toegestaan?Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-10T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#article",
-          "headline": "Is daklood nog toegestaan? Regelgeving en milieu-aspecten",
-          "description": "Is daklood nog toegestaan? Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204728414875?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768172096100&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-10T09:00:00+01:00",
-          "dateModified": "2026-01-10T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
-              "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
-              "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#article",
+        "headline": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten",
+        "description": "Is daklood nog toegestaan?Lees hoe regelgeving en milieuaspecten zich verhouden tot de praktijk op Nederlandse daken.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-10T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
+          "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
+          "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is daklood in Nederland verboden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, het gebruik van daklood is toegestaan. Wel zijn er richtlijnen om milieubelasting te beperken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Geeft elk dak met lood milieuproblemen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Goed onderhouden lood dat niet afbrokkelt of losligt, geeft weinig tot geen relevante uitspoeling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Moet oud daklood altijd worden vervangen door een alternatief ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per se. Als het technisch nog goed functioneert, is vervangen vaak niet nodig."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+        "name": "Daklood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+            "url": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+            "name": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Is daklood nog toegestaan?Regelgeving en milieu-aspecten",
+            "item": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten#breadcrumb"
+      }
+    ]
+  }
 }

@@ -1,117 +1,208 @@
 {
-  "title": "Normale dakveroudering of schade? Zo herken je het verschil",
-  "description": "Is slijtage aan je dak normaal of is er al sprake van schade? Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
+  "title": "Normale dakveroudering of schade?Zo herken je het verschil",
+  "description": "Is slijtage aan je dak normaal of is er al sprake van schade?Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
-  "ogTitle": "Normale dakveroudering of schade? Zo herken je het verschil",
-  "ogDescription": "Is slijtage aan je dak normaal of is er al sprake van schade? Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+  "ogTitle": "Normale dakveroudering of schade?Zo herken je het verschil",
+  "ogDescription": "Is slijtage aan je dak normaal of is er al sprake van schade?Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Normale dakveroudering of schade? Zo herken je het verschil",
-      "datePublished": "2026-01-18T22:05:50.000Z",
-      "dateModified": "2026-01-18T22:06:08.145Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+        "url": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+        "name": "Normale dakveroudering of schade?Zo herken je het verschil",
+        "description": "Is slijtage aan je dak normaal of is er al sprake van schade?Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#article",
-          "headline": "Normale dakveroudering versus schade: hoe herken je het verschil",
-          "description": "Wat is normale dakveroudering en wanneer is er sprake van schade? Uitleg over signalen, risico’s en het verschil tussen slijtage en functieverlies.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-18T00:00:00+01:00",
-          "dateModified": "2026-01-18T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
-              "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#article",
+        "headline": "Normale dakveroudering of schade?Zo herken je het verschil",
+        "description": "Is slijtage aan je dak normaal of is er al sprake van schade?Lees hoe je signalen herkent en verkeerde conclusies voorkomt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
+          "headline": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+          "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik of verkleuring normaal is of schade betekent ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Verkleuring is meestal normaal zolang het gelijkmatig verloopt en geen materiaalverlies veroorzaakt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is mos op dakpannen altijd een probleem ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Mos wijst wel op langdurige vochtbelasting, wat de veroudering kan versnellen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan schade ontstaan zonder zichtbare lekkage ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Vocht kan zich ophopen in onderliggende lagen voordat het binnenshuis zichtbaar wordt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Moet een oud dak vaker gecontroleerd worden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oudere daken hebben vaker baat bij periodieke controle omdat veroudering en schade dichter bij elkaar liggen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is schade altijd lokaal te herstellen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van de omvang en duur van het probleem. Tijdige signalering vergroot de kans op beperkt herstel."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+            "url": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+            "name": "Normale dakveroudering of schade?Zo herken je het verschil"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Normale dakveroudering of schade?Zo herken je het verschil",
+            "item": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#breadcrumb"
+      }
+    ]
+  }
 }

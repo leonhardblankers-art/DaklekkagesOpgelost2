@@ -2,203 +2,187 @@
   "title": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
   "description": "Constructieve dakproblemen ontstaan vaak ongemerkt door lekkage, vocht of veroudering. Lees hoe je risico’s herkent en schade voorkomt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
   "ogTitle": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
   "ogDescription": "Constructieve dakproblemen ontstaan vaak ongemerkt door lekkage, vocht of veroudering. Lees hoe je risico’s herkent en schade voorkomt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
-      "datePublished": "2026-01-20T00:27:22.000Z",
-      "dateModified": "2026-02-22T19:52:29.641Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+        "url": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+        "name": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
+        "description": "Constructieve dakproblemen ontstaan vaak ongemerkt door lekkage, vocht of veroudering. Lees hoe je risico’s herkent en schade voorkomt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf",
-          "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf",
-          "name": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-          "description": "Daklekkage door aansluitingen of dakdetails? Lees waarom doorvoeren, randen en naden vaker falen dan het dak zelf en voorkom schade.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205255492759?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768660740508&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "datePublished": "2026-01-20T08:00:00+01:00",
-          "dateModified": "2026-01-20T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar"
-          },
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.daklekkagesopgelost.nl/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://www.daklekkagesopgelost.nl/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-                "item": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
-              }
-            ]
-          }
-        },
-        {
+        "datePublished": "2026-01-20T08:00:00+01:00",
+        "dateModified": "2026-01-20T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
-          "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-          "description": "Daklekkage door aansluitingen of dakdetails? Lees waarom doorvoeren, randen en naden vaker falen dan het dak zelf en voorkom schade.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205255492759?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768660740508&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-20T08:00:00+01:00",
-          "dateModified": "2026-01-20T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-            "name": "dakrenovatie",
-            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
-              "headline": "Doorbuiging van dakconstructies door belasting en veroudering"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
-              "headline": "Houtrot in dakconstructies: hoe het ontstaat en waarom het gevaarlijk is"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
-              "headline": "Verzakking van dakvlakken en de gevolgen voor waterafvoer"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid",
-              "headline": "Vocht in dakisolatie en het effect op constructieve veiligheid"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-schade-door-langdurige-daklekkage#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/constructieve-schade-door-langdurige-daklekkage",
-              "headline": "Constructieve schade door langdurige daklekkage"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
-              "headline": "Signalen binnenshuis die wijzen op problemen in de dakconstructie"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest#pillar"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-          "name": "dakrenovatie",
-          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf",
-            "name": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf"
-          }
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest#pillar",
+        "headline": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
+        "description": "Constructieve dakproblemen ontstaan vaak ongemerkt door lekkage, vocht of veroudering. Lees hoe je risico’s herkent en schade voorkomt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-20T08:00:00+01:00",
+        "dateModified": "2026-01-20T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-schade-door-langdurige-daklekkage#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/constructieve-schade-door-langdurige-daklekkage",
+            "headline": "Constructieve schade door langdurige daklekkage"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+            "headline": "Doorbuiging van dakconstructies: oorzaken en risico’s"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+            "headline": "Houtrot in dakconstructies: oorzaken en gevolgen"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+            "headline": "Binnensignalen van problemen in de dakconstructie"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+            "headline": "Verzakking van dakvlakken en problemen met waterafvoer"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid",
+            "headline": "Vocht in dakisolatie en constructieve risico’s"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+            "url": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+            "name": "Constructieve dakproblemen: signalen, oorzaken en risico’s"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
+            "item": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest#breadcrumb"
+      }
+    ]
+  }
 }

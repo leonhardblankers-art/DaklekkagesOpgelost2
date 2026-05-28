@@ -1,117 +1,192 @@
 {
   "title": "Dakrenovatie of blijven repareren",
-  "description": "Blijf je repareren of is het tijd voor dakrenovatie? Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
+  "description": "Blijf je repareren of is het tijd voor dakrenovatie?Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
   "ogTitle": "Dakrenovatie of blijven repareren",
-  "ogDescription": "Blijf je repareren of is het tijd voor dakrenovatie? Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
+  "ogDescription": "Blijf je repareren of is het tijd voor dakrenovatie?Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakrenovatie of blijven repareren",
-      "datePublished": "2026-01-15T14:06:41.000Z",
-      "dateModified": "2026-01-15T14:06:47.317Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+        "name": "Dakrenovatie of blijven repareren",
+        "description": "Blijf je repareren of is het tijd voor dakrenovatie?Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#article",
-          "headline": "Dakrenovatie of blijven repareren",
-          "description": "Blijf je repareren of is het tijd voor dakrenovatie? Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/205123145068?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768485925421&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-              "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#article",
+        "headline": "Dakrenovatie of blijven repareren",
+        "description": "Blijf je repareren of is het tijd voor dakrenovatie?Inzicht in wanneer een hellend dak zijn samenhang verliest en lapwerk geen echte oplossing meer is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-15T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoeveel reparaties zijn te veel ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt per dak, maar wanneer problemen zich binnen enkele jaren op verschillende plekken blijven voordoen, is dat meestal een slecht teken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is renovatie altijd duurder dan repareren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per se. Doorlopende reparaties en gevolgschade kunnen op termijn meer kosten dan één gerichte renovatie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom lijkt een reparatie soms te helpen, maar komt het probleem terug ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat de zichtbare schade wordt opgelost, terwijl de onderliggende lagen blijven falen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+            "name": "Dakrenovatie of blijven repareren"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakrenovatie of blijven repareren",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#breadcrumb"
+      }
+    ]
+  }
 }

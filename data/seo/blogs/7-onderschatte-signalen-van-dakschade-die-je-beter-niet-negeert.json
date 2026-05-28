@@ -2,156 +2,207 @@
   "title": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
   "description": "Veel dakproblemen starten met kleine signalen: geur, verkleuring, los detail of plasvorming. Ontdek de onderschatte tekenen en wanneer een gratis dakinspectie verstandig is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
   "ogTitle": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
   "ogDescription": "Veel dakproblemen starten met kleine signalen: geur, verkleuring, los detail of plasvorming. Ontdek de onderschatte tekenen en wanneer een gratis dakinspectie verstandig is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
-      "datePublished": "2026-02-08T23:04:41.000Z",
-      "dateModified": "2026-02-08T23:04:53.824Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+        "url": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+        "name": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
+        "description": "Veel dakproblemen starten met kleine signalen: geur, verkleuring, los detail of plasvorming. Ontdek de onderschatte tekenen en wanneer een gratis dakinspectie verstandig is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat",
-          "url": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat",
-          "name": "Veelvoorkomende signalen van dakschade die worden onderschat",
-          "description": "Veel dakproblemen starten met kleine signalen zoals geur, verkleuring of plasvorming. Ontdek welke tekenen vaak worden onderschat en wanneer controle verstandig is.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp"
-          },
-          "datePublished": "2026-02-08T08:00:00+01:00",
-          "dateModified": "2026-02-08T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat#article"
-          },
-          "isPartOf": {
-            "@type": "Blog",
-            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
-            "name": "Daklekkages Opgelost Blog",
-            "url": "https://www.daklekkagesopgelost.nl/blog"
-          }
-        },
-        {
+        "datePublished": "2026-02-08T08:00:00+01:00",
+        "dateModified": "2026-02-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat#article",
-          "headline": "Veelvoorkomende signalen van dakschade die worden onderschat",
-          "description": "Veel dakproblemen starten met kleine signalen zoals geur, verkleuring of plasvorming. Ontdek welke tekenen vaak worden onderschat en wanneer controle verstandig is.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-02-08T08:00:00+01:00",
-          "dateModified": "2026-02-08T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-            "name": "Dakinspectie",
-            "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn#pillar",
-            "headline": "Dakprobleem of toeval? Wanneer signalen echt serieus zijn",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert#article"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-          "name": "Dakinspectie",
-          "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat",
-              "url": "https://www.daklekkagesopgelost.nl/blog/veelvoorkomende-signalen-van-dakschade-die-worden-onderschat",
-              "name": "Veelvoorkomende signalen van dakschade die worden onderschat"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert#article",
+        "headline": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
+        "description": "Veel dakproblemen starten met kleine signalen: geur, verkleuring, los detail of plasvorming. Ontdek de onderschatte tekenen en wanneer een gratis dakinspectie verstandig is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-02-08T08:00:00+01:00",
+        "dateModified": "2026-02-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+          "name": "Gratis dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn#pillar",
+          "headline": "Twijfel over dakproblemen: wanneer signalen serieus te nemen zijn",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+          "name": "Gratis dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "1) Is een muffe geur altijd een lekkage ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Het kan ook condens of ventilatie zijn. Wordt de geur sterker na nat weer of komt hij steeds terug, dan is verder onderzoek verstandig."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "2) Zijn kleine kringen op het plafond erg ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Een oude kring hoeft niet erg te zijn, maar kringen die donkerder worden of terugkomen wijzen vaker op herhaling van vocht."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "3) Hoe weet ik of plasvorming op mijn plat dak normaal is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Een klein beetje water kan soms, maar plassen die lang blijven liggen vergroten de belasting en het risico op zwakke plekken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "4) Waarom is natte isolatie zo’n probleem ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Natte isolatie droogt langzaam, verliest werking en kan hout aantasten. Daardoor neemt gevolgschade toe zonder dat je het direct ziet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "5) Wanneer is een inspectie verstandig ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Als signalen terugkomen, aan weer gekoppeld zijn of bij kwetsbare details zitten. Dan geeft een gratis dakinspectie snel duidelijkheid."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+        "name": "Gratis dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+            "url": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+            "name": "7 onderschatte signalen van dakschade (die je beter niet negeert)"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "7 onderschatte signalen van dakschade (die je beter niet negeert)",
+            "item": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert#breadcrumb"
+      }
+    ]
+  }
 }

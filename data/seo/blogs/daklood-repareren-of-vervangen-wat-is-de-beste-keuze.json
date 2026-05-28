@@ -1,117 +1,192 @@
 {
   "title": "Daklood repareren of vervangen: wat is de beste keuze?",
-  "description": "Twijfel je tussen daklood repareren of vervangen? Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
+  "description": "Twijfel je tussen daklood repareren of vervangen?Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
   "ogTitle": "Daklood repareren of vervangen: wat is de beste keuze?",
-  "ogDescription": "Twijfel je tussen daklood repareren of vervangen? Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
+  "ogDescription": "Twijfel je tussen daklood repareren of vervangen?Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Daklood repareren of vervangen: wat is de beste keuze?",
-      "datePublished": "2026-01-11T23:20:52.000Z",
-      "dateModified": "2026-01-11T23:20:59.749Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+        "url": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+        "name": "Daklood repareren of vervangen: wat is de beste keuze?",
+        "description": "Twijfel je tussen daklood repareren of vervangen?Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#article",
-          "headline": "Daklood repareren of vervangen: wat is de beste keuze?",
-          "description": "Twijfel je tussen daklood repareren of vervangen? Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204731222647?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768173587670&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-12T09:00:00+01:00",
-          "dateModified": "2026-01-12T09:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
-              "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
-              "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#article",
+        "headline": "Daklood repareren of vervangen: wat is de beste keuze?",
+        "description": "Twijfel je tussen daklood repareren of vervangen?Lees hoe je het verschil herkent en welke keuze op lange termijn het verstandigst is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-11T08:00:00+01:00",
+        "dateModified": "2026-01-12T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails#pillar",
+          "headline": "Daklood: toepassingen, slijtage en risico’s bij dakdetails",
+          "url": "https://www.daklekkagesopgelost.nl/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+          "name": "Daklood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan elk type daklood worden gerepareerd ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Als het materiaal bros of op meerdere plekken beschadigd is, biedt reparatie weinig zekerheid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is vervangen altijd duurder dan repareren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Op korte termijn vaak wel, maar bij terugkerende problemen kan vervanging juist goedkoper uitpakken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe weet ik wat voor mijn dak de beste keuze is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat hangt af van de staat van het lood, de constructie en de belasting. Inspectie geeft hier het meeste inzicht."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen/#service",
+        "name": "Daklood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+            "name": "Daklood repareren of vervangen: wat is de beste keuze?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklood repareren of vervangen: wat is de beste keuze?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze#breadcrumb"
+      }
+    ]
+  }
 }

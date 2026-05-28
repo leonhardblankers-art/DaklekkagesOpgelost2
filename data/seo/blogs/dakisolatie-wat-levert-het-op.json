@@ -2,104 +2,187 @@
   "title": "Dakisolatie: wat levert het op?",
   "description": "Ontdek wat dakisolatie oplevert: besparing op energiekosten, meer comfort, geluidsreductie en impact op woningwaarde.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
   "ogTitle": "Dakisolatie: wat levert het op?",
   "ogDescription": "Ontdek wat dakisolatie oplevert: besparing op energiekosten, meer comfort, geluidsreductie en impact op woningwaarde.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakisolatie: wat levert het op?",
-      "datePublished": "2025-12-28T20:32:29.000Z",
-      "dateModified": "2025-12-31T11:27:50.667Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
+        "name": "Dakisolatie: wat levert het op?",
+        "description": "Ontdek wat dakisolatie oplevert: besparing op energiekosten, meer comfort, geluidsreductie en impact op woningwaarde.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-28T08:00:00+01:00",
+        "dateModified": "2025-01-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Dakisolatie: wat levert het op?",
-          "description": "Dakisolatie verbetert comfort en energieverbruik, maar het effect verschilt per woning en dakopbouw. Lees wat dakisolatie in de praktijk oplevert.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-01-05",
-          "dateModified": "2025-01-08",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "headline": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze"
-            },
-            {
-              "@type": "Article",
-              "headline": "Dakisolatie van buitenaf: voordelen, nadelen en praktische gevolgen",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen"
-            },
-            {
-              "@type": "Article",
-              "headline": "Condens- en vochtproblemen na dakisolatie: hoe ontstaan ze?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze"
-            },
-            {
-              "@type": "Article",
-              "headline": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze"
-            },
-            {
-              "@type": "Article",
-              "headline": "Dakisolatie en energielabel: wat merk je in de praktijk?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk"
-            },
-            {
-              "@type": "Article",
-              "headline": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie"
-            },
-            {
-              "@type": "Article",
-              "headline": "Dakisolatie combineren met zonnepanelen: waar moet je op letten?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-combineren-met-zonnepanelen-waar-moet-je-op-letten"
-            },
-            {
-              "@type": "Article",
-              "headline": "Is extra dakisolatie altijd zinvol bij oudere woningen?",
-              "url": "https://www.daklekkagesopgelost.nl/blog/is-extra-dakisolatie-altijd-zinvol-bij-oudere-woningen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#pillar"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#pillar",
+        "headline": "Dakisolatie: wat levert het op?",
+        "description": "Ontdek wat dakisolatie oplevert: besparing op energiekosten, meer comfort, geluidsreductie en impact op woningwaarde.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-28T08:00:00+01:00",
+        "dateModified": "2025-01-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+          "name": "Dak isoleren",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze",
+            "headline": "Condens en vochtproblemen na dakisolatie: hoe ontstaan ze?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+            "headline": "Dakisolatie en energielabel: wat merk je in de praktijk?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie",
+            "headline": "Dakisolatie en ventilatie: waarom balans belangrijker is dan maximale isolatie"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze",
+            "headline": "Dakisolatie van binnenuit: wanneer is dit de juiste keuze?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen",
+            "headline": "Dakisolatie van buitenaf: voordelen, nadelen en praktische gevolgen"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+            "headline": "Isolatiematerialen en duurzaamheid: wat betekent je materiaalkeuze?"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+        "name": "Dak isoleren",
+        "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op",
+            "name": "Dakisolatie: wat levert het op?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakisolatie: wat levert het op?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#breadcrumb"
+      }
+    ]
+  }
 }

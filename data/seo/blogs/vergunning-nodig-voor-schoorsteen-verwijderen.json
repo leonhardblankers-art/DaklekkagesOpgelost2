@@ -1,117 +1,208 @@
 {
   "title": "Vergunning nodig voor schoorsteen verwijderen?",
-  "description": "Is een vergunning nodig voor het verwijderen van een schoorsteen? Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
+  "description": "Is een vergunning nodig voor het verwijderen van een schoorsteen?Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
   "ogTitle": "Vergunning nodig voor schoorsteen verwijderen?",
-  "ogDescription": "Is een vergunning nodig voor het verwijderen van een schoorsteen? Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
+  "ogDescription": "Is een vergunning nodig voor het verwijderen van een schoorsteen?Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Vergunning nodig voor schoorsteen verwijderen?",
-      "datePublished": "2026-01-03T19:12:27.000Z",
-      "dateModified": "2026-01-03T19:14:15.432Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+        "name": "Vergunning nodig voor schoorsteen verwijderen?",
+        "description": "Is een vergunning nodig voor het verwijderen van een schoorsteen?Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-03T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#article",
-          "headline": "Vergunning nodig voor schoorsteen verwijderen?",
-          "description": "Is een vergunning nodig voor het verwijderen van een schoorsteen? Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-03",
-          "dateModified": "2026-01-03",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten#pillar",
-              "headline": "Schoorsteen verwijderen wat je moet weten",
-              "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#article",
+        "headline": "Vergunning nodig voor schoorsteen verwijderen?",
+        "description": "Is een vergunning nodig voor het verwijderen van een schoorsteen?Lees wanneer het vergunningsvrij is en in welke situaties regels gelden.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-03T08:00:00+01:00",
+        "dateModified": "2026-01-03T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+          "name": "Schoorsteen verwijderen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten#pillar",
+          "headline": "Schoorsteen verwijderen: wat je moet weten",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-verwijderen-wat-je-moet-weten"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+          "name": "Schoorsteen verwijderen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is een vergunning altijd nodig bij schoorsteen verwijderen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, bij veel reguliere woningen is geen vergunning nodig, vooral bij verwijderen tot dakniveau."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Geldt dit ook voor oudere woningen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oudere woningen vallen niet automatisch onder monumentenzorg. Alleen bij monumenten of beschermde gezichten gelden strengere regels."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat als ik twijfel over de draagconstructie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dan is het verstandig om dit te laten beoordelen, bijvoorbeeld door een specialist of via de gemeente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan de gemeente achteraf ingrijpen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, als werkzaamheden niet volgens de regels zijn uitgevoerd, kan de gemeente handhavend optreden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waar kan ik dit controleren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Via het Omgevingsloket of rechtstreeks bij de gemeente kan worden nagegaan of een vergunning of melding nodig is."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/#service",
+        "name": "Schoorsteen verwijderen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteen-verwijderen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+            "name": "Vergunning nodig voor schoorsteen verwijderen?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vergunning nodig voor schoorsteen verwijderen?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/vergunning-nodig-voor-schoorsteen-verwijderen#breadcrumb"
+      }
+    ]
+  }
 }

@@ -2,135 +2,187 @@
   "title": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
   "description": "Wanneer een hellend dak zijn samenhang verliest, blijven problemen zich herhalen. Inzicht in dakrenovatie en wat er technisch misgaat bij oudere daken.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
   "ogTitle": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
   "ogDescription": "Wanneer een hellend dak zijn samenhang verliest, blijven problemen zich herhalen. Inzicht in dakrenovatie en wat er technisch misgaat bij oudere daken.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-      "datePublished": "2026-01-13T21:31:43.000Z",
-      "dateModified": "2026-01-15T18:22:16.740Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+        "name": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+        "description": "Wanneer een hellend dak zijn samenhang verliest, blijven problemen zich herhalen. Inzicht in dakrenovatie en wat er technisch misgaat bij oudere daken.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-13T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
-          "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
-          "description": "Wanneer een hellend dak zijn samenhang verliest, blijven problemen zich herhalen. Inzicht in dakrenovatie en wat er technisch misgaat bij oudere daken.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204931159726?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1768339845593&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-15T00:00:00+01:00",
-          "dateModified": "2026-01-15T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
-              "headline": "Wanneer is dakrenovatie bij een hellend dak echt nodig?"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
-              "headline": "Dakrenovatie of blijven repareren"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-écht-onder-de-dakpannen",
-              "headline": "Wat gebeurt er écht onder de dakpannen"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/panlatten-en-tengels-vervangen-bij-dakrenovatie",
-              "headline": "Panlatten en tengels vervangen bij dakrenovatie"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/onderdak-en-waterkerende-lagen",
-              "headline": "Onderdak en waterkerende lagen"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
-              "headline": "Wanneer is een volledige dakrenovatie onvermijdelijk?"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#pillar",
+        "headline": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+        "description": "Wanneer een hellend dak zijn samenhang verliest, blijven problemen zich herhalen. Inzicht in dakrenovatie en wat er technisch misgaat bij oudere daken.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-13T08:00:00+01:00",
+        "dateModified": "2026-01-15T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel",
+            "headline": "Aansluitingen: schoorstenen, dakkapellen en dakramen, de zwakke schakel"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden",
+            "headline": "Dakisolatie combineren met renovatie, is dat aan te raden?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakpannen-vervangen-bij-renovatie",
+            "headline": "Dakpannen vervangen bij renovatie"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-of-blijven-repareren",
+            "headline": "Dakrenovatie of blijven repareren"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/hoelang-gaat-een-gerenoveerd-hellend-dak-mee#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/hoelang-gaat-een-gerenoveerd-hellend-dak-mee",
+            "headline": "Hoelang gaat een gerenoveerd hellend dak mee?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/onderdak-en-waterkerende-lagen#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/onderdak-en-waterkerende-lagen",
+            "headline": "Onderdak en waterkerende lagen"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+            "name": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakrenovatie bij een hellend dak: wanneer het dak zelf het probleem wordt",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt#breadcrumb"
+      }
+    ]
+  }
 }

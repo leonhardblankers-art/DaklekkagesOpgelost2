@@ -1,122 +1,208 @@
 {
   "title": "Dakisolatie en energielabel: wat merk je in de praktijk?",
-  "description": "Wat doet dakisolatie met je energielabel in de praktijk? Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
+  "description": "Wat doet dakisolatie met je energielabel in de praktijk?Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
   "ogTitle": "Dakisolatie en energielabel: wat merk je in de praktijk?",
-  "ogDescription": "Wat doet dakisolatie met je energielabel in de praktijk? Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
+  "ogDescription": "Wat doet dakisolatie met je energielabel in de praktijk?Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakisolatie en energielabel: wat merk je in de praktijk?",
-      "datePublished": "2025-12-29T17:46:08.000Z",
-      "dateModified": "2025-12-29T18:27:56.291Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+        "name": "Dakisolatie en energielabel: wat merk je in de praktijk?",
+        "description": "Wat doet dakisolatie met je energielabel in de praktijk?Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-01-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Dakisolatie en energielabel: wat merk je in de praktijk?",
-          "description": "Dakisolatie kan het energielabel verbeteren, maar het effect verschilt per woning. Lees wat het label wel en niet zegt over comfort en energieverbruik.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-01-08",
-          "dateModified": "2025-01-08",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "headline": "Dakisolatie: wat levert het op?",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Verbetert dakisolatie altijd het energielabel?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dakisolatie kan bijdragen aan een beter energielabel, maar de verbetering hangt af van de beginsituatie van de woning en andere energiebesparende maatregelen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Waarom merk ik soms weinig verschil terwijl het label verbetert?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Het energielabel kijkt naar theoretische prestaties. In de praktijk spelen gebruik, ventilatie en warmteverdeling een grote rol in hoe comfort wordt ervaren."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Heeft het energielabel invloed op de waarde van een woning?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een beter energielabel kan bijdragen aan een aantrekkelijker woningprofiel, maar het effect verschilt per markt en situatie."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is dakisolatie voldoende voor een grote labelsprong?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Zelden. Dakisolatie is één onderdeel van het geheel. Voor grotere verbeteringen zijn vaak meerdere maatregelen nodig."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Wordt comfort meegenomen in het energielabel?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Het energielabel richt zich op energieprestaties en houdt geen rekening met subjectief comfort of vochtbeleving."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard, Betuwe en omgeving"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#article",
+        "headline": "Dakisolatie en energielabel: wat merk je in de praktijk?",
+        "description": "Wat doet dakisolatie met je energielabel in de praktijk?Lees hoe labels werken, waarom winst soms beperkt lijkt en wat isolatie echt oplevert.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-29T08:00:00+01:00",
+        "dateModified": "2025-01-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+          "name": "Dak isoleren",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op#pillar",
+          "headline": "Dakisolatie: wat levert het op?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-wat-levert-het-op"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+          "name": "Dak isoleren",
+          "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Zorgt dakisolatie altijd voor een beter energielabel ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Het effect hangt af van de bestaande situatie en andere energiemaatregelen in de woning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom zie ik weinig labelverbetering na isolatie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat het energielabel een rekenmodel is en niet alle comfort- en besparingsvoordelen meeneemt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wordt oude dakisolatie meegerekend ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Alleen als deze aantoonbaar aanwezig en technisch nog functioneel is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is het energielabel een goede maat voor comfort ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Comfort wordt beïnvloed door meer factoren dan het label weergeeft."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft dakisolatie invloed op woningwaarde ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Indirect wel, maar bouwkundige staat en comfort spelen eveneens een grote rol."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dak-isoleren/#service",
+        "name": "Dak isoleren",
+        "url": "https://www.daklekkagesopgelost.nl/dak-isoleren/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+            "name": "Dakisolatie en energielabel: wat merk je in de praktijk?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakisolatie en energielabel: wat merk je in de praktijk?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk#breadcrumb"
+      }
+    ]
+  }
 }

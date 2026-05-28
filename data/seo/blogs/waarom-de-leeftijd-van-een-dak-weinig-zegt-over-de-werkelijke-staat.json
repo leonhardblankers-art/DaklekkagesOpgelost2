@@ -2,116 +2,207 @@
   "title": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
   "description": "Een oud dak kan technisch goed zijn, een jong dak juist niet. Ontdek waarom leeftijd geen betrouwbare maatstaf is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
   "ogTitle": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
   "ogDescription": "Een oud dak kan technisch goed zijn, een jong dak juist niet. Ontdek waarom leeftijd geen betrouwbare maatstaf is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
-      "datePublished": "2026-01-18T23:02:01.000Z",
-      "dateModified": "2026-01-18T23:02:50.650Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+        "url": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+        "name": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
+        "description": "Een oud dak kan technisch goed zijn, een jong dak juist niet. Ontdek waarom leeftijd geen betrouwbare maatstaf is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#article",
-          "headline": "Waarom de leeftijd van een dak weinig zegt over de werkelijke staat",
-          "description": "De leeftijd van een dak zegt weinig over de technische conditie. Uitleg over waarom materiaalgedrag, onderhoud en belasting belangrijker zijn dan bouwjaar.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-18T00:00:00+01:00",
-          "dateModified": "2026-01-18T00:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
-              "headline": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet",
-              "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#article",
+        "headline": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
+        "description": "Een oud dak kan technisch goed zijn, een jong dak juist niet. Ontdek waarom leeftijd geen betrouwbare maatstaf is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
+          "headline": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+          "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is een dak van dertig jaar automatisch aan vervanging toe ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Sommige daken functioneren technisch nog goed na dertig jaar, terwijl andere eerder problemen vertonen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom wordt leeftijd zo vaak gebruikt als criterium ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat het eenvoudig en tastbaar is, terwijl technische conditie lastiger te beoordelen lijkt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een jong dak toch verborgen schade hebben ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Uitvoeringsfouten of zware belasting kunnen al vroeg problemen veroorzaken."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe bepaal je de werkelijke staat van een dak ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Door te kijken naar materiaalconditie, schadepatronen, onderhoud en belasting, niet alleen naar leeftijd."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft leeftijd dan helemaal geen waarde ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leeftijd heeft waarde als context, maar mag nooit het enige besliscriterium zijn."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+            "url": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+            "name": "Waarom de leeftijd van een dak weinig zegt over de echte staat"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Waarom de leeftijd van een dak weinig zegt over de echte staat",
+            "item": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#breadcrumb"
+      }
+    ]
+  }
 }

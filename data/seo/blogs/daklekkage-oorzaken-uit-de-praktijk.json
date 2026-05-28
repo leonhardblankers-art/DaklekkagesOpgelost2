@@ -2,142 +2,243 @@
   "title": "Daklekkage: oorzaken uit de praktijk",
   "description": "Ontdek de praktijkoorzaken van daklekkages, van veroudering tot weersinvloeden, inclusief nuances en voorbeelden voor particulieren.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
   "ogTitle": "Daklekkage: oorzaken uit de praktijk",
   "ogDescription": "Ontdek de praktijkoorzaken van daklekkages, van veroudering tot weersinvloeden, inclusief nuances en voorbeelden voor particulieren.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Daklekkage: oorzaken uit de praktijk",
-      "datePublished": "2025-12-28T20:09:18.000Z",
-      "dateModified": "2025-12-31T18:36:26.582Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
+        "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
+        "name": "Daklekkage: oorzaken uit de praktijk",
+        "description": "Ontdek de praktijkoorzaken van daklekkages, van veroudering tot weersinvloeden, inclusief nuances en voorbeelden voor particulieren.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-28T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Daklekkage: oorzaken uit de praktijk",
-          "description": "Uitleg over veelvoorkomende oorzaken van daklekkages, inclusief veroudering, aansluitingen, onderhoud, weersinvloeden en constructiefouten.",
-          "author": {
-            "@type": "Person",
-            "name": "Daklekkages Opgelost"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-31",
-          "dateModified": "2025-12-31",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/daklekkage-oorzaken-uit-de-praktijk"
-          },
-          "hasPart": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis"
-            },
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#pillar"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe kan ik een lekkage op mijn dak herkennen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Een daklekkage herken je vaak aan vochtplekken op plafonds of muren, schimmelvorming, verkleuring van hout of loslatend stucwerk, vooral na regen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan een kleine scheur in de dakbedekking ernstige schade veroorzaken?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, zelfs kleine scheuren kunnen bij hevige regen of wind leiden tot aanzienlijke waterschade doordat water zich verspreidt binnen de dakconstructie."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Zijn alleen oude daken gevoelig voor lekkages?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee, ook nieuwere daken kunnen lekkages ontwikkelen door constructiefouten, slecht aangebrachte aansluitingen of extreme weersinvloeden."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Helpt regelmatig onderhoud tegen daklekkages?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Onderhoud verkleint het risico door afvoeren schoon te houden en schade vroeg te signaleren, maar voorkomt lekkages door constructiefouten niet altijd."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoe maak ik onderscheid tussen lekkage en condensatie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Lekkage door waterinfiltratie hangt vaak samen met regenmomenten, terwijl condensatie meestal ontstaat door ventilatie- en temperatuurproblemen."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard en Betuwe"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#pillar",
+        "headline": "Daklekkage: oorzaken uit de praktijk",
+        "description": "Ontdek de praktijkoorzaken van daklekkages, van veroudering tot weersinvloeden, inclusief nuances en voorbeelden voor particulieren.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-28T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken",
+            "headline": "Daklekkage bij hevige regen: waarom sommige daken alleen dan lekken"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is",
+            "headline": "Daklekkage en isolatie: waarom nat isolatiemateriaal een onderschat probleem is"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis",
+            "headline": "Lekkage of condens: zo herken je het verschil in huis"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt",
+            "headline": "Schimmelvorming na daklekkage: wanneer vocht een blijvend probleem wordt"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert",
+            "headline": "Wat gebeurt er als je een daklekkage te lang negeert?"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade",
+            "headline": "Waterschade door daklekkage: hoe herken je verborgen schade?"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+          "name": "Lekkage opsporen",
+          "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe kan ik een lekkage op mijn dak herkennen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Een daklekkage herken je vaak aan vochtplekken op plafonds of muren, schimmelvorming, verkleuring van hout of loslatend stucwerk. Soms is het patroon van het vocht zichtbaar tijdens of na regenbuien."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een kleine scheur in de dakbedekking snel leiden tot ernstige schade ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, zelfs een kleine scheur kan bij hevige regen of wind grote waterschade veroorzaken. Water volgt vaak de weg van de minste weerstand en kan zich verspreiden binnen de dakconstructie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn alleen oude daken gevoelig voor lekkages ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet uitsluitend. Nieuwe daken kunnen lekkages ontwikkelen door constructiefouten, slecht aangebracht loodwerk of beschadiging door extreme weersomstandigheden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Helpt regelmatig onderhoud echt tegen lekkages ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Regelmatig onderhoud helpt risico's te verkleinen door bijvoorbeeld afvoeren schoon te houden en mos te verwijderen, maar het sluit lekkages door constructiefouten of plotselinge schade niet volledig uit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe kan ik onderscheid maken tussen lekkage door waterinfiltratie en condensatie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lekkage door waterinfiltratie volgt meestal een patroon dat overeenkomt met externe invloeden zoals regen, terwijl condensatie vaak op meerdere plekken voorkomt en samenhangt met ventilatieproblemen of temperatuurverschillen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
+        "name": "Lekkage opsporen",
+        "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
+            "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk",
+            "name": "Daklekkage: oorzaken uit de praktijk"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#faq"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklekkage: oorzaken uit de praktijk",
+            "item": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#breadcrumb"
+      }
+    ]
+  }
 }

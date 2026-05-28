@@ -2,116 +2,199 @@
   "title": "Lekkage bij een dakkapel door oud lood",
   "description": "Lekkage bij een dakkapel door oud lood: oorzaken, signalen en waarom reparaties vaak niet blijvend zijn.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
   "ogTitle": "Lekkage bij een dakkapel door oud lood",
   "ogDescription": "Lekkage bij een dakkapel door oud lood: oorzaken, signalen en waarom reparaties vaak niet blijvend zijn.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Lekkage bij een dakkapel door oud lood",
-      "datePublished": "2026-01-04T23:49:28.000Z",
-      "dateModified": "2026-01-04T23:49:59.166Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+        "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+        "name": "Lekkage bij een dakkapel door oud lood",
+        "description": "Lekkage bij een dakkapel door oud lood: oorzaken, signalen en waarom reparaties vaak niet blijvend zijn.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#article",
-          "headline": "Lekkage bij een dakkapel door oud lood",
-          "description": "Lekkage bij een dakkapel door oud lood: oorzaken, signalen en waarom reparaties vaak niet blijvend zijn.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204180055979?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767570365055&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-05",
-          "dateModified": "2026-01-05",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
-              "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#article",
+        "headline": "Lekkage bij een dakkapel door oud lood",
+        "description": "Lekkage bij een dakkapel door oud lood: oorzaken, signalen en waarom reparaties vaak niet blijvend zijn.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
+          "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Komt lekkage door oud lood vaak voor bij dakkapellen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Vooral bij dakkapellen ouder dan tien tot vijftien jaar is lood een veelvoorkomende oorzaak van lekkage."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lekkage altijd zichtbaar aan de binnenkant ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Water kan langere tijd onzichtbaar wegstromen via de dakconstructie voordat er binnen schade ontstaat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Heeft het zin om oud lood plaatselijk te repareren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat kan tijdelijk helpen, maar bij verouderd lood is de kans groot dat nieuwe scheuren ontstaan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan lekkage door lood ook andere problemen veroorzaken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Denk aan houtrot, aantasting van isolatie en schimmelvorming in de dakkapel."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+        "name": "Dakkapel lood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+            "name": "Lekkage bij een dakkapel door oud lood"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lekkage bij een dakkapel door oud lood",
+            "item": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#breadcrumb"
+      }
+    ]
+  }
 }

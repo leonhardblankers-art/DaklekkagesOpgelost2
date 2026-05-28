@@ -1,157 +1,208 @@
 {
-  "title": "Dakprobleem weg… en toch niet? Waarom het later terugkomt",
+  "title": "Dakprobleem weg… en toch niet?Waarom het later terugkomt",
   "description": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
-  "ogTitle": "Dakprobleem weg… en toch niet? Waarom het later terugkomt",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+  "ogTitle": "Dakprobleem weg… en toch niet?Waarom het later terugkomt",
   "ogDescription": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakprobleem weg… en toch niet? Waarom het later terugkomt",
-      "datePublished": "2026-02-08T22:59:01.000Z",
-      "dateModified": "2026-02-08T22:59:08.736Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+        "name": "Dakprobleem weg… en toch niet?Waarom het later terugkomt",
+        "description": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen",
-          "url": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen",
-          "name": "Waarom dakproblemen soms verdwijnen en later terugkomen",
-          "description": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp"
-          },
-          "datePublished": "2026-02-08T08:00:00+01:00",
-          "dateModified": "2026-02-08T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen#article"
-          },
-          "isPartOf": {
-            "@type": "Blog",
-            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
-            "name": "Daklekkages Opgelost Blog",
-            "url": "https://www.daklekkagesopgelost.nl/blog"
-          }
-        },
-        {
+        "datePublished": "2026-02-08T08:00:00+01:00",
+        "dateModified": "2026-02-08T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen#article",
-          "headline": "Waarom dakproblemen soms verdwijnen en later terugkomen",
-          "description": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-02-08T08:00:00+01:00",
-          "dateModified": "2026-02-08T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-            "name": "Dakinspectie",
-            "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn#pillar",
-            "headline": "Dakprobleem of toeval? Wanneer signalen echt serieus zijn",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt#article"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-          "name": "Dakinspectie",
-          "url": "https://www.daklekkagesopgelost.nl/dakinspectie",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen",
-              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-dakproblemen-soms-verdwijnen-en-later-terugkomen",
-              "name": "Waarom dakproblemen soms verdwijnen en later terugkomen"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt#article",
+        "headline": "Dakprobleem weg… en toch niet?Waarom het later terugkomt",
+        "description": "Soms lijkt een dakprobleem vanzelf te verdwijnen, tot het bij de volgende bui terug is. Ontdek de oorzaken van terugkerende dakklachten en wanneer afwachten risico’s geeft.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-02-08T08:00:00+01:00",
+        "dateModified": "2026-02-08T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+          "name": "Gratis dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn#pillar",
+          "headline": "Twijfel over dakproblemen: wanneer signalen serieus te nemen zijn",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+          "name": "Gratis dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "1) Kan een lekkage echt alleen bij harde wind optreden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Slagregen en wind kunnen water onder pannen of in aansluitingen drukken. Daardoor zie je klachten soms alleen bij één windrichting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "2) Waarom verschijnt schade soms pas dagen later ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Water kan in isolatie of constructiedelen trekken en pas later zichtbaar worden. Ook kan een materiaal eerst water opnemen voordat je verkleuring ziet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "3) Als het weer droog is, kan ik dan gerust zijn ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. Een droog oppervlak zegt niets over verborgen vocht. Herhaling of kringen zijn belangrijker dan één droge periode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "4) Hoe lang kun je verantwoord monitoren ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Alleen met duidelijke stopmomenten: groei, herhaling na nat weer, geur of zachte ondergrond. Zonder stopmoment wordt monitoren vaak uitstel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "5) Wanneer is een inspectie verstandig ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Als het terugkomt, weersafhankelijk is of je meerdere kwetsbare details hebt. Dan geeft een gratis dakinspectie sneller zekerheid."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/#service",
+        "name": "Gratis dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/gratis-dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+            "name": "Dakprobleem weg… en toch niet?Waarom het later terugkomt"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakprobleem weg… en toch niet?Waarom het later terugkomt",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt#breadcrumb"
+      }
+    ]
+  }
 }

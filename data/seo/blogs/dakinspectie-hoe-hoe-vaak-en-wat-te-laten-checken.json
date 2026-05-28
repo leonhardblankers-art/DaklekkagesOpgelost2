@@ -2,100 +2,191 @@
   "title": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
   "description": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
   "ogTitle": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
   "ogDescription": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
-      "datePublished": "2025-12-31T19:44:02.000Z",
-      "dateModified": "2025-12-31T19:44:40.282Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+        "name": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+        "description": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "headline": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
-          "description": "Uitleg over hoe je je dak inspecteert, hoe vaak dit nodig is en welke punten je moet controleren om schade te voorkomen.",
-          "author": {
-            "@type": "Person",
-            "name": "Dakexpert"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Daklekkages Opgelost",
-            "url": "https://www.daklekkagesopgelost.nl"
-          },
-          "datePublished": "2025-12-31",
-          "dateModified": "2025-12-31",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.example.com/dakinspectie"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken#article"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Kan ik een dakinspectie zelf doen?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, voor visuele controles is dit mogelijk, maar voor structurele beoordelingen of moeilijk bereikbare plekken is een vakman aan te raden."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Wat kost een professionele inspectie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "De kosten variëren, maar vaak ligt dit tussen de €75 en €150, afhankelijk van de grootte en complexiteit van het dak."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Welke schade signaleert een inspectie meestal het eerst?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Losse of gebroken dakpannen, scheuren in dakbedekking en beginnende houtrot worden meestal als eerste zichtbaar."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken#breadcrumb"
         },
-        {
-          "@type": "RoofingContractor",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "areaServed": {
-            "@type": "Place",
-            "name": "Rivierenland, Bommelerwaard en Betuwe"
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken#article",
+        "headline": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+        "description": "Leer hoe je je dak inspecteert, hoe vaak dit nodig is en waar je op moet letten om schade en dure reparaties te voorkomen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2025-12-31T08:00:00+01:00",
+        "dateModified": "2025-12-31T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging#pillar",
+          "headline": "Wanneer is een dak echt toe aan vervanging?",
+          "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-echt-toe-aan-vervanging"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kan ik een dakinspectie zelf doen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, voor visuele controles is dit mogelijk, maar voor structurele beoordelingen of moeilijk bereikbare plekken is een vakman aan te raden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat kost een professionele inspectie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De kosten variëren, maar vaak ligt dit tussen de €75 en €150, afhankelijk van de grootte en complexiteit van het dak."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke schade signaleert een inspectie meestal het eerst ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Losse of gebroken dakpannen, scheuren in dakbedekking en beginnende houtrot worden meestal als eerste zichtbaar."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+            "name": "Dakinspectie: hoe, hoe vaak en wat te laten checken"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakinspectie: hoe, hoe vaak en wat te laten checken",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken#breadcrumb"
+      }
+    ]
+  }
 }

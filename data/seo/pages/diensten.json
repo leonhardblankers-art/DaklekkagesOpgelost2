@@ -11,17 +11,136 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/diensten/",
         "url": "https://www.daklekkagesopgelost.nl/diensten/",
         "name": "Dienstenpagina Diensten",
         "description": "Al uw daklekkages opgelost, hiervoor voeren wij een divers scala aan dakgerelateerde diensten uit. Zien wat wij voor u kunnen betekenen?",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/diensten#breadcrumb"
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten/#service",
+        "name": "Dienstenpagina Diensten",
+        "description": "Al uw daklekkages opgelost, hiervoor voeren wij een divers scala aan dakgerelateerde diensten uit. Zien wat wij voor u kunnen betekenen?",
+        "url": "https://www.daklekkagesopgelost.nl/diensten/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dienstenpagina Diensten ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+                "name": "Dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen#service",
+                "name": "Lekkage opsporen",
+                "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie#service",
+                "name": "Spoedreparatie",
+                "url": "https://www.daklekkagesopgelost.nl/spoedreparatie"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/contact#service",
+                "name": "Contact",
+                "url": "https://www.daklekkagesopgelost.nl/contact"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dienstenpagina Diensten",
+            "item": "https://www.daklekkagesopgelost.nl/diensten/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/diensten#breadcrumb"
       }
     ]
   }

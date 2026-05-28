@@ -11,17 +11,136 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
         "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
         "name": "Dakraamlood vervangen",
         "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen#breadcrumb"
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/#service",
+        "name": "Dakraamlood vervangen",
+        "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+        "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dakraamlood vervangen ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen#service",
+                "name": "Diensten loodafwerkingen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen#service",
+                "name": "Daklood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage#service",
+                "name": "Daklood loodslabben lekkage",
+                "url": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
+                "name": "Dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Dakraamlood vervangen",
+            "item": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen#breadcrumb"
       }
     ]
   }

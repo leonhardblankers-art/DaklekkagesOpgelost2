@@ -2,116 +2,191 @@
   "title": "Typische faalpunten bij lood rond dakkapellen",
   "description": "Typische faalpunten bij lood rond dakkapellen uitgelegd: waarom lekkages vaak ontstaan door uitvoering en detaillering, niet door het materiaal zelf.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
   "ogTitle": "Typische faalpunten bij lood rond dakkapellen",
   "ogDescription": "Typische faalpunten bij lood rond dakkapellen uitgelegd: waarom lekkages vaak ontstaan door uitvoering en detaillering, niet door het materiaal zelf.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Typische faalpunten bij lood rond dakkapellen",
-      "datePublished": "2026-01-05T12:12:11.000Z",
-      "dateModified": "2026-01-05T15:01:23.586Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+        "url": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+        "name": "Typische faalpunten bij lood rond dakkapellen",
+        "description": "Typische faalpunten bij lood rond dakkapellen uitgelegd: waarom lekkages vaak ontstaan door uitvoering en detaillering, niet door het materiaal zelf.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-05T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#article",
-          "headline": "Typische faalpunten bij lood rond dakkapellen",
-          "description": "Typische faalpunten bij lood rond dakkapellen uitgelegd: waarom lekkages vaak ontstaan door uitvoering en detaillering, niet door het materiaal zelf.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204218970949?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767614933896&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-05",
-          "dateModified": "2026-01-05",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen"
-          },
-          "isPartOf": [
-            {
-              "@type": "Blog",
-              "name": "Daklekkages Opgelost Blog",
-              "url": "https://www.daklekkagesopgelost.nl/blog"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
-              "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
-              "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#article"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#article",
+        "headline": "Typische faalpunten bij lood rond dakkapellen",
+        "description": "Typische faalpunten bij lood rond dakkapellen uitgelegd: waarom lekkages vaak ontstaan door uitvoering en detaillering, niet door het materiaal zelf.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-05T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
+          "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
+          "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Betekent een faalpunt altijd dat het lood vervangen moet worden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Sommige problemen zijn lokaal op te lossen, afhankelijk van de staat van het lood en de aard van het detail."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn deze faalpunten vooral bij oudere dakkapellen te vinden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ze komen vaker voor bij oudere dakkapellen, maar ook bij nieuwere constructies zien we vergelijkbare fouten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen deze problemen visueel worden herkend ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Soms wel, maar veel details zijn lastig zichtbaar zonder inspectie van dichtbij."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+        "name": "Dakkapel lood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+            "url": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+            "name": "Typische faalpunten bij lood rond dakkapellen"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Typische faalpunten bij lood rond dakkapellen",
+            "item": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#breadcrumb"
+      }
+    ]
+  }
 }

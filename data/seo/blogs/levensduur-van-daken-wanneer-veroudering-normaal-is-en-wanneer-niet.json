@@ -1,262 +1,244 @@
 {
   "title": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
-  "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem? Uitleg over levensduur, risico’s en beoordeling van daken.",
+  "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem?Uitleg over levensduur, risico’s en beoordeling van daken.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
   "ogTitle": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
-  "ogDescription": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem? Uitleg over levensduur, risico’s en beoordeling van daken.",
+  "ogDescription": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem?Uitleg over levensduur, risico’s en beoordeling van daken.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
-      "datePublished": "2026-01-18T21:53:44.000Z",
-      "dateModified": "2026-02-22T21:15:55.619Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+        "name": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+        "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem?Uitleg over levensduur, risico’s en beoordeling van daken.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
-          "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
-          "name": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet",
-          "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem? Uitleg over levensduur, veroudering en beoordeling van daken.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp"
-          },
-          "datePublished": "2026-01-18T08:00:00+01:00",
-          "dateModified": "2026-01-18T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar"
-          },
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.daklekkagesopgelost.nl/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://www.daklekkagesopgelost.nl/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet",
-                "item": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
-              }
-            ]
-          }
-        },
-        {
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
-          "headline": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet",
-          "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem? Uitleg over levensduur, veroudering en beoordeling van daken.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-18T08:00:00+01:00",
-          "dateModified": "2026-01-18T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-            "name": "Dakrenovatie",
-            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
-              "headline": "Normale dakveroudering versus schade: hoe herken je het verschil"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur",
-              "headline": "Wanneer is een dak technisch aan het einde van zijn levensduur"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden",
-              "headline": "Hoe dakmaterialen veranderen door leeftijd en weersinvloeden"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak",
-              "headline": "De invloed van onderhoud op de levensduur van een dak"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
-              "headline": "Cumulatieve weersbelasting: hoe jarenlange belasting schade veroorzaakt"
-            },
-            {
-              "@type": "Article",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
-              "headline": "Waarom de leeftijd van een dak weinig zegt over de werkelijke staat"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar"
         },
-        {
-          "@type": "FAQPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#faq",
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-            "name": "Dakrenovatie",
-            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
-          },
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Hoe lang gaat een gemiddeld dak mee?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dat verschilt sterk per materiaal, toepassing en omstandigheden. Levensduurindicaties zijn richtlijnen, geen garanties."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is mosgroei een teken dat een dak slecht is?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Niet per definitie. Mosgroei wijst wel op langdurige vochtbelasting, wat de veroudering kan versnellen."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan een oud dak nog technisch goed zijn?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja. De technische staat wordt bepaald door conditie en belasting, niet alleen door leeftijd."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Moet een dak zonder lekkage gecontroleerd worden?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Juist daken zonder klachten kunnen baat hebben bij controle, omdat schade vaak pas laat zichtbaar wordt."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is veroudering altijd zichtbaar vanaf de buitenkant?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nee. Problemen ontstaan regelmatig in onderliggende lagen of constructies voordat ze aan de buitenzijde te zien zijn."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#breadcrumb"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-          "name": "Dakrenovatie",
-          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
-              "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
-              "name": "Levensduur van daken: wanneer veroudering normaal is en wanneer niet"
-            },
-            {
-              "@type": "FAQPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#faq"
-            }
-          ]
-        },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#pillar",
+        "headline": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+        "description": "Wanneer is dakveroudering normaal en wanneer wijst het op een technisch probleem?Uitleg over levensduur, risico’s en beoordeling van daken.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-18T08:00:00+01:00",
+        "dateModified": "2026-01-18T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+            "headline": "Cumulatieve weersbelasting: waarom daken pas laat schade tonen"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak",
+            "headline": "Hoe onderhoud de levensduur van een dak beïnvloedt (en wat niet)"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden",
+            "headline": "Hoe dakmaterialen verouderen door zon, regen en temperatuur"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+            "headline": "Normale dakveroudering of schade?Zo herken je het verschil"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+            "headline": "Waarom de leeftijd van een dak weinig zegt over de echte staat"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur",
+            "headline": "Wanneer is een dak technisch ‘op’?Dit zegt de staat, niet de leeftijd"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+          "name": "Dakinspectie",
+          "url": "https://www.daklekkagesopgelost.nl/dakinspectie/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat een gemiddeld dak mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt sterk per materiaal, toepassing en omstandigheden. Levensduurindicaties zijn richtlijnen, geen garanties."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is mosgroei een teken dat een dak slecht is ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per definitie. Mosgroei wijst wel op langdurige vochtbelasting, wat de veroudering kan versnellen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een oud dak nog technisch goed zijn ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. De technische staat wordt bepaald door conditie en belasting, niet alleen door leeftijd."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Moet een dak zonder lekkage gecontroleerd worden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Juist daken zonder klachten kunnen baat hebben bij controle, omdat schade vaak pas laat zichtbaar wordt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is veroudering altijd zichtbaar vanaf de buitenkant ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Problemen ontstaan regelmatig in onderliggende lagen of constructies voordat ze aan de buitenzijde te zien zijn."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakinspectie/#service",
+        "name": "Dakinspectie",
+        "url": "https://www.daklekkagesopgelost.nl/dakinspectie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+            "name": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#faq"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Levensduur van daken: wanneer veroudering normaal is (en wanneer niet)",
+            "item": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet#breadcrumb"
+      }
+    ]
+  }
 }

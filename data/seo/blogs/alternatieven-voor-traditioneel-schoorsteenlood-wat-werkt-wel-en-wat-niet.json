@@ -1,96 +1,200 @@
 {
   "title": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
-  "description": "Welke alternatieven voor schoorsteenlood bestaan er? Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
+  "description": "Welke alternatieven voor schoorsteenlood bestaan er?Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
   "ogTitle": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
-  "ogDescription": "Welke alternatieven voor schoorsteenlood bestaan er? Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
+  "ogDescription": "Welke alternatieven voor schoorsteenlood bestaan er?Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
-      "datePublished": "2026-01-01T23:06:51.000Z",
-      "dateModified": "2026-01-01T23:06:59.720Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+        "url": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+        "name": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
+        "description": "Welke alternatieven voor schoorsteenlood bestaan er?Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
-      "description": "Overzicht van alternatieven voor traditioneel schoorsteenlood en wanneer deze in de praktijk geschikt zijn.",
-      "author": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "datePublished": "2026-01-01",
-      "url": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-schoorsteenlood",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-schoorsteenlood"
-      },
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
-      },
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Zijn loodvervangers altijd beter dan traditioneel lood?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Nee, de geschiktheid hangt af van het daktype, de schoorsteenconstructie en de detaillering."
-          }
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#article"
         },
-        {
-          "@type": "Question",
-          "name": "Gaan alternatieven net zo lang mee als lood?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dat verschilt per product en toepassing; sommige alternatieven hebben een kortere verwachte levensduur."
-          }
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#breadcrumb"
         },
-        {
-          "@type": "Question",
-          "name": "Is verwerking van alternatieven eenvoudiger?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vaak wel, maar correcte montage blijft essentieel om lekkage te voorkomen."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kunnen alternatieven problemen geven bij oudere daken?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, vooral bij complexe aansluitingen sluiten alternatieven soms minder goed aan dan traditioneel lood."
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#article",
+        "headline": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
+        "description": "Welke alternatieven voor schoorsteenlood bestaan er?Lees wanneer ze geschikt zijn en wanneer traditioneel lood beter werkt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar",
+          "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Zijn loodvervangers altijd beter dan traditioneel lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee, ze zijn niet in alle situaties beter. De geschiktheid hangt af van daktype, schoorsteen en detaillering."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Gaan alternatieven net zo lang mee als lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat verschilt per product en toepassing. Sommige alternatieven hebben een kortere verwachte levensduur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is verwerking van alternatieven eenvoudiger ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vaak wel, maar correcte montage blijft essentieel om lekkage te voorkomen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen alternatieven bij oudere daken problemen geven ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, vooral bij complexe aansluitingen kunnen ze minder goed aansluiten dan traditioneel lood."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+        "name": "Schoorsteenlood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+            "url": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+            "name": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Alternatieven voor traditioneel schoorsteenlood: wat werkt wel en wat niet?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet#breadcrumb"
+      }
+    ]
+  }
 }

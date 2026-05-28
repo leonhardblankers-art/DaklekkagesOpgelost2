@@ -1,96 +1,200 @@
 {
   "title": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
-  "description": "Wat kost schoorsteenlood vervangen? Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+  "description": "Wat kost schoorsteenlood vervangen?Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
   "ogTitle": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
-  "ogDescription": "Wat kost schoorsteenlood vervangen? Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+  "ogDescription": "Wat kost schoorsteenlood vervangen?Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
-      "datePublished": "2026-01-01T22:59:06.000Z",
-      "dateModified": "2026-01-01T23:01:21.566Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+        "url": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+        "name": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+        "description": "Wat kost schoorsteenlood vervangen?Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
-      "description": "Uitleg over de kosten van het vervangen van schoorsteenlood en welke factoren prijsverschillen veroorzaken.",
-      "author": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "datePublished": "2026-01-01",
-      "url": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen"
-      },
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
-      },
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Waarom lopen de kosten voor schoorsteenlood zo uiteen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "De kosten verschillen per situatie door bereikbaarheid, daktype, materiaalkeuze en de staat van de schoorsteen."
-          }
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#article"
         },
-        {
-          "@type": "Question",
-          "name": "Is gedeeltelijke vervanging goedkoper dan volledig vervangen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gedeeltelijke vervanging is vaak goedkoper, zolang het overige lood nog voldoende flexibel en intact is."
-          }
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#breadcrumb"
         },
-        {
-          "@type": "Question",
-          "name": "Zijn loodvervangers altijd goedkoper dan traditioneel lood?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Niet altijd. De totale kosten hangen af van kwaliteit, levensduur en de manier van verwerken."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kan goedkoop loodwerk later duurder uitpakken?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, wanneer het lood onvoldoende overlap of detaillering heeft, kunnen later extra herstelkosten ontstaan."
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#article",
+        "headline": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+        "description": "Wat kost schoorsteenlood vervangen?Lees welke factoren de prijs bepalen en waarom kosten sterk kunnen verschillen.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar",
+          "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Waarom lopen de kosten voor schoorsteenlood zo uiteen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Omdat bereikbaarheid, materiaalkeuze, daktype en de staat van de schoorsteen per situatie verschillen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is gedeeltelijke vervanging goedkoper dan volledig vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vaak wel, maar alleen wanneer het overige lood nog in goede staat is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn loodvervangers altijd goedkoper ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet per se. Ze kunnen sneller te verwerken zijn, maar de prijs hangt ook af van kwaliteit en toepassing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan goedkoop loodwerk later duurder uitpakken ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, wanneer de detaillering onvoldoende is, kunnen herstelkosten later hoger uitvallen."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+        "name": "Schoorsteenlood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+            "url": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+            "name": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Kosten schoorsteenlood vervangen: waar moet je rekening mee houden?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden#breadcrumb"
+      }
+    ]
+  }
 }

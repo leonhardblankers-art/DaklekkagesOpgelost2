@@ -2,209 +2,155 @@
   "title": "Doorbuiging van dakconstructies: oorzaken en risico’s",
   "description": "Doorbuiging van dakconstructies ontstaat door belasting, vocht en veroudering. Ontdek signalen, oorzaken en wanneer ingrijpen nodig is.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
   "ogTitle": "Doorbuiging van dakconstructies: oorzaken en risico’s",
   "ogDescription": "Doorbuiging van dakconstructies ontstaat door belasting, vocht en veroudering. Ontdek signalen, oorzaken en wanneer ingrijpen nodig is.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Doorbuiging van dakconstructies: oorzaken en risico’s",
-      "datePublished": "2026-01-20T15:33:47.000Z",
-      "dateModified": "2026-02-22T19:57:04.958Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+        "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+        "name": "Doorbuiging van dakconstructies: oorzaken en risico’s",
+        "description": "Doorbuiging van dakconstructies ontstaat door belasting, vocht en veroudering. Ontdek signalen, oorzaken en wanneer ingrijpen nodig is.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
-          "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
-          "name": "Doorbuiging van dakconstructies door belasting en veroudering",
-          "description": "Doorbuiging van dakconstructies ontstaat door langdurige belasting, veroudering en vocht. Lees hoe je signalen herkent en constructieve schade voorkomt.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/doorbuiging-dakconstructie-belasting-veroudering"
-          },
-          "datePublished": "2026-01-20T08:00:00+01:00",
-          "dateModified": "2026-01-20T08:00:00+01:00",
-          "mainEntity": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article"
-          },
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.daklekkagesopgelost.nl/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://www.daklekkagesopgelost.nl/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Doorbuiging van dakconstructies door belasting en veroudering",
-                "item": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering"
-              }
-            ]
-          },
-          "isPartOf": {
-            "@type": "Blog",
-            "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
-            "name": "Daklekkages Opgelost Blog",
-            "url": "https://www.daklekkagesopgelost.nl/blog"
-          }
-        },
-        {
+        "datePublished": "2026-01-20T08:00:00+01:00",
+        "dateModified": "2026-01-20T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article",
-          "headline": "Doorbuiging van dakconstructies door belasting en veroudering",
-          "description": "Doorbuiging van dakconstructies ontstaat door langdurige belasting, veroudering en vocht. Lees hoe je signalen herkent en constructieve schade voorkomt.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/doorbuiging-dakconstructie-belasting-veroudering"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-20T08:00:00+01:00",
-          "dateModified": "2026-01-20T08:00:00+01:00",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering"
-          },
-          "about": {
-            "@type": "Service",
-            "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-            "name": "dakrenovatie",
-            "url": "https://www.daklekkagesopgelost.nl/dakrenovatie"
-          },
-          "isPartOf": {
-            "@type": "Article",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf#pillar",
-            "headline": "Dakdetails en lekkagerisico: waarom aansluitingen vaker falen dan het dak zelf",
-            "url": "https://www.daklekkagesopgelost.nl/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf"
-          }
+          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article"
         },
-        {
-          "@type": "FAQPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Wat veroorzaakt doorbuiging van een dakconstructie?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Doorbuiging ontstaat meestal door langdurige belasting, veroudering van materialen, vochtproblemen of constructieve verzwakking. Ook eerdere lekkages kunnen bijdragen aan verminderde draagkracht."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is doorbuiging van een dak gevaarlijk?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, ernstige doorbuiging kan wijzen op structurele problemen in de dakconstructie. Wanneer dit niet tijdig wordt aangepakt, kan dit leiden tot verdere schade of zelfs instortingsgevaar."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hoe herken je beginnende constructieve schade aan een dak?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Signalen zijn onder meer zichtbare verzakkingen, scheuren in muren of plafonds, klemmende deuren of ramen en terugkerende lekkages. Een professionele inspectie geeft duidelijkheid over de oorzaak."
-              }
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#breadcrumb"
         },
-        {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#service",
-          "name": "dakrenovatie",
-          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "isReferencedBy": [
-            {
-              "@type": "WebPage",
-              "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
-              "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
-              "name": "Doorbuiging van dakconstructies door belasting en veroudering"
-            }
-          ]
-        },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#article",
+        "headline": "Doorbuiging van dakconstructies: oorzaken en risico’s",
+        "description": "Doorbuiging van dakconstructies ontstaat door belasting, vocht en veroudering. Ontdek signalen, oorzaken en wanneer ingrijpen nodig is.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-20T08:00:00+01:00",
+        "dateModified": "2026-01-20T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+          "name": "Dakrenovatie",
+          "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest#pillar",
+          "headline": "Constructieve dakproblemen: signalen, oorzaken en risico’s",
+          "url": "https://www.daklekkagesopgelost.nl/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
+        "name": "Dakrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+            "url": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+            "name": "Doorbuiging van dakconstructies: oorzaken en risico’s"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Doorbuiging van dakconstructies: oorzaken en risico’s",
+            "item": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering#breadcrumb"
+      }
+    ]
+  }
 }

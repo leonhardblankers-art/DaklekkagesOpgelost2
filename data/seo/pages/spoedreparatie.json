@@ -1,42 +1,48 @@
 {
   "title": "Spoedreparatie | Daklekkages Opgelost",
-  "description": "Actieve daklekkage? Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
+  "description": "Actieve daklekkage?Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
   "ogTitle": "Spoedreparatie | Daklekkages Opgelost",
-  "ogDescription": "Actieve daklekkage? Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
+  "ogDescription": "Actieve daklekkage?Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "WebPage",
-          "Service"
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie#service",
-        "name": "Spoedreparatie",
-        "description": "Een spoedreparatie is bedoeld om bij een actieve daklekkage direct schade te beperken. Lees wanneer snel ingrijpen nodig is en wat je kunt verwachten.",
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
+        "url": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
+        "name": "Spoedreparatie | Daklekkages Opgelost",
+        "description": "Actieve daklekkage?Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie/#service",
+        "name": "Spoedreparatie | Daklekkages Opgelost",
+        "description": "Actieve daklekkage?Direct hulp aanvragen → Bel direct Snelle beoordeling • spoedreparatie dak • helder vervolgadvies Home › Lekkages › Spoedreparatie Dire...",
+        "url": "https://www.daklekkagesopgelost.nl/spoedreparatie/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/186179082544?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1739559766149&hs_static_app=file-picker-ui&hs_static_app_version=static-1.22038"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
         },
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "datePublished": "2026-01-15T00:00:00+01:00",
-        "dateModified": "2026-01-15T00:00:00+01:00",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie"
-        },
-        "isPartOf": {
-          "@type": "WebPage",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk#pillar",
-          "name": "Daklekkage: oorzaken uit de praktijk",
-          "url": "https://www.daklekkagesopgelost.nl/blog/daklekkage-oorzaken-uit-de-praktijk"
         }
       },
       {
@@ -45,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "?",
         "logo": {
           "@type": "ImageObject",
           "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
@@ -75,6 +81,24 @@
             "name": "Noord-Brabant"
           }
         ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Spoedreparatie | Daklekkages Opgelost",
+            "item": "https://www.daklekkagesopgelost.nl/spoedreparatie/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie#breadcrumb"
       }
     ]
   }

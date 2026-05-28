@@ -2,135 +2,235 @@
   "title": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
   "description": "Dakkapel lood vervangen: heldere uitleg over slijtage, lekkage en duurzame oplossingen, gebaseerd op praktijkervaring.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
   "ogTitle": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
   "ogDescription": "Dakkapel lood vervangen: heldere uitleg over slijtage, lekkage en duurzame oplossingen, gebaseerd op praktijkervaring.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
-      "datePublished": "2026-01-04T23:40:37.000Z",
-      "dateModified": "2026-01-05T14:34:56.451Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+        "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+        "name": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
+        "description": "Dakkapel lood vervangen: heldere uitleg over slijtage, lekkage en duurzame oplossingen, gebaseerd op praktijkervaring.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntity": {
           "@type": "Article",
-          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
-          "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
-          "description": "Dakkapel lood vervangen: heldere uitleg over slijtage, lekkage en duurzame oplossingen, gebaseerd op praktijkervaring.",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://app.hubspot.com/api/filemanager/api/v3/files/thumbnail-redirect/204181547441?size=preview&portalId=49267567&errorOnPlaceholder=true&t=1767569932076&hs_static_app=file-picker-ui&hs_static_app_version=static-1.21799"
-          },
-          "author": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "@id": "https://www.daklekkagesopgelost.nl#organization"
-          },
-          "datePublished": "2026-01-05",
-          "dateModified": "2026-01-05",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
-          },
-          "hasPart": [
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
-              "headline": "Lekkage bij een dakkapel door oud lood"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/lood-repareren-of-vervangen-bij-een-dakkapel",
-              "headline": "Lood repareren of vervangen bij een dakkapel"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/kosten-en-levensduur-van-lood-bij-een-dakkapel",
-              "headline": "Kosten en levensduur van lood bij een dakkapel"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/onderhoud-en-inspectie-van-lood-bij-een-dakkapel",
-              "headline": "Onderhoud en inspectie van lood bij een dakkapel"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/lood-versus-loodvervangers-bij-een-dakkapel",
-              "headline": "Lood versus loodvervangers bij een dakkapel"
-            },
-            {
-              "@type": "Article",
-              "url": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
-              "headline": "Typische faalpunten bij lood rond dakkapellen"
-            }
-          ]
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar"
         },
-        {
-          "@type": "RoofingContractor",
-          "@id": "https://www.daklekkagesopgelost.nl#organization",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl",
-          "telephone": "+31851308251",
-          "priceRange": "€€",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "De Kosterijstraat 17",
-            "postalCode": "5314 AW",
-            "addressLocality": "Bruchem",
-            "addressCountry": "NL"
-          },
-          "areaServed": [
-            {
-              "@type": "AdministrativeArea",
-              "name": "Gelderland"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Utrecht"
-            },
-            {
-              "@type": "AdministrativeArea",
-              "name": "Noord-Brabant"
-            }
-          ]
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#pillar",
+        "headline": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
+        "description": "Dakkapel lood vervangen: heldere uitleg over slijtage, lekkage en duurzame oplossingen, gebaseerd op praktijkervaring.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-04T08:00:00+01:00",
+        "dateModified": "2026-01-05T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "hasPart": [
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/kosten-en-levensduur-van-lood-bij-een-dakkapel#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/kosten-en-levensduur-van-lood-bij-een-dakkapel",
+            "headline": "Kosten en levensduur van lood bij een dakkapel"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+            "headline": "Lekkage bij een dakkapel door oud lood"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lood-repareren-of-vervangen-bij-een-dakkapel#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lood-repareren-of-vervangen-bij-een-dakkapel",
+            "headline": "Lood repareren of vervangen bij een dakkapel"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/lood-versus-loodvervangers-bij-een-dakkapel#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/lood-versus-loodvervangers-bij-een-dakkapel",
+            "headline": "Lood versus loodvervangers bij een dakkapel"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/onderhoud-en-inspectie-van-lood-bij-een-dakkapel#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/onderhoud-en-inspectie-van-lood-bij-een-dakkapel",
+            "headline": "Onderhoud en inspectie van lood bij een dakkapel"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen#article",
+            "url": "https://www.daklekkagesopgelost.nl/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+            "headline": "Typische faalpunten bij lood rond dakkapellen"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+          "name": "Dakkapel lood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat lood bij een dakkapel gemiddeld mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bij correcte plaatsing kan lood twintig tot dertig jaar meegaan. De daadwerkelijke levensduur hangt af van belasting door weer, dakvorm en montagekwaliteit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lekkage altijd direct zichtbaar bij slecht lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Water kan langere tijd via constructiedelen wegstromen voordat er binnenshuis schade zichtbaar wordt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik lood zelf vervangen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Het technisch uitvoeren lijkt soms eenvoudig, maar fouten in aansluiting of bevestiging leiden vaak tot nieuwe lekkages. Ervaring is hierbij bepalend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn loodvervangers altijd beter dan traditioneel lood ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd. In sommige situaties werken alternatieven goed, in andere gevallen biedt traditioneel lood meer zekerheid."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/#service",
+        "name": "Dakkapel lood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+            "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+            "name": "Dakkapel lood vervangen: uitleg vanuit de praktijk"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#faq"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakkapel lood vervangen: uitleg vanuit de praktijk",
+            "item": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk#breadcrumb"
+      }
+    ]
+  }
 }

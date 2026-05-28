@@ -1,96 +1,200 @@
 {
   "title": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
-  "description": "Hoe lang gaat schoorsteenlood mee? Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
+  "description": "Hoe lang gaat schoorsteenlood mee?Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
   "robots": "index, follow",
-  "canonical": "http://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+  "canonical": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
   "ogTitle": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
-  "ogDescription": "Hoe lang gaat schoorsteenlood mee? Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
+  "ogDescription": "Hoe lang gaat schoorsteenlood mee?Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
   "ogType": "article",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten.webp",
-  "schema": [
-    {
-      "mainEntityOfPage": {
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
         "@type": "WebPage",
-        "@id": "http://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten"
-      },
-      "author": {
-        "name": "Leonhard Blankers",
-        "url": "http://www.daklekkagesopgelost.nl/blog/author/leonhard-blankers",
-        "@type": "Person"
-      },
-      "headline": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
-      "datePublished": "2026-01-01T23:13:27.000Z",
-      "dateModified": "2026-01-01T23:16:15.768Z",
-      "publisher": {
-        "logo": {
-          "url": "https://www.daklekkagesopgelost.nl/hubfs/Logo%20def%20compleet.pdf%20(1)-4.png",
-          "@type": "ImageObject"
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+        "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+        "name": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
+        "description": "Hoe lang gaat schoorsteenlood mee?Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten.webp"
         },
-        "@type": "Organization"
-      },
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "image": [
-        "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten.webp"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
-      "description": "Inzicht in de levensduur van schoorsteenlood en welke factoren bepalen wanneer vervanging nodig wordt.",
-      "author": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Daklekkages Opgelost"
-      },
-      "datePublished": "2026-01-01",
-      "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-schoorsteenlood",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-schoorsteenlood"
-      },
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://www.daklekkagesopgelost.nl/blog/wanneer-moet-je-schoorsteenlood-vervangen"
-      },
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Hoe lang gaat schoorsteenlood gemiddeld mee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bij correcte aanleg en normale belasting kan schoorsteenlood vaak meerdere decennia meegaan."
-          }
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#article"
         },
-        {
-          "@type": "Question",
-          "name": "Waardoor slijt schoorsteenlood sneller?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Temperatuurschommelingen, windbelasting en onjuiste detaillering versnellen de slijtage van lood."
-          }
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#breadcrumb"
         },
-        {
-          "@type": "Question",
-          "name": "Zegt de leeftijd van het lood alles over de staat?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Nee, de fysieke staat van het lood is belangrijker dan de leeftijd alleen."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hebben loodvervangers een langere levensduur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Niet per definitie; de levensduur van alternatieven hangt sterk af van materiaal, montage en toepassing."
-          }
+        "isPartOf": {
+          "@type": "Blog",
+          "@id": "https://www.daklekkagesopgelost.nl/blog#blog",
+          "name": "Daklekkages Opgelost Blog",
+          "url": "https://www.daklekkagesopgelost.nl/blog"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#article",
+        "headline": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
+        "description": "Hoe lang gaat schoorsteenlood mee?Lees welke factoren de levensduur bepalen en wanneer vervanging logisch wordt.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten.webp"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "datePublished": "2026-01-01T08:00:00+01:00",
+        "dateModified": "2026-01-01T08:00:00+01:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "isPartOf": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen#pillar",
+          "headline": "Schoorsteenlood vervangen: wanneer en waarom",
+          "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lood-vervangen"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+          "name": "Schoorsteenlood vervangen",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat schoorsteenlood gemiddeld mee ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dat varieert sterk, maar bij correcte aanleg kan lood vaak meerdere decennia functioneren."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan goed onderhoud de levensduur verlengen ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Onderhoud voorkomt vooral gevolgschade, maar vertraagt slijtage slechts beperkt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Slijt schoorsteenlood sneller dan ander loodwerk ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, door de blootstelling aan weer en wind is de belasting vaak groter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn alternatieven altijd korter houdbaar ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet altijd, maar de levensduur is sterk afhankelijk van materiaal en toepassing."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
+        "name": "Schoorsteenlood vervangen",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+            "url": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+            "name": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?"
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.daklekkagesopgelost.nl/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Levensduur van schoorsteenlood: wat kun je realistisch verwachten?",
+            "item": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten#breadcrumb"
+      }
+    ]
+  }
 }

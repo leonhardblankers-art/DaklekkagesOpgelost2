@@ -11,17 +11,190 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
         "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
         "name": "Diensten schuin dak",
         "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/"
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
+        },
+        "datePublished": "2026-05-28T08:00:00+01:00",
+        "dateModified": "2026-05-28T08:00:00+01:00",
+        "mainEntity": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak#breadcrumb"
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#service",
+        "name": "Diensten schuin dak",
+        "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
+        "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Diensten schuin dak ?Dienstenoverzicht",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dakrenovatie/#service",
+                "name": "Dakrenovatie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dakrenovatie/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/nokrenovatie/#service",
+                "name": "Nokrenovatie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/nokrenovatie/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dak-isoleren/#service",
+                "name": "Dak isoleren",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dak-isoleren/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dak-reinigen/#service",
+                "name": "Dak reinigen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dak-reinigen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/dakgoot-vervangen/#service",
+                "name": "Dakgoot vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/dakgoot-vervangen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "@id": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/#service",
+                "name": "Gratis dakinspectie",
+                "url": "https://www.daklekkagesopgelost.nl/diensten/gratis-dakinspectie/"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#faq",
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#service",
+          "name": "Diensten schuin dak",
+          "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wanneer is repareren genoeg ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Als het probleem lokaal is en de rest van de dakopbouw gezond is. Bij meerdere signalen tegelijk is inspectie verstandiger."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Moet een schuin dak altijd volledig gerenoveerd worden ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. Soms is nokrenovatie, pannen vervangen of plaatselijk herstel voldoende. De staat van onderdak en latten bepaalt veel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan isolatie tegelijk met renovatie ▾",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, vaak is dat juist slim. Dan kan de opbouw in een keer goed worden gecontroleerd en verbeterd."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "?",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Diensten schuin dak",
+            "item": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/"
+          }
+        ],
+        "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak#breadcrumb"
       }
     ]
   }
