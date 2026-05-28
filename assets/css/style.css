@@ -126,6 +126,12 @@ header nav a { font-weight: 700; }
 .service-card.urgent span { color: #fff; }
 .service-card:not(.urgent):hover { background: #f8fbf8; }
 .service-card.urgent:hover { filter: brightness(.96); }
+.services-intro { grid-template-columns: minmax(0,1fr) minmax(650px,.98fr); gap: 32px; align-items: stretch; }
+.services-intro .service-panel { max-width: 700px; padding: 22px 24px; }
+.services-intro .service-grid { gap: 14px 16px; }
+.services-intro .service-card { min-height: 134px; padding: 16px 18px; gap: 8px; }
+.services-intro .service-card strong { font-size: 17px; line-height: 1.32; }
+.services-intro .service-card span { font-size: 15px; line-height: 1.42; }
 
 .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; }
 .step { background: #fff; border: 1px solid #e6e8e6; border-radius: 22px; padding: 22px; box-shadow: var(--shadow2); position: relative; }
@@ -161,6 +167,8 @@ summary { cursor: pointer; font-weight: 800; }
 .ic { width: 54px; height: 54px; border-radius: 18px; display: grid; place-items: center; background: #f5f6f5; border: 1px solid #e2e4e2; color: var(--brand); font-size: 26px; flex: 0 0 54px; }
 .pillar h5 { margin: 0 0 10px; font-size: 20px; }
 .pillar p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 17px; }
+.difference-content { order: 1; }
+.difference-media { order: 2; }
 
 .cta-strip { display: flex; justify-content: space-between; gap: 16px; align-items: center; flex-wrap: wrap; padding: 16px 18px; border-radius: 28px; background: rgba(29,151,83,.08); border: 1px solid rgba(29,151,83,.20); margin: 22px 0 16px; }
 .cta-strip p { margin: 0; font-size: 17px; color: var(--muted); }
@@ -220,6 +228,9 @@ main {
   .hero { min-height: auto; }
   .hero .wrap { padding-top: 34px; padding-bottom: 36px; }
   .hero-grid, .steps, .blog-grid, .counters, .service-grid, .flow { grid-template-columns: 1fr; }
+  .services-intro { grid-template-columns: 1fr; }
+  .services-intro .service-panel { max-width: none; justify-self: stretch; }
+  .difference-content, .difference-media { order: initial; }
   .speech { justify-self: start; max-width: none; font-size: 18px; padding: 22px; margin-top: 12px; }
   .hero-title { font-size: 42px; white-space: normal; }
   .review-pill, .service-pill { font-size: 15px; }
