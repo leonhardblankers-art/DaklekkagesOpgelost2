@@ -1,12 +1,12 @@
 {
-  "title": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
-  "description": "Schoorsteenrenovatie nodig?Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
+  "title": "Schoorsteenrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "description": "Schoorsteenrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
-  "ogTitle": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
-  "ogDescription": "Schoorsteenrenovatie nodig?Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
+  "ogTitle": "Schoorsteenrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "ogDescription": "Schoorsteenrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
-        "name": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
-        "description": "Schoorsteenrenovatie nodig?Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
+        "name": "Schoorsteenrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+        "description": "Schoorsteenrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp"
@@ -33,8 +33,8 @@
       {
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
-        "name": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
-        "description": "Schoorsteenrenovatie nodig?Wij herstellen loodwerk, voegwerk en bovenplaat om lekkages te voorkomen. Vraag een gratis dakinspectie aan.",
+        "name": "Schoorsteenrenovatie",
+        "description": "Schoorsteenrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
         "image": {
           "@type": "ImageObject",
@@ -43,39 +43,6 @@
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant ?Dienstenoverzicht",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen#service",
-                "name": "Diensten schoorsteen",
-                "url": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage#service",
-                "name": "Schoorsteenlekkage oplossen",
-                "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen#service",
-                "name": "Schoorsteenlood vervangen",
-                "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen"
-              }
-            }
-          ]
         }
       },
       {
@@ -84,14 +51,14 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "?",
+        "priceRange": "€€",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -117,6 +84,7 @@
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -127,11 +95,16 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Schoorsteenrenovatie l Schoorsteenspecialist van Gelderland & Brabant",
+            "name": "Diensten",
+            "item": "https://www.daklekkagesopgelost.nl/diensten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteenrenovatie",
             "item": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie#breadcrumb"
+        ]
       }
     ]
   }

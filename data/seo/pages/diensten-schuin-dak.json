@@ -106,42 +106,6 @@
         }
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#faq",
-        "about": {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/#service",
-          "name": "Diensten schuin dak",
-          "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/"
-        },
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Wanneer is repareren genoeg ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Als het probleem lokaal is en de rest van de dakopbouw gezond is. Bij meerdere signalen tegelijk is inspectie verstandiger."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Moet een schuin dak altijd volledig gerenoveerd worden ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nee. Soms is nokrenovatie, pannen vervangen of plaatselijk herstel voldoende. De staat van onderdak en latten bepaalt veel."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Kan isolatie tegelijk met renovatie ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, vaak is dat juist slim. Dan kan de opbouw in een keer goed worden gecontroleerd en verbeterd."
-            }
-          }
-        ]
-      },
-      {
         "@type": "RoofingContractor",
         "@id": "https://www.daklekkagesopgelost.nl#organization",
         "name": "Daklekkages Opgelost",

@@ -106,42 +106,6 @@
         }
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#faq",
-        "about": {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/#service",
-          "name": "Diensten dakkapel",
-          "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/"
-        },
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Wanneer is dakkapelrenovatie beter dan lood vervangen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Als er naast lekkage ook houtrot, slechte bekleding, tocht of verouderde kozijnen spelen. Dan lost alleen lood vervangen niet alles op."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Waarom lekt een dakkapel vaak bij aansluitingen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Omdat daar dakvlak, wand, kozijn en lood samenkomen. Kleine fouten of slijtage zorgen snel voor waterinloop."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Kan de dakkapel blijven zitten tijdens herstel ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Meestal wel. Alleen bij zware schade of constructieve problemen is een grotere aanpak nodig."
-            }
-          }
-        ]
-      },
-      {
         "@type": "RoofingContractor",
         "@id": "https://www.daklekkagesopgelost.nl#organization",
         "name": "Daklekkages Opgelost",

@@ -106,42 +106,6 @@
         }
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen/#faq",
-        "about": {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen/#service",
-          "name": "Diensten schoorsteen",
-          "url": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen/"
-        },
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Wanneer kies ik renovatie in plaats van alleen lood vervangen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Als niet alleen de aansluiting lekt, maar ook stenen, voegen of de opbouw verouderd zijn. Dan lost alleen nieuw lood het probleem vaak niet duurzaam op."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is een lekkende schoorsteen altijd spoed ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Niet altijd, maar vocht kan snel in metselwerk en hout trekken. Bij actief water of natte isolatie is snel handelen verstandig."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Kan een schoorsteen ook beter verwijderd worden ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Als de schoorsteen geen functie meer heeft en steeds problemen geeft, kan verwijderen technisch en financieel logischer zijn."
-            }
-          }
-        ]
-      },
-      {
         "@type": "RoofingContractor",
         "@id": "https://www.daklekkagesopgelost.nl#organization",
         "name": "Daklekkages Opgelost",

@@ -1,12 +1,12 @@
 {
-  "title": "Schoorsteenlood vervangen",
-  "description": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+  "title": "Schoorsteenlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "description": "Schoorsteenlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
-  "ogTitle": "Schoorsteenlood vervangen",
-  "ogDescription": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+  "ogTitle": "Schoorsteenlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "ogDescription": "Schoorsteenlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-01-schoorsteen-lood-oud-diensten-schoorsteenlood-vervangen.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
-        "name": "Schoorsteenlood vervangen",
-        "description": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+        "name": "Schoorsteenlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+        "description": "Schoorsteenlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlood-vervangen/schoorsteenlood-vervangen-visual-01-schoorsteen-lood-oud-diensten-schoorsteenlood-vervangen.webp"
@@ -34,7 +34,7 @@
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/#service",
         "name": "Schoorsteenlood vervangen",
-        "description": "Schoorsteenlood een belangrijke aansluiting die voor een vervelende lekkage kan zorgen. Belangrijk om op tijd te vervangen. Is uw lood aan vervanging toe?",
+        "description": "Schoorsteenlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/",
         "image": {
           "@type": "ImageObject",
@@ -43,39 +43,6 @@
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Schoorsteenlood vervangen ?Dienstenoverzicht",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen#service",
-                "name": "Diensten schoorsteen",
-                "url": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage#service",
-                "name": "Schoorsteenlekkage oplossen",
-                "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie#service",
-                "name": "Schoorsteenrenovatie",
-                "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie"
-              }
-            }
-          ]
         }
       },
       {
@@ -84,14 +51,14 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "?",
+        "priceRange": "€€",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -117,6 +84,7 @@
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -127,11 +95,16 @@
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Diensten",
+            "item": "https://www.daklekkagesopgelost.nl/diensten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
             "name": "Schoorsteenlood vervangen",
             "item": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen#breadcrumb"
+        ]
       }
     ]
   }

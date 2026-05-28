@@ -106,42 +106,6 @@
         }
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen/#faq",
-        "about": {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen/#service",
-          "name": "Diensten loodafwerkingen",
-          "url": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen/"
-        },
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Kan lood worden gerepareerd in plaats van vervangen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Soms tijdelijk, maar gescheurd of verkeerd aangebracht lood komt vaak terug. Vervangen is meestal duurzamer."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Waarom is loodwerk zo vaak oorzaak van lekkage ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Omdat lood precies op kwetsbare overgangen ligt. Beweging, wind, veroudering en verkeerde overlap zorgen snel voor waterinloop."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Welk looddetail moet ik kiezen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kies op basis van de plek: schoorsteen, dakkapel, dakraam, kozijn of trapsgewijze aansluiting. Bij twijfel is opsporen veiliger."
-            }
-          }
-        ]
-      },
-      {
         "@type": "RoofingContractor",
         "@id": "https://www.daklekkagesopgelost.nl#organization",
         "name": "Daklekkages Opgelost",

@@ -106,66 +106,6 @@
         }
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://www.daklekkagesopgelost.nl/lekkages/#faq",
-        "about": {
-          "@type": "Service",
-          "@id": "https://www.daklekkagesopgelost.nl/lekkages/#service",
-          "name": "Lekkages | Daklekkages Opgelost",
-          "url": "https://www.daklekkagesopgelost.nl/lekkages/"
-        },
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Wat is de snelste manier om schade te beperken ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Maak foto’s, vang water op en voorkom dat vocht zich verspreidt. Bij twijfel: kies voor noodreparatie of bel ons direct — snel ingrijpen voorkomt extra kosten."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Doen jullie alleen lekkages of ook ander dakwerk ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We zijn gespecialiseerd in lekkages en loodwerk, maar voeren ook allround dakdekkerswerk uit zoals pannen vervangen, isoleren, renovaties en schoorsteenreparaties."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wanneer kies ik voor lekkage opsporen ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Als u wel klachten ziet (vochtplek/geur) maar de bron niet zeker weet, of als de lekkage terugkomt. Opsporen voorkomt onnodige (en dure) “gokreparaties”."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Moet ik altijd meteen repareren ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nee. Soms is monitoren of klein onderhoud genoeg. Met een inspectie krijgt u een technische inschatting: wat is veilig om te volgen en wat kan beter direct worden opgelost."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wat kost lekkage opsporen of een inspectie ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "De dakinspectie is gratis en vrijblijvend. Opsporen is bedoeld als u zekerheid wilt over de bron. Na contact stemmen we af wat in uw situatie logisch is en wat het kost, voordat we iets uitvoeren."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Kan het ook condensatie zijn in plaats van lekkage ▾",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, soms. Condensatie ontstaat vaak bij onvoldoende ventilatie of koudebruggen. Het verschil zit vaak in patroon en timing (bijv. vooral in koude perioden). We helpen u het onderscheid te maken zodat u niet de verkeerde oplossing kiest."
-            }
-          }
-        ]
-      },
-      {
         "@type": "RoofingContractor",
         "@id": "https://www.daklekkagesopgelost.nl#organization",
         "name": "Daklekkages Opgelost",

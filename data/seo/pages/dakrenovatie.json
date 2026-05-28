@@ -1,12 +1,12 @@
 {
-  "title": "Dakrenovatie",
-  "description": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+  "title": "Dakrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "description": "Dakrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
-  "ogTitle": "Dakrenovatie",
-  "ogDescription": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+  "ogTitle": "Dakrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "ogDescription": "Dakrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
         "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
-        "name": "Dakrenovatie",
-        "description": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+        "name": "Dakrenovatie: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+        "description": "Dakrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp"
@@ -34,7 +34,7 @@
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie/#service",
         "name": "Dakrenovatie",
-        "description": "Uw dak beschermd al uw bezittingen, maar ook uw dak is eens aan vervanging toe. Een dakrenovatie, u leest hier alles wat u moet weten!",
+        "description": "Dakrenovatie nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "url": "https://www.daklekkagesopgelost.nl/dakrenovatie/",
         "image": {
           "@type": "ImageObject",
@@ -43,48 +43,6 @@
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Dakrenovatie ?Dienstenoverzicht",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-                "name": "Dakinspectie",
-                "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen#service",
-                "name": "Lekkage opsporen",
-                "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/spoedreparatie#service",
-                "name": "Spoedreparatie",
-                "url": "https://www.daklekkagesopgelost.nl/spoedreparatie"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/contact#service",
-                "name": "Contact",
-                "url": "https://www.daklekkagesopgelost.nl/contact"
-              }
-            }
-          ]
         }
       },
       {
@@ -93,14 +51,14 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "?",
+        "priceRange": "€€",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -126,6 +84,7 @@
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -136,11 +95,16 @@
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Diensten",
+            "item": "https://www.daklekkagesopgelost.nl/diensten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
             "name": "Dakrenovatie",
             "item": "https://www.daklekkagesopgelost.nl/dakrenovatie/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/dakrenovatie#breadcrumb"
+        ]
       }
     ]
   }

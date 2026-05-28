@@ -1,12 +1,12 @@
 {
-  "title": "Dakraamlood vervangen",
-  "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+  "title": "Dakraamlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "description": "Dakraamlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
-  "ogTitle": "Dakraamlood vervangen",
-  "ogDescription": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+  "ogTitle": "Dakraamlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+  "ogDescription": "Dakraamlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,8 +14,8 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
         "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
-        "name": "Dakraamlood vervangen",
-        "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+        "name": "Dakraamlood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
+        "description": "Dakraamlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakraamlood-vervangen/dakraamlood-vervangen-visual-01-dakraamlood-vervangen-diensten-dakraamlood-vervangen.webp"
@@ -34,7 +34,7 @@
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/#service",
         "name": "Dakraamlood vervangen",
-        "description": "Dakraamlood zorgt voor een waterdichte aansluiting tussen uw dakraam en het dak. Slecht loodwerk zorgt voor lekkage, is uw dakraamlood nog in goede staat?",
+        "description": "Dakraamlood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "url": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/",
         "image": {
           "@type": "ImageObject",
@@ -43,48 +43,6 @@
         "provider": {
           "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Dakraamlood vervangen ?Dienstenoverzicht",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen#service",
-                "name": "Diensten loodafwerkingen",
-                "url": "https://www.daklekkagesopgelost.nl/diensten-loodafwerkingen"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/daklood-vervangen#service",
-                "name": "Daklood vervangen",
-                "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage#service",
-                "name": "Daklood loodslabben lekkage",
-                "url": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "@id": "https://www.daklekkagesopgelost.nl/dakinspectie#service",
-                "name": "Dakinspectie",
-                "url": "https://www.daklekkagesopgelost.nl/dakinspectie"
-              }
-            }
-          ]
         }
       },
       {
@@ -93,14 +51,14 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "?",
+        "priceRange": "€€",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -126,6 +84,7 @@
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -136,11 +95,16 @@
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Diensten",
+            "item": "https://www.daklekkagesopgelost.nl/diensten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
             "name": "Dakraamlood vervangen",
             "item": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/dakraamlood-vervangen#breadcrumb"
+        ]
       }
     ]
   }
