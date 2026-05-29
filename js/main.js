@@ -182,7 +182,7 @@
             '<label>Plaats<input name="plaats" autocomplete="address-level2"></label>' +
             '<label class="premium-form__full">Omschrijving<textarea name="omschrijving" required placeholder="Bijvoorbeeld: waar ziet u vocht, wanneer treedt het op, welk dakdeel lijkt betrokken?"></textarea></label>' +
           '</div>' +
-          '<p class="premium-form__hint">Dit formulier draait in eigen beheer. Als de mailroute op de hosting nog niet actief is, opent automatisch een ingevulde e-mail als fallback.</p>' +
+          '<p class="premium-form__hint">Uw aanvraag wordt veilig naar Daklekkages Opgelost verstuurd. We gebruiken uw gegevens alleen om contact op te nemen over uw dakvraag.</p>' +
           '<p class="premium-form__status" data-form-status>Uw aanvraag wordt verstuurd...</p>' +
           '<div class="premium-actions">' +
             '<button class="premium-btn premium-btn--primary" type="submit">Formulier versturen</button>' +
