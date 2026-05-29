@@ -1,11 +1,8 @@
 // Page scripts extracted from TE VERWERKEN/gratisdakinspectie.html
 
-// CTA's openen in nieuw tabblad (geen overlay)
+// Formulierlinks naar het eigen contactformulier
 (function(){
-  var url = 'https://form.typeform.com/to/rQsxIgyZ';
-  document.querySelectorAll('.tf-popup').forEach(function(el){
-    el.setAttribute('href', url);
-    el.setAttribute('target', '_blank');
-    el.setAttribute('rel', 'noopener');
+  document.querySelectorAll('[data-contact-form-link]').forEach(function(el){
+    el.setAttribute('href', '/contact#formulier');
   });
 })();

@@ -88,8 +88,6 @@ header nav a { font-weight: 700; }
 .service-pill { padding: 10px 15px; border-radius: 999px; background: #fff; color: #242424; box-shadow: var(--shadow2); font-size: 15px; white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; border: 1px solid transparent; }
 .service-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }
 
-.typeform-tab { position: fixed; right: 0; top: 190px; z-index: 998; background: var(--brand); color: #fff; padding: 18px 12px; border-radius: 18px 0 0 18px; writing-mode: vertical-rl; transform: rotate(180deg); font-weight: 800; font-size: 16px; box-shadow: var(--shadow2); }
-
 /* =============================================
    STICKY CTA
 ============================================= */
@@ -252,6 +250,183 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
 .faqBody p,
 .faq details > p { margin: 0; color: var(--muted); line-height: 1.75; }
 
+.contact-modal-open { overflow: hidden; }
+.contact-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .18s ease, visibility .18s ease;
+}
+.contact-modal.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.contact-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(11,13,16,.58);
+  backdrop-filter: blur(8px);
+}
+.contact-modal__dialog {
+  position: relative;
+  width: min(760px, 100%);
+  max-height: min(86vh, 860px);
+  overflow: auto;
+  border-radius: 26px;
+  background: linear-gradient(180deg,#fff,#fbfcfb);
+  border: 1px solid rgba(255,255,255,.65);
+  box-shadow: 0 30px 90px rgba(0,0,0,.28);
+  padding: 26px;
+  transform: translateY(12px) scale(.98);
+  transition: transform .18s ease;
+}
+.contact-modal.is-open .contact-modal__dialog { transform: translateY(0) scale(1); }
+.contact-modal__dialog h2 {
+  margin: 0 48px 10px 0;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+.contact-modal__dialog p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.contact-modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(15,17,21,.10);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 10px 22px rgba(15,17,21,.08);
+}
+.contact-modal .premium-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(29,151,83,.10);
+  color: var(--brand2);
+  font-size: 13px;
+  font-weight: 900;
+}
+.contact-modal .premium-kicker span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--brand);
+  box-shadow: 0 0 0 6px rgba(29,151,83,.18);
+}
+.contact-modal .premium-form { display: grid; gap: 16px; }
+.contact-modal .premium-form__grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.contact-modal .premium-form__grid {
+  display: grid;
+  gap: 14px;
+}
+.contact-modal .premium-form label {
+  display: grid;
+  gap: 7px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 900;
+}
+.contact-modal .premium-form input,
+.contact-modal .premium-form select,
+.contact-modal .premium-form textarea {
+  width: 100%;
+  border: 1px solid rgba(15,17,21,.12);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.45;
+  padding: 13px 14px;
+  outline: none;
+  transition: border-color .16s ease, box-shadow .16s ease;
+}
+.contact-modal .premium-form textarea {
+  min-height: 122px;
+  resize: vertical;
+}
+.contact-modal .premium-form input:focus,
+.contact-modal .premium-form select:focus,
+.contact-modal .premium-form textarea:focus {
+  border-color: rgba(29,151,83,.65);
+  box-shadow: 0 0 0 4px rgba(29,151,83,.12);
+}
+.contact-modal .premium-form__full { grid-column: 1/-1; }
+.contact-modal .premium-form__hint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.contact-modal .premium-form__status {
+  display: none;
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(29,151,83,.10);
+  color: var(--brand2);
+  font-weight: 800;
+  line-height: 1.5;
+}
+.contact-modal .premium-form__status.is-visible { display: block; }
+.contact-modal .premium-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 0;
+}
+.contact-modal .premium-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+}
+.contact-modal .premium-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(15,17,21,.10);
+}
+.contact-modal .premium-btn--primary {
+  background: var(--brand);
+  border-color: rgba(29,151,83,.25);
+  color: #fff;
+}
+.contact-modal .premium-btn--ghost {
+  background: #fff;
+  color: var(--ink);
+}
+@media(max-width:720px){
+  .contact-modal { padding: 12px; align-items: end; }
+  .contact-modal__dialog { max-height: 92vh; padding: 20px; border-radius: 22px 22px 0 0; }
+  .contact-modal .premium-form__grid { grid-template-columns: 1fr; }
+}
+
 .counters { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 22px; }
 .counter { background: #fff; border: 1px solid #eceeed; border-radius: 14px; padding: 28px 18px; box-shadow: 0 8px 24px rgba(0,0,0,.04); }
 .counter .n { font-size: 56px; font-weight: 700; line-height: 1; margin-bottom: 18px; color: #1b1d32; }
@@ -274,7 +449,6 @@ main {
   .hero-cta { flex-wrap: wrap; margin-top: 40px; }
   .hero-cta-col { min-width: 0; }
   .hero-title { white-space: normal; }
-  .typeform-tab { display: none !important; }
   .sticky-cta { display: none !important; }
 }
 
