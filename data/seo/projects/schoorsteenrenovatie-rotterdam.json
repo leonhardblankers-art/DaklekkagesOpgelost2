@@ -1,0 +1,21 @@
+{
+  "title": "Schoorsteenrenovatie Rotterdam | Daklekkages Opgelost",
+  "description": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
+  "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+  "ogTitle": "Schoorsteenrenovatie Rotterdam",
+  "ogDescription": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
+  "ogType": "article",
+  "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Schoorsteenrenovatie Rotterdam",
+    "description": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
+    "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+    "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Daklekkages Opgelost"
+    }
+  }
+}

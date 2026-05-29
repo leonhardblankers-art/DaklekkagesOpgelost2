@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="../../../assets/css/header.css">
   <link rel="stylesheet" href="../../../assets/css/footer.css">
   <link rel="stylesheet" href="../../../assets/css/pages/live-premium.css">
+  <link rel="stylesheet" href="../../../assets/css/pages/projects-map.css">
 </head>
 <body>
   <div data-include="../../../partials/header.html"></div>
@@ -28,10 +29,10 @@
       <div class="premium-container premium-hero__grid">
         <div class="premium-hero__content">
           <nav class="premium-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/diensten">Informatie</a><span>&rsaquo;</span><strong>Uitgevoerde projecten</strong></nav>
-          <div class="premium-kicker"><span></span>Informatie</div>
+          <div class="premium-kicker"><span></span>Projecten & locaties</div>
           <h1>Uitgevoerde projecten</h1>
-          <p class="premium-lead">Met trots presenteren wij u een greep uit de door ons uitgevoerde projecten. Krijg een indruk door te bekijken wat wij reeds hebben betekend voor klanten die u...</p>
-          <ul class="premium-checks"><li><span>&#10003;</span>Contact opnemen is altijd kosteloos en vrijblijvend. U ontvangt binnen 24 uur een reactie, onze experts staan voor u klaar!</li><li><span>&#10003;</span>Heldere inspectie en duidelijke uitleg vooraf</li><li><span>&#10003;</span>Snelle opvolging bij lekkage of twijfel</li></ul>
+          <p class="premium-lead">Bekijk voorbeelden van schoorsteenrenovaties, loodwerk en dakdetails die wij in verschillende plaatsen hebben beoordeeld of uitgevoerd. De kaart helpt u snel een vergelijkbare situatie in uw regio te vinden.</p>
+          <ul class="premium-checks"><li><span>&#10003;</span>Locatievoorbeelden uit de praktijk</li><li><span>&#10003;</span>Herkenbare situaties rond schoorstenen, lood en lekkagerisico</li><li><span>&#10003;</span>Direct doorklikken naar het project of inspectie aanvragen</li></ul>
           <div class="premium-actions">
             <a class="premium-btn premium-btn--primary" href="/contact#formulier">Gratis inspectie aanvragen</a>
             <a class="premium-btn premium-btn--ghost" href="tel:0851308251">Bel direct</a>
@@ -42,18 +43,25 @@
       </div>
     </section>
 
-    <section class="premium-section" id="section-1">
+    <section class="premium-section projects-map-section" id="projectkaart">
       <div class="premium-container">
-        <div class="premium-kicker"><span></span>Informatie</div>
-        <h2>Wat u moet weten</h2>
-        <div class="premium-copy"><p>Vanaf maart 2025 verwerken wij onze uitgevoerde projecten op deze pagina om u een inkijkje te geven in onze werkzaamheden en het resultaat. We doen ons uiterste best om de informatie hier zo volledig mogelijk weer te geven. Om de kaart vast een basis te geven. Zullen we een aantal projecten uit de afgelopen maanden als eerst pubbliceren op deze pagina.</p></div>
+        <div class="premium-kicker"><span></span>Projectkaart</div>
+        <h2>Bekijk projecten per locatie</h2>
+        <p class="premium-lead">Klik op een pinnetje om het project te bekijken. Elk voorbeeld laat zien welke aandachtspunten in die plaats vaak meespelen, zoals ouder metselwerk, verweerd lood, windbelasting of eerdere reparaties.</p>
+        <div class="projects-map-panel" data-projects-map>
+          <div class="projects-map" aria-label="Projectkaart met locaties">
+            <div data-projects-pin-layer></div>
+          </div>
+          <article class="projects-card" data-project-card aria-live="polite"></article>
+          <div class="projects-list" data-projects-list></div>
+        </div>
       </div>
     </section>
     <section class="premium-section premium-section--soft" id="section-2">
       <div class="premium-container">
-        <div class="premium-kicker"><span></span>Informatie</div>
-        <h2>Dakdekker of vrijblijvend advies nodig?</h2>
-        <div class="premium-copy"><p>Contact opnemen is altijd kosteloos en vrijblijvend. U ontvangt binnen 24 uur een reactie, onze experts staan voor u klaar!</p></div>
+        <div class="premium-kicker"><span></span>Waarom deze projecten?</div>
+        <h2>Praktijkvoorbeelden maken dakproblemen herkenbaar</h2>
+        <div class="premium-copy"><p>Een schoorsteenlekkage of renovatievraag lijkt vaak lokaal, maar de oorzaak hangt meestal samen met ouder metselwerk, de staat van het lood, eerdere noodreparaties en de ligging van de woning. Door projecten per locatie te tonen, ziet u sneller welke situatie op uw eigen dak lijkt en wanneer een inspectie verstandig is.</p></div>
       </div>
     </section>
 
@@ -85,6 +93,7 @@
   <div data-include="../../../partials/footer.html"></div>
   <script src="../../../js/include.js"></script>
   <script src="../../../js/main.js"></script>
+  <script src="../../../js/pages/projects-map.js"></script>
   <script src="../../../js/seo.js"></script>
   <script>loadSEO('../../../data/seo/pages/uitgevoerde-projecten.json');</script>
 </body>
