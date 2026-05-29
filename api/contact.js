@@ -80,5 +80,74 @@ export default async function handler(request, response) {
     return response.status(502).json({ error: 'Mail service failed' });
   }
 
+  const confirmationSubject = 'We hebben uw aanvraag ontvangen';
+  const confirmationText = [
+    `Beste ${naam},`,
+    '',
+    'Bedankt voor uw aanvraag via Daklekkages Opgelost. We hebben uw bericht goed ontvangen.',
+    '',
+    'Samenvatting van uw aanvraag:',
+    `Onderwerp: ${aanvraag || '-'}`,
+    `Urgentie: ${urgentie || '-'}`,
+    `Plaats: ${plaats || '-'}`,
+    '',
+    'Een medewerker bekijkt uw situatie en neemt zo snel mogelijk contact met u op. Bij spoed kunt u ons direct bellen via 085 130 82 51.',
+    'Voor vragen zijn we ook bereikbaar via WhatsApp: 06 232 939 35.',
+    '',
+    'Met vriendelijke groet,',
+    'Daklekkages Opgelost'
+  ].join('\n');
+  const confirmationHtml = `
+    <div style="margin:0;padding:0;background:#f4f8f6;font-family:Arial,sans-serif;color:#0b0d10">
+      <div style="max-width:640px;margin:0 auto;padding:28px 16px">
+        <div style="overflow:hidden;border-radius:22px;background:#ffffff;border:1px solid #dce8e2;box-shadow:0 18px 45px rgba(15,17,21,.08)">
+          <div style="padding:22px 24px;background:#1D9753;color:#ffffff">
+            <div style="font-size:13px;font-weight:700;letter-spacing:.2px;opacity:.92">Daklekkages Opgelost</div>
+            <h1 style="margin:8px 0 0;font-size:26px;line-height:1.18">We hebben uw aanvraag ontvangen</h1>
+          </div>
+          <div style="padding:24px">
+            <p style="margin:0 0 14px;font-size:16px;line-height:1.7">Beste ${escapeHtml(naam)},</p>
+            <p style="margin:0 0 18px;font-size:16px;line-height:1.7">Bedankt voor uw aanvraag. We hebben uw bericht goed ontvangen en bekijken welke vervolgstap logisch is voor uw dak.</p>
+
+            <div style="margin:20px 0;padding:18px;border-radius:16px;background:#f3faf6;border:1px solid #cbeedd">
+              <div style="display:inline-block;margin-bottom:10px;padding:6px 10px;border-radius:999px;background:#e3f5eb;color:#167a44;font-size:12px;font-weight:800">Samenvatting</div>
+              <table cellpadding="7" cellspacing="0" style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:15px;line-height:1.5">
+                <tr><td style="width:120px;color:#516071"><strong>Onderwerp</strong></td><td>${escapeHtml(aanvraag || '-')}</td></tr>
+                <tr><td style="color:#516071"><strong>Urgentie</strong></td><td>${escapeHtml(urgentie || '-')}</td></tr>
+                <tr><td style="color:#516071"><strong>Plaats</strong></td><td>${escapeHtml(plaats || '-')}</td></tr>
+              </table>
+            </div>
+
+            <p style="margin:0 0 18px;font-size:16px;line-height:1.7">Een medewerker neemt zo snel mogelijk contact met u op. Bij spoed kunt u ons direct bellen.</p>
+
+            <div style="display:block;margin:22px 0">
+              <a href="tel:0851308251" style="display:inline-block;margin:0 8px 10px 0;padding:12px 16px;border-radius:12px;background:#1D9753;color:#ffffff;text-decoration:none;font-weight:800">Bel 085 130 82 51</a>
+              <a href="https://wa.me/31623293935" style="display:inline-block;margin:0 0 10px 0;padding:12px 16px;border-radius:12px;background:#ff7a00;color:#ffffff;text-decoration:none;font-weight:800">WhatsApp 06 232 939 35</a>
+            </div>
+
+            <p style="margin:18px 0 0;color:#516071;font-size:14px;line-height:1.7">U hoeft deze mail niet te beantwoorden, maar dat mag natuurlijk wel. Bij vragen kunt u ook WhatsApp gebruiken via <a href="https://wa.me/31623293935" style="color:#1D9753;font-weight:800">06 232 939 35</a>.</p>
+            <p style="margin:22px 0 0;font-size:16px;line-height:1.7">Met vriendelijke groet,<br><strong>Daklekkages Opgelost</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      from,
+      to: email,
+      reply_to: to,
+      subject: confirmationSubject,
+      text: confirmationText,
+      html: confirmationHtml
+    })
+  });
+
   return response.status(200).json({ ok: true });
 }
