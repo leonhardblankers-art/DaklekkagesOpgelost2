@@ -207,8 +207,13 @@
     }
 
     document.addEventListener('click', function(event){
-      var opener = event.target.closest('a[href="#formulier"], a[href="/contact#formulier"], a[href$="/contact#formulier"]');
+      var opener = event.target.closest('a[href]');
       if(!opener || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+      var href = opener.getAttribute('href') || '';
+      var opensContactForm = href === '#formulier' || href.indexOf('/contact#formulier') !== -1 || href.indexOf('/pages/contact/#formulier') !== -1;
+      if(!opensContactForm) return;
+
       event.preventDefault();
       openModal();
     });

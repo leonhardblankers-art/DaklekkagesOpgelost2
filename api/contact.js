@@ -102,8 +102,7 @@ export default async function handler(request, response) {
       <div style="max-width:640px;margin:0 auto;padding:28px 16px">
         <div style="overflow:hidden;border-radius:22px;background:#ffffff;border:1px solid #dce8e2;box-shadow:0 18px 45px rgba(15,17,21,.08)">
           <div style="padding:22px 24px;background:#1D9753;color:#ffffff">
-            <img src="https://www.daklekkagesopgelost.nl/assets/img/logo-light.png" alt="Daklekkages Opgelost" width="170" style="display:block;width:170px;max-width:70%;height:auto;margin:0 0 16px">
-            <div style="font-size:13px;font-weight:700;letter-spacing:.2px;opacity:.92">Daklekkages Opgelost</div>
+            <div style="display:inline-block;margin:0 0 16px;padding:8px 12px;border-radius:999px;background:#ffffff;color:#167a44;font-size:15px;font-weight:900;letter-spacing:.1px">Daklekkages Opgelost</div>
             <h1 style="margin:8px 0 0;font-size:26px;line-height:1.18">We hebben uw aanvraag ontvangen</h1>
           </div>
           <div style="padding:24px">

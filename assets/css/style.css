@@ -103,8 +103,8 @@ header nav a { font-weight: 700; }
 .sticky-cta .btn:hover::after, .sticky-cta .btn:focus-visible::after { transform: translateX(120%) skewX(-16deg); }
 .sticky-cta .btn.primary { background: var(--orange) !important; border-color: var(--orange) !important; color: #fff !important; }
 .sticky-cta .btn.ghost { background: #fff; color: var(--ink); border-color: rgba(15,17,21,.10); }
-.sticky-cta__inspect { padding-left: 18px !important; padding-top: 17px !important; }
-.sticky-cta__free-badge { position: absolute; left: -7px; top: -2px; z-index: 2; padding: 4px 10px; border-radius: 999px; background: var(--brand); color: #fff; font-size: 10px; line-height: 1; font-weight: 900; text-transform: uppercase; transform: rotate(-14deg); box-shadow: 0 7px 14px rgba(29,151,83,.25); }
+.sticky-cta__inspect { padding-left: 19px !important; padding-top: 18px !important; overflow: visible !important; }
+.sticky-cta__free-badge { position: absolute; left: 7px; top: 4px; z-index: 2; padding: 3px 8px; border-radius: 999px; background: var(--brand); color: #fff; font-size: 9px; line-height: 1; font-weight: 900; text-transform: uppercase; transform: rotate(-12deg); box-shadow: 0 7px 14px rgba(29,151,83,.25); }
 .sticky-cta__blink { animation: dloBlink 1s infinite; }
 .sticky-cta__mini { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.4; }
 @keyframes dloBlink {
