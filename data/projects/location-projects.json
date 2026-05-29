@@ -8,9 +8,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-heerewaarden",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-heerewaarden.webp",
     "imageAlt": "Schoorsteen renoveren in Heerewaarden",
-    "x": 64,
-    "y": 50,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.818,
+    "lng": 5.393
   },
   {
     "slug": "schoorsteen-renoveren-in-gameren",
@@ -21,9 +21,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-gameren",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-gameren.webp",
     "imageAlt": "Schoorsteen renoveren in Gameren",
-    "x": 53,
-    "y": 55,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.8,
+    "lng": 5.205
   },
   {
     "slug": "schoorsteen-renovatie-in-oss",
@@ -33,10 +33,10 @@
     "url": "/pages/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-oss/",
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-oss",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-oss.webp",
-    "imageAlt": "Schoorteen renovatie oss",
-    "x": 69,
-    "y": 64,
-    "service": "Schoorsteen renoveren"
+    "imageAlt": "Schoorsteen renovatie oss",
+    "service": "Schoorsteen renoveren",
+    "lat": 51.765,
+    "lng": 5.518
   },
   {
     "slug": "schoorsteen-renovatie-in-gelderland",
@@ -46,10 +46,10 @@
     "url": "/pages/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-gelderland/",
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-gelderland",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-gelderland.webp",
-    "imageAlt": "Schoorteen renovatie oss",
-    "x": 62,
-    "y": 42,
-    "service": "Schoorsteen renoveren"
+    "imageAlt": "Schoorsteen renovatie oss",
+    "service": "Schoorsteen renoveren",
+    "lat": 52.045,
+    "lng": 5.871
   },
   {
     "slug": "schoorsteen-renoveren-in-haaften",
@@ -60,9 +60,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-haaften",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-haaften.webp",
     "imageAlt": "Schoorsteen renoveren in Haaften",
-    "x": 46,
-    "y": 52,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.816,
+    "lng": 5.211
   },
   {
     "slug": "schoorsteen-renoveren-in-waardenburg",
@@ -73,9 +73,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-waardenburg",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-waardenburg.webp",
     "imageAlt": "Schoorsteen renoveren in Waardenburg",
-    "x": 49,
-    "y": 52,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.833,
+    "lng": 5.257
   },
   {
     "slug": "schoorsteen-renovatie-in-tiel",
@@ -86,9 +86,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-tiel",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-tiel.webp",
     "imageAlt": "Schoorsteen renovatie arnhem",
-    "x": 55,
-    "y": 45,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.887,
+    "lng": 5.429
   },
   {
     "slug": "schoorsteen-renovatie-in-den-bosch",
@@ -99,9 +99,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-den-bosch",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-den-bosch.webp",
     "imageAlt": "Schoorsteenrenovatie in geldermalsen",
-    "x": 57,
-    "y": 70,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.697,
+    "lng": 5.303
   },
   {
     "slug": "schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker",
@@ -112,9 +112,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker.webp",
     "imageAlt": "Schoorsteen renoveren in Nederhemert",
-    "x": 72,
-    "y": 48,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.809,
+    "lng": 5.725
   },
   {
     "slug": "schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring",
@@ -125,9 +125,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring.webp",
     "imageAlt": "Schoorsteen renoveren in Hedel",
-    "x": 53,
-    "y": 65,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.748,
+    "lng": 5.261
   },
   {
     "slug": "schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk",
@@ -138,9 +138,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk.webp",
     "imageAlt": "Schoorsteen renovatie in Beuningen",
-    "x": 70,
-    "y": 47,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.861,
+    "lng": 5.767
   },
   {
     "slug": "schoorsteen-renoveren-in-de-betuwe",
@@ -151,9 +151,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-de-betuwe",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-de-betuwe.webp",
     "imageAlt": "Schoorsteen renoveren in Betuwe",
-    "x": 57,
-    "y": 47,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.891,
+    "lng": 5.513
   },
   {
     "slug": "schoorsteen-renoveren-in-kesteren",
@@ -164,9 +164,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kesteren",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-kesteren.webp",
     "imageAlt": "Schoorsteen renoveren in Amsterdam om lekkage te verhelpen",
-    "x": 61,
-    "y": 42,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.935,
+    "lng": 5.569
   },
   {
     "slug": "schoorsteen-renoveren-in-zetten",
@@ -177,9 +177,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-zetten",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-zetten.webp",
     "imageAlt": "Schoorsteen renoveren in Zetten",
-    "x": 66,
-    "y": 43,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.928,
+    "lng": 5.714
   },
   {
     "slug": "schoorsteen-renovatie-in-nijmegen",
@@ -190,9 +190,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-nijmegen",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-nijmegen.webp",
     "imageAlt": "Schoorsteen renovatie arnhem",
-    "x": 75,
-    "y": 50,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.842,
+    "lng": 5.853
   },
   {
     "slug": "schoorsteen-renovatie-in-ede",
@@ -203,9 +203,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-ede",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-ede.webp",
     "imageAlt": "Schoorsteen renovatie in Ede",
-    "x": 64,
-    "y": 32,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 52.045,
+    "lng": 5.671
   },
   {
     "slug": "schoorsteen-renoveren-in-rossum-gld",
@@ -216,22 +216,22 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-rossum-gld",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-rossum-gld.webp",
     "imageAlt": "Schoorsteen renoveren in Rossum",
-    "x": 50,
-    "y": 50,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.801,
+    "lng": 5.333
   },
   {
     "slug": "schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker",
     "title": "Schoorsteen renoveren in Kerkdriel – advies van een ervaren dakdekker",
-    "place": "Kerkdriel Advies Van Een Ervaren Dakdekker",
+    "place": "Kerkdriel",
     "excerpt": "Schoorsteen renoveren in Kerkdriel? Deskundig en praktisch advies van een ervaren dakdekker. Voorkom lekkage en vervolgschade.",
     "url": "/pages/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker/",
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker.webp",
     "imageAlt": "Schoorsteen renoveren in Kerkdriel",
-    "x": 50,
-    "y": 50,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.771,
+    "lng": 5.333
   },
   {
     "slug": "schoorsteen-renoveren-in-ammerzoden",
@@ -242,9 +242,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-ammerzoden",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-ammerzoden.webp",
     "imageAlt": "Schoorsteen renoveren in Ammerzoden",
-    "x": 51,
-    "y": 64,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.75,
+    "lng": 5.22
   },
   {
     "slug": "schoorsteen-renoveren-in-druten",
@@ -255,9 +255,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-druten",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-druten.webp",
     "imageAlt": "Schoorsteen renoveren in Druten",
-    "x": 67,
-    "y": 48,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.888,
+    "lng": 5.605
   },
   {
     "slug": "schoorsteen-renoveren-in-nederhemert",
@@ -268,9 +268,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-nederhemert",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-nederhemert.webp",
     "imageAlt": "Schoorsteen renoveren in Nederhemert",
-    "x": 48,
-    "y": 61,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.766,
+    "lng": 5.174
   },
   {
     "slug": "schoorsteen-renoveren-in-rivierenland",
@@ -281,9 +281,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-rivierenland",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-rivierenland.webp",
     "imageAlt": "Schoorsteen renoveren in Rivierenland",
-    "x": 54,
-    "y": 49,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.886,
+    "lng": 5.43
   },
   {
     "slug": "schoorsteen-renoveren-in-buren",
@@ -294,9 +294,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-buren",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-buren.webp",
     "imageAlt": "Schoorsteen renoveren in Buren",
-    "x": 54,
-    "y": 45,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.91,
+    "lng": 5.334
   },
   {
     "slug": "schoorsteen-renoveren-in-alem",
@@ -307,9 +307,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-alem",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-alem.webp",
     "imageAlt": "Schoorsteen renoveren in Alem",
-    "x": 55,
-    "y": 59,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.79,
+    "lng": 5.346
   },
   {
     "slug": "schoorsteenrenovatie-amsterdam",
@@ -320,9 +320,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-amsterdam",
     "image": "/assets/img/projects/schoorsteenrenovatie-amsterdam.webp",
     "imageAlt": "Schoorsteen renoveren in Amsterdam om lekkage te verhelpen",
-    "x": 43,
-    "y": 14,
-    "service": "Schoorsteenrenovatie Amsterdam"
+    "service": "Schoorsteenrenovatie Amsterdam",
+    "lat": 52.3676,
+    "lng": 4.9041
   },
   {
     "slug": "schoorsteen-renoveren-in-kerkwijk",
@@ -333,9 +333,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kerkwijk",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-kerkwijk.webp",
     "imageAlt": "Schoorsteen renoveren in Kerkwijk",
-    "x": 49,
-    "y": 60,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.775,
+    "lng": 5.219
   },
   {
     "slug": "schoorsteen-renoveren-in-bruchem",
@@ -346,9 +346,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-bruchem",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-bruchem.webp",
     "imageAlt": "Schoorsteen renoveren in Bruchem",
-    "x": 51,
-    "y": 57,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.786,
+    "lng": 5.236
   },
   {
     "slug": "schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies",
@@ -359,9 +359,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies.webp",
     "imageAlt": "Schoorsteen renovatie in Brakel",
-    "x": 45,
-    "y": 58,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.817,
+    "lng": 5.091
   },
   {
     "slug": "schoorsteen-renovatie-in-culemborg",
@@ -371,10 +371,10 @@
     "url": "/pages/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-culemborg/",
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-culemborg",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-culemborg.webp",
-    "imageAlt": "Schoorteen renovatie oss",
-    "x": 48,
-    "y": 45,
-    "service": "Schoorsteen renoveren"
+    "imageAlt": "Schoorsteen renovatie oss",
+    "service": "Schoorsteen renoveren",
+    "lat": 51.955,
+    "lng": 5.228
   },
   {
     "slug": "schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk",
@@ -385,9 +385,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk.webp",
     "imageAlt": "Schoorsteen renovatie in Bennekom",
-    "x": 64,
-    "y": 34,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.999,
+    "lng": 5.676
   },
   {
     "slug": "schoorsteen-renoveren-in-de-bommelerwaard",
@@ -398,9 +398,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-de-bommelerwaard",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-de-bommelerwaard.webp",
     "imageAlt": "Schoorsteen renoveren in Bommelerwaard",
-    "x": 50,
-    "y": 59,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.783,
+    "lng": 5.25
   },
   {
     "slug": "schoorsteen-renovatie-in-zaltbommel",
@@ -411,9 +411,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-zaltbommel",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-zaltbommel.webp",
     "imageAlt": "Schoorsteen renovatie in Ede",
-    "x": 51,
-    "y": 58,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.811,
+    "lng": 5.244
   },
   {
     "slug": "schoorsteen-renovatie-in-geldermalsen",
@@ -424,9 +424,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-geldermalsen",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-geldermalsen.webp",
     "imageAlt": "Schoorsteenrenovatie in geldermalsen",
-    "x": 51,
-    "y": 50,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.881,
+    "lng": 5.288
   },
   {
     "slug": "schoorsteen-renoveren-in-opheusden",
@@ -437,9 +437,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-opheusden",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-opheusden.webp",
     "imageAlt": "Schoorsteen renoveren in Opheusden",
-    "x": 62,
-    "y": 42,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.931,
+    "lng": 5.631
   },
   {
     "slug": "schoorsteen-renoveren-in-velddriel",
@@ -449,10 +449,10 @@
     "url": "/pages/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-velddriel",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-velddriel.webp",
-    "imageAlt": "SChoorsteen renoveren in velddriel",
-    "x": 55,
-    "y": 61,
-    "service": "Schoorsteen renoveren"
+    "imageAlt": "Schoorsteen renoveren in velddriel",
+    "service": "Schoorsteen renoveren",
+    "lat": 51.769,
+    "lng": 5.302
   },
   {
     "slug": "schoorsteen-renovatie-in-arnhem",
@@ -463,9 +463,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-arnhem",
     "image": "/assets/img/projects/schoorsteen-renovatie-in-arnhem.webp",
     "imageAlt": "Schoorsteen renovatie arnhem",
-    "x": 68,
-    "y": 36,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.985,
+    "lng": 5.898
   },
   {
     "slug": "schoorsteenrenovatie-rotterdam",
@@ -476,9 +476,9 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-rotterdam",
     "image": "/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp",
     "imageAlt": "Schoorsteenrenovatie uitgevoerd door Daklekkages Opgelost",
-    "x": 32,
-    "y": 66,
-    "service": "Schoorsteenrenovatie Rotterdam"
+    "service": "Schoorsteenrenovatie Rotterdam",
+    "lat": 51.924,
+    "lng": 4.477
   },
   {
     "slug": "schoorsteen-renoveren-in-beusichem",
@@ -489,8 +489,8 @@
     "sourceUrl": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-beusichem",
     "image": "/assets/img/projects/schoorsteen-renoveren-in-beusichem.webp",
     "imageAlt": "Schoorsteen renoveren in Beusichem",
-    "x": 50,
-    "y": 44,
-    "service": "Schoorsteen renoveren"
+    "service": "Schoorsteen renoveren",
+    "lat": 51.95,
+    "lng": 5.291
   }
 ]

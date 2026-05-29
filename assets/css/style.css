@@ -91,13 +91,12 @@ header nav a { font-weight: 700; }
 /* =============================================
    STICKY CTA
 ============================================= */
-.sticky-cta { position: fixed; right: 18px; top: 50%; z-index: 999; width: 238px; opacity: 0; pointer-events: none; transform: translate(16px,-50%); transition: opacity .22s ease, transform .22s ease; }
+.sticky-cta { position: fixed; right: 18px; top: 50%; z-index: 999; width: 232px; opacity: 0; pointer-events: none; transform: translate(16px,-50%); transition: opacity .22s ease, transform .22s ease; }
 .sticky-cta.is-visible { opacity: 1; pointer-events: auto; transform: translate(0,-50%); }
-.sticky-cta__tab { position: absolute; right: calc(100% - 2px); top: 18px; display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px 12px; border-radius: 16px 0 0 16px; background: #fff7ee; border: 2px solid var(--orange); border-right: 0; color: var(--ink); font-size: 13px; font-weight: 900; box-shadow: 0 14px 34px rgba(0,0,0,.14); writing-mode: vertical-rl; transform: rotate(180deg); }
-.sticky-cta__pulse { width: 12px; height: 12px; border-radius: 999px; background: var(--orange); box-shadow: 0 0 0 6px rgba(255,122,0,.20); animation: dloPulse 1.6s infinite; }
-.sticky-cta__box { background: rgba(255,255,255,.96); border: 2px solid var(--orange); border-radius: 18px; box-shadow: 0 20px 50px rgba(0,0,0,.18); padding: 12px; backdrop-filter: blur(10px); }
+.sticky-cta__box { position: relative; background: rgba(255,255,255,.97); border: 2px solid var(--orange); border-radius: 18px; box-shadow: 0 20px 50px rgba(0,0,0,.18); padding: 12px; backdrop-filter: blur(10px); overflow: hidden; }
+.sticky-cta__box::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; background: linear-gradient(90deg, var(--orange), rgba(255,122,0,.35)); }
 .sticky-cta__label { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; color: var(--ink); font-size: 13px; font-weight: 900; }
-.sticky-cta__label .dot { width: 10px; height: 10px; background: var(--orange); box-shadow: 0 0 0 6px rgba(255,122,0,.25); }
+.sticky-cta__label .dot { width: 10px; height: 10px; background: var(--orange); box-shadow: 0 0 0 6px rgba(255,122,0,.25); animation: dloPulse 1.6s infinite; }
 .sticky-cta .btn { position: relative; overflow: hidden; width: 100%; min-height: 48px; padding: 12px 14px; border-radius: 12px; font-size: 14px; }
 .sticky-cta .btn + .btn { margin-top: 10px; }
 .sticky-cta .btn::after { content: ""; position: absolute; inset: 0; transform: translateX(-120%) skewX(-16deg); background: linear-gradient(90deg, transparent, rgba(255,255,255,.28), transparent); transition: transform .55s ease; pointer-events: none; }
