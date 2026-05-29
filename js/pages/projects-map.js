@@ -40,6 +40,7 @@
         scrollWheelZoom: false,
         zoomControl: true
       }).setView([51.88, 5.35], 8);
+      window.setTimeout(function(){ map.invalidateSize(); }, 120);
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 18,
@@ -96,6 +97,7 @@
 
       if(markers.length > 1){
         map.fitBounds(bounds, { padding: [42, 42], maxZoom: 9 });
+        window.setTimeout(function(){ map.invalidateSize(); map.fitBounds(bounds, { padding: [42, 42], maxZoom: 9 }); }, 220);
       }
     })
     .catch(function(){
