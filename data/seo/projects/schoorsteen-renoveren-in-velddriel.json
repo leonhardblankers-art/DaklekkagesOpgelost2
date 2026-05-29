@@ -1,21 +1,165 @@
 {
   "title": "Schoorsteen renoveren in Velddriel | Daklekkages Opgelost",
   "description": "Schoorsteen renoveren in Velddriel? Deskundig dakdekkersadvies voor oudere woningen langs de Waal. Voorkom lekkage en onnodige schade.",
+  "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
   "ogTitle": "Schoorsteen renoveren in Velddriel",
   "ogDescription": "Schoorsteen renoveren in Velddriel? Deskundig dakdekkersadvies voor oudere woningen langs de Waal. Voorkom lekkage en onnodige schade.",
   "ogType": "article",
   "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renoveren-in-velddriel.webp",
   "schema": {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Schoorsteen renoveren in Velddriel",
-    "description": "Schoorsteen renoveren in Velddriel? Deskundig dakdekkersadvies voor oudere woningen langs de Waal. Voorkom lekkage en onnodige schade.",
-    "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
-    "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Daklekkages Opgelost"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
+        "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
+        "name": "Schoorsteen renoveren in Velddriel",
+        "description": "Schoorsteen renoveren in Velddriel? Deskundig dakdekkersadvies voor oudere woningen langs de Waal. Voorkom lekkage en onnodige schade.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renoveren-in-velddriel.webp"
+        },
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/#collection",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/#article",
+        "headline": "Schoorsteen renoveren in Velddriel",
+        "description": "Schoorsteen renoveren in Velddriel? Deskundig dakdekkersadvies voor oudere woningen langs de Waal. Voorkom lekkage en onnodige schade.",
+        "articleSection": "Uitgevoerde projecten",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renoveren-in-velddriel.webp",
+          "caption": "SChoorsteen renoveren in velddriel"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "dateModified": "2026-05-29",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteen renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Velddriel"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+        "name": "Schoorsteenrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Velddriel"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/#article",
+          "name": "Schoorsteen renoveren in Velddriel",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "Op aanvraag",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "Country",
+            "name": "Nederland"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Uitgevoerde projecten",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen renoveren in Velddriel",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,21 +1,165 @@
 {
   "title": "Schoorsteen renovatie in Tiel | Daklekkages Opgelost",
   "description": "Schoorsteen renovatie in Tiel nodig? Lees wanneer renovatie verstandig is, wat het kost en krijg lokaal dakdekkersadvies.",
+  "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
   "ogTitle": "Schoorsteen renovatie in Tiel",
   "ogDescription": "Schoorsteen renovatie in Tiel nodig? Lees wanneer renovatie verstandig is, wat het kost en krijg lokaal dakdekkersadvies.",
   "ogType": "article",
   "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-tiel.webp",
   "schema": {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Schoorsteen renovatie in Tiel",
-    "description": "Schoorsteen renovatie in Tiel nodig? Lees wanneer renovatie verstandig is, wat het kost en krijg lokaal dakdekkersadvies.",
-    "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
-    "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Daklekkages Opgelost"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
+        "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
+        "name": "Schoorsteen renovatie in Tiel",
+        "description": "Schoorsteen renovatie in Tiel nodig? Lees wanneer renovatie verstandig is, wat het kost en krijg lokaal dakdekkersadvies.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-tiel.webp"
+        },
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/#collection",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/#article",
+        "headline": "Schoorsteen renovatie in Tiel",
+        "description": "Schoorsteen renovatie in Tiel nodig? Lees wanneer renovatie verstandig is, wat het kost en krijg lokaal dakdekkersadvies.",
+        "articleSection": "Uitgevoerde projecten",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-tiel.webp",
+          "caption": "Schoorsteen renovatie arnhem"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "dateModified": "2026-05-29",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteen renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Tiel"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+        "name": "Schoorsteenrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Tiel"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/#article",
+          "name": "Schoorsteen renovatie in Tiel",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "Op aanvraag",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "Country",
+            "name": "Nederland"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Uitgevoerde projecten",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen renovatie in Tiel",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/"
+          }
+        ]
+      }
+    ]
   }
 }

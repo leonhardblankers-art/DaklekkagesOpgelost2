@@ -1,21 +1,165 @@
 {
   "title": "Schoorsteen renovatie in Geldermalsen | Daklekkages Opgelost",
   "description": "Schoorsteen renovatie in Geldermalsen? Ontdek wanneer renovatie nodig is, wat het kost en krijg eerlijk advies van een regionale specialist.",
+  "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
   "ogTitle": "Schoorsteen renovatie in Geldermalsen",
   "ogDescription": "Schoorsteen renovatie in Geldermalsen? Ontdek wanneer renovatie nodig is, wat het kost en krijg eerlijk advies van een regionale specialist.",
   "ogType": "article",
   "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-geldermalsen.webp",
   "schema": {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Schoorsteen renovatie in Geldermalsen",
-    "description": "Schoorsteen renovatie in Geldermalsen? Ontdek wanneer renovatie nodig is, wat het kost en krijg eerlijk advies van een regionale specialist.",
-    "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
-    "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Daklekkages Opgelost"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
+        "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
+        "name": "Schoorsteen renovatie in Geldermalsen",
+        "description": "Schoorsteen renovatie in Geldermalsen? Ontdek wanneer renovatie nodig is, wat het kost en krijg eerlijk advies van een regionale specialist.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-geldermalsen.webp"
+        },
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/#collection",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/#article",
+        "headline": "Schoorsteen renovatie in Geldermalsen",
+        "description": "Schoorsteen renovatie in Geldermalsen? Ontdek wanneer renovatie nodig is, wat het kost en krijg eerlijk advies van een regionale specialist.",
+        "articleSection": "Uitgevoerde projecten",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-geldermalsen.webp",
+          "caption": "Schoorsteenrenovatie in geldermalsen"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "dateModified": "2026-05-29",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteen renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Geldermalsen"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+        "name": "Schoorsteenrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Geldermalsen"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/#article",
+          "name": "Schoorsteen renovatie in Geldermalsen",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "Op aanvraag",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "Country",
+            "name": "Nederland"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Uitgevoerde projecten",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen renovatie in Geldermalsen",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/"
+          }
+        ]
+      }
+    ]
   }
 }

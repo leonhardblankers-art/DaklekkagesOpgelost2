@@ -1,0 +1,457 @@
+{
+  "totalBlogs": 229,
+  "localLike": [
+    {
+      "slug": "scheuren-in-daklood-oorzaken-en-gevolgen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/scheuren-in-daklood-oorzaken-en-gevolgen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking",
+      "url": "https://www.daklekkagesopgelost.nl/blog/waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+      "url": "https://www.daklekkagesopgelost.nl/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-heerewaarden",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-heerewaarden",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-gameren",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-gameren",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst",
+      "url": "https://www.daklekkagesopgelost.nl/blog/hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-oss",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-oss",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-gelderland",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-gelderland",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "effect-van-klimaat-en-weersinvloeden-op-daklevensduur",
+      "url": "https://www.daklekkagesopgelost.nl/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-haaften",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-haaften",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-waardenburg",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-waardenburg",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+      "url": "https://www.daklekkagesopgelost.nl/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis",
+      "url": "https://www.daklekkagesopgelost.nl/blog/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-tiel",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-tiel",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-den-bosch",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-den-bosch",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+      "url": "https://www.daklekkagesopgelost.nl/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat",
+      "url": "https://www.daklekkagesopgelost.nl/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie",
+      "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids",
+      "url": "https://www.daklekkagesopgelost.nl/blog/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-de-betuwe",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-de-betuwe",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden",
+      "url": "https://www.daklekkagesopgelost.nl/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-kesteren",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kesteren",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-zetten",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-zetten",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het",
+      "url": "https://www.daklekkagesopgelost.nl/blog/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-nijmegen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-nijmegen",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-ede",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-ede",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "bitumen-dak-repareren-mogelijkheden-en-beperkingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/bitumen-dak-repareren-mogelijkheden-en-beperkingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-rossum-gld",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-rossum-gld",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+      "url": "https://www.daklekkagesopgelost.nl/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-ammerzoden",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-ammerzoden",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-druten",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-druten",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-nederhemert",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-nederhemert",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-rivierenland",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-rivierenland",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-buren",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-buren",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-alem",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-alem",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteenrenovatie-amsterdam",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-amsterdam",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk",
+      "url": "https://www.daklekkagesopgelost.nl/blog/scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-kerkwijk",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-kerkwijk",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-bruchem",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-bruchem",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid",
+      "url": "https://www.daklekkagesopgelost.nl/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "lekkage-of-condens-zo-herken-je-het-verschil-in-huis",
+      "url": "https://www.daklekkagesopgelost.nl/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "zelf-schoorsteen-verwijderen-of-uitbesteden",
+      "url": "https://www.daklekkagesopgelost.nl/blog/zelf-schoorsteen-verwijderen-of-uitbesteden",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-culemborg",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-culemborg",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig",
+      "url": "https://www.daklekkagesopgelost.nl/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak",
+      "url": "https://www.daklekkagesopgelost.nl/blog/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-de-bommelerwaard",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-de-bommelerwaard",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-zaltbommel",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-zaltbommel",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-geldermalsen",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-geldermalsen",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-opheusden",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-opheusden",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "ventilatieproblemen-in-relatie-tot-dakconstructie",
+      "url": "https://www.daklekkagesopgelost.nl/blog/ventilatieproblemen-in-relatie-tot-dakconstructie",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-velddriel",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-velddriel",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+      "url": "https://www.daklekkagesopgelost.nl/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+      "importedProject": false,
+      "inKennisbank": true
+    },
+    {
+      "slug": "schoorsteen-renovatie-in-arnhem",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renovatie-in-arnhem",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteenrenovatie-rotterdam",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteenrenovatie-rotterdam",
+      "importedProject": true,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-renoveren-in-beusichem",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-renoveren-in-beusichem",
+      "importedProject": true,
+      "inKennisbank": false
+    }
+  ],
+  "missingLocalLike": [
+    {
+      "slug": "hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids",
+      "url": "https://www.daklekkagesopgelost.nl/blog/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig",
+      "url": "https://www.daklekkagesopgelost.nl/blog/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig",
+      "importedProject": false,
+      "inKennisbank": false
+    },
+    {
+      "slug": "gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak",
+      "url": "https://www.daklekkagesopgelost.nl/blog/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak",
+      "importedProject": false,
+      "inKennisbank": false
+    }
+  ]
+}

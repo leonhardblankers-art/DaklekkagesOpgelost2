@@ -1,21 +1,165 @@
 {
   "title": "Schoorsteen renovatie in Zaltbommel | Daklekkages Opgelost",
   "description": "Schoorsteen renovatie in Zaltbommel nodig? Ontdek wanneer renovatie verstandig is en wat het kost. Lokaal en eerlijk dakdekkersadvies.",
+  "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
   "ogTitle": "Schoorsteen renovatie in Zaltbommel",
   "ogDescription": "Schoorsteen renovatie in Zaltbommel nodig? Ontdek wanneer renovatie verstandig is en wat het kost. Lokaal en eerlijk dakdekkersadvies.",
   "ogType": "article",
   "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-zaltbommel.webp",
   "schema": {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Schoorsteen renovatie in Zaltbommel",
-    "description": "Schoorsteen renovatie in Zaltbommel nodig? Ontdek wanneer renovatie verstandig is en wat het kost. Lokaal en eerlijk dakdekkersadvies.",
-    "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
-    "mainEntityOfPage": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Daklekkages Opgelost"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
+        "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
+        "name": "Schoorsteen renovatie in Zaltbommel",
+        "description": "Schoorsteen renovatie in Zaltbommel nodig? Ontdek wanneer renovatie verstandig is en wat het kost. Lokaal en eerlijk dakdekkersadvies.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-zaltbommel.webp"
+        },
+        "mainEntity": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/#article"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/#breadcrumb"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/#collection",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/#article",
+        "headline": "Schoorsteen renovatie in Zaltbommel",
+        "description": "Schoorsteen renovatie in Zaltbommel nodig? Ontdek wanneer renovatie verstandig is en wat het kost. Lokaal en eerlijk dakdekkersadvies.",
+        "articleSection": "Uitgevoerde projecten",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/projects/schoorsteen-renovatie-in-zaltbommel.webp",
+          "caption": "Schoorsteen renovatie in Ede"
+        },
+        "author": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "dateModified": "2026-05-29",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/"
+        },
+        "about": {
+          "@type": "Service",
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+          "name": "Schoorsteen renoveren",
+          "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+        },
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Zaltbommel"
+        },
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Uitgevoerde projecten",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/#service",
+        "name": "Schoorsteenrenovatie",
+        "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Zaltbommel"
+        },
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "isReferencedBy": {
+          "@type": "Article",
+          "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/#article",
+          "name": "Schoorsteen renovatie in Zaltbommel",
+          "url": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/"
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "Op aanvraag",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          },
+          {
+            "@type": "Country",
+            "name": "Nederland"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Uitgevoerde projecten",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen renovatie in Zaltbommel",
+            "item": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/"
+          }
+        ]
+      }
+    ]
   }
 }
