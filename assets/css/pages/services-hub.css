@@ -7,6 +7,7 @@
 .services-route-card__grid a{display:grid;gap:8px;min-height:96px;padding:14px;border-radius:16px;background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.08);color:var(--ink);font-weight:900;text-decoration:none;box-shadow:0 10px 22px rgba(15,17,21,.05);transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
 .services-route-card__grid a:hover{transform:translateY(-2px);border-color:rgba(29,151,83,.34);box-shadow:0 14px 28px rgba(29,151,83,.10)}
 .services-route-card__grid span{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:12px;background:rgba(29,151,83,.10);color:var(--brand2);font-size:13px}
+.services-hub .premium-section-head{display:block;max-width:860px;margin-bottom:22px}
 .services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .services-card{position:relative;display:grid;align-content:start;gap:12px;min-height:260px;padding:20px;border-radius:22px;background:linear-gradient(180deg,#fff,#fbfcfb);border:1px solid rgba(15,17,21,.08);box-shadow:0 16px 36px rgba(15,17,21,.08);text-decoration:none;overflow:hidden;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
 .services-card:hover{transform:translateY(-3px);border-color:rgba(29,151,83,.36);box-shadow:0 22px 44px rgba(29,151,83,.12)}
