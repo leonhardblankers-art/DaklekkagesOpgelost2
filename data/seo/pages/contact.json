@@ -1,27 +1,76 @@
 {
-  "title": "Contact",
-  "description": "Laat van u horen om ervoor te zorgen dat ook uw Daklekkages Opgelost worden!",
+  "title": "Dakinspectie of daklekkage advies aanvragen | Daklekkages Opgelost",
+  "description": "Vraag een dakinspectie of beoordeling aan bij Daklekkages Opgelost. Vertel kort wat u ziet, dan adviseren wij de logische vervolgstap voor lekkage, loodwerk of dakherstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/contact/",
-  "ogTitle": "Contact",
-  "ogDescription": "Laat van u horen om ervoor te zorgen dat ook uw Daklekkages Opgelost worden!",
+  "ogTitle": "Dakinspectie of daklekkage advies aanvragen | Daklekkages Opgelost",
+  "ogDescription": "Vraag een dakinspectie of beoordeling aan bij Daklekkages Opgelost. Vertel kort wat u ziet, dan adviseren wij de logische vervolgstap.",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@type": "ContactPage",
         "@id": "https://www.daklekkagesopgelost.nl/contact/",
         "url": "https://www.daklekkagesopgelost.nl/contact/",
-        "name": "Contact",
-        "description": "Laat van u horen om ervoor te zorgen dat ook uw Daklekkages Opgelost worden!",
+        "name": "Dakinspectie of daklekkage advies aanvragen",
+        "description": "Vraag een dakinspectie of beoordeling aan bij Daklekkages Opgelost. Vertel kort wat u ziet, dan adviseren wij de logische vervolgstap voor lekkage, loodwerk of dakherstel.",
         "isPartOf": {
           "@type": "WebSite",
           "name": "Daklekkages Opgelost",
           "url": "https://www.daklekkagesopgelost.nl/"
+        },
+        "about": {
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "mainEntity": {
+          "@type": "RoofingContractor",
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
         }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "email": "info@daklekkagesopgelost.nl",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+31851308251",
+            "contactType": "customer service",
+            "areaServed": "NL",
+            "availableLanguage": "nl"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/contact/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://www.daklekkagesopgelost.nl/contact/"
+          }
+        ]
       }
     ]
   }

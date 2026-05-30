@@ -152,9 +152,9 @@
       '<div class="contact-modal__backdrop" data-contact-modal-close></div>' +
       '<section class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">' +
         '<button class="contact-modal__close" type="button" aria-label="Formulier sluiten" data-contact-modal-close>&times;</button>' +
-        '<div class="premium-kicker"><span></span>Gratis inspectie</div>' +
+        '<div class="premium-kicker"><span></span>Dakvraag laten beoordelen</div>' +
         '<h2 id="contact-modal-title">Vertel kort wat er aan de hand is</h2>' +
-        '<p>Vul in wat u ziet of vermoedt. We beoordelen uw situatie en nemen contact op over de logische vervolgstap.</p>' +
+        '<p>Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.</p>' +
         '<form class="premium-form" data-dlo-contact-form>' +
           '<div class="premium-form__grid">' +
             '<label>Waar gaat het om?' +
@@ -182,10 +182,10 @@
             '<label>Plaats<input name="plaats" autocomplete="address-level2"></label>' +
             '<label class="premium-form__full">Omschrijving<textarea name="omschrijving" required placeholder="Bijvoorbeeld: waar ziet u vocht, wanneer treedt het op, welk dakdeel lijkt betrokken?"></textarea></label>' +
           '</div>' +
-          '<p class="premium-form__hint">Uw aanvraag wordt veilig naar Daklekkages Opgelost verstuurd. We gebruiken uw gegevens alleen om contact op te nemen over uw dakvraag.</p>' +
+          '<p class="premium-form__hint">120+ reviews &bull; snelle opvolging &bull; geen verplichting na de eerste beoordeling.</p>' +
           '<p class="premium-form__status" data-form-status>Uw aanvraag wordt verstuurd...</p>' +
           '<div class="premium-actions">' +
-            '<button class="premium-btn premium-btn--primary" type="submit">Formulier versturen</button>' +
+            '<button class="premium-btn premium-btn--primary" type="submit">Aanvraag versturen</button>' +
             '<a class="premium-btn premium-btn--ghost" href="tel:0851308251">Liever bellen</a>' +
           '</div>' +
         '</form>' +
