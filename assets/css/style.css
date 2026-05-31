@@ -443,7 +443,7 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
 }
 .smart-conversion__inner,
 .project-proof__inner {
-  width: min(1180px, 100%);
+  width: min(1120px, 100%);
   margin: 0 auto;
   border: 1px solid rgba(15,17,21,.08);
   border-radius: 24px;
