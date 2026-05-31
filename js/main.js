@@ -415,6 +415,11 @@
     if(path.indexOf('/diensten/') === -1 && path.indexOf('/lekkages/') === -1) return;
     if(document.querySelector('[data-project-proof]')) return;
 
+    var isSchoorsteenRoute = path.indexOf('schoorsteen') !== -1 ||
+      path.indexOf('metselwerk-repareren') !== -1 ||
+      path.indexOf('pleisteren') !== -1;
+    if(!isSchoorsteenRoute) return;
+
     var target = document.querySelector('main .premium-section:last-of-type, main .section:last-of-type');
     if(!target) return;
 
@@ -456,6 +461,168 @@
       .catch(function(){});
   }
 
+  function initKnowledgeServiceLinks(){
+    if(document.querySelector('[data-knowledge-service-links]')) return;
+    var path = window.location.pathname.toLowerCase();
+    var isKnowledgeCluster = path.indexOf('/pages/kennisbank/') !== -1 && path.split('/').filter(Boolean).length === 3;
+    var isServicePage = path.indexOf('/pages/diensten/') !== -1 && path !== '/pages/diensten/';
+    if(!isKnowledgeCluster && !isServicePage) return;
+
+    var clusterMap = [
+      { match: '01-dakonderhoud-en-inspectie', title: 'Diensten die passen bij dit cluster', text: 'Van onderhoudskennis naar zekerheid over uw eigen dak.', links: [
+        ['/pages/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Rustige beoordeling bij twijfel'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Gerichte controle van dakdetails'],
+        ['/pages/diensten/rapportage-dakinspectie/', 'Rapportage dakinspectie', 'Vastlegging van bevindingen']
+      ]},
+      { match: '02-daklekkage-en-schade', title: 'Logische diensten bij lekkage of schade', text: 'Kies de route die past bij zichtbare vochtplekken, schade of actieve lekkage.', links: [
+        ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Bron bepalen zonder giswerk'],
+        ['/pages/lekkages/daklekkage/', 'Daklekkage oplossen', 'Van symptoom naar herstel'],
+        ['/pages/diensten/spoedreparatie/', 'Spoedreparatie', 'Wanneer schade snel beperkt moet worden']
+      ]},
+      { match: '03-dakvervanging-en-levensduur', title: 'Diensten rond vervanging en levensduur', text: 'Wanneer herstel niet meer logisch is, helpt een goede beoordeling bij de juiste keuze.', links: [
+        ['/pages/diensten/dakrenovatie/', 'Dakrenovatie', 'Structureel herstel of vervanging'],
+        ['/pages/diensten/diensten-schuin-dak/', 'Schuin dak diensten', 'Pannen, nok en dakopbouw'],
+        ['/pages/diensten/diensten-plat-dak/', 'Plat dak diensten', 'Bitumen, afschot en dakbedekking']
+      ]},
+      { match: '04-dakisolatie-en-duurzaamheid', title: 'Diensten rond isolatie en dakcomfort', text: 'Isolatie werkt alleen goed wanneer dakopbouw en vochtbelasting kloppen.', links: [
+        ['/pages/diensten/dak-isoleren/', 'Dak isoleren', 'Comfort en energieverlies verbeteren'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Eerst controleren of isoleren logisch is']
+      ]},
+      { match: '05-schoorsteenrenovatie', title: 'Schoorsteendiensten bij dit cluster', text: 'Deze diensten sluiten direct aan op renovatie, lekkage en metselwerk rond de schoorsteen.', links: [
+        ['/pages/diensten/diensten-schoorsteen/', 'Diensten schoorsteen', 'Keuzehulp voor schoorsteenwerk'],
+        ['/pages/diensten/schoorsteenrenovatie/', 'Schoorsteenrenovatie', 'Herstel van metselwerk en opbouw'],
+        ['/pages/diensten/metselwerk-repareren/', 'Metselwerk repareren', 'Voegen, stenen en stabiliteit']
+      ]},
+      { match: '06-schoorsteen-lood-vervangen', title: 'Diensten rond schoorsteenlood', text: 'Bij loodproblemen draait het om aansluiting, overlap en waterdichte detaillering.', links: [
+        ['/pages/diensten/schoorsteenlood-vervangen/', 'Schoorsteenlood vervangen', 'Waterdichte aansluiting rond de schoorsteen'],
+        ['/pages/diensten/schoorsteenlood-spouw-vervangen/', 'Schoorsteenlood spouw vervangen', 'Wanneer dieper herstel nodig is'],
+        ['/pages/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Alle loodroutes bij elkaar']
+      ]},
+      { match: '07-schoorsteen-verwijderen', title: 'Diensten rond schoorsteen verwijderen', text: 'Soms is herstellen logisch, soms verwijderen. Deze routes helpen kiezen.', links: [
+        ['/pages/diensten/schoorsteen-verwijderen/', 'Schoorsteen verwijderen', 'Wanneer behoud niet logisch is'],
+        ['/pages/diensten/diensten-schoorsteen/', 'Diensten schoorsteen', 'Alle schoorsteenroutes vergelijken']
+      ]},
+      { match: '08-dakkapel-renoveren', title: 'Diensten rond dakkapelrenovatie', text: 'Dakkapellen vragen om aandacht voor lood, dakbedekking, boeidelen en aansluitingen.', links: [
+        ['/pages/diensten/diensten-dakkapel/', 'Diensten dakkapel', 'Keuzehulp voor dakkapelwerk'],
+        ['/pages/diensten/dakkapel-renoveren/', 'Dakkapel renoveren', 'Herstel van opbouw en afwerking'],
+        ['/pages/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen', 'Veelvoorkomend lekkagepunt']
+      ]},
+      { match: '09-dakkapel-lood-vervangen', title: 'Diensten rond dakkapellood', text: 'Lood rond dakkapellen is een kwetsbaar dakdetail dat gericht beoordeeld moet worden.', links: [
+        ['/pages/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen', 'Aansluiting opnieuw waterdicht maken'],
+        ['/pages/diensten/diensten-dakkapel/', 'Diensten dakkapel', 'Alle dakkapelroutes vergelijken']
+      ]},
+      { match: '10-dakraam', title: 'Diensten rond dakramen', text: 'Bij dakramen gaat het vaak om gootstukken, lood en aansluiting met het dakvlak.', links: [
+        ['/pages/diensten/diensten-dakraam/', 'Diensten dakraam', 'Keuzehulp voor dakraamproblemen'],
+        ['/pages/diensten/dakraamlood-vervangen/', 'Dakraamlood vervangen', 'Herstel van aansluitingen']
+      ]},
+      { match: '11-daklood', title: 'Diensten rond daklood en aansluitingen', text: 'Daklood is vaak bepalend voor de waterdichtheid van kwetsbare dakdetails.', links: [
+        ['/pages/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Alle loodroutes bij elkaar'],
+        ['/pages/diensten/daklood-vervangen/', 'Daklood vervangen', 'Gericht herstel van loodwerk'],
+        ['/pages/diensten/trapsgewijs-lood-vervangen/', 'Trapsgewijs lood vervangen', 'Bij schoorsteen en metselwerk']
+      ]},
+      { match: '12-plat-dak', title: 'Diensten rond platte daken', text: 'Platte daken vragen om controle van afschot, naden, afvoer en dakbedekking.', links: [
+        ['/pages/diensten/diensten-plat-dak/', 'Plat dak diensten', 'Keuzehulp voor platte daken'],
+        ['/pages/diensten/plat-dak-reparatie/', 'Plat dak reparatie', 'Gericht herstel bij schade'],
+        ['/pages/diensten/plat-dak-vervangen/', 'Plat dak vervangen', 'Wanneer repareren niet genoeg is']
+      ]},
+      { match: '13-dakrenovatie', title: 'Diensten rond dakrenovatie', text: 'Renovatie wordt pas logisch wanneer duidelijk is welke onderdelen technisch aan het einde zijn.', links: [
+        ['/pages/diensten/dakrenovatie/', 'Dakrenovatie', 'Structureel herstel van het dak'],
+        ['/pages/diensten/diensten-schuin-dak/', 'Schuin dak diensten', 'Pannen, nok en dakopbouw'],
+        ['/pages/diensten/dakgoot-vervangen/', 'Dakgoot vervangen', 'Afvoer en dakrand meenemen']
+      ]},
+      { match: '16-weersinvloeden-en-dakschade', title: 'Diensten na storm, regen of weersschade', text: 'Weerschade vraagt om een beoordeling van oorzaak, urgentie en vervolgrisico.', links: [
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Controle na hevig weer'],
+        ['/pages/diensten/spoedreparatie/', 'Spoedreparatie', 'Schade tijdelijk of definitief beperken'],
+        ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Bron bepalen bij twijfel']
+      ]},
+      { match: '17-dakdetails-als-faalpunten', title: 'Diensten voor kwetsbare dakdetails', text: 'Aansluitingen, lood, doorvoeren en randen veroorzaken vaak meer problemen dan het dakvlak zelf.', links: [
+        ['/pages/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Waterdichte detaillering'],
+        ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Faalpunt gericht vinden'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Dakdetails laten controleren']
+      ]},
+      { match: '18-veroudering-en-levensduur', title: 'Diensten bij veroudering van het dak', text: 'Veroudering hoeft niet direct vervanging te betekenen, maar vraagt wel om de juiste afweging.', links: [
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Staat van het dak beoordelen'],
+        ['/pages/diensten/dakrenovatie/', 'Dakrenovatie', 'Wanneer herstel structureel moet'],
+        ['/pages/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Beginnen met duidelijkheid']
+      ]},
+      { match: '19-binnenklimaat', title: 'Diensten bij vocht, condens en comfortproblemen', text: 'Binnenklimaatproblemen hangen vaak samen met isolatie, ventilatie of verborgen dakschade.', links: [
+        ['/pages/diensten/dak-isoleren/', 'Dak isoleren', 'Warmteverlies beperken'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Vochtbron laten beoordelen']
+      ]},
+      { match: '20-constructieve-dakproblemen', title: 'Diensten bij constructieve twijfel', text: 'Bij doorbuiging, houtrot of terugkerende schade is eerst een nuchtere beoordeling nodig.', links: [
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Eerst de staat bepalen'],
+        ['/pages/diensten/dakrenovatie/', 'Dakrenovatie', 'Structurele dakaanpak']
+      ]},
+      { match: '21-terugkerende-lekkages', title: 'Diensten bij terugkerende lekkages', text: 'Terugkerende lekkage vraagt om brononderzoek in plaats van opnieuw oppervlakkig repareren.', links: [
+        ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Echte oorzaak vinden'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Volledig dakbeeld krijgen'],
+        ['/pages/lekkages/daklekkage/', 'Daklekkage oplossen', 'Gericht naar herstel']
+      ]},
+      { match: '22-twijfel-en-interpretatie', title: 'Diensten wanneer u nog twijfelt', text: 'Niet elk signaal is spoed, maar twijfel verdient wel een heldere beoordeling.', links: [
+        ['/pages/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Laagdrempelig laten beoordelen'],
+        ['/pages/diensten/dakinspectie/', 'Dakinspectie', 'Gerichte controle bij signalen']
+      ]}
+    ];
+
+    var serviceMap = [
+      { match: 'schoorsteen', title: 'Verdieping over schoorsteenproblemen', links: [
+        ['/pages/kennisbank/05-schoorsteenrenovatie/', 'Cluster schoorsteenrenovatie'],
+        ['/pages/kennisbank/06-schoorsteen-lood-vervangen/', 'Cluster schoorsteenlood'],
+        ['/pages/kennisbank/07-schoorsteen-verwijderen/', 'Cluster schoorsteen verwijderen']
+      ]},
+      { match: 'dakkapel', title: 'Verdieping over dakkapellen', links: [
+        ['/pages/kennisbank/08-dakkapel-renoveren/', 'Cluster dakkapel renoveren'],
+        ['/pages/kennisbank/09-dakkapel-lood-vervangen/', 'Cluster dakkapellood']
+      ]},
+      { match: 'dakraam', title: 'Verdieping over dakramen', links: [
+        ['/pages/kennisbank/10-dakraam/', 'Cluster dakraam']
+      ]},
+      { match: 'lood', title: 'Verdieping over daklood', links: [
+        ['/pages/kennisbank/11-daklood/', 'Cluster daklood'],
+        ['/pages/kennisbank/17-dakdetails-als-faalpunten/', 'Cluster dakdetails']
+      ]},
+      { match: 'plat-dak', title: 'Verdieping over platte daken', links: [
+        ['/pages/kennisbank/12-plat-dak/', 'Cluster plat dak']
+      ]},
+      { match: 'dakrenovatie', title: 'Verdieping over dakrenovatie', links: [
+        ['/pages/kennisbank/13-dakrenovatie/', 'Cluster dakrenovatie'],
+        ['/pages/kennisbank/03-dakvervanging-en-levensduur/', 'Cluster levensduur']
+      ]},
+      { match: 'dak-isoleren', title: 'Verdieping over isolatie en comfort', links: [
+        ['/pages/kennisbank/04-dakisolatie-en-duurzaamheid/', 'Cluster dakisolatie'],
+        ['/pages/kennisbank/19-binnenklimaat/', 'Cluster binnenklimaat']
+      ]},
+      { match: 'dakinspectie', title: 'Verdieping over inspectie en onderhoud', links: [
+        ['/pages/kennisbank/01-dakonderhoud-en-inspectie/', 'Cluster dakonderhoud en inspectie'],
+        ['/pages/kennisbank/22-twijfel-en-interpretatie/', 'Cluster twijfel en interpretatie']
+      ]}
+    ];
+
+    var config = null;
+    if(isKnowledgeCluster){
+      config = clusterMap.find(function(item){ return path.indexOf(item.match) !== -1; });
+    } else {
+      config = serviceMap.find(function(item){ return path.indexOf(item.match) !== -1; });
+      if(config) config.text = 'Deze kennisbankclusters geven extra uitleg zonder de dienstpagina blogachtig te maken.';
+    }
+    if(!config || !config.links || !config.links.length) return;
+
+    var anchor = document.querySelector('.kb-hero, .premium-hero');
+    if(!anchor) return;
+    var section = document.createElement('section');
+    section.className = 'knowledge-service-links';
+    section.setAttribute('data-knowledge-service-links', '');
+    section.innerHTML =
+      '<div class="knowledge-service-links__inner">' +
+        '<div><span class="smart-conversion__kicker"><i></i>Logische vervolgstap</span>' +
+        '<h2>' + config.title + '</h2><p>' + (config.text || '') + '</p></div>' +
+        '<div class="knowledge-service-links__grid">' + config.links.map(function(link){
+          return '<a href="' + link[0] + '"><strong>' + link[1] + '</strong><span>' + (link[2] || 'Meer verdieping') + '</span></a>';
+        }).join('') + '</div>' +
+      '</div>';
+    anchor.insertAdjacentElement('afterend', section);
+  }
+
   if(document.documentElement.dataset.includesLoaded === 'true'){
     initStickyCTA();
     initLogoCloud();
@@ -463,6 +630,7 @@
     initContactForms();
     initSmartConversionBlocks();
     initProjectProof();
+    initKnowledgeServiceLinks();
   } else if(document.querySelector('[data-include]')){
     document.addEventListener('includes:loaded', function(){
       initStickyCTA();
@@ -471,6 +639,7 @@
       initContactForms();
       initSmartConversionBlocks();
       initProjectProof();
+      initKnowledgeServiceLinks();
     }, { once: true });
   } else {
     initStickyCTA();
@@ -479,6 +648,7 @@
     initContactForms();
     initSmartConversionBlocks();
     initProjectProof();
+    initKnowledgeServiceLinks();
   }
 
   // Subtiele micro-animaties (reveal on scroll)
