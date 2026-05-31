@@ -1,8 +1,140 @@
 (function(){
+  function getPageIntent(){
+    var path = window.location.pathname.toLowerCase();
+    var title = (document.querySelector('h1') || {}).textContent || '';
+    var intent = {
+      key: 'default',
+      tone: 'green',
+      kicker: 'Dakvraag laten beoordelen',
+      stickyLabel: 'Direct hulp nodig?',
+      stickyBadge: 'Gratis',
+      stickyButton: 'Dakinspectie aanvragen',
+      modalTitle: 'Vertel kort wat er aan de hand is',
+      modalText: 'Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.',
+      aanvraag: 'Gratis dakinspectie',
+      urgentie: 'Ik twijfel en wil advies',
+      stripTitle: 'Niet zeker welke vervolgstap past?',
+      stripText: 'Kies niet op gevoel. Laat kort meekijken, dan weet u of inspectie, opsporing of gericht herstel logisch is.',
+      primary: 'Situatie laten beoordelen',
+      secondary: 'Bel direct'
+    };
+
+    if(path.indexOf('spoed') !== -1 || path.indexOf('nood') !== -1){
+      return Object.assign(intent, {
+        key: 'spoed',
+        tone: 'orange',
+        kicker: 'Spoed of actieve lekkage',
+        stickyLabel: 'Water komt binnen?',
+        stickyBadge: 'Spoed',
+        stickyButton: 'Schade beperken',
+        modalTitle: 'Laat snel inschatten wat nodig is',
+        modalText: 'Bij actieve lekkage draait het eerst om schade beperken. Beschrijf kort wat er gebeurt, dan bepalen we of noodreparatie of directe opvolging verstandig is.',
+        aanvraag: 'Spoed of noodreparatie',
+        urgentie: 'Er komt nu water binnen',
+        stripTitle: 'Komt er nu water binnen?',
+        stripText: 'Dan is eerst schade beperken belangrijker dan uitgebreid vergelijken. Geef kort door wat er gebeurt of bel direct.',
+        primary: 'Spoedhulp aanvragen'
+      });
+    }
+
+    if(path.indexOf('lekkage') !== -1 || path.indexOf('lekkages') !== -1){
+      return Object.assign(intent, {
+        key: 'lekkage',
+        kicker: 'Oorzaak laten bepalen',
+        stickyLabel: 'Lekkage of vocht?',
+        stickyButton: 'Oorzaak laten bepalen',
+        modalTitle: 'Laat de lekkage gericht beoordelen',
+        modalText: 'Water wordt vaak ergens anders zichtbaar dan waar het binnenkomt. Beschrijf het symptoom, dan helpen we kiezen tussen opsporen, inspectie of herstel.',
+        aanvraag: 'Daklekkage of vochtplek',
+        urgentie: 'Ik zie vocht of schade',
+        stripTitle: 'Ziet u vocht, schimmel of druppelsporen?',
+        stripText: 'Start met de oorzaak. Dat voorkomt gokreparaties en maakt duidelijk welke lekkagepagina of dienst past.',
+        primary: 'Oorzaak laten bepalen'
+      });
+    }
+
+    if(path.indexOf('dakinspectie') !== -1 || path.indexOf('gratis-dakinspectie') !== -1){
+      return Object.assign(intent, {
+        key: 'inspectie',
+        kicker: 'Rustig laten beoordelen',
+        stickyLabel: 'Twijfel over uw dak?',
+        stickyButton: 'Inspectie aanvragen',
+        modalTitle: 'Vraag een dakinspectie aan',
+        modalText: 'Beschrijf waarom u twijfelt. We kijken of inspectie genoeg is of dat lekkage opsporen of gericht herstel logischer is.',
+        aanvraag: 'Gratis dakinspectie',
+        urgentie: 'Preventieve inspectie',
+        stripTitle: 'Twijfel hoeft geen gok te blijven',
+        stripText: 'Een inspectie geeft duidelijkheid over de staat van het dak en voorkomt onnodig herstel.',
+        primary: 'Dak laten beoordelen'
+      });
+    }
+
+    if(path.indexOf('kennisbank') !== -1 || path.indexOf('/blog/') !== -1){
+      return Object.assign(intent, {
+        key: 'kennisbank',
+        kicker: 'Twijfel laten meekijken',
+        stickyLabel: 'Twijfelt u nog?',
+        stickyButton: 'Laat meekijken',
+        modalTitle: 'Laat uw situatie kort beoordelen',
+        modalText: 'Heeft u na het lezen nog twijfel? Beschrijf uw situatie, dan helpen we bepalen of inspectie, afwachten of herstel logisch is.',
+        aanvraag: 'Gratis dakinspectie',
+        urgentie: 'Ik twijfel en wil advies',
+        stripTitle: 'Van informatie naar zekerheid',
+        stripText: 'Herkent u uw situatie in dit artikel? Laat kort meekijken voordat u conclusies trekt.',
+        primary: 'Twijfel laten beoordelen'
+      });
+    }
+
+    if(path.indexOf('diensten') !== -1 || title.toLowerCase().indexOf('dienst') !== -1){
+      return Object.assign(intent, {
+        key: 'diensten',
+        kicker: 'Juiste dakdienst kiezen',
+        stickyLabel: 'Welke dienst past?',
+        stickyButton: 'Route laten kiezen',
+        modalTitle: 'Welke dakdienst past bij uw situatie?',
+        modalText: 'Beschrijf het dakdeel en wat u ziet. We helpen kiezen tussen inspectie, lekkage opsporen, schoorsteenwerk, loodwerk, renovatie of spoedherstel.',
+        aanvraag: 'Dakrenovatie of ander dakwerk',
+        urgentie: 'Ik twijfel en wil advies',
+        stripTitle: 'Niet zeker welke dienst u nodig heeft?',
+        stripText: 'Vertel welk dakdeel speelt. Wij sturen u naar de juiste route of adviseren eerst een inspectie.',
+        primary: 'Dienst laten kiezen'
+      });
+    }
+
+    return intent;
+  }
+
+  function setSelectValue(select, preferred){
+    if(!select || !preferred) return;
+    for(var i = 0; i < select.options.length; i++){
+      if(select.options[i].text === preferred || select.options[i].value === preferred){
+        select.selectedIndex = i;
+        return;
+      }
+    }
+  }
+
   function initStickyCTA(){
     var cta = document.querySelector('.sticky-cta');
     var hideSentinel = document.getElementById('hideStickySentinel');
     var isNearBottomCTA = false;
+    var intent = getPageIntent();
+
+    if(cta){
+      var box = cta.querySelector('.sticky-cta__box');
+      var label = cta.querySelector('.sticky-cta__label');
+      var badge = cta.querySelector('.sticky-cta__free-badge');
+      var primary = cta.querySelector('.sticky-cta__inspect');
+
+      cta.dataset.intent = intent.key;
+      if(box) box.dataset.tone = intent.tone;
+      if(label) label.innerHTML = '<span class="dot"></span> ' + intent.stickyLabel;
+      if(badge) badge.textContent = intent.stickyBadge;
+      if(primary){
+        primary.innerHTML = '<span class="sticky-cta__free-badge">' + intent.stickyBadge + '</span>' + intent.stickyButton;
+        primary.setAttribute('data-contact-intent', intent.key);
+      }
+    }
 
     function toggleCTA(){
       if(!cta) return;
@@ -143,6 +275,7 @@
 
   function initContactModal(){
     if(document.querySelector('[data-contact-modal]')) return;
+    var activeIntent = getPageIntent();
 
     var modal = document.createElement('div');
     modal.className = 'contact-modal';
@@ -152,9 +285,9 @@
       '<div class="contact-modal__backdrop" data-contact-modal-close></div>' +
       '<section class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">' +
         '<button class="contact-modal__close" type="button" aria-label="Formulier sluiten" data-contact-modal-close>&times;</button>' +
-        '<div class="premium-kicker"><span></span>Dakvraag laten beoordelen</div>' +
+        '<div class="premium-kicker" data-contact-modal-kicker><span></span>Dakvraag laten beoordelen</div>' +
         '<h2 id="contact-modal-title">Vertel kort wat er aan de hand is</h2>' +
-        '<p>Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.</p>' +
+        '<p data-contact-modal-text>Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.</p>' +
         '<form class="premium-form" data-dlo-contact-form>' +
           '<div class="premium-form__grid">' +
             '<label>Waar gaat het om?' +
@@ -192,13 +325,27 @@
       '</section>';
     document.body.appendChild(modal);
 
+    function applyIntent(intent){
+      activeIntent = intent || getPageIntent();
+      modal.dataset.intent = activeIntent.key;
+      var kicker = modal.querySelector('[data-contact-modal-kicker]');
+      var heading = modal.querySelector('#contact-modal-title');
+      var text = modal.querySelector('[data-contact-modal-text]');
+      if(kicker) kicker.innerHTML = '<span></span>' + activeIntent.kicker;
+      if(heading) heading.textContent = activeIntent.modalTitle;
+      if(text) text.textContent = activeIntent.modalText;
+      setSelectValue(modal.querySelector('select[name="aanvraag"]'), activeIntent.aanvraag);
+      setSelectValue(modal.querySelector('select[name="urgentie"]'), activeIntent.urgentie);
+    }
+
     function closeModal(){
       modal.classList.remove('is-open');
       modal.setAttribute('aria-hidden', 'true');
       document.documentElement.classList.remove('contact-modal-open');
     }
 
-    function openModal(){
+    function openModal(intent){
+      applyIntent(intent);
       modal.classList.add('is-open');
       modal.setAttribute('aria-hidden', 'false');
       document.documentElement.classList.add('contact-modal-open');
@@ -215,7 +362,7 @@
       if(!opensContactForm) return;
 
       event.preventDefault();
-      openModal();
+      openModal(getPageIntent());
     });
 
     modal.querySelectorAll('[data-contact-modal-close]').forEach(function(closeButton){
@@ -227,23 +374,111 @@
     });
   }
 
+  function initSmartConversionBlocks(){
+    if(document.querySelector('[data-smart-conversion]')) return;
+    var main = document.querySelector('main');
+    if(!main) return;
+
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/contact') !== -1) return;
+
+    var intent = getPageIntent();
+    var anchor = main.querySelector('.premium-hero, .kb-hero, .soft, .hero');
+    if(!anchor) return;
+
+    var strip = document.createElement('section');
+    strip.className = 'smart-conversion';
+    strip.setAttribute('data-smart-conversion', '');
+    strip.innerHTML =
+      '<div class="smart-conversion__inner">' +
+        '<div class="smart-conversion__copy">' +
+          '<span class="smart-conversion__kicker"><i></i>' + intent.kicker + '</span>' +
+          '<h2>' + intent.stripTitle + '</h2>' +
+          '<p>' + intent.stripText + '</p>' +
+        '</div>' +
+        '<div class="smart-conversion__routes" aria-label="Snelle routes">' +
+          '<a href="/pages/diensten/noodreparatie/"><b>Nu water binnen</b><span>Schade beperken</span></a>' +
+          '<a href="/pages/lekkages/lekkage-opsporen/"><b>Bron onzeker</b><span>Lekkage opsporen</span></a>' +
+          '<a href="/pages/diensten/gratis-dakinspectie/"><b>Twijfel of preventie</b><span>Dakinspectie</span></a>' +
+        '</div>' +
+        '<div class="smart-conversion__actions">' +
+          '<a class="smart-conversion__primary" href="/contact#formulier" data-contact-intent="' + intent.key + '">' + intent.primary + '</a>' +
+          '<a class="smart-conversion__secondary" href="tel:0851308251">' + intent.secondary + '</a>' +
+        '</div>' +
+      '</div>';
+
+    anchor.insertAdjacentElement('afterend', strip);
+  }
+
+  function initProjectProof(){
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/diensten/') === -1 && path.indexOf('/lekkages/') === -1) return;
+    if(document.querySelector('[data-project-proof]')) return;
+
+    var target = document.querySelector('main .premium-section:last-of-type, main .section:last-of-type');
+    if(!target) return;
+
+    fetch('/data/projects/location-projects.json')
+      .then(function(response){ return response.ok ? response.json() : []; })
+      .then(function(projects){
+        if(!Array.isArray(projects) || !projects.length) return;
+        var keyword = 'schoorsteen';
+        if(path.indexOf('plat') !== -1) keyword = 'plat';
+        if(path.indexOf('dakkapel') !== -1 || path.indexOf('dakraam') !== -1) keyword = 'dak';
+        if(path.indexOf('lood') !== -1) keyword = 'lood';
+
+        var selected = projects.filter(function(project){
+          var text = ((project.title || '') + ' ' + (project.summary || '') + ' ' + (project.category || '')).toLowerCase();
+          return text.indexOf(keyword) !== -1;
+        }).slice(0, 3);
+        if(selected.length < 3) selected = projects.slice(0, 3);
+
+        var section = document.createElement('section');
+        section.className = 'project-proof';
+        section.setAttribute('data-project-proof', '');
+        section.innerHTML =
+          '<div class="project-proof__inner">' +
+            '<div class="project-proof__head">' +
+              '<span class="smart-conversion__kicker"><i></i>Praktijkvoorbeelden</span>' +
+              '<h2>Vergelijkbare dakproblemen die we eerder oplosten</h2>' +
+              '<p>Projecten geven sneller vertrouwen dan alleen uitleg. Bekijk voorbeelden uit de praktijk of laat uw eigen situatie beoordelen.</p>' +
+            '</div>' +
+            '<div class="project-proof__grid">' + selected.map(function(project){
+              return '<a href="' + (project.url || '/pages/over-ons/uitgevoerde-projecten/') + '">' +
+                '<img src="' + (project.image || '/assets/img/logo-dark.png') + '" alt="' + (project.imageAlt || project.title || 'Uitgevoerd dakproject') + '" loading="lazy" decoding="async">' +
+                '<span>' + (project.place || project.location || 'Uitgevoerd project') + '</span>' +
+                '<strong>' + (project.title || 'Dakproject door Daklekkages Opgelost') + '</strong>' +
+              '</a>';
+            }).join('') + '</div>' +
+          '</div>';
+        target.insertAdjacentElement('beforebegin', section);
+      })
+      .catch(function(){});
+  }
+
   if(document.documentElement.dataset.includesLoaded === 'true'){
     initStickyCTA();
     initLogoCloud();
     initContactModal();
     initContactForms();
+    initSmartConversionBlocks();
+    initProjectProof();
   } else if(document.querySelector('[data-include]')){
     document.addEventListener('includes:loaded', function(){
       initStickyCTA();
       initLogoCloud();
       initContactModal();
       initContactForms();
+      initSmartConversionBlocks();
+      initProjectProof();
     }, { once: true });
   } else {
     initStickyCTA();
     initLogoCloud();
     initContactModal();
     initContactForms();
+    initSmartConversionBlocks();
+    initProjectProof();
   }
 
   // Subtiele micro-animaties (reveal on scroll)
