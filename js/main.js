@@ -623,6 +623,53 @@
     anchor.insertAdjacentElement('afterend', section);
   }
 
+  function initBlogAdvisorCTA(){
+    var ctas = document.querySelectorAll('.kb-page .kb-cta');
+    if(!ctas.length) return;
+
+    ctas.forEach(function(cta){
+      if(cta.dataset.advisorReady === 'true') return;
+      cta.dataset.advisorReady = 'true';
+      cta.classList.add('kb-cta--advisor');
+
+      var copy = cta.querySelector('h2');
+      var text = cta.querySelector('p');
+      if(copy) copy.textContent = 'Twijfelt u wat dit voor uw dak betekent?';
+      if(text) text.textContent = 'Sharona kijkt graag met u mee. Stuur kort wat u ziet, dan bepalen we of inspectie, opsporing of herstel de logische vervolgstap is.';
+
+      var actions = cta.querySelector('.kb-actions');
+      if(actions){
+        var primary = actions.querySelector('.kb-btn--primary');
+        var secondary = actions.querySelector('.kb-btn--ghost');
+        if(primary){
+          primary.setAttribute('href', '/contact#formulier');
+          primary.textContent = 'Vraag advies aan';
+        }
+        if(secondary){
+          secondary.textContent = 'Bel direct';
+        }
+      }
+
+      if(!cta.querySelector('.kb-cta__advisor')){
+        var advisor = document.createElement('div');
+        advisor.className = 'kb-cta__advisor';
+        advisor.innerHTML =
+          '<img src="/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp" alt="Sharona van Daklekkages Opgelost helpt met dakvragen" loading="lazy" decoding="async">' +
+          '<div><strong>Sharona</strong><span>Helpt u naar de juiste vervolgstap</span></div>';
+        cta.insertBefore(advisor, cta.firstChild);
+      }
+    });
+  }
+
+  function cleanLegacyBlogFragments(){
+    document.querySelectorAll('.kb-article-card div').forEach(function(node){
+      var text = (node.textContent || '').replace(/\s+/g, ' ').trim();
+      if(text.indexOf('Of vul het formulier direct in') !== -1 && text.indexOf('Gratis dakinspectie aanvragen') !== -1){
+        node.remove();
+      }
+    });
+  }
+
   if(document.documentElement.dataset.includesLoaded === 'true'){
     initStickyCTA();
     initLogoCloud();
@@ -631,6 +678,8 @@
     initSmartConversionBlocks();
     initProjectProof();
     initKnowledgeServiceLinks();
+    cleanLegacyBlogFragments();
+    initBlogAdvisorCTA();
   } else if(document.querySelector('[data-include]')){
     document.addEventListener('includes:loaded', function(){
       initStickyCTA();
@@ -640,6 +689,8 @@
       initSmartConversionBlocks();
       initProjectProof();
       initKnowledgeServiceLinks();
+      cleanLegacyBlogFragments();
+      initBlogAdvisorCTA();
     }, { once: true });
   } else {
     initStickyCTA();
@@ -649,6 +700,8 @@
     initSmartConversionBlocks();
     initProjectProof();
     initKnowledgeServiceLinks();
+    cleanLegacyBlogFragments();
+    initBlogAdvisorCTA();
   }
 
   // Subtiele micro-animaties (reveal on scroll)
