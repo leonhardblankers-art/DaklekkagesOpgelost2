@@ -654,7 +654,7 @@
         var advisor = document.createElement('div');
         advisor.className = 'kb-cta__advisor';
         advisor.innerHTML =
-          '<img src="/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp" alt="Sharona van Daklekkages Opgelost helpt met dakvragen" loading="lazy" decoding="async">' +
+          '<img src="/assets/img/pages/uitgevoerde-projecten/sharona-advies-daklekkages-opgelost-cutout-v2.png" alt="Sharona van Daklekkages Opgelost helpt met dakvragen" loading="lazy" decoding="async">' +
           '<div><strong>Sharona</strong><span>Helpt u naar de juiste vervolgstap</span></div>';
         cta.appendChild(advisor);
       }
