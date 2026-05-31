@@ -1,0 +1,54 @@
+{
+  "title": "Schoorsteen lood vervangen | Kennisbank Daklekkages Opgelost",
+  "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/kennisbank/06-schoorsteen-lood-vervangen/",
+  "ogTitle": "Schoorsteen lood vervangen | Kennisbank",
+  "ogDescription": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.daklekkagesopgelost.nl/kennisbank/06-schoorsteen-lood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/kennisbank/06-schoorsteen-lood-vervangen/",
+        "name": "Schoorsteen lood vervangen | Kennisbank",
+        "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Schoorsteen lood vervangen"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Kennisbank",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Schoorsteen lood vervangen",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/06-schoorsteen-lood-vervangen/"
+          }
+        ]
+      }
+    ]
+  }
+}

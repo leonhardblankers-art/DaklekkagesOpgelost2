@@ -8,17 +8,37 @@ async function loadSEO(path) {
 
     const seo = await res.json();
 
+    const ensureMeta = (selector, createAttrs) => {
+      let node = document.querySelector(selector);
+      if (!node) {
+        node = document.createElement("meta");
+        Object.entries(createAttrs).forEach(([key, value]) => node.setAttribute(key, value));
+        document.head.appendChild(node);
+      }
+      return node;
+    };
+
+    const ensureLink = (selector, createAttrs) => {
+      let node = document.querySelector(selector);
+      if (!node) {
+        node = document.createElement("link");
+        Object.entries(createAttrs).forEach(([key, value]) => node.setAttribute(key, value));
+        document.head.appendChild(node);
+      }
+      return node;
+    };
+
     // Basis meta
     document.title = seo.title;
-    document.getElementById("seo-description").setAttribute("content", seo.description);
-    document.getElementById("seo-robots").setAttribute("content", seo.robots);
-    document.getElementById("seo-canonical").setAttribute("href", seo.canonical);
+    ensureMeta("#seo-description, meta[name='description']", { name: "description", id: "seo-description" }).setAttribute("content", seo.description);
+    ensureMeta("#seo-robots, meta[name='robots']", { name: "robots", id: "seo-robots" }).setAttribute("content", seo.robots);
+    ensureLink("#seo-canonical, link[rel='canonical']", { rel: "canonical", id: "seo-canonical" }).setAttribute("href", seo.canonical);
 
     // Open Graph
-    document.getElementById("seo-og-title").setAttribute("content", seo.ogTitle);
-    document.getElementById("seo-og-description").setAttribute("content", seo.ogDescription);
-    document.getElementById("seo-og-type").setAttribute("content", seo.ogType);
-    document.getElementById("seo-og-url").setAttribute("content", seo.canonical);
+    ensureMeta("#seo-og-title, meta[property='og:title']", { property: "og:title", id: "seo-og-title" }).setAttribute("content", seo.ogTitle);
+    ensureMeta("#seo-og-description, meta[property='og:description']", { property: "og:description", id: "seo-og-description" }).setAttribute("content", seo.ogDescription);
+    ensureMeta("#seo-og-type, meta[property='og:type']", { property: "og:type", id: "seo-og-type" }).setAttribute("content", seo.ogType);
+    ensureMeta("#seo-og-url, meta[property='og:url']", { property: "og:url", id: "seo-og-url" }).setAttribute("content", seo.canonical);
 
     // OG Image (optioneel)
     if (seo.ogImage) {

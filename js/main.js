@@ -358,7 +358,7 @@
       if(!opener || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
 
       var href = opener.getAttribute('href') || '';
-      var opensContactForm = href === '#formulier' || href.indexOf('/contact#formulier') !== -1 || href.indexOf('/pages/contact/#formulier') !== -1;
+      var opensContactForm = href === '#formulier' || href.indexOf('/pages/contact/#formulier') !== -1 || href.indexOf('/pages/contact/#formulier') !== -1;
       if(!opensContactForm) return;
 
       event.preventDefault();
@@ -402,7 +402,7 @@
           '<a href="/pages/diensten/gratis-dakinspectie/"><b>Twijfel of preventie</b><span>Dakinspectie</span></a>' +
         '</div>' +
         '<div class="smart-conversion__actions">' +
-          '<a class="smart-conversion__primary" href="/contact#formulier" data-contact-intent="' + intent.key + '">' + intent.primary + '</a>' +
+          '<a class="smart-conversion__primary" href="/pages/contact/#formulier" data-contact-intent="' + intent.key + '">' + intent.primary + '</a>' +
           '<a class="smart-conversion__secondary" href="tel:0851308251">' + intent.secondary + '</a>' +
         '</div>' +
       '</div>';
@@ -642,7 +642,7 @@
         var primary = actions.querySelector('.kb-btn--primary');
         var secondary = actions.querySelector('.kb-btn--ghost');
         if(primary){
-          primary.setAttribute('href', '/contact#formulier');
+          primary.setAttribute('href', '/pages/contact/#formulier');
           primary.textContent = 'Vraag advies aan';
         }
         if(secondary){
@@ -659,6 +659,173 @@
         cta.insertBefore(advisor, cta.firstChild);
       }
     });
+  }
+
+  function initLeakageMoneyLayer(){
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/pages/lekkages/') === -1 || path === '/pages/lekkages/' || document.querySelector('[data-leakage-money-layer]')) return;
+
+    var configs = [
+      {
+        match: 'daklekkage',
+        title: 'Daklekkage oplossen zonder symptoombestrijding',
+        text: 'Bij een daklekkage is de zichtbare vochtplek meestal niet de plek waar water binnenkomt. Daarom sturen we eerst op oorzaak, daarna pas op herstel.',
+        cta: 'Daklekkage laten beoordelen',
+        cards: [
+          ['01', 'Wat merkt u?', 'Vochtplek, druppels, schimmel of schade die vooral bij regen zichtbaar wordt.'],
+          ['02', 'Wat zoeken we uit?', 'De route van het water via dakbedekking, lood, nok, schoorsteen of aansluitingen.'],
+          ['03', 'Wat is logisch?', 'Gericht herstellen als de oorzaak helder is, of eerst lekkage opsporen bij twijfel.']
+        ],
+        links: [
+          ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen'],
+          ['/pages/lekkages/plat-dak-lekkage/', 'Plat dak lekkage oplossen'],
+          ['/pages/lekkages/schoorsteenlekkage/', 'Schoorsteenlekkage oplossen']
+        ]
+      },
+      {
+        match: 'lekkage-opsporen',
+        title: 'Lekkage opsporen voordat er onnodig wordt gerepareerd',
+        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op één zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
+        cta: 'Laat de lekkage opsporen',
+        cards: [
+          ['01', 'Wanneer nodig?', 'Bij terugkerende lekkage, onduidelijke vochtplekken of lekkage die alleen bij slagregen ontstaat.'],
+          ['02', 'Waar kijken we naar?', 'Aansluitingen, daklood, dakbedekking, nokken, doorvoeren en sporen onder het dakvlak.'],
+          ['03', 'Wat krijgt u?', 'Een duidelijke uitleg van de vermoedelijke oorzaak en de meest logische herstelroute.']
+        ],
+        links: [
+          ['/pages/lekkages/daklekkage/', 'Daklekkage oplossen'],
+          ['/pages/lekkages/noklekkage/', 'Noklekkage oplossen'],
+          ['/pages/lekkages/loodslabben-lekkage/', 'Loodslabben lekkage oplossen']
+        ]
+      },
+      {
+        match: 'schoorsteenlekkage',
+        title: 'Schoorsteenlekkage oplossen met aandacht voor lood, voegwerk en aansluiting',
+        text: 'Lekkage rond een schoorsteen ontstaat vaak door een combinatie van verouderd lood, poreus metselwerk, slechte voegen of een kwetsbare aansluiting met het dakvlak.',
+        cta: 'Schoorsteenlekkage laten controleren',
+        cards: [
+          ['01', 'Herkenbaar signaal', 'Vocht rond de schoorsteen, zolder, plafond of binnenmuur na regen of harde wind.'],
+          ['02', 'Belangrijke oorzaak', 'Schoorsteenlood, voegwerk, scheuren, afdekking of aansluiting met dakpannen.'],
+          ['03', 'Duurzame route', 'Niet alleen afdichten, maar bepalen of loodwerk, renovatie of plaatselijk herstel nodig is.']
+        ],
+        links: [
+          ['/pages/diensten/schoorsteenrenovatie/', 'Schoorsteenrenovatie'],
+          ['/pages/diensten/schoorsteenlood-vervangen/', 'Schoorsteenlood vervangen'],
+          ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'noklekkage',
+        title: 'Noklekkage oplossen bij schade rond nokvorsten of mortel',
+        text: 'De nok vangt veel wind en regen. Kleine scheuren, losliggende nokvorsten of verouderde mortel kunnen daardoor sneller tot lekkage leiden.',
+        cta: 'Noklekkage laten repareren',
+        cards: [
+          ['01', 'Wat ziet u?', 'Vocht bij de nok, zolder of dakbeschot, vaak na storm of slagregen.'],
+          ['02', 'Wat controleren we?', 'Nokvorsten, mortel, ruiter, panlatten en aansluitingen rondom de nok.'],
+          ['03', 'Welke keuze?', 'Plaatselijk herstellen, nokrenovatie of breder dakherstel wanneer de nok structureel verouderd is.']
+        ],
+        links: [
+          ['/pages/diensten/nokrenovatie/', 'Nokrenovatie'],
+          ['/pages/lekkages/daklekkage/', 'Daklekkage oplossen'],
+          ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'loodslabben-lekkage',
+        title: 'Lekkage door loodslabben oplossen bij kwetsbare dakdetails',
+        text: 'Daklood en loodslabben beschermen aansluitingen. Als lood scheurt, loskomt of verkeerd is aangebracht, kan water ongemerkt achter de aansluiting verdwijnen.',
+        cta: 'Daklood lekkage laten herstellen',
+        cards: [
+          ['01', 'Waar gebeurt dit?', 'Bij schoorstenen, dakkapellen, gevels, kozijnen, dakramen en andere dakdoorbrekingen.'],
+          ['02', 'Wat gaat mis?', 'Scheuren, opwaaien, losliggende slabben, verkeerde overlap of verouderde aansluiting.'],
+          ['03', 'Wat is verstandig?', 'Bepalen of repareren genoeg is of dat lood vervangen de duurzame oplossing is.']
+        ],
+        links: [
+          ['/pages/diensten/daklood-vervangen/', 'Daklood vervangen'],
+          ['/pages/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen'],
+          ['/pages/lekkages/schoorsteenlekkage/', 'Schoorsteenlekkage oplossen']
+        ]
+      },
+      {
+        match: 'daklood-loodslabben-lekkage',
+        title: 'Lekkage door daklood oplossen bij kwetsbare aansluitingen',
+        text: 'Daklood is vaak het detail dat bepaalt of een dak echt waterdicht blijft. Vooral rondom schoorstenen, dakkapellen en gevels is een goede beoordeling belangrijk.',
+        cta: 'Daklood lekkage laten herstellen',
+        cards: [
+          ['01', 'Typisch signaal', 'Vocht onder een aansluiting, bij een dakkapel, schoorsteen of geveldetail.'],
+          ['02', 'Technische oorzaak', 'Gescheurd lood, losse slabben, verkeerde aansluiting of verouderd metselwerk.'],
+          ['03', 'Logische route', 'Gericht lood herstellen of vervangen, eventueel gecombineerd met opsporing.']
+        ],
+        links: [
+          ['/pages/diensten/daklood-vervangen/', 'Daklood vervangen'],
+          ['/pages/lekkages/loodslabben-lekkage/', 'Loodslabben lekkage oplossen'],
+          ['/pages/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'plat-dak-lekkage',
+        title: 'Plat dak lekkage oplossen bij bitumen, EPDM, naden of afvoer',
+        text: 'Een plat dak lekt vaak bij naden, dakranden, opstanden of afvoeren. De juiste oplossing hangt af van leeftijd, dakbedekking en de plek waar water blijft staan.',
+        cta: 'Plat dak lekkage laten oplossen',
+        cards: [
+          ['01', 'Wat herkent u?', 'Blaasvorming, scheuren, natte plekken, stilstaand water of lekkage rond een afvoer.'],
+          ['02', 'Wat beoordelen we?', 'Dakbedekking, naden, overlappen, afschot, afvoer en dakranden.'],
+          ['03', 'Wat kiezen we?', 'Reparatie als dat duurzaam kan, vervangen of overlagen als het dakvlak te ver heen is.']
+        ],
+        links: [
+          ['/pages/diensten/plat-dak-reparatie/', 'Plat dak reparatie'],
+          ['/pages/diensten/plat-dak-vervangen/', 'Plat dak vervangen'],
+          ['/pages/diensten/diensten-plat-dak/', 'Plat dak diensten']
+        ]
+      },
+      {
+        match: 'dakkapel-lekkage',
+        title: 'Dakkapel lekkage oplossen bij lood, dakbedekking of aansluiting',
+        text: 'Een dakkapel heeft meerdere kwetsbare details dicht bij elkaar. Water kan binnenkomen via lood, dakbedekking, kozijnen, zijwangen of de aansluiting met dakpannen.',
+        cta: 'Dakkapel lekkage laten controleren',
+        cards: [
+          ['01', 'Waar merkt u het?', 'Vocht rond kozijn, plafond, binnenwand of onder het platte dakdeel van de dakkapel.'],
+          ['02', 'Wat is vaak de oorzaak?', 'Oud dakkapellood, slechte dakbedekking, kier bij zijwang of aansluiting met het schuine dak.'],
+          ['03', 'Wat is slim?', 'Eerst bepalen welk detail faalt, daarna gericht lood vervangen, dak herstellen of renoveren.']
+        ],
+        links: [
+          ['/pages/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen'],
+          ['/pages/diensten/dakkapel-renoveren/', 'Dakkapel renoveren'],
+          ['/pages/diensten/diensten-dakkapel/', 'Dakkapel diensten']
+        ]
+      }
+    ];
+
+    var config = configs.find(function(item){ return path.indexOf(item.match) !== -1; });
+    if(!config) return;
+
+    var anchor = document.querySelector('main .sec.soft, main .premium-hero, main .soft');
+    if(!anchor) return;
+
+    var section = document.createElement('section');
+    section.className = 'leakage-money-layer';
+    section.setAttribute('data-leakage-money-layer', '');
+    section.innerHTML =
+      '<div class="leakage-money-layer__inner">' +
+        '<div class="leakage-money-layer__head">' +
+          '<span class="smart-conversion__kicker"><i></i>Keuzehulp bij lekkage</span>' +
+          '<h2>' + config.title + '</h2>' +
+          '<p>' + config.text + '</p>' +
+        '</div>' +
+        '<div class="leakage-money-layer__cards">' + config.cards.map(function(card){
+          return '<article><span>' + card[0] + '</span><h3>' + card[1] + '</h3><p>' + card[2] + '</p></article>';
+        }).join('') + '</div>' +
+        '<div class="leakage-money-layer__bottom">' +
+          '<div class="leakage-money-layer__links">' + config.links.map(function(link){
+            return '<a href="' + link[0] + '">' + link[1] + '</a>';
+          }).join('') + '</div>' +
+          '<div class="leakage-money-layer__actions">' +
+            '<a class="smart-conversion__primary" href="/pages/contact/#formulier">' + config.cta + '</a>' +
+            '<a class="smart-conversion__secondary" href="tel:0851308251">Overleg telefonisch</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    anchor.insertAdjacentElement('afterend', section);
   }
 
   function cleanLegacyBlogFragments(){
@@ -678,6 +845,7 @@
     initSmartConversionBlocks();
     initProjectProof();
     initKnowledgeServiceLinks();
+    initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
     initBlogAdvisorCTA();
   } else if(document.querySelector('[data-include]')){
@@ -689,6 +857,7 @@
       initSmartConversionBlocks();
       initProjectProof();
       initKnowledgeServiceLinks();
+      initLeakageMoneyLayer();
       cleanLegacyBlogFragments();
       initBlogAdvisorCTA();
     }, { once: true });
@@ -700,6 +869,7 @@
     initSmartConversionBlocks();
     initProjectProof();
     initKnowledgeServiceLinks();
+    initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
     initBlogAdvisorCTA();
   }

@@ -1,0 +1,49 @@
+{
+  "title": "Dakkapel lekkage oplossen | Lood, dakbedekking en aansluiting",
+  "description": "Dakkapel lekkage oplossen? Daklekkages Opgelost controleert lood, dakbedekking, kozijnen, zijwangen en aansluitingen en adviseert duurzaam herstel.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/",
+  "ogTitle": "Dakkapel lekkage oplossen | Daklekkages Opgelost",
+  "ogDescription": "Gerichte beoordeling en herstel bij lekkage rond dakkapel, loodslabben, dakbedekking en kozijnen.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/",
+        "url": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/",
+        "name": "Dakkapel lekkage oplossen",
+        "description": "Commerciële dienstenpagina voor het beoordelen en oplossen van lekkage bij dakkapellen.",
+        "mainEntity": {
+          "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/#service"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/#service",
+        "name": "Dakkapel lekkage oplossen",
+        "description": "Opsporen en herstellen van lekkage bij dakkapellen, waaronder loodslabben, dakbedekking, kozijnen, zijwangen en aansluitingen.",
+        "serviceType": "Daklekkage oplossen",
+        "provider": {
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Gelderland" },
+          { "@type": "AdministrativeArea", "name": "Noord-Brabant" },
+          { "@type": "AdministrativeArea", "name": "Utrecht" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gerelateerde diensten",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dakkapel lood vervangen", "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dakkapel renoveren", "url": "https://www.daklekkagesopgelost.nl/dakkapel-renoveren/" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lekkage opsporen", "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/" } }
+          ]
+        }
+      }
+    ]
+  }
+}

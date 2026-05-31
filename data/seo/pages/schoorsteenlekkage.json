@@ -1,10 +1,10 @@
 {
-  "title": "Schoorsteenlekkage oplossen: oorzaken, signalen en loodwerk | Daklekkages Opgelost",
-  "description": "Schoorsteenlekkage oplossen? Wij controleren lood, voegen, metselwerk en dakaansluitingen, vinden de waterroute en herstellen de oorzaak duurzaam.",
+  "title": "Schoorsteenlekkage oplossen | Lood, voegwerk en aansluiting",
+  "description": "Schoorsteenlekkage oplossen? Wij controleren schoorsteenlood, voegwerk, metselwerk en dak aansluiting en adviseren gericht duurzaam herstel.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
-  "ogTitle": "Schoorsteenlekkage oplossen: oorzaken, signalen en loodwerk | Daklekkages Opgelost",
-  "ogDescription": "Schoorsteenlekkage oplossen? Wij controleren lood, voegen, metselwerk en dakaansluitingen, vinden de waterroute en herstellen de oorzaak duurzaam.",
+  "ogTitle": "Schoorsteenlekkage oplossen | Lood, voegwerk en aansluiting",
+  "ogDescription": "Gerichte beoordeling en herstel bij lekkage rond schoorsteen, lood en voegwerk.",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp",
   "schema": {
@@ -14,35 +14,79 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
-        "name": "Schoorsteenlekkage oplossen: oorzaken, signalen en loodwerk | Daklekkages Opgelost",
-        "description": "Schoorsteenlekkage oplossen? Wij controleren lood, voegen, metselwerk en dakaansluitingen, vinden de waterroute en herstellen de oorzaak duurzaam.",
+        "name": "Schoorsteenlekkage oplossen | Lood, voegwerk en aansluiting",
+        "description": "Schoorsteenlekkage oplossen? Wij controleren schoorsteenlood, voegwerk, metselwerk en dak aansluiting en adviseren gericht duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
         },
-        "datePublished": "2026-05-28T08:00:00+01:00",
-        "dateModified": "2026-05-28T08:00:00+01:00",
         "mainEntity": {
-          "@type": "Service",
           "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/#service"
         },
+        "isPartOf": {
+          "@id": "https://www.daklekkagesopgelost.nl/#website"
+        },
         "breadcrumb": {
-          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage#breadcrumb"
+          "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/#breadcrumb"
         }
       },
       {
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/#service",
         "name": "Schoorsteenlekkage oplossen",
-        "description": "Schoorsteenlekkage oplossen? Wij controleren lood, voegen, metselwerk en dakaansluitingen, vinden de waterroute en herstellen de oorzaak duurzaam.",
+        "description": "Opsporen en herstellen van lekkage rond schoorstenen, schoorsteenlood, voegwerk en dak aansluitingen.",
+        "serviceType": "Daklekkage oplossen",
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
         "image": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
         },
         "provider": {
-          "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gerelateerde diensten",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Schoorsteenrenovatie",
+                "url": "https://www.daklekkagesopgelost.nl/schoorsteenrenovatie/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Schoorsteenlood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/schoorsteenlood-vervangen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Lekkage opsporen",
+                "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+              }
+            }
+          ]
         }
       },
       {
@@ -54,11 +98,7 @@
         "priceRange": "??",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-        },
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
         },
         "address": {
           "@type": "PostalAddress",
@@ -66,24 +106,11 @@
           "postalCode": "5314 AW",
           "addressLocality": "Bruchem",
           "addressCountry": "NL"
-        },
-        "areaServed": [
-          {
-            "@type": "AdministrativeArea",
-            "name": "Gelderland"
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Utrecht"
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Noord-Brabant"
-          }
-        ]
+        }
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -103,8 +130,7 @@
             "name": "Schoorsteenlekkage oplossen",
             "item": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage#breadcrumb"
+        ]
       }
     ]
   }

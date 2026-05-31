@@ -1,0 +1,54 @@
+{
+  "title": "dakkapel lood vervangen | Kennisbank Daklekkages Opgelost",
+  "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/kennisbank/09-dakkapel-lood-vervangen/",
+  "ogTitle": "dakkapel lood vervangen | Kennisbank",
+  "ogDescription": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.daklekkagesopgelost.nl/kennisbank/09-dakkapel-lood-vervangen/",
+        "url": "https://www.daklekkagesopgelost.nl/kennisbank/09-dakkapel-lood-vervangen/",
+        "name": "dakkapel lood vervangen | Kennisbank",
+        "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "dakkapel lood vervangen"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Kennisbank",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "dakkapel lood vervangen",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/09-dakkapel-lood-vervangen/"
+          }
+        ]
+      }
+    ]
+  }
+}

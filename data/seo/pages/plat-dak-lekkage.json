@@ -1,0 +1,49 @@
+{
+  "title": "Plat dak lekkage oplossen | Bitumen, EPDM en dakranden",
+  "description": "Plat dak lekkage oplossen? Daklekkages Opgelost beoordeelt dakbedekking, naden, afvoer en dakranden en adviseert de meest logische herstelroute.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
+  "ogTitle": "Plat dak lekkage oplossen | Daklekkages Opgelost",
+  "ogDescription": "Gerichte beoordeling en herstel bij lekkage aan bitumen, EPDM, dakranden, naden en afvoeren.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-01-lekkage-plat-dak-diensten-reparatie-plat-dak-1.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
+        "url": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
+        "name": "Plat dak lekkage oplossen",
+        "description": "Commerciële dienstenpagina voor het beoordelen en oplossen van lekkage aan platte daken.",
+        "mainEntity": {
+          "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/#service"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/#service",
+        "name": "Plat dak lekkage oplossen",
+        "description": "Opsporen en herstellen van lekkage aan platte daken, waaronder bitumen, EPDM, naden, afvoeren en dakranden.",
+        "serviceType": "Daklekkage oplossen",
+        "provider": {
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Gelderland" },
+          { "@type": "AdministrativeArea", "name": "Noord-Brabant" },
+          { "@type": "AdministrativeArea", "name": "Utrecht" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gerelateerde diensten",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plat dak reparatie", "url": "https://www.daklekkagesopgelost.nl/plat-dak-reparatie/" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plat dak vervangen", "url": "https://www.daklekkagesopgelost.nl/plat-dak-vervangen/" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lekkage opsporen", "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/" } }
+          ]
+        }
+      }
+    ]
+  }
+}

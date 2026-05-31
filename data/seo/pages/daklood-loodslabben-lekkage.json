@@ -1,0 +1,137 @@
+{
+  "title": "Daklood en loodslabben lekkage oplossen | Daklekkages Opgelost",
+  "description": "Daklood of loodslabben lekkage oplossen? Wij beoordelen kwetsbare aansluitingen rond schoorsteen, dakkapel, dakraam en gevel.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/",
+  "ogTitle": "Daklood en loodslabben lekkage oplossen | Daklekkages Opgelost",
+  "ogDescription": "Gerichte beoordeling en herstel bij lekkage door daklood of loodslabben.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/loodslabben-lekkage/loodslabben-lekkage-01-whatsapp-image-2026-03-04-at-23-34-47.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/",
+        "name": "Daklood en loodslabben lekkage oplossen | Daklekkages Opgelost",
+        "description": "Daklood of loodslabben lekkage oplossen? Wij beoordelen kwetsbare aansluitingen rond schoorsteen, dakkapel, dakraam en gevel.",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/loodslabben-lekkage/loodslabben-lekkage-01-whatsapp-image-2026-03-04-at-23-34-47.webp"
+        },
+        "mainEntity": {
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/#service"
+        },
+        "isPartOf": {
+          "@id": "https://www.daklekkagesopgelost.nl/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/#service",
+        "name": "Daklood en loodslabben lekkage oplossen",
+        "description": "Opsporen en herstellen van lekkage bij daklood, loodslabben en dakdetails.",
+        "serviceType": "Daklekkage oplossen",
+        "url": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/loodslabben-lekkage/loodslabben-lekkage-01-whatsapp-image-2026-03-04-at-23-34-47.webp"
+        },
+        "provider": {
+          "@id": "https://www.daklekkagesopgelost.nl#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gelderland"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Noord-Brabant"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Utrecht"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gerelateerde diensten",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Daklood vervangen",
+                "url": "https://www.daklekkagesopgelost.nl/daklood-vervangen/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Loodslabben lekkage oplossen",
+                "url": "https://www.daklekkagesopgelost.nl/loodslabben-lekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Lekkage opsporen",
+                "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "??",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Lekkages",
+            "item": "https://www.daklekkagesopgelost.nl/lekkages/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Daklood en loodslabben lekkage oplossen",
+            "item": "https://www.daklekkagesopgelost.nl/daklood-loodslabben-lekkage/"
+          }
+        ]
+      }
+    ]
+  }
+}

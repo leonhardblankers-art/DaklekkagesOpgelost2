@@ -1,0 +1,54 @@
+{
+  "title": "Dakdetails als faalpunten | Kennisbank Daklekkages Opgelost",
+  "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/kennisbank/17-dakdetails-als-faalpunten/",
+  "ogTitle": "Dakdetails als faalpunten | Kennisbank",
+  "ogDescription": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/17-dakdetails-als-faalpunten/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.daklekkagesopgelost.nl/kennisbank/17-dakdetails-als-faalpunten/",
+        "url": "https://www.daklekkagesopgelost.nl/kennisbank/17-dakdetails-als-faalpunten/",
+        "name": "Dakdetails als faalpunten | Kennisbank",
+        "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Dakdetails als faalpunten"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Kennisbank",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakdetails als faalpunten",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/17-dakdetails-als-faalpunten/"
+          }
+        ]
+      }
+    ]
+  }
+}

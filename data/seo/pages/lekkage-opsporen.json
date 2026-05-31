@@ -1,12 +1,12 @@
 {
-  "title": "Lekkage Opsporen | Daklekkages Opgelost",
-  "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+  "title": "Lekkage opsporen aan uw dak | Daklekkages Opgelost",
+  "description": "Lekkage opsporen aan uw dak voorkomt onnodig herstel. Wij zoeken gericht naar de bron bij vochtplekken, terugkerende lekkage en onduidelijke dakschade.",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
-  "ogTitle": "Lekkage Opsporen | Daklekkages Opgelost",
-  "ogDescription": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+  "ogTitle": "Lekkage opsporen aan uw dak | Daklekkages Opgelost",
+  "ogDescription": "Gericht lekkage opsporen bij vochtplekken, terugkerende lekkage en dakschade.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14,58 +14,35 @@
         "@type": "WebPage",
         "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
         "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
-        "name": "Lekkage Opsporen | Daklekkages Opgelost",
-        "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+        "name": "Lekkage opsporen aan uw dak | Daklekkages Opgelost",
+        "description": "Lekkage opsporen aan uw dak voorkomt onnodig herstel. Wij zoeken gericht naar de bron bij vochtplekken, terugkerende lekkage en onduidelijke dakschade.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
         },
-        "datePublished": "2026-05-28T08:00:00+01:00",
-        "dateModified": "2026-05-28T08:00:00+01:00",
         "mainEntity": {
-          "@type": "Service",
           "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service"
         },
+        "isPartOf": {
+          "@id": "https://www.daklekkagesopgelost.nl/#website"
+        },
         "breadcrumb": {
-          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen#breadcrumb"
+          "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#breadcrumb"
         }
       },
       {
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service",
-        "name": "Lekkage Opsporen | Daklekkages Opgelost",
-        "description": "Daklekkage in Gelderland of Brabant?Gratis inspectie → Bel direct Actief in Gelderland • Noord-Brabant • Utrecht Home › Lekkages › Lekkage opsporen Lekkag...",
+        "name": "Lekkage opsporen aan uw dak",
+        "description": "Gericht opsporen van de oorzaak van daklekkage zonder onnodig hak- of breekwerk.",
+        "serviceType": "Daklekkage oplossen",
         "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
         "image": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
         },
         "provider": {
-          "@type": "Organization",
           "@id": "https://www.daklekkagesopgelost.nl#organization"
-        }
-      },
-      {
-        "@type": "RoofingContractor",
-        "@id": "https://www.daklekkagesopgelost.nl#organization",
-        "name": "Daklekkages Opgelost",
-        "url": "https://www.daklekkagesopgelost.nl",
-        "telephone": "+31851308251",
-        "priceRange": "?",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-        },
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://49267567.fs1.hubspotusercontent-na1.net/hubfs/49267567/Logo%20(zwarte%20letters).png"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "De Kosterijstraat 17",
-          "postalCode": "5314 AW",
-          "addressLocality": "Bruchem",
-          "addressCountry": "NL"
         },
         "areaServed": [
           {
@@ -74,16 +51,66 @@
           },
           {
             "@type": "AdministrativeArea",
-            "name": "Utrecht"
+            "name": "Noord-Brabant"
           },
           {
             "@type": "AdministrativeArea",
-            "name": "Noord-Brabant"
+            "name": "Utrecht"
           }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Gerelateerde diensten",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Daklekkage oplossen",
+                "url": "https://www.daklekkagesopgelost.nl/daklekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Schoorsteenlekkage oplossen",
+                "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Noklekkage oplossen",
+                "url": "https://www.daklekkagesopgelost.nl/noklekkage/"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "RoofingContractor",
+        "@id": "https://www.daklekkagesopgelost.nl#organization",
+        "name": "Daklekkages Opgelost",
+        "url": "https://www.daklekkagesopgelost.nl",
+        "telephone": "+31851308251",
+        "priceRange": "??",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De Kosterijstraat 17",
+          "postalCode": "5314 AW",
+          "addressLocality": "Bruchem",
+          "addressCountry": "NL"
+        }
       },
       {
         "@type": "BreadcrumbList",
+        "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -94,11 +121,16 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Lekkage Opsporen | Daklekkages Opgelost",
+            "name": "Lekkages",
+            "item": "https://www.daklekkagesopgelost.nl/lekkages/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lekkage opsporen aan uw dak",
             "item": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/"
           }
-        ],
-        "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen#breadcrumb"
+        ]
       }
     ]
   }

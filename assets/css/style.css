@@ -617,6 +617,167 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
 .knowledge-service-links__grid a:hover { transform: translateY(-2px); border-color: rgba(29,151,83,.32); box-shadow: 0 14px 28px rgba(29,151,83,.10); }
 .knowledge-service-links__grid strong { color: var(--ink); line-height: 1.25; }
 .knowledge-service-links__grid span { color: var(--muted); font-size: 13px; line-height: 1.35; }
+.leakage-money-layer {
+  padding: 24px 20px;
+  background:
+    radial-gradient(900px 260px at 12% 0%, rgba(29,151,83,.09), transparent 58%),
+    linear-gradient(180deg,#fff,#f9fbfa);
+}
+.leakage-money-layer__inner {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 22px;
+  border: 1px solid rgba(29,151,83,.16);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 20px 48px rgba(15,17,21,.08);
+}
+.leakage-money-layer__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, .62fr);
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 16px;
+}
+.leakage-money-layer__head .smart-conversion__kicker {
+  width: fit-content;
+}
+.leakage-money-layer__head h2 {
+  grid-column: 1;
+  margin: 10px 0 0;
+  font-size: clamp(25px,2.4vw,36px);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+.leakage-money-layer__head p {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  margin: 0;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.65;
+}
+.leakage-money-layer__cards {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 12px;
+}
+.leakage-money-layer__cards article {
+  min-height: 172px;
+  padding: 18px;
+  border: 1px solid rgba(15,17,21,.08);
+  border-radius: 18px;
+  background: linear-gradient(180deg,#fff,#fbfcfb);
+  box-shadow: 0 10px 22px rgba(15,17,21,.05);
+}
+.leakage-money-layer__cards span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  background: rgba(29,151,83,.10);
+  color: var(--brand2);
+  font-weight: 900;
+}
+.leakage-money-layer__cards h3 {
+  margin: 14px 0 8px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.leakage-money-layer__cards p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.leakage-money-layer__bottom {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(15,17,21,.08);
+}
+.leakage-money-layer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.leakage-money-layer__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 9px 13px;
+  border: 1px solid rgba(29,151,83,.18);
+  border-radius: 999px;
+  background: rgba(29,151,83,.07);
+  color: var(--brand2);
+  font-size: 14px;
+  font-weight: 900;
+}
+.leakage-money-layer__actions {
+  display: flex;
+  gap: 10px;
+}
+.premium-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 16px;
+}
+.premium-info-card {
+  padding: 22px;
+  border: 1px solid rgba(15,17,21,.08);
+  border-radius: 20px;
+  background: linear-gradient(180deg,#fff,#fbfcfb);
+  box-shadow: 0 12px 28px rgba(15,17,21,.06);
+}
+.premium-info-card span {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(29,151,83,.10);
+  color: var(--brand2);
+  font-weight: 900;
+}
+.premium-info-card h2 {
+  margin: 16px 0 10px;
+  font-size: 22px;
+  line-height: 1.18;
+}
+.premium-info-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.68;
+}
+.premium-info-card a {
+  color: var(--brand2);
+  font-weight: 900;
+}
+@media(max-width:900px){
+  .leakage-money-layer__head,
+  .leakage-money-layer__bottom {
+    grid-template-columns: 1fr;
+  }
+  .leakage-money-layer__head p {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .leakage-money-layer__cards {
+    grid-template-columns: 1fr;
+  }
+  .leakage-money-layer__actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .premium-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
 @media(max-width:720px){
   .contact-modal { padding: 12px; align-items: end; }
   .contact-modal__dialog { max-height: 92vh; padding: 20px; border-radius: 22px 22px 0 0; }

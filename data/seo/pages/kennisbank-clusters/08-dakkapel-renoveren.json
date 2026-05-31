@@ -1,0 +1,54 @@
+{
+  "title": "Dakkapel renoveren | Kennisbank Daklekkages Opgelost",
+  "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "robots": "index, follow",
+  "canonical": "https://www.daklekkagesopgelost.nl/kennisbank/08-dakkapel-renoveren/",
+  "ogTitle": "Dakkapel renoveren | Kennisbank",
+  "ogDescription": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+  "ogType": "website",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/images/kennisbank/08-dakkapel-renoveren/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.daklekkagesopgelost.nl/kennisbank/08-dakkapel-renoveren/",
+        "url": "https://www.daklekkagesopgelost.nl/kennisbank/08-dakkapel-renoveren/",
+        "name": "Dakkapel renoveren | Kennisbank",
+        "description": "Een thematische kennisbanksectie met een pillarpagina en ondersteunende artikelen. Begin bij de hoofdpagina voor overzicht, of kies direct het specifieke onderwerp dat past bij uw situatie.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Daklekkages Opgelost",
+          "url": "https://www.daklekkagesopgelost.nl/"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Dakkapel renoveren"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.daklekkagesopgelost.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Kennisbank",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dakkapel renoveren",
+            "item": "https://www.daklekkagesopgelost.nl/kennisbank/08-dakkapel-renoveren/"
+          }
+        ]
+      }
+    ]
+  }
+}
