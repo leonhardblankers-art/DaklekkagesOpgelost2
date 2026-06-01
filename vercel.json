@@ -1,4 +1,5 @@
-﻿{
+{
+  "cleanUrls": true,
   "trailingSlash": true,
   "redirects": [
     {
@@ -7,51 +8,35 @@
       "permanent": true
     },
     {
-      "source": "/blog/:slug*",
+      "source": "/blog/:path*",
       "destination": "/kennisbank/",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/contact/",
-      "destination": "/pages/contact/index.html"
+      "source": "/contact/:path*",
+      "destination": "/pages/contact/:path*"
     },
     {
-      "source": "/diensten/",
-      "destination": "/pages/diensten/index.html"
+      "source": "/diensten/:path*",
+      "destination": "/pages/diensten/:path*"
     },
     {
-      "source": "/diensten/:path*/",
-      "destination": "/pages/diensten/:path*/index.html"
+      "source": "/lekkages/:path*",
+      "destination": "/pages/lekkages/:path*"
     },
     {
-      "source": "/lekkages/",
-      "destination": "/pages/lekkages/index.html"
+      "source": "/kennisbank/:path*",
+      "destination": "/pages/kennisbank/:path*"
     },
     {
-      "source": "/lekkages/:path*/",
-      "destination": "/pages/lekkages/:path*/index.html"
+      "source": "/over-ons/:path*",
+      "destination": "/pages/over-ons/:path*"
     },
     {
-      "source": "/kennisbank/",
-      "destination": "/pages/kennisbank/index.html"
-    },
-    {
-      "source": "/kennisbank/:cluster/",
-      "destination": "/pages/kennisbank/:cluster/index.html"
-    },
-    {
-      "source": "/kennisbank/:cluster/:article/",
-      "destination": "/pages/kennisbank/:cluster/:article/index.html"
-    },
-    {
-      "source": "/over-ons/",
-      "destination": "/pages/over-ons/index.html"
-    },
-    {
-      "source": "/over-ons/:path*/",
-      "destination": "/pages/over-ons/:path*/index.html"
+      "source": "/legal/:path*",
+      "destination": "/pages/legal/:path*"
     }
   ]
 }
