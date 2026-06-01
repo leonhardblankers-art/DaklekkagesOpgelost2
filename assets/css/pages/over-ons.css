@@ -1107,15 +1107,51 @@
     }
   }
   @media (max-width:640px){
-    .dlo h1{ max-width:none; font-size:clamp(30px,8vw,42px); }
-    .dlo h2{ font-size:clamp(24px,6.7vw,30px); }
+    .dlo .sec{
+      padding:32px 14px;
+    }
+    .dlo .container{
+      width:100%;
+      max-width:none;
+    }
+    .dlo h1{
+      max-width:none;
+      font-size:clamp(34px,10vw,42px);
+      line-height:1.08;
+      letter-spacing:-.35px;
+      text-wrap:balance;
+    }
+    .dlo h2{
+      max-width:none;
+      font-size:clamp(26px,8vw,34px);
+      line-height:1.12;
+      text-wrap:balance;
+    }
+    .dlo .lead,
+    .dlo p{
+      max-width:none;
+      font-size:16px;
+      line-height:1.7;
+    }
     .hero-shell,
     .summary-stage,
     .highlight-band,
     .cta-panel,
     .service-area-shell,
     .trust-shell{ padding:18px; }
-    .actions .btn{ flex:1 1 100%; min-width:0; }
+    .actions{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+    }
+    .actions .btn,
+    .btn{
+      width:100%;
+      flex:initial;
+      min-width:0;
+      white-space:normal;
+      text-align:center;
+    }
     .media-card{ min-height:320px; }
     .team-grid{ grid-template-columns:1fr; }
     .guarantee-main{

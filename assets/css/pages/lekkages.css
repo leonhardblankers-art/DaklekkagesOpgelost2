@@ -92,8 +92,9 @@
     background:#fff; color:var(--brand2);
     white-space:nowrap;
   }
-  .dlo .btn.primary{ background:var(--brand); color:#fff; }
-  .dlo .btn.primary:hover{ background:var(--brand2); transform:translateY(-2px); }
+  .dlo .btn.primary{ background:var(--brand); color:#fff !important; }
+  .dlo .btn.primary:hover,
+  .dlo .btn.primary:focus-visible{ background:var(--brand2); color:#fff !important; transform:translateY(-2px); }
   .dlo .btn.outline{ background:#fff; color:var(--brand2); }
   .dlo .btn.outline:hover{ background:rgba(29,151,83,.08); transform:translateY(-2px); }
 
@@ -728,4 +729,108 @@
     .dlo .photo-grid{ grid-template-columns:1fr; }
     .dlo .photo-card img{ height:auto; }
     .dlo .wrap{ padding:18px 14px; }
+  }
+
+  /* Mobiel: tussenpagina's als keuzehulp moeten echt leesbaar blijven */
+  @media(max-width:700px){
+    .dlo .wrap{
+      width:100%;
+      max-width:none;
+      padding:18px 14px;
+    }
+
+    .dlo h1{
+      max-width:none;
+      font-size:clamp(34px, 10vw, 42px);
+      line-height:1.08;
+      letter-spacing:-.35px;
+      text-wrap:balance;
+    }
+
+    .dlo h2{
+      max-width:none;
+      font-size:clamp(26px, 8vw, 34px);
+      line-height:1.12;
+      text-wrap:balance;
+    }
+
+    .dlo h3{
+      font-size:20px;
+      line-height:1.2;
+    }
+
+    .dlo p,
+    .dlo .lead,
+    .dlo .small,
+    .dlo .sym p,
+    .dlo .svc p,
+    .dlo .cathead p,
+    .dlo .faqBody p{
+      max-width:none;
+      font-size:16px;
+      line-height:1.7;
+    }
+
+    .dlo .actions{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+      flex-wrap:initial;
+    }
+
+    .dlo .btn{
+      width:100%;
+      min-width:0;
+      white-space:normal;
+      text-align:center;
+    }
+
+    .dlo .catgrid,
+    .dlo .symGrid,
+    .dlo .urgency-grid,
+    .dlo .twocol,
+    .dlo .photo-grid,
+    .dlo .bottom-two{
+      grid-template-columns:1fr !important;
+    }
+
+    .dlo .symGrid{
+      padding:14px;
+    }
+
+    .dlo .sym,
+    .dlo .svc,
+    .dlo .cat{
+      width:100%;
+      min-width:0;
+      min-height:auto;
+      padding:16px;
+    }
+
+    .dlo .symTop,
+    .dlo .svcTop{
+      align-items:flex-start;
+    }
+
+    .dlo .symLinks,
+    .dlo .chips{
+      display:grid;
+      grid-template-columns:1fr;
+      width:100%;
+    }
+
+    .dlo .miniLink,
+    .dlo .chip{
+      justify-content:center;
+      white-space:normal;
+      text-align:center;
+    }
+
+    .dlo details.faqItem summary{
+      align-items:flex-start;
+    }
+
+    .dlo .faqPill{
+      white-space:normal;
+    }
   }

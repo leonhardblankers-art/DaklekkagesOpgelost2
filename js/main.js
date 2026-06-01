@@ -119,6 +119,9 @@
     var hideSentinel = document.getElementById('hideStickySentinel');
     var isNearBottomCTA = false;
     var intent = getPageIntent();
+    var path = window.location.pathname.toLowerCase();
+    var isContactPage = path.indexOf('/pages/contact') !== -1 || path === '/contact/' || path === '/contact';
+    var isHomePage = document.querySelector('.home-main') || path === '/' || path.endsWith('/index.html');
 
     if(cta){
       var box = cta.querySelector('.sticky-cta__box');
@@ -138,7 +141,20 @@
 
     function toggleCTA(){
       if(!cta) return;
-      if(window.innerWidth > 1200 && window.scrollY > 300 && !isNearBottomCTA){
+      var showMobile = false;
+      if(window.innerWidth <= 760 && !isContactPage && !isNearBottomCTA){
+        if(isHomePage){
+          var hero = document.querySelector('.hero');
+          var heroBottom = hero ? hero.offsetTop + hero.offsetHeight : 520;
+          showMobile = window.scrollY > Math.max(280, heroBottom - window.innerHeight + 120);
+        } else {
+          showMobile = window.scrollY > 180;
+        }
+      }
+
+      document.documentElement.classList.toggle('sticky-mobile-visible', showMobile);
+
+      if(window.innerWidth > 1200 && window.scrollY > 300 && !isNearBottomCTA && !isContactPage){
         cta.classList.add('is-visible');
       } else {
         cta.classList.remove('is-visible');
@@ -160,6 +176,21 @@
     }
 
     toggleCTA();
+  }
+
+  function initMobileHeroCopy(){
+    var speech = document.querySelector('.home-main .speech');
+    if(!speech) return;
+
+    var fullText = 'We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.';
+    var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
+
+    function apply(){
+      speech.textContent = window.innerWidth <= 640 ? shortText : fullText;
+    }
+
+    apply();
+    window.addEventListener('resize', apply);
   }
 
   function initLogoCloud(){
@@ -197,10 +228,11 @@
 
       cloud.classList.add('visible');
 
+      var cloudDuration = window.innerWidth <= 768 ? 2800 : 6000;
       window.setTimeout(function(){
         cloud.classList.remove('visible');
         window.__wolkjeClosed = true;
-      }, 6000);
+      }, cloudDuration);
     }
 
     init();
@@ -851,6 +883,7 @@
   } else if(document.querySelector('[data-include]')){
     document.addEventListener('includes:loaded', function(){
       initStickyCTA();
+      initMobileHeroCopy();
       initLogoCloud();
       initContactModal();
       initContactForms();
@@ -863,6 +896,7 @@
     }, { once: true });
   } else {
     initStickyCTA();
+    initMobileHeroCopy();
     initLogoCloud();
     initContactModal();
     initContactForms();

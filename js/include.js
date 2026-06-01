@@ -90,15 +90,30 @@ function normaliseInternalLinks() {
 function initHeaderMenu() {
   const hamburger = document.querySelector('.hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
+  const mobileClose = document.querySelector('.mobile-menu-close');
 
   if (hamburger && mobileMenu && hamburger.dataset.bound !== 'true') {
     hamburger.dataset.bound = 'true';
+
+    const setMenuOpen = (nextOpen) => {
+      hamburger.setAttribute('aria-expanded', String(nextOpen));
+      hamburger.classList.toggle('is-open', nextOpen);
+      mobileMenu.classList.toggle('is-open', nextOpen);
+      mobileMenu.setAttribute('aria-hidden', String(!nextOpen));
+      document.documentElement.classList.toggle('mobile-menu-open', nextOpen);
+    };
+
     hamburger.addEventListener('click', () => {
       const open = hamburger.getAttribute('aria-expanded') === 'true';
-      hamburger.setAttribute('aria-expanded', String(!open));
-      hamburger.classList.toggle('is-open', !open);
-      mobileMenu.classList.toggle('is-open', !open);
-      mobileMenu.setAttribute('aria-hidden', String(open));
+      setMenuOpen(!open);
+    });
+
+    if (mobileClose) {
+      mobileClose.addEventListener('click', () => setMenuOpen(false));
+    }
+
+    mobileMenu.querySelectorAll('a[href]').forEach((link) => {
+      link.addEventListener('click', () => setMenuOpen(false));
     });
   }
 

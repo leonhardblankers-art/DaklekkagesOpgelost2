@@ -312,6 +312,108 @@
     .reveal{ opacity:1; transform:none; transition:none; }
   }
 
+  /* Mobiel: brede, rustige leeskolom en stapelende kaarten */
+  @media (max-width: 700px){
+    .dlo .sec{
+      padding:36px 14px;
+    }
+
+    .dlo .container{
+      width:100%;
+      max-width:none;
+    }
+
+    .dlo h1{
+      max-width:none;
+      font-size:clamp(34px, 10vw, 42px);
+      line-height:1.08;
+      letter-spacing:-.35px;
+      text-wrap:balance;
+    }
+
+    .dlo h2{
+      max-width:none;
+      font-size:clamp(26px, 8vw, 34px);
+      line-height:1.12;
+      text-wrap:balance;
+    }
+
+    .dlo h3{
+      font-size:20px;
+      line-height:1.2;
+    }
+
+    .dlo p,
+    .choice-body p{
+      max-width:none;
+      font-size:16px;
+      line-height:1.7;
+    }
+
+    .split,
+    .grid,
+    .flow,
+    .choice-grid{
+      grid-template-columns:1fr !important;
+    }
+
+    .card{
+      grid-column:auto;
+    }
+
+    .media-card.media-ratio{
+      aspect-ratio:16 / 11;
+    }
+
+    .actions{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+    }
+
+    .btn{
+      width:100%;
+      min-width:0;
+      white-space:normal;
+      text-align:center;
+    }
+
+    .decision{
+      padding:18px 14px;
+      border-radius:22px;
+    }
+
+    details.choice-item{
+      width:100%;
+    }
+
+    .choice-summary{
+      align-items:flex-start;
+      padding:16px;
+      line-height:1.25;
+    }
+
+    .choice-body{
+      padding:0 16px 16px;
+    }
+
+    .choice-arrow{
+      font-size:22px;
+      flex:0 0 auto;
+    }
+
+    .pills{
+      display:grid;
+      grid-template-columns:1fr;
+    }
+
+    .pill{
+      justify-content:center;
+      white-space:normal;
+      text-align:center;
+    }
+  }
+
   
   
   
