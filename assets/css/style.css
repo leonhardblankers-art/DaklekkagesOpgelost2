@@ -36,6 +36,7 @@ header nav a { font-weight: 700; }
    LAYOUT
 ============================================= */
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+.home-main > .section .wrap { max-width: 1200px; }
 .section { padding: 34px 0; }
 .soft { background: #f7f8f7; }
 .white { background: #fff; }
@@ -443,7 +444,7 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
 }
 .smart-conversion__inner,
 .project-proof__inner {
-  width: min(1120px, 100%);
+  width: min(1200px, 100%);
   margin: 0 auto;
   border: 1px solid rgba(15,17,21,.08);
   border-radius: 24px;
@@ -456,7 +457,7 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
 .smart-conversion__inner {
   display: grid;
   grid-template-columns: minmax(0,.95fr) minmax(360px,1.05fr) auto;
-  gap: 18px;
+  gap: 16px;
   align-items: center;
 }
 .smart-conversion__kicker {
