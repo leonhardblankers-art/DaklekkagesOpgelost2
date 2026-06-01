@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Lekkage oplossen: kies de juiste route bij daklekkage | Daklekkages Opgelost",
   "description": "Daklekkage oplossen begint met de juiste oorzaak herkennen. Gebruik de keuzehulp voor daklekkage, noklekkage, schoorsteenlekkage en loodslabben lekkage.",
   "robots": "index, follow",
@@ -18,7 +18,7 @@
         "description": "Daklekkage oplossen begint met de juiste oorzaak herkennen. Gebruik de keuzehulp voor daklekkage, noklekkage, schoorsteenlekkage en loodslabben lekkage.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/lekkages/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/lekkages/lekkages-01-lekkage-uit-schoorsteen.webp"
         },
         "provider": {
           "@type": "Organization",

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Dakkapel lood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
   "description": "Dakkapel lood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Dakkapel lood vervangen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
   "ogDescription": "Dakkapel lood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -18,7 +18,7 @@
         "description": "Dakkapel lood vervangen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/dakkapel-lood-vervangen/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-visual-01-dakkapel-informatiepagina-dakkapel.webp"
         },
         "provider": {
           "@type": "Organization",
@@ -51,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "â‚¬â‚¬",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"

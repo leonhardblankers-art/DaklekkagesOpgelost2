@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+Disallow: /pages/archief/
+
+Sitemap: https://www.daklekkagesopgelost.nl/sitemap.xml

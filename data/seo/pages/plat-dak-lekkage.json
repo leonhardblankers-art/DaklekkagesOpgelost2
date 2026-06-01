@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Plat dak lekkage oplossen | Bitumen, EPDM en dakranden",
   "description": "Plat dak lekkage oplossen? Daklekkages Opgelost beoordeelt dakbedekking, naden, afvoer en dakranden en adviseert de meest logische herstelroute.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Plat dak lekkage oplossen | Daklekkages Opgelost",
   "ogDescription": "Gerichte beoordeling en herstel bij lekkage aan bitumen, EPDM, dakranden, naden en afvoeren.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/plat-dak-reparatie/plat-dak-reparatie-visual-01-lekkage-plat-dak-diensten-reparatie-plat-dak-1.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/plat-dak-reparatie/plat-dak-reparatie-visual-01-lekkage-plat-dak-diensten-reparatie-plat-dak-1.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -15,7 +15,7 @@
         "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
         "url": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
         "name": "Plat dak lekkage oplossen",
-        "description": "Commerciële dienstenpagina voor het beoordelen en oplossen van lekkage aan platte daken.",
+        "description": "CommerciÃ«le dienstenpagina voor het beoordelen en oplossen van lekkage aan platte daken.",
         "mainEntity": {
           "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/#service"
         }

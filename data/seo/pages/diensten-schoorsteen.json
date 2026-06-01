@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Diensten schoorsteen",
   "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schoorsteen die wij als vakmanschap...",
   "robots": "index, follow",
@@ -18,7 +18,7 @@
         "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schoorsteen die wij als vakmanschap...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/diensten-schoorsteen/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp"
         },
         "provider": {
           "@type": "Organization",

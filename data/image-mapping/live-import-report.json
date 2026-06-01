@@ -1,4 +1,4 @@
-{
+﻿{
   "generated_at": "2026-05-26T17:05:10.904157Z",
   "results": [
     {
@@ -268,7 +268,7 @@
   "new_image_mappings": [
     {
       "old_url": "https://www.daklekkagesopgelost.nl/hubfs/761d9f96-f5e0-459d-86cd-9480f74e63c1.png",
-      "future_path": "assets/img/pages/diensten/diensten-01-medewerker-daklekkages-opgelost.webp",
+      "future_path": "assets/img/diensten/diensten-01-medewerker-daklekkages-opgelost.webp",
       "page": "diensten",
       "alt": "Medewerker daklekkages opgelost"
     }

@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Dakdekkersdiensten voor lekkage, renovatie en onderhoud | Daklekkages Opgelost",
   "description": "Bekijk alle dakdekkersdiensten van Daklekkages Opgelost. Kies snel de juiste route voor lekkage, schoorsteen, plat dak, schuin dak, daklood, dakkapel of inspectie.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Dakdekkersdiensten voor lekkage, renovatie en onderhoud",
   "ogDescription": "Kies snel de juiste dakdienst voor uw situatie: lekkage, schoorsteen, plat dak, schuin dak, daklood, dakkapel of inspectie.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/diensten/diensten-visual-01-dakgoot-plaatsen.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -18,7 +18,7 @@
         "description": "Overzicht van dakdekkersdiensten voor daklekkage, dakinspectie, schoorsteenwerk, platte daken, schuine daken, daklood, dakkapellen en dakramen.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten/diensten-visual-01-dakgoot-plaatsen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten/diensten-visual-01-dakgoot-plaatsen.webp"
         },
         "dateModified": "2026-05-30",
         "mainEntity": {

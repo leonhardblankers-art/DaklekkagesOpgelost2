@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Diensten schuin dak",
   "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
   "robots": "index, follow",
@@ -18,7 +18,7 @@
         "description": "Een overload aan informatie is soms lastig te doorgronden. Op deze pagina wijzen wij u de weg door alle diensten voor uw schuine dak die wij als vakmanschap...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/diensten-schuin-dak/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp"
         },
         "provider": {
           "@type": "Organization",

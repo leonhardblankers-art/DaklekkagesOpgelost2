@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Schoorsteenlekkage oplossen | Lood, voegwerk en aansluiting",
   "description": "Schoorsteenlekkage oplossen? Wij controleren schoorsteenlood, voegwerk, metselwerk en dak aansluiting en adviseren gericht duurzaam herstel.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteenlekkage oplossen | Lood, voegwerk en aansluiting",
   "ogDescription": "Gerichte beoordeling en herstel bij lekkage rond schoorsteen, lood en voegwerk.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -18,7 +18,7 @@
         "description": "Schoorsteenlekkage oplossen? Wij controleren schoorsteenlood, voegwerk, metselwerk en dak aansluiting en adviseren gericht duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
         },
         "mainEntity": {
           "@id": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/#service"
@@ -39,7 +39,7 @@
         "url": "https://www.daklekkagesopgelost.nl/schoorsteenlekkage/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteenlekkage/schoorsteenlekkage-01-schoorsteenlekkage-door-verkeerd-uitgevoerd-reparaties.webp"
         },
         "provider": {
           "@id": "https://www.daklekkagesopgelost.nl#organization"

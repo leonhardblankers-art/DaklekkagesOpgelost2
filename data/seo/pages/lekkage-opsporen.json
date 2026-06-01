@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Lekkage opsporen aan uw dak | Daklekkages Opgelost",
   "description": "Lekkage opsporen aan uw dak voorkomt onnodig herstel. Wij zoeken gericht naar de bron bij vochtplekken, terugkerende lekkage en onduidelijke dakschade.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Lekkage opsporen aan uw dak | Daklekkages Opgelost",
   "ogDescription": "Gericht lekkage opsporen bij vochtplekken, terugkerende lekkage en dakschade.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -18,7 +18,7 @@
         "description": "Lekkage opsporen aan uw dak voorkomt onnodig herstel. Wij zoeken gericht naar de bron bij vochtplekken, terugkerende lekkage en onduidelijke dakschade.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
         },
         "mainEntity": {
           "@id": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/#service"
@@ -39,7 +39,7 @@
         "url": "https://www.daklekkagesopgelost.nl/lekkage-opsporen/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/lekkage-opsporen/lekkage-opsporen-01-lekkage-opsporen-op-een-hellend-dak.webp"
         },
         "provider": {
           "@id": "https://www.daklekkagesopgelost.nl#organization"

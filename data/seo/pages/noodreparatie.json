@@ -1,10 +1,10 @@
-{
+﻿{
   "title": "Noodreparatie | Daklekkages Opgelost",
-  "description": "Direct hulp nodig?Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+  "description": "Direct hulp nodig?Gratis inspectie â†’ Bel direct Schade beperken â€¢ snel duidelijkheid â€¢ Ã©Ã©n aanspreekpunt Home â€º Lekkages â€º Noodreparatie Tijdelijke besche...",
   "robots": "index, follow",
   "canonical": "https://www.daklekkagesopgelost.nl/noodreparatie/",
   "ogTitle": "Noodreparatie | Daklekkages Opgelost",
-  "ogDescription": "Direct hulp nodig?Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+  "ogDescription": "Direct hulp nodig?Gratis inspectie â†’ Bel direct Schade beperken â€¢ snel duidelijkheid â€¢ Ã©Ã©n aanspreekpunt Home â€º Lekkages â€º Noodreparatie Tijdelijke besche...",
   "ogType": "website",
   "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png",
   "schema": {
@@ -15,10 +15,10 @@
         "@id": "https://www.daklekkagesopgelost.nl/noodreparatie/",
         "url": "https://www.daklekkagesopgelost.nl/noodreparatie/",
         "name": "Noodreparatie | Daklekkages Opgelost",
-        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+        "description": "Direct hulp nodig?Gratis inspectie â†’ Bel direct Schade beperken â€¢ snel duidelijkheid â€¢ Ã©Ã©n aanspreekpunt Home â€º Lekkages â€º Noodreparatie Tijdelijke besche...",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -34,11 +34,11 @@
         "@type": "Service",
         "@id": "https://www.daklekkagesopgelost.nl/noodreparatie/#service",
         "name": "Noodreparatie | Daklekkages Opgelost",
-        "description": "Direct hulp nodig?Gratis inspectie → Bel direct Schade beperken • snel duidelijkheid • één aanspreekpunt Home › Lekkages › Noodreparatie Tijdelijke besche...",
+        "description": "Direct hulp nodig?Gratis inspectie â†’ Bel direct Schade beperken â€¢ snel duidelijkheid â€¢ Ã©Ã©n aanspreekpunt Home â€º Lekkages â€º Noodreparatie Tijdelijke besche...",
         "url": "https://www.daklekkagesopgelost.nl/noodreparatie/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp"
         },
         "provider": {
           "@type": "Organization",

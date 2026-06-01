@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Schoorsteenrenovatie Rotterdam | Daklekkages Opgelost",
   "description": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
   "robots": "index, follow",
@@ -7,7 +7,7 @@
   "ogDescription": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
   "ogType": "article",
   "ogUrl": "https://www.daklekkagesopgelost.nl/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -19,7 +19,7 @@
         "description": "Schoorsteenrenovatie Rotterdam: herstel metsel-, voeg- en loodwerk voor een veilige, waterdichte en duurzame schoorsteen. Neem contact op voor een offerte!",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp"
         },
         "mainEntity": {
           "@type": "Article",
@@ -43,7 +43,7 @@
         "articleSection": "Uitgevoerde projecten",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp",
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/uitgevoerde-projecten/uitgevoerde-projecten-01-medewerker-daklekkages-opgelost.webp",
           "caption": "Schoorsteenrenovatie uitgevoerd door Daklekkages Opgelost"
         },
         "author": {

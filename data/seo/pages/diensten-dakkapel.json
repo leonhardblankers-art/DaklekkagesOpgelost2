@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Diensten dakkapel",
   "description": "Daklekkage Opgelost is de partij voor alle werkzaamheden aan uw dakkapel. Zie wat wij voor u kunnen beteken!",
   "robots": "index, follow",
@@ -18,7 +18,7 @@
         "description": "Daklekkage Opgelost is de partij voor alle werkzaamheden aan uw dakkapel. Zie wat wij voor u kunnen beteken!",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/diensten-dakkapel/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp"
         },
         "provider": {
           "@type": "Organization",

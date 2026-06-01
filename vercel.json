@@ -1,0 +1,2027 @@
+﻿{
+    "cleanUrls":  true,
+    "trailingSlash":  true,
+    "redirects":  [
+                      {
+                          "source":  "/pages/:path*",
+                          "destination":  "/:path*",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakinspectie-wat-wordt-er-gecontroleerd-en-wat-zegt-dat-echt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/daklekkage-voorkomen-wat-onderhoud-wel-kan-en-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-hoe-het-de-levensduur-van-je-dak-verlengt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakonderhoud-wat-is-zinvol",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-wat-is-zinvol/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakonderhoud-wat-is-zinvol/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/dakonderhoud-wat-is-zinvol/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/gratis-dakinspectie-inzicht-in-de-staat-van-uw-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-aan-platte-daken-waar-gaat-het-in-de-praktijk-mis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/onderhoud-van-pannendaken-wat-heeft-wél-effect-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakonderhoud-niet-meer-zinvol",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakonderhoud-niet-meer-zinvol/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/wanneer-is-dakonderhoud-niet-meer-zinvol/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet/",
+                          "destination":  "/kennisbank/01-dakonderhoud-en-inspectie/zelf-je-dak-controleren-wat-kun-je-zien-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-bij-hevige-regen-waarom-sommige-daken-alleen-dan-lekken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-en-isolatie-waarom-nat-isolatiemateriaal-een-onderschat-probleem-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-oorzaken-uit-de-praktijk",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-oorzaken-uit-de-praktijk/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/daklekkage-oorzaken-uit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/lekkage-of-condens-zo-herken-je-het-verschil-in-huis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-of-condens-zo-herken-je-het-verschil-in-huis/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/lekkage-of-condens-zo-herken-je-het-verschil-in-huis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/schimmelvorming-na-daklekkage-wanneer-vocht-een-blijvend-probleem-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/wat-gebeurt-er-als-je-een-daklekkage-te-lang-negeert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade/",
+                          "destination":  "/kennisbank/02-daklekkage-en-schade/waterschade-door-daklekkage-hoe-herken-je-verborgen-schade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/dakcoatings-en-andere-technieken-om-de-levensduur-van-je-dak-te-verlengen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/dakinspectie-hoe-hoe-vaak-en-wat-te-laten-checken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/effect-van-klimaat-en-weersinvloeden-op-daklevensduur/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/effect-van-klimaat-en-weersinvloeden-op-daklevensduur/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/effect-van-klimaat-en-weersinvloeden-op-daklevensduur/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/levensduur-per-daktype-en-wat-dat-betekent-voor-vervanging/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/wanneer-is-dakreparatie-voldoende-en-wanneer-is-vervanging-verstandiger/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-dak-echt-toe-aan-vervanging",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/wanneer-is-een-dak-echt-toe-aan-vervanging/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-dak-echt-toe-aan-vervanging/",
+                          "destination":  "/kennisbank/03-dakvervanging-en-levensduur/wanneer-is-een-dak-echt-toe-aan-vervanging/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/condens-en-vochtproblemen-na-dakisolatie-hoe-ontstaan-ze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-energielabel-wat-merk-je-in-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-en-ventilatie-waarom-balans-belangrijker-is-dan-maximale-isolatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-van-binnenuit-wanneer-is-dit-de-juiste-keuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-van-buitenaf-voordelen-nadelen-en-praktische-gevolgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-wat-levert-het-op",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-wat-levert-het-op/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/dakisolatie-wat-levert-het-op/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze/",
+                          "destination":  "/kennisbank/04-dakisolatie-en-duurzaamheid/isolatiematerialen-en-duurzaamheid-wat-betekent-je-materiaalkeuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/binnenzijde-van-de-schoorsteen-rookkanalen-condens-en-verborgen-schade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/hoe-een-schoorsteenlekkage-te-voorkomen-en-op-te-lossen-complete-gids/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/loodwerk-rondom-de-schoorsteen-functie-slijtage-en-verborgen-risicos/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oude-schoorsteen-behouden-of-verwijderen-wanneer-wat-verstandig-is",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/oude-schoorsteen-behouden-of-verwijderen-wanneer-wat-verstandig-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oude-schoorsteen-behouden-of-verwijderen-wanneer-wat-verstandig-is/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/oude-schoorsteen-behouden-of-verwijderen-wanneer-wat-verstandig-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-hoe-ontstaat-het-en-wat-zie-je-in-huis/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-lekkage-oorzaken-risicos-en-de-juiste-oplossing/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-reparatie-of-renovatie-wat-is-in-uw-situatie-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteen-scheef-of-instabiel-risicos-en-mogelijke-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenkap-functie-slijtage-en-veelgemaakte-misverstanden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenlekkage-waarom-water-zelden-komt-waar-je-het-verwacht",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenlekkage-waarom-water-zelden-komt-waar-je-het-verwacht/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenlekkage-waarom-water-zelden-komt-waar-je-het-verwacht/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenlekkage-waarom-water-zelden-komt-waar-je-het-verwacht/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-wanneer-nodig",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenrenovatie-wanneer-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-wanneer-nodig/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/schoorsteenrenovatie-wanneer-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen/",
+                          "destination":  "/kennisbank/05-schoorsteenrenovatie/voegwerk-van-de-schoorsteen-wanneer-herstellen-en-wanneer-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/alternatieven-voor-traditioneel-schoorsteenlood-wat-werkt-wel-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/kosten-schoorsteenlood-vervangen-waar-moet-je-rekening-mee-houden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/lekkage-door-schoorsteenlood-oorzaken-en-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/levensduur-van-schoorsteenlood-wat-kun-je-realistisch-verwachten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lood-vervangen",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-lood-vervangen/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/schoorsteen-lood-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/schoorsteenlood-repareren-of-vervangen-wat-is-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/veelgemaakte-fouten-bij-schoorsteenlood-waarom-problemen-blijven-terugkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-moet-je-schoorsteenlood-vervangen",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/wanneer-moet-je-schoorsteenlood-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-moet-je-schoorsteenlood-vervangen/",
+                          "destination":  "/kennisbank/06-schoorsteen-lood-vervangen/wanneer-moet-je-schoorsteenlood-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-door-schoorsteen-herstellen-of-verwijderen/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/lekkage-door-schoorsteen-herstellen-of-verwijderen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-afdichten-in-plaats-van-verwijderen-wanneer-is-dat-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-tot-dakniveau-wanneer-is-dat-voldoende/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-wat-je-moet-weten",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-wat-je-moet-weten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-wat-je-moet-weten/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-wat-je-moet-weten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-wat-kost-dat-precies",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-wat-kost-dat-precies/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-verwijderen-wat-kost-dat-precies/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/schoorsteen-verwijderen-wat-kost-dat-precies/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vergunning-nodig-voor-schoorsteen-verwijderen",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vergunning-nodig-voor-schoorsteen-verwijderen/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/vergunning-nodig-voor-schoorsteen-verwijderen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zelf-schoorsteen-verwijderen-of-uitbesteden",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/zelf-schoorsteen-verwijderen-of-uitbesteden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zelf-schoorsteen-verwijderen-of-uitbesteden/",
+                          "destination":  "/kennisbank/07-schoorsteen-verwijderen/zelf-schoorsteen-verwijderen-of-uitbesteden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-bekleden-met-keralit-een-veelgekozen-stap-bij-renovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-isoleren-tijdens-renovatie-comfort-verbeteren-zonder-nieuwe-problemen",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-isoleren-tijdens-renovatie-comfort-verbeteren-zonder-nieuwe-problemen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-isoleren-tijdens-renovatie-comfort-verbeteren-zonder-nieuwe-problemen/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-isoleren-tijdens-renovatie-comfort-verbeteren-zonder-nieuwe-problemen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/dakkapel-renoveren-wat-houdt-het-in-en-wanneer-is-het-verstandig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/houten-dakkapel-renoveren-herstellen-of-vervangen",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/houten-dakkapel-renoveren-herstellen-of-vervangen/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/houten-dakkapel-renoveren-herstellen-of-vervangen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-dakkapel-renoveren-waar-moet-je-rekening-mee-houden",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/kosten-dakkapel-renoveren-waar-moet-je-rekening-mee-houden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-dakkapel-renoveren-waar-moet-je-rekening-mee-houden/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/kosten-dakkapel-renoveren-waar-moet-je-rekening-mee-houden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kozijnen-en-ramen-bij-dakkapel-renovatie-vervangen-of-behouden",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/kozijnen-en-ramen-bij-dakkapel-renovatie-vervangen-of-behouden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kozijnen-en-ramen-bij-dakkapel-renovatie-vervangen-of-behouden/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/kozijnen-en-ramen-bij-dakkapel-renovatie-vervangen-of-behouden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen/",
+                          "destination":  "/kennisbank/08-dakkapel-renoveren/lekkage-bij-dakkapel-oorzaken-gevolgen-en-renovatie-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/dakkapel-lood-vervangen-uitleg-vanuit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-en-levensduur-van-lood-bij-een-dakkapel",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/kosten-en-levensduur-van-lood-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-en-levensduur-van-lood-bij-een-dakkapel/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/kosten-en-levensduur-van-lood-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-een-dakkapel-door-oud-lood",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-een-dakkapel-door-oud-lood/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lekkage-bij-een-dakkapel-door-oud-lood/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lood-repareren-of-vervangen-bij-een-dakkapel",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lood-repareren-of-vervangen-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lood-repareren-of-vervangen-bij-een-dakkapel/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lood-repareren-of-vervangen-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lood-versus-loodvervangers-bij-een-dakkapel",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lood-versus-loodvervangers-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lood-versus-loodvervangers-bij-een-dakkapel/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/lood-versus-loodvervangers-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-en-inspectie-van-lood-bij-een-dakkapel",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/onderhoud-en-inspectie-van-lood-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-en-inspectie-van-lood-bij-een-dakkapel/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/onderhoud-en-inspectie-van-lood-bij-een-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/typische-faalpunten-bij-lood-rond-dakkapellen",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/typische-faalpunten-bij-lood-rond-dakkapellen/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/typische-faalpunten-bij-lood-rond-dakkapellen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-loodproblemen-geen-spoed-lijken-maar-dat-wél-zijn",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/wanneer-loodproblemen-geen-spoed-lijken-maar-dat-wél-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-loodproblemen-geen-spoed-lijken-maar-dat-wél-zijn/",
+                          "destination":  "/kennisbank/09-dakkapel-lood-vervangen/wanneer-loodproblemen-geen-spoed-lijken-maar-dat-wél-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-herkennen-vochtprobleem-of-condens",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-herkennen-vochtprobleem-of-condens/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-herkennen-vochtprobleem-of-condens/",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-herkennen-vochtprobleem-of-condens/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak/",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-oorzaken-gevolgen-en-wat-het-zegt-over-je-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is/",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-lekkage-repareren-of-vervangen-wanneer-welke-keuze-logisch-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat/",
+                          "destination":  "/kennisbank/10-dakraam/dakraam-onderhoud-en-preventie-lekkage-voorkomen-vóór-het-ontstaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt",
+                          "destination":  "/kennisbank/10-dakraam/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt/",
+                          "destination":  "/kennisbank/10-dakraam/oorzaken-van-dakraam-lekkage-waarom-water-juist-hier-naar-binnen-komt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/alternatieven-voor-daklood",
+                          "destination":  "/kennisbank/11-daklood/alternatieven-voor-daklood/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/alternatieven-voor-daklood/",
+                          "destination":  "/kennisbank/11-daklood/alternatieven-voor-daklood/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-bij-dakkapellen-kwetsbaar-punt-op-het-dak",
+                          "destination":  "/kennisbank/11-daklood/daklood-bij-dakkapellen-kwetsbaar-punt-op-het-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-bij-dakkapellen-kwetsbaar-punt-op-het-dak/",
+                          "destination":  "/kennisbank/11-daklood/daklood-bij-dakkapellen-kwetsbaar-punt-op-het-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-bij-schoorstenen-waarom-hier-vaak-lekkages-ontstaan",
+                          "destination":  "/kennisbank/11-daklood/daklood-bij-schoorstenen-waarom-hier-vaak-lekkages-ontstaan/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-bij-schoorstenen-waarom-hier-vaak-lekkages-ontstaan/",
+                          "destination":  "/kennisbank/11-daklood/daklood-bij-schoorstenen-waarom-hier-vaak-lekkages-ontstaan/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd",
+                          "destination":  "/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd/",
+                          "destination":  "/kennisbank/11-daklood/daklood-lekkage-hoe-herken-je-het-probleem-op-tijd/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze",
+                          "destination":  "/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-repareren-of-vervangen-wat-is-de-beste-keuze/",
+                          "destination":  "/kennisbank/11-daklood/daklood-repareren-of-vervangen-wat-is-de-beste-keuze/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails",
+                          "destination":  "/kennisbank/11-daklood/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails/",
+                          "destination":  "/kennisbank/11-daklood/daklood-toepassingen-slijtage-en-risicos-bij-dakdetails/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk",
+                          "destination":  "/kennisbank/11-daklood/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk/",
+                          "destination":  "/kennisbank/11-daklood/daklood-vervangen-zo-gaat-een-professionele-dakdekker-te-werk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten",
+                          "destination":  "/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten/",
+                          "destination":  "/kennisbank/11-daklood/is-daklood-nog-toegestaan-regelgeving-en-milieu-aspecten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/losliggend-daklood-bij-schoorsteen-of-dakkapel",
+                          "destination":  "/kennisbank/11-daklood/losliggend-daklood-bij-schoorsteen-of-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/losliggend-daklood-bij-schoorsteen-of-dakkapel/",
+                          "destination":  "/kennisbank/11-daklood/losliggend-daklood-bij-schoorsteen-of-dakkapel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/scheuren-in-daklood-oorzaken-en-gevolgen",
+                          "destination":  "/kennisbank/11-daklood/scheuren-in-daklood-oorzaken-en-gevolgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/scheuren-in-daklood-oorzaken-en-gevolgen/",
+                          "destination":  "/kennisbank/11-daklood/scheuren-in-daklood-oorzaken-en-gevolgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet",
+                          "destination":  "/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet/",
+                          "destination":  "/kennisbank/11-daklood/tijdelijke-reparatie-van-daklood-wat-werkt-wel-en-wat-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/afvoeren-en-waterafvoer-op-een-plat-dak",
+                          "destination":  "/kennisbank/12-plat-dak/afvoeren-en-waterafvoer-op-een-plat-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/afvoeren-en-waterafvoer-op-een-plat-dak/",
+                          "destination":  "/kennisbank/12-plat-dak/afvoeren-en-waterafvoer-op-een-plat-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-dak-repareren-mogelijkheden-en-beperkingen",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-dak-repareren-mogelijkheden-en-beperkingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-dak-repareren-mogelijkheden-en-beperkingen/",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-dak-repareren-mogelijkheden-en-beperkingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-over-bitumen-aanbrengen-wanneer-kan-dat-wel-en-wanneer-niet",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-over-bitumen-aanbrengen-wanneer-kan-dat-wel-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-over-bitumen-aanbrengen-wanneer-kan-dat-wel-en-wanneer-niet/",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-over-bitumen-aanbrengen-wanneer-kan-dat-wel-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak/",
+                          "destination":  "/kennisbank/12-plat-dak/bitumen-vs-epdm-welke-dakbedekking-is-beter-voor-een-plat-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het",
+                          "destination":  "/kennisbank/12-plat-dak/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het/",
+                          "destination":  "/kennisbank/12-plat-dak/blaasvorming-in-bitumen-dakbedekking-hoe-ontstaat-het/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-lang-gaat-een-plat-dak-met-bitumen-mee",
+                          "destination":  "/kennisbank/12-plat-dak/hoe-lang-gaat-een-plat-dak-met-bitumen-mee/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-lang-gaat-een-plat-dak-met-bitumen-mee/",
+                          "destination":  "/kennisbank/12-plat-dak/hoe-lang-gaat-een-plat-dak-met-bitumen-mee/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-reparatie-plat-dak-met-bitumen",
+                          "destination":  "/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/kosten-reparatie-plat-dak-met-bitumen/",
+                          "destination":  "/kennisbank/12-plat-dak/kosten-reparatie-plat-dak-met-bitumen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen",
+                          "destination":  "/kennisbank/12-plat-dak/lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen/",
+                          "destination":  "/kennisbank/12-plat-dak/lekkage-bij-een-plat-dak-met-bitumen-oorzaken-en-oplossingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-van-een-plat-dak-zo-verleng-je-de-levensduur-van-bitumen",
+                          "destination":  "/kennisbank/12-plat-dak/onderhoud-van-een-plat-dak-zo-verleng-je-de-levensduur-van-bitumen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderhoud-van-een-plat-dak-zo-verleng-je-de-levensduur-van-bitumen/",
+                          "destination":  "/kennisbank/12-plat-dak/onderhoud-van-een-plat-dak-zo-verleng-je-de-levensduur-van-bitumen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-inspecteren-waar-moet-je-op-letten",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-inspecteren-waar-moet-je-op-letten/",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-inspecteren-waar-moet-je-op-letten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat/",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-met-bitumen-opbouw-levensduur-en-wat-er-in-de-praktijk-misgaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-met-bitumen-wanneer-is-renovatie-nodig",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-met-bitumen-wanneer-is-renovatie-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/plat-dak-met-bitumen-wanneer-is-renovatie-nodig/",
+                          "destination":  "/kennisbank/12-plat-dak/plat-dak-met-bitumen-wanneer-is-renovatie-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk",
+                          "destination":  "/kennisbank/12-plat-dak/scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk/",
+                          "destination":  "/kennisbank/12-plat-dak/scheuren-in-een-bitumen-dak-wanneer-is-reparatie-nog-mogelijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel",
+                          "destination":  "/kennisbank/13-dakrenovatie/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel/",
+                          "destination":  "/kennisbank/13-dakrenovatie/aansluitingen-schoorstenen-dakkapellen-en-dakramen-de-zwakke-schakel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden/",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakisolatie-combineren-met-renovatie-is-dat-aan-te-raden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakpannen-vervangen-bij-renovatie",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakpannen-vervangen-bij-renovatie/",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakpannen-vervangen-bij-renovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt/",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakrenovatie-bij-een-hellend-dak-wanneer-het-dak-zelf-het-probleem-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakrenovatie-of-blijven-repareren",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakrenovatie-of-blijven-repareren/",
+                          "destination":  "/kennisbank/13-dakrenovatie/dakrenovatie-of-blijven-repareren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoelang-gaat-een-gerenoveerd-hellend-dak-mee",
+                          "destination":  "/kennisbank/13-dakrenovatie/hoelang-gaat-een-gerenoveerd-hellend-dak-mee/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoelang-gaat-een-gerenoveerd-hellend-dak-mee/",
+                          "destination":  "/kennisbank/13-dakrenovatie/hoelang-gaat-een-gerenoveerd-hellend-dak-mee/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderdak-en-waterkerende-lagen",
+                          "destination":  "/kennisbank/13-dakrenovatie/onderdak-en-waterkerende-lagen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/onderdak-en-waterkerende-lagen/",
+                          "destination":  "/kennisbank/13-dakrenovatie/onderdak-en-waterkerende-lagen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/panlatten-en-tengels-vervangen-bij-dakrenovatie",
+                          "destination":  "/kennisbank/13-dakrenovatie/panlatten-en-tengels-vervangen-bij-dakrenovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/panlatten-en-tengels-vervangen-bij-dakrenovatie/",
+                          "destination":  "/kennisbank/13-dakrenovatie/panlatten-en-tengels-vervangen-bij-dakrenovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/risico-op-lekkage-bij-nokken-vorsten-en-dakranden",
+                          "destination":  "/kennisbank/13-dakrenovatie/risico-op-lekkage-bij-nokken-vorsten-en-dakranden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/risico-op-lekkage-bij-nokken-vorsten-en-dakranden/",
+                          "destination":  "/kennisbank/13-dakrenovatie/risico-op-lekkage-bij-nokken-vorsten-en-dakranden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/veelgemaakte-fouten-bij-dakrenovatie",
+                          "destination":  "/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/veelgemaakte-fouten-bij-dakrenovatie/",
+                          "destination":  "/kennisbank/13-dakrenovatie/veelgemaakte-fouten-bij-dakrenovatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig",
+                          "destination":  "/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig/",
+                          "destination":  "/kennisbank/13-dakrenovatie/wanneer-is-dakrenovatie-bij-een-hellend-dak-echt-nodig/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk",
+                          "destination":  "/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk/",
+                          "destination":  "/kennisbank/13-dakrenovatie/wanneer-is-een-volledige-dakrenovatie-onvermijdelijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wat-gebeurt-er-écht-onder-de-dakpannen",
+                          "destination":  "/kennisbank/13-dakrenovatie/wat-gebeurt-er-écht-onder-de-dakpannen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wat-gebeurt-er-écht-onder-de-dakpannen/",
+                          "destination":  "/kennisbank/13-dakrenovatie/wat-gebeurt-er-écht-onder-de-dakpannen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/daklekkage-door-sneeuw-en-dooi-waarom-problemen-vaak-pas-later-zichtbaar-worden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/hitte-en-uv-schade-aan-dakbedekking-waarom-zon-net-zo-belastend-kan-zijn-als-vorst/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/ijsdammen-op-het-dak-hoe-ze-ontstaan-en-waarom-ze-schade-veroorzaken",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/ijsdammen-op-het-dak-hoe-ze-ontstaan-en-waarom-ze-schade-veroorzaken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/ijsdammen-op-het-dak-hoe-ze-ontstaan-en-waarom-ze-schade-veroorzaken/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/ijsdammen-op-het-dak-hoe-ze-ontstaan-en-waarom-ze-schade-veroorzaken/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/preventieve-dakinspectie-na-extreem-weer",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/preventieve-dakinspectie-na-extreem-weer/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/preventieve-dakinspectie-na-extreem-weer/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/preventieve-dakinspectie-na-extreem-weer/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/sneeuw-en-ijs-op-het-dak-wanneer-winterweer-echt-een-risico-wordt",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/sneeuw-en-ijs-op-het-dak-wanneer-winterweer-echt-een-risico-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/sneeuw-en-ijs-op-het-dak-wanneer-winterweer-echt-een-risico-wordt/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/sneeuw-en-ijs-op-het-dak-wanneer-winterweer-echt-een-risico-wordt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/sneeuwvrijmaken-van-daken-wanneer-ingrijpen-zinvol-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/vorstschade-aan-dakbedekking-en-lood-stille-schade-door-kou/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen/",
+                          "destination":  "/kennisbank/16-weersinvloeden-en-dakschade/weersinvloeden-en-dakschade-risicos-patronen-en-wat-je-wel-en-niet-kunt-voorkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/aansluiting-tussen-dak-en-gevel-veelvoorkomende-oorzaken-van-lekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/dakdetails-en-lekkagerisico-waarom-aansluitingen-vaker-falen-dan-het-dak-zelf/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/dakdoorvoeren-en-lekkages-waarom-deze-plekken-extra-kwetsbaar-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/naden-en-overlappen-bij-platte-daken-hoe-kleine-fouten-grote-gevolgen-krijgen",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/naden-en-overlappen-bij-platte-daken-hoe-kleine-fouten-grote-gevolgen-krijgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/naden-en-overlappen-bij-platte-daken-hoe-kleine-fouten-grote-gevolgen-krijgen/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/naden-en-overlappen-bij-platte-daken-hoe-kleine-fouten-grote-gevolgen-krijgen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorstenen-en-dakkapellen-als-risicopunt-voor-dakschade",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/schoorstenen-en-dakkapellen-als-risicopunt-voor-dakschade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorstenen-en-dakkapellen-als-risicopunt-voor-dakschade/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/schoorstenen-en-dakkapellen-als-risicopunt-voor-dakschade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking/",
+                          "destination":  "/kennisbank/17-dakdetails-als-faalpunten/waarom-detailafwerking-belangrijker-is-dan-het-type-dakbedekking/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/cumulatieve-weersbelasting-hoe-jarenlange-belasting-schade-veroorzaakt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/de-invloed-van-onderhoud-op-de-levensduur-van-een-dak/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/hoe-dakmaterialen-veranderen-door-leeftijd-en-weersinvloeden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/levensduur-van-daken-wanneer-veroudering-normaal-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/normale-dakveroudering-versus-schade-hoe-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/waarom-de-leeftijd-van-een-dak-weinig-zegt-over-de-werkelijke-staat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur/",
+                          "destination":  "/kennisbank/18-veroudering-en-levensduur/wanneer-is-een-dak-technisch-aan-het-einde-van-zijn-levensduur/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil",
+                          "destination":  "/kennisbank/19-binnenklimaat/condensatie-of-daklekkage-hoe-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/condensatie-of-daklekkage-hoe-herken-je-het-verschil/",
+                          "destination":  "/kennisbank/19-binnenklimaat/condensatie-of-daklekkage-hoe-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakproblemen-binnenklimaat",
+                          "destination":  "/kennisbank/19-binnenklimaat/dakproblemen-binnenklimaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakproblemen-binnenklimaat/",
+                          "destination":  "/kennisbank/19-binnenklimaat/dakproblemen-binnenklimaat/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/gezondheidsklachten-door-verborgen-dakschade",
+                          "destination":  "/kennisbank/19-binnenklimaat/gezondheidsklachten-door-verborgen-dakschade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/gezondheidsklachten-door-verborgen-dakschade/",
+                          "destination":  "/kennisbank/19-binnenklimaat/gezondheidsklachten-door-verborgen-dakschade/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen",
+                          "destination":  "/kennisbank/19-binnenklimaat/schimmelvorming-door-dakgerelateerde-vochtproblemen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schimmelvorming-door-dakgerelateerde-vochtproblemen/",
+                          "destination":  "/kennisbank/19-binnenklimaat/schimmelvorming-door-dakgerelateerde-vochtproblemen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/ventilatieproblemen-in-relatie-tot-dakconstructie",
+                          "destination":  "/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/ventilatieproblemen-in-relatie-tot-dakconstructie/",
+                          "destination":  "/kennisbank/19-binnenklimaat/ventilatieproblemen-in-relatie-tot-dakconstructie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn",
+                          "destination":  "/kennisbank/19-binnenklimaat/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn/",
+                          "destination":  "/kennisbank/19-binnenklimaat/waarom-dakproblemen-vaak-eerst-binnenshuis-merkbaar-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/warmteverlies-via-het-dak-en-de-rol-van-isolatie",
+                          "destination":  "/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/warmteverlies-via-het-dak-en-de-rol-van-isolatie/",
+                          "destination":  "/kennisbank/19-binnenklimaat/warmteverlies-via-het-dak-en-de-rol-van-isolatie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/constructieve-dakproblemen-wanneer-het-dak-zijn-draagkracht-verliest/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/constructieve-schade-door-langdurige-daklekkage",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/constructieve-schade-door-langdurige-daklekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/constructieve-schade-door-langdurige-daklekkage/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/constructieve-schade-door-langdurige-daklekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/doorbuiging-van-dakconstructies-door-belasting-en-veroudering/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/doorbuiging-van-dakconstructies-door-belasting-en-veroudering/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/houtrot-in-dakconstructies-hoe-het-ontstaat-en-waarom-het-gevaarlijk-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/signalen-binnenshuis-die-wijzen-op-problemen-in-de-dakconstructie/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/verzakking-van-dakvlakken-en-de-gevolgen-voor-waterafvoer/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid/",
+                          "destination":  "/kennisbank/20-constructieve-dakproblemen/vocht-in-dakisolatie-en-het-effect-op-constructieve-veiligheid/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/lekkages-die-verplaatsen-hoe-water-een-andere-route-kiest/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/oude-dakreparaties-als-oorzaak-van-nieuwe-lekkages/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/symptoombestrijding-versus-structurele-oorzaken-van-daklekkage/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/terugkerende-daklekkages-waarom-sommige-problemen-blijven-terugkomen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/waarom-een-daklekkage-vaak-niet-op-de-juiste-plek-wordt-gevonden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/waarom-sommige-daklekkages-pas-na-jaren-opnieuw-verschijnen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-een-daklekkage-geen-lokaal-probleem-is",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/wanneer-een-daklekkage-geen-lokaal-probleem-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-een-daklekkage-geen-lokaal-probleem-is/",
+                          "destination":  "/kennisbank/21-terugkerende-lekkages/wanneer-een-daklekkage-geen-lokaal-probleem-is/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/7-onderschatte-signalen-van-dakschade-die-je-beter-niet-negeert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-of-toeval-wanneer-signalen-echt-serieus-zijn/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-wanneer-afwachten-risicos-vergroot-en-wat-je-dan-doet",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-wanneer-afwachten-risicos-vergroot-en-wat-je-dan-doet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-wanneer-afwachten-risicos-vergroot-en-wat-je-dan-doet/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-wanneer-afwachten-risicos-vergroot-en-wat-je-dan-doet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/dakprobleem-weg-en-toch-niet-waarom-het-later-terugkomt/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/tijdelijk-dakprobleem-of-structurele-schade-zo-herken-je-het-verschil/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-een-vochtplek-onschuldig-is-en-wanneer-niet",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/wanneer-een-vochtplek-onschuldig-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/wanneer-een-vochtplek-onschuldig-is-en-wanneer-niet/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/wanneer-een-vochtplek-onschuldig-is-en-wanneer-niet/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen/",
+                          "destination":  "/kennisbank/22-twijfel-en-interpretatie/zekerheid-bij-dakproblemen-is-zelden-zwart-wit-zo-neem-je-toch-goede-beslissingen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/uitgevoerde-projecten",
+                          "destination":  "/over-ons/uitgevoerde-projecten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/uitgevoerde-projecten/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-arnhem",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-arnhem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-arnhem/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-arnhem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-culemborg",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-culemborg/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-culemborg/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-culemborg/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-den-bosch",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-den-bosch/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-den-bosch/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-den-bosch/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-ede",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-ede/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-ede/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-ede/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-gelderland",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-gelderland/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-gelderland/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-gelderland/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-geldermalsen",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-geldermalsen/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-geldermalsen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-nijmegen",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-nijmegen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-nijmegen/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-nijmegen/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-oss",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-oss/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-oss/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-oss/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-tiel",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-tiel/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-tiel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-zaltbommel",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renovatie-in-zaltbommel/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renovatie-in-zaltbommel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-alem",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-alem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-alem/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-alem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-ammerzoden",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-ammerzoden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-ammerzoden/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-ammerzoden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-bennekom-advies-vanuit-dagelijkse-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-beuningen-deskundig-advies-uit-de-praktijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-beusichem",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-beusichem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-beusichem/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-beusichem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-brakel-praktisch-en-betrouwbaar-advies/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-bruchem",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-bruchem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-bruchem/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-bruchem/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-buren",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-buren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-buren/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-buren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-de-betuwe",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-de-betuwe/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-de-betuwe/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-de-betuwe/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-de-bommelerwaard",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-de-bommelerwaard/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-de-bommelerwaard/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-de-bommelerwaard/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-druten",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-druten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-druten/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-druten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-gameren",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-gameren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-gameren/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-gameren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-haaften",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-haaften/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-haaften/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-haaften/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-hedel-deskundig-advies-uit-praktijkervaring/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-heerewaarden",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-heerewaarden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-heerewaarden/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-heerewaarden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kerkdriel-advies-van-een-ervaren-dakdekker/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kerkwijk",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kerkwijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kerkwijk/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kerkwijk/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kesteren",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kesteren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-kesteren/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-kesteren/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-nederhemert",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-nederhemert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-nederhemert/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-nederhemert/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-opheusden",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-opheusden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-opheusden/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-opheusden/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-rivierenland",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-rivierenland/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-rivierenland/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-rivierenland/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-rossum-gld",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-rossum-gld/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-rossum-gld/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-rossum-gld/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-velddriel",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-velddriel/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-velddriel/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-waardenburg",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-waardenburg/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-waardenburg/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-waardenburg/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-wijchen-duurzaam-herstel-door-een-ervaren-dakdekker/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-zetten",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-zetten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteen-renoveren-in-zetten/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteen-renoveren-in-zetten/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-amsterdam",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteenrenovatie-amsterdam/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-amsterdam/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteenrenovatie-amsterdam/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-rotterdam",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+                          "permanent":  true
+                      },
+                      {
+                          "source":  "/blog/schoorsteenrenovatie-rotterdam/",
+                          "destination":  "/over-ons/uitgevoerde-projecten/schoorsteenrenovatie-rotterdam/",
+                          "permanent":  true
+                      }
+                  ],
+    "rewrites":  [
+                     {
+                         "source":  "/:path*/",
+                         "destination":  "/pages/:path*/index.html"
+                     }
+                 ]
+}

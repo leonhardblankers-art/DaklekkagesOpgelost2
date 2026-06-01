@@ -1,4 +1,4 @@
-{
+﻿{
   "title": "Schoorsteen opnieuw opmetselen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
   "description": "Schoorsteen opnieuw opmetselen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "robots": "index, follow",
@@ -6,7 +6,7 @@
   "ogTitle": "Schoorsteen opnieuw opmetselen: eerlijk advies en vakkundige uitvoering | Daklekkages Opgelost",
   "ogDescription": "Schoorsteen opnieuw opmetselen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
   "ogType": "website",
-  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+  "ogImage": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -18,7 +18,7 @@
         "description": "Schoorsteen opnieuw opmetselen nodig? Daklekkages Opgelost beoordeelt eerst de oorzaak en adviseert daarna de meest logische oplossing voor duurzaam herstel.",
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp"
         },
         "datePublished": "2026-05-28T08:00:00+01:00",
         "dateModified": "2026-05-28T08:00:00+01:00",
@@ -38,7 +38,7 @@
         "url": "https://www.daklekkagesopgelost.nl/schoorsteen-opnieuw-opmetselen/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.daklekkagesopgelost.nl/assets/img/pages/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp"
+          "url": "https://www.daklekkagesopgelost.nl/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp"
         },
         "provider": {
           "@type": "Organization",
@@ -51,7 +51,7 @@
         "name": "Daklekkages Opgelost",
         "url": "https://www.daklekkagesopgelost.nl",
         "telephone": "+31851308251",
-        "priceRange": "€€",
+        "priceRange": "â‚¬â‚¬",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.daklekkagesopgelost.nl/assets/img/logo-dark.png"
