@@ -130,9 +130,20 @@ function initHeaderMenu() {
   });
 }
 
+function loadVercelSpeedInsights() {
+  if (document.querySelector('script[data-vercel-speed-insights]')) return;
+
+  const script = document.createElement('script');
+  script.defer = true;
+  script.dataset.vercelSpeedInsights = 'true';
+  script.src = '/_vercel/speed-insights/script.js';
+  document.head.appendChild(script);
+}
+
 function afterIncludesLoaded() {
   normaliseInternalLinks();
   initHeaderMenu();
+  loadVercelSpeedInsights();
   document.documentElement.dataset.includesLoaded = "true";
   document.dispatchEvent(new CustomEvent("includes:loaded"));
 }
