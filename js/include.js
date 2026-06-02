@@ -66,7 +66,17 @@ function resolveInternalPath(href) {
     return `${parsed.search}${parsed.hash}`;
   }
 
-  const route = shouldUseRepoPageRoutes() ? pageRoutes[slug] : null;
+  let route = shouldUseRepoPageRoutes() ? pageRoutes[slug] : null;
+
+  if (!route && shouldUseRepoPageRoutes()) {
+    const repoRoutePrefixes = ['contact', 'diensten', 'lekkages', 'kennisbank', 'over-ons', 'legal'];
+    const prefix = slug.split('/')[0];
+
+    if (repoRoutePrefixes.includes(prefix)) {
+      route = `pages/${slug}/`;
+    }
+  }
+
   const cleanPath = route || `${slug}/`;
   return `${cleanPath}${parsed.search}${parsed.hash}`;
 }
