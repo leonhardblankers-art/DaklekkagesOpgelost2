@@ -384,3 +384,168 @@
     padding-top: 300px;
   }
 }
+
+/* Dakkaart: kleine pointer-hotspots, labels verschijnen pas bij hover/focus */
+.roof-hotspot {
+  --dot: var(--brand);
+  --label-x: -50%;
+  --label-y: calc(-100% - 18px);
+  --line-x: 0px;
+  --line-y: -46px;
+  --line-rotate: 0deg;
+  width: 26px;
+  height: 26px;
+  border: 5px solid #fff;
+  background: var(--dot);
+  box-shadow: 0 0 0 7px rgba(29,151,83,.16), 0 14px 28px rgba(15,17,21,.22);
+  transform: translate(-50%, -50%);
+}
+
+.roof-hotspot::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2px;
+  height: 52px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 0 0 1px rgba(15,17,21,.14);
+  transform: translate(-50%, -50%) translate(var(--line-x), var(--line-y)) rotate(var(--line-rotate));
+  transform-origin: top center;
+  pointer-events: none;
+}
+
+.roof-hotspot span {
+  top: 50%;
+  opacity: 0;
+  visibility: hidden;
+  min-width: 140px;
+  max-width: 210px;
+  white-space: normal;
+  text-align: center;
+  pointer-events: none;
+  transform: translate(var(--label-x), var(--label-y)) translateY(6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s ease;
+}
+
+.roof-hotspot:hover,
+.roof-hotspot:focus-visible {
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.roof-hotspot:hover span,
+.roof-hotspot:focus-visible span {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(var(--label-x), var(--label-y));
+}
+
+.roof-hotspot--schoorsteen {
+  --dot: #ff7a00;
+  left: 43%;
+  top: 39%;
+  --line-x: 28px;
+  --line-y: -30px;
+  --line-rotate: 45deg;
+  box-shadow: 0 0 0 7px rgba(255,122,0,.17), 0 14px 28px rgba(15,17,21,.22);
+}
+
+.roof-hotspot--nok {
+  left: 64%;
+  top: 31%;
+  --line-x: -42px;
+  --line-y: 20px;
+  --line-rotate: 68deg;
+}
+
+.roof-hotspot--lood {
+  left: 59%;
+  top: 49%;
+  --line-x: -28px;
+  --line-y: -18px;
+  --line-rotate: 56deg;
+}
+
+.roof-hotspot--dakkapel {
+  left: 32%;
+  top: 55%;
+  --line-x: 36px;
+  --line-y: -32px;
+  --line-rotate: 54deg;
+}
+
+.roof-hotspot--dakgoot {
+  left: 72%;
+  top: 49%;
+  --line-x: -42px;
+  --line-y: -22px;
+  --line-rotate: 73deg;
+}
+
+.roof-hotspot--plat {
+  left: 82%;
+  top: 62%;
+  --line-x: -28px;
+  --line-y: -30px;
+  --line-rotate: 36deg;
+}
+
+.roof-hotspot--inspectie {
+  --dot: #45b4ff;
+  left: 54%;
+  top: 64%;
+  --line-x: 0px;
+  --line-y: -44px;
+  --line-rotate: 0deg;
+  box-shadow: 0 0 0 7px rgba(69,180,255,.16), 0 14px 28px rgba(15,17,21,.22);
+}
+
+@media(max-width:640px) {
+  .roof-hotspot {
+    --dot: var(--brand);
+    position: relative;
+    left: auto!important;
+    top: auto!important;
+    width: 100%;
+    height: auto;
+    min-height: 46px;
+    padding: 11px 12px;
+    border: 1px solid rgba(15,17,21,.08);
+    border-radius: 16px;
+    background: #fff;
+    color: var(--ink);
+    justify-content: flex-start;
+    transform: none;
+    box-shadow: 0 10px 22px rgba(15,17,21,.08);
+  }
+
+  .roof-hotspot:hover,
+  .roof-hotspot:focus-visible {
+    transform: none;
+  }
+
+  .roof-hotspot::after {
+    display: none;
+  }
+
+  .roof-hotspot:before {
+    background: var(--dot);
+  }
+
+  .roof-hotspot span,
+  .roof-hotspot:hover span,
+  .roof-hotspot:focus-visible span {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    min-width: 0;
+    max-width: none;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    text-align: left;
+    transform: none;
+  }
+}
