@@ -67,7 +67,7 @@ header nav a { font-weight: 700; }
    HERO
 ============================================= */
 .hero { position: relative; min-height: 690px; background: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('../img/home-hero.webp') center/cover no-repeat; color: #fff; overflow: hidden; }
-.hero .wrap { position: relative; z-index: 2; min-height: 690px; padding-top: 50px; padding-bottom: 40px; }
+.hero .wrap { position: relative; z-index: 2; padding-top: 50px; padding-bottom: 40px; }
 .hero-title { max-width: 1380px; font-size: clamp(38px,4vw,66px); font-weight: 900; line-height: 1.03; letter-spacing: -1.2px; color: #111; text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff; margin: 0 0 24px; white-space: nowrap; }
 .marker { color: #30b060; position: relative; display: inline-block; padding-bottom: 20px; }
 .marker svg { position: absolute; left: 1%; right: 1%; bottom: -11px; width: 98%; height: 34px; overflow: visible; filter: drop-shadow(0 4px 10px rgba(34,176,87,.42)); }
@@ -82,13 +82,13 @@ header nav a { font-weight: 700; }
 .hero-cta-col { display: flex; flex-direction: column; gap: 8px; min-width: 320px; }
 .hero-note { font-size: 12px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
 
-.hero-proof { position: absolute; left: 20px; bottom: 38px; z-index: 4; }
-.review-pill { display: inline-flex; align-items: center; gap: 12px; margin: 0 0 14px; padding: 11px 18px; border: 2px solid var(--brand); border-radius: 999px; background: #fff; color: var(--brand2); font-weight: 800; box-shadow: var(--shadow2); white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; }
+.hero-proof { position: absolute; left: max(20px, calc((100vw - 1280px) / 2 + 20px)); bottom: 72px; z-index: 4; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.review-pill { display: inline-flex; align-items: center; gap: 12px; margin: 0; padding: 11px 18px; border: 2px solid var(--brand); border-radius: 999px; background: #fff; color: var(--brand2); font-weight: 800; box-shadow: var(--shadow2); white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; }
 .review-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }
 .review-pill .review-stars { color: #f5b301; letter-spacing: .5px; font-size: 18px; line-height: 1; text-shadow: 0 1px 1px rgba(0,0,0,.12); }
 .review-pill:hover .review-stars { color: #ffd45a; }
 
-.service-pills { display: flex; gap: 12px; flex-wrap: nowrap; margin-top: 6px; }
+.service-pills { display: flex; gap: 12px; flex-wrap: nowrap; margin-top: 0; }
 .service-pill { padding: 10px 15px; border-radius: 999px; background: #fff; color: #242424; box-shadow: var(--shadow2); font-size: 15px; white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; border: 1px solid transparent; }
 .service-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }
 
