@@ -15,7 +15,7 @@
         "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
         "url": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/",
         "name": "Plat dak lekkage oplossen",
-        "description": "CommerciÃ«le dienstenpagina voor het beoordelen en oplossen van lekkage aan platte daken.",
+        "description": "Commerciële dienstenpagina voor het beoordelen en oplossen van lekkage aan platte daken.",
         "mainEntity": {
           "@id": "https://www.daklekkagesopgelost.nl/plat-dak-lekkage/#service"
         }

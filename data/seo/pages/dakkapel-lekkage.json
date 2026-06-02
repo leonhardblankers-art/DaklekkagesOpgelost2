@@ -15,7 +15,7 @@
         "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/",
         "url": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/",
         "name": "Dakkapel lekkage oplossen",
-        "description": "CommerciÃ«le dienstenpagina voor het beoordelen en oplossen van lekkage bij dakkapellen.",
+        "description": "Commerciële dienstenpagina voor het beoordelen en oplossen van lekkage bij dakkapellen.",
         "mainEntity": {
           "@id": "https://www.daklekkagesopgelost.nl/dakkapel-lekkage/#service"
         }

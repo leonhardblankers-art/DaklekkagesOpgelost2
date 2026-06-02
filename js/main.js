@@ -182,7 +182,7 @@
     var speech = document.querySelector('.home-main .speech');
     if(!speech) return;
 
-    var fullText = 'We lossen niet alleen lekkages op â€” we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in Ã©Ã©n partij.';
+    var fullText = 'We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.';
     var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
 
     function apply(){
@@ -717,7 +717,7 @@
       {
         match: 'lekkage-opsporen',
         title: 'Lekkage opsporen voordat er onnodig wordt gerepareerd',
-        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op Ã©Ã©n zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
+        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op één zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
         cta: 'Laat de lekkage opsporen',
         cards: [
           ['01', 'Wanneer nodig?', 'Bij terugkerende lekkage, onduidelijke vochtplekken of lekkage die alleen bij slagregen ontstaat.'],
