@@ -8,6 +8,13 @@
 ============================================= */
 body { margin: 0; font-family: 'Inter', sans-serif; }
 
+[data-include$="partials/header.html"]:empty,
+[data-include*="/partials/header.html"]:empty {
+  display: block;
+  min-height: 117px;
+  background: #fff;
+}
+
 /* =============================================
    CONTAINER
 ============================================= */
@@ -587,6 +594,11 @@ a.mobile-link:not(.is-active)::after {
 }
 
 @media (max-width: 600px) {
+  [data-include$="partials/header.html"]:empty,
+  [data-include*="/partials/header.html"]:empty {
+    min-height: 126px;
+  }
+
   .navbar .container {
     padding-left: 12px;
     padding-right: 12px;

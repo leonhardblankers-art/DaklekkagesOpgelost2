@@ -1,4 +1,10 @@
 
+[data-include$="partials/footer.html"]:empty,
+[data-include*="/partials/footer.html"]:empty {
+  display: block;
+  min-height: 520px;
+}
+
 .site-footer {
   position: relative;
   margin-top: 72px;
@@ -279,6 +285,11 @@
 }
 
 @media (max-width: 767px) {
+  [data-include$="partials/footer.html"]:empty,
+  [data-include*="/partials/footer.html"]:empty {
+    min-height: 980px;
+  }
+
   .footer-shell {
     padding-top: 36px;
     padding-bottom: 24px;
