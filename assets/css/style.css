@@ -1,4 +1,4 @@
-/* =============================================
+﻿/* =============================================
    GLOBAL RESET & BASE
 ============================================= */
 *, *::before, *::after { box-sizing: border-box; }
@@ -83,7 +83,7 @@ header nav a { font-weight: 700; }
 .hero-note { font-size: 12px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
 
 .review-pill { display: inline-flex; align-items: center; gap: 12px; margin: 20px 0 14px; padding: 11px 18px; border: 2px solid var(--brand); border-radius: 999px; background: #fff; color: var(--brand2); font-weight: 800; box-shadow: var(--shadow2); white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; }
-.review-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }
+.review-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }`r`n.review-pill .review-stars { color: #f5b301; letter-spacing: .5px; font-size: 18px; line-height: 1; text-shadow: 0 1px 1px rgba(0,0,0,.12); }`r`n.review-pill:hover .review-stars { color: #ffd45a; }
 
 .service-pills { display: flex; gap: 12px; flex-wrap: nowrap; margin-top: 6px; }
 .service-pill { padding: 10px 15px; border-radius: 999px; background: #fff; color: #242424; box-shadow: var(--shadow2); font-size: 15px; white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; border: 1px solid transparent; }
@@ -1048,10 +1048,10 @@ main {
     color: #fff;
     border-color: transparent;
   }
-  .review-pill span {
+  .review-pill .review-copy {
     font-size: 0;
   }
-  .review-pill span::after {
+  .review-pill .review-copy::after {
     content: "4.9 Google • 120+ reviews";
     font-size: 14px;
   }
@@ -1283,3 +1283,4 @@ main {
     white-space: normal;
   }
 }
+
