@@ -30,13 +30,16 @@ header nav a { font-weight: 700; }
   --rs: 14px;
   --max: 1100px;
   --gap: 12px;
+  --site-content: 1120px;
+  --site-gutter: clamp(16px, 4vw, 40px);
+  --site-read: min(100%, 82ch);
 }
 
 /* =============================================
    LAYOUT
 ============================================= */
-.wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
-.home-main > .section .wrap { max-width: 1200px; }
+.wrap { width: min(var(--site-content), calc(100% - (var(--site-gutter) * 2))); max-width: var(--site-content); margin: 0 auto; padding: 0; }
+.home-main > .section .wrap { max-width: var(--site-content); }
 .section { padding: 34px 0; }
 .soft { background: #f7f8f7; }
 .white { background: #fff; }
@@ -49,6 +52,13 @@ header nav a { font-weight: 700; }
 .lead { font-size: 15px; line-height: 1.68; color: var(--muted); margin: 0; }
 .kicker { display: inline-flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 999px; background: rgba(29,151,83,.10); color: var(--brand2); font-weight: 900; font-size: 13px; margin-bottom: 12px; }
 .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 6px rgba(29,151,83,.14); }
+
+.home-main > .section .wrap > .lead,
+.home-main > .section .wrap > p,
+.home-main .split > div > .lead,
+.home-main .cta-strip p {
+  max-width: var(--site-read);
+}
 
 /* =============================================
    BUTTONS
@@ -82,7 +92,7 @@ header nav a { font-weight: 700; }
 .hero-cta-col { display: flex; flex-direction: column; gap: 8px; min-width: 320px; }
 .hero-note { font-size: 12px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
 
-.hero-proof { position: absolute; left: max(20px, calc((100vw - 1280px) / 2 + 20px)); bottom: 72px; z-index: 4; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.hero-proof { position: absolute; left: max(var(--site-gutter), calc((100vw - var(--site-content)) / 2)); bottom: 72px; z-index: 4; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
 .review-pill { display: inline-flex; align-items: center; gap: 12px; margin: 0; padding: 11px 18px; border: 2px solid var(--brand); border-radius: 999px; background: #fff; color: var(--brand2); font-weight: 800; box-shadow: var(--shadow2); white-space: nowrap; transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, color .18s ease, border-color .18s ease; }
 .review-pill:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0,0,0,.10); background: var(--brand); color: #fff; border-color: var(--brand); }
 .review-pill .review-stars { color: #f5b301; letter-spacing: .5px; font-size: 18px; line-height: 1; text-shadow: 0 1px 1px rgba(0,0,0,.12); }
@@ -966,7 +976,11 @@ main {
 }
 
 @media (max-width: 640px) {
-  .wrap { padding-left: 16px; padding-right: 16px; }
+  .wrap {
+    width: calc(100% - 32px);
+    padding-left: 0;
+    padding-right: 0;
+  }
   .section { padding: 30px 0; }
   .hero {
     min-height: 100svh;
