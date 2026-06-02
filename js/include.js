@@ -69,7 +69,8 @@ function resolveInternalPath(href) {
     return `${parsed.search}${parsed.hash}`;
   }
 
-  let route = shouldUseRepoPageRoutes() ? pageRoutes[slug] : null;
+  const mappedRoute = pageRoutes[slug] || null;
+  let route = shouldUseRepoPageRoutes() ? mappedRoute : (mappedRoute ? mappedRoute.replace(/^pages\//, '') : null);
 
   if (!route && shouldUseRepoPageRoutes()) {
     const repoRoutePrefixes = ['contact', 'diensten', 'lekkages', 'kennisbank', 'over-ons', 'legal'];
