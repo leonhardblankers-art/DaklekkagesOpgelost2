@@ -327,3 +327,60 @@
     box-shadow:none;
   }
 }
+
+/* Foto-gebaseerde dakkaart */
+.roof-map {
+  min-height: 560px;
+  background:
+    linear-gradient(180deg, rgba(11,13,16,.08), rgba(11,13,16,.38)),
+    url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 58% / cover no-repeat;
+}
+
+.roof-map:before {
+  inset: 0;
+  border: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.04), rgba(0,0,0,.16)),
+    radial-gradient(520px 240px at 50% 52%, rgba(29,151,83,.18), transparent 70%);
+  z-index: 1;
+}
+
+.roof-map__house {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  transform: none;
+  z-index: 2;
+}
+
+.roof-map__roof,
+.roof-map__body,
+.roof-map__chimney,
+.roof-map__dormer,
+.roof-map__lead,
+.roof-map__flat,
+.roof-map__gutter {
+  display: none;
+}
+
+.roof-hotspot {
+  z-index: 5;
+}
+
+.roof-hotspot--nok { left: 56%; top: 38%; }
+.roof-hotspot--schoorsteen { left: 44%; top: 37%; }
+.roof-hotspot--lood { left: 55%; top: 48%; }
+.roof-hotspot--dakkapel { left: 38%; top: 48%; }
+.roof-hotspot--plat { left: 74%; top: 59%; }
+.roof-hotspot--inspectie { left: 58%; top: 56%; }
+
+@media(max-width:640px) {
+  .roof-map {
+    background:
+      linear-gradient(180deg, rgba(11,13,16,.08), rgba(11,13,16,.46)),
+      url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 54% / cover no-repeat;
+    padding-top: 300px;
+  }
+}

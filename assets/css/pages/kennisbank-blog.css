@@ -95,3 +95,42 @@
     max-width: none;
   }
 }
+
+/* Kennisbank CTA: dakfoto in plaats van persoon-cutout */
+.kb-cta--advisor .kb-cta__advisor {
+  min-height: 178px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #0b0d10;
+  box-shadow: 0 18px 38px rgba(15,17,21,.14);
+}
+
+.kb-cta--advisor .kb-cta__advisor:before {
+  display: none;
+}
+
+.kb-cta--advisor .kb-cta__advisor img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  filter: saturate(1.04) contrast(1.04);
+  z-index: 1;
+}
+
+.kb-cta--advisor .kb-cta__advisor:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.42));
+  z-index: 2;
+}
+
+.kb-cta--advisor .kb-cta__advisor div {
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 3;
+}

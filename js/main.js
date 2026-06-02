@@ -667,7 +667,7 @@
       var copy = cta.querySelector('h2');
       var text = cta.querySelector('p');
       if(copy) copy.textContent = 'Twijfelt u wat dit voor uw dak betekent?';
-      if(text) text.textContent = 'Sharona kijkt graag met u mee. Stuur kort wat u ziet, dan bepalen we of inspectie, opsporing of herstel de logische vervolgstap is.';
+      if(text) text.textContent = 'Stuur kort wat u ziet, dan bepalen we of inspectie, opsporing of herstel de logische vervolgstap is.';
 
       var actions = cta.querySelector('.kb-actions');
       if(actions){
@@ -686,8 +686,8 @@
         var advisor = document.createElement('div');
         advisor.className = 'kb-cta__advisor';
         advisor.innerHTML =
-          '<img src="/assets/img/uitgevoerde-projecten/sharona-advies-daklekkages-opgelost-cutout-v2.png" alt="Sharona van Daklekkages Opgelost helpt met dakvragen" loading="lazy" decoding="async">' +
-          '<div><strong>Sharona</strong><span>Helpt u naar de juiste vervolgstap</span></div>';
+          '<img src="/assets/img/kennisbank/dakadvies-dakdetails.webp" alt="Dakdetails en schoorsteenlood als voorbeeld voor dakadvies" loading="lazy" decoding="async">' +
+          '<div><strong>Dakadvies</strong><span>Van zichtbaar signaal naar juiste vervolgstap</span></div>';
         cta.appendChild(advisor);
       }
     });
