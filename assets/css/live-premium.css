@@ -162,6 +162,64 @@
   box-shadow: 0 10px 22px rgba(0,0,0,.16);
 }
 
+.premium-page .premium-table-wrap {
+  overflow-x: auto;
+  margin: 18px 0;
+  border: 1px solid rgba(15,17,21,.09);
+  border-radius: 16px;
+  background: #fff;
+}
+
+.premium-page .premium-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 420px;
+}
+
+.premium-page .premium-table th,
+.premium-page .premium-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid rgba(15,17,21,.08);
+}
+
+.premium-page .premium-table th {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 900;
+  background: rgba(29,151,83,.08);
+}
+
+.premium-page .premium-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.premium-page .premium-faq {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.premium-page .premium-faq details {
+  border: 1px solid rgba(15,17,21,.08);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: var(--shadow2);
+  overflow: hidden;
+}
+
+.premium-page .premium-faq summary {
+  cursor: pointer;
+  padding: 16px 18px;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.premium-page .premium-faq details p {
+  padding: 0 18px 16px;
+  margin: 0;
+}
+
 @media(max-width:980px) {
   .premium-page .premium-container {
     width: calc(100vw - 32px) !important;
