@@ -1,0 +1,929 @@
+﻿(function(){
+  function getPageIntent(){
+    var path = window.location.pathname.toLowerCase();
+    var title = (document.querySelector('h1') || {}).textContent || '';
+    var intent = {
+      key: 'default',
+      tone: 'green',
+      kicker: 'Dakvraag laten beoordelen',
+      stickyLabel: 'Direct hulp nodig?',
+      stickyBadge: 'Gratis',
+      stickyButton: 'Dakinspectie aanvragen',
+      modalTitle: 'Vertel kort wat er aan de hand is',
+      modalText: 'Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.',
+      aanvraag: 'Gratis dakinspectie',
+      urgentie: 'Ik twijfel en wil advies',
+      stripTitle: 'Niet zeker welke vervolgstap past?',
+      stripText: 'Kies niet op gevoel. Laat kort meekijken, dan weet u of inspectie, opsporing of gericht herstel logisch is.',
+      primary: 'Situatie laten beoordelen',
+      secondary: 'Bel direct'
+    };
+
+    if(path.indexOf('spoed') !== -1 || path.indexOf('nood') !== -1){
+      return Object.assign(intent, {
+        key: 'spoed',
+        tone: 'orange',
+        kicker: 'Spoed of actieve lekkage',
+        stickyLabel: 'Water komt binnen?',
+        stickyBadge: 'Spoed',
+        stickyButton: 'Schade beperken',
+        modalTitle: 'Laat snel inschatten wat nodig is',
+        modalText: 'Bij actieve lekkage draait het eerst om schade beperken. Beschrijf kort wat er gebeurt, dan bepalen we of noodreparatie of directe opvolging verstandig is.',
+        aanvraag: 'Spoed of noodreparatie',
+        urgentie: 'Er komt nu water binnen',
+        stripTitle: 'Komt er nu water binnen?',
+        stripText: 'Dan is eerst schade beperken belangrijker dan uitgebreid vergelijken. Geef kort door wat er gebeurt of bel direct.',
+        primary: 'Spoedhulp aanvragen'
+      });
+    }
+
+    if(path.indexOf('lekkage') !== -1 || path.indexOf('lekkages') !== -1){
+      return Object.assign(intent, {
+        key: 'lekkage',
+        kicker: 'Oorzaak laten bepalen',
+        stickyLabel: 'Lekkage of vocht?',
+        stickyButton: 'Oorzaak laten bepalen',
+        modalTitle: 'Laat de lekkage gericht beoordelen',
+        modalText: 'Water wordt vaak ergens anders zichtbaar dan waar het binnenkomt. Beschrijf het symptoom, dan helpen we kiezen tussen opsporen, inspectie of herstel.',
+        aanvraag: 'Daklekkage of vochtplek',
+        urgentie: 'Ik zie vocht of schade',
+        stripTitle: 'Ziet u vocht, schimmel of druppelsporen?',
+        stripText: 'Start met de oorzaak. Dat voorkomt gokreparaties en maakt duidelijk welke lekkagepagina of dienst past.',
+        primary: 'Oorzaak laten bepalen'
+      });
+    }
+
+    if(path.indexOf('dakinspectie') !== -1 || path.indexOf('gratis-dakinspectie') !== -1){
+      return Object.assign(intent, {
+        key: 'inspectie',
+        kicker: 'Rustig laten beoordelen',
+        stickyLabel: 'Twijfel over uw dak?',
+        stickyButton: 'Inspectie aanvragen',
+        modalTitle: 'Vraag een dakinspectie aan',
+        modalText: 'Beschrijf waarom u twijfelt. We kijken of inspectie genoeg is of dat lekkage opsporen of gericht herstel logischer is.',
+        aanvraag: 'Gratis dakinspectie',
+        urgentie: 'Preventieve inspectie',
+        stripTitle: 'Twijfel hoeft geen gok te blijven',
+        stripText: 'Een inspectie geeft duidelijkheid over de staat van het dak en voorkomt onnodig herstel.',
+        primary: 'Dak laten beoordelen'
+      });
+    }
+
+    if(path.indexOf('kennisbank') !== -1 || path.indexOf('/blog/') !== -1){
+      return Object.assign(intent, {
+        key: 'kennisbank',
+        kicker: 'Twijfel laten meekijken',
+        stickyLabel: 'Twijfelt u nog?',
+        stickyButton: 'Laat meekijken',
+        modalTitle: 'Laat uw situatie kort beoordelen',
+        modalText: 'Heeft u na het lezen nog twijfel? Beschrijf uw situatie, dan helpen we bepalen of inspectie, afwachten of herstel logisch is.',
+        aanvraag: 'Gratis dakinspectie',
+        urgentie: 'Ik twijfel en wil advies',
+        stripTitle: 'Van informatie naar zekerheid',
+        stripText: 'Herkent u uw situatie in dit artikel? Laat kort meekijken voordat u conclusies trekt.',
+        primary: 'Twijfel laten beoordelen'
+      });
+    }
+
+    if(path.indexOf('diensten') !== -1 || title.toLowerCase().indexOf('dienst') !== -1){
+      return Object.assign(intent, {
+        key: 'diensten',
+        kicker: 'Juiste dakdienst kiezen',
+        stickyLabel: 'Welke dienst past?',
+        stickyButton: 'Route laten kiezen',
+        modalTitle: 'Welke dakdienst past bij uw situatie?',
+        modalText: 'Beschrijf het dakdeel en wat u ziet. We helpen kiezen tussen inspectie, lekkage opsporen, schoorsteenwerk, loodwerk, renovatie of spoedherstel.',
+        aanvraag: 'Dakrenovatie of ander dakwerk',
+        urgentie: 'Ik twijfel en wil advies',
+        stripTitle: 'Niet zeker welke dienst u nodig heeft?',
+        stripText: 'Vertel welk dakdeel speelt. Wij sturen u naar de juiste route of adviseren eerst een inspectie.',
+        primary: 'Dienst laten kiezen'
+      });
+    }
+
+    return intent;
+  }
+
+  function setSelectValue(select, preferred){
+    if(!select || !preferred) return;
+    for(var i = 0; i < select.options.length; i++){
+      if(select.options[i].text === preferred || select.options[i].value === preferred){
+        select.selectedIndex = i;
+        return;
+      }
+    }
+  }
+
+  function initStickyCTA(){
+    var cta = document.querySelector('.sticky-cta');
+    var hideSentinel = document.getElementById('hideStickySentinel');
+    var isNearBottomCTA = false;
+    var intent = getPageIntent();
+    var path = window.location.pathname.toLowerCase();
+    var isContactPage = path.indexOf('/contact') !== -1 || path === '/contact/' || path === '/contact';
+    var isHomePage = document.querySelector('.home-main') || path === '/' || path.endsWith('/index.html');
+
+    if(cta){
+      var box = cta.querySelector('.sticky-cta__box');
+      var label = cta.querySelector('.sticky-cta__label');
+      var badge = cta.querySelector('.sticky-cta__free-badge');
+      var primary = cta.querySelector('.sticky-cta__inspect');
+
+      cta.dataset.intent = intent.key;
+      if(box) box.dataset.tone = intent.tone;
+      if(label) label.innerHTML = '<span class="dot"></span> ' + intent.stickyLabel;
+      if(badge) badge.textContent = intent.stickyBadge;
+      if(primary){
+        primary.innerHTML = '<span class="sticky-cta__free-badge">' + intent.stickyBadge + '</span>' + intent.stickyButton;
+        primary.setAttribute('data-contact-intent', intent.key);
+      }
+    }
+
+    function toggleCTA(){
+      if(!cta) return;
+      var showMobile = false;
+      if(window.innerWidth <= 760 && !isContactPage && !isNearBottomCTA){
+        if(isHomePage){
+          var hero = document.querySelector('.hero');
+          var heroBottom = hero ? hero.offsetTop + hero.offsetHeight : 520;
+          showMobile = window.scrollY > Math.max(280, heroBottom - window.innerHeight + 120);
+        } else {
+          showMobile = window.scrollY > 180;
+        }
+      }
+
+      document.documentElement.classList.toggle('sticky-mobile-visible', showMobile);
+
+      if(window.innerWidth > 1200 && window.scrollY > 300 && !isNearBottomCTA && !isContactPage){
+        cta.classList.add('is-visible');
+      } else {
+        cta.classList.remove('is-visible');
+      }
+    }
+
+    if(!cta) return;
+    window.addEventListener('scroll', toggleCTA, { passive: true });
+    window.addEventListener('resize', toggleCTA);
+
+    if(hideSentinel && 'IntersectionObserver' in window){
+      var stickyObserver = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          isNearBottomCTA = entry.isIntersecting;
+          toggleCTA();
+        });
+      }, { rootMargin: '0px 0px -35% 0px' });
+      stickyObserver.observe(hideSentinel);
+    }
+
+    toggleCTA();
+  }
+
+  function initMobileHeroCopy(){
+    var speech = document.querySelector('.home-main .speech');
+    if(!speech) return;
+
+    var fullText = 'We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.';
+    var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
+
+    function apply(){
+      speech.textContent = window.innerWidth <= 640 ? shortText : fullText;
+    }
+
+    apply();
+    window.addEventListener('resize', apply);
+  }
+
+  function initLogoCloud(){
+    if(window.__wolkjeInit || window.__wolkjeClosed) return;
+    window.__wolkjeInit = true;
+
+    var tries = 0;
+    var maxTries = 30;
+
+    function init(){
+      var logo = document.querySelector('.logo img');
+
+      if(!logo){
+        tries++;
+        if(tries < maxTries) window.setTimeout(init, 250);
+        return;
+      }
+
+      if(document.querySelector('.logo-wolkje')) return;
+
+      var cloud = document.createElement('div');
+      cloud.className = 'logo-wolkje';
+      cloud.innerHTML = '<strong>Daklekkages Oplossen is niet het enige wat wij doen.</strong> Lekkages, loodwerk,<br>dakrenovaties, dakisolatie en alle dakgerelateerde werkzaamheden onder een dak.';
+      document.body.appendChild(cloud);
+
+      if(window.innerWidth > 768){
+        var rect = logo.getBoundingClientRect();
+        var left = window.scrollX + rect.left + (rect.width / 2) - (cloud.offsetWidth / 2);
+        var minLeft = window.scrollX + 16;
+        var maxLeft = window.scrollX + window.innerWidth - cloud.offsetWidth - 16;
+
+        cloud.style.top = window.scrollY + rect.bottom + 22 + 'px';
+        cloud.style.left = Math.max(minLeft, Math.min(left, maxLeft)) + 'px';
+      }
+
+      cloud.classList.add('visible');
+
+      var cloudDuration = window.innerWidth <= 768 ? 2800 : 6000;
+      window.setTimeout(function(){
+        cloud.classList.remove('visible');
+        window.__wolkjeClosed = true;
+      }, cloudDuration);
+    }
+
+    init();
+  }
+
+  function initContactForms(){
+    document.querySelectorAll('[data-dlo-contact-form]').forEach(function(form){
+      if(form.dataset.bound === 'true') return;
+      form.dataset.bound = 'true';
+
+      form.addEventListener('submit', async function(event){
+        event.preventDefault();
+
+        var data = new FormData(form);
+        var payload = {
+          aanvraag: data.get('aanvraag') || '',
+          urgentie: data.get('urgentie') || '',
+          naam: data.get('naam') || '',
+          telefoon: data.get('telefoon') || '',
+          email: data.get('email') || '',
+          plaats: data.get('plaats') || '',
+          omschrijving: data.get('omschrijving') || ''
+        };
+        var lines = [
+          'Nieuwe aanvraag via daklekkagesopgelost.nl',
+          '',
+          'Onderwerp: ' + (payload.aanvraag || '-'),
+          'Urgentie: ' + (payload.urgentie || '-'),
+          'Naam: ' + (payload.naam || '-'),
+          'Telefoon: ' + (payload.telefoon || '-'),
+          'E-mail: ' + (payload.email || '-'),
+          'Plaats: ' + (payload.plaats || '-'),
+          '',
+          'Omschrijving:',
+          payload.omschrijving || '-'
+        ];
+
+        var subject = 'Aanvraag via website - ' + (payload.aanvraag || 'dakinspectie');
+        var href = 'mailto:info@daklekkagesopgelost.nl?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+        var status = form.querySelector('[data-form-status]');
+        var submit = form.querySelector('[type="submit"]');
+
+        if(status){
+          status.textContent = 'Uw aanvraag wordt verstuurd...';
+          status.classList.add('is-visible');
+        }
+        if(submit) submit.disabled = true;
+
+        try {
+          var response = await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+
+          if(response.ok){
+            form.reset();
+            if(status) status.textContent = 'Bedankt, uw aanvraag is verzonden. We nemen zo snel mogelijk contact op.';
+            if(submit) submit.disabled = false;
+            return;
+          }
+        } catch(error) {
+          // De statische lokale versie heeft geen API-route; dan gebruiken we de e-mail fallback.
+        }
+
+        if(status) status.textContent = 'Uw e-mailprogramma wordt geopend om de aanvraag te versturen.';
+        if(submit) submit.disabled = false;
+        window.location.href = href;
+      });
+    });
+  }
+
+  function initContactModal(){
+    if(document.querySelector('[data-contact-modal]')) return;
+    var activeIntent = getPageIntent();
+
+    var modal = document.createElement('div');
+    modal.className = 'contact-modal';
+    modal.setAttribute('data-contact-modal', '');
+    modal.setAttribute('aria-hidden', 'true');
+    modal.innerHTML =
+      '<div class="contact-modal__backdrop" data-contact-modal-close></div>' +
+      '<section class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">' +
+        '<button class="contact-modal__close" type="button" aria-label="Formulier sluiten" data-contact-modal-close>&times;</button>' +
+        '<div class="premium-kicker" data-contact-modal-kicker><span></span>Dakvraag laten beoordelen</div>' +
+        '<h2 id="contact-modal-title">Vertel kort wat er aan de hand is</h2>' +
+        '<p data-contact-modal-text>Beschrijf wat u ziet of vermoedt. We beoordelen of inspectie, opsporing, spoedherstel of een gerichte reparatie de logische vervolgstap is.</p>' +
+        '<form class="premium-form" data-dlo-contact-form>' +
+          '<div class="premium-form__grid">' +
+            '<label>Waar gaat het om?' +
+              '<select name="aanvraag" required>' +
+                '<option value="">Kies een onderwerp</option>' +
+                '<option>Daklekkage of vochtplek</option>' +
+                '<option>Gratis dakinspectie</option>' +
+                '<option>Spoed of noodreparatie</option>' +
+                '<option>Loodwerk of schoorsteen</option>' +
+                '<option>Dakrenovatie of ander dakwerk</option>' +
+              '</select>' +
+            '</label>' +
+            '<label>Urgentie' +
+              '<select name="urgentie" required>' +
+                '<option value="">Kies urgentie</option>' +
+                '<option>Er komt nu water binnen</option>' +
+                '<option>Ik zie vocht of schade</option>' +
+                '<option>Ik twijfel en wil advies</option>' +
+                '<option>Preventieve inspectie</option>' +
+              '</select>' +
+            '</label>' +
+            '<label>Naam<input name="naam" autocomplete="name" required></label>' +
+            '<label>Telefoonnummer<input name="telefoon" autocomplete="tel" inputmode="tel" required></label>' +
+            '<label>E-mailadres<input name="email" type="email" autocomplete="email" required></label>' +
+            '<label>Plaats<input name="plaats" autocomplete="address-level2"></label>' +
+            '<label class="premium-form__full">Omschrijving<textarea name="omschrijving" required placeholder="Bijvoorbeeld: waar ziet u vocht, wanneer treedt het op, welk dakdeel lijkt betrokken?"></textarea></label>' +
+          '</div>' +
+          '<p class="premium-form__hint">120+ reviews &bull; snelle opvolging &bull; geen verplichting na de eerste beoordeling.</p>' +
+          '<p class="premium-form__status" data-form-status>Uw aanvraag wordt verstuurd...</p>' +
+          '<div class="premium-actions">' +
+            '<button class="premium-btn premium-btn--primary" type="submit">Aanvraag versturen</button>' +
+            '<a class="premium-btn premium-btn--ghost" href="tel:0851308251">Liever bellen</a>' +
+          '</div>' +
+        '</form>' +
+      '</section>';
+    document.body.appendChild(modal);
+
+    function applyIntent(intent){
+      activeIntent = intent || getPageIntent();
+      modal.dataset.intent = activeIntent.key;
+      var kicker = modal.querySelector('[data-contact-modal-kicker]');
+      var heading = modal.querySelector('#contact-modal-title');
+      var text = modal.querySelector('[data-contact-modal-text]');
+      if(kicker) kicker.innerHTML = '<span></span>' + activeIntent.kicker;
+      if(heading) heading.textContent = activeIntent.modalTitle;
+      if(text) text.textContent = activeIntent.modalText;
+      setSelectValue(modal.querySelector('select[name="aanvraag"]'), activeIntent.aanvraag);
+      setSelectValue(modal.querySelector('select[name="urgentie"]'), activeIntent.urgentie);
+    }
+
+    function closeModal(){
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.documentElement.classList.remove('contact-modal-open');
+    }
+
+    function openModal(intent){
+      applyIntent(intent);
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.documentElement.classList.add('contact-modal-open');
+      var firstField = modal.querySelector('select, input, textarea, button');
+      if(firstField) firstField.focus({ preventScroll: true });
+    }
+
+    document.addEventListener('click', function(event){
+      var opener = event.target.closest('a[href]');
+      if(!opener || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+      var href = opener.getAttribute('href') || '';
+      var opensContactForm = href === '#formulier' || href.indexOf('/contact/#formulier') !== -1 || href.indexOf('/contact/#formulier') !== -1;
+      if(!opensContactForm) return;
+
+      event.preventDefault();
+      openModal(getPageIntent());
+    });
+
+    modal.querySelectorAll('[data-contact-modal-close]').forEach(function(closeButton){
+      closeButton.addEventListener('click', closeModal);
+    });
+
+    document.addEventListener('keydown', function(event){
+      if(event.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+    });
+  }
+
+  function initSmartConversionBlocks(){
+    if(document.querySelector('[data-smart-conversion]')) return;
+    var main = document.querySelector('main');
+    if(!main) return;
+
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/contact') !== -1) return;
+
+    var intent = getPageIntent();
+    var anchor = main.querySelector('.premium-hero, .kb-hero, .soft, .hero');
+    if(!anchor) return;
+
+    var strip = document.createElement('section');
+    strip.className = 'smart-conversion';
+    strip.setAttribute('data-smart-conversion', '');
+    strip.innerHTML =
+      '<div class="smart-conversion__inner">' +
+        '<div class="smart-conversion__copy">' +
+          '<span class="smart-conversion__kicker"><i></i>' + intent.kicker + '</span>' +
+          '<h2>' + intent.stripTitle + '</h2>' +
+          '<p>' + intent.stripText + '</p>' +
+        '</div>' +
+        '<div class="smart-conversion__routes" aria-label="Snelle routes">' +
+          '<a href="/diensten/noodreparatie/"><b>Nu water binnen</b><span>Schade beperken</span></a>' +
+          '<a href="/lekkages/lekkage-opsporen/"><b>Bron onzeker</b><span>Lekkage opsporen</span></a>' +
+          '<a href="/diensten/gratis-dakinspectie/"><b>Twijfel of preventie</b><span>Dakinspectie</span></a>' +
+        '</div>' +
+        '<div class="smart-conversion__actions">' +
+          '<a class="smart-conversion__primary" href="/contact/#formulier" data-contact-intent="' + intent.key + '">' + intent.primary + '</a>' +
+          '<a class="smart-conversion__secondary" href="tel:0851308251">' + intent.secondary + '</a>' +
+        '</div>' +
+      '</div>';
+
+    anchor.insertAdjacentElement('afterend', strip);
+  }
+
+  function initProjectProof(){
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/diensten/') === -1 && path.indexOf('/lekkages/') === -1) return;
+    if(document.querySelector('[data-project-proof]')) return;
+
+    var isSchoorsteenRoute = path.indexOf('schoorsteen') !== -1 ||
+      path.indexOf('metselwerk-repareren') !== -1 ||
+      path.indexOf('pleisteren') !== -1;
+    if(!isSchoorsteenRoute) return;
+
+    var target = document.querySelector('main .premium-section:last-of-type, main .section:last-of-type');
+    if(!target) return;
+
+    fetch('/data/projects/location-projects.json')
+      .then(function(response){ return response.ok ? response.json() : []; })
+      .then(function(projects){
+        if(!Array.isArray(projects) || !projects.length) return;
+        var keyword = 'schoorsteen';
+        if(path.indexOf('plat') !== -1) keyword = 'plat';
+        if(path.indexOf('dakkapel') !== -1 || path.indexOf('dakraam') !== -1) keyword = 'dak';
+        if(path.indexOf('lood') !== -1) keyword = 'lood';
+
+        var selected = projects.filter(function(project){
+          var text = ((project.title || '') + ' ' + (project.summary || '') + ' ' + (project.category || '')).toLowerCase();
+          return text.indexOf(keyword) !== -1;
+        }).slice(0, 3);
+        if(selected.length < 3) selected = projects.slice(0, 3);
+
+        var section = document.createElement('section');
+        section.className = 'project-proof';
+        section.setAttribute('data-project-proof', '');
+        section.innerHTML =
+          '<div class="project-proof__inner">' +
+            '<div class="project-proof__head">' +
+              '<span class="smart-conversion__kicker"><i></i>Praktijkvoorbeelden</span>' +
+              '<h2>Vergelijkbare dakproblemen die we eerder oplosten</h2>' +
+              '<p>Projecten geven sneller vertrouwen dan alleen uitleg. Bekijk voorbeelden uit de praktijk of laat uw eigen situatie beoordelen.</p>' +
+            '</div>' +
+            '<div class="project-proof__grid">' + selected.map(function(project){
+              return '<a href="' + (project.url || '/over-ons/uitgevoerde-projecten/') + '">' +
+                '<img src="' + (project.image || '/assets/img/logo-dark.png') + '" alt="' + (project.imageAlt || project.title || 'Uitgevoerd dakproject') + '" loading="lazy" decoding="async">' +
+                '<span>' + (project.place || project.location || 'Uitgevoerd project') + '</span>' +
+                '<strong>' + (project.title || 'Dakproject door Daklekkages Opgelost') + '</strong>' +
+              '</a>';
+            }).join('') + '</div>' +
+          '</div>';
+        target.insertAdjacentElement('beforebegin', section);
+      })
+      .catch(function(){});
+  }
+
+  function initKnowledgeServiceLinks(){
+    if(document.querySelector('[data-knowledge-service-links]')) return;
+    var path = window.location.pathname.toLowerCase();
+    var isKnowledgeCluster = path.indexOf('/kennisbank/') !== -1 && path.split('/').filter(Boolean).length === 3;
+    var isServicePage = path.indexOf('/diensten/') !== -1 && path !== '/diensten/';
+    if(!isKnowledgeCluster && !isServicePage) return;
+
+    var clusterMap = [
+      { match: '01-dakonderhoud-en-inspectie', title: 'Diensten die passen bij dit cluster', text: 'Van onderhoudskennis naar zekerheid over uw eigen dak.', links: [
+        ['/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Rustige beoordeling bij twijfel'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Gerichte controle van dakdetails'],
+        ['/diensten/rapportage-dakinspectie/', 'Rapportage dakinspectie', 'Vastlegging van bevindingen']
+      ]},
+      { match: '02-daklekkage-en-schade', title: 'Logische diensten bij lekkage of schade', text: 'Kies de route die past bij zichtbare vochtplekken, schade of actieve lekkage.', links: [
+        ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Bron bepalen zonder giswerk'],
+        ['/lekkages/daklekkage/', 'Daklekkage oplossen', 'Van symptoom naar herstel'],
+        ['/diensten/spoedreparatie/', 'Spoedreparatie', 'Wanneer schade snel beperkt moet worden']
+      ]},
+      { match: '03-dakvervanging-en-levensduur', title: 'Diensten rond vervanging en levensduur', text: 'Wanneer herstel niet meer logisch is, helpt een goede beoordeling bij de juiste keuze.', links: [
+        ['/diensten/dakrenovatie/', 'Dakrenovatie', 'Structureel herstel of vervanging'],
+        ['/diensten/diensten-schuin-dak/', 'Schuin dak diensten', 'Pannen, nok en dakopbouw'],
+        ['/diensten/diensten-plat-dak/', 'Plat dak diensten', 'Bitumen, afschot en dakbedekking']
+      ]},
+      { match: '04-dakisolatie-en-duurzaamheid', title: 'Diensten rond isolatie en dakcomfort', text: 'Isolatie werkt alleen goed wanneer dakopbouw en vochtbelasting kloppen.', links: [
+        ['/diensten/dak-isoleren/', 'Dak isoleren', 'Comfort en energieverlies verbeteren'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Eerst controleren of isoleren logisch is']
+      ]},
+      { match: '05-schoorsteenrenovatie', title: 'Schoorsteendiensten bij dit cluster', text: 'Deze diensten sluiten direct aan op renovatie, lekkage en metselwerk rond de schoorsteen.', links: [
+        ['/diensten/diensten-schoorsteen/', 'Diensten schoorsteen', 'Keuzehulp voor schoorsteenwerk'],
+        ['/diensten/schoorsteenrenovatie/', 'Schoorsteenrenovatie', 'Herstel van metselwerk en opbouw'],
+        ['/diensten/metselwerk-repareren/', 'Metselwerk repareren', 'Voegen, stenen en stabiliteit']
+      ]},
+      { match: '06-schoorsteen-lood-vervangen', title: 'Diensten rond schoorsteenlood', text: 'Bij loodproblemen draait het om aansluiting, overlap en waterdichte detaillering.', links: [
+        ['/diensten/schoorsteenlood-vervangen/', 'Schoorsteenlood vervangen', 'Waterdichte aansluiting rond de schoorsteen'],
+        ['/diensten/schoorsteenlood-spouw-vervangen/', 'Schoorsteenlood spouw vervangen', 'Wanneer dieper herstel nodig is'],
+        ['/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Alle loodroutes bij elkaar']
+      ]},
+      { match: '07-schoorsteen-verwijderen', title: 'Diensten rond schoorsteen verwijderen', text: 'Soms is herstellen logisch, soms verwijderen. Deze routes helpen kiezen.', links: [
+        ['/diensten/schoorsteen-verwijderen/', 'Schoorsteen verwijderen', 'Wanneer behoud niet logisch is'],
+        ['/diensten/diensten-schoorsteen/', 'Diensten schoorsteen', 'Alle schoorsteenroutes vergelijken']
+      ]},
+      { match: '08-dakkapel-renoveren', title: 'Diensten rond dakkapelrenovatie', text: 'Dakkapellen vragen om aandacht voor lood, dakbedekking, boeidelen en aansluitingen.', links: [
+        ['/diensten/diensten-dakkapel/', 'Diensten dakkapel', 'Keuzehulp voor dakkapelwerk'],
+        ['/diensten/dakkapel-renoveren/', 'Dakkapel renoveren', 'Herstel van opbouw en afwerking'],
+        ['/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen', 'Veelvoorkomend lekkagepunt']
+      ]},
+      { match: '09-dakkapel-lood-vervangen', title: 'Diensten rond dakkapellood', text: 'Lood rond dakkapellen is een kwetsbaar dakdetail dat gericht beoordeeld moet worden.', links: [
+        ['/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen', 'Aansluiting opnieuw waterdicht maken'],
+        ['/diensten/diensten-dakkapel/', 'Diensten dakkapel', 'Alle dakkapelroutes vergelijken']
+      ]},
+      { match: '10-dakraam', title: 'Diensten rond dakramen', text: 'Bij dakramen gaat het vaak om gootstukken, lood en aansluiting met het dakvlak.', links: [
+        ['/diensten/diensten-dakraam/', 'Diensten dakraam', 'Keuzehulp voor dakraamproblemen'],
+        ['/diensten/dakraamlood-vervangen/', 'Dakraamlood vervangen', 'Herstel van aansluitingen']
+      ]},
+      { match: '11-daklood', title: 'Diensten rond daklood en aansluitingen', text: 'Daklood is vaak bepalend voor de waterdichtheid van kwetsbare dakdetails.', links: [
+        ['/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Alle loodroutes bij elkaar'],
+        ['/diensten/daklood-vervangen/', 'Daklood vervangen', 'Gericht herstel van loodwerk'],
+        ['/diensten/trapsgewijs-lood-vervangen/', 'Trapsgewijs lood vervangen', 'Bij schoorsteen en metselwerk']
+      ]},
+      { match: '12-plat-dak', title: 'Diensten rond platte daken', text: 'Platte daken vragen om controle van afschot, naden, afvoer en dakbedekking.', links: [
+        ['/diensten/diensten-plat-dak/', 'Plat dak diensten', 'Keuzehulp voor platte daken'],
+        ['/diensten/plat-dak-reparatie/', 'Plat dak reparatie', 'Gericht herstel bij schade'],
+        ['/diensten/plat-dak-vervangen/', 'Plat dak vervangen', 'Wanneer repareren niet genoeg is']
+      ]},
+      { match: '13-dakrenovatie', title: 'Diensten rond dakrenovatie', text: 'Renovatie wordt pas logisch wanneer duidelijk is welke onderdelen technisch aan het einde zijn.', links: [
+        ['/diensten/dakrenovatie/', 'Dakrenovatie', 'Structureel herstel van het dak'],
+        ['/diensten/diensten-schuin-dak/', 'Schuin dak diensten', 'Pannen, nok en dakopbouw'],
+        ['/diensten/dakgoot-vervangen/', 'Dakgoot vervangen', 'Afvoer en dakrand meenemen']
+      ]},
+      { match: '16-weersinvloeden-en-dakschade', title: 'Diensten na storm, regen of weersschade', text: 'Weerschade vraagt om een beoordeling van oorzaak, urgentie en vervolgrisico.', links: [
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Controle na hevig weer'],
+        ['/diensten/spoedreparatie/', 'Spoedreparatie', 'Schade tijdelijk of definitief beperken'],
+        ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Bron bepalen bij twijfel']
+      ]},
+      { match: '17-dakdetails-als-faalpunten', title: 'Diensten voor kwetsbare dakdetails', text: 'Aansluitingen, lood, doorvoeren en randen veroorzaken vaak meer problemen dan het dakvlak zelf.', links: [
+        ['/diensten/diensten-loodafwerkingen/', 'Daklood en aansluitingen', 'Waterdichte detaillering'],
+        ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Faalpunt gericht vinden'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Dakdetails laten controleren']
+      ]},
+      { match: '18-veroudering-en-levensduur', title: 'Diensten bij veroudering van het dak', text: 'Veroudering hoeft niet direct vervanging te betekenen, maar vraagt wel om de juiste afweging.', links: [
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Staat van het dak beoordelen'],
+        ['/diensten/dakrenovatie/', 'Dakrenovatie', 'Wanneer herstel structureel moet'],
+        ['/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Beginnen met duidelijkheid']
+      ]},
+      { match: '19-binnenklimaat', title: 'Diensten bij vocht, condens en comfortproblemen', text: 'Binnenklimaatproblemen hangen vaak samen met isolatie, ventilatie of verborgen dakschade.', links: [
+        ['/diensten/dak-isoleren/', 'Dak isoleren', 'Warmteverlies beperken'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Vochtbron laten beoordelen']
+      ]},
+      { match: '20-constructieve-dakproblemen', title: 'Diensten bij constructieve twijfel', text: 'Bij doorbuiging, houtrot of terugkerende schade is eerst een nuchtere beoordeling nodig.', links: [
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Eerst de staat bepalen'],
+        ['/diensten/dakrenovatie/', 'Dakrenovatie', 'Structurele dakaanpak']
+      ]},
+      { match: '21-terugkerende-lekkages', title: 'Diensten bij terugkerende lekkages', text: 'Terugkerende lekkage vraagt om brononderzoek in plaats van opnieuw oppervlakkig repareren.', links: [
+        ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen', 'Echte oorzaak vinden'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Volledig dakbeeld krijgen'],
+        ['/lekkages/daklekkage/', 'Daklekkage oplossen', 'Gericht naar herstel']
+      ]},
+      { match: '22-twijfel-en-interpretatie', title: 'Diensten wanneer u nog twijfelt', text: 'Niet elk signaal is spoed, maar twijfel verdient wel een heldere beoordeling.', links: [
+        ['/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Laagdrempelig laten beoordelen'],
+        ['/diensten/dakinspectie/', 'Dakinspectie', 'Gerichte controle bij signalen']
+      ]}
+    ];
+
+    var serviceMap = [
+      { match: 'schoorsteen', title: 'Verdieping over schoorsteenproblemen', links: [
+        ['/kennisbank/05-schoorsteenrenovatie/', 'Cluster schoorsteenrenovatie'],
+        ['/kennisbank/06-schoorsteen-lood-vervangen/', 'Cluster schoorsteenlood'],
+        ['/kennisbank/07-schoorsteen-verwijderen/', 'Cluster schoorsteen verwijderen']
+      ]},
+      { match: 'dakkapel', title: 'Verdieping over dakkapellen', links: [
+        ['/kennisbank/08-dakkapel-renoveren/', 'Cluster dakkapel renoveren'],
+        ['/kennisbank/09-dakkapel-lood-vervangen/', 'Cluster dakkapellood']
+      ]},
+      { match: 'dakraam', title: 'Verdieping over dakramen', links: [
+        ['/kennisbank/10-dakraam/', 'Cluster dakraam']
+      ]},
+      { match: 'lood', title: 'Verdieping over daklood', links: [
+        ['/kennisbank/11-daklood/', 'Cluster daklood'],
+        ['/kennisbank/17-dakdetails-als-faalpunten/', 'Cluster dakdetails']
+      ]},
+      { match: 'plat-dak', title: 'Verdieping over platte daken', links: [
+        ['/kennisbank/12-plat-dak/', 'Cluster plat dak']
+      ]},
+      { match: 'dakrenovatie', title: 'Verdieping over dakrenovatie', links: [
+        ['/kennisbank/13-dakrenovatie/', 'Cluster dakrenovatie'],
+        ['/kennisbank/03-dakvervanging-en-levensduur/', 'Cluster levensduur']
+      ]},
+      { match: 'dak-isoleren', title: 'Verdieping over isolatie en comfort', links: [
+        ['/kennisbank/04-dakisolatie-en-duurzaamheid/', 'Cluster dakisolatie'],
+        ['/kennisbank/19-binnenklimaat/', 'Cluster binnenklimaat']
+      ]},
+      { match: 'dakinspectie', title: 'Verdieping over inspectie en onderhoud', links: [
+        ['/kennisbank/01-dakonderhoud-en-inspectie/', 'Cluster dakonderhoud en inspectie'],
+        ['/kennisbank/22-twijfel-en-interpretatie/', 'Cluster twijfel en interpretatie']
+      ]}
+    ];
+
+    var config = null;
+    if(isKnowledgeCluster){
+      config = clusterMap.find(function(item){ return path.indexOf(item.match) !== -1; });
+    } else {
+      config = serviceMap.find(function(item){ return path.indexOf(item.match) !== -1; });
+      if(config) config.text = 'Deze kennisbankclusters geven extra uitleg zonder de dienstpagina blogachtig te maken.';
+    }
+    if(!config || !config.links || !config.links.length) return;
+
+    var anchor = document.querySelector('.kb-hero, .premium-hero');
+    if(!anchor) return;
+    var section = document.createElement('section');
+    section.className = 'knowledge-service-links';
+    section.setAttribute('data-knowledge-service-links', '');
+    section.innerHTML =
+      '<div class="knowledge-service-links__inner">' +
+        '<div><span class="smart-conversion__kicker"><i></i>Logische vervolgstap</span>' +
+        '<h2>' + config.title + '</h2><p>' + (config.text || '') + '</p></div>' +
+        '<div class="knowledge-service-links__grid">' + config.links.map(function(link){
+          return '<a href="' + link[0] + '"><strong>' + link[1] + '</strong><span>' + (link[2] || 'Meer verdieping') + '</span></a>';
+        }).join('') + '</div>' +
+      '</div>';
+    anchor.insertAdjacentElement('afterend', section);
+  }
+
+  function initBlogAdvisorCTA(){
+    var ctas = document.querySelectorAll('.kb-page .kb-cta');
+    if(!ctas.length) return;
+
+    ctas.forEach(function(cta){
+      if(cta.dataset.advisorReady === 'true') return;
+      cta.dataset.advisorReady = 'true';
+      cta.classList.add('kb-cta--advisor');
+
+      var copy = cta.querySelector('h2');
+      var text = cta.querySelector('p');
+      if(copy) copy.textContent = 'Twijfelt u wat dit voor uw dak betekent?';
+      if(text) text.textContent = 'Stuur kort wat u ziet, dan bepalen we of inspectie, opsporing of herstel de logische vervolgstap is.';
+
+      var actions = cta.querySelector('.kb-actions');
+      if(actions){
+        var primary = actions.querySelector('.kb-btn--primary');
+        var secondary = actions.querySelector('.kb-btn--ghost');
+        if(primary){
+          primary.setAttribute('href', '/contact/#formulier');
+          primary.textContent = 'Vraag advies aan';
+        }
+        if(secondary){
+          secondary.textContent = 'Bel direct';
+        }
+      }
+
+      if(!cta.querySelector('.kb-cta__advisor')){
+        var advisor = document.createElement('div');
+        advisor.className = 'kb-cta__advisor';
+        advisor.innerHTML =
+          '<img src="/assets/img/kennisbank/dakadvies-dakdetails.webp" alt="Dakdetails en schoorsteenlood als voorbeeld voor dakadvies" loading="lazy" decoding="async">' +
+          '<div><strong>Dakadvies</strong><span>Van zichtbaar signaal naar juiste vervolgstap</span></div>';
+        cta.appendChild(advisor);
+      }
+    });
+  }
+
+  function initLeakageMoneyLayer(){
+    var path = window.location.pathname.toLowerCase();
+    if(path.indexOf('/lekkages/') === -1 || path === '/lekkages/' || document.querySelector('[data-leakage-money-layer]')) return;
+
+    var configs = [
+      {
+        match: 'daklekkage',
+        title: 'Daklekkage oplossen zonder symptoombestrijding',
+        text: 'Bij een daklekkage is de zichtbare vochtplek meestal niet de plek waar water binnenkomt. Daarom sturen we eerst op oorzaak, daarna pas op herstel.',
+        cta: 'Daklekkage laten beoordelen',
+        cards: [
+          ['01', 'Wat merkt u?', 'Vochtplek, druppels, schimmel of schade die vooral bij regen zichtbaar wordt.'],
+          ['02', 'Wat zoeken we uit?', 'De route van het water via dakbedekking, lood, nok, schoorsteen of aansluitingen.'],
+          ['03', 'Wat is logisch?', 'Gericht herstellen als de oorzaak helder is, of eerst lekkage opsporen bij twijfel.']
+        ],
+        links: [
+          ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen'],
+          ['/lekkages/plat-dak-lekkage/', 'Plat dak lekkage oplossen'],
+          ['/lekkages/schoorsteenlekkage/', 'Schoorsteenlekkage oplossen']
+        ]
+      },
+      {
+        match: 'lekkage-opsporen',
+        title: 'Lekkage opsporen voordat er onnodig wordt gerepareerd',
+        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op één zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
+        cta: 'Laat de lekkage opsporen',
+        cards: [
+          ['01', 'Wanneer nodig?', 'Bij terugkerende lekkage, onduidelijke vochtplekken of lekkage die alleen bij slagregen ontstaat.'],
+          ['02', 'Waar kijken we naar?', 'Aansluitingen, daklood, dakbedekking, nokken, doorvoeren en sporen onder het dakvlak.'],
+          ['03', 'Wat krijgt u?', 'Een duidelijke uitleg van de vermoedelijke oorzaak en de meest logische herstelroute.']
+        ],
+        links: [
+          ['/lekkages/daklekkage/', 'Daklekkage oplossen'],
+          ['/lekkages/noklekkage/', 'Noklekkage oplossen'],
+          ['/lekkages/loodslabben-lekkage/', 'Loodslabben lekkage oplossen']
+        ]
+      },
+      {
+        match: 'schoorsteenlekkage',
+        title: 'Schoorsteenlekkage oplossen met aandacht voor lood, voegwerk en aansluiting',
+        text: 'Lekkage rond een schoorsteen ontstaat vaak door een combinatie van verouderd lood, poreus metselwerk, slechte voegen of een kwetsbare aansluiting met het dakvlak.',
+        cta: 'Schoorsteenlekkage laten controleren',
+        cards: [
+          ['01', 'Herkenbaar signaal', 'Vocht rond de schoorsteen, zolder, plafond of binnenmuur na regen of harde wind.'],
+          ['02', 'Belangrijke oorzaak', 'Schoorsteenlood, voegwerk, scheuren, afdekking of aansluiting met dakpannen.'],
+          ['03', 'Duurzame route', 'Niet alleen afdichten, maar bepalen of loodwerk, renovatie of plaatselijk herstel nodig is.']
+        ],
+        links: [
+          ['/diensten/schoorsteenrenovatie/', 'Schoorsteenrenovatie'],
+          ['/diensten/schoorsteenlood-vervangen/', 'Schoorsteenlood vervangen'],
+          ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'noklekkage',
+        title: 'Noklekkage oplossen bij schade rond nokvorsten of mortel',
+        text: 'De nok vangt veel wind en regen. Kleine scheuren, losliggende nokvorsten of verouderde mortel kunnen daardoor sneller tot lekkage leiden.',
+        cta: 'Noklekkage laten repareren',
+        cards: [
+          ['01', 'Wat ziet u?', 'Vocht bij de nok, zolder of dakbeschot, vaak na storm of slagregen.'],
+          ['02', 'Wat controleren we?', 'Nokvorsten, mortel, ruiter, panlatten en aansluitingen rondom de nok.'],
+          ['03', 'Welke keuze?', 'Plaatselijk herstellen, nokrenovatie of breder dakherstel wanneer de nok structureel verouderd is.']
+        ],
+        links: [
+          ['/diensten/nokrenovatie/', 'Nokrenovatie'],
+          ['/lekkages/daklekkage/', 'Daklekkage oplossen'],
+          ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'loodslabben-lekkage',
+        title: 'Lekkage door loodslabben oplossen bij kwetsbare dakdetails',
+        text: 'Daklood en loodslabben beschermen aansluitingen. Als lood scheurt, loskomt of verkeerd is aangebracht, kan water ongemerkt achter de aansluiting verdwijnen.',
+        cta: 'Daklood lekkage laten herstellen',
+        cards: [
+          ['01', 'Waar gebeurt dit?', 'Bij schoorstenen, dakkapellen, gevels, kozijnen, dakramen en andere dakdoorbrekingen.'],
+          ['02', 'Wat gaat mis?', 'Scheuren, opwaaien, losliggende slabben, verkeerde overlap of verouderde aansluiting.'],
+          ['03', 'Wat is verstandig?', 'Bepalen of repareren genoeg is of dat lood vervangen de duurzame oplossing is.']
+        ],
+        links: [
+          ['/diensten/daklood-vervangen/', 'Daklood vervangen'],
+          ['/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen'],
+          ['/lekkages/schoorsteenlekkage/', 'Schoorsteenlekkage oplossen']
+        ]
+      },
+      {
+        match: 'daklood-loodslabben-lekkage',
+        title: 'Lekkage door daklood oplossen bij kwetsbare aansluitingen',
+        text: 'Daklood is vaak het detail dat bepaalt of een dak echt waterdicht blijft. Vooral rondom schoorstenen, dakkapellen en gevels is een goede beoordeling belangrijk.',
+        cta: 'Daklood lekkage laten herstellen',
+        cards: [
+          ['01', 'Typisch signaal', 'Vocht onder een aansluiting, bij een dakkapel, schoorsteen of geveldetail.'],
+          ['02', 'Technische oorzaak', 'Gescheurd lood, losse slabben, verkeerde aansluiting of verouderd metselwerk.'],
+          ['03', 'Logische route', 'Gericht lood herstellen of vervangen, eventueel gecombineerd met opsporing.']
+        ],
+        links: [
+          ['/diensten/daklood-vervangen/', 'Daklood vervangen'],
+          ['/lekkages/loodslabben-lekkage/', 'Loodslabben lekkage oplossen'],
+          ['/lekkages/lekkage-opsporen/', 'Lekkage opsporen']
+        ]
+      },
+      {
+        match: 'plat-dak-lekkage',
+        title: 'Plat dak lekkage oplossen bij bitumen, EPDM, naden of afvoer',
+        text: 'Een plat dak lekt vaak bij naden, dakranden, opstanden of afvoeren. De juiste oplossing hangt af van leeftijd, dakbedekking en de plek waar water blijft staan.',
+        cta: 'Plat dak lekkage laten oplossen',
+        cards: [
+          ['01', 'Wat herkent u?', 'Blaasvorming, scheuren, natte plekken, stilstaand water of lekkage rond een afvoer.'],
+          ['02', 'Wat beoordelen we?', 'Dakbedekking, naden, overlappen, afschot, afvoer en dakranden.'],
+          ['03', 'Wat kiezen we?', 'Reparatie als dat duurzaam kan, vervangen of overlagen als het dakvlak te ver heen is.']
+        ],
+        links: [
+          ['/diensten/plat-dak-reparatie/', 'Plat dak reparatie'],
+          ['/diensten/plat-dak-vervangen/', 'Plat dak vervangen'],
+          ['/diensten/diensten-plat-dak/', 'Plat dak diensten']
+        ]
+      },
+      {
+        match: 'dakkapel-lekkage',
+        title: 'Dakkapel lekkage oplossen bij lood, dakbedekking of aansluiting',
+        text: 'Een dakkapel heeft meerdere kwetsbare details dicht bij elkaar. Water kan binnenkomen via lood, dakbedekking, kozijnen, zijwangen of de aansluiting met dakpannen.',
+        cta: 'Dakkapel lekkage laten controleren',
+        cards: [
+          ['01', 'Waar merkt u het?', 'Vocht rond kozijn, plafond, binnenwand of onder het platte dakdeel van de dakkapel.'],
+          ['02', 'Wat is vaak de oorzaak?', 'Oud dakkapellood, slechte dakbedekking, kier bij zijwang of aansluiting met het schuine dak.'],
+          ['03', 'Wat is slim?', 'Eerst bepalen welk detail faalt, daarna gericht lood vervangen, dak herstellen of renoveren.']
+        ],
+        links: [
+          ['/diensten/dakkapel-lood-vervangen/', 'Dakkapel lood vervangen'],
+          ['/diensten/dakkapel-renoveren/', 'Dakkapel renoveren'],
+          ['/diensten/diensten-dakkapel/', 'Dakkapel diensten']
+        ]
+      }
+    ];
+
+    var config = configs.find(function(item){ return path.indexOf(item.match) !== -1; });
+    if(!config) return;
+
+    var anchor = document.querySelector('main .sec.soft, main .premium-hero, main .soft');
+    if(!anchor) return;
+
+    var section = document.createElement('section');
+    section.className = 'leakage-money-layer';
+    section.setAttribute('data-leakage-money-layer', '');
+    section.innerHTML =
+      '<div class="leakage-money-layer__inner">' +
+        '<div class="leakage-money-layer__head">' +
+          '<span class="smart-conversion__kicker"><i></i>Keuzehulp bij lekkage</span>' +
+          '<h2>' + config.title + '</h2>' +
+          '<p>' + config.text + '</p>' +
+        '</div>' +
+        '<div class="leakage-money-layer__cards">' + config.cards.map(function(card){
+          return '<article><span>' + card[0] + '</span><h3>' + card[1] + '</h3><p>' + card[2] + '</p></article>';
+        }).join('') + '</div>' +
+        '<div class="leakage-money-layer__bottom">' +
+          '<div class="leakage-money-layer__links">' + config.links.map(function(link){
+            return '<a href="' + link[0] + '">' + link[1] + '</a>';
+          }).join('') + '</div>' +
+          '<div class="leakage-money-layer__actions">' +
+            '<a class="smart-conversion__primary" href="/contact/#formulier">' + config.cta + '</a>' +
+            '<a class="smart-conversion__secondary" href="tel:0851308251">Overleg telefonisch</a>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    anchor.insertAdjacentElement('afterend', section);
+  }
+
+  function cleanLegacyBlogFragments(){
+    document.querySelectorAll('.kb-article-card div').forEach(function(node){
+      var text = (node.textContent || '').replace(/\s+/g, ' ').trim();
+      if(text.indexOf('Of vul het formulier direct in') !== -1 && text.indexOf('Gratis dakinspectie aanvragen') !== -1){
+        node.remove();
+      }
+    });
+  }
+
+  if(document.documentElement.dataset.includesLoaded === 'true'){
+    initStickyCTA();
+    initLogoCloud();
+    initContactModal();
+    initContactForms();
+    initSmartConversionBlocks();
+    initProjectProof();
+    initKnowledgeServiceLinks();
+    initLeakageMoneyLayer();
+    cleanLegacyBlogFragments();
+    initBlogAdvisorCTA();
+  } else if(document.querySelector('[data-include]')){
+    document.addEventListener('includes:loaded', function(){
+      initStickyCTA();
+      initMobileHeroCopy();
+      initLogoCloud();
+      initContactModal();
+      initContactForms();
+      initSmartConversionBlocks();
+      initProjectProof();
+      initKnowledgeServiceLinks();
+      initLeakageMoneyLayer();
+      cleanLegacyBlogFragments();
+      initBlogAdvisorCTA();
+    }, { once: true });
+  } else {
+    initStickyCTA();
+    initMobileHeroCopy();
+    initLogoCloud();
+    initContactModal();
+    initContactForms();
+    initSmartConversionBlocks();
+    initProjectProof();
+    initKnowledgeServiceLinks();
+    initLeakageMoneyLayer();
+    cleanLegacyBlogFragments();
+    initBlogAdvisorCTA();
+  }
+
+  // Subtiele micro-animaties (reveal on scroll)
+  var revealTargets = [].slice.call(document.querySelectorAll('.sec, .card, .node, details.chooser__item, .media-card'));
+  revealTargets.forEach(function(el){ if(!el.classList.contains('reveal')) el.classList.add('reveal'); });
+
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -10% 0px' });
+
+    revealTargets.forEach(function(el){ io.observe(el); });
+  } else {
+    revealTargets.forEach(function(el){ el.classList.add('is-in'); });
+  }
+})();

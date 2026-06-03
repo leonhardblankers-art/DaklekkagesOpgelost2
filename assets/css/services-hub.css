@@ -547,5 +547,157 @@
     box-shadow: none;
     text-align: left;
     transform: none;
+    overflow-wrap: anywhere;
+  }
+}
+
+/* Laatste override: dakkaart rustig houden, keuzes als duidelijke knoppen */
+.roof-map {
+  display: grid;
+  align-items: end;
+  min-height: 520px;
+  padding: 0;
+}
+
+.roof-map__house {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.roof-map__house::before {
+  content: "Kies het dakdeel";
+  position: absolute;
+  left: 22px;
+  top: 22px;
+  z-index: 4;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.94);
+  color: var(--brand2);
+  font-size: 14px;
+  font-weight: 900;
+  box-shadow: 0 10px 24px rgba(15,17,21,.12);
+}
+
+.roof-hotspot {
+  position: relative;
+  left: auto !important;
+  top: auto !important;
+  width: auto;
+  height: auto;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid rgba(15,17,21,.08);
+  border-radius: 999px;
+  background: rgba(255,255,255,.96);
+  color: var(--ink);
+  box-shadow: 0 10px 24px rgba(15,17,21,.12);
+  transform: none;
+}
+
+.roof-hotspot::after {
+  display: none;
+}
+
+.roof-hotspot::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-radius: 999px;
+  background: var(--dot, var(--brand));
+  box-shadow: 0 0 0 5px rgba(29,151,83,.14);
+}
+
+.roof-hotspot span,
+.roof-hotspot:hover span,
+.roof-hotspot:focus-visible span {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  min-width: 0;
+  max-width: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: left;
+  transform: none;
+}
+
+.roof-hotspot:hover,
+.roof-hotspot:focus-visible {
+  color: #fff;
+  background: var(--brand);
+  border-color: var(--brand);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.roof-hotspot:hover::before,
+.roof-hotspot:focus-visible::before {
+  background: #fff;
+  box-shadow: none;
+}
+
+.roof-hotspot--schoorsteen {
+  --dot: #ff7a00;
+}
+
+.roof-hotspot--inspectie {
+  --dot: #45b4ff;
+}
+
+.roof-map__house {
+  align-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 22px 24px;
+}
+
+@media(max-width:640px) {
+  .roof-map {
+    min-height: 0;
+    padding-top: 285px;
+    background:
+      linear-gradient(180deg, rgba(11,13,16,.04), rgba(11,13,16,.32) 0 285px, #f8fbf9 285px),
+      url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center top / 100% 285px no-repeat;
+  }
+
+  .roof-map__house {
+    position: relative;
+    inset: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 14px;
+    background: #f8fbf9;
+  }
+
+  .roof-map__house::before {
+    left: 14px;
+    top: -270px;
+  }
+
+  .roof-hotspot {
+    min-height: 48px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    padding: 11px 12px;
+  }
+
+  .roof-hotspot span {
+    font-size: 13px;
+  }
+
+  .roof-hotspot--inspectie {
+    grid-column: 1 / -1;
   }
 }
