@@ -1303,3 +1303,34 @@ main {
   }
 }
 
+/* Laatste override: mobiele home-hero compacter croppen en speech bubble centreren */
+@media (max-width: 640px) {
+  .hero {
+    min-height: min(780px, calc(100svh - 40px));
+    background-position: center 48%;
+  }
+
+  .hero .wrap {
+    min-height: min(780px, calc(100svh - 40px));
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .speech {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: min(100%, calc(100vw - 32px));
+    max-width: 420px;
+    align-self: center;
+    justify-self: center;
+    margin: 14px auto 18px;
+    transform: none;
+  }
+
+  .speech::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
