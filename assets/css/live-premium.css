@@ -268,10 +268,12 @@
   border: 1px solid rgba(15,17,21,.08);
   box-shadow: var(--shadow);
   aspect-ratio: 16 / 10;
+  max-height: 360px;
 }
 
 .premium-page .premium-detail-media--portrait {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 5 / 4;
+  max-height: 340px;
 }
 
 .premium-page .premium-detail-media img {
