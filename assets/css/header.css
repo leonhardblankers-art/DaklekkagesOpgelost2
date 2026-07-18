@@ -727,7 +727,7 @@ a.mobile-link:not(.is-active)::after {
 }
 
 /* =============================================
-   DROPDOWN COL GROUP (dakkapel + dakgoot + CTA)
+   DROPDOWN COL GROUP (dakkapel + dakraam + dakgoot + CTA)
 ============================================= */
 .dropdown-col-group {
   display: flex;
@@ -738,8 +738,8 @@ a.mobile-link:not(.is-active)::after {
 
 .dropdown-col-group-top {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 20px;
 }
 
 .dropdown-col-group .dropdown-inspectie-btn {

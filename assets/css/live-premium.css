@@ -333,7 +333,7 @@
 
 @media(max-width:980px) {
   .premium-page .premium-container {
-    width: calc(100vw - 32px) !important;
+    width: calc(100% - 32px) !important;
     max-width: none !important;
   }
 
@@ -370,8 +370,8 @@
   .premium-page .premium-image-strip,
   .premium-page .premium-section-head,
   .premium-page .premium-link-grid {
-    width: calc(100vw - 32px) !important;
-    max-width: calc(100vw - 32px) !important;
+    width: 100% !important;
+    max-width: 100% !important;
     min-width: 0 !important;
   }
 
@@ -387,8 +387,8 @@
   .premium-page .premium-hero__content > p,
   .premium-page .premium-hero__content > .premium-actions,
   .premium-page .premium-hero__content > .premium-checks {
-    width: calc(100vw - 32px) !important;
-    max-width: calc(100vw - 32px) !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .premium-page h1 {
