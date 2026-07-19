@@ -265,21 +265,24 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 
 .dropdown-more {
   margin-top: 2px;
-  position: relative;
 }
 
 .dropdown-more summary {
-  display: flex;
+  appearance: none;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  min-height: 28px;
-  padding: 4px 6px;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--brand);
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.2;
+  width: max-content;
+  min-height: 0 !important;
+  padding: 4px 6px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--brand) !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 1.25;
   cursor: pointer;
   list-style: none;
   transition: background .15s, color .15s;
@@ -298,8 +301,8 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 }
 
 .dropdown-more summary:hover {
-  background: transparent;
-  color: var(--brand);
+  background: transparent !important;
+  color: var(--brand-dark) !important;
 }
 
 .dropdown-more[open] summary::after {
