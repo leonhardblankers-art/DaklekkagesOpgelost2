@@ -979,3 +979,44 @@ a.mobile-link:not(.is-active)::after {
   background: linear-gradient(135deg, #1d9753, #146c3b);
   color: #fff;
 }
+
+/* Desktop: "Meer diensten..." moet exact als tekstlink ogen, zonder knopvlak. */
+.dropdown .dropdown-more > summary,
+.dropdown .dropdown-more > summary:hover,
+.dropdown .dropdown-more[open] > summary {
+  all: unset;
+  display: inline-flex !important;
+  align-items: center !important;
+  width: auto !important;
+  max-width: max-content !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 4px 6px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: var(--brand) !important;
+  font: inherit !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  cursor: pointer !important;
+}
+
+.dropdown .dropdown-more > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.dropdown .dropdown-more > summary::after {
+  content: "+" !important;
+  margin-left: 6px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+}
+
+.dropdown .dropdown-more[open] > summary::after {
+  content: "-" !important;
+}
