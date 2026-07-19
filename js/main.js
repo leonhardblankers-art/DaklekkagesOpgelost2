@@ -874,6 +874,54 @@
     });
   }
 
+  function initDesktopMoreMenus(){
+    document.querySelectorAll('.dropdown-more').forEach(function(menu){
+      if(menu.dataset.moreBound === 'true') return;
+      menu.dataset.moreBound = 'true';
+
+      var toggle = menu.querySelector('.dropdown-more-toggle');
+      if(!toggle) return;
+
+      toggle.addEventListener('click', function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        var isOpen = menu.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    });
+
+    document.addEventListener('click', function(event){
+      if(event.target.closest('.dropdown-more')) return;
+      document.querySelectorAll('.dropdown-more.is-open').forEach(function(menu){
+        menu.classList.remove('is-open');
+        var toggle = menu.querySelector('.dropdown-more-toggle');
+        if(toggle) toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  function loadIncludes(){
+    var includeTargets = [].slice.call(document.querySelectorAll('[data-include]'));
+    if(!includeTargets.length) return Promise.resolve();
+
+    return Promise.all(includeTargets.map(function(target){
+      var url = target.getAttribute('data-include');
+      if(!url) return Promise.resolve();
+
+      return fetch(url)
+        .then(function(response){
+          if(!response.ok) throw new Error('Include niet gevonden: ' + url);
+          return response.text();
+        })
+        .then(function(html){
+          target.innerHTML = html;
+        });
+    })).then(function(){
+      document.documentElement.dataset.includesLoaded = 'true';
+      document.dispatchEvent(new CustomEvent('includes:loaded'));
+    });
+  }
+
   if(document.documentElement.dataset.includesLoaded === 'true'){
     initStickyCTA();
     initLogoCloud();
@@ -884,6 +932,7 @@
     initKnowledgeServiceLinks();
     initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
+    initDesktopMoreMenus();
     initBlogAdvisorCTA();
   } else if(document.querySelector('[data-include]')){
     document.addEventListener('includes:loaded', function(){
@@ -897,8 +946,10 @@
       initKnowledgeServiceLinks();
       initLeakageMoneyLayer();
       cleanLegacyBlogFragments();
+      initDesktopMoreMenus();
       initBlogAdvisorCTA();
     }, { once: true });
+    loadIncludes();
   } else {
     initStickyCTA();
     initMobileHeroCopy();
@@ -910,6 +961,7 @@
     initKnowledgeServiceLinks();
     initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
+    initDesktopMoreMenus();
     initBlogAdvisorCTA();
   }
 

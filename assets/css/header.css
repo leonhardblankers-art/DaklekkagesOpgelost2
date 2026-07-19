@@ -267,46 +267,38 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   margin-top: 2px;
 }
 
-.dropdown-more summary {
+.dropdown-more-toggle {
   appearance: none;
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 6px;
   width: max-content;
-  min-height: 0 !important;
-  padding: 4px 6px !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  color: var(--brand) !important;
-  font-size: 14px !important;
-  font-weight: 800 !important;
+  padding: 4px 6px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--brand);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
   line-height: 1.25;
   cursor: pointer;
-  list-style: none;
-  transition: background .15s, color .15s;
+  text-align: left;
 }
 
-.dropdown-more summary::-webkit-details-marker {
-  display: none;
+.dropdown-more-toggle:hover {
+  color: var(--brand-dark);
 }
 
-.dropdown-more summary::after {
-  content: "+";
-  margin-left: 6px;
-  font-weight: 900;
-  line-height: 1;
-  transition: transform .18s ease;
+.dropdown-more.is-open .dropdown-more-toggle span {
+  font-size: 0;
 }
 
-.dropdown-more summary:hover {
-  background: transparent !important;
-  color: var(--brand-dark) !important;
-}
-
-.dropdown-more[open] summary::after {
+.dropdown-more.is-open .dropdown-more-toggle span::before {
   content: "-";
+  font-size: 14px;
 }
 
 .dropdown-more-list {
@@ -323,7 +315,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   z-index: 1002;
 }
 
-.dropdown-more[open] .dropdown-more-list {
+.dropdown-more.is-open .dropdown-more-list {
   display: flex;
 }
 
@@ -978,45 +970,4 @@ a.mobile-link:not(.is-active)::after {
   box-shadow: 0 12px 28px rgba(29,151,83,0.4);
   background: linear-gradient(135deg, #1d9753, #146c3b);
   color: #fff;
-}
-
-/* Desktop: "Meer diensten..." moet exact als tekstlink ogen, zonder knopvlak. */
-.dropdown .dropdown-more > summary,
-.dropdown .dropdown-more > summary:hover,
-.dropdown .dropdown-more[open] > summary {
-  all: unset;
-  display: inline-flex !important;
-  align-items: center !important;
-  width: auto !important;
-  max-width: max-content !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
-  margin: 0 !important;
-  padding: 4px 6px !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-  background: none !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  color: var(--brand) !important;
-  font: inherit !important;
-  font-size: 14px !important;
-  font-weight: 800 !important;
-  line-height: 1.25 !important;
-  cursor: pointer !important;
-}
-
-.dropdown .dropdown-more > summary::-webkit-details-marker {
-  display: none !important;
-}
-
-.dropdown .dropdown-more > summary::after {
-  content: "+" !important;
-  margin-left: 6px !important;
-  font-weight: 900 !important;
-  line-height: 1 !important;
-}
-
-.dropdown .dropdown-more[open] > summary::after {
-  content: "-" !important;
 }
