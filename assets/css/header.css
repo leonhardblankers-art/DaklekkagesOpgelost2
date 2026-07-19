@@ -166,11 +166,11 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 .nav-item--services::after {
   content: "";
   display: none;
-  position: absolute;
-  top: 100%;
-  left: -28px;
-  right: -28px;
-  height: 74px;
+  position: fixed;
+  top: 72px;
+  left: 0;
+  right: 0;
+  height: 46px;
   z-index: 998;
 }
 
@@ -196,11 +196,11 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 
 .dropdown--services {
   position: fixed;
-  top: 112px;
+  top: 94px;
   left: 50%;
   transform: translateX(-50%);
   width: min(1240px, calc(100vw - 32px));
-  max-height: calc(100vh - 128px);
+  max-height: calc(100vh - 110px);
   overflow-y: auto;
 }
 
