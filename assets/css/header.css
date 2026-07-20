@@ -917,6 +917,7 @@ a.mobile-link:not(.is-active)::after {
   justify-content: flex-end;
   margin-top: auto;
   padding-top: 0;
+  transform: translateY(-48px);
 }
 
 .dropdown-cta-row .dropdown-inspectie-btn {
