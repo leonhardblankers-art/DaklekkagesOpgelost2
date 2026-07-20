@@ -887,8 +887,12 @@
           var menu = toggle.closest('.dropdown-more');
           if(!menu) return;
 
+          var target = toggle.getAttribute('data-more-target');
+          var dropdown = toggle.closest('.dropdown--services');
+          var panel = dropdown && target ? dropdown.querySelector('[data-more-panel="' + target + '"]') : null;
           var isOpen = menu.classList.toggle('is-open');
           toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          if(panel) panel.classList.toggle('is-open', isOpen);
           return;
         }
 
@@ -897,6 +901,9 @@
           menu.classList.remove('is-open');
           var menuToggle = menu.querySelector('.dropdown-more-toggle');
           if(menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+        });
+        document.querySelectorAll('.dropdown-extra-col.is-open').forEach(function(panel){
+          panel.classList.remove('is-open');
         });
       });
     }
