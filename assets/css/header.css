@@ -203,6 +203,8 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   max-width: calc(100vw - 32px);
   max-height: calc(100vh - 110px);
   overflow: auto;
+  flex-direction: column;
+  gap: 14px;
 }
 
 /* Grote dropdown met grid */
@@ -224,7 +226,7 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 }
 
 .dropdown-col-group {
-  width: 280px;
+  width: 250px;
 }
 
 .dropdown-extra-col {
@@ -312,6 +314,22 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   flex-direction: column;
   gap: 4px;
   padding: 16px;
+}
+
+.dropdown--lekkages {
+  width: max-content;
+  max-width: calc(100vw - 32px);
+}
+
+.dropdown-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 170px);
+  gap: 18px;
+  align-items: start;
+}
+
+.dropdown--lekkages .dropdown-col {
+  width: 170px;
 }
 
 .dropdown--sm a {
@@ -886,7 +904,9 @@ a.mobile-link:not(.is-active)::after {
    DROPDOWN CTA ROW (breed onderaan)
 ============================================= */
 .dropdown-cta-row {
-  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
   padding-top: 14px;
   border-top: 1px solid #f0f0f0;
 }
@@ -895,7 +915,7 @@ a.mobile-link:not(.is-active)::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: min(340px, 100%);
   padding: 14px 20px !important;
   background: linear-gradient(135deg, #1d9753, #146c3b) !important;
   color: #fff !important;
@@ -919,7 +939,7 @@ a.mobile-link:not(.is-active)::after {
 .dropdown-col-group {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 12px;
 }
 
