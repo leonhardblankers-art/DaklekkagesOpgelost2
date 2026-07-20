@@ -291,15 +291,6 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   color: var(--brand-dark);
 }
 
-.dropdown-more.is-open .dropdown-more-toggle span {
-  font-size: 0;
-}
-
-.dropdown-more.is-open .dropdown-more-toggle span::before {
-  content: "-";
-  font-size: 14px;
-}
-
 .dropdown-cta {
   font-weight: 700 !important;
   color: var(--brand) !important;

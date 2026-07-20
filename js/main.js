@@ -889,10 +889,13 @@
 
           var target = toggle.getAttribute('data-more-target');
           var dropdown = toggle.closest('.dropdown--services');
-          var panel = dropdown && target ? dropdown.querySelector('[data-more-panel="' + target + '"]') : null;
+          var panels = dropdown && target ? dropdown.querySelectorAll('[data-more-panel="' + target + '"]') : [];
           var isOpen = menu.classList.toggle('is-open');
           toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-          if(panel) panel.classList.toggle('is-open', isOpen);
+          toggle.innerHTML = isOpen ? 'Minder diensten... <span aria-hidden="true">-</span>' : 'Meer diensten... <span aria-hidden="true">+</span>';
+          panels.forEach(function(panel){
+            panel.classList.toggle('is-open', isOpen);
+          });
           return;
         }
 
@@ -900,7 +903,10 @@
         document.querySelectorAll('.dropdown-more.is-open').forEach(function(menu){
           menu.classList.remove('is-open');
           var menuToggle = menu.querySelector('.dropdown-more-toggle');
-          if(menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+          if(menuToggle){
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.innerHTML = 'Meer diensten... <span aria-hidden="true">+</span>';
+          }
         });
         document.querySelectorAll('.dropdown-extra-col.is-open').forEach(function(panel){
           panel.classList.remove('is-open');
