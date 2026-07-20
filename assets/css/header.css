@@ -235,6 +235,16 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   display: flex;
 }
 
+.dropdown-inline-extra {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dropdown-inline-extra.is-open {
+  display: flex;
+}
+
 .dropdown-heading {
   font-size: 13px;
   font-weight: 800;
