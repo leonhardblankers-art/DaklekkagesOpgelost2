@@ -204,7 +204,8 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   max-height: calc(100vh - 110px);
   overflow: auto;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
+  padding-bottom: 16px;
 }
 
 /* Grote dropdown met grid */
@@ -324,12 +325,20 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
 .dropdown-mini-grid {
   display: grid;
   grid-template-columns: repeat(3, 170px);
-  gap: 18px;
+  gap: 14px 18px;
   align-items: start;
 }
 
 .dropdown--lekkages .dropdown-col {
   width: 170px;
+}
+
+.dropdown-lekkages-cta {
+  grid-column: 1 / span 2;
+}
+
+.dropdown-lekkages-cta .dropdown-inspectie-btn {
+  width: 100%;
 }
 
 .dropdown--sm a {
@@ -907,8 +916,7 @@ a.mobile-link:not(.is-active)::after {
   display: flex;
   justify-content: flex-end;
   margin-top: auto;
-  padding-top: 14px;
-  border-top: 1px solid #f0f0f0;
+  padding-top: 0;
 }
 
 .dropdown-cta-row .dropdown-inspectie-btn {
