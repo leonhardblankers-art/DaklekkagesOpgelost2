@@ -134,7 +134,7 @@
   clip-path:polygon(50% 0,100% 72%,88% 72%,88% 100%,12% 100%,12% 72%,0 72%);
   background:
     linear-gradient(180deg,rgba(0,0,0,.14),rgba(0,0,0,.34)),
-    url("../../img/pages/diensten/diensten-visual-02-dakkapel-informatiepagina-dakkapel.webp") center 22%/cover no-repeat;
+    url("../img/pages/diensten/diensten-visual-02-dakkapel-informatiepagina-dakkapel.webp") center 22%/cover no-repeat;
   border-radius:18px 18px 10px 10px;
   box-shadow:0 30px 50px rgba(15,17,21,.26);
   z-index:2;

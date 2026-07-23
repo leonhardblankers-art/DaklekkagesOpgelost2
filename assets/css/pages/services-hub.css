@@ -333,7 +333,7 @@
   min-height: 560px;
   background:
     linear-gradient(180deg, rgba(11,13,16,.08), rgba(11,13,16,.38)),
-    url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 58% / cover no-repeat;
+    url("../../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 58% / cover no-repeat;
 }
 
 .roof-map:before {
@@ -380,7 +380,7 @@
   .roof-map {
     background:
       linear-gradient(180deg, rgba(11,13,16,.08), rgba(11,13,16,.46)),
-      url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 54% / cover no-repeat;
+      url("../../img/diensten/dakprobleem-kaart-schuin-dak.webp") center 54% / cover no-repeat;
     padding-top: 300px;
   }
 }
@@ -668,7 +668,7 @@
     padding-top: 285px;
     background:
       linear-gradient(180deg, rgba(11,13,16,.04), rgba(11,13,16,.32) 0 285px, #f8fbf9 285px),
-      url("../img/diensten/dakprobleem-kaart-schuin-dak.webp") center top / 100% 285px no-repeat;
+      url("../../img/diensten/dakprobleem-kaart-schuin-dak.webp") center top / 100% 285px no-repeat;
   }
 
   .roof-map__house {

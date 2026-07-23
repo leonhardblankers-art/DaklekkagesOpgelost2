@@ -333,6 +333,10 @@ body { margin: 0; font-family: 'Inter', sans-serif; }
   width: 170px;
 }
 
+.dropdown--lekkages .dropdown-heading {
+  padding: 0 8px;
+}
+
 .dropdown-lekkages-cta {
   grid-column: 1 / span 2;
 }
@@ -917,7 +921,7 @@ a.mobile-link:not(.is-active)::after {
   justify-content: flex-end;
   margin-top: auto;
   padding-top: 0;
-  transform: translateY(-48px);
+  transform: translateY(-64px);
 }
 
 .dropdown-cta-row .dropdown-inspectie-btn {
