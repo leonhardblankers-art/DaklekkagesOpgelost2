@@ -930,6 +930,132 @@
     });
   }
 
+  function escapeFAQText(value){
+    return String(value || '').replace(/[&<>"']/g, function(char){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char];
+    });
+  }
+
+  function buildFAQSummary(question){
+    return '<span class="faqPill"><span class="faqDot"></span> Vraag</span><span class="faqQ">' + escapeFAQText(question) + '</span><span class="faqChevron" aria-hidden="true">&#9662;</span>';
+  }
+
+  function normalizeFAQDetails(container){
+    if(!container) return;
+    container.classList.add('faq');
+
+    [].slice.call(container.querySelectorAll('details')).forEach(function(detail, index){
+      detail.classList.add('faqItem');
+      if(index === 0 && !detail.hasAttribute('open')) detail.setAttribute('open', '');
+
+      var summary = detail.querySelector('summary');
+      if(summary && !summary.querySelector('.faqPill')){
+        var question = summary.textContent.replace(/\s+/g, ' ').trim();
+        summary.innerHTML = buildFAQSummary(question);
+      }
+
+      var body = detail.querySelector('.faqBody') || detail.querySelector('.ans');
+      if(body){
+        body.classList.add('faqBody');
+        return;
+      }
+
+      body = document.createElement('div');
+      body.className = 'faqBody';
+      var nodes = [].slice.call(detail.childNodes).filter(function(node){
+        return node !== summary;
+      });
+      nodes.forEach(function(node){ body.appendChild(node); });
+      detail.appendChild(body);
+    });
+  }
+
+  function normalizePremiumFAQCards(){
+    document.querySelectorAll('.premium-faq-grid, .premium-faq-card-grid').forEach(function(grid){
+      if(grid.dataset.faqNormalized === 'true') return;
+      var cards = [].slice.call(grid.querySelectorAll('.premium-faq-card'));
+      if(!cards.length) return;
+
+      grid.dataset.faqNormalized = 'true';
+      grid.classList.add('faq', 'premium-faq-accordion');
+
+      cards.forEach(function(card, index){
+        var questionEl = card.querySelector('h3');
+        var answerEl = card.querySelector('p');
+        if(!questionEl || !answerEl) return;
+
+        var detail = document.createElement('details');
+        detail.className = 'faqItem';
+        if(index === 0) detail.setAttribute('open', '');
+
+        var summary = document.createElement('summary');
+        summary.innerHTML = buildFAQSummary(questionEl.textContent.replace(/\s+/g, ' ').trim());
+
+        var body = document.createElement('div');
+        body.className = 'faqBody';
+        body.innerHTML = answerEl.outerHTML;
+
+        detail.appendChild(summary);
+        detail.appendChild(body);
+        card.replaceWith(detail);
+      });
+    });
+  }
+
+  function normalizePlainProjectFAQs(){
+    document.querySelectorAll('.project-article').forEach(function(article){
+      if(article.dataset.faqNormalized === 'true') return;
+      var headings = [].slice.call(article.querySelectorAll('h2'));
+      var faqHeading = headings.find(function(heading){
+        return /veelgestelde vragen/i.test(heading.textContent || '');
+      });
+      if(!faqHeading) return;
+
+      var items = [];
+      var cursor = faqHeading.nextElementSibling;
+
+      while(cursor && cursor.tagName && cursor.tagName.toLowerCase() === 'h2'){
+        var question = cursor;
+        var answer = question.nextElementSibling;
+        if(!answer || answer.tagName.toLowerCase() !== 'p') break;
+
+        var detail = document.createElement('details');
+        detail.className = 'faqItem';
+        if(!items.length) detail.setAttribute('open', '');
+
+        var summary = document.createElement('summary');
+        summary.innerHTML = buildFAQSummary(question.textContent.replace(/\s+/g, ' ').trim());
+
+        var body = document.createElement('div');
+        body.className = 'faqBody';
+        body.innerHTML = answer.outerHTML;
+
+        detail.appendChild(summary);
+        detail.appendChild(body);
+        items.push({ detail: detail, question: question, answer: answer });
+        cursor = answer.nextElementSibling;
+      }
+
+      if(!items.length) return;
+
+      var faq = document.createElement('div');
+      faq.className = 'faq';
+      items.forEach(function(item){ faq.appendChild(item.detail); });
+      faqHeading.insertAdjacentElement('afterend', faq);
+      items.forEach(function(item){
+        item.question.remove();
+        item.answer.remove();
+      });
+      article.dataset.faqNormalized = 'true';
+    });
+  }
+
+  function initFAQLayout(){
+    normalizePremiumFAQCards();
+    document.querySelectorAll('.faq, .premium-faq').forEach(normalizeFAQDetails);
+    normalizePlainProjectFAQs();
+  }
+
   function loadIncludes(){
     var includeTargets = [].slice.call(document.querySelectorAll('[data-include]'));
     if(!includeTargets.length) return Promise.resolve();
@@ -962,6 +1088,7 @@
     initKnowledgeServiceLinks();
     initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
+    initFAQLayout();
     initDesktopMoreMenus();
     initBlogAdvisorCTA();
   } else if(document.querySelector('[data-include]')){
@@ -976,6 +1103,7 @@
       initKnowledgeServiceLinks();
       initLeakageMoneyLayer();
       cleanLegacyBlogFragments();
+      initFAQLayout();
       initDesktopMoreMenus();
       initBlogAdvisorCTA();
     }, { once: true });
@@ -991,6 +1119,7 @@
     initKnowledgeServiceLinks();
     initLeakageMoneyLayer();
     cleanLegacyBlogFragments();
+    initFAQLayout();
     initDesktopMoreMenus();
     initBlogAdvisorCTA();
   }

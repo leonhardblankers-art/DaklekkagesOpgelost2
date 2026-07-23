@@ -96,6 +96,118 @@
   }
 }
 
+@media(max-width:640px) {
+  .kb-container {
+    width: calc(100% - 28px);
+  }
+
+  .kb-hero {
+    padding: 24px 0 28px;
+  }
+
+  .kb-hero__grid {
+    gap: 18px;
+  }
+
+  .kb-breadcrumb {
+    gap: 6px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .kb-kicker {
+    gap: 8px;
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .kb-kicker span {
+    width: 8px;
+    height: 8px;
+    box-shadow: 0 0 0 5px rgba(29,151,83,.16);
+  }
+
+  .kb-page h1 {
+    font-size: 28px;
+    line-height: 1.08;
+    overflow-wrap: break-word;
+  }
+
+  .kb-page h2 {
+    margin: 26px 0 10px;
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  .kb-page h3 {
+    margin: 22px 0 8px;
+    font-size: 20px;
+  }
+
+  .kb-lead,
+  .kb-article-card p {
+    font-size: 15.5px;
+    line-height: 1.62;
+  }
+
+  .kb-meta {
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .kb-pill {
+    min-height: 30px;
+    padding: 6px 9px;
+    font-size: 12px;
+  }
+
+  .kb-featured {
+    max-width: none;
+    border-radius: 18px;
+  }
+
+  .kb-section {
+    padding: 32px 0;
+  }
+
+  .kb-section--tight {
+    padding-top: 18px;
+  }
+
+  .kb-layout {
+    gap: 20px;
+    padding: 22px 0 34px;
+  }
+
+  .kb-article-card,
+  .kb-panel,
+  .kb-quicknav,
+  .kb-cta {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .kb-article-card ul,
+  .kb-article-card ol {
+    padding-left: 20px;
+    line-height: 1.62;
+  }
+
+  .kb-article-card li {
+    margin-bottom: 7px;
+  }
+
+  .kb-link-list a {
+    padding: 10px 11px;
+  }
+
+  .kb-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+}
+
 /* Kennisbank CTA: dakfoto in plaats van persoon-cutout */
 .kb-cta--advisor .kb-cta__advisor {
   min-height: 178px;

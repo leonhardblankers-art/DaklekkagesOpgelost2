@@ -131,6 +131,22 @@ function initHeaderMenu() {
     });
   }
 
+  document.querySelectorAll('.mobile-more').forEach((more) => {
+    if (more.dataset.moreBound === 'true') return;
+    more.dataset.moreBound = 'true';
+
+    const summary = more.querySelector('summary');
+    if (!summary) return;
+    const baseLabel = summary.textContent.toLowerCase().includes('lekkages') ? 'lekkages' : 'diensten';
+
+    const updateLabel = () => {
+      summary.textContent = more.open ? `Minder ${baseLabel}...` : `Meer ${baseLabel}...`;
+    };
+
+    more.addEventListener('toggle', updateLabel);
+    updateLabel();
+  });
+
   const currentPath = window.location.pathname.replace(/\/index\.html$/, '/');
   document.querySelectorAll('.nav-link, .mobile-link').forEach((link) => {
     const href = link.getAttribute('href');

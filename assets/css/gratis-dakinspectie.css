@@ -294,3 +294,111 @@
   .dlo .flow{grid-template-columns:1fr}
   .dlo .toc{gap:8px}
 }
+
+@media(max-width:640px){
+  .dlo,
+  .dlo *{
+    max-width:100%;
+    box-sizing:border-box;
+  }
+
+  .dlo .container{
+    padding:34px 14px !important;
+  }
+
+  .dlo section:first-child .container{
+    padding-top:24px !important;
+    padding-bottom:30px !important;
+  }
+
+  .dlo .split{
+    grid-template-columns:1fr !important;
+    gap:18px;
+  }
+
+  .dlo h1{
+    font-size:28px;
+    line-height:1.08;
+    letter-spacing:0;
+    margin-bottom:10px;
+    overflow-wrap:break-word;
+  }
+
+  .dlo h2{
+    font-size:24px;
+    line-height:1.16;
+  }
+
+  .dlo p,
+  .dlo .lead{
+    font-size:15.5px;
+    line-height:1.58;
+  }
+
+  .dlo .actions{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:9px;
+    margin-top:16px;
+  }
+
+  .dlo .btn{
+    width:100%;
+    min-height:46px;
+    white-space:normal;
+    text-align:center;
+  }
+
+  .dlo .media-card{
+    border-radius:18px;
+  }
+
+  .dlo .media-card img{
+    aspect-ratio:16 / 10;
+    object-fit:cover;
+  }
+
+  .dlo .hero-note{
+    position:static;
+    margin:0;
+    border-radius:0 0 18px 18px;
+    padding:11px 12px;
+    font-size:13px;
+    line-height:1.4;
+  }
+
+  .dlo .review-badge{
+    left:10px;
+    top:10px;
+    max-width:calc(100% - 20px);
+  }
+
+  .dlo .chooser__item summary,
+  .dlo .acc summary{
+    align-items:flex-start;
+    gap:10px;
+  }
+
+  .dlo .chooser__icon{
+    width:36px;
+    height:36px;
+    flex:0 0 36px;
+    border-radius:13px;
+  }
+
+  .dlo .toc{
+    grid-template-columns:1fr;
+  }
+
+  .dlo .toc__item{
+    justify-content:center;
+    text-align:center;
+  }
+
+  .dlo .flow__item,
+  .dlo .slab,
+  .dlo .card{
+    padding:16px;
+    border-radius:18px;
+  }
+}
