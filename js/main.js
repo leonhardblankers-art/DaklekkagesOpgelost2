@@ -122,6 +122,9 @@
     var path = window.location.pathname.toLowerCase();
     var isContactPage = path.indexOf('/contact') !== -1 || path === '/contact/' || path === '/contact';
     var isHomePage = document.querySelector('.home-main') || path === '/' || path.endsWith('/index.html');
+    var isContextPage = path.indexOf('/kennisbank/') !== -1 || path.indexOf('/blog/') !== -1 || path.indexOf('/over-ons/uitgevoerde-projecten/') !== -1;
+
+    document.documentElement.classList.toggle('sticky-contextual-enabled', isContextPage && !isContactPage);
 
     if(cta){
       var box = cta.querySelector('.sticky-cta__box');
@@ -154,7 +157,10 @@
 
       document.documentElement.classList.toggle('sticky-mobile-visible', showMobile);
 
-      if(window.innerWidth > 1200 && window.scrollY > 300 && !isNearBottomCTA && !isContactPage){
+      var desktopMinWidth = isContextPage ? 1024 : 1200;
+      var desktopScrollY = isContextPage ? 120 : 300;
+
+      if(window.innerWidth > desktopMinWidth && window.scrollY > desktopScrollY && !isNearBottomCTA && !isContactPage){
         cta.classList.add('is-visible');
       } else {
         cta.classList.remove('is-visible');

@@ -1147,6 +1147,12 @@ main {
   .sticky-cta { display: none !important; }
 }
 
+@media (min-width: 761px) and (max-width: 1200px) {
+  .sticky-contextual-enabled .sticky-cta {
+    display: block !important;
+  }
+}
+
 @media (max-width: 1100px) {
   .btns { flex-wrap: wrap; }
   .btns .btn { flex: 0 0 auto; }
@@ -1534,7 +1540,7 @@ main {
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: clamp(28px, 7svh, 54px);
   }
 
   .hero-cta-col {
