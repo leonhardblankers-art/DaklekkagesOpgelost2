@@ -1512,10 +1512,13 @@ main {
     display: flex;
     flex-direction: column;
     background-position: center 48%;
+    overflow: visible;
+    margin-bottom: 132px;
   }
 
   .hero .wrap {
     min-height: 0;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1524,14 +1527,16 @@ main {
   }
 
   .hero-grid {
-    flex: 0 0 auto;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     gap: 10px;
     margin-top: 8px;
   }
 
   .hero-grid > div:first-child {
-    margin-top: 0;
+    margin-top: auto;
   }
 
   .hero-title {
@@ -1580,9 +1585,9 @@ main {
   .hero-proof {
     position: static;
     width: calc(100% - 32px);
-    margin: 14px auto 0;
+    margin: 12px auto 18px;
     gap: 8px;
-    align-items: stretch;
+    align-items: center;
   }
 
   .review-pill {
@@ -1596,10 +1601,19 @@ main {
   }
 
   .service-pills {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(100% + 12px);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
-    width: 100%;
+    width: auto;
+    padding: 12px;
+    border: 1px solid rgba(15,17,21,.08);
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 14px 34px rgba(15,17,21,.12);
   }
 
   .service-pill {
@@ -1609,6 +1623,8 @@ main {
     min-height: 38px;
     padding: 7px 6px;
     font-size: 11px;
+    border-color: rgba(15,17,21,.08);
+    box-shadow: none;
     white-space: normal;
     text-align: center;
   }
