@@ -238,7 +238,10 @@ header nav a { font-weight: 700; }
 .service-card.urgent span { color: #fff; }
 .service-card:not(.urgent):hover { background: #f8fbf8; }
 .service-card.urgent:hover { filter: brightness(.96); }
-.services-intro { grid-template-columns: minmax(0,1fr) minmax(650px,.98fr); gap: 32px; align-items: stretch; }
+.services-intro { grid-template-columns: minmax(0,1fr) minmax(480px,.98fr); gap: 32px; align-items: stretch; }
+.services-intro > div:first-child { min-width: 0; }
+.services-intro > div:first-child .btns { flex-wrap: wrap; }
+.services-intro > div:first-child .btns .btn { flex: 0 1 auto; }
 .services-intro .service-panel { max-width: 700px; padding: 22px 24px; }
 .services-intro .service-grid { gap: 14px 16px; }
 .services-intro .service-card { min-height: 134px; padding: 16px 18px; gap: 8px; }
@@ -280,7 +283,11 @@ summary { cursor: pointer; font-weight: 800; }
 .pillar h5 { margin: 0 0 10px; font-size: 20px; }
 .pillar p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 17px; }
 .difference-content { order: 1; }
-.difference-media { order: 2; }
+.difference-split { align-items: stretch; }
+.difference-media { order: 2; display: flex; flex-direction: column; min-height: 100%; }
+.difference-media .media-card { flex: 1 1 auto; min-height: 0; }
+.difference-media .media-card img { height: 100%; aspect-ratio: auto; object-position: 50% 42%; }
+.difference-media .lead { flex: 0 0 auto; }
 
 .cta-strip { display: flex; justify-content: space-between; gap: 16px; align-items: center; flex-wrap: wrap; padding: 16px 18px; border-radius: 28px; background: rgba(29,151,83,.08); border: 1px solid rgba(29,151,83,.20); margin: 22px 0 16px; }
 .cta-strip p { margin: 0; font-size: 17px; color: var(--muted); }
@@ -1166,6 +1173,9 @@ main {
   .services-intro { grid-template-columns: 1fr; }
   .services-intro .service-panel { max-width: none; justify-self: stretch; }
   .difference-content, .difference-media { order: initial; }
+  .difference-media { min-height: 0; }
+  .difference-media .media-card { flex: none; }
+  .difference-media .media-card img { height: auto; aspect-ratio: 1/1; }
   .speech { position: relative; left: auto; top: auto; order: -1; justify-self: center; width: 100%; max-width: none; font-size: 18px; padding: 22px; margin: 10px auto 18px; transform: none; }
   .hero-title { font-size: 42px; white-space: normal; }
   .hero-title .marker { white-space: nowrap; }
