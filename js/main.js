@@ -199,6 +199,35 @@
     window.addEventListener('resize', apply);
   }
 
+  function initDeferredReviewWidget(){
+    if(!document.querySelector('[data-featurable-async]')) return;
+
+    var appendScript = function(){
+      if(document.querySelector('script[data-featurable-bundle]')) return;
+
+      var script = document.createElement('script');
+      script.src = 'https://featurable.com/assets/bundle.js';
+      script.defer = true;
+      script.charset = 'UTF-8';
+      script.dataset.featurableBundle = 'true';
+      document.body.appendChild(script);
+    };
+
+    var scheduleScript = function(){
+      if('requestIdleCallback' in window){
+        window.requestIdleCallback(appendScript, { timeout: 2500 });
+      } else {
+        window.setTimeout(appendScript, 1200);
+      }
+    };
+
+    if(document.readyState === 'complete'){
+      scheduleScript();
+    } else {
+      window.addEventListener('load', scheduleScript, { once: true });
+    }
+  }
+
   function initLogoCloud(){
     if(window.__wolkjeInit || window.__wolkjeClosed) return;
     if(document.querySelector('main.premium-page')) return;
@@ -1113,7 +1142,9 @@
       initDesktopMoreMenus();
       initBlogAdvisorCTA();
     }, { once: true });
-    loadIncludes();
+    if(!document.querySelector('script[src$="/js/include.js"], script[src$="./js/include.js"]')){
+      loadIncludes();
+    }
   } else {
     initStickyCTA();
     initMobileHeroCopy();
@@ -1129,6 +1160,8 @@
     initDesktopMoreMenus();
     initBlogAdvisorCTA();
   }
+
+  initDeferredReviewWidget();
 
   // Subtiele micro-animaties (reveal on scroll)
   var revealTargets = [].slice.call(document.querySelectorAll('.sec, .card, .node, details.chooser__item, .media-card'));

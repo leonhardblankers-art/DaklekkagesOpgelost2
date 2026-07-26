@@ -18,10 +18,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+  <link rel="preload" as="image" href="./assets/img/home-hero.webp" media="(min-width: 641px)" fetchpriority="high">
+  <link rel="preload" as="image" href="./assets/img/home-hero-mobile.webp" media="(max-width: 640px)" fetchpriority="high">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
-  <script defer data-vercel-speed-insights src="/_vercel/speed-insights/script.js"></script>
   <script id="seo-schema" type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -243,7 +244,6 @@
     <!-- KOSTEN -->
     <section class="section soft">
       <div class="wrap">
-        <div id="footerSentinel" aria-hidden="true" style="position:relative;top:0;height:1px"></div>
         <div class="kicker"><span class="dot"></span> Altijd vooraf duidelijkheid</div>
         <h2 class="title-sm">Wat kost het verhelpen van een daklekkage?</h2>
         <p class="lead">De kosten hangen af van een aantal praktische factoren:</p>
@@ -352,7 +352,6 @@
   </main>
 
   <div data-include="./partials/footer.html"></div>
-  <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
 
   <script src="./js/include.js"></script>
   <script src="./js/main.js"></script>

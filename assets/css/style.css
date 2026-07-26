@@ -263,14 +263,6 @@ header nav a { font-weight: 700; }
 .proof-row { display: grid; gap: 10px; padding: 16px; border-radius: 22px; background: var(--premium-green); border: 1px solid rgba(29,151,83,.16); }
 .proof-row span { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 15px; line-height: 1.35; }
 .proof-row b { color: var(--brand2); font-size: 20px; }
-.steps { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; }
-.step { background: var(--premium-card); border: var(--premium-border); border-radius: 22px; padding: 22px; box-shadow: var(--premium-shadow-soft); position: relative; }
-.step::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 5px; background: linear-gradient(90deg,var(--brand),rgba(29,151,83,.2)); border-radius: 22px 22px 0 0; }
-.step-badge { display: flex; gap: 12px; }
-.num { width: 42px; height: 42px; border-radius: 14px; background: rgba(29,151,83,.10); display: grid; place-items: center; color: var(--brand2); font-weight: 900; flex: 0 0 42px; }
-.step h3 { margin: 0 0 8px; font-size: 21px; }
-.step p { margin: 0; color: var(--muted); line-height: 1.7; }
-
 .flow { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 24px; }
 .flow--premium { margin-top: 0; }
 .flow-card { padding: 20px; border-radius: 22px; background: var(--premium-card); border: var(--premium-border); box-shadow: var(--premium-shadow-soft); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
@@ -1148,11 +1140,6 @@ details.faqItem[open] .faqChevron { transform: rotate(180deg); }
   }
 }
 
-.counters { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 22px; }
-.counter { background: var(--premium-card); border: var(--premium-border); border-radius: 20px; padding: 28px 18px; box-shadow: var(--premium-shadow-soft); }
-.counter .n { font-size: 56px; font-weight: 700; line-height: 1; margin-bottom: 18px; color: #1b1d32; }
-.counter .l { font-size: 20px; font-weight: 800; line-height: 1.35; color: #1b1d32; }
-
 /* =============================================
    FOOTER SPACING FIX
 ============================================= */
@@ -1191,7 +1178,7 @@ main {
 @media (max-width: 900px) {
   .hero { min-height: auto; }
   .hero .wrap { padding-top: 34px; padding-bottom: 36px; }
-  .hero-grid, .steps, .blog-grid, .counters, .service-grid, .flow { grid-template-columns: 1fr; }
+  .hero-grid, .blog-grid, .service-grid, .flow { grid-template-columns: 1fr; }
   .services-intro { grid-template-columns: 1fr; }
   .services-intro .service-panel { max-width: none; justify-self: stretch; }
   .difference-content, .difference-media { order: initial; }
@@ -1203,8 +1190,7 @@ main {
   .hero-title .marker { white-space: nowrap; }
   .review-pill, .service-pill { font-size: 15px; }
   .trust-strip { grid-template-columns: 1fr; }
-  .counter .n { font-size: 42px; }
-  .counter .l, .blog-title, .pillar h5, .step h3 { font-size: 18px; }
+  .blog-title, .pillar h5 { font-size: 18px; }
   .section { padding: 34px 0; }
   .cta-green .btn { min-width: 100%; width: 100%; }
   .service-pills, .hero-cta { flex-wrap: wrap; }
@@ -1558,7 +1544,10 @@ main {
     min-height: calc(100svh - 126px);
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)), url('../img/home-hero-mobile.webp');
     background-position: center 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: visible;
     margin-bottom: 132px;
   }
