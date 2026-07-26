@@ -1549,7 +1549,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: visible;
-    margin-bottom: 132px;
+    margin-bottom: 0;
   }
 
   .hero .wrap {
@@ -1636,15 +1636,22 @@ main {
     font-size: 13px;
   }
 
+  .hero-service-strip {
+    padding: 12px 0 14px;
+    background: #fff;
+  }
+
+  .hero-service-strip .wrap {
+    transform: none;
+    margin-bottom: 0;
+  }
+
   .service-pills {
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    top: calc(100% + 12px);
+    position: static;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
-    width: auto;
+    width: 100%;
     padding: 12px;
     border: 1px solid rgba(15,17,21,.08);
     border-radius: 20px;
@@ -1714,6 +1721,12 @@ main {
   .service-pill {
     min-height: 34px;
     font-size: 10.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-wolkje {
+    display: none !important;
   }
 }
 

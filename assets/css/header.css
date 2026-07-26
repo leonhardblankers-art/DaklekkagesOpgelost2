@@ -851,20 +851,11 @@ a.mobile-link:not(.is-active)::after {
 
 @media (max-width: 768px) {
   .logo-wolkje {
-    position: fixed !important;
-    top: 118px !important;
-    left: 50% !important;
-    width: calc(100vw - 32px);
-    max-width: 420px;
-    padding: 14px 16px;
-    font-size: 12px;
-    line-height: 1.45;
-    transform: translateX(-50%) translateY(8px) !important;
-    z-index: 1299;
+    display: none !important;
   }
 
   .logo-wolkje.visible {
-    transform: translateX(-50%) translateY(0) !important;
+    display: none !important;
   }
 }
 

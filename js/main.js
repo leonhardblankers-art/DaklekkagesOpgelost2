@@ -237,6 +237,8 @@
     var maxTries = 30;
 
     function init(){
+      if(window.innerWidth <= 768) return;
+
       var logo = document.querySelector('.logo img');
 
       if(!logo){
