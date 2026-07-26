@@ -3,6 +3,71 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/pages/archief/Pagina Daklekkage Oplossen",
+      "destination": "/lekkages/daklekkage/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/daklekkage",
+      "destination": "/lekkages/daklekkage/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/gratisdakinspectie",
+      "destination": "/diensten/gratis-dakinspectie/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/lekkageopsporen",
+      "destination": "/lekkages/lekkage-opsporen/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/lekkageskeuzepagina",
+      "destination": "/lekkages/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/loodslabbenlekkage",
+      "destination": "/lekkages/loodslabben-lekkage/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/noklekkage",
+      "destination": "/lekkages/noklekkage/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/noodreparatie",
+      "destination": "/diensten/noodreparatie/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/overons",
+      "destination": "/over-ons/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/rapportagedakinspectie",
+      "destination": "/diensten/rapportage-dakinspectie/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/schoorsteenlekkage",
+      "destination": "/lekkages/schoorsteenlekkage/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/te-verwerken-originals/spoedreparatie",
+      "destination": "/diensten/spoedreparatie/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/archief/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/pages/:path*",
       "destination": "/:path*",
       "permanent": true

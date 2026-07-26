@@ -1645,6 +1645,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.daklekkagesopgelost.nl/lekkages/dakkapel-lekkage/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.daklekkagesopgelost.nl/lekkages/daklekkage/</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -1658,6 +1664,24 @@
   </url>
   <url>
     <loc>https://www.daklekkagesopgelost.nl/lekkages/dakdoorvoerlekkage/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.daklekkagesopgelost.nl/lekkages/dakgootlekkage/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.daklekkagesopgelost.nl/lekkages/dakrandlekkage/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.daklekkagesopgelost.nl/lekkages/dakraamlekkage/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1701,6 +1725,12 @@
   <url>
     <loc>https://www.daklekkagesopgelost.nl/lekkages/loodslabben-lekkage/</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.daklekkagesopgelost.nl/lekkages/kilgootlekkage/</loc>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
