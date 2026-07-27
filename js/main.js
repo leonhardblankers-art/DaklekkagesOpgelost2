@@ -231,6 +231,7 @@
   function initLogoCloud(){
     if(window.__wolkjeInit || window.__wolkjeClosed) return;
     if(document.querySelector('main.premium-page')) return;
+    if(document.querySelector('main.home-main')) return;
     window.__wolkjeInit = true;
 
     var tries = 0;
@@ -452,6 +453,7 @@
 
     var path = window.location.pathname.toLowerCase();
     if(path.indexOf('/contact') !== -1) return;
+    if(path === '/' || path === '' || path === '/index.html') return;
 
     var intent = getPageIntent();
     var anchor = main.querySelector('.premium-hero, .kb-hero, .soft, .hero');

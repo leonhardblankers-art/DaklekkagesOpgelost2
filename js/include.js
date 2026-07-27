@@ -197,6 +197,7 @@ function afterIncludesLoaded() {
 }
 
 function includeHTML() {
+  const includeVersion = '20260727-dedupe';
   const includes = Array.from(document.querySelectorAll("[data-include]"));
   if (!includes.length) {
     afterIncludesLoaded();
@@ -205,7 +206,10 @@ function includeHTML() {
 
   Promise.all(includes.map((el) => {
     const file = el.getAttribute("data-include");
-    return fetch(file)
+    const includeUrl = new URL(file, window.location.href);
+    includeUrl.searchParams.set('v', includeVersion);
+
+    return fetch(includeUrl.href, { cache: 'no-cache' })
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Include niet gevonden: ${file}`);

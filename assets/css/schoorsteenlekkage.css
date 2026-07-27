@@ -215,3 +215,44 @@
 .deliver li{display:flex;gap:10px;align-items:flex-start;color:var(--muted);line-height:1.6;}
 .deliver li b{color:var(--ink);}
 .tick-badge{width:22px;height:22px;display:flex;align-items:center;justify-content:center;}
+
+@media (max-width:560px){
+  .dlo .wrap{
+    padding-left:0;
+    padding-right:0;
+    overflow-x:hidden;
+  }
+
+  .dlo .sec{
+    padding-left:14px;
+    padding-right:14px;
+  }
+
+  .dlo .container{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    max-width:100%;
+  }
+
+  .dlo h1,
+  .dlo h2,
+  .dlo h3,
+  .dlo p,
+  .dlo li,
+  .breadcrumb,
+  .kicker{
+    overflow-wrap:anywhere;
+  }
+
+  .actions{
+    width:100%;
+    max-width:100%;
+  }
+
+  .actions .btn{
+    width:100%;
+    max-width:100%;
+    white-space:normal;
+    text-align:center;
+  }
+}

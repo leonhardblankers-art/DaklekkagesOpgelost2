@@ -306,3 +306,23 @@
   bottom: 10px;
   z-index: 3;
 }
+
+/* Mobiel: lange links en vaktermen mogen afbreken zonder de pagina te verbreden. */
+.kb-article-card,
+.kb-article-card p,
+.kb-article-card li,
+.kb-article-card a,
+.kb-article-card span,
+.kb-article-card strong {
+  overflow-wrap: anywhere;
+}
+
+@media(max-width:640px) {
+  .kb-article-card * {
+    min-width: 0;
+  }
+
+  .kb-article-card a {
+    word-break: break-word;
+  }
+}
