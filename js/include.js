@@ -1,6 +1,10 @@
 function getSiteRoot() {
-  const script = document.querySelector('script[src$="/js/include.js"], script[src$="js/include.js"]');
-  if (!script) return new URL('./', window.location.href);
+  const script = Array.from(document.scripts).find((item) => {
+    const src = item.getAttribute('src') || '';
+    return /(?:^|\/)js\/include\.js(?:\?.*)?$/.test(src);
+  });
+
+  if (!script) return new URL('/', window.location.origin);
   return new URL(script.getAttribute('src'), window.location.href).href.replace(/js\/include\.js(?:\?.*)?$/, '');
 }
 
@@ -197,7 +201,7 @@ function afterIncludesLoaded() {
 }
 
 function includeHTML() {
-  const includeVersion = '20260727-dedupe';
+  const includeVersion = '20260728-assets';
   const includes = Array.from(document.querySelectorAll("[data-include]"));
   if (!includes.length) {
     afterIncludesLoaded();
