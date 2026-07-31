@@ -1,4 +1,4 @@
-ï»¿(function(){
+(function(){
   function getPageIntent(){
     var path = window.location.pathname.toLowerCase();
     var title = (document.querySelector('h1') || {}).textContent || '';
@@ -188,7 +188,7 @@
     var speech = document.querySelector('.home-main .speech');
     if(!speech) return;
 
-    var fullText = 'We lossen niet alleen lekkages op â€” we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in Ã©Ã©n partij.';
+    var fullText = 'We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.';
     var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
 
     function apply(){
@@ -545,7 +545,7 @@
     if(!isKnowledgeCluster && !isServicePage) return;
 
     var clusterMap = [
-      { match: '01-dakonderhoud-en-inspectie', title: 'Diensten die passen bij dit cluster', text: 'Van onderhoudskennis naar zekerheid over uw eigen dak.', links: [
+      { match: '01-dakonderhoud-en-inspectie', title: 'Diensten die passen bij dit hoofdstuk', text: 'Van onderhoudskennis naar zekerheid over uw eigen dak.', links: [
         ['/diensten/gratis-dakinspectie/', 'Gratis dakinspectie', 'Rustige beoordeling bij twijfel'],
         ['/diensten/dakinspectie/', 'Dakinspectie', 'Gerichte controle van dakdetails'],
         ['/diensten/rapportage-dakinspectie/', 'Rapportage dakinspectie', 'Vastlegging van bevindingen']
@@ -564,7 +564,7 @@
         ['/diensten/dak-isoleren/', 'Dak isoleren', 'Comfort en energieverlies verbeteren'],
         ['/diensten/dakinspectie/', 'Dakinspectie', 'Eerst controleren of isoleren logisch is']
       ]},
-      { match: '05-schoorsteenrenovatie', title: 'Schoorsteendiensten bij dit cluster', text: 'Deze diensten sluiten direct aan op renovatie, lekkage en metselwerk rond de schoorsteen.', links: [
+      { match: '05-schoorsteenrenovatie', title: 'Schoorsteendiensten bij dit hoofdstuk', text: 'Deze diensten sluiten direct aan op renovatie, lekkage en metselwerk rond de schoorsteen.', links: [
         ['/diensten/diensten-schoorsteen/', 'Diensten schoorsteen', 'Keuzehulp voor schoorsteenwerk'],
         ['/diensten/schoorsteenrenovatie/', 'Schoorsteenrenovatie', 'Herstel van metselwerk en opbouw'],
         ['/diensten/metselwerk-repareren/', 'Metselwerk repareren', 'Voegen, stenen en stabiliteit']
@@ -642,35 +642,35 @@
 
     var serviceMap = [
       { match: 'schoorsteen', title: 'Verdieping over schoorsteenproblemen', links: [
-        ['/kennisbank/05-schoorsteenrenovatie/', 'Cluster schoorsteenrenovatie'],
-        ['/kennisbank/06-schoorsteen-lood-vervangen/', 'Cluster schoorsteenlood'],
-        ['/kennisbank/07-schoorsteen-verwijderen/', 'Cluster schoorsteen verwijderen']
+        ['/kennisbank/05-schoorsteenrenovatie/', 'Kennisbankhoofdstuk schoorsteenrenovatie'],
+        ['/kennisbank/06-schoorsteen-lood-vervangen/', 'Kennisbankhoofdstuk schoorsteenlood'],
+        ['/kennisbank/07-schoorsteen-verwijderen/', 'Kennisbankhoofdstuk schoorsteen verwijderen']
       ]},
       { match: 'dakkapel', title: 'Verdieping over dakkapellen', links: [
-        ['/kennisbank/08-dakkapel-renoveren/', 'Cluster dakkapel renoveren'],
-        ['/kennisbank/09-dakkapel-lood-vervangen/', 'Cluster dakkapellood']
+        ['/kennisbank/08-dakkapel-renoveren/', 'Kennisbankhoofdstuk dakkapel renoveren'],
+        ['/kennisbank/09-dakkapel-lood-vervangen/', 'Kennisbankhoofdstuk dakkapellood']
       ]},
       { match: 'dakraam', title: 'Verdieping over dakramen', links: [
-        ['/kennisbank/10-dakraam/', 'Cluster dakraam']
+        ['/kennisbank/10-dakraam/', 'Kennisbankhoofdstuk dakraam']
       ]},
       { match: 'lood', title: 'Verdieping over daklood', links: [
-        ['/kennisbank/11-daklood/', 'Cluster daklood'],
-        ['/kennisbank/17-dakdetails-als-faalpunten/', 'Cluster dakdetails']
+        ['/kennisbank/11-daklood/', 'Kennisbankhoofdstuk daklood'],
+        ['/kennisbank/17-dakdetails-als-faalpunten/', 'Kennisbankhoofdstuk dakdetails']
       ]},
       { match: 'plat-dak', title: 'Verdieping over platte daken', links: [
-        ['/kennisbank/12-plat-dak/', 'Cluster plat dak']
+        ['/kennisbank/12-plat-dak/', 'Kennisbankhoofdstuk plat dak']
       ]},
       { match: 'dakrenovatie', title: 'Verdieping over dakrenovatie', links: [
-        ['/kennisbank/13-dakrenovatie/', 'Cluster dakrenovatie'],
-        ['/kennisbank/03-dakvervanging-en-levensduur/', 'Cluster levensduur']
+        ['/kennisbank/13-dakrenovatie/', 'Kennisbankhoofdstuk dakrenovatie'],
+        ['/kennisbank/03-dakvervanging-en-levensduur/', 'Kennisbankhoofdstuk levensduur']
       ]},
       { match: 'dak-isoleren', title: 'Verdieping over isolatie en comfort', links: [
-        ['/kennisbank/04-dakisolatie-en-duurzaamheid/', 'Cluster dakisolatie'],
-        ['/kennisbank/19-binnenklimaat/', 'Cluster binnenklimaat']
+        ['/kennisbank/04-dakisolatie-en-duurzaamheid/', 'Kennisbankhoofdstuk dakisolatie'],
+        ['/kennisbank/19-binnenklimaat/', 'Kennisbankhoofdstuk binnenklimaat']
       ]},
       { match: 'dakinspectie', title: 'Verdieping over inspectie en onderhoud', links: [
-        ['/kennisbank/01-dakonderhoud-en-inspectie/', 'Cluster dakonderhoud en inspectie'],
-        ['/kennisbank/22-twijfel-en-interpretatie/', 'Cluster twijfel en interpretatie']
+        ['/kennisbank/01-dakonderhoud-en-inspectie/', 'Kennisbankhoofdstuk dakonderhoud en inspectie'],
+        ['/kennisbank/22-twijfel-en-interpretatie/', 'Kennisbankhoofdstuk twijfel en interpretatie']
       ]}
     ];
 
@@ -679,7 +679,7 @@
       config = clusterMap.find(function(item){ return path.indexOf(item.match) !== -1; });
     } else {
       config = serviceMap.find(function(item){ return path.indexOf(item.match) !== -1; });
-      if(config) config.text = 'Deze kennisbankclusters geven extra uitleg zonder de dienstpagina blogachtig te maken.';
+      if(config) config.text = 'Deze kennisbankhoofdstukken geven extra uitleg zonder de dienstpagina blogachtig te maken.';
     }
     if(!config || !config.links || !config.links.length) return;
 
@@ -761,7 +761,7 @@
       {
         match: 'lekkage-opsporen',
         title: 'Lekkage opsporen voordat er onnodig wordt gerepareerd',
-        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op Ã©Ã©n zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
+        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op één zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
         cta: 'Laat de lekkage opsporen',
         cards: [
           ['01', 'Wanneer nodig?', 'Bij terugkerende lekkage, onduidelijke vochtplekken of lekkage die alleen bij slagregen ontstaat.'],

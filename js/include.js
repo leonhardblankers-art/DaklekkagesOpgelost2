@@ -141,7 +141,21 @@ function initHeaderMenu() {
 
     const summary = more.querySelector('summary');
     if (!summary) return;
-    const baseLabel = summary.textContent.toLowerCase().includes('lekkages') ? 'lekkages' : 'diensten';
+    const serviceGroup = more.closest('.mobile-service-group');
+    const category = serviceGroup?.querySelector(':scope > summary')?.textContent?.trim() || '';
+    const mainGroup = serviceGroup?.closest('.mobile-group');
+    const mainLabel = mainGroup?.querySelector(':scope > summary.mobile-link')?.textContent?.trim().toLowerCase() || '';
+
+    const leakageLabels = {
+      algemeen: 'lekkages algemeen',
+      dakdetails: 'lekkages bij dakdetails',
+      aansluitingen: 'lekkages bij aansluitingen'
+    };
+
+    const categoryLabel = category.toLowerCase();
+    const baseLabel = mainLabel.includes('lekkages')
+      ? (leakageLabels[categoryLabel] || `${categoryLabel} lekkages`)
+      : `${categoryLabel} diensten`;
 
     const updateLabel = () => {
       summary.textContent = more.open ? `Minder ${baseLabel}...` : `Meer ${baseLabel}...`;
@@ -201,7 +215,7 @@ function afterIncludesLoaded() {
 }
 
 function includeHTML() {
-  const includeVersion = '20260728-assets';
+  const includeVersion = '20260731-mobile-more-labels';
   const includes = Array.from(document.querySelectorAll("[data-include]"));
   if (!includes.length) {
     afterIncludesLoaded();

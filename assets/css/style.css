@@ -1326,6 +1326,22 @@ main {
     content: "4.9 Google • 120+ reviews";
     font-size: 14px;
   }
+  .media-card .review-badge {
+    top: auto;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 12px;
+    border-radius: 999px;
+    font-size: clamp(12px, 3.35vw, 14px);
+    line-height: 1.15;
+    text-align: center;
+    white-space: nowrap;
+  }
   .service-pills {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1394,17 +1410,7 @@ main {
   }
 
   .difference-content > .btns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  .difference-content > .btns .btn:first-child {
     display: none;
-  }
-
-  .difference-content > .btns .btn {
-    width: 100%;
   }
 
   .cta-strip .btns,
@@ -1616,8 +1622,8 @@ main {
     max-width: 100%;
     margin: 2px auto 0;
     padding-bottom: 20px;
-    white-space: normal;
-    font-size: .86em;
+    white-space: nowrap;
+    font-size: clamp(25px, 8.2vw, 34px);
   }
 
   .hero-title .marker svg {
@@ -1738,6 +1744,10 @@ main {
 
   .hero-title {
     font-size: clamp(25px, 8vw, 31px);
+  }
+
+  .hero-title .marker {
+    font-size: clamp(21px, 7.2vw, 27px);
   }
 
   .speech {
