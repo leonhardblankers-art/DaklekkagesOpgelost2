@@ -236,11 +236,24 @@
 }
 
 .premium-page .premium-callout h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin: 0;
   color: #9b3f00;
   font-size: 20px;
   line-height: 1.25;
   font-weight: 950;
+}
+
+.premium-page .premium-callout h3::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  flex: 0 0 11px;
+  border-radius: 999px;
+  background: #ff7a18;
+  box-shadow: 0 0 0 7px rgba(255,122,24,.18);
 }
 
 .premium-page .premium-callout p {
@@ -278,6 +291,48 @@
   color: var(--brand2);
   font-weight: 950;
   white-space: nowrap;
+}
+
+@media (min-width: 981px) {
+  .premium-page--metselwerk-repareren .premium-hero__grid {
+    grid-template-columns: minmax(0, 1.22fr) minmax(360px, .78fr);
+  }
+
+  .premium-page .premium-title--one-line {
+    white-space: nowrap;
+    font-size: clamp(40px, 4.05vw, 52px);
+  }
+}
+
+.premium-page--metselwerk-repareren .premium-section {
+  padding: 42px 0;
+}
+
+.premium-page--metselwerk-repareren .premium-section-head {
+  margin-bottom: 14px;
+}
+
+.premium-page--metselwerk-repareren p {
+  margin-bottom: 10px;
+  line-height: 1.62;
+}
+
+.premium-page--metselwerk-repareren .premium-container.premium-copy {
+  padding: 20px 22px;
+}
+
+.premium-page--metselwerk-repareren .premium-feature-grid,
+.premium-page--metselwerk-repareren .premium-link-grid,
+.premium-page--metselwerk-repareren .premium-steps {
+  margin-top: 14px;
+}
+
+.premium-page--metselwerk-repareren .premium-note {
+  margin: 14px 0 0;
+}
+
+.premium-page--metselwerk-repareren .premium-detail-split {
+  gap: 22px;
 }
 
 .premium-page .premium-steps {
@@ -328,6 +383,23 @@
   line-height: 1.6;
 }
 
+.premium-page .premium-steps--three-two {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.premium-page .premium-steps--three-two article {
+  grid-column: span 2;
+  min-height: 164px;
+}
+
+.premium-page .premium-steps--three-two article:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.premium-page .premium-steps--three-two article:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
 .premium-page .premium-faq {
   display: grid;
   gap: 12px;
@@ -359,6 +431,25 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin-top: 18px;
+}
+
+.premium-page .premium-feature-grid--four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.premium-page .premium-feature-grid--four .premium-feature {
+  min-height: 124px;
+}
+
+.premium-page .premium-note--full {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.premium-page .premium-image-strip > figure:only-child {
+  grid-column: 1 / -1;
+  width: min(100%, 760px);
+  justify-self: center;
 }
 
 .premium-page .premium-feature {
@@ -667,6 +758,26 @@
     line-height: 1.58 !important;
   }
 
+  .premium-page--metselwerk-repareren .premium-section {
+    padding: 28px 0 !important;
+  }
+
+  .premium-page--metselwerk-repareren p {
+    margin-bottom: 8px;
+    line-height: 1.5 !important;
+  }
+
+  .premium-page--metselwerk-repareren .premium-feature-grid,
+  .premium-page--metselwerk-repareren .premium-link-grid,
+  .premium-page--metselwerk-repareren .premium-steps,
+  .premium-page--metselwerk-repareren .premium-faq-card-grid {
+    margin-top: 12px;
+  }
+
+  .premium-page--metselwerk-repareren .premium-note {
+    margin-top: 12px;
+  }
+
   .premium-page p,
   .premium-page li,
   .premium-page a,
@@ -714,6 +825,14 @@
     margin-inline: calc((100% - min(calc(100vw - 44px), 520px)) / 2);
   }
 
+  .premium-page .premium-media-card--mobile-full {
+    width: calc(100vw - 28px) !important;
+    max-width: calc(100vw - 28px) !important;
+    margin-left: 50% !important;
+    margin-right: 0 !important;
+    transform: translateX(-50%);
+  }
+
   .premium-page .premium-media-note {
     left: 12px;
     right: 12px;
@@ -722,6 +841,11 @@
     border-radius: 13px;
     font-size: 13px;
     line-height: 1.35;
+  }
+
+  .premium-page .premium-media-note.premium-media-note--top {
+    top: 12px;
+    bottom: auto;
   }
 
   .premium-page .premium-section {
@@ -835,6 +959,12 @@
     min-height: 0;
     padding: 16px;
     border-radius: 18px;
+  }
+
+  .premium-page .premium-steps--three-two article,
+  .premium-page .premium-steps--three-two article:nth-child(4),
+  .premium-page .premium-steps--three-two article:nth-child(5) {
+    grid-column: auto;
   }
 
   .premium-page .premium-steps article > span {

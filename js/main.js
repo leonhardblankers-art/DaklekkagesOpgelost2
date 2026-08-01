@@ -123,8 +123,9 @@
     var isContactPage = path.indexOf('/contact') !== -1 || path === '/contact/' || path === '/contact';
     var isHomePage = document.querySelector('.home-main') || path === '/' || path.endsWith('/index.html');
     var isContextPage = path.indexOf('/kennisbank/') !== -1 || path.indexOf('/blog/') !== -1 || path.indexOf('/over-ons/uitgevoerde-projecten/') !== -1;
+    var isPremiumServicePage = !!document.querySelector('main.premium-page') && path.indexOf('/diensten/') !== -1;
 
-    document.documentElement.classList.toggle('sticky-contextual-enabled', isContextPage && !isContactPage);
+    document.documentElement.classList.toggle('sticky-contextual-enabled', (isContextPage || isPremiumServicePage) && !isContactPage);
 
     if(cta){
       var box = cta.querySelector('.sticky-cta__box');
@@ -157,8 +158,8 @@
 
       document.documentElement.classList.toggle('sticky-mobile-visible', showMobile);
 
-      var desktopMinWidth = isContextPage ? 1024 : 1200;
-      var desktopScrollY = isContextPage ? 120 : 300;
+      var desktopMinWidth = (isContextPage || isPremiumServicePage) ? 1024 : 1200;
+      var desktopScrollY = isPremiumServicePage ? -1 : (isContextPage ? 120 : 300);
 
       if(window.innerWidth > desktopMinWidth && window.scrollY > desktopScrollY && !isNearBottomCTA && !isContactPage){
         cta.classList.add('is-visible');
@@ -188,7 +189,7 @@
     var speech = document.querySelector('.home-main .speech');
     if(!speech) return;
 
-    var fullText = 'We lossen niet alleen lekkages op — we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in één partij.';
+    var fullText = 'We lossen niet alleen lekkages op - we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in een partij.';
     var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
 
     function apply(){
@@ -761,7 +762,7 @@
       {
         match: 'lekkage-opsporen',
         title: 'Lekkage opsporen voordat er onnodig wordt gerepareerd',
-        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op één zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
+        text: 'Opsporen is vooral zinvol wanneer de vochtplek niet logisch aansluit op een zichtbaar dakdetail. Zo voorkomt u dat er op de verkeerde plek wordt gewerkt.',
         cta: 'Laat de lekkage opsporen',
         cards: [
           ['01', 'Wanneer nodig?', 'Bij terugkerende lekkage, onduidelijke vochtplekken of lekkage die alleen bij slagregen ontstaat.'],
