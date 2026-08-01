@@ -930,6 +930,9 @@
     box-shadow:0 18px 42px rgba(15,17,21,.11);
     border-color:rgba(29,151,83,.18);
   }
+  .team-card--moonlight{
+    grid-column:span 2;
+  }
   .team-photo{
     position:relative;
     aspect-ratio:4/4.35;
@@ -1101,6 +1104,7 @@
     .media-card{ min-height:420px; }
     .glass-note{ position:static; margin:12px 12px 12px; }
     .team-grid{ grid-template-columns:1fr 1fr; }
+    .team-card--moonlight{ grid-column:span 2; }
     .guarantee-info{
       position:relative;
       left:auto; right:auto; top:auto; margin-top:12px;
@@ -1154,6 +1158,7 @@
     }
     .media-card{ min-height:320px; }
     .team-grid{ grid-template-columns:1fr; }
+    .team-card--moonlight{ grid-column:auto; }
     .guarantee-main{
       grid-template-columns:44px minmax(0,1fr);
       gap:12px;
