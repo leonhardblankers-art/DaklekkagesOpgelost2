@@ -52,6 +52,12 @@ header nav a { font-weight: 700; }
 .section { position: relative; padding: 42px 0; }
 .soft { background: linear-gradient(180deg,#f7f9f8 0%,#fff 100%); }
 .white { background: #fff; }
+.home-main > .section,
+.project-proof,
+.knowledge-service-links {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 760px;
+}
 .home-main > .section { border-top: 1px solid rgba(15,17,21,.045); }
 .home-main > .section:first-of-type { border-top: 0; }
 

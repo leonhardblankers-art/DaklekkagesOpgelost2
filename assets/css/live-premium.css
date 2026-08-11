@@ -1091,3 +1091,13 @@
   top: 18px;
   bottom: auto;
 }
+
+.premium-page .premium-section,
+.premium-page .premium-visual-section,
+.premium-page .premium-faq,
+.premium-page .premium-faq-accordion,
+.premium-page .premium-link-grid,
+.premium-page .premium-image-strip {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
