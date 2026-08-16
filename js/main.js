@@ -189,7 +189,7 @@
     var speech = document.querySelector('.home-main .speech');
     if(!speech) return;
 
-    var fullText = 'We lossen niet alleen lekkages op - we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in een partij.';
+    var fullText = 'We lossen niet alleen lekkages op; we doen alles op uw dak. Spoed, loodwerk, renovatie, onderhoud en isolatie in een partij.';
     var shortText = 'Niet alleen lekkages: ook loodwerk, renovatie, isolatie en dakonderhoud.';
 
     function apply(){

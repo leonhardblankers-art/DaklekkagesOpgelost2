@@ -1,0 +1,469 @@
+{
+  "services": 84,
+  "image_refs": 260,
+  "missing": [],
+  "duplicate_srcs": [
+    [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      4
+    ],
+    [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+      2
+    ],
+    [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-nokvorsten-1.webp",
+      2
+    ],
+    [
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+      2
+    ],
+    [
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp",
+      2
+    ]
+  ],
+  "weak_first_images": [
+    {
+      "slug": "boeideel-bekleden",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/boeideel-bekleden/boeideel-bekleden-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "boeideel-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/boeideel-repareren/boeideel-repareren-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "boeideel-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/boeideel-vervangen/boeideel-vervangen-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dak-reinigen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+      "dim": "441x402",
+      "size": 51402,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakconstructie-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakconstructie-repareren/dakconstructie-repareren-hero-constructie.webp",
+      "dim": "1200x1379",
+      "size": 332512,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakconstructie-verstevigen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-hero-constructie.webp",
+      "dim": "1200x1379",
+      "size": 332512,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakconstructie-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-hero-constructie.webp",
+      "dim": "1200x1379",
+      "size": 332512,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakdoorvoer-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hero-detail.webp",
+      "dim": "713x329",
+      "size": 75134,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakdoorvoer-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hero-detail.webp",
+      "dim": "713x329",
+      "size": 75134,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakdoorvoer-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hero-detail.webp",
+      "dim": "713x329",
+      "size": 75134,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakgrind-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-hero-plat-dak.webp",
+      "dim": "312x349",
+      "size": 21338,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakgrind-reinigen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakgrind-reinigen/dakgrind-reinigen-hero-plat-dak.webp",
+      "dim": "312x349",
+      "size": 21338,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakgrind-verwijderen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-hero-plat-dak.webp",
+      "dim": "312x349",
+      "size": 21338,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakinspectie",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "dim": "1391x1600",
+      "size": 375800,
+      "exists": true,
+      "class": ""
+    },
+    {
+      "slug": "dakkapel-lood-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-informatiepagina.webp",
+      "dim": "600x337",
+      "size": 46790,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakkapel-renoveren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-banner.webp",
+      "dim": "1400x327",
+      "size": 59834,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakkapel-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakkapel-vervangen/dakkapel-vervangen-hero.webp",
+      "dim": "504x650",
+      "size": 47206,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakoverstek-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-hero-dakoverstek.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakoverstek-renoveren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-hero-dakoverstek.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakoverstek-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakoverstek-repareren/dakoverstek-repareren-hero-dakoverstek.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakoverstek-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "dakrand-bekleden",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakrand-bekleden/dakrand-bekleden-hero-dakrand.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakrand-renoveren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakrand-renoveren/dakrand-renoveren-hero-dakrand.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakrand-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakrand-repareren/dakrand-repareren-hero-dakrand.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "dakrand-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-dakrand.jpg",
+      "dim": "720x1280",
+      "size": 201515,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "diensten-dakgoot",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+      "dim": "720x436",
+      "size": 37932,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "diensten-dakkapel",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+      "dim": "720x336",
+      "size": 29942,
+      "exists": true,
+      "class": ""
+    },
+    {
+      "slug": "gevelbekleding-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-hero-gevel.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "gevelbekleding-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-hero-gevel.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "gevelbekleding-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-hero-gevel.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "gratis-dakinspectie",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "dim": "1391x1600",
+      "size": 375800,
+      "exists": true,
+      "class": ""
+    },
+    {
+      "slug": "groendak-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/groendak-aanbrengen/groendak-aanbrengen-hero-plat-dak.webp",
+      "dim": "312x349",
+      "size": 21338,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "kilgoot-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/kilgoot-repareren/kilgoot-repareren-hero-hellend-dak.webp",
+      "dim": "1200x1600",
+      "size": 285550,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "kilgoot-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/kilgoot-vervangen/kilgoot-vervangen-hero-hellend-dak.webp",
+      "dim": "1200x1600",
+      "size": 285550,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "lichtkoepel-plaatsen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-hero-plat-dak.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "lichtkoepel-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-hero-plat-dak.webp",
+      "dim": "600x586",
+      "size": 80520,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "lood-rond-dakdoorvoer-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-hero-detail.webp",
+      "dim": "713x329",
+      "size": 75134,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "noodreparatie",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "dim": "840x861",
+      "size": 125574,
+      "exists": true,
+      "class": ""
+    },
+    {
+      "slug": "schoorsteen-opnieuw-opmetselen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "dim": "400x389",
+      "size": 32648,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "schoorsteen-verwijderen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+      "dim": "300x400",
+      "size": 14322,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    },
+    {
+      "slug": "spoedreparatie",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "dim": "840x861",
+      "size": 125574,
+      "exists": true,
+      "class": ""
+    },
+    {
+      "slug": "windveer-aanbrengen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/windveer-aanbrengen/windveer-aanbrengen-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "windveer-repareren",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/windveer-repareren/windveer-repareren-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image"
+    },
+    {
+      "slug": "windveer-vervangen",
+      "order": 1,
+      "role": "hero",
+      "src": "/assets/img/windveer-vervangen/windveer-vervangen-hero-dakrand.webp",
+      "dim": "1065x1350",
+      "size": 317994,
+      "exists": true,
+      "class": "premium-media-card premium-media-card--image premium-media-card--mobile-full"
+    }
+  ]
+}

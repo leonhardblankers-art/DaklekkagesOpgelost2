@@ -1,0 +1,766 @@
+[
+  {
+    "slug": "boeideel-bekleden",
+    "count": 3,
+    "imgs": [
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-hero-dakrand.webp",
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-dakrand-detail.webp",
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-dakgoot-detail.webp"
+    ]
+  },
+  {
+    "slug": "boeideel-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/boeideel-repareren/boeideel-repareren-hero-dakrand.webp",
+      "/assets/img/boeideel-repareren/boeideel-repareren-dakrand-detail.webp",
+      "/assets/img/boeideel-repareren/boeideel-repareren-dakgoot-detail.webp"
+    ]
+  },
+  {
+    "slug": "boeideel-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-hero-dakrand.webp",
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-live-open-dakkapel-aansluiting.jpg",
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-live-afgewerkte-dakrand.jpg"
+    ]
+  },
+  {
+    "slug": "dak-isoleren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dak-isoleren/dak-isoleren-visual-01-dak-isoleren-diensten-dak-isoleren-1.webp",
+      "/assets/img/dak-isoleren/dak-isoleren-visual-02-dak-isoleren-pir-diensten-dak-isoleren.webp",
+      "/assets/img/dak-isoleren/dak-isoleren-live-pir-dakrenovatie-zonder-ladderpersoon.jpg"
+    ]
+  },
+  {
+    "slug": "dak-reinigen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+      "/assets/img/dak-reinigen/dak-reinigen-visual-02-dak-reinigen-diensten-dak-reinigen.webp",
+      "/assets/img/dak-reinigen/dak-reinigen-visual-01-te-renoveren-nok-diensten-nokvorstrenovatie.webp"
+    ]
+  },
+  {
+    "slug": "dakbeschot-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-dakconstructie.webp",
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-live-nieuw-dakbeschot.jpg"
+    ]
+  },
+  {
+    "slug": "dakbeschot-plat-dak-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-hero-bitumen.webp",
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-bitumen-detail.webp",
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-plat-dak.webp"
+    ]
+  },
+  {
+    "slug": "dakbeschot-plat-dak-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-hero-bitumen.webp",
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-houtrot-voor.jpg",
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-nieuw-dakbeschot-na.jpg"
+    ]
+  },
+  {
+    "slug": "dakbeschot-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakconstructie.webp",
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakopbouw.webp"
+    ]
+  },
+  {
+    "slug": "dakbeschot-vervangen",
+    "count": 2,
+    "imgs": [
+      "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-dakconstructie.webp"
+    ]
+  },
+  {
+    "slug": "dakconstructie-repareren",
+    "count": 2,
+    "imgs": [
+      "/assets/img/dakconstructie-repareren/dakconstructie-repareren-hero-constructie.webp",
+      "/assets/img/dakconstructie-repareren/dakconstructie-repareren-live-houtrot-spant.jpg"
+    ]
+  },
+  {
+    "slug": "dakconstructie-verstevigen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-hero-constructie.webp",
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-open-kapconstructie.jpg",
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-nieuwe-kapconstructie.jpg"
+    ]
+  },
+  {
+    "slug": "dakconstructie-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-hero-constructie.webp",
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-open-kap-buitenzijde.jpg",
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-nieuwe-kapconstructie.jpg"
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hero-detail.webp",
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hellend-dak.webp",
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hero-detail.webp",
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hellend-dak.webp",
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hero-detail.webp",
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-aansluiting-detail.webp",
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hellend-dak.webp"
+    ]
+  },
+  {
+    "slug": "dakgoot-bladwering-plaatsen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-hero-vervuilde-dakgoot.webp",
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-reinigen-detail.webp",
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-goot-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakgoot-vervangen",
+    "count": 5,
+    "imgs": [
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-banner.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-vervuild.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-te-vervangen.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakgrind-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-ballast-plat-dak.webp",
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-dakbedekking-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakgrind-reinigen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-ballast-plat-dak.webp",
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-dakbedekking-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakgrind-verwijderen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-dakbedekking-detail.webp",
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-ballast-plat-dak.webp"
+    ]
+  },
+  {
+    "slug": "dakinspectie",
+    "count": 4,
+    "imgs": [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-nokvorsten-1.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
+    ]
+  },
+  {
+    "slug": "dakkapel-lood-vervangen",
+    "count": 5,
+    "imgs": [
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-informatiepagina.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-renovatie.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-lood-vervangen.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-onder-trespa.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-kosten.webp"
+    ]
+  },
+  {
+    "slug": "dakkapel-plaatsen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-hero.webp",
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-nieuwe-dakkapel.webp",
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakkapel-renoveren",
+    "count": 5,
+    "imgs": [
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-banner.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-voor-renovatie.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-gerenoveerd.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-breed.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakkapel-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-hero.webp",
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-renovatie-detail.webp",
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "daklood-vervangen",
+    "count": 5,
+    "imgs": [
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat-detail.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen-detail.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-banner.webp"
+    ]
+  },
+  {
+    "slug": "dakoverstek-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-dakrand-detail.webp",
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakoverstek-renoveren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-dakrand-detail.webp",
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakoverstek-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-dakrand-detail.webp",
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakoverstek-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-live-overstek-woning.jpg",
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakraam-plaatsen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-hero.webp",
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-dakraam-detail.webp",
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-gootstuk-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakraam-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-hero.webp",
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-detail.webp",
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-gootstuk-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakraamlood-vervangen",
+    "count": 5,
+    "imgs": [
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-dakraamlood-vervangen.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-gootstuk.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-met-lekkage.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-te-vervangen.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-banner.webp"
+    ]
+  },
+  {
+    "slug": "dakrand-bekleden",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-hero-dakrand.webp",
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-dakrand-detail.webp",
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakrand-renoveren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-hero-dakrand.webp",
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-dakrand-detail.webp",
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakrand-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakrand-repareren/dakrand-repareren-hero-dakrand.webp",
+      "/assets/img/dakrand-repareren/dakrand-repareren-dakrand-detail.webp",
+      "/assets/img/dakrand-repareren/dakrand-repareren-boeiboord-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "dakrand-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-dakrand.jpg",
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-voorbereiding.jpg",
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-aansluiting-bovenaanzicht.jpg"
+    ]
+  },
+  {
+    "slug": "dakrenovatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
+      "/assets/img/dakrenovatie/dakrenovatie-visual-02-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/dakrenovatie/dakrenovatie-visual-03-dakrenovatie-pannendak-nodig-2-diensten-dakrenovatie.webp"
+    ]
+  },
+  {
+    "slug": "dakventilatie-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-hero-dakopbouw.webp",
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-dakconstructie.webp",
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-luchtspouw.webp"
+    ]
+  },
+  {
+    "slug": "dakventilatie-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-hero-dakopbouw.webp",
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-dakconstructie.webp",
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-luchtspouw.webp"
+    ]
+  },
+  {
+    "slug": "dakvoet-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-hero-hellend-dak.webp",
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-dakpannen-detail.webp",
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-dakconstructie-detail.webp"
+    ]
+  },
+  {
+    "slug": "dakvoet-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-hero-hellend-dak.webp",
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakpannen-detail.webp",
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakconstructie-detail.webp"
+    ]
+  },
+  {
+    "slug": "diensten-dakgoot",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-02-dakgoot-reinigen.webp",
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-03-dakgoot-plaatsen.webp"
+    ]
+  },
+  {
+    "slug": "diensten-dakkapel",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp"
+    ]
+  },
+  {
+    "slug": "diensten-dakraam",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-01-dakraam-vervangen.webp",
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-02-dakraam-plaatsen.webp",
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-03-dakraamlood-vervangen.webp"
+    ]
+  },
+  {
+    "slug": "diensten-loodafwerkingen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-02-dakraamlood-vervangen.webp",
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-03-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp"
+    ]
+  },
+  {
+    "slug": "diensten-plat-dak",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-02-reparatie-plat-dak-diensten-reparatie-plat-dak-2.webp",
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp"
+    ]
+  },
+  {
+    "slug": "diensten-schoorsteen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp",
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-02-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-03-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp"
+    ]
+  },
+  {
+    "slug": "diensten-schuin-dak",
+    "count": 3,
+    "imgs": [
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp",
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-02-pannendak-reinigen-diensten-pannendak-reinigen.webp",
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-03-dakgoot-plaatsen.webp"
+    ]
+  },
+  {
+    "slug": "gevelbekleding-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-hero-gevel.webp",
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-detail.webp",
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "gevelbekleding-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-hero-gevel.webp",
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-detail.webp",
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "gevelbekleding-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-hero-gevel.webp",
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-detail.webp",
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-aansluiting.webp"
+    ]
+  },
+  {
+    "slug": "gratis-dakinspectie",
+    "count": 4,
+    "imgs": [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-nokvorsten-1.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
+    ]
+  },
+  {
+    "slug": "groendak-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-hero-plat-dak.webp",
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakopbouw.webp",
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakbedekking-controle.webp"
+    ]
+  },
+  {
+    "slug": "kilgoot-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-hero-hellend-dak.webp",
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-pannendak-detail.webp",
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-waterafvoer-detail.webp"
+    ]
+  },
+  {
+    "slug": "kilgoot-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-hero-hellend-dak.webp",
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-pannendak-detail.webp",
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-waterafvoer-detail.webp"
+    ]
+  },
+  {
+    "slug": "kozijnlood-vervangen",
+    "count": 4,
+    "imgs": [
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen-detail.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp"
+    ]
+  },
+  {
+    "slug": "lichtkoepel-plaatsen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-hero-plat-dak.webp",
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-opstand-detail.webp",
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "lichtkoepel-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-hero-plat-dak.webp",
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-opstand-detail.webp",
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-aansluiting-detail.webp"
+    ]
+  },
+  {
+    "slug": "lood-rond-dakdoorvoer-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-hero-detail.webp",
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-aansluiting-detail.webp",
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-loodwerk-detail.webp"
+    ]
+  },
+  {
+    "slug": "metselwerk-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-01-gebroken-metselwerk-diensten-repareren-metselwerk.webp",
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-02-gebroken-metselwerk-2-diensten-repareren-metselwerk.webp",
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-03-repareren-metselwerk-diensten-repareren-metselwerk-1.webp"
+    ]
+  },
+  {
+    "slug": "nokrenovatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/nokrenovatie/nokrenovatie-visual-01-nokvorsten-renoveren-diensten-nokvorstrenovatie-1.webp",
+      "/assets/img/nokrenovatie/nokrenovatie-visual-02-nokvorsten-vervangen-diensten-nokvorstrenovatie-1.webp",
+      "/assets/img/nokrenovatie/nokrenovatie-visual-03-versleten-nokvorsten-herkennen-diensten-nokvorstrenovatie-1.webp"
+    ]
+  },
+  {
+    "slug": "noodreparatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "/assets/img/noodreparatie/noodreparatie-01-tijdelijke-oplossing-die-het-probleem-verergerde.webp",
+      "/assets/img/noodreparatie/noodreparatie-01-schoorsteen-renoveren-in-velddriel.webp"
+    ]
+  },
+  {
+    "slug": "plat-dak-overlagen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-01-plat-dak-overlagen-diensten-plat-dak-overlagen.webp",
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-03-plat-dak-overlagen-1-diensten-plat-dak-overlagen-1.webp"
+    ]
+  },
+  {
+    "slug": "plat-dak-reparatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-reparatie.webp",
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-lekkage.webp",
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-overlagen.webp"
+    ]
+  },
+  {
+    "slug": "plat-dak-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-overlagen.webp",
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-detail.webp",
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-plat-dak.webp"
+    ]
+  },
+  {
+    "slug": "pleisteren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/pleisteren/pleisteren-visual-01-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+      "/assets/img/pleisteren/pleisteren-visual-02-te-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+      "/assets/img/pleisteren/pleisteren-visual-03-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp"
+    ]
+  },
+  {
+    "slug": "rapportage-dakinspectie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-rapportage-dakinspectie-daklekkages-opgelost.webp",
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-tijd-tussen-oorzaak-en-gevolg-bij-daklekkage.webp",
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-twijfel-en-onduidelijkheden-aanleiding-voor-dakinspect.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteen-afdekken",
+    "count": 2,
+    "imgs": [
+      "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-hero-schoorsteen.webp",
+      "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-schoorsteenkop-detail.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteen-opnieuw-opmetselen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-02-schoorsteen-opnieuw-opmetselen2-diensten-schoorsteen-opnieuw-opmetsele.webp",
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-03-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteen-verwijderen",
+    "count": 2,
+    "imgs": [
+      "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+      "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-02-schoorsteen-renoveren-diensten-schoorsteenrenovatie.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteenkap-plaatsen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-hero-schoorsteen.webp",
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-schoorsteenkop-detail.webp",
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-afwerking-detail.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteenkap-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-hero-schoorsteen.webp",
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-schoorsteenkop-detail.webp",
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-afwerking-detail.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-spouw-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-uitvoering.webp",
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-spouwlood.webp",
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-detail.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-vervangen",
+    "count": 2,
+    "imgs": [
+      "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-oud-lood.webp",
+      "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-vervangen.webp"
+    ]
+  },
+  {
+    "slug": "schoorsteenrenovatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-02-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-03-schoorsteen-renoveren-nokschoorsteen.webp"
+    ]
+  },
+  {
+    "slug": "spoedreparatie",
+    "count": 3,
+    "imgs": [
+      "/assets/img/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "/assets/img/spoedreparatie/spoedreparatie-01-tijdelijke-oplossing-die-het-probleem-verergerde.webp",
+      "/assets/img/spoedreparatie/spoedreparatie-01-schoorsteen-renoveren-in-velddriel.webp"
+    ]
+  },
+  {
+    "slug": "trapsgewijs-lood-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-loodloketten.webp",
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-te-vervangen.webp",
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-vervangen.webp"
+    ]
+  },
+  {
+    "slug": "vogelschroot-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-hero-dakvoet.webp",
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakconstructie.webp",
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakvoet-detail.webp"
+    ]
+  },
+  {
+    "slug": "vogelschroot-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-hero-dakvoet.webp",
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakconstructie.webp",
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakvoet-detail.webp"
+    ]
+  },
+  {
+    "slug": "windveer-aanbrengen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-hero-dakrand.webp",
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakrand-detail.webp",
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakgoot-detail.webp"
+    ]
+  },
+  {
+    "slug": "windveer-repareren",
+    "count": 3,
+    "imgs": [
+      "/assets/img/windveer-repareren/windveer-repareren-hero-dakrand.webp",
+      "/assets/img/windveer-repareren/windveer-repareren-dakrand-detail.webp",
+      "/assets/img/windveer-repareren/windveer-repareren-dakgoot-detail.webp"
+    ]
+  },
+  {
+    "slug": "windveer-vervangen",
+    "count": 3,
+    "imgs": [
+      "/assets/img/windveer-vervangen/windveer-vervangen-hero-dakrand.webp",
+      "/assets/img/windveer-vervangen/windveer-vervangen-dakrand-detail.webp",
+      "/assets/img/windveer-vervangen/windveer-vervangen-dakgoot-detail.webp"
+    ]
+  }
+]

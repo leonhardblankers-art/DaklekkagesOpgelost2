@@ -1,0 +1,1797 @@
+[
+  {
+    "slug": "boeideel-bekleden",
+    "images": [
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-hero-dakrand.webp",
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-dakrand-detail.webp",
+      "/assets/img/boeideel-bekleden/boeideel-bekleden-dakgoot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/boeideel-bekleden/boeideel-bekleden-hero-dakrand.webp",
+        "caption": "Bekleden is alleen verstandig als de bestaande constructie droog en gezond is."
+      },
+      {
+        "src": "/assets/img/boeideel-bekleden/boeideel-bekleden-dakrand-detail.webp",
+        "caption": "De ondergrond bepaalt of bekleden verantwoord is."
+      },
+      {
+        "src": "/assets/img/boeideel-bekleden/boeideel-bekleden-dakgoot-detail.webp",
+        "caption": "Bekleding moet netjes aansluiten op goten, kappen en dakranden."
+      }
+    ]
+  },
+  {
+    "slug": "boeideel-repareren",
+    "images": [
+      "/assets/img/boeideel-repareren/boeideel-repareren-hero-dakrand.webp",
+      "/assets/img/boeideel-repareren/boeideel-repareren-dakrand-detail.webp",
+      "/assets/img/boeideel-repareren/boeideel-repareren-dakgoot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/boeideel-repareren/boeideel-repareren-hero-dakrand.webp",
+        "caption": "Een goede reparatie begint met het vinden van de oorzaak achter de schade."
+      },
+      {
+        "src": "/assets/img/boeideel-repareren/boeideel-repareren-dakrand-detail.webp",
+        "caption": "Wij controleren of schade plaatselijk is of uit de constructie komt."
+      },
+      {
+        "src": "/assets/img/boeideel-repareren/boeideel-repareren-dakgoot-detail.webp",
+        "caption": "Ook dakgoot, aansluiting en afwatering worden meegenomen."
+      }
+    ]
+  },
+  {
+    "slug": "boeideel-vervangen",
+    "images": [
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-hero-dakrand.webp",
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-live-open-dakkapel-aansluiting.jpg",
+      "/assets/img/boeideel-vervangen/boeideel-vervangen-live-afgewerkte-dakrand.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/boeideel-vervangen/boeideel-vervangen-hero-dakrand.webp",
+        "caption": "Een boeideel vervangen begint bij de vraag wat erachter gebeurt."
+      },
+      {
+        "src": "/assets/img/boeideel-vervangen/boeideel-vervangen-live-open-dakkapel-aansluiting.jpg",
+        "caption": "Bij vervanging controleren we ook de achterconstructie, het loodwerk en de aansluiting op de dakpannen."
+      },
+      {
+        "src": "/assets/img/boeideel-vervangen/boeideel-vervangen-live-afgewerkte-dakrand.jpg",
+        "caption": "Nieuwe boeidelen moeten strak aansluiten op de dakrand, dakbedekking en bestaande afwerking."
+      }
+    ]
+  },
+  {
+    "slug": "dak-isoleren",
+    "images": [
+      "/assets/img/dak-isoleren/dak-isoleren-visual-01-dak-isoleren-diensten-dak-isoleren-1.webp",
+      "/assets/img/dak-isoleren/dak-isoleren-visual-02-dak-isoleren-pir-diensten-dak-isoleren.webp",
+      "/assets/img/dak-isoleren/dak-isoleren-live-pir-dakrenovatie-zonder-ladderpersoon.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dak-isoleren/dak-isoleren-visual-01-dak-isoleren-diensten-dak-isoleren-1.webp",
+        "caption": "Buitenzijde-isolatie is vooral interessant wanneer het dak toch open gaat voor renovatie of vernieuwing."
+      },
+      {
+        "src": "/assets/img/dak-isoleren/dak-isoleren-visual-02-dak-isoleren-pir-diensten-dak-isoleren.webp",
+        "caption": "PIR-platen leveren een hoge isolatiewaarde bij een relatief beperkte opbouwhoogte."
+      },
+      {
+        "src": "/assets/img/dak-isoleren/dak-isoleren-live-pir-dakrenovatie-zonder-ladderpersoon.jpg",
+        "caption": "De kwaliteit van aansluitingen bepaalt mede of isolatie langdurig goed blijft presteren."
+      }
+    ]
+  },
+  {
+    "slug": "dak-reinigen",
+    "images": [
+      "/assets/img/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+      "/assets/img/dak-reinigen/dak-reinigen-visual-02-dak-reinigen-diensten-dak-reinigen.webp",
+      "/assets/img/dak-reinigen/dak-reinigen-visual-01-te-renoveren-nok-diensten-nokvorstrenovatie.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dak-reinigen/dak-reinigen-visual-03-vervuild-dak-diensten-dak-reinigen.webp",
+        "caption": "Mos en aanslag houden vocht vast. Dat maakt voorzichtig reinigen en technische beoordeling belangrijk."
+      },
+      {
+        "src": "/assets/img/dak-reinigen/dak-reinigen-visual-02-dak-reinigen-diensten-dak-reinigen.webp",
+        "caption": "Professionele dakreiniging draait om balans: genoeg kracht om vuil te verwijderen, zonder de dakpan te beschadigen."
+      },
+      {
+        "src": "/assets/img/dak-reinigen/dak-reinigen-visual-01-te-renoveren-nok-diensten-nokvorstrenovatie.webp",
+        "caption": "Bij reiniging kijken we ook naar nok, goten, loodwerk en andere details waar lekkages kunnen ontstaan."
+      }
+    ]
+  },
+  {
+    "slug": "dakbeschot-aanbrengen",
+    "images": [
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-dakconstructie.webp",
+      "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-live-nieuw-dakbeschot.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-hero-dakbeschot.webp",
+        "caption": "Dakbeschot aanbrengen is onderdeel van een sterke hellende dakopbouw."
+      },
+      {
+        "src": "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-dakconstructie.webp",
+        "caption": "We controleren de draagconstructie voordat nieuw dakbeschot wordt geplaatst."
+      },
+      {
+        "src": "/assets/img/dakbeschot-aanbrengen/dakbeschot-aanbrengen-live-nieuw-dakbeschot.jpg",
+        "caption": "Nieuw dakbeschot moet strak aansluiten op het constructiehout en de verdere dakopbouw."
+      }
+    ]
+  },
+  {
+    "slug": "dakbeschot-plat-dak-repareren",
+    "images": [
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-hero-bitumen.webp",
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-bitumen-detail.webp",
+      "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-plat-dak.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-hero-bitumen.webp",
+        "caption": "Bij platte daken beoordelen we hout, isolatie, afschot en bitumen als geheel."
+      },
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-bitumen-detail.webp",
+        "caption": "Details, randen en doorvoeren bepalen vaak waar vocht de dakopbouw bereikt."
+      },
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-repareren/dakbeschot-plat-dak-repareren-plat-dak.webp",
+        "caption": "De volledige dakopbouw wordt beoordeeld voordat het dak weer waterdicht wordt gesloten."
+      }
+    ]
+  },
+  {
+    "slug": "dakbeschot-plat-dak-vervangen",
+    "images": [
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-hero-bitumen.webp",
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-houtrot-voor.jpg",
+      "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-nieuw-dakbeschot-na.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-hero-bitumen.webp",
+        "caption": "Bij platte daken beoordelen we altijd hout, isolatie, afschot en bitumen als geheel."
+      },
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-houtrot-voor.jpg",
+        "caption": "Aangetast dakbeschot wordt pas goed zichtbaar nadat de dakopbouw is geopend."
+      },
+      {
+        "src": "/assets/img/dakbeschot-plat-dak-vervangen/dakbeschot-plat-dak-vervangen-live-nieuw-dakbeschot-na.jpg",
+        "caption": "Na vervanging ontstaat weer een sterke basis voor isolatie en nieuwe bitumen dakbedekking."
+      }
+    ]
+  },
+  {
+    "slug": "dakbeschot-repareren",
+    "images": [
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakconstructie.webp",
+      "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakopbouw.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakbeschot-repareren/dakbeschot-repareren-hero-dakbeschot.webp",
+        "caption": "Dakbeschot repareren is een hellend-dak dienst voor pannendaken en houten dakconstructies."
+      },
+      {
+        "src": "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakconstructie.webp",
+        "caption": "We controleren ook de omliggende dakconstructie, niet alleen de zichtbare schade."
+      },
+      {
+        "src": "/assets/img/dakbeschot-repareren/dakbeschot-repareren-dakopbouw.webp",
+        "caption": "Bij plaatselijk openen kunnen verborgen vochtproblemen zichtbaar worden."
+      }
+    ]
+  },
+  {
+    "slug": "dakbeschot-vervangen",
+    "images": [
+      "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-hero-dakbeschot.webp",
+      "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-dakconstructie.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-hero-dakbeschot.webp",
+        "caption": "Dakbeschot vervangen hoort technisch bij hellende daken en pannendaken."
+      },
+      {
+        "src": "/assets/img/dakbeschot-vervangen/dakbeschot-vervangen-dakconstructie.webp",
+        "caption": "De dakconstructie wordt breder beoordeeld dan alleen het beschadigde hout."
+      }
+    ]
+  },
+  {
+    "slug": "dakconstructie-repareren",
+    "images": [
+      "/assets/img/dakconstructie-repareren/dakconstructie-repareren-hero-constructie.webp",
+      "/assets/img/dakconstructie-repareren/dakconstructie-repareren-live-houtrot-spant.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakconstructie-repareren/dakconstructie-repareren-hero-constructie.webp",
+        "caption": "Plaatselijk herstel is vaak mogelijk wanneer de rest van de draagconstructie gezond blijft."
+      },
+      {
+        "src": "/assets/img/dakconstructie-repareren/dakconstructie-repareren-live-houtrot-spant.jpg",
+        "caption": "Bij constructieve schade beoordelen we altijd of houtrot beperkt blijft of verder in de dakconstructie zit."
+      }
+    ]
+  },
+  {
+    "slug": "dakconstructie-verstevigen",
+    "images": [
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-hero-constructie.webp",
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-open-kapconstructie.jpg",
+      "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-nieuwe-kapconstructie.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-hero-constructie.webp",
+        "caption": "Verstevigen is vaak interessant wanneer de basisconstructie behouden kan blijven."
+      },
+      {
+        "src": "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-open-kapconstructie.jpg",
+        "caption": "Een versteviging begint met zicht op de complete kapconstructie, draaglijnen en bestaande verbindingen."
+      },
+      {
+        "src": "/assets/img/dakconstructie-verstevigen/dakconstructie-verstevigen-live-nieuwe-kapconstructie.jpg",
+        "caption": "Waar nodig combineren we bestaande draagdelen met nieuw constructiehout."
+      }
+    ]
+  },
+  {
+    "slug": "dakconstructie-vervangen",
+    "images": [
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-hero-constructie.webp",
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-open-kap-buitenzijde.jpg",
+      "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-nieuwe-kapconstructie.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-hero-constructie.webp",
+        "caption": "Bij constructief dakherstel beoordelen we altijd de volledige draagconstructie, niet alleen het zichtbare deel."
+      },
+      {
+        "src": "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-open-kap-buitenzijde.jpg",
+        "caption": "Bij vervanging kijken we naar de bestaande kap, bereikbaarheid en de volledige dakopbouw."
+      },
+      {
+        "src": "/assets/img/dakconstructie-vervangen/dakconstructie-vervangen-live-nieuwe-kapconstructie.jpg",
+        "caption": "Nieuwe constructiedelen worden afgestemd op de bestaande woning en verdere dakopbouw."
+      }
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-aanbrengen",
+    "images": [
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hero-detail.webp",
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hellend-dak.webp",
+      "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hero-detail.webp",
+        "caption": "De aansluiting rondom de doorvoer bepaalt of het dak langdurig waterdicht blijft."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-hellend-dak.webp",
+        "caption": "Op een hellend dak draait het om dakpannen, onderdakfolie en de onderconstructie."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-aanbrengen/dakdoorvoer-aanbrengen-aansluiting-detail.webp",
+        "caption": "De aansluiting rondom de dakdoorvoer bepaalt of regenwater buiten blijft."
+      }
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-repareren",
+    "images": [
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hero-detail.webp",
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hellend-dak.webp",
+      "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hero-detail.webp",
+        "caption": "Bij een lekkende doorvoer zoeken we altijd naar de oorzaak, niet alleen naar het zichtbare gevolg."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-hellend-dak.webp",
+        "caption": "Bij hellende daken controleren we ook de omliggende dakpannen en onderdakfolie."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-repareren/dakdoorvoer-repareren-aansluiting-detail.webp",
+        "caption": "De aansluiting rondom de dakdoorvoer bepaalt of regenwater buiten blijft."
+      }
+    ]
+  },
+  {
+    "slug": "dakdoorvoer-vervangen",
+    "images": [
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hero-detail.webp",
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-aansluiting-detail.webp",
+      "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hellend-dak.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hero-detail.webp",
+        "caption": "Bij vervanging is de nieuwe aansluiting minstens zo belangrijk als de doorvoer zelf."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-aansluiting-detail.webp",
+        "caption": "Een verouderde aansluiting wordt vaak direct mee vernieuwd."
+      },
+      {
+        "src": "/assets/img/dakdoorvoer-vervangen/dakdoorvoer-vervangen-hellend-dak.webp",
+        "caption": "Op een hellend dak controleren we ook dakpannen en onderconstructie."
+      }
+    ]
+  },
+  {
+    "slug": "dakgoot-bladwering-plaatsen",
+    "images": [
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-hero-vervuilde-dakgoot.webp",
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-reinigen-detail.webp",
+      "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-goot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-hero-vervuilde-dakgoot.webp",
+        "caption": "Bladwering werkt pas goed wanneer de dakgoot zelf schoon, stevig en goed afwaterend is."
+      },
+      {
+        "src": "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-reinigen-detail.webp",
+        "caption": "Voor montage moet de dakgoot schoon en vrij van verstoppingen zijn."
+      },
+      {
+        "src": "/assets/img/dakgoot-bladwering-plaatsen/dakgoot-bladwering-plaatsen-goot-detail.webp",
+        "caption": "Ook de hemelwaterafvoer en gootverbindingen worden gecontroleerd."
+      }
+    ]
+  },
+  {
+    "slug": "dakgoot-vervangen",
+    "images": [
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-banner.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-vervuild.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-te-vervangen.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen.webp",
+      "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-banner.webp",
+        "caption": "Niet iedere lekkende dakgoot hoeft vervangen te worden. De staat van materiaal, afschot en verbindingen bepaalt de logische keuze."
+      },
+      {
+        "src": "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-vervuild.webp",
+        "caption": "Vuil en stilstaand water versnellen slijtage aan naden, beugels en afvoeren."
+      },
+      {
+        "src": "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-dakgoot-te-vervangen.webp",
+        "caption": "Bij zichtbare vervorming of meerdere zwakke plekken is vervangen vaak verstandiger."
+      },
+      {
+        "src": "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen.webp",
+        "caption": "Bij zink bepalen vooral naden, materiaalstaat en afschot of vervangen logisch is."
+      },
+      {
+        "src": "/assets/img/dakgoot-vervangen/dakgoot-vervangen-live-zinken-dakgoot-vervangen-detail.webp",
+        "caption": "Een nette aansluiting voorkomt dat water alsnog langs gevel of boeiboord loopt."
+      }
+    ]
+  },
+  {
+    "slug": "dakgrind-aanbrengen",
+    "images": [
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-ballast-plat-dak.webp",
+      "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-dakbedekking-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-hero-plat-dak.webp",
+        "caption": "De juiste hoeveelheid ballast beschermt het dak zonder de constructie onnodig zwaar te belasten."
+      },
+      {
+        "src": "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-ballast-plat-dak.webp",
+        "caption": "Een gelijkmatige verdeling voorkomt zwakke plekken in de ballastlaag."
+      },
+      {
+        "src": "/assets/img/dakgrind-aanbrengen/dakgrind-aanbrengen-dakbedekking-detail.webp",
+        "caption": "Vooraf controleren we of de dakbedekking geschikt is voor ballast."
+      }
+    ]
+  },
+  {
+    "slug": "dakgrind-reinigen",
+    "images": [
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-ballast-plat-dak.webp",
+      "/assets/img/dakgrind-reinigen/dakgrind-reinigen-dakbedekking-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakgrind-reinigen/dakgrind-reinigen-hero-plat-dak.webp",
+        "caption": "Soms is reinigen genoeg. Soms is vernieuwen gewoon verstandiger."
+      },
+      {
+        "src": "/assets/img/dakgrind-reinigen/dakgrind-reinigen-ballast-plat-dak.webp",
+        "caption": "De vervuilingsgraad bepaalt of reinigen zinvol is."
+      },
+      {
+        "src": "/assets/img/dakgrind-reinigen/dakgrind-reinigen-dakbedekking-detail.webp",
+        "caption": "Tijdens onderhoud controleren we direct de dakbedekking en afvoeren."
+      }
+    ]
+  },
+  {
+    "slug": "dakgrind-verwijderen",
+    "images": [
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-hero-plat-dak.webp",
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-dakbedekking-detail.webp",
+      "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-ballast-plat-dak.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-hero-plat-dak.webp",
+        "caption": "Zodra het grind weg is, wordt zichtbaar hoe de dakbedekking er echt aan toe is."
+      },
+      {
+        "src": "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-dakbedekking-detail.webp",
+        "caption": "Na verwijdering kunnen naden, blazen en beschadigingen goed worden beoordeeld."
+      },
+      {
+        "src": "/assets/img/dakgrind-verwijderen/dakgrind-verwijderen-ballast-plat-dak.webp",
+        "caption": "De juiste ballast voorkomt schade door wind en temperatuurverschillen."
+      }
+    ]
+  },
+  {
+    "slug": "dakinspectie",
+    "images": [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-nokvorsten-1.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
+    ],
+    "figures": []
+  },
+  {
+    "slug": "dakkapel-lood-vervangen",
+    "images": [
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-informatiepagina.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-renovatie.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-lood-vervangen.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-onder-trespa.webp",
+      "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-kosten.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-informatiepagina.webp",
+        "caption": "Goed dakkapellood voert water gecontroleerd over de pannen af en voorkomt dat vocht achter de bekleding terechtkomt."
+      },
+      {
+        "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-dakkapel-renovatie.webp",
+        "caption": "Bij dakkapellen komt veel beweging samen rond lood, pannen, bekleding en zijwangen."
+      },
+      {
+        "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-lood-vervangen.webp",
+        "caption": "Het doel is een technische aansluiting die past bij de dakpannen en de dakkapel."
+      },
+      {
+        "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-onder-trespa.webp",
+        "caption": "Bij dakkapellen zit loodwerk vaak deels achter bekleding; daarom moet de aansluiting eerst goed vrijgemaakt worden."
+      },
+      {
+        "src": "/assets/img/dakkapel-lood-vervangen/dakkapel-lood-vervangen-live-kosten.webp",
+        "caption": "De prijs hangt vooral af van lengte, bereikbaarheid en hoeveel bekleding los moet."
+      }
+    ]
+  },
+  {
+    "slug": "dakkapel-plaatsen",
+    "images": [
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-hero.webp",
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-nieuwe-dakkapel.webp",
+      "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-hero.webp",
+        "caption": "Een goede dakkapel begint bij constructie, isolatie en een waterdichte dak-aansluiting."
+      },
+      {
+        "src": "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-nieuwe-dakkapel.webp",
+        "caption": "De uitvoering wordt afgestemd op woning, dakconstructie en gewenste uitstraling."
+      },
+      {
+        "src": "/assets/img/dakkapel-plaatsen/dakkapel-plaatsen-aansluiting-detail.webp",
+        "caption": "De aansluiting op dakbedekking, loodwerk en pannendak bepaalt de levensduur."
+      }
+    ]
+  },
+  {
+    "slug": "dakkapel-renoveren",
+    "images": [
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-banner.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-voor-renovatie.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-gerenoveerd.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-breed.webp",
+      "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-banner.webp",
+        "caption": "Renovatie is vooral interessant wanneer de constructie goed is, maar de buitenzijde, isolatie of aansluitingen verouderd zijn."
+      },
+      {
+        "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-voor-renovatie.webp",
+        "caption": "Vaak is vooral de buitenzijde verouderd, terwijl de basisconstructie nog goed bruikbaar is."
+      },
+      {
+        "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-gerenoveerd.webp",
+        "caption": "Nieuwe bekleding en nette aansluitingen kunnen de dakkapel weer jarenlang vooruit helpen."
+      },
+      {
+        "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-breed.webp",
+        "caption": "Bij renovatie worden de onderdelen aangepakt die technisch aan vervanging toe zijn."
+      },
+      {
+        "src": "/assets/img/dakkapel-renoveren/dakkapel-renoveren-live-dakkapel-renoveren-detail.webp",
+        "caption": "Een nette afwerking voorkomt nieuwe problemen rond bekleding en aansluitingen."
+      }
+    ]
+  },
+  {
+    "slug": "dakkapel-vervangen",
+    "images": [
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-hero.webp",
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-renovatie-detail.webp",
+      "/assets/img/dakkapel-vervangen/dakkapel-vervangen-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakkapel-vervangen/dakkapel-vervangen-hero.webp",
+        "caption": "Bij vervanging kijken we naar de complete dakopbouw, niet alleen naar de zichtbare dakkapel."
+      },
+      {
+        "src": "/assets/img/dakkapel-vervangen/dakkapel-vervangen-renovatie-detail.webp",
+        "caption": "Na demontage wordt vaak pas zichtbaar hoeveel vocht invloed heeft gehad op de constructie."
+      },
+      {
+        "src": "/assets/img/dakkapel-vervangen/dakkapel-vervangen-aansluiting-detail.webp",
+        "caption": "Een nieuwe dakkapel vraagt om goede dakbedekking, loodwerk en waterdichte aansluitingen."
+      }
+    ]
+  },
+  {
+    "slug": "daklood-vervangen",
+    "images": [
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat-detail.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen-detail.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen.webp",
+      "/assets/img/daklood-vervangen/daklood-vervangen-live-banner.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat.webp",
+        "caption": "Bij hellende daken zit de oorzaak vaak bij de aansluiting, niet midden op het dakvlak."
+      },
+      {
+        "src": "/assets/img/daklood-vervangen/daklood-vervangen-live-slechte-staat-detail.webp",
+        "caption": "Haarscheurtjes zijn vaak het eerste duidelijke teken dat loodwerk veroudert."
+      },
+      {
+        "src": "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen-detail.webp",
+        "caption": "Nieuw lood moet passen bij de aansluiting, overlap, dikte en afvoerroute van regenwater."
+      },
+      {
+        "src": "/assets/img/daklood-vervangen/daklood-vervangen-live-vervangen.webp",
+        "caption": "Correcte verwerking voorkomt dat nieuw loodwerk opnieuw te snel problemen geeft."
+      },
+      {
+        "src": "/assets/img/daklood-vervangen/daklood-vervangen-live-banner.webp",
+        "caption": "Goed loodwerk vraagt om de juiste dikte, overlap en bevestiging."
+      }
+    ]
+  },
+  {
+    "slug": "dakoverstek-aanbrengen",
+    "images": [
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-dakrand-detail.webp",
+      "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-hero-dakoverstek.webp",
+        "caption": "Een goed dakoverstek begint met een sterke aansluiting op de bestaande dakconstructie."
+      },
+      {
+        "src": "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-dakrand-detail.webp",
+        "caption": "De aansluiting op dakrand, boeidelen en windveren bepaalt de levensduur."
+      },
+      {
+        "src": "/assets/img/dakoverstek-aanbrengen/dakoverstek-aanbrengen-boeiboord-aansluiting.webp",
+        "caption": "Een nieuw dakoverstek wordt afgestemd op constructie, ventilatie en waterafvoer."
+      }
+    ]
+  },
+  {
+    "slug": "dakoverstek-renoveren",
+    "images": [
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-dakrand-detail.webp",
+      "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-hero-dakoverstek.webp",
+        "caption": "Renovatie verlengt de levensduur van het overstek en de dakrand."
+      },
+      {
+        "src": "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-dakrand-detail.webp",
+        "caption": "We beoordelen welke onderdelen behouden kunnen blijven."
+      },
+      {
+        "src": "/assets/img/dakoverstek-renoveren/dakoverstek-renoveren-boeiboord-aansluiting.webp",
+        "caption": "Afwerking, boeidelen, windveren en ventilatie worden samen bekeken."
+      }
+    ]
+  },
+  {
+    "slug": "dakoverstek-repareren",
+    "images": [
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-hero-dakoverstek.webp",
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-dakrand-detail.webp",
+      "/assets/img/dakoverstek-repareren/dakoverstek-repareren-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakoverstek-repareren/dakoverstek-repareren-hero-dakoverstek.webp",
+        "caption": "Bij reparatie pakken we ook de oorzaak van de schade mee."
+      },
+      {
+        "src": "/assets/img/dakoverstek-repareren/dakoverstek-repareren-dakrand-detail.webp",
+        "caption": "Ook kleine schade kan achter de afwerking groter zijn dan zichtbaar lijkt."
+      },
+      {
+        "src": "/assets/img/dakoverstek-repareren/dakoverstek-repareren-boeiboord-aansluiting.webp",
+        "caption": "We controleren de aansluiting op boeidelen, windveren en dakbeschot."
+      }
+    ]
+  },
+  {
+    "slug": "dakoverstek-vervangen",
+    "images": [
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-live-overstek-woning.jpg",
+      "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+        "caption": "Bij vervanging kijken we verder dan alleen de zichtbare afwerking."
+      },
+      {
+        "src": "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-live-overstek-woning.jpg",
+        "caption": "De constructie achter het overstek bepaalt of gedeeltelijke vervanging voldoende is."
+      },
+      {
+        "src": "/assets/img/dakoverstek-vervangen/dakoverstek-vervangen-boeiboord-aansluiting.webp",
+        "caption": "Boeidelen, windveren en aansluitingen worden samen beoordeeld."
+      }
+    ]
+  },
+  {
+    "slug": "dakraam-plaatsen",
+    "images": [
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-hero.webp",
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-dakraam-detail.webp",
+      "/assets/img/dakraam-plaatsen/dakraam-plaatsen-gootstuk-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakraam-plaatsen/dakraam-plaatsen-hero.webp",
+        "caption": "Een duurzaam dakraam begint bij constructie, isolatie en een waterdichte aansluiting."
+      },
+      {
+        "src": "/assets/img/dakraam-plaatsen/dakraam-plaatsen-dakraam-detail.webp",
+        "caption": "De positie van het dakraam bepaalt lichtinval, zichtlijn en praktische bruikbaarheid."
+      },
+      {
+        "src": "/assets/img/dakraam-plaatsen/dakraam-plaatsen-gootstuk-detail.webp",
+        "caption": "Originele gootstukken en goede aansluiting voorkomen lekkage, tocht en condensproblemen."
+      }
+    ]
+  },
+  {
+    "slug": "dakraam-vervangen",
+    "images": [
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-hero.webp",
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-detail.webp",
+      "/assets/img/dakraam-vervangen/dakraam-vervangen-gootstuk-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakraam-vervangen/dakraam-vervangen-hero.webp",
+        "caption": "Bij vervanging controleren we ook de sparing, gootstukken en aansluiting rondom het dakraam."
+      },
+      {
+        "src": "/assets/img/dakraam-vervangen/dakraam-vervangen-detail.webp",
+        "caption": "Een nieuw dakraam kan vaak in de bestaande opening worden geplaatst."
+      },
+      {
+        "src": "/assets/img/dakraam-vervangen/dakraam-vervangen-gootstuk-detail.webp",
+        "caption": "Nieuwe gootstukken en goede aansluiting beperken de kans op toekomstige lekkage."
+      }
+    ]
+  },
+  {
+    "slug": "dakraamlood-vervangen",
+    "images": [
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-dakraamlood-vervangen.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-gootstuk.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-met-lekkage.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-te-vervangen.webp",
+      "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-banner.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-dakraamlood-vervangen.webp",
+        "caption": "Een lekkend dakraam wordt niet altijd veroorzaakt door het lood. De volledige aansluiting bepaalt wat logisch is."
+      },
+      {
+        "src": "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-gootstuk.webp",
+        "caption": "Gootstuk, loodwerk en dakpannen moeten samen goed afwateren."
+      },
+      {
+        "src": "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-met-lekkage.webp",
+        "caption": "Water kan zich achter aftimmering en isolatie verspreiden voordat schade zichtbaar wordt."
+      },
+      {
+        "src": "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-te-vervangen.webp",
+        "caption": "Versleten dakraamlood laat vaak al signalen zien voordat lekkage duidelijk wordt."
+      },
+      {
+        "src": "/assets/img/dakraamlood-vervangen/dakraamlood-vervangen-live-banner.webp",
+        "caption": "Bij een dakraam draait het om de complete aansluiting, niet om Ã©Ã©n los onderdeel."
+      }
+    ]
+  },
+  {
+    "slug": "dakrand-bekleden",
+    "images": [
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-hero-dakrand.webp",
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-dakrand-detail.webp",
+      "/assets/img/dakrand-bekleden/dakrand-bekleden-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakrand-bekleden/dakrand-bekleden-hero-dakrand.webp",
+        "caption": "Bekleden is alleen verstandig wanneer de bestaande basis gezond en droog is."
+      },
+      {
+        "src": "/assets/img/dakrand-bekleden/dakrand-bekleden-dakrand-detail.webp",
+        "caption": "De bestaande dakrand moet geschikt zijn voor bekleding."
+      },
+      {
+        "src": "/assets/img/dakrand-bekleden/dakrand-bekleden-boeiboord-aansluiting.webp",
+        "caption": "Aansluitingen worden netjes meegenomen in de afwerking."
+      }
+    ]
+  },
+  {
+    "slug": "dakrand-renoveren",
+    "images": [
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-hero-dakrand.webp",
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-dakrand-detail.webp",
+      "/assets/img/dakrand-renoveren/dakrand-renoveren-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakrand-renoveren/dakrand-renoveren-hero-dakrand.webp",
+        "caption": "Bij renovatie beoordelen we de complete dakrand als een geheel."
+      },
+      {
+        "src": "/assets/img/dakrand-renoveren/dakrand-renoveren-dakrand-detail.webp",
+        "caption": "Een renovatie begint met een inspectie van de volledige dakrand."
+      },
+      {
+        "src": "/assets/img/dakrand-renoveren/dakrand-renoveren-boeiboord-aansluiting.webp",
+        "caption": "Zichtbare afwerking en achterconstructie worden samen beoordeeld."
+      }
+    ]
+  },
+  {
+    "slug": "dakrand-repareren",
+    "images": [
+      "/assets/img/dakrand-repareren/dakrand-repareren-hero-dakrand.webp",
+      "/assets/img/dakrand-repareren/dakrand-repareren-dakrand-detail.webp",
+      "/assets/img/dakrand-repareren/dakrand-repareren-boeiboord-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakrand-repareren/dakrand-repareren-hero-dakrand.webp",
+        "caption": "Plaatselijk herstel werkt alleen goed wanneer de oorzaak ook wordt aangepakt."
+      },
+      {
+        "src": "/assets/img/dakrand-repareren/dakrand-repareren-dakrand-detail.webp",
+        "caption": "We controleren of de schade echt plaatselijk is."
+      },
+      {
+        "src": "/assets/img/dakrand-repareren/dakrand-repareren-boeiboord-aansluiting.webp",
+        "caption": "Boeidelen, windveren en aansluitingen worden samen beoordeeld."
+      }
+    ]
+  },
+  {
+    "slug": "dakrand-vervangen",
+    "images": [
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-dakrand.jpg",
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-voorbereiding.jpg",
+      "/assets/img/dakrand-vervangen/dakrand-vervangen-live-aansluiting-bovenaanzicht.jpg"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-dakrand.jpg",
+        "caption": "Een dakrandvervanging is pas goed wanneer de constructie erachter ook klopt."
+      },
+      {
+        "src": "/assets/img/dakrand-vervangen/dakrand-vervangen-live-dakkapel-voorbereiding.jpg",
+        "caption": "De dakrand wordt pas duurzaam wanneer ondergrond, loodwerk en aansluiting technisch kloppen."
+      },
+      {
+        "src": "/assets/img/dakrand-vervangen/dakrand-vervangen-live-aansluiting-bovenaanzicht.jpg",
+        "caption": "Bij dakrandvervanging beoordelen we de complete aansluiting rondom dakkapel, dakpannen en dakbedekking."
+      }
+    ]
+  },
+  {
+    "slug": "dakrenovatie",
+    "images": [
+      "/assets/img/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
+      "/assets/img/dakrenovatie/dakrenovatie-visual-02-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/dakrenovatie/dakrenovatie-visual-03-dakrenovatie-pannendak-nodig-2-diensten-dakrenovatie.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakrenovatie/dakrenovatie-visual-01-dakrenovatie-pannendak-diensten-dakrenovatie.webp",
+        "caption": "Bij dakrenovatie kijken we naar het complete dakpakket, niet alleen naar de zichtbare dakpannen."
+      },
+      {
+        "src": "/assets/img/dakrenovatie/dakrenovatie-visual-02-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+        "caption": "Het zichtbare pannendek vertelt niet altijd het hele verhaal; panlatten, folie en dakbeschot zijn minstens zo belangrijk."
+      },
+      {
+        "src": "/assets/img/dakrenovatie/dakrenovatie-visual-03-dakrenovatie-pannendak-nodig-2-diensten-dakrenovatie.webp",
+        "caption": "Een dakrenovatie is het moment om verborgen schade aan de dakopbouw zichtbaar te maken."
+      }
+    ]
+  },
+  {
+    "slug": "dakventilatie-aanbrengen",
+    "images": [
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-hero-dakopbouw.webp",
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-dakconstructie.webp",
+      "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-luchtspouw.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-hero-dakopbouw.webp",
+        "caption": "Goede dakventilatie draait om balans tussen luchttoevoer, luchtafvoer en waterdichtheid."
+      },
+      {
+        "src": "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-dakconstructie.webp",
+        "caption": "De complete dakconstructie wordt gecontroleerd voordat ventilatievoorzieningen worden gekozen."
+      },
+      {
+        "src": "/assets/img/dakventilatie-aanbrengen/dakventilatie-aanbrengen-luchtspouw.webp",
+        "caption": "Luchttoevoer bij de dakvoet en afvoer bij de nok moeten met elkaar samenwerken."
+      }
+    ]
+  },
+  {
+    "slug": "dakventilatie-vervangen",
+    "images": [
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-hero-dakopbouw.webp",
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-dakconstructie.webp",
+      "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-luchtspouw.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-hero-dakopbouw.webp",
+        "caption": "Nieuwe dakventilatie moet passen bij de huidige isolatie, luchtspouw en dakopbouw."
+      },
+      {
+        "src": "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-dakconstructie.webp",
+        "caption": "De dakconstructie wordt gecontroleerd voordat nieuwe ventilatievoorzieningen worden geplaatst."
+      },
+      {
+        "src": "/assets/img/dakventilatie-vervangen/dakventilatie-vervangen-luchtspouw.webp",
+        "caption": "Luchttoevoer en luchtafvoer moeten aansluiten op de huidige dakopbouw."
+      }
+    ]
+  },
+  {
+    "slug": "dakvoet-repareren",
+    "images": [
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-hero-hellend-dak.webp",
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-dakpannen-detail.webp",
+      "/assets/img/dakvoet-repareren/dakvoet-repareren-dakconstructie-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakvoet-repareren/dakvoet-repareren-hero-hellend-dak.webp",
+        "caption": "Bij schade aan de dakvoet controleren we ook de waterafvoer, vogelwering en eerste rij dakpannen."
+      },
+      {
+        "src": "/assets/img/dakvoet-repareren/dakvoet-repareren-dakpannen-detail.webp",
+        "caption": "De eerste rij dakpannen wordt meegenomen in de inspectie en reparatie."
+      },
+      {
+        "src": "/assets/img/dakvoet-repareren/dakvoet-repareren-dakconstructie-detail.webp",
+        "caption": "Ook panlatten, tengels, dakbeschot en onderdakfolie worden gecontroleerd."
+      }
+    ]
+  },
+  {
+    "slug": "dakvoet-vervangen",
+    "images": [
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-hero-hellend-dak.webp",
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakpannen-detail.webp",
+      "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakconstructie-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/dakvoet-vervangen/dakvoet-vervangen-hero-hellend-dak.webp",
+        "caption": "Bij vervanging controleren we dakvoet, waterafvoer en onderliggende constructie als een geheel."
+      },
+      {
+        "src": "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakpannen-detail.webp",
+        "caption": "De onderste rij dakpannen wordt verwijderd en later netjes teruggeplaatst."
+      },
+      {
+        "src": "/assets/img/dakvoet-vervangen/dakvoet-vervangen-dakconstructie-detail.webp",
+        "caption": "Dakbeschot, folie, panlatten en tengels worden meegenomen in de controle."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakgoot",
+    "images": [
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-02-dakgoot-reinigen.webp",
+      "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-03-dakgoot-plaatsen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-01-dakgoot-vervangen.webp",
+        "caption": "Een goede beoordeling voorkomt dat er werk wordt gedaan dat de echte oorzaak niet oplost."
+      },
+      {
+        "src": "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-02-dakgoot-reinigen.webp",
+        "caption": "We kijken naar de aansluiting, niet alleen naar de zichtbare schade."
+      },
+      {
+        "src": "/assets/img/diensten-dakgoot/diensten-dakgoot-visual-03-dakgoot-plaatsen.webp",
+        "caption": "Het doel is een logische oplossing die past bij de staat van het dak."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakkapel",
+    "images": [
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-01-dakkapel-renoveren-diensten-dakkapel-renovatie.webp",
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+      "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-02-dakkapel-diensten-dakkapel-renovatie-1.webp",
+        "caption": "Dakkapel op een schuin dak: let vooral op lood, zijwangen en aansluiting met de dakpannen."
+      },
+      {
+        "src": "/assets/img/diensten-dakkapel/diensten-dakkapel-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "caption": "Plat dak van een dakkapel: dakbedekking en randen bepalen vaak of herstel of renovatie nodig is."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-dakraam",
+    "images": [
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-01-dakraam-vervangen.webp",
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-02-dakraam-plaatsen.webp",
+      "/assets/img/diensten-dakraam/diensten-dakraam-visual-03-dakraamlood-vervangen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-dakraam/diensten-dakraam-visual-01-dakraam-vervangen.webp",
+        "caption": "Een goede beoordeling voorkomt dat er werk wordt gedaan dat de echte oorzaak niet oplost."
+      },
+      {
+        "src": "/assets/img/diensten-dakraam/diensten-dakraam-visual-02-dakraam-plaatsen.webp",
+        "caption": "We kijken naar de aansluiting, niet alleen naar de zichtbare schade."
+      },
+      {
+        "src": "/assets/img/diensten-dakraam/diensten-dakraam-visual-03-dakraamlood-vervangen.webp",
+        "caption": "Het doel is een logische oplossing die past bij de staat van het dak."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-loodafwerkingen",
+    "images": [
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-02-dakraamlood-vervangen.webp",
+      "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-03-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-02-dakraamlood-vervangen.webp",
+        "caption": "Dakraamlood: controleer of de aansluiting rondom het dakraam nog waterdicht aansluit."
+      },
+      {
+        "src": "/assets/img/diensten-loodafwerkingen/diensten-loodafwerkingen-visual-03-kozijnlood-is-vervangen-diensten-kozijnlood-vervangen.webp",
+        "caption": "Kozijnlood: een correcte aansluiting voorkomt dat regenwater achter het kozijn trekt."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-plat-dak",
+    "images": [
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-01-daklood-in-slechte-staat-diensten-daklood-vervangen.webp",
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-02-reparatie-plat-dak-diensten-reparatie-plat-dak-2.webp",
+      "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-02-reparatie-plat-dak-diensten-reparatie-plat-dak-2.webp",
+        "caption": "Plat dak reparatie: doorvoeren, naden en randen zijn vaak de eerste controlepunten."
+      },
+      {
+        "src": "/assets/img/diensten-plat-dak/diensten-plat-dak-visual-03-plat-dak-overlagen-3-diensten-plat-dak-overlagen.webp",
+        "caption": "Plat dak overlagen: de bestaande dakbedekking moet technisch geschikt zijn voor een duurzame laag."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-schoorsteen",
+    "images": [
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-01-repareren-metselwerk-diensten-repareren-metselwerk.webp",
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-02-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-03-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-02-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "caption": "Schoorsteenherstel: bij zware slijtage kan opnieuw opmetselen beter zijn dan lokaal repareren."
+      },
+      {
+        "src": "/assets/img/diensten-schoorsteen/diensten-schoorsteen-visual-03-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "caption": "Gepleisterde schoorsteen: een nette afwerking werkt alleen goed als de ondergrond technisch klopt."
+      }
+    ]
+  },
+  {
+    "slug": "diensten-schuin-dak",
+    "images": [
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-01-dak-isoleren-pir-diensten-dak-isoleren.webp",
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-02-pannendak-reinigen-diensten-pannendak-reinigen.webp",
+      "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-03-dakgoot-plaatsen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-02-pannendak-reinigen-diensten-pannendak-reinigen.webp",
+        "caption": "Schuin dak: nok, dakpannen en vervuiling geven vaak de eerste signalen van onderhoud."
+      },
+      {
+        "src": "/assets/img/diensten-schuin-dak/diensten-schuin-dak-visual-03-dakgoot-plaatsen.webp",
+        "caption": "Dakgoot langs een schuin dak: goede waterafvoer voorkomt vochtproblemen aan dakrand en gevel."
+      }
+    ]
+  },
+  {
+    "slug": "gevelbekleding-aanbrengen",
+    "images": [
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-hero-gevel.webp",
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-detail.webp",
+      "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-hero-gevel.webp",
+        "caption": "Een goede gevelbekleding begint met een gezonde, goed geventileerde basis."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-detail.webp",
+        "caption": "De gevelconstructie bepaalt de juiste opbouw."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-aanbrengen/gevelbekleding-aanbrengen-aansluiting.webp",
+        "caption": "Aansluitingen op dakrand en gevel moeten netjes worden afgewerkt."
+      }
+    ]
+  },
+  {
+    "slug": "gevelbekleding-repareren",
+    "images": [
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-hero-gevel.webp",
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-detail.webp",
+      "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-hero-gevel.webp",
+        "caption": "Een goede reparatie lost ook de oorzaak van de schade op."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-detail.webp",
+        "caption": "We beoordelen meer dan alleen de zichtbare beschadiging."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-repareren/gevelbekleding-repareren-aansluiting.webp",
+        "caption": "Aansluitingen rondom dakranden en kozijnen krijgen extra aandacht."
+      }
+    ]
+  },
+  {
+    "slug": "gevelbekleding-vervangen",
+    "images": [
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-hero-gevel.webp",
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-detail.webp",
+      "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-aansluiting.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-hero-gevel.webp",
+        "caption": "Bij vervangen kijken we achter de panelen, niet alleen naar de buitenkant."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-detail.webp",
+        "caption": "De achterconstructie bepaalt hoe duurzaam de nieuwe gevel wordt."
+      },
+      {
+        "src": "/assets/img/gevelbekleding-vervangen/gevelbekleding-vervangen-aansluiting.webp",
+        "caption": "Hoeken, dakranden en aansluitingen krijgen extra aandacht."
+      }
+    ]
+  },
+  {
+    "slug": "gratis-dakinspectie",
+    "images": [
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-plat-dak-overlagen-2-diensten-plat-dak-vervangen.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-nokvorsten-1.webp",
+      "/assets/img/gratis-dakinspectie/gratis-dakinspectie-01-dakrenovatie-pannendak-nodig-diensten-dakrenovatie.webp"
+    ],
+    "figures": []
+  },
+  {
+    "slug": "groendak-aanbrengen",
+    "images": [
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-hero-plat-dak.webp",
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakopbouw.webp",
+      "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakbedekking-controle.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/groendak-aanbrengen/groendak-aanbrengen-hero-plat-dak.webp",
+        "caption": "Een groendak begint niet bij sedum, maar bij een dak dat technisch klopt."
+      },
+      {
+        "src": "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakopbouw.webp",
+        "caption": "Voor aanleg controleren wij draagkracht, ballast en dakopbouw."
+      },
+      {
+        "src": "/assets/img/groendak-aanbrengen/groendak-aanbrengen-dakbedekking-controle.webp",
+        "caption": "Een groendak moet op een betrouwbare waterdichte laag liggen."
+      }
+    ]
+  },
+  {
+    "slug": "kilgoot-repareren",
+    "images": [
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-hero-hellend-dak.webp",
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-pannendak-detail.webp",
+      "/assets/img/kilgoot-repareren/kilgoot-repareren-waterafvoer-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/kilgoot-repareren/kilgoot-repareren-hero-hellend-dak.webp",
+        "caption": "Bij een kilgootlekkage zoeken we altijd naar oorzaak, waterafvoer en omliggende dakdetails."
+      },
+      {
+        "src": "/assets/img/kilgoot-repareren/kilgoot-repareren-pannendak-detail.webp",
+        "caption": "De omliggende dakpannen en onderdakconstructie worden meegenomen in de inspectie."
+      },
+      {
+        "src": "/assets/img/kilgoot-repareren/kilgoot-repareren-waterafvoer-detail.webp",
+        "caption": "Een vrije waterafvoer verkleint de kans op nieuwe lekkages rondom de kil."
+      }
+    ]
+  },
+  {
+    "slug": "kilgoot-vervangen",
+    "images": [
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-hero-hellend-dak.webp",
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-pannendak-detail.webp",
+      "/assets/img/kilgoot-vervangen/kilgoot-vervangen-waterafvoer-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/kilgoot-vervangen/kilgoot-vervangen-hero-hellend-dak.webp",
+        "caption": "Een kilgoot voert veel water af; de aansluiting moet daarom technisch kloppen."
+      },
+      {
+        "src": "/assets/img/kilgoot-vervangen/kilgoot-vervangen-pannendak-detail.webp",
+        "caption": "De omliggende dakpannen en onderdakconstructie bepalen de betrouwbaarheid van de kil."
+      },
+      {
+        "src": "/assets/img/kilgoot-vervangen/kilgoot-vervangen-waterafvoer-detail.webp",
+        "caption": "Een vrije waterafvoer voorkomt dat regenwater rondom de kil blijft staan."
+      }
+    ]
+  },
+  {
+    "slug": "kozijnlood-vervangen",
+    "images": [
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen-detail.webp",
+      "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp",
+        "caption": "Vocht boven een kozijn betekent niet automatisch dat al het lood vervangen moet worden. De oorzaak bepaalt de juiste stap."
+      },
+      {
+        "src": "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen.webp",
+        "caption": "Nieuw kozijnlood moet correct in het metselwerk worden opgenomen en opnieuw worden gevoegd."
+      },
+      {
+        "src": "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-is-vervangen-detail.webp",
+        "caption": "De aansluiting bepaalt of vocht vanuit de gevel weer veilig naar buiten wordt geleid."
+      },
+      {
+        "src": "/assets/img/kozijnlood-vervangen/kozijnlood-vervangen-live-vervangen.webp",
+        "caption": "Bij kozijnlood draait het om gevelvocht, metselwerk, kozijn en waterkering samen."
+      }
+    ]
+  },
+  {
+    "slug": "lichtkoepel-plaatsen",
+    "images": [
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-hero-plat-dak.webp",
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-opstand-detail.webp",
+      "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-hero-plat-dak.webp",
+        "caption": "Bij lichtkoepels bepaalt vooral de opstand en dakbedekking of het detail langdurig waterdicht blijft."
+      },
+      {
+        "src": "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-opstand-detail.webp",
+        "caption": "De opstand vormt de basis tussen dakconstructie, dakbedekking en lichtkoepel."
+      },
+      {
+        "src": "/assets/img/lichtkoepel-plaatsen/lichtkoepel-plaatsen-aansluiting-detail.webp",
+        "caption": "De dakbedekking moet zorgvuldig tegen de opstand worden opgezet en afgewerkt."
+      }
+    ]
+  },
+  {
+    "slug": "lichtkoepel-vervangen",
+    "images": [
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-hero-plat-dak.webp",
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-opstand-detail.webp",
+      "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-aansluiting-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-hero-plat-dak.webp",
+        "caption": "Bij vervanging bepaalt de staat van de opstand vaak of alleen de koepel voldoende is."
+      },
+      {
+        "src": "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-opstand-detail.webp",
+        "caption": "De opstand is de basis van de waterdichte aansluiting."
+      },
+      {
+        "src": "/assets/img/lichtkoepel-vervangen/lichtkoepel-vervangen-aansluiting-detail.webp",
+        "caption": "Ook de dakbedekking rondom de lichtkoepel verdient aandacht."
+      }
+    ]
+  },
+  {
+    "slug": "lood-rond-dakdoorvoer-vervangen",
+    "images": [
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-hero-detail.webp",
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-aansluiting-detail.webp",
+      "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-loodwerk-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-hero-detail.webp",
+        "caption": "Rond een dakdoorvoer moet loodwerk correct aansluiten op zowel de doorvoer als de dakbedekking."
+      },
+      {
+        "src": "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-aansluiting-detail.webp",
+        "caption": "De aansluiting rondom de dakdoorvoer bepaalt of water goed wordt afgevoerd."
+      },
+      {
+        "src": "/assets/img/lood-rond-dakdoorvoer-vervangen/lood-rond-dakdoorvoer-vervangen-loodwerk-detail.webp",
+        "caption": "Nieuw loodwerk moet goed gevormd worden naar het dakdetail."
+      }
+    ]
+  },
+  {
+    "slug": "metselwerk-repareren",
+    "images": [
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-01-gebroken-metselwerk-diensten-repareren-metselwerk.webp",
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-02-gebroken-metselwerk-2-diensten-repareren-metselwerk.webp",
+      "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-03-repareren-metselwerk-diensten-repareren-metselwerk-1.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-01-gebroken-metselwerk-diensten-repareren-metselwerk.webp",
+        "caption": "Bij metselwerkherstel gaat het niet alleen om de steen, maar ook om vocht, voegwerk en omliggende constructie."
+      },
+      {
+        "src": "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-02-gebroken-metselwerk-2-diensten-repareren-metselwerk.webp",
+        "caption": "Bij plaatselijk herstel wordt de beschadigde steen zorgvuldig verwijderd zonder omliggend metselwerk onnodig te belasten."
+      },
+      {
+        "src": "/assets/img/metselwerk-repareren/metselwerk-repareren-visual-03-repareren-metselwerk-diensten-repareren-metselwerk-1.webp",
+        "caption": "Bij schoorstenen beoordelen we steen, voeg, loodwerk en waterafvoer als &eacute;&eacute;n geheel."
+      }
+    ]
+  },
+  {
+    "slug": "nokrenovatie",
+    "images": [
+      "/assets/img/nokrenovatie/nokrenovatie-visual-01-nokvorsten-renoveren-diensten-nokvorstrenovatie-1.webp",
+      "/assets/img/nokrenovatie/nokrenovatie-visual-02-nokvorsten-vervangen-diensten-nokvorstrenovatie-1.webp",
+      "/assets/img/nokrenovatie/nokrenovatie-visual-03-versleten-nokvorsten-herkennen-diensten-nokvorstrenovatie-1.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/nokrenovatie/nokrenovatie-visual-01-nokvorsten-renoveren-diensten-nokvorstrenovatie-1.webp",
+        "caption": "De nok is het hoogste dakdetail. Kleine gebreken kunnen daardoor verderop in het dakvlak zichtbaar worden."
+      },
+      {
+        "src": "/assets/img/nokrenovatie/nokrenovatie-visual-02-nokvorsten-vervangen-diensten-nokvorstrenovatie-1.webp",
+        "caption": "Bij nokrenovatie beoordelen we niet alleen de vorst, maar ook bevestiging, ventilatie en onderliggende constructie."
+      },
+      {
+        "src": "/assets/img/nokrenovatie/nokrenovatie-visual-03-versleten-nokvorsten-herkennen-diensten-nokvorstrenovatie-1.webp",
+        "caption": "Een versleten nokconstructie wordt vaak pas goed zichtbaar wanneer de bestaande vorsten worden verwijderd."
+      }
+    ]
+  },
+  {
+    "slug": "noodreparatie",
+    "images": [
+      "/assets/img/noodreparatie/noodreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "/assets/img/noodreparatie/noodreparatie-01-tijdelijke-oplossing-die-het-probleem-verergerde.webp",
+      "/assets/img/noodreparatie/noodreparatie-01-schoorsteen-renoveren-in-velddriel.webp"
+    ],
+    "figures": []
+  },
+  {
+    "slug": "plat-dak-overlagen",
+    "images": [
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-01-plat-dak-overlagen-diensten-plat-dak-overlagen.webp",
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+      "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-03-plat-dak-overlagen-1-diensten-plat-dak-overlagen-1.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-01-plat-dak-overlagen-diensten-plat-dak-overlagen.webp",
+        "caption": "Overlagen is alleen verstandig wanneer de bestaande dakopbouw droog en stevig genoeg is."
+      },
+      {
+        "src": "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-02-plat-dak-overlagen-diensten-plat-dak-vervangen.webp",
+        "caption": "Een overlaag werkt alleen goed op een stabiele en droge ondergrond."
+      },
+      {
+        "src": "/assets/img/plat-dak-overlagen/plat-dak-overlagen-visual-03-plat-dak-overlagen-1-diensten-plat-dak-overlagen-1.webp",
+        "caption": "De kwaliteit van details en aansluitingen bepaalt voor een groot deel de levensduur."
+      }
+    ]
+  },
+  {
+    "slug": "plat-dak-reparatie",
+    "images": [
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-reparatie.webp",
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-lekkage.webp",
+      "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-overlagen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-reparatie.webp",
+        "caption": "Een gerichte reparatie werkt alleen wanneer de oorzaak klopt en de rest van het dak nog voldoende kwaliteit heeft."
+      },
+      {
+        "src": "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-lekkage.webp",
+        "caption": "Een vochtplek binnen zit niet altijd recht onder het lek op het dak."
+      },
+      {
+        "src": "/assets/img/plat-dak-reparatie/plat-dak-reparatie-live-overlagen.webp",
+        "caption": "Bij meerdere zwakke plekken kan overlagen slimmer zijn dan steeds opnieuw repareren."
+      }
+    ]
+  },
+  {
+    "slug": "plat-dak-vervangen",
+    "images": [
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-overlagen.webp",
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-detail.webp",
+      "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-plat-dak.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-overlagen.webp",
+        "caption": "Een nieuw dak is pas duurzaam wanneer de ondergrond, randen, afvoeren en aansluitingen ook kloppen."
+      },
+      {
+        "src": "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-detail.webp",
+        "caption": "Bij vervanging worden randen, afvoeren en aansluitingen opnieuw beoordeeld."
+      },
+      {
+        "src": "/assets/img/plat-dak-vervangen/plat-dak-vervangen-live-plat-dak.webp",
+        "caption": "De technische staat van het dak is belangrijker dan alleen de leeftijd."
+      }
+    ]
+  },
+  {
+    "slug": "pleisteren",
+    "images": [
+      "/assets/img/pleisteren/pleisteren-visual-01-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+      "/assets/img/pleisteren/pleisteren-visual-02-te-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+      "/assets/img/pleisteren/pleisteren-visual-03-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/pleisteren/pleisteren-visual-01-gepleisterde-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "caption": "Nieuw pleisterwerk werkt pas goed wanneer de ondergrond technisch in orde is."
+      },
+      {
+        "src": "/assets/img/pleisteren/pleisteren-visual-02-te-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "caption": "Voorbereiding en ondergrond bepalen de levensduur van het pleisterwerk."
+      },
+      {
+        "src": "/assets/img/pleisteren/pleisteren-visual-03-pleisteren-schoorsteen-diensten-schoorsteen-pleisteren.webp",
+        "caption": "Een goede afwerking beschermt beter tegen regen, vorst en vochtdoorslag."
+      }
+    ]
+  },
+  {
+    "slug": "rapportage-dakinspectie",
+    "images": [
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-rapportage-dakinspectie-daklekkages-opgelost.webp",
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-tijd-tussen-oorzaak-en-gevolg-bij-daklekkage.webp",
+      "/assets/img/rapportage-dakinspectie/rapportage-dakinspectie-01-twijfel-en-onduidelijkheden-aanleiding-voor-dakinspect.webp"
+    ],
+    "figures": []
+  },
+  {
+    "slug": "schoorsteen-afdekken",
+    "images": [
+      "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-hero-schoorsteen.webp",
+      "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-schoorsteenkop-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-hero-schoorsteen.webp",
+        "caption": "Een afdekking is vooral geschikt voor een schoorsteen die niet meer actief wordt gebruikt."
+      },
+      {
+        "src": "/assets/img/schoorsteen-afdekken/schoorsteen-afdekken-schoorsteenkop-detail.webp",
+        "caption": "De bovenzijde van de schoorsteen moet geschikt zijn voor een duurzame afdekking."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteen-opnieuw-opmetselen",
+    "images": [
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-02-schoorsteen-opnieuw-opmetselen2-diensten-schoorsteen-opnieuw-opmetsele.webp",
+      "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-03-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-01-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "caption": "Een goede beoordeling voorkomt dat een schoorsteen onnodig wordt afgebroken."
+      },
+      {
+        "src": "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-02-schoorsteen-opnieuw-opmetselen2-diensten-schoorsteen-opnieuw-opmetsele.webp",
+        "caption": "De technische staat bepaalt of herbouw nodig is."
+      },
+      {
+        "src": "/assets/img/schoorsteen-opnieuw-opmetselen/schoorsteen-opnieuw-opmetselen-visual-03-schoorsteen-afbreken-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "caption": "Bij instabiliteit kan gedeeltelijke of volledige herbouw de veiligste keuze zijn."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteen-verwijderen",
+    "images": [
+      "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+      "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-02-schoorsteen-renoveren-diensten-schoorsteenrenovatie.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-01-lekkage-schoorsteen-diensten-schoorsteen-verwijderen.webp",
+        "caption": "Verwijderen is pas logisch wanneer functie, constructie en dakherstel vooraf duidelijk zijn."
+      },
+      {
+        "src": "/assets/img/schoorsteen-verwijderen/schoorsteen-verwijderen-visual-02-schoorsteen-renoveren-diensten-schoorsteenrenovatie.webp",
+        "caption": "We vergelijken altijd eerst behouden, renoveren en verwijderen."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenkap-plaatsen",
+    "images": [
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-hero-schoorsteen.webp",
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-schoorsteenkop-detail.webp",
+      "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-afwerking-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-hero-schoorsteen.webp",
+        "caption": "Een schoorsteenkap werkt het best wanneer de schoorsteen zelf ook technisch in orde is."
+      },
+      {
+        "src": "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-schoorsteenkop-detail.webp",
+        "caption": "De schoorsteenkop moet stevig en geschikt zijn voor montage."
+      },
+      {
+        "src": "/assets/img/schoorsteenkap-plaatsen/schoorsteenkap-plaatsen-afwerking-detail.webp",
+        "caption": "Ook voegwerk, loodwerk en dakbedekking worden meegenomen in de controle."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenkap-vervangen",
+    "images": [
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-hero-schoorsteen.webp",
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-schoorsteenkop-detail.webp",
+      "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-afwerking-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-hero-schoorsteen.webp",
+        "caption": "Bij vervanging controleren we ook bevestiging, schoorsteenkop, voegwerk en loodwerk."
+      },
+      {
+        "src": "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-schoorsteenkop-detail.webp",
+        "caption": "Voor montage controleren we of de schoorsteenkop voldoende stevig is."
+      },
+      {
+        "src": "/assets/img/schoorsteenkap-vervangen/schoorsteenkap-vervangen-afwerking-detail.webp",
+        "caption": "Ook loodwerk, voegwerk en dakbedekking worden meegenomen in de inspectie."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-spouw-vervangen",
+    "images": [
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-uitvoering.webp",
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-spouwlood.webp",
+      "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-uitvoering.webp",
+        "caption": "Deze methode geeft extra zekerheid bij terugkerende lekkages, maar vraagt om een schoorsteen die technisch geschikt is."
+      },
+      {
+        "src": "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-spouwlood.webp",
+        "caption": "Het loodwerk wordt verder verwerkt dan bij een standaard loodvervanging."
+      },
+      {
+        "src": "/assets/img/schoorsteenlood-spouw-vervangen/schoorsteenlood-spouw-vervangen-live-detail.webp",
+        "caption": "De aansluiting wordt opnieuw opgebouwd met aandacht voor voeg, verankering en afwatering."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenlood-vervangen",
+    "images": [
+      "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-oud-lood.webp",
+      "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-vervangen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-oud-lood.webp",
+        "caption": "Niet alleen het lood zelf, maar ook de diepte en afwerking bepalen de levensduur."
+      },
+      {
+        "src": "/assets/img/schoorsteenlood-vervangen/schoorsteenlood-vervangen-live-vervangen.webp",
+        "caption": "Nieuw loodwerk wordt zorgvuldig in vorm gebracht en afgewerkt."
+      }
+    ]
+  },
+  {
+    "slug": "schoorsteenrenovatie",
+    "images": [
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-02-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+      "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-03-schoorsteen-renoveren-nokschoorsteen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-01-schoorsteenlekkage-diensten-schoorsteenrenovatie-1.webp",
+        "caption": "Een schoorsteenrenovatie werkt alleen goed wanneer lood, voegen, metselwerk en bovenplaat samen worden beoordeeld."
+      },
+      {
+        "src": "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-02-schoorsteen-opnieuw-opmetselen-diensten-schoorsteen-opnieuw-opmetselen.webp",
+        "caption": "We beoordelen of renovatie voldoende is of dat opnieuw opmetselen nodig wordt."
+      },
+      {
+        "src": "/assets/img/schoorsteenrenovatie/schoorsteenrenovatie-visual-03-schoorsteen-renoveren-nokschoorsteen.webp",
+        "caption": "Het doel is een waterdichte schoorsteen met minder onderhoud op lange termijn."
+      }
+    ]
+  },
+  {
+    "slug": "spoedreparatie",
+    "images": [
+      "/assets/img/spoedreparatie/spoedreparatie-01-noodreparatie-schoorsteen-lekkage.webp",
+      "/assets/img/spoedreparatie/spoedreparatie-01-tijdelijke-oplossing-die-het-probleem-verergerde.webp",
+      "/assets/img/spoedreparatie/spoedreparatie-01-schoorsteen-renoveren-in-velddriel.webp"
+    ],
+    "figures": []
+  },
+  {
+    "slug": "trapsgewijs-lood-vervangen",
+    "images": [
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-loodloketten.webp",
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-te-vervangen.webp",
+      "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-vervangen.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-loodloketten.webp",
+        "caption": "Loodloketten werken alleen goed wanneer de overlap, voegdiepte en afwatering technisch kloppen."
+      },
+      {
+        "src": "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-te-vervangen.webp",
+        "caption": "Versleten loketten laten vaak haarscheurtjes, vervorming of openstaande voegen zien."
+      },
+      {
+        "src": "/assets/img/trapsgewijs-lood-vervangen/trapsgewijs-lood-vervangen-live-vervangen.webp",
+        "caption": "Nieuwe loodloketten moeten voldoende diep in het metselwerk worden verwerkt."
+      }
+    ]
+  },
+  {
+    "slug": "vogelschroot-aanbrengen",
+    "images": [
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-hero-dakvoet.webp",
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakconstructie.webp",
+      "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakvoet-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-hero-dakvoet.webp",
+        "caption": "Een goede dakvoet sluit af tegen ongedierte en laat de dakconstructie toch ventileren."
+      },
+      {
+        "src": "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakconstructie.webp",
+        "caption": "De eerste panlat en dakvoet bepalen of het vogelschroot stevig kan worden geplaatst."
+      },
+      {
+        "src": "/assets/img/vogelschroot-aanbrengen/vogelschroot-aanbrengen-dakvoet-detail.webp",
+        "caption": "De ventilatieopening moet vrij blijven, ook na het afsluiten van de dakvoet."
+      }
+    ]
+  },
+  {
+    "slug": "vogelschroot-vervangen",
+    "images": [
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-hero-dakvoet.webp",
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakconstructie.webp",
+      "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakvoet-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-hero-dakvoet.webp",
+        "caption": "Nieuw vogelschroot moet goed aansluiten op de dakpan en de dakvoet open laten voor ventilatie."
+      },
+      {
+        "src": "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakconstructie.webp",
+        "caption": "De eerste panlat en dakvoet worden gecontroleerd voordat nieuw vogelschroot wordt geplaatst."
+      },
+      {
+        "src": "/assets/img/vogelschroot-vervangen/vogelschroot-vervangen-dakvoet-detail.webp",
+        "caption": "Een goede aansluiting voorkomt openingen onder de onderste rij dakpannen."
+      }
+    ]
+  },
+  {
+    "slug": "windveer-aanbrengen",
+    "images": [
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-hero-dakrand.webp",
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakrand-detail.webp",
+      "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakgoot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/windveer-aanbrengen/windveer-aanbrengen-hero-dakrand.webp",
+        "caption": "Een windveer moet passen bij de dakopbouw, gevelrand en gekozen dakafwerking."
+      },
+      {
+        "src": "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakrand-detail.webp",
+        "caption": "Voor montage beoordelen we de dakrand en onderliggende constructie."
+      },
+      {
+        "src": "/assets/img/windveer-aanbrengen/windveer-aanbrengen-dakgoot-detail.webp",
+        "caption": "Aansluitingen op dakgoot, dakpannen en gevelrand moeten kloppen."
+      }
+    ]
+  },
+  {
+    "slug": "windveer-repareren",
+    "images": [
+      "/assets/img/windveer-repareren/windveer-repareren-hero-dakrand.webp",
+      "/assets/img/windveer-repareren/windveer-repareren-dakrand-detail.webp",
+      "/assets/img/windveer-repareren/windveer-repareren-dakgoot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/windveer-repareren/windveer-repareren-hero-dakrand.webp",
+        "caption": "Repareren is vooral zinvol wanneer de schade plaatselijk blijft."
+      },
+      {
+        "src": "/assets/img/windveer-repareren/windveer-repareren-dakrand-detail.webp",
+        "caption": "De oorzaak achter de schade bepaalt de juiste reparatie."
+      },
+      {
+        "src": "/assets/img/windveer-repareren/windveer-repareren-dakgoot-detail.webp",
+        "caption": "Ook dakrand, goot en aansluitingen worden meegenomen."
+      }
+    ]
+  },
+  {
+    "slug": "windveer-vervangen",
+    "images": [
+      "/assets/img/windveer-vervangen/windveer-vervangen-hero-dakrand.webp",
+      "/assets/img/windveer-vervangen/windveer-vervangen-dakrand-detail.webp",
+      "/assets/img/windveer-vervangen/windveer-vervangen-dakgoot-detail.webp"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/windveer-vervangen/windveer-vervangen-hero-dakrand.webp",
+        "caption": "Bij windveerschade controleren wij ook wat er achter de afwerking gebeurt."
+      },
+      {
+        "src": "/assets/img/windveer-vervangen/windveer-vervangen-dakrand-detail.webp",
+        "caption": "De schuine dakrand bepaalt hoe de nieuwe windveer wordt bevestigd."
+      },
+      {
+        "src": "/assets/img/windveer-vervangen/windveer-vervangen-dakgoot-detail.webp",
+        "caption": "Aansluitingen rond dakgoot, dakrand en gevel worden meegenomen."
+      }
+    ]
+  }
+]
