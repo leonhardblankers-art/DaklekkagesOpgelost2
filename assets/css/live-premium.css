@@ -1262,11 +1262,14 @@
 .premium-page .premium-split-panel--stacked-advice {
   grid-template-columns: minmax(0, 1fr);
   align-items: start;
+  justify-items: start;
+  gap: 18px;
 }
 
 .premium-page .premium-split-panel--stacked-advice .premium-callout {
   align-self: start;
-  width: 100%;
+  width: min(100%, var(--premium-read));
+  max-width: var(--premium-read);
   min-height: 0;
   min-width: 0;
 }
