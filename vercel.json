@@ -73,9 +73,95 @@
       "permanent": true
     },
     {
-      "source": "/blog/:path*",
+      "source": "/blog",
       "destination": "/kennisbank/",
       "permanent": true
+    },
+    {
+      "source": "/dakkapel",
+      "destination": "/diensten/dakkapel-renoveren/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-dakgoot",
+      "destination": "/diensten/diensten-dakgoot/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-dakkapel",
+      "destination": "/diensten/diensten-dakkapel/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-dakraam",
+      "destination": "/diensten/diensten-dakraam/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-loodafwerkingen",
+      "destination": "/diensten/diensten-loodafwerkingen/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-plat-dak",
+      "destination": "/diensten/diensten-plat-dak/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-schoorsteen",
+      "destination": "/diensten/diensten-schoorsteen/",
+      "permanent": true
+    },
+    {
+      "source": "/diensten-schuin-dak",
+      "destination": "/diensten/diensten-schuin-dak/",
+      "permanent": true
+    },
+    {
+      "source": "/informatie",
+      "destination": "/kennisbank/",
+      "permanent": true
+    },
+    {
+      "source": "/loodafwerkingen",
+      "destination": "/diensten/diensten-loodafwerkingen/",
+      "permanent": true
+    },
+    {
+      "source": "/nokvorsten",
+      "destination": "/diensten/nokrenovatie/",
+      "permanent": true
+    },
+    {
+      "source": "/pannendak",
+      "destination": "/diensten/dakrenovatie/",
+      "permanent": true
+    },
+    {
+      "source": "/plat-dak",
+      "destination": "/diensten/diensten-plat-dak/",
+      "permanent": true
+    },
+    {
+      "source": "/schoorsteen/informatie",
+      "destination": "/diensten/diensten-schoorsteen/",
+      "permanent": true
+    },
+    {
+      "source": "/schoorsteenrenovatie-amsterdam",
+      "destination": "/diensten/schoorsteenrenovatie/",
+      "permanent": true
+    },
+    {
+      "source": "/uitgevoerde-projecten",
+      "destination": "/over-ons/uitgevoerde-projecten/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/blog/:path*",
+      "destination": "/api/blog-redirect?path=:path*"
     }
   ]
 }
