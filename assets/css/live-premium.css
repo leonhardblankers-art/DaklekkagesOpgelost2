@@ -482,6 +482,16 @@
   grid-column: 4 / span 2;
 }
 
+@media (min-width: 981px) {
+  .premium-page .premium-steps:has(> :nth-child(6):last-child) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .premium-page .premium-steps--three-two:has(> :nth-child(6):last-child) > * {
+    grid-column: auto;
+  }
+}
+
 .premium-page .premium-faq {
   display: grid;
   gap: 12px;
@@ -521,6 +531,49 @@
 
 .premium-page .premium-feature-grid--four .premium-feature {
   min-height: 124px;
+}
+
+@supports selector(.premium-feature-grid:has(> .premium-feature:nth-child(4):last-child)) {
+  @media (min-width: 981px) {
+    .premium-page .premium-feature-grid:has(> .premium-feature:nth-child(4):last-child) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .premium-page .premium-feature-grid:has(> .premium-feature:nth-child(4):last-child) .premium-feature {
+      min-height: 124px;
+    }
+  }
+}
+
+.premium-page .premium-feature-grid:has(> .premium-feature:nth-child(6):last-child) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.premium-page .premium-card-grid.premium-card-grid--four,
+.premium-page .premium-card-grid:has(> .premium-mini-card:nth-child(4):last-child) {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.premium-page .premium-card-grid.premium-card-grid--four .premium-mini-card,
+.premium-page .premium-card-grid:has(> .premium-mini-card:nth-child(4):last-child) > .premium-mini-card {
+  min-height: 150px;
+}
+
+@media (max-width: 1180px) {
+  .premium-page .premium-card-grid.premium-card-grid--four,
+  .premium-page .premium-card-grid:has(> .premium-mini-card:nth-child(4):last-child) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .premium-page .premium-card-grid.premium-card-grid--four,
+  .premium-page .premium-card-grid:has(> .premium-mini-card:nth-child(4):last-child) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .premium-page .premium-note--full {
@@ -1260,18 +1313,95 @@
 }
 
 .premium-page .premium-split-panel--stacked-advice {
-  grid-template-columns: minmax(0, 1fr);
-  align-items: start;
-  justify-items: start;
-  gap: 18px;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  align-items: start !important;
+  justify-items: stretch !important;
+  gap: clamp(16px, 2vw, 22px) !important;
 }
 
-.premium-page .premium-split-panel--stacked-advice .premium-callout {
-  align-self: start;
-  width: min(100%, var(--premium-read));
-  max-width: var(--premium-read);
-  min-height: 0;
-  min-width: 0;
+.premium-page .premium-split-panel--stacked-advice > * {
+  grid-column: 1 / -1 !important;
+  justify-self: stretch !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+
+.premium-page .premium-split-panel--stacked-advice :is(.premium-note, .premium-callout, .premium-price-list) {
+  align-self: start !important;
+  justify-self: stretch !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+@supports selector(.premium-split-panel:has(.premium-note)) {
+  .premium-page .premium-split-panel:has(.premium-note),
+  .premium-page .premium-split-panel:has(.premium-callout),
+  .premium-page .premium-split-panel:has(.premium-price-list) {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    align-items: start !important;
+    justify-items: stretch !important;
+    gap: clamp(16px, 2vw, 22px) !important;
+  }
+
+  .premium-page .premium-split-panel:has(.premium-note) > *,
+  .premium-page .premium-split-panel:has(.premium-callout) > *,
+  .premium-page .premium-split-panel:has(.premium-price-list) > * {
+    grid-column: 1 / -1 !important;
+    justify-self: stretch !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+  }
+
+  .premium-page .premium-split-panel:has(.premium-note) :is(.premium-note, .premium-callout, .premium-price-list),
+  .premium-page .premium-split-panel:has(.premium-callout) :is(.premium-note, .premium-callout, .premium-price-list),
+  .premium-page .premium-split-panel:has(.premium-price-list) :is(.premium-note, .premium-callout, .premium-price-list) {
+    align-self: start !important;
+    justify-self: stretch !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 981px) {
+  .premium-page .premium-split-panel--stacked-advice .premium-price-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .premium-page .premium-split-panel--stacked-advice .premium-price-list > div {
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+  }
+
+  .premium-page .premium-split-panel--stacked-advice .premium-price-list strong {
+    white-space: normal;
+  }
+}
+
+@supports selector(.premium-split-panel:has(.premium-price-list)) {
+  @media (min-width: 981px) {
+    .premium-page .premium-split-panel:has(.premium-price-list) .premium-price-list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .premium-page .premium-split-panel:has(.premium-price-list) .premium-price-list > div {
+      grid-template-columns: minmax(0, 1fr);
+      align-content: start;
+    }
+
+    .premium-page .premium-split-panel:has(.premium-price-list) .premium-price-list strong {
+      white-space: normal;
+    }
+  }
 }
 
 .premium-page .premium-section,
@@ -1282,4 +1412,32 @@
 .premium-page .premium-image-strip {
   content-visibility: auto;
   contain-intrinsic-size: auto 720px;
+}
+
+/* Keep desktop hero photos equal to the adjacent text column. */
+@media (min-width: 981px) {
+  .premium-page .premium-hero__grid {
+    align-items: stretch;
+  }
+
+  .premium-page .premium-hero__media {
+    display: flex;
+    align-self: stretch;
+    min-height: 0;
+  }
+
+  .premium-page .premium-hero__media .premium-media-card--image {
+    align-self: stretch;
+    flex: 1 1 auto;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    margin-block: 0;
+  }
+
+  .premium-page .premium-hero__media .premium-media-card--image img {
+    height: 100%;
+    min-height: 0;
+    object-fit: cover;
+  }
 }
